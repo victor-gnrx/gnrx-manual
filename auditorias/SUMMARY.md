@@ -12,4 +12,3 @@
 * [Como Tirar Fotos e Anexar Evidências](/aplicativo/tirar-fotos.md)
 * [Finalizando e Enviando a Auditoria](/aplicativo/finalizar-enviar.md)
 * [Como Sincronizar com o Servidor](/aplicativo/sincronizar.md)
-* [Trabalhando no Modo Offline](/aplicativo/modo-offline.md)
