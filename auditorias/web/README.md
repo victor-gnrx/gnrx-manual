@@ -225,4 +225,3 @@ Para aprender mais sobre as funcionalidades específicas do Sistema Web GNRX Aud
 - [Visualizando Auditorias](/auditorias/web/visualizar-auditorias.md)
 - [Visualizando Relatórios](/auditorias/web/visualizar-relatorios.md)
 - [Criando Planos de Ação](/auditorias/web/criar-planos-acao.md)
-- 
