@@ -53,7 +53,7 @@ Para começar a utilizar o sistema GNRX, siga estas etapas iniciais:
 
 - **Navegadores compatíveis:** Chrome, Firefox, Safari ou Edge (versões mais recentes)
 - **Dispositivos:** Desktop, tablet ou smartphone
-- **Conexão:** Internet estável
+- **Conexão:** Internet estável para web. Aplicativos Móveis funcionam Offline.
 
 ## Suporte e Recursos Adicionais
 
@@ -61,7 +61,6 @@ Em caso de dúvidas ou problemas durante a utilização do sistema, você pode:
 
 - Consultar este manual detalhado
 - Entrar em contato com nossa equipe de suporte técnico
-- Acessar vídeos tutoriais disponíveis na plataforma
 - Participar dos treinamentos periódicos oferecidos pela nossa equipe
 
 ---
@@ -74,10 +73,10 @@ O módulo de Auditorias é uma ferramenta completa para a gestão de checklists 
 
 - Criação de modelos de checklist personalizados
 - Checklists baseados em normas regulamentadoras (NRs)
+- Receber as Multas baseadas em NR ou Personalizadas
 - Auditorias com suporte a fotos e observações
 - Gestão de não conformidades e ações corretivas
 - Envio automático de relatórios por e-mail
-- Assinaturas digitais com reconhecimento facial
 
 [Saiba mais sobre o Módulo de Auditorias](https://manual.gnrx.com.br/gnrx-auditorias-manual)
 
@@ -91,8 +90,8 @@ O módulo de Gestão de EPIs permite o controle completo do ciclo de vida dos Eq
 
 - Cadastro detalhado de EPIs com número de CA
 - Gestão de estoque e validade dos equipamentos
-- Associação de EPIs com riscos ocupacionais
-- Controle de entrega e devolução com assinatura digital
+- Associação de EPIs com riscos ocupacionais do GHE
+- Controle de entrega e devolução com assinatura inteligente
 - Lembretes automáticos para substituição
 - Notificações via WhatsApp para funcionários
 - Relatórios de uso e conformidade
@@ -109,7 +108,6 @@ O módulo de Formulários permite a criação de documentos personalizados para 
 
 - Editor de formulários com diversos tipos de campos
 - Organização em seções para melhor visualização
-- Campos condicionais baseados em respostas anteriores
 - Formulários com dados globais personalizados
 - Suporte a diferentes tipos de dados (texto, números, datas, seleções)
 - Exportação de dados para análise
