@@ -1,6 +1,6 @@
 # Table of contents
 
-<!-- * [Início](README.md)
+* [Início](README.md)
 
 ## Getting Started
 
@@ -14,4 +14,4 @@
 * [Images & media](basics/images-and-media.md)
 * [Interactive blocks](basics/interactive-blocks.md)
 * [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md) -->
+* [Integrations](basics/integrations.md)
