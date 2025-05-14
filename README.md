@@ -26,7 +26,7 @@ A plataforma GNRX é uma solução integrada de gestão que oferece três módul
 
 ### Conheça nossos módulos principais
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Gestão de Auditorias</strong></td><td>Crie, gerencie e acompanhe auditorias e checklists de conformidade.</td><td></td><td></td><td><a href="/gnrx-auditorias-manual/introducao.md">Módulo de Auditorias</a></td></tr><tr><td><strong>Gestão de EPIs</strong></td><td>Controle a distribuição, uso e manutenção dos equipamentos de proteção individual.</td><td></td><td></td><td><a href="/gnrx-gestao-de-epis-manual/introducao.md">Módulo de EPIs</a></td></tr><tr><td><strong>Formulários Personalizados</strong></td><td>Crie formulários customizados para captura e análise de dados.</td><td></td><td></td><td><a href="/gnrx-formularios-manual/introducao.md">Módulo de Formulários</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Gestão de Auditorias</strong></td><td>Crie, gerencie e acompanhe auditorias e checklists de conformidade.</td><td></td><td></td><td><a href="https://manual.gnrx.com.br/gnrx-auditorias-manual">Módulo de Auditorias</a></td></tr><tr><td><strong>Gestão de EPIs</strong></td><td>Controle a distribuição, uso e manutenção dos equipamentos de proteção individual.</td><td></td><td></td><td><a href="https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual">Módulo de EPIs</a></td></tr><tr><td><strong>Formulários Personalizados</strong></td><td>Crie formulários customizados para captura e análise de dados.</td><td></td><td></td><td><a href="https://manual.gnrx.com.br/gnrx-formularios-manual">Módulo de Formulários</a></td></tr></tbody></table>
 
 ## Visão Geral do Sistema
 
@@ -79,7 +79,7 @@ O módulo de Auditorias é uma ferramenta completa para a gestão de checklists 
 - Envio automático de relatórios por e-mail
 - Assinaturas digitais com reconhecimento facial
 
-[Saiba mais sobre o Módulo de Auditorias](/gnrx-auditorias-manual/introducao.md)
+[Saiba mais sobre o Módulo de Auditorias](https://manual.gnrx.com.br/gnrx-auditorias-manual)
 
 ---
 
@@ -97,7 +97,7 @@ O módulo de Gestão de EPIs permite o controle completo do ciclo de vida dos Eq
 - Notificações via WhatsApp para funcionários
 - Relatórios de uso e conformidade
 
-[Saiba mais sobre o Módulo de Gestão de EPIs](/gnrx-gestao-de-epis-manual/introducao.md)
+[Saiba mais sobre o Módulo de Gestão de EPIs](https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual)
 
 ---
 
@@ -115,7 +115,7 @@ O módulo de Formulários permite a criação de documentos personalizados para 
 - Exportação de dados para análise
 - Relatórios e dashboards personalizáveis
 
-[Saiba mais sobre o Módulo de Formulários](/gnrx-formularios-manual/introducao.md)
+[Saiba mais sobre o Módulo de Formulários](https://manual.gnrx.com.br/gnrx-formularios-manual)
 
 ---
 
