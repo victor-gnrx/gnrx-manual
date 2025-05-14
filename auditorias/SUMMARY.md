@@ -2,7 +2,6 @@
 
 ## Auditorias
 * [Introdução às Auditorias](/README.md)
-* [Resumo](/SUMMARY.md)
 
 ### Aplicativo Mobile
 * [Introdução ao Aplicativo](/aplicativo/README.md)

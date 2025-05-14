@@ -174,7 +174,8 @@ O sistema permite configurar diferentes níveis de acesso conforme as responsabi
 Agora que você conhece os fundamentos do módulo de Auditorias GNRx, explore as seções específicas deste manual para aprender a utilizá-lo em todo seu potencial:
 
 - [Aplicativo Mobile de Auditorias](/auditorias/aplicativo/README.md)
-- [Criação de Modelos de Checklist](/auditorias/modelos/README.md)
+- [Sistema Web de Auditorias](/auditorias/web/README.md)
+<!-- - [Criação de Modelos de Checklist](/auditorias/modelos/README.md)
 - [Realização de Auditorias](/auditorias/execucao/README.md)
 - [Gestão de Não Conformidades](/auditorias/nao-conformidades/README.md)
-- [Relatórios e Análises](/auditorias/relatorios/README.md)
+- [Relatórios e Análises](/auditorias/relatorios/README.md) -->
