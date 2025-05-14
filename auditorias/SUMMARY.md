@@ -13,4 +13,3 @@
 * [Finalizando e Enviando a Auditoria](/auditorias/aplicativo/finalizar-enviar.md)
 * [Como Sincronizar com o Servidor](/auditorias/aplicativo/sincronizar.md)
 * [Trabalhando no Modo Offline](/auditorias/aplicativo/modo-offline.md)
-* [Resumo](/auditorias/aplicativo/SUMMARY.md)
