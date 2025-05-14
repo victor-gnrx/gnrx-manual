@@ -15,8 +15,8 @@ O aplicativo mobile GNRX Auditorias é uma ferramenta essencial para realizar au
 
 Baixe o aplicativo oficial GNRX Auditorias através das lojas oficiais:
 
-- **iOS**: [App Store - GNRX Auditorias](https://apps.apple.com/br/app/gnrx-auditorias)
-- **Android**: [Google Play - GNRX Auditorias](https://play.google.com/store/apps/details?id=com.gnrx.auditorias)
+- **iOS**: [App Store - GNRX Auditorias](http://apps.apple.com/br/app/gnrx/id1138344503)
+- **Android**: [Google Play - GNRX Auditorias](https://play.google.com/store/apps/details?id=br.com.auditoria.nrxgestao.gnrx_auditoria)
 
 > **IMPORTANTE**: O aplicativo mobile funciona como uma extensão do sistema web. Ele permite a realização de auditorias offline, mas todas as informações são temporárias até a sincronização com o servidor. Caso desinstale o aplicativo ou saia da conta sem sincronizar, as auditorias não sincronizadas serão permanentemente perdidas.
 
@@ -31,15 +31,14 @@ Ao abrir o aplicativo e fazer login, você terá acesso à tela inicial com as s
 1. **Minhas Auditorias**: Lista todas as auditorias disponíveis para você
 2. **Nova Auditoria**: Inicia uma nova auditoria a partir de um modelo
 3. **Pendentes de Sincronização**: Auditorias realizadas offline que precisam ser enviadas ao servidor
-4. **Buscar**: Pesquisa rápida de auditorias por nome, código ou local
-5. **Filtros**: Opções para filtrar auditorias por data, status ou modelo
-6. **Notificações**: Alertas sobre auditorias atribuídas ou prazos
+<!-- 4. **Buscar**: Pesquisa rápida de auditorias por nome, código ou local -->
+<!-- 5. **Filtros**: Opções para filtrar auditorias por data, status ou modelo -->
+<!-- 6. **Notificações**: Alertas sobre auditorias atribuídas ou prazos -->
 
 Na parte inferior da tela, você encontrará a barra de navegação com acesso rápido a:
-- Tela inicial
+- Modelos
 - Auditorias
 - Configurações
-- Perfil
 
 ## Estrutura do Aplicativo
 
@@ -55,23 +54,22 @@ O aplicativo GNRX Auditorias foi desenvolvido para proporcionar uma experiência
 
 Para conhecer detalhadamente cada uma dessas funcionalidades, consulte as seções específicas deste manual:
 
-- [Como Iniciar uma Nova Auditoria](/gnrx-auditorias-manual/app-iniciar-auditoria.md)
-- [Como Preencher uma Auditoria](/gnrx-auditorias-manual/app-preencher-auditoria.md)
-- [Como Tirar Fotos e Anexar Evidências](/gnrx-auditorias-manual/app-tirar-fotos.md)
-- [Como Adicionar Observações](/gnrx-auditorias-manual/app-adicionar-observacoes.md)
-- [Finalizando e Enviando a Auditoria](/gnrx-auditorias-manual/app-finalizar-enviar.md)
-- [Como Sincronizar com o Servidor](/gnrx-auditorias-manual/app-sincronizar.md)
-- [Trabalhando no Modo Offline](/gnrx-auditorias-manual/app-modo-offline.md)
-- [Solução de Problemas Comuns](/gnrx-auditorias-manual/app-solucao-problemas.md)
-- [Recursos Avançados](/gnrx-auditorias-manual/app-recursos-avancados.md)
+### Aplicativo Mobile
+* [Como Iniciar uma Nova Auditoria](/aplicativo/nova-auditoria.md)
+* [Como Preencher uma Auditoria](/aplicativo/preencher-auditoria.md)
+* [Como Adicionar Observações](/aplicativo/adicionar-observacoes.md)
+* [Como Tirar Fotos e Anexar Evidências](/aplicativo/tirar-fotos.md)
+* [Finalizando e Enviando a Auditoria](/aplicativo/finalizar-enviar.md)
+* [Como Sincronizar com o Servidor](/aplicativo/sincronizar.md)
+* [Trabalhando no Modo Offline](/aplicativo/modo-offline.md)
 
 ## Requisitos do Sistema
 
-Para garantir o funcionamento adequado do aplicativo GNRX Auditorias, seu dispositivo deve atender aos seguintes requisitos:
+Para garantir o funcionamento adequado do aplicativo GNRX - Auditorias, seu dispositivo deve atender aos seguintes requisitos:
 
-- **iOS**: Versão 13.0 ou superior
-- **Android**: Versão 8.0 ou superior
-- **Espaço em disco**: Mínimo de 200MB livres (recomendado 500MB para uso intensivo)
+- **iOS**: Versão 15.0 ou superior
+- **Android**: Versão 11.0 ou superior
+- **Espaço em disco**: Mínimo de 50MB livres (recomendado 200MB para uso intensivo)
 - **Câmera**: Resolução mínima de 5MP para fotos de qualidade
 - **Conectividade**: Wi-Fi ou dados móveis para sincronização
 
@@ -83,6 +81,6 @@ O aplicativo GNRX Auditorias segue rigorosas normas de segurança e privacidade:
 - Os dados são armazenados temporariamente no dispositivo até a sincronização
 - Nenhuma informação pessoal é compartilhada com terceiros
 - O acesso ao aplicativo é protegido por credenciais individuais
-- É possível configurar autenticação de dois fatores para maior segurança
+<!-- - É possível configurar autenticação de dois fatores para maior segurança -->
 
-Para mais informações sobre nossa política de privacidade, visite [www.gnrx.com.br/privacidade](https://www.gnrx.com.br/privacidade).
+Para mais informações sobre nossa política de privacidade, visite [www.gnrx.com.br/privacidade](https://www.gnrx.com.br/politica-de-privacidade).
