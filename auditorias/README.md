@@ -16,7 +16,7 @@ O módulo de Auditorias GNRx é uma solução completa para criação, execuçã
 O módulo de Auditorias GNRx permite gerenciar todo o ciclo de vida das auditorias:
 
 - **Criação de modelos personalizados** de checklist adaptados às necessidades da sua empresa
-- **Utilização de modelos baseados em Normas Regulamentadoras (NRs)** pré-configurados
+- **Criação de modelos baseados em Normas Regulamentadoras (NRs)** adaptados às necessidades da sua empresa
 - **Execução de auditorias em campo** com suporte a evidências fotográficas e observações
 - **Identificação e tratamento de não conformidades** com acompanhamento de ações corretivas
 - **Geração de relatórios detalhados** para análise e documentação
