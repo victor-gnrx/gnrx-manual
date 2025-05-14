@@ -83,4 +83,4 @@ O aplicativo GNRX Auditorias segue rigorosas normas de segurança e privacidade:
 - O acesso ao aplicativo é protegido por credenciais individuais
 <!-- - É possível configurar autenticação de dois fatores para maior segurança -->
 
-Para mais informações sobre nossa política de privacidade, visite [www.gnrx.com.br/privacidade](https://www.gnrx.com.br/politica-de-privacidade).
+Para mais informações sobre nossa política de privacidade, visite [www.gnrx.com.br/politica-de-privacidade](https://www.gnrx.com.br/politica-de-privacidade).
