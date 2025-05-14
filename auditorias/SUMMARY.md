@@ -14,4 +14,4 @@
 * [Como Sincronizar com o Servidor](/aplicativo/sincronizar.md)
 
 ### Sistema Web
-* [Introdução ao Sistema Web](/sistema-web/README.md)
+* [Introdução ao Sistema Web](/web/README.md)
