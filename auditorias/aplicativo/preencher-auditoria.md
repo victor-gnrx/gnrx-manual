@@ -11,7 +11,7 @@ Este guia explica como realizar o preenchimento de itens em uma auditoria no apl
 
 Após criar uma auditoria, e selecionar a auditoria/checklist criada, você verá a tela inicial do checklist com os seguintes elementos:
 
-![Tela de preenchimento de auditoria](https://example.com/imagens/app-preenchimento.png)
+![Tela de preenchimento de auditoria](../.gitbook/assets/iOS_5.png)
 
 1. **Barra Superior**: No lado esquerdo, temos quantos itens foram preenchidos Ex: 0 de 33 itens preenchidos
 2. **Barra Superior**: No lado direito, temos o um botão de recarregar a auditoria.
@@ -78,6 +78,8 @@ Na auditoria, existem diversos tipos de itens, são eles:
 Este é o tipo de item mais comum, onde você deverá avaliar a conformidade de cada item do checklist.\
 O preenchimento funciona da seguinte forma:
 
+<figure><img src="../.gitbook/assets/1.png" alt="" width="375"><figcaption><p>Conformidade</p></figcaption></figure>
+
 No quadrado onde está uma "?" você pode clicar para ir alternando entre as opções de conformidade:
 
 * **Conforme** (C) (Verde): O item atende completamente aos requisitos
@@ -87,7 +89,7 @@ No quadrado onde está uma "?" você pode clicar para ir alternando entre as op�
 * **Não Aplicável** (N/A) (Cinza): O item não se aplica à situação atual
 * **Não Avaliado** (?) (Branco): O item não foi verificado nesta auditoria
 
-![Opções de conformidade](https://example.com/imagens/app-opcoes-conformidade.png)
+![Opções de conformidade](<../.gitbook/assets/BOTÕES CONFORMIDADE.png>)
 
 ### Peso / Nota
 
@@ -95,46 +97,46 @@ Este item é um tipo especial, onde você pode definir uma nota numérica para s
 
 Aparecerá os números de notas disponíveis no item, e você pode clicar no número para definir a nota:
 
-![Nota](https://example.com/imagens/app-nota.png)
+![Nota](../.gitbook/assets/8.png)
 
 ### Informação
 
 Este item é apenas um texto, onde o responsável pela criação do modelo deixou alguma informação relevante sobre a auditoria.
 
-![Informação](https://example.com/imagens/app-informacao.png)
+![Informação](../.gitbook/assets/5.png)
 
 ### Texto
 
 Este item é um texto, onde você pode preencher o texto que deseja, sem restrições.
 
-![Texto](https://example.com/imagens/app-texto.png)
+![Texto](../.gitbook/assets/7.png)
 
 ### Número
 
 Este item é para preenchimento apenas de números.
 
-![Número](https://example.com/imagens/app-numero.png)
+![Número](../.gitbook/assets/6.png)
 
 ### Temperatura
 
 Este item é para preenchimento de números com uma escala de temperatura.\
 O preenchimento dele será automaticamente formatado como ºC.
 
-![Temperatura](https://example.com/imagens/app-temperatura.png)
+![Temperatura](../.gitbook/assets/4.png)
 
 ### Data
 
 Este item é para preenchimento de datas.\
 Nele, clicando no calendário, você pode escolher a data que deseja.
 
-![Data](https://example.com/imagens/app-data.png)
+![Data](../.gitbook/assets/3.png)
 
 ### Hora
 
 Este item é para preenchimento de datas.\
 Nele, clicando no relógio, você pode escolher a hora que deseja.
 
-![Hora](https://example.com/imagens/app-hora.png)
+![Hora](../.gitbook/assets/2.png)
 
 ## Continuando uma Auditoria em Andamento
 

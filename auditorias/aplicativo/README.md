@@ -7,7 +7,7 @@ icon: mobile-notch
 
 O aplicativo mobile GNRX Auditorias é uma ferramenta essencial para realizar auditorias e inspeções em campo de forma prática e eficiente. Disponível para dispositivos iOS e Android, o aplicativo permite executar auditorias mesmo sem conexão com a internet, sincronizando os dados posteriormente com o sistema web.
 
-![Telas do aplicativo GNRX Auditorias](https://example.com/imagens/app-auditorias-telas.png)
+![Telas do aplicativo GNRX Auditorias](../.gitbook/assets/LOGIN-SCREEN.png)
 
 ## Download do Aplicativo
 
@@ -30,7 +30,7 @@ Para acessar o aplicativo, siga as etapas abaixo:
 
 Ao abrir o aplicativo e fazer login, você terá acesso à tela inicial com as seguintes opções:
 
-![Tela inicial do aplicativo](https://example.com/imagens/app-tela-inicial.png)
+![Tela inicial do aplicativo](../.gitbook/assets/INICIO-SCREEN.png)
 
 1. **Minhas Auditorias**: Lista todas as auditorias disponíveis para você
 2. **Nova Auditoria**: Inicia uma nova auditoria a partir de um modelo
