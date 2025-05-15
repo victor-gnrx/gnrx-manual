@@ -3,7 +3,7 @@ description: Adicionando observações detalhadas aos itens do checklist
 icon: message-square
 ---
 
-# Como Adicionar Observações
+# Adicionando Observações
 
 As observações são um componente fundamental para complementar e contextualizar os itens avaliados durante uma auditoria. O aplicativo GNRx Auditorias oferece recursos abrangentes para registrar comentários, detalhes e informações adicionais que contribuem para uma documentação mais completa e precisa.
 
@@ -153,5 +153,4 @@ Para revisar ou modificar observações já registradas:
 
 Após adicionar observações detalhadas aos itens do checklist, você estará pronto para finalizar sua auditoria:
 
-- [Finalizando e Enviando a Auditoria](/auditorias/aplicativo/finalizar-enviar.md)
 - [Como Sincronizar com o Servidor](/auditorias/aplicativo/sincronizar.md)

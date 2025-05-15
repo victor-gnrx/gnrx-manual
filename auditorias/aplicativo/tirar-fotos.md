@@ -154,5 +154,5 @@ Para maximizar a eficácia das evidências fotográficas:
 
 Após adicionar fotos aos itens de sua auditoria, você pode complementar a documentação com observações detalhadas:
 
-- [Como Adicionar Observações](/auditorias/aplicativo/adicionar-observacoes.md)
-- [Finalizando e Enviando a Auditoria](/auditorias/aplicativo/finalizar-enviar.md)
+- [Como Adicionar Observações](adicionar-observacoes.md)
+- [Sincronizar com o Servidor](sincronizar.md)

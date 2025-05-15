@@ -185,4 +185,4 @@ Após preencher os itens do checklist, você pode complementar com evidências f
 
 - [Como Tirar Fotos e Anexar Evidências](tirar-fotos.md)
 - [Como Adicionar Observações](adicionar-observacoes.md)
-- [Finalizando e Enviando a Auditoria](finalizar-enviar.md)
+- [Sincronizar com o Servidor](sincronizar.md)

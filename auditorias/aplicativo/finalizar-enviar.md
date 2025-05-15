@@ -268,6 +268,4 @@ Para configurar suas preferências de notificações:
 
 Após finalizar e compartilhar sua auditoria, você pode prosseguir para:
 
-- [Como Sincronizar com o Servidor](/auditorias/aplicativo/sincronizar.md)
-- [Trabalhando no Modo Offline](/auditorias/aplicativo/modo-offline.md)
-- [Recursos Avançados](/auditorias/aplicativo/recursos-avancados.md)
+- [Como Sincronizar com o Servidor](sincronizar.md)
