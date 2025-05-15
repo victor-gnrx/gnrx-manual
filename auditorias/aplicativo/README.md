@@ -20,6 +20,14 @@ Baixe o aplicativo oficial GNRX Auditorias através das lojas oficiais:
 
 > **IMPORTANTE**: O aplicativo mobile funciona como uma extensão do sistema web. Ele permite a realização de auditorias offline, mas todas as informações são temporárias até a sincronização com o servidor. Caso desinstale o aplicativo ou saia da conta sem sincronizar, as auditorias não sincronizadas serão permanentemente perdidas.
 
+## Login
+
+Para acessar o aplicativo, siga as etapas abaixo:
+
+1. Peça ao algum usuário administrador do sistema a criação de uma conta. Sua conta teve ter acesso ao Modulo de Auditorias / Checklists.
+2. Com sua conta, baixe o aplicativo na loja (Google Play ou App Store).
+3. Abra o aplicativo e faça login com suas credenciais fornecidas pelo administrador (Login / Senha).
+
 ## Tela Inicial e Principais Funcionalidades
 
 Ao abrir o aplicativo e fazer login, você terá acesso à tela inicial com as seguintes opções:
