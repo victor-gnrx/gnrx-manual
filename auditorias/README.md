@@ -34,7 +34,7 @@ O sistema web é a plataforma central, acessível através de qualquer navegador
 * Configurar e administrar o sistema
 * Gerenciar usuários e permissões
 
-![Sistema Web GNRx Auditorias](https://manual.gnrx.com.br/imagens/sistema-web-auditorias.png)
+![Sistema Web GNRx Auditorias](.gitbook/assets/426shots_so.png)
 
 ### Aplicativo Mobile
 
@@ -46,7 +46,7 @@ O aplicativo mobile está disponível para dispositivos iOS e Android, permitind
 * Consultar auditorias anteriores para referência
 * Coletar assinaturas digitais dos responsáveis
 
-![Aplicativo Mobile GNRx Auditorias](https://manual.gnrx.com.br/imagens/aplicativo-mobile.png)
+![Aplicativo Mobile GNRx Auditorias](.gitbook/assets/446shots_so.png)
 
 > **INTEGRAÇÃO PERFEITA**: As duas plataformas trabalham em sincronia, permitindo preparar auditorias no sistema web, realizá-las em campo com o aplicativo, e depois analisar os resultados novamente no sistema web.
 
@@ -85,8 +85,6 @@ O fluxo de trabalho padrão no módulo de Auditorias GNRx segue estas etapas:
 6. **Verificação**: Confirmação da eficácia das ações implementadas
 7. **Relatórios**: Documentação dos resultados e compartilhamento com stakeholders
 
-![Fluxo de trabalho de auditoria](https://manual.gnrx.com.br/imagens/fluxo-auditoria.png)
-
 ## Tipos de Auditoria Suportados
 
 O sistema GNRx Auditorias é versátil e pode ser utilizado para diversos tipos de verificações:
@@ -111,7 +109,7 @@ Crie checklists completamente adaptados às necessidades específicas da sua ope
 * Importação e exportação de modelos para reutilização
 * Versionamento para controle de alterações
 
-![Editor de modelos de checklist](https://manual.gnrx.com.br/imagens/editor-modelos.png)
+![Editor de modelos de checklist](.gitbook/assets/600shots_so.png)
 
 ### Biblioteca de Normas Regulamentadoras
 
@@ -127,8 +125,6 @@ Sistema completo para tratamento de problemas identificados:
 * Acompanhamento de status e implementação
 * Registro de evidências de correção
 * Notificações automáticas de prazos
-
-![Gestão de não conformidades](https://manual.gnrx.com.br/imagens/gestao-nao-conformidades.png)
 
 ### Relatórios e Análises
 
