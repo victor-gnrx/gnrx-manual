@@ -5,7 +5,7 @@ icon: message-square
 
 # Como Adicionar Observações
 
-As observações são um componente fundamental para complementar e contextualizar os itens avaliados durante uma auditoria. O aplicativo GNRX Auditorias oferece recursos abrangentes para registrar comentários, detalhes e informações adicionais que contribuem para uma documentação mais completa e precisa.
+As observações são um componente fundamental para complementar e contextualizar os itens avaliados durante uma auditoria. O aplicativo GNRx Auditorias oferece recursos abrangentes para registrar comentários, detalhes e informações adicionais que contribuem para uma documentação mais completa e precisa.
 
 ## Importância das Observações
 
@@ -20,39 +20,16 @@ Os comentários e observações em uma auditoria servem para:
 
 Para adicionar uma observação a um item durante o preenchimento do checklist:
 
-1. Localize o item ao qual deseja adicionar um comentário
-2. Toque no ícone de comentário (geralmente representado por um balão de texto) ao lado do item
-3. Uma janela de edição de texto será aberta
-4. Digite sua observação no campo de texto apresentado
+1. Localize o item ao qual deseja adicionar uma observação
+2. Toque em qualquer local do item desejado
+3. Você verá um menu menu com várias opções, a opção que queremos é **"Observação"**
+4. Abrirá uma nova janela de edição de texto, preencha a observação (com limite de 1000 caracteres) e toque em "Salvar"
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-observacoes.png" alt="Adicionando observações" width="300" />
+  <img src="https://example.com/imagens/app-menu-observacao.png" alt="Menu de opções de observação" width="300" />
 </div>
 
-## Ferramentas de Formatação
-
-O editor de texto para observações oferece várias opções de formatação para tornar seus comentários mais organizados e legíveis:
-
-1. **Negrito**: Destaque palavras ou frases importantes
-   - Toque no ícone B ou selecione o texto e toque na opção de negrito
-   
-2. **Itálico**: Enfatize termos ou referências
-   - Toque no ícone I ou selecione o texto e toque na opção de itálico
-   
-3. **Marcadores e Numeração**: Crie listas para informações sequenciais
-   - Toque no ícone de lista com marcadores ou lista numerada
-   - Cada linha automaticamente receberá um marcador ou número
-   
-4. **Recuo**: Organize informações em níveis hierárquicos
-   - Use os botões de aumentar ou diminuir recuo
-
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-formatacao-texto.png" alt="Ferramentas de formatação de texto" width="300" />
-</div>
-
-> **DICA**: Utilize a formatação para melhorar a legibilidade, especialmente em observações longas. Negrito para pontos principais, listas para sequências e recuos para detalhamentos.
-
-## Tipos de Observações
+<!-- ## Tipos de Observações
 
 Dependendo do contexto e finalidade, suas observações podem se enquadrar em diferentes categorias:
 
@@ -70,7 +47,7 @@ Dependendo do contexto e finalidade, suas observações podem se enquadrar em di
 
 ### Observações de Referência
 - Citam normas, procedimentos ou documentos relevantes
-- Exemplo: "Conforme item 5.2 da NR-12, dispositivos de parada de emergência devem estar acessíveis"
+- Exemplo: "Conforme item 5.2 da NR-12, dispositivos de parada de emergência devem estar acessíveis" -->
 
 ## Observações para Diferentes Estados de Conformidade
 
@@ -114,17 +91,6 @@ Além das observações específicas por item, você pode adicionar comentários
 <div style="text-align: center; margin: 20px 0;">
   <img src="https://example.com/imagens/app-observacoes-gerais.png" alt="Adicionando observações gerais" width="300" />
 </div>
-
-## Usando o Reconhecimento de Voz
-
-Para facilitar a adição de observações longas ou quando estiver em campo com limitações para digitação:
-
-1. No campo de observação, toque no ícone de microfone
-2. Fale claramente o texto que deseja adicionar
-3. O aplicativo converterá sua fala em texto usando o reconhecedor de voz do dispositivo
-4. Revise e edite o texto conforme necessário antes de salvar
-
-> **NOTA**: A precisão do reconhecimento de voz pode variar dependendo do idioma, sotaque, ruído ambiente e capacidade do dispositivo. Sempre revise o texto gerado antes de salvar.
 
 ## Referenciando Fotos em Observações
 
@@ -176,9 +142,9 @@ Quando estiver trabalhando sem conexão à internet:
 Para revisar ou modificar observações já registradas:
 
 1. Localize o item que contém a observação
-2. Um ícone indicador (geralmente um balão de texto preenchido) mostrará que o item possui observações
-3. Toque no ícone para abrir a observação existente
-4. Faça as alterações necessárias
+2. Toque no item
+3. No Menu, clique em "Observação"
+4. Abrindo a caixa de texto, faça as alterações necessárias
 5. Toque em "Salvar" para confirmar as mudanças
 
 > **NOTA**: Em auditorias finalizadas, as observações não podem ser editadas sem reabrir a auditoria, o que requer permissões especiais.
