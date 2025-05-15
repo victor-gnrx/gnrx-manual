@@ -55,12 +55,12 @@ O aplicativo GNRX Auditorias foi desenvolvido para proporcionar uma experiência
 Para conhecer detalhadamente cada uma dessas funcionalidades, consulte as seções específicas deste manual:
 
 ### Aplicativo Mobile
-* [Como Iniciar uma Nova Auditoria](/aplicativo/nova-auditoria.md)
-* [Como Preencher uma Auditoria](/aplicativo/preencher-auditoria.md)
-* [Como Adicionar Observações](/aplicativo/adicionar-observacoes.md)
-* [Como Tirar Fotos e Anexar Evidências](/aplicativo/tirar-fotos.md)
-* [Finalizando e Enviando a Auditoria](/aplicativo/finalizar-enviar.md)
-* [Como Sincronizar com o Servidor](/aplicativo/sincronizar.md)
+* [Como Iniciar uma Nova Auditoria](/nova-auditoria.md)
+* [Como Preencher uma Auditoria](/preencher-auditoria.md)
+* [Como Adicionar Observações](/adicionar-observacoes.md)
+* [Como Tirar Fotos e Anexar Evidências](/tirar-fotos.md)
+* [Finalizando e Enviando a Auditoria](/finalizar-enviar.md)
+* [Como Sincronizar com o Servidor](/sincronizar.md)
 
 ## Requisitos do Sistema
 
