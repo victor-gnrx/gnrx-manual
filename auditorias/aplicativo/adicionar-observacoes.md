@@ -1,6 +1,6 @@
 ---
 description: Adicionando observações detalhadas aos itens do checklist
-icon: message-square
+icon: message
 ---
 
 # Adicionando Observações
@@ -10,11 +10,12 @@ As observações são um componente fundamental para complementar e contextualiz
 ## Importância das Observações
 
 Os comentários e observações em uma auditoria servem para:
-- Detalhar situações que não podem ser totalmente capturadas em fotos
-- Registrar informações fornecidas por funcionários ou responsáveis
-- Contextualizar não conformidades e sugerir melhorias
-- Documentar condições específicas no momento da auditoria
-- Fornecer referências a normas ou procedimentos relevantes
+
+* Detalhar situações que não podem ser totalmente capturadas em fotos
+* Registrar informações fornecidas por funcionários ou responsáveis
+* Contextualizar não conformidades e sugerir melhorias
+* Documentar condições específicas no momento da auditoria
+* Fornecer referências a normas ou procedimentos relevantes
 
 ## Adicionando Observações aos Itens
 
@@ -25,72 +26,51 @@ Para adicionar uma observação a um item durante o preenchimento do checklist:
 3. Você verá um menu menu com várias opções, a opção que queremos é **"Observação"**
 4. Abrirá uma nova janela de edição de texto, preencha a observação (com limite de 1000 caracteres) e toque em "Salvar"
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-menu-observacao.png" alt="Menu de opções de observação" width="300" />
-</div>
-
-<!-- ## Tipos de Observações
-
-Dependendo do contexto e finalidade, suas observações podem se enquadrar em diferentes categorias:
-
-### Observações Descritivas
-- Relatam condições ou situações objetivamente
-- Exemplo: "Extintor de incêndio localizado a 1,80m do piso, sem sinalização visível"
-
-### Observações Explicativas
-- Fornecem contexto ou razões para uma situação
-- Exemplo: "O equipamento está temporariamente sem proteção devido à manutenção programada para hoje"
-
-### Observações Prescritivas
-- Sugerem ações ou melhorias específicas
-- Exemplo: "Recomenda-se instalar barreiras físicas adicionais e sinalização de advertência"
-
-### Observações de Referência
-- Citam normas, procedimentos ou documentos relevantes
-- Exemplo: "Conforme item 5.2 da NR-12, dispositivos de parada de emergência devem estar acessíveis" -->
+![Menu de opções de observação](https://example.com/imagens/app-menu-observacao.png)
 
 ## Observações para Diferentes Estados de Conformidade
 
 Adapte suas observações de acordo com o status de conformidade do item:
 
 ### Para Itens "Conforme"
-- Destaque boas práticas que excedem requisitos mínimos
-- Registre aspectos positivos que merecem reconhecimento
-- Exemplo: "Sistema de bloqueio implementado com procedimento visual exemplar, superando exigências normativas"
+
+* Destaque boas práticas que excedem requisitos mínimos
+* Registre aspectos positivos que merecem reconhecimento
+* Exemplo: "Sistema de bloqueio implementado com procedimento visual exemplar, superando exigências normativas"
 
 ### Para Itens "Não Conforme"
-- Descreva precisamente o que está em desacordo
-- Quantifique (quando aplicável) o desvio em relação ao padrão
-- Registre o impacto potencial ou real da não conformidade
-- Exemplo: "Três de cinco extintores verificados estavam com inspeção vencida há mais de 30 dias, comprometendo a resposta a emergências"
+
+* Descreva precisamente o que está em desacordo
+* Quantifique (quando aplicável) o desvio em relação ao padrão
+* Registre o impacto potencial ou real da não conformidade
+* Exemplo: "Três de cinco extintores verificados estavam com inspeção vencida há mais de 30 dias, comprometendo a resposta a emergências"
 
 ### Para Itens "Não Aplicável"
-- Explique por que o item não se aplica à situação
-- Documente as condições que levaram a esta conclusão
-- Exemplo: "Item não aplicável pois o local não utiliza produtos químicos em nenhum processo"
+
+* Explique por que o item não se aplica à situação
+* Documente as condições que levaram a esta conclusão
+* Exemplo: "Item não aplicável pois o local não utiliza produtos químicos em nenhum processo"
 
 ### Para Itens "Não Avaliado"
-- Registre a razão pela qual o item não foi verificado
-- Indique quando e como poderá ser avaliado futuramente
-- Exemplo: "Equipamento em manutenção, não foi possível verificar. Programar nova inspeção em 15 dias"
+
+* Registre a razão pela qual o item não foi verificado
+* Indique quando e como poderá ser avaliado futuramente
+* Exemplo: "Equipamento em manutenção, não foi possível verificar. Programar nova inspeção em 15 dias"
 
 ## Adicionando Observações Gerais
 
 Além das observações específicas por item, você pode adicionar comentários gerais para seções inteiras ou para a auditoria como um todo:
 
 1. Para adicionar observações a uma seção:
-   - Na tela da seção, toque no botão "Observações da Seção" (geralmente no topo ou no final da lista de itens)
-   - Digite seus comentários sobre a seção como um todo
-   - Estas observações aparecerão no início da seção nos relatórios
-
+   * Na tela da seção, toque no botão "Observações da Seção" (geralmente no topo ou no final da lista de itens)
+   * Digite seus comentários sobre a seção como um todo
+   * Estas observações aparecerão no início da seção nos relatórios
 2. Para adicionar observações gerais à auditoria:
-   - Na tela de finalização da auditoria, você encontrará um campo para "Observações Gerais"
-   - Use este espaço para comentários abrangentes sobre toda a auditoria
-   - Estas observações aparecerão no início do relatório
+   * Na tela de finalização da auditoria, você encontrará um campo para "Observações Gerais"
+   * Use este espaço para comentários abrangentes sobre toda a auditoria
+   * Estas observações aparecerão no início do relatório
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-observacoes-gerais.png" alt="Adicionando observações gerais" width="300" />
-</div>
+![Adicionando observações gerais](https://example.com/imagens/app-observacoes-gerais.png)
 
 ## Referenciando Fotos em Observações
 
@@ -112,19 +92,20 @@ Para garantir observações claras, objetivas e úteis:
 6. **Estruture informações complexas**: Use marcadores ou numeração para clareza
 7. **Seja construtivo**: Ao apontar problemas, sugira melhorias quando apropriado
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-boas-praticas.png" alt="Exemplo de observações bem estruturadas" width="300" />
-</div>
+![Exemplo de observações bem estruturadas](https://example.com/imagens/app-boas-praticas.png)
 
 ## Exemplos de Observações Eficazes
 
 ### Exemplo 1: Não conformidade detalhada
+
 "O quadro elétrico localizado na área de produção (coordenadas GPS registradas) apresenta três irregularidades: 1) Ausência de diagrama unifilar, 2) Falta de identificação dos circuitos em 4 de 8 disjuntores, 3) Sinais de aquecimento excessivo no barramento principal. Ver fotos 1-3 para documentação visual."
 
 ### Exemplo 2: Conformidade com destaque
+
 "Sistema de travamento e bloqueio (LOTO) implementado corretamente com procedimentos visíveis, cadeados individuais disponíveis e funcionários treinados conforme registros verificados. Destaque para o quadro de gestão visual que facilita o controle dos dispositivos - uma prática recomendada para outras áreas."
 
 ### Exemplo 3: Não aplicável com justificativa
+
 "Este item sobre proteção respiratória para trabalhos com poeira não se aplica a esta unidade, pois após a instalação do novo sistema de exaustão (verificado em operação durante a auditoria) os níveis de particulados medidos pelo higrômetro estão abaixo de 20% do limite de tolerância estabelecido pela NR-15."
 
 ## Considerações sobre o Modo Offline
@@ -153,4 +134,4 @@ Para revisar ou modificar observações já registradas:
 
 Após adicionar observações detalhadas aos itens do checklist, você estará pronto para finalizar sua auditoria:
 
-- [Como Sincronizar com o Servidor](/auditorias/aplicativo/sincronizar.md)
+* [Como Sincronizar com o Servidor](sincronizar.md)

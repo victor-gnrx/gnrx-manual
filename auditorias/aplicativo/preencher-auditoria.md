@@ -1,18 +1,17 @@
 ---
 description: Preenchendo itens no checklist de auditoria
-icon: check-square
+icon: wand-magic-sparkles
 ---
 
-# Como Preencher uma Auditoria
+# Preenchendo uma Auditoria
 
 Este guia explica como realizar o preenchimento de itens em uma auditoria no aplicativo GNRX Auditorias, desde a navegação pelas seções até a avaliação de conformidade dos itens.
 
 ## Visão Geral da Tela de Detalhes Auditoria
+
 Após criar uma auditoria, e selecionar a auditoria/checklist criada, você verá a tela inicial do checklist com os seguintes elementos:
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-preenchimento.png" alt="Tela de preenchimento de auditoria" width="300" />
-</div>
+![Tela de preenchimento de auditoria](https://example.com/imagens/app-preenchimento.png)
 
 1. **Barra Superior**: No lado esquerdo, temos quantos itens foram preenchidos Ex: 0 de 33 itens preenchidos
 2. **Barra Superior**: No lado direito, temos o um botão de recarregar a auditoria.
@@ -34,7 +33,7 @@ Para obter a localização atual da auditoria, basta seguir os passos abaixo:
 3. Para definir a localização da auditoria, basta clicar no botão "Obter GPS".
 4. Após clicar no botão, o aplicativo irá pedir permissão para acessar a localização do dispositivo.
 5. Se a permissão for dada, o aplicativo informar que está obtendo a localização atual.
-   - Este processo pode demorar alguns segundos.
+   * Este processo pode demorar alguns segundos.
 6. Após obter a localização, o aplicativo irá atualizar a localização na seção de Localização, com a latitude e longitude.
 7. Para atualizar a localização, basta clicar no botão "Atualizar GPS".
 
@@ -47,7 +46,7 @@ Para coletar assinaturas digitais, basta seguir os passos abaixo:
 3. Será aberto uma nova tela para preenchimento.
 4. Preencha o nome completo do assinante.
 5. Efetue a assinatura desenhando na tela.
-   - Caso tenha erros na assinatura, clique em "Limpar" e tente novamente.
+   * Caso tenha erros na assinatura, clique em "Limpar" e tente novamente.
 6. Após a assinatura ser feita, clique em "Confirmar".
 7. Você pode adicionar mais assinaturas digitais clicando no botão "Incluir Assinatura".
 8. Caso queria excluir uma assinatura, clique no botão "Excluir Assinatura".
@@ -61,8 +60,8 @@ Para excluir uma auditoria, basta seguir os passos abaixo:
 2. Clique no botão "Excluir".
 3. Abrirá uma tela para confirmação.
 4. Clique em "Excluir" para confirmar a exclusão.
-   - Caso a auditoria não tenha sido sincronizada, todas as informações serão excluídas permanentemente.
-   - Caso a auditoria tenha sido sincronizada, todas as informações serão excluídas no dispositivo, mas não no sistema web.
+   * Caso a auditoria não tenha sido sincronizada, todas as informações serão excluídas permanentemente.
+   * Caso a auditoria tenha sido sincronizada, todas as informações serão excluídas no dispositivo, mas não no sistema web.
 
 ## Preenchendo a auditoria
 
@@ -76,21 +75,19 @@ Na auditoria, existem diversos tipos de itens, são eles:
 
 ### Conformidade
 
-Este é o tipo de item mais comum, onde você deverá avaliar a conformidade de cada item do checklist.
+Este é o tipo de item mais comum, onde você deverá avaliar a conformidade de cada item do checklist.\
 O preenchimento funciona da seguinte forma:
 
 No quadrado onde está uma "?" você pode clicar para ir alternando entre as opções de conformidade:
-   
-   - **Conforme** (C) (Verde): O item atende completamente aos requisitos
-   - **Não Conforme** (N/C) (Vermelho): O item não atende aos requisitos. Abre uma nova opção de conformidade, o resolvido:
-     - **Resolvido** (OK) (Verde): O item foi resolvido
-     - **Alíneas não conformes**: Com no Não conforme, aparece-rá a opção de definir quais alíneas estão não conformes
-   - **Não Aplicável** (N/A) (Cinza): O item não se aplica à situação atual
-   - **Não Avaliado** (?) (Branco): O item não foi verificado nesta auditoria
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-opcoes-conformidade.png" alt="Opções de conformidade" width="300" />
-</div>
+* **Conforme** (C) (Verde): O item atende completamente aos requisitos
+* **Não Conforme** (N/C) (Vermelho): O item não atende aos requisitos. Abre uma nova opção de conformidade, o resolvido:
+  * **Resolvido** (OK) (Verde): O item foi resolvido
+  * **Alíneas não conformes**: Com no Não conforme, aparece-rá a opção de definir quais alíneas estão não conformes
+* **Não Aplicável** (N/A) (Cinza): O item não se aplica à situação atual
+* **Não Avaliado** (?) (Branco): O item não foi verificado nesta auditoria
+
+![Opções de conformidade](https://example.com/imagens/app-opcoes-conformidade.png)
 
 ### Peso / Nota
 
@@ -98,61 +95,46 @@ Este item é um tipo especial, onde você pode definir uma nota numérica para s
 
 Aparecerá os números de notas disponíveis no item, e você pode clicar no número para definir a nota:
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-nota.png" alt="Nota" width="300" />
-</div>
+![Nota](https://example.com/imagens/app-nota.png)
 
 ### Informação
 
 Este item é apenas um texto, onde o responsável pela criação do modelo deixou alguma informação relevante sobre a auditoria.
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-informacao.png" alt="Informação" width="300" />
-</div>
+![Informação](https://example.com/imagens/app-informacao.png)
 
 ### Texto
 
 Este item é um texto, onde você pode preencher o texto que deseja, sem restrições.
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-texto.png" alt="Texto" width="300" />
-</div>
+![Texto](https://example.com/imagens/app-texto.png)
 
 ### Número
 
 Este item é para preenchimento apenas de números.
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-numero.png" alt="Número" width="300" />
-</div>
+![Número](https://example.com/imagens/app-numero.png)
 
 ### Temperatura
 
-Este item é para preenchimento de números com uma escala de temperatura.
+Este item é para preenchimento de números com uma escala de temperatura.\
 O preenchimento dele será automaticamente formatado como ºC.
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-temperatura.png" alt="Temperatura" width="300" />
-</div>
+![Temperatura](https://example.com/imagens/app-temperatura.png)
 
 ### Data
 
-Este item é para preenchimento de datas.
+Este item é para preenchimento de datas.\
 Nele, clicando no calendário, você pode escolher a data que deseja.
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-data.png" alt="Data" width="300" />
-</div>
+![Data](https://example.com/imagens/app-data.png)
 
 ### Hora
 
-Este item é para preenchimento de datas.
+Este item é para preenchimento de datas.\
 Nele, clicando no relógio, você pode escolher a hora que deseja.
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-hora.png" alt="Hora" width="300" />
-</div>
-
+![Hora](https://example.com/imagens/app-hora.png)
 
 ## Continuando uma Auditoria em Andamento
 
@@ -165,24 +147,25 @@ Para retomar o preenchimento de uma auditoria salva:
 
 ## Dicas para um Preenchimento Eficiente
 
-- **Prepare-se antes**: Familiarize-se com o modelo de checklist antes de iniciar a auditoria
-- **Siga uma sequência lógica**: Complete uma seção por vez, na ordem apresentada
-- **Documente adequadamente**: Adicione fotos e observações detalhadas, especialmente para não conformidades
-- **Salve regularmente**: Evite perda de trabalho salvando seu progresso frequentemente
-- **Priorize itens críticos**: Em auditorias extensas, comece pelos itens de maior impacto
-- **Trabalhe offline conscientemente**: Lembre-se de sincronizar assim que houver conexão disponível
+* **Prepare-se antes**: Familiarize-se com o modelo de checklist antes de iniciar a auditoria
+* **Siga uma sequência lógica**: Complete uma seção por vez, na ordem apresentada
+* **Documente adequadamente**: Adicione fotos e observações detalhadas, especialmente para não conformidades
+* **Salve regularmente**: Evite perda de trabalho salvando seu progresso frequentemente
+* **Priorize itens críticos**: Em auditorias extensas, comece pelos itens de maior impacto
+* **Trabalhe offline conscientemente**: Lembre-se de sincronizar assim que houver conexão disponível
 
 ## Solução de Problemas Comuns
 
 ### Tela congelando durante o preenchimento
-- Dispositivos com pouca memória podem apresentar lentidão
-- Feche outros aplicativos em execução
-- Reinicie o aplicativo ou o dispositivo
+
+* Dispositivos com pouca memória podem apresentar lentidão
+* Feche outros aplicativos em execução
+* Reinicie o aplicativo ou o dispositivo
 
 ## Próximos Passos
 
 Após preencher os itens do checklist, você pode complementar com evidências fotográficas e observações:
 
-- [Como Tirar Fotos e Anexar Evidências](tirar-fotos.md)
-- [Como Adicionar Observações](adicionar-observacoes.md)
-- [Sincronizar com o Servidor](sincronizar.md)
+* [Como Tirar Fotos e Anexar Evidências](tirar-fotos.md)
+* [Como Adicionar Observações](adicionar-observacoes.md)
+* [Sincronizar com o Servidor](sincronizar.md)

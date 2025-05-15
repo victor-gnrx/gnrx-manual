@@ -1,5 +1,6 @@
 ---
 description: Introdução ao Aplicativo Mobile de Auditorias
+icon: mobile-notch
 ---
 
 # Introdução ao Aplicativo
@@ -61,7 +62,6 @@ Para conhecer detalhadamente cada uma dessas funcionalidades, consulte as seçõ
 * [Como Preencher uma Auditoria](preencher-auditoria.md)
 * [Como Adicionar Observações](adicionar-observacoes.md)
 * [Como Tirar Fotos e Anexar Evidências](tirar-fotos.md)
-<!-- * [Finalizando e Enviando a Auditoria](finalizar-enviar.md) -->
 * [Como Sincronizar com o Servidor](sincronizar.md)
 
 ## Requisitos do Sistema
