@@ -26,7 +26,7 @@ Para adicionar uma observação a um item durante o preenchimento do checklist:
 3. Você verá um menu menu com várias opções, a opção que queremos é **"Observação"**
 4. Abrirá uma nova janela de edição de texto, preencha a observação (com limite de 1000 caracteres) e toque em "Salvar"
 
-![Menu de opções de observação](https://example.com/imagens/app-menu-observacao.png)
+![Menu de opções de observação](../.gitbook/assets/menu-auditoria.png)
 
 ## Observações para Diferentes Estados de Conformidade
 
@@ -70,7 +70,7 @@ Além das observações específicas por item, você pode adicionar comentários
    * Use este espaço para comentários abrangentes sobre toda a auditoria
    * Estas observações aparecerão no início do relatório
 
-![Adicionando observações gerais](https://example.com/imagens/app-observacoes-gerais.png)
+![Adicionando observações gerais](../.gitbook/assets/adicionando-observacao.png)
 
 ## Referenciando Fotos em Observações
 
@@ -92,7 +92,7 @@ Para garantir observações claras, objetivas e úteis:
 6. **Estruture informações complexas**: Use marcadores ou numeração para clareza
 7. **Seja construtivo**: Ao apontar problemas, sugira melhorias quando apropriado
 
-![Exemplo de observações bem estruturadas](https://example.com/imagens/app-boas-praticas.png)
+![Exemplo de observações bem estruturadas](../.gitbook/assets/observacao-detalhada.PNG)
 
 ## Exemplos de Observações Eficazes
 
