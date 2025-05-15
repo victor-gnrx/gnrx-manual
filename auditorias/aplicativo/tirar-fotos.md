@@ -21,10 +21,10 @@ As fotos em uma auditoria servem para:
 Para adicionar fotos a um item durante o preenchimento da auditoria:
 
 1. Localize o item ao qual deseja anexar a foto
-2. Toque no ícone de câmera ao lado do item (geralmente no canto direito)
-3. Você verá um menu com as seguintes opções:
-   - **Tirar foto**: Abre a câmera para capturar uma nova imagem
-   - **Selecionar da galeria**: Permite escolher uma imagem já existente no dispositivo
+2. Toque em qualquer local do item desejado
+3. Você verá um menu menu com várias opções, mas temos 2 principais para adicionar fotos:
+   - **Câmera**: Abre a câmera para capturar uma nova imagem
+   - **Galeria**: Permite escolher uma imagem já existente no dispositivo
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="https://example.com/imagens/app-menu-fotos.png" alt="Menu de opções de fotos" width="300" />
@@ -34,16 +34,14 @@ Para adicionar fotos a um item durante o preenchimento da auditoria:
 
 Para capturar uma nova foto diretamente no aplicativo:
 
-1. Toque na opção "Tirar foto"
+1. Toque na opção "Câmera"
 2. A câmera do dispositivo será ativada
 3. Enquadre o objeto ou área que deseja fotografar
 4. Alguns recursos disponíveis na tela da câmera:
-   - Zoom: Use os gestos de pinça para ampliar ou reduzir
    - Flash: Ative/desative conforme necessário
-   - HDR: Útil para áreas com alto contraste de luz
-   - Modo: Alterne entre modos normais, panorâmicos ou outros disponíveis no dispositivo
 5. Toque no botão de captura para tirar a foto
-6. Verifique a imagem na tela de pré-visualização:
+6. A imagem irá processar, trazendo já a informação da data/hora e a localização
+7. Verifique a imagem na tela de pré-visualização:
    - Se não estiver satisfeito, toque em "Descartar" e tente novamente
    - Se a foto estiver adequada, toque em "Usar foto"
 
@@ -55,8 +53,28 @@ Para capturar uma nova foto diretamente no aplicativo:
 > - Mantenha a câmera estável para evitar fotos tremidas
 > - Certifique-se de que há iluminação adequada
 > - Fotografe de um ângulo que mostre claramente o problema ou situação
-> - Inclua elementos de referência para escala quando apropriado
 > - Em ambientes escuros, use o flash, mas cuidado com reflexos em superfícies brilhantes
+
+## Editando e Anotando Fotos
+
+Após capturar uma foto, você pode adicionar marcações:
+
+1. Após tirar a foto, e estiver na tela de confirmação, toque no ícone de lápis no canto superior direito
+
+2. Use as ferramenta de **Desenho livre** para contornar ou destacar formas irregulares ou pontos de interesse
+
+3. Ajuste a cor das marcações para garantir visibilidade
+   - Verde geralmente é usado para destacar conformidades
+   - Vermelho geralmente é usado para destacar não conformidades
+
+4. Caso não queira o desenho mais, clique no botão com o ícone de "x". Isso removerá todas as marcações.
+
+5. Toque em "Salvar" para confirmar as edições e anexar a foto ao item
+
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://example.com/imagens/app-anotacao-foto.png" alt="Editando e anotando foto" width="300" />
+</div>
 
 ## Selecionando Fotos da Galeria
 
@@ -70,75 +88,21 @@ Para usar imagens já existentes no dispositivo:
 
 > **IMPORTANTE**: Ao selecionar imagens da galeria, certifique-se de que são fotos recentes e relevantes para a auditoria atual. O uso de fotos antigas ou de outros locais pode comprometer a integridade da auditoria.
 
-## Editando e Anotando Fotos
+## Excluindo Fotos
 
-Após capturar ou selecionar uma foto, você pode adicionar informações e marcações:
+Para excluir uma foto:
 
-1. O aplicativo exibirá a tela de edição de foto
-2. Adicione uma descrição para a foto no campo de texto
-   - Seja específico sobre o que a imagem mostra
-   - Mencione o local exato e detalhes relevantes
-
-3. Use as ferramentas de marcação para destacar elementos na imagem:
-   - **Setas**: Apontam para problemas ou elementos específicos
-   - **Círculos/Retângulos**: Delimitam áreas de interesse
-   - **Texto**: Adiciona anotações diretamente sobre a imagem
-   - **Desenho livre**: Permite contornar ou destacar formas irregulares
-
-4. Ajuste a cor das marcações para garantir visibilidade
-   - Cores contrastantes são mais visíveis em diferentes fundos
-   - Vermelho geralmente é usado para destacar não conformidades
-
-5. Toque em "Salvar" para confirmar as edições e anexar a foto ao item
+1. Garanta que nas opções, "exibir fotos na listagem" esteja ativo
+2. Na listem dos itens, clique na foto que deseja excluir
+3. No canto superior direito, clique no ícone de lixeira
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-anotacao-foto.png" alt="Editando e anotando foto" width="300" />
+  <img src="https://example.com/imagens/excluir-foto.png" alt="Excluindo foto" width="300" />
 </div>
-
-## Gerenciando Múltiplas Fotos por Item
-
-Cada item do checklist pode ter múltiplas fotos anexadas:
-
-1. Para adicionar mais fotos a um item que já possui imagens:
-   - Toque no ícone de câmera novamente
-   - Ou toque no contador de fotos (ex: "2 fotos") para ver as fotos existentes e adicionar novas
-
-2. Para visualizar todas as fotos de um item:
-   - Toque no contador de fotos ou no ícone de galeria ao lado do item
-   - Um carrossel de imagens será exibido para navegação
-
-3. Para reorganizar a ordem das fotos:
-   - Na visualização de galeria, pressione e segure uma imagem
-   - Arraste para a posição desejada
-   - Solte para confirmar a nova posição
-
-4. Para excluir uma foto:
-   - Na visualização de galeria, toque na foto que deseja remover
-   - Toque no ícone de lixeira
-   - Confirme a exclusão quando solicitado
-
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-multiplas-fotos.png" alt="Gerenciando múltiplas fotos" width="300" />
-</div>
-
-> **NOTA**: A primeira foto adicionada a um item será considerada a principal e aparecerá em destaque nos relatórios, a menos que você reorganize a ordem.
 
 ## Compressão e Armazenamento de Fotos
 
-Para otimizar o uso de armazenamento e facilitar a sincronização:
-
-1. O aplicativo comprime automaticamente as fotos antes de salvá-las
-2. Você pode configurar a qualidade das imagens nas configurações do aplicativo:
-   - **Alta qualidade**: Imagens maiores e mais detalhadas, mas ocupam mais espaço
-   - **Média qualidade**: Bom equilíbrio entre tamanho e qualidade (padrão)
-   - **Baixa qualidade**: Imagens menores para economizar espaço e acelerar a sincronização
-
-3. Para ajustar a qualidade das fotos:
-   - Acesse "Configurações" no menu principal
-   - Selecione "Configurações de Fotos"
-   - Escolha o nível de qualidade desejado
-
-> **DICA**: Use "Média qualidade" para a maioria das situações. Aumente para "Alta qualidade" quando precisar documentar detalhes muito pequenos ou texto, e "Baixa qualidade" quando estiver com pouco espaço no dispositivo ou conexão lenta.
+Para otimizar o uso de armazenamento, facilitar e agilizar a sincronização o aplicativo comprime automaticamente as fotos antes de salvá-las.
 
 ## Considerações sobre o Modo Offline
 
@@ -148,10 +112,6 @@ Quando estiver trabalhando sem conexão à internet:
 2. O espaço de armazenamento disponível pode limitar a quantidade de fotos que podem ser tiradas
 3. Fotos tiradas offline são transferidas para o servidor durante a sincronização
 4. O tempo de sincronização aumenta proporcionalmente à quantidade de fotos
-
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://example.com/imagens/app-fotos-offline.png" alt="Indicador de fotos offline" width="300" />
-</div>
 
 > **IMPORTANTE**: Se você estiver realizando uma auditoria extensa com muitas fotos, monitore o espaço disponível no dispositivo e sincronize periodicamente quando tiver conexão, em vez de acumular todas as fotos para sincronização no final.
 
@@ -165,7 +125,7 @@ Para maximizar a eficácia das evidências fotográficas:
 4. **Legibilidade**: Certifique-se de que textos, etiquetas ou números de série estão legíveis
 5. **Privacidade**: Evite fotografar pessoas identificáveis, a menos que tenha consentimento
 6. **Consistência**: Use ângulos e distâncias similares para itens comparáveis
-7. **Iluminação adequada**: Tenha uma lanterna disponível para áreas com pouca luz
+7. **Iluminação adequada**: Tenha uma lanterna disponível para áreas com pouca luz e o flash não for o suficiente
 
 ## Solução de Problemas Comuns
 
@@ -175,20 +135,20 @@ Para maximizar a eficácia das evidências fotográficas:
 - Reinicie o dispositivo se o problema persistir
 
 ### Fotos salvas não aparecem na auditoria
-- Verifique se a foto foi realmente salva (deve aparecer um ícone de confirmação)
+- Verifique se a opção de "exibir fotos na listagem" está ativada
+  - Menu (Botão do canto inferior direito) -> Configurações (Botão de engrenagem) -> Exibir fotos na listagem
+- Verifique se a foto foi realmente salva
 - Tente salvar a auditoria e reabri-la
 - Certifique-se de que há espaço suficiente no armazenamento do dispositivo
 
 ### Fotos com qualidade muito baixa
 - Limpe a lente da câmera do dispositivo
-- Verifique as configurações de qualidade de imagem no aplicativo
 - Certifique-se de que há iluminação adequada
 - Mantenha a câmera estável durante a captura
 
 ### Erro "Armazenamento insuficiente"
 - Libere espaço excluindo arquivos desnecessários
-- Reduza a qualidade das fotos nas configurações
-- Sincronize periodicamente para liberar espaço no dispositivo
+- Sincronize periodicamente para poder excluir a fotos localmente. (Elas não serão removidas do sistema web)
 
 ## Próximos Passos
 
