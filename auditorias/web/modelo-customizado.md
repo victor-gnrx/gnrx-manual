@@ -9,28 +9,28 @@ icon: clipboard-prescription
 
 Os Modelos Customizados permitem criar checklists totalmente personalizados, adaptados às necessidades específicas da sua empresa, processos internos ou requisitos particulares do seu negócio.
 
-![Modelo Customizado](/auditorias/assets/modelo-customizado-geral.png)
+![Modelo Customizado](../.gitbook/assets/visao-modelo-customziado.png)
 
 ## Vantagens dos Modelos Customizados
 
-- **Flexibilidade total** na criação da estrutura e conteúdo
-- **Múltiplos tipos de resposta** para diferentes necessidades de verificação
-- **Hierarquia personalizada** com seções e itens organizados logicamente
-- **Adaptação completa** aos processos e terminologia da sua empresa
-- **Possibilidade de combinar** com itens de Normas Regulamentadoras (NRs)
+* **Flexibilidade total** na criação da estrutura e conteúdo
+* **Múltiplos tipos de resposta** para diferentes necessidades de verificação
+* **Hierarquia personalizada** com seções e itens organizados logicamente
+* **Adaptação completa** aos processos e terminologia da sua empresa
+* **Possibilidade de combinar** com itens de Normas Regulamentadoras (NRs)
 
 ## Ciclo de Vida de um Modelo Customizado
 
 Os modelos customizados passam por diferentes estados durante seu ciclo de vida:
 
-| Estado | Descrição |
-|--------|-----------|
-| **Rascunho** | Versão inicial em desenvolvimento, ainda não disponível para uso em auditorias |
-| **Em Edição** | Modelo que está sendo modificado para uma nova versão |
-| **Disponível** | Modelo finalizado e pronto para ser utilizado em auditorias |
-| **Inativo** | Modelo desativado que não aparece mais para seleção em novas auditorias |
+| Estado         | Descrição                                                                      |
+| -------------- | ------------------------------------------------------------------------------ |
+| **Rascunho**   | Versão inicial em desenvolvimento, ainda não disponível para uso em auditorias |
+| **Em Edição**  | Modelo que está sendo modificado para uma nova versão                          |
+| **Disponível** | Modelo finalizado e pronto para ser utilizado em auditorias                    |
+| **Inativo**    | Modelo desativado que não aparece mais para seleção em novas auditorias        |
 
-![Estados do Modelo](/auditorias/assets/estados-modelo-customizado.png)
+![Estados do Modelo](<../.gitbook/assets/ESTADO MODELO.png>)
 
 ## Criando um Novo Modelo Customizado
 
@@ -39,22 +39,22 @@ Os modelos customizados passam por diferentes estados durante seu ciclo de vida:
 1. No menu superior, acesse **"Modelos"** > **"Modelos Customizados"**
 2. Clique no botão para criar um novo modelo
 3. Preencha as informações básicas:
-   - Nome do modelo
-   - Descrição (opcional)
-   - Tipo (Padrão ou outro específico)
+   * Nome do modelo
+   * Descrição (opcional)
+   * Tipo (Padrão ou outro específico)
 
 ### Passo 2: Configurar opções gerais
 
 Defina as configurações iniciais do modelo:
-- Opção de permitir fotos nas auditorias
-- Opção de permitir observações nos itens
-<!-- - Sistema de pontuação (se aplicável) -->
+
+* Opção de permitir fotos nas auditorias
+* Opção de permitir observações nos itens
 
 Após a criação inicial, o modelo ficará no estado **"Rascunho"** até ser disponibilizado.
 
 ## Estruturando seu Modelo
 
-Um modelo vazio será exibido, pronto para adição de conteúdo como mostra a Imagem 1. Você tem duas opções principais para estruturar seu modelo:
+Um modelo vazio será exibido, pronto para adição de conteúdo. Você tem duas opções principais para estruturar seu modelo:
 
 ### Adicionando Seções
 
@@ -62,9 +62,9 @@ As seções funcionam como agrupamentos lógicos para organizar os itens do chec
 
 1. Clique no botão **"Nova Seção"**
 2. Defina:
-   - Nome da seção (ex: "Cozinha", "Almoxarifado", "Área Externa")
-   - Código (será usado para referenciar os itens da seção)
-   - Descrição (opcional)
+   * Nome da seção (ex: "Cozinha", "Almoxarifado", "Área Externa")
+   * Código - Automático (será usado para referenciar os itens da seção)
+   * Descrição (opcional)
 3. Salve a seção
 
 ### Adicionando Itens
@@ -73,13 +73,13 @@ Para criar os itens de verificação dentro de uma seção:
 
 1. Clique no botão **"Novo Item"**
 2. Na janela que aparece (como na Imagem 2), configure:
-   - Nome do item (a pergunta ou verificação a ser realizada)
-   - Código (gerado automaticamente, mas pode ser editado)
-   - Tipo do item (explicado na próxima seção)
-   - Descrição detalhada
-   - Opções específicas para o tipo selecionado
+   * Nome do item (a pergunta ou verificação a ser realizada)
+   * Código (gerado automaticamente)
+   * Tipo do item (explicado na próxima seção)
+   * Descrição detalhada
+   * Opções específicas para o tipo selecionado
 
-![Adicionando Novo Item](/auditorias/assets/novo-item-customizado.png)
+![Adicionando Novo Item](../.gitbook/assets/novo-item.png)
 
 ## Tipos de Itens Disponíveis
 
@@ -87,52 +87,55 @@ O sistema oferece diversos tipos de itens para diferentes necessidades de verifi
 
 ### Conformidade
 
-- **Funcionalidade**: Verifica se um requisito está Conforme, Não Conforme ou Não Aplicável
-- **Características**:
-  - Opção para definir "Potencial Multa" (para requisitos legais)
-  - Possibilidade de adicionar "Alíneas" (subquesitos com conformidade individual)
-- **Uso ideal**: Requisitos de normas, procedimentos ou padrões que devem ser atendidos
+* **Funcionalidade**: Verifica se um requisito está Conforme, Não Conforme ou Não Aplicável
+* **Características**:
+  * Opção para definir "Potencial Multa" (para requisitos legais)
+  * Possibilidade de adicionar "Alíneas" (subquesitos com conformidade individual)
+  * Quando exsite alíneas o potencial de multa é definido através delas
+* **Uso ideal**: Requisitos de normas, procedimentos ou padrões que devem ser atendidos
+
+<figure><img src="../.gitbook/assets/add-item-conformidade.png" alt="" width="563"><figcaption><p>Configuração Conformidade</p></figcaption></figure>
 
 ### Peso / Nota
 
-- **Funcionalidade**: Avaliação numérica dentro de um intervalo definido
-- **Características**:
-  - Configuração de valor mínimo e máximo (ex: 1 a 5)
-  - Possibilidade de definir pesos para cálculo de médias
-- **Uso ideal**: Avaliações de qualidade, critérios subjetivos, classificações de desempenho
-- **Configuração especial**: Como mostrado na Imagem 3, é possível definir o intervalo de valores
+* **Funcionalidade**: Avaliação numérica dentro de um intervalo definido
+* **Características**:
+  * Configuração de valor mínimo e máximo (ex: 1 a 5)
+  * Possibilidade de definir pesos para cálculo de médias
+* **Uso ideal**: Avaliações de qualidade, critérios subjetivos, classificações de desempenho
+* **Configuração especial**: Como mostrado na imagem, é possível definir o intervalo de valores
 
-![Configuração de Peso/Nota](/auditorias/assets/configuracao-peso-nota.png)
+![Configuração de Peso/Nota](../.gitbook/assets/add-item-peso-nota.png)
 
 ### Informação
 
-- **Funcionalidade**: Apenas exibe texto informativo, sem coletar respostas
-- **Uso ideal**: Instruções para o auditor, orientações de como proceder, ou contextualização
+* **Funcionalidade**: Apenas exibe texto informativo, sem coletar respostas
+* **Uso ideal**: Instruções para o auditor, orientações de como proceder, ou contextualização
 
 ### Texto
 
-- **Funcionalidade**: Campo para entrada de texto livre
-- **Uso ideal**: Coleta de observações detalhadas, descrições de situações encontradas
+* **Funcionalidade**: Campo para entrada de texto livre
+* **Uso ideal**: Coleta de observações detalhadas, descrições de situações encontradas
 
 ### Número
 
-- **Funcionalidade**: Campo para entrada de valores numéricos
-- **Uso ideal**: Medições, contagens, valores específicos (quantidade, pressão, etc.)
+* **Funcionalidade**: Campo para entrada de valores numéricos
+* **Uso ideal**: Medições, contagens, valores específicos (quantidade, pressão, etc.)
 
 ### Temperatura
 
-- **Funcionalidade**: Campo específico para registro de temperatura
-- **Uso ideal**: Verificações em câmaras frias, processos térmicos, ambientes controlados
+* **Funcionalidade**: Campo específico para registro de temperatura
+* **Uso ideal**: Verificações em câmaras frias, processos térmicos, ambientes controlados
 
 ### Data
 
-- **Funcionalidade**: Seletor de data
-- **Uso ideal**: Registro de datas de validade, manutenção, calibração
+* **Funcionalidade**: Seletor de data
+* **Uso ideal**: Registro de datas de validade, manutenção, calibração
 
 ### Hora
 
-- **Funcionalidade**: Seletor de hora
-- **Uso ideal**: Registro de horários de processos, turnos, verificações temporais
+* **Funcionalidade**: Seletor de hora
+* **Uso ideal**: Registro de horários de processos, turnos, verificações temporais
 
 ## Configurando o Cabeçalho do Modelo
 
@@ -140,19 +143,20 @@ O cabeçalho define as informações que serão coletadas no início de cada aud
 
 1. Clique no botão **"Editar Cabeçalhos"**
 2. Na tela que aparece (como na Imagem 4), você pode:
-   - Definir campos personalizados para coleta de informações
-   - Configurar o tipo de cada campo (texto, número, data, sim/não, dinheiro)
-   - Marcar campos como obrigatórios
-   - Adicionar descrições de ajuda
+   * Definir campos personalizados para coleta de informações
+   * Configurar o tipo de cada campo (texto, número, data, sim/não, dinheiro)
+   * Marcar campos como obrigatórios
+   * Adicionar descrições de ajuda
 
-![Edição de Cabeçalhos](/auditorias/assets/editar-cabecalhos.png)
+![Edição de Cabeçalhos](../.gitbook/assets/cabecalhos.png)
 
 Os campos de cabeçalho são preenchidos uma única vez no início da auditoria e podem incluir informações como:
-- Responsável pela área auditada
-- Data e hora de início
-- Valor da carga
-- Nota Fiscal
-- Equipamentos utilizados
+
+* Responsável pela área auditada
+* Data e hora de início
+* Valor da carga
+* Nota Fiscal
+* Equipamentos utilizados
 
 ## Incluindo Itens de NRs no Modelo Customizado
 
@@ -190,14 +194,14 @@ Quando for necessário modificar um modelo já disponível:
 
 ## Dicas de Utilização
 
-- 💡 **Dica 1**: Organize os itens em seções lógicas que facilitem o preenchimento em campo
-- 💡 **Dica 2**: Use tipos de item diferentes de acordo com a natureza da informação a ser coletada
-- 💡 **Dica 3**: Para auditorias de qualidade, utilize o tipo "Peso/Nota" com escalas adequadas
-- 💡 **Dica 4**: Inclua itens do tipo "Informação" para orientar os auditores sobre procedimentos específicos
-- 💡 **Dica 5**: Aproveite a funcionalidade de incluir itens de NRs para garantir conformidade legal
+* 💡 **Dica 1**: Organize os itens em seções lógicas que facilitem o preenchimento em campo
+* 💡 **Dica 2**: Use tipos de item diferentes de acordo com a natureza da informação a ser coletada
+* 💡 **Dica 3**: Para auditorias de qualidade, utilize o tipo "Peso/Nota" com escalas adequadas
+* 💡 **Dica 4**: Inclua itens do tipo "Informação" para orientar os auditores sobre procedimentos específicos
+* 💡 **Dica 5**: Aproveite a funcionalidade de incluir itens de NRs para garantir conformidade legal
 
 ## Próximos Passos
 
-- [Criar uma auditoria com modelo customizado](/auditorias/web/criar-auditoria.md)
-- [Analisar resultados de auditorias](/auditorias/web/auditorias.md)
-- [Emitir planos de ação para não conformidades](/auditorias/web/emitir-plano-acao.md)
+* [Criar uma auditoria com modelo customizado](criar-auditoria.md)
+* [Analisar resultados de auditorias](auditorias.md)
+* [Emitir planos de ação para não conformidades](emitir-plano-acao.md)

@@ -7,49 +7,46 @@ icon: chart-line
 
 O Painel de Controle é a central de informações do GNRX Auditorias, proporcionando uma visão geral instantânea do status de conformidade da empresa.
 
-![Dashboard do Sistema GNRX Auditorias](/images/dashboard-principal.png)
+![Dashboard do Sistema GNRX Auditorias](../.gitbook/assets/dashboard.png)
 
 ## Visão Geral
 
 No Dashboard, você encontra os principais indicadores de desempenho:
 
-- **Índice de Conformidade** geral da empresa
-- **Status por Setor** (Crítico, Atenção, Bom, Ótimo) 
-- **Status por Unidade** (Crítico, Atenção, Bom, Ótimo)
-- **Status por Setores em Cada Unidade** (Crítico, Atenção, Bom, Ótimo)
-- **Auditorias por Usuário** para acompanhamento de metas
-- **Auditorias Conformes e Não Conformes** por unidade
+* **Índice de Conformidade** geral da empresa
+* **Status por Setor** (Crítico, Atenção, Bom, Ótimo)
+* **Status por Unidade** (Crítico, Atenção, Bom, Ótimo)
+* **Status por Setores em Cada Unidade** (Crítico, Atenção, Bom, Ótimo)
+* **Auditorias por Usuário** para acompanhamento de metas
+* **Auditorias Conformes e Não Conformes** por unidade
 
 ## Gráficos Interativos
 
 Os gráficos interativos permitem análise aprofundada:
 
-<div className="grid grid-cols-2 gap-4 my-6">
-  <div className="card">
-    <h3>Conformidade por Unidade</h3>
-    <img src="/images/grafico-conformidade-unidade.png" alt="Gráfico de conformidade por unidade" />
-  </div>
-</div>
+#### Conformidade por Unidade
+
+<figure><img src="../.gitbook/assets/conf-unidade.png" alt=""><figcaption><p>Gráfico de Ocorrência por Unidade</p></figcaption></figure>
 
 ## Filtros Disponíveis
 
 Personalize a visualização do Dashboard com os filtros:
 
-- **Período**: Últimos 7 dias, 30 dias, 3 meses, 6 meses, 12 meses
-- **Unidade**: Todas ou unidade específica
-- **Setor**: Todos ou setor específico
-- **Tipo de Checklist**: Customizado, NR, Todos
+* **Período**: Últimos 7 dias, 30 dias, 3 meses, 6 meses, 12 meses
+* **Unidade**: Todas ou unidade específica
+* **Setor**: Todos ou setor específico
+* **Tipo de Checklist**: Customizado, NR, Todos
 
 ## Dicas de Utilização
 
-- 💡 **Dica 1**: Utilize o dashboard no início do dia para identificar prioridades
-- 💡 **Dica 2**: Configure alertas para índices críticos de conformidade
-- 💡 **Dica 3**: Compartilhe prints do dashboard em reuniões gerenciais para acompanhamento
+* 💡 **Dica 1**: Utilize o dashboard no início do dia para identificar prioridades
+* 💡 **Dica 2**: Configure alertas para índices críticos de conformidade
+* 💡 **Dica 3**: Compartilhe prints do dashboard em reuniões gerenciais para acompanhamento
 
 ## Próximos Passos
 
 A partir do Dashboard, você pode:
 
-- [Criar uma nova auditoria](/auditorias/web/nova-auditoria.md)
-- [Visualizar auditorias existentes](/auditorias/web/visualizar-auditorias.md)
-- [Emitir planos de ação](/auditorias/web/criar-planos-acao.md)
+* [Criar uma nova auditoria](nova-auditoria.md)
+* [Visualizar auditorias existentes](visualizar-auditorias.md)
+* [Emitir planos de ação](criar-planos-acao.md)
