@@ -35,7 +35,7 @@ Siga estas etapas para iniciar uma nova auditoria no aplicativo GNRx:
 8. **Descrição** (opcional): Adicione detalhes sobre o propósito ou contexto da auditoria
    * Este campo é útil para incluir informações específicas que não estão no modelo
 
-![Seleção de modelo no aplicativo](https://example.com/imagens/app-selecao-modelo.png)
+![Seleção de modelo no aplicativo](../.gitbook/assets/selecao-modelo.png)
 
 ## Iniciando a Auditoria
 
@@ -45,8 +45,6 @@ Após preencher todas as informações necessárias:
 2. Toque no botão "**Criar Auditoria**" na parte inferior da tela
 3. O aplicativo criará a nova auditoria e abrirá a tela de preenchimento do checklist
 4. Caso tenha acesso a internet, a auditoria será criada no sistema web automaticamente.
-
-![Iniciando a auditoria](https://example.com/imagens/app-iniciando-auditoria.png)
 
 ## Considerações sobre o Modo Offline
 

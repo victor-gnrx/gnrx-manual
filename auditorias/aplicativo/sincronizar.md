@@ -30,7 +30,7 @@ Durante a sincronização, os seguintes tipos de dados são transferidos:
 * Assinaturas coletadas
 * Respostas e observações registradas
 
-![Fluxo de sincronização de dados](https://example.com/imagens/app-fluxo-sincronizacao.png)
+![Fluxo de sincronização de dados](<../.gitbook/assets/Design sem nome (35).png>)
 
 ## Quando Sincronizar
 
@@ -46,7 +46,7 @@ Para identificar quais auditorias ainda não foram sincronizadas:
 
 Na tela inicial do aplicativo, Minhas Auditorias, as auditorias que não foram sincronizadas estarão com status **"N/S"** (Não Sincronizada)
 
-![Auditorias pendentes de sincronização](https://example.com/imagens/app-pendentes-sincronizacao.png)
+![Auditorias pendentes de sincronização](../.gitbook/assets/nao-sincronizada.png)
 
 ## Realizando a Sincronização
 
@@ -56,14 +56,14 @@ Para iniciar a sincronização de uma auditoria:
 2. Acesse a tela da auditoria que deseja sincronizar
 3. Aqui você tem 2 opções:
    * **Clicar no botão "Gerar Relatório"**: Que abrirá a tela de relatório / sincronização
-   * **Clicar em Inciar Auditoria => Menu => Relatório**: Que também abrirá a tela de relatório / sincronização
+   * **Clicar em Inciar Auditoria > Menu > Relatório**: Que também abrirá a tela de relatório / sincronização
 4. Verifique se o progresso está correto
 5. Caso queira enviar email / solicitar assinaturas remotas, deixe a opção "Enviar relatório por e-mail" marcada
    * Os emails serão enviados para os destinatários configurados pelo sistema web. Pelo usuário administrador.
    * Também é enviado para o email do usuário que iniciou a auditoria.
 6. Na tela de relatório / sincronização, clique em "Atualizar Servidor"
 
-![Tela de sincronização](https://example.com/imagens/app-sincronizacao.png)
+![Tela de sincronização](../.gitbook/assets/tela-sincronizacao.png)
 
 7. Uma barra de progresso mostrará o status da sincronização
 8. Mantenha o aplicativo aberto até a conclusão do processo
@@ -78,10 +78,10 @@ Durante a sincronização de múltiplas auditorias ou auditorias extensas:
 1. Uma barra de progresso geral mostra a porcentagem concluída do processo completo
 2. Indicadores individuais mostram o progresso de cada auditoria
 3. O aplicativo exibe informações sobre a etapa atual:
-   * "Enviando dados de auditoria..."
+   * "Sincronizando..."
    * "Enviando fotos (X de Y)..."
 
-![Progresso da sincronização](https://example.com/imagens/app-progresso-sincronizacao.png)
+![Progresso da sincronização](../.gitbook/assets/sync.png)
 
 ## Otimizando a Sincronização
 
