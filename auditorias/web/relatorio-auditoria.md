@@ -3,190 +3,164 @@ description: Como visualizar, interpretar e compartilhar relatórios detalhados 
 icon: chart-bar
 ---
 
-# Verificar Relatório da Auditoria
+# Relatório de Auditoria
 
-Os relatórios de auditoria proporcionam uma visão detalhada dos resultados, permitindo análise aprofundada, compartilhamento com stakeholders e embasamento para tomadas de decisão.
+O Relatório de Auditoria oferece uma visão completa e detalhada dos resultados da verificação, permitindo análise aprofundada, compartilhamento com stakeholders e tomada de decisões baseadas em evidências.
 
-![Relatório de Auditoria](/images/relatorio-auditoria-principal.png)
+![Cabeçalho do Relatório](/auditorias/assets/cabecalho-relatorio.png)
 
-## Acessando os Relatórios
+## Acessando o Relatório
 
-Para acessar o relatório de uma auditoria:
+Para visualizar o relatório de uma auditoria:
 
-1. Navegue até **"Minhas Auditorias"** no menu lateral
-2. Localize a auditoria desejada (deve estar com status "Concluída")
-3. Clique no botão **"Visualizar Relatório"** na linha da auditoria
-   - Alternativa: Abra a auditoria e clique na aba "Relatório"
+1. Acesse a lista de auditorias no menu principal
+2. Localize a auditoria desejada
+3. Clique no botão **"Relatório"** na linha da auditoria
+   - Alternativa: Abra a auditoria e clique no botão **"Relatório"** no topo da página
 
 ## Estrutura do Relatório
 
-O relatório de auditoria é organizado em seções para facilitar a análise:
-
 ### Cabeçalho e Informações Gerais
 
-Contém os dados de identificação da auditoria:
+Na parte superior do relatório, você encontra as informações de identificação:
 
-- Nome e código da auditoria
-- Local e setor auditado
-- Data de realização
-- Responsável pela auditoria
-- Tipo de checklist utilizado
-- Informações adicionais do cabeçalho
+- **Título da Auditoria**: Nome, código e descrição
+- **Local**: Unidade onde foi realizada a auditoria
+- **Endereço**: Localização física detalhada
+- **Data e Hora**: Quando a auditoria foi realizada
+- **Responsável**: Nome de quem conduziu a auditoria
+- **Logo**: Identificação visual da empresa
 
-![Cabeçalho do Relatório](/images/relatorio-cabecalho.png)
+### Informações do Cabeçalho da Auditoria
 
-### Resumo Executivo
+Exibe os dados coletados nos campos de cabeçalho configurados no modelo:
+Exemplos:
+- Nome do Almoxarife
+- Custo
+- Número da Nota
+- Outros campos específicos do modelo
 
-Apresenta os principais indicadores da auditoria:
+![Dados do Cabeçalho](/auditorias/assets/dados-cabecalho.png)
 
-- Índice geral de conformidade (percentual)
-- Total de itens verificados, conformes e não conformes
-- Distribuição de não conformidades por criticidade
-- Status geral (Crítico, Atenção, Bom, Ótimo)
-- Comparativo com auditorias anteriores (quando disponível)
+### Resumo dos Resultados
 
-![Resumo Executivo](/images/relatorio-resumo-executivo.png)
+Um dashboard visual apresenta os principais indicadores de desempenho:
 
-### Gráficos de Desempenho
+- **Conformes**: Número e percentual de itens em conformidade
+- **Não Conformes**: Número e percentual de itens em não conformidade
+- **Resolvidos**: Itens não conformes que já foram corrigidos
+- **Não Aplicáveis**: Itens que não se aplicam ao contexto verificado
 
-Representações visuais dos resultados:
+Quando há items de nota/peso, o relatório exibirá também:
+- **Nota Final**: Valor obtido na avaliação
 
-- Gráfico de pizza com distribuição de conformidades
-- Gráfico de barras com desempenho por seção
-- Evolução histórica (quando existem auditorias anteriores)
-- Mapa de calor de criticidade
+Informações adicionais incluem:
+- **Multa Potencial**: Valor estimado de multas para itens não conformes
+  - A Multa para NRs é calculada com base no tipo de infração, nível e quantidade de colaboradores da unidade
+- **Multa Resolvida**: Valor de multas já evitadas pela correção
+- **Total de itens**: Quantidade de verificações realizadas
+- **Total de fotos**: Número de evidências fotográficas
 
-### Detalhamento por Seção
+{% hint style="info" %}
+Quando o modelo de auditoria utiliza sistema de pontuação ou notas, o relatório exibirá também a nota final obtida na avaliação.
+{% endhint %}
 
-Lista organizada de todas as seções auditadas:
+### Tabela Resumo por Seção
 
-- Nome da seção
-- Índice de conformidade da seção
-- Número de itens conformes, não conformes e N/A
-- Gráfico específico da seção
+Uma tabela organizada apresenta o desempenho por seção do checklist:
 
-![Detalhamento por Seção](/images/relatorio-detalhamento-secoes.png)
+| SEÇÃO | ITENS | RESPONDIDOS | CONFORME | OK% | NÃO CONFORME | NÃO APLICA |
+|-------|-------|-------------|----------|-----|--------------|------------|
+| Geral | 33    | 33          | 21       | 64% | 11           | 0          |
+| Total | 33    | 33          | 21       | 64% | 11           | 0          |
 
-### Lista de Não Conformidades
+### Lista Detalhada de Itens
 
-Compilação detalhada de todos os itens não conformes:
+O relatório exibe todos os itens verificados durante a auditoria, organizados cronologicamente:
 
-- Código e nome do item
-- Descrição completa
-- Criticidade
-- Observações registradas
-- Evidências fotográficas
-- Ação corretiva sugerida
+![Itens da Auditoria](/auditorias/assets/itens-auditoria.png)
 
-![Lista de Não Conformidades](/images/relatorio-nao-conformidades.png)
+Cada item apresenta:
+- **Data e hora** da verificação
+- **Código e nome** do item verificado
+- **Status**: Conforme, Não Conforme ou Não Aplicável
+- **Nível de infração** (para itens de NR): Por exemplo, "Nível 3 - S"
+  - Nível de 1 a 4 (1 é o mais baixo)
+  - S = Segurança | M = Médica
+- **Ação corretiva recomendada** para itens não conformes
+- **Evidências fotográficas** (quando disponíveis)
+- **Observações** registradas pelo auditor
 
-### Evidências Fotográficas
+### Assinaturas e Localização
 
-Galeria organizada de todas as fotos registradas durante a auditoria:
+Na parte inferior do relatório, são exibidas informações adicionais:
 
-- Miniaturas de todas as fotos
-- Indicação do item relacionado
-- Possibilidade de ampliação
+- **Localização geográfica** onde a auditoria foi realizada
+- **Assinaturas digitais** dos responsáveis pela auditoria
 
-### Notas e Conclusão
+### Metadados da Auditoria
 
-Espaço para comentários finais e recomendações gerais:
+O relatório também inclui informações técnicas sobre a auditoria:
 
-- Observações gerais do auditor
-- Recomendações prioritárias
-- Próximos passos sugeridos
+- **Modelo utilizado**: Nome e ID do modelo de checklist
+- **Empresa**: Razão social e CNPJ
+- **Versão**: Número da versão do modelo aplicado
+- **Data de criação**: Quando o modelo foi originalmente criado
 
-## Recursos Interativos
-
-O sistema oferece recursos interativos para análise detalhada:
-
-- **Drill-down**: Clique nas seções para expandir o detalhamento
-- **Filtros dinâmicos**: Filtre o relatório por criticidade ou tipo de item
-- **Zoom em gráficos**: Amplie gráficos para análise mais detalhada
-- **Alternância de visualizações**: Alterne entre diferentes tipos de gráficos
+![Metadados da Auditoria](/auditorias/assets/metadados-auditoria.png)
 
 ## Exportação do Relatório
 
-Para exportar o relatório para uso externo:
+Para salvar e compartilhar o relatório:
 
-1. Clique no botão **"Exportar"**
-2. Selecione o formato desejado:
-   - PDF (para compartilhamento formal)
-   - Excel (para análise adicional)
-   - PowerPoint (para apresentações)
-3. Configure opções adicionais:
-   - Incluir todas as fotos ou apenas resumo
-   - Nível de detalhamento (completo ou resumido)
-   - Elementos a incluir (gráficos, tabelas, etc.)
-4. Clique em **"Confirmar"** para gerar o arquivo
+1. Clique no botão **"Baixar Relatório PDF"** no topo da página
+2. O sistema gerará um arquivo PDF com todos os elementos do relatório
+3. Salve o arquivo em seu dispositivo ou compartilhe diretamente
 
-![Opções de Exportação](/images/relatorio-opcoes-exportacao.png)
+O PDF gerado mantém a formatação visual e todos os elementos do relatório online, sendo ideal para:
+- Compartilhar com gestores e stakeholders
+- Arquivamento para fins de comprovação
+- Impressão de cópias físicas quando necessário
 
-## Compartilhamento do Relatório
+## Análise e Interpretação
 
-Compartilhe o relatório diretamente do sistema:
+### Identificação de Prioridades
 
-1. Clique no botão **"Compartilhar"**
-2. Escolha o método:
-   - Email (envia PDF ou link para visualização online)
-   - Link (gera URL para acesso direto com permissões configuráveis)
-   - Programação (agenda envios periódicos)
-3. Selecione os destinatários
-4. Adicione mensagem personalizada (opcional)
-5. Confirme o compartilhamento
+Itens não conformes são destacados visualmente para fácil identificação:
+- Marcados em vermelho
+- Apresentam o nível de infração (quando aplicável)
+- Incluem ações corretivas recomendadas para NRs.
 
-## Assinaturas Eletrônicas
+### Cálculo de Conformidade
 
-Para auditorias que exigem aprovação formal:
+O percentual de conformidade é calculado automaticamente:
+- Total de itens conformes ÷ Total de itens respondidos e aplicáveis × 100
+- Exemplo: 21 itens conformes ÷ 33 itens respondidos e aplicáveis = 64% de conformidade
 
-1. Na seção de assinaturas do relatório, clique em **"Solicitar Assinatura"**
-2. Selecione os responsáveis que devem assinar
-3. Defina a ordem das assinaturas (opcional)
-4. Cada responsável receberá notificação para assinar eletronicamente
+### Avaliação de Riscos Financeiros
 
-![Assinaturas Eletrônicas](/images/relatorio-assinaturas.png)
+O relatório apresenta uma estimativa dos valores de potenciais multas:
+- **Multa Potencial**: Soma dos valores de multa para todos os itens não conformes
+- **Multa Resolvida**: Valor das multas evitadas pela correção dos itens
 
-## Relatórios Comparativos
+## Acompanhamento e Próximos Passos
 
-Compare resultados entre diferentes auditorias:
+Após a análise do relatório, recomenda-se:
 
-1. Na lista de auditorias, selecione duas ou mais auditorias
-2. Clique em **"Relatório Comparativo"**
-3. O sistema gerará um relatório especial destacando:
-   - Evolução de índices de conformidade
-   - Itens que melhoraram ou pioraram
-   - Tendências por seção ou tipo de item
-
-![Relatório Comparativo](/images/relatorio-comparativo.png)
-
-## Relatórios Personalizados
-
-Crie modelos de relatório personalizados:
-
-1. Acesse **"Configurações"** > **"Modelos de Relatório"**
-2. Selecione **"Novo Modelo"**
-3. Configure os elementos a serem incluídos
-4. Defina o layout e formatação
-5. Salve o modelo para uso futuro
-
-## Planos de Ação Integrados
-
-Integre relatórios com planos de ação:
-
-1. Na visualização do relatório, clique em **"Criar Plano de Ação"**
-2. Selecione as não conformidades a serem tratadas
-3. Configure o plano conforme necessário
-4. O relatório será automaticamente vinculado ao plano criado
+1. **Priorizar ações corretivas** com base na criticidade e valor de multa
+2. **Criar planos de ação** para tratar as não conformidades identificadas
+3. **Programar auditorias de follow-up** para verificar a eficácia das ações
+4. **Compartilhar os resultados** com as equipes relevantes
 
 ## Dicas de Utilização
 
-- 💡 **Dica 1**: Utilize o modo de apresentação para reuniões de análise crítica
-- 💡 **Dica 2**: Configure relatórios periódicos para serem enviados automaticamente aos gestores
-- 💡 **Dica 3**: Filtre relatórios por criticidade para focar nas não conformidades mais graves
-- 💡 **Dica 4**: Compare relatórios de períodos similares para identificar padrões sazonais
+- 💡 **Dica 1**: Revise os itens com maior nível de infração (Nível 3 ou superior) primeiro
+- 💡 **Dica 2**: Utilize o PDF exportado para reuniões de análise crítica
+- 💡 **Dica 3**: Compare os resultados com auditorias anteriores para verificar evolução
+- 💡 **Dica 4**: Atente ao valor total de multas potenciais para justificar investimentos em melhorias
 
 ## Próximos Passos
 
-- [Criar planos de ação baseados nos resultados](/auditorias/web/emitir-plano-acao.md)
-- [Programar auditorias de follow-up](/auditorias/web/criar-auditoria-web.md)
-- [Analisar tendências no Dashboard](/auditorias/web/painel-dashboard.md)
+- [Emitir plano de ação para não conformidades](/auditorias/web/emitir-plano-acao.md)
+- [Criar nova auditoria para verificação](/auditorias/web/criar-auditoria.md)
+- [Visualizar todas as auditorias](/auditorias/web/auditorias.md)
