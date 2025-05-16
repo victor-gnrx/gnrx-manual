@@ -30,6 +30,10 @@ Este é o tipo mais comum, onde você avalia se o item atende aos requisitos:
 - **Conforme (C)**: Representado por um ícone verde, indica que o item atende completamente aos requisitos
 - **Não Conforme (NC)**: Representado por um ícone vermelho, indica que o item não atende aos requisitos
 - **Não Aplicável (NA)**: Representado por um ícone cinza, indica que o item não se aplica à situação atual
+- **Resolvido (OK)**: Representado por um ícone verde, indica que o item foi corrigido
+  1. Após marcar um item como Não Conforme, um botão adicional "Resolvido" aparecerá
+  2. Ao clicar neste botão, o sistema indicará que a não conformidade foi corrigida
+  3. O item continuará registrado como uma não conformidade inicial, mas com status de resolução
 
 Para alterar o status de conformidade:
 1. Clique no botão correspondente ao status desejado (C, NC ou NA)
@@ -38,51 +42,41 @@ Para alterar o status de conformidade:
 
 ![Opções de conformidade](/auditorias/assets/opcoes-conformidade-web.png)
 
-### Alíneas
+<!-- ### Alíneas
 
 Alguns itens contêm alíneas (subitens) que podem ser avaliados individualmente:
 
 1. As alíneas são exibidas abaixo do item principal (normalmente identificadas como a, b, c, d, etc.)
 2. Cada alínea tem seus próprios botões de conformidade
-3. Quando uma ou mais alíneas são marcadas como Não Conforme, o item principal também é automaticamente marcado como Não Conforme
-
-### Resolvido (OK)
-
-Para itens marcados como Não Conformes que foram posteriormente corrigidos:
-
-1. Após marcar um item como Não Conforme, um botão adicional "Resolvido" aparecerá
-2. Ao clicar neste botão, o sistema indicará que a não conformidade foi corrigida
-3. O item continuará registrado como uma não conformidade inicial, mas com status de resolução
-
-### Outros Tipos de Itens
+3. Quando uma ou mais alíneas são marcadas como Não Conforme, o item principal também é automaticamente marcado como Não Conforme -->
 
 O sistema suporta diversos outros tipos de itens para coleta de informações específicas:
 
-#### Peso / Nota
+### Peso / Nota
 - Permite atribuir uma nota numérica dentro de uma escala pré-definida
 - Clique no valor desejado para selecionar a nota
 
-#### Informação
+### Informação
 - Apenas exibe texto informativo, sem necessidade de resposta
 - Fornece contexto ou instruções para o auditor
 
-#### Texto
+### Texto
 - Campo para entrada de texto livre
 - Clique no campo e digite a informação necessária
 
-#### Número
+### Número
 - Campo específico para valores numéricos
 - O sistema aceita apenas números neste campo
 
-#### Temperatura
+### Temperatura
 - Para registro de temperaturas em graus Celsius
 - Inclui formatação automática com o símbolo °C
 
-#### Data
+### Data
 - Campo para seleção de datas específicas
 - Clique no ícone de calendário para selecionar a data desejada
 
-#### Hora
+### Hora
 - Para registro de horários
 - Clique no ícone de relógio para selecionar a hora
 
@@ -127,6 +121,8 @@ Para adicionar comentários ou informações adicionais:
 
 Para itens baseados em Normas Regulamentadoras (NR), o sistema exibe automaticamente o nível de infração:
 
+- **Infração - Nível 1**: Indica uma infração leve
+- **Infração - Nível 2**: Indica uma infração média
 - **Infração - Nível 3**: Indica uma infração grave
 - **Infração - Nível 4**: Indica uma infração gravíssima
 
@@ -148,7 +144,7 @@ O sistema web salva automaticamente suas respostas à medida que você preenche 
 - Pausar e retomar o preenchimento a qualquer momento
 - Trabalhar em diferentes sessões sem perda de dados
 - Segurança contra perda de informações por problemas de conexão
-
+<!-- 
 ### Finalizando a Auditoria
 
 Quando todos os itens obrigatórios estiverem preenchidos:
@@ -156,11 +152,11 @@ Quando todos os itens obrigatórios estiverem preenchidos:
 1. Verifique se não restam itens pendentes de resposta
 2. No topo da página, clique no botão "Finalizar Auditoria"
 3. Confirme a finalização quando solicitado
-4. O sistema calculará automaticamente os índices de conformidade e fechará a auditoria
+4. O sistema calculará automaticamente os índices de conformidade e fechará a auditoria -->
 
-{% hint style="warning" %}
+<!-- {% hint style="warning" %}
 Após finalizada, a auditoria não poderá mais ser editada, apenas visualizada. Certifique-se de que todos os dados estão corretos antes de finalizar.
-{% endhint %}
+{% endhint %} -->
 
 ## Continuando uma Auditoria em Andamento
 

@@ -1,149 +1,139 @@
 ---
-description: Como criar e configurar novas auditorias diretamente pelo sistema web
+description: Como criar e configurar novas auditorias no sistema web
 icon: file-plus
 ---
 
-# Criar Auditoria pelo Web
+# Criar Auditoria
 
-O módulo de criação de auditorias permite configurar e iniciar auditorias diretamente pela interface web, oferecendo maior flexibilidade para auditorias em escritório ou com preparação antecipada.
+O sistema web GNRX Auditorias permite criar novas auditorias de forma rápida e intuitiva, seguindo um fluxo simples de configuração que garante a coleta de todas as informações necessárias.
 
-![Tela de criação de auditoria](/images/criar-auditoria-web.png)
+![Modal de criação de auditoria](/auditorias/assets/criar-auditoria-modal.png)
 
 ## Acessando a Criação de Auditoria
 
-Para criar uma nova auditoria:
+Existem duas formas de iniciar o processo de criação de uma nova auditoria:
 
-1. No menu lateral, clique em **"Criar Auditoria"**
-2. Ou acesse pelo botão **"Nova Auditoria"** no Dashboard
-3. A tela de configuração da auditoria será exibida
+1. Na lista de auditorias, clique no botão **"Nova auditoria"** no canto superior direito
+2. No Dashboard, use o botão de criação rápida de auditoria
 
-## Configurando uma Nova Auditoria
+Ambas as opções abrirão o modal de configuração da nova auditoria.
 
-### Passo 1: Informações Básicas
+## Passo a Passo para Criar uma Auditoria
 
-Preencha os dados iniciais da auditoria:
+O processo de criação segue uma sequência lógica que orienta você na configuração completa da auditoria:
 
-- **Nome da Auditoria**: Identificação descritiva
-- **Tipo de Modelo**: Selecione entre Modelo Customizado ou Modelo NR
-- **Modelo Específico**: Escolha o modelo previamente criado
-- **Descrição** (opcional): Detalhes adicionais sobre o objetivo
+### 1. Selecionar Unidade
 
-![Informações Básicas](/images/auditoria-informacoes-basicas.png)
+- Clique no campo **"Selecione uma unidade"**
+- Escolha a unidade onde a auditoria será realizada
+- A lista exibirá apenas as unidades às quais você tem acesso
 
-### Passo 2: Local e Responsáveis
+{% hint style="info" %}
+Caso a unidade desejada não apareça na lista, é necessário que o administrador do sistema conceda acesso a esta unidade para o seu usuário.
+{% endhint %}
 
-Defina onde a auditoria será realizada e quem será responsável:
+### 2. Selecionar Setor
 
-- **Local de Trabalho**: Unidade onde será realizada a auditoria
-- **Setor**: Área específica dentro do local de trabalho
-- **Responsável pela Auditoria**: Usuário que conduzirá a verificação
+- Após selecionar a unidade, escolha o **setor específico**
+- A lista mostrará os setores disponíveis na unidade selecionada
+- Este campo ajuda a especificar exatamente onde a verificação será feita
 
-### Passo 3: Data e Configurações
+### 3. Escolher o Tipo de Modelo
 
-Configure os parâmetros temporais e opções adicionais:
+O sistema oferece duas opções de modelos:
 
-- **Data de Início**: Data em que a auditoria será iniciada
-- **Permite Fotos**: Ativa/desativa o registro de evidências fotográficas
-- **Permite Observações**: Ativa/desativa o registro de observações textuais
+- **Modelo NR**: Baseado em Normas Regulamentadoras oficiais
+  - Ideal para verificar conformidade com requisitos legais
+  - Contém estrutura e classificação de infrações padronizadas
 
-### Passo 4: Cabeçalho da Auditoria
+- **Modelo Customizado**: Criado especificamente para sua empresa
+  - Personalizado para processos e necessidades específicos
+  - Flexibilidade na estrutura e tipos de resposta
 
-Preencha os campos de cabeçalho conforme definido no modelo:
+Esta seleção funciona como um filtro para a próxima etapa.
 
-- Os campos exibidos dependerão da configuração do modelo selecionado
-- Campos marcados com * são obrigatórios
-- Preencha conforme instruções específicas para cada campo
+### 4. Selecionar o Modelo Específico
 
-![Cabeçalho da Auditoria](/images/auditoria-cabecalho.png)
+- Clique no campo **"Selecione um modelo"**
+- Escolha o modelo específico que será utilizado na auditoria
+- Apenas os modelos do tipo selecionado anteriormente (NR ou Customizado) serão exibidos
 
-## Iniciando a Auditoria
+### 5. Adicionar Descrição (opcional)
 
-Após configurar todos os parâmetros:
+- Campo livre para incluir informações adicionais sobre o propósito da auditoria
+- Detalhes sobre o contexto específico, motivação ou circunstâncias especiais
+- Este campo é opcional, mas pode ser útil para futuras consultas
 
-1. Revise todas as informações preenchidas
-2. Clique no botão **"Iniciar Auditoria"**
-3. O sistema criará a auditoria e abrirá a interface de preenchimento
+## Criando a Auditoria
 
-## Interface de Preenchimento
+Após preencher todas as informações necessárias:
 
-A interface apresenta o checklist para preenchimento:
+1. Verifique se todos os campos obrigatórios foram preenchidos corretamente
+2. Clique no botão **"Criar Auditoria"** 
+3. Caso precise cancelar a operação, clique em **"Cancelar"**
 
-- **Navegação por Seções**: Use o menu lateral para navegar entre seções
-- **Lista de Itens**: Visualize todos os itens a serem verificados
-- **Registro de Conformidade**: Selecione o status de cada item (Conforme, Não Conforme, N/A)
-- **Área de Evidências**: Anexe fotos e adicione observações para cada item
-- **Progresso**: Acompanhe o percentual de itens já respondidos
+Após a criação, o sistema abrirá automaticamente a tela de preenchimento do checklist ou apresentará campos adicionais específicos do modelo selecionado.
 
-![Interface de Preenchimento](/images/interface-preenchimento.png)
+## Preenchimento do Cabeçalho
 
-## Recursos Durante o Preenchimento
+Dependendo do modelo selecionado, o sistema pode solicitar informações adicionais de cabeçalho:
 
-### Registro de Fotos
+- Estas informações são específicas para cada tipo de auditoria
+- Campos marcados com asterisco (*) são obrigatórios
+- O preenchimento correto destes campos é essencial para a validade da auditoria
 
-Para adicionar evidências fotográficas:
+## Nome da Auditoria
 
-1. No item desejado, clique em **"Adicionar Foto"**
-2. Selecione uma imagem do seu dispositivo
-3. Adicione uma descrição para a foto (opcional)
-4. Clique em **"Salvar"** para anexar a foto ao item
+Por padrão, o sistema gera automaticamente um nome para a auditoria seguindo o formato:
+- **Padrão**: Data - Nome do Modelo - Unidade - Setor
 
-### Adição de Observações
+Você pode personalizar este nome após a criação da auditoria, caso necessário.
 
-Para registrar comentários ou observações:
+## Considerações Importantes
 
-1. No item desejado, localize o campo **"Observações"**
-2. Digite o texto relevante
-3. O sistema salva automaticamente à medida que você digita
+### Permissões de Acesso
 
-### Salvamento Automático
+- Você só poderá criar auditorias nas unidades e setores aos quais tem acesso
+- O administrador do sistema define estas permissões para cada usuário
+- Caso precise de acesso a unidades adicionais, entre em contato com o administrador
 
-O sistema salva automaticamente o progresso:
+### Modelos Disponíveis
 
-- Cada resposta é registrada imediatamente
-- É possível pausar e retomar o preenchimento posteriormente
-- O progresso é sincronizado se você mudar de dispositivo
+- Apenas modelos ativos e em estado "Disponível" aparecem na lista de seleção
+- Modelos em estado de "Rascunho" ou "Inativo" não são exibidos
+- Para usar um novo modelo, certifique-se de que ele foi finalizado e disponibilizado
 
-## Finalização da Auditoria
+### Continuidade do Processo
 
-Quando todos os itens obrigatórios forem preenchidos:
+Após a criação da auditoria, você pode:
+- Iniciar o preenchimento imediatamente
+- Salvar para continuar posteriormente (a auditoria ficará com status "Em Andamento")
+- Adicionar outros usuários como participantes da auditoria (se tiver permissão)
 
-1. Verifique se todos os itens foram respondidos corretamente
-2. Clique no botão **"Finalizar Auditoria"**
-3. Confirme a finalização no diálogo de confirmação
-4. O sistema calculará automaticamente os índices de conformidade
+## Solução de Problemas Comuns
 
-![Finalização da Auditoria](/images/finalizacao-auditoria.png)
+### Não consigo ver uma unidade específica
 
-Após a finalização, a auditoria não poderá mais ser editada, apenas visualizada.
+- Verifique se você tem permissão para acessar esta unidade
+- Solicite ao administrador a concessão de acesso se necessário
 
-## Auditorias Não Finalizadas
+### Não encontro o modelo desejado
 
-Auditorias que foram iniciadas mas não finalizadas:
+- Confirme se está buscando no tipo correto (NR ou Customizado)
+- Verifique se o modelo está no estado "Disponível"
+- Consulte o administrador para confirmar que o modelo está ativo
 
-- Aparecem na lista de **"Minhas Auditorias"** com status "Em Andamento"
-- Podem ser retomadas a qualquer momento
-- São salvas com os dados já preenchidos
+### Erro ao criar a auditoria
 
-## Duplicação de Auditorias
-
-Para criar uma nova auditoria com base em uma existente:
-
-1. Acesse a auditoria original
-2. Clique no botão **"Duplicar Auditoria"**
-3. Ajuste os parâmetros conforme necessário
-4. Inicie a nova auditoria
-
-Esta função é útil para auditorias periódicas no mesmo local.
-
-## Dicas de Utilização
-
-- 💡 **Dica 1**: Prepare todos os documentos e informações necessárias antes de iniciar o preenchimento
-- 💡 **Dica 2**: Utilize a função de salto entre seções para navegar rapidamente pelo checklist
-- 💡 **Dica 3**: Adicione fotos sempre que possível para evidenciar as conformidades e não conformidades
-- 💡 **Dica 4**: Registre observações detalhadas para facilitar a análise posterior
+- Verifique se todos os campos obrigatórios foram preenchidos
+- Confirme sua conexão com a internet
+- Tente novamente após alguns instantes
+- Se o problema persistir, contate o suporte técnico
 
 ## Próximos Passos
 
-- [Visualizar auditorias](/auditorias/web/minhas-auditorias.md)
-- [Emitir planos de ação](/auditorias/web/emitir-plano-acao.md)
-- [Verificar relatórios](/auditorias/web/visualizar-relatorios.md)
+Após criar sua auditoria, você estará pronto para começar o preenchimento:
+
+- [Preencher uma auditoria](/auditorias/web/preencher-auditoria.md)
+- [Gerenciar auditorias existentes](/auditorias/web/auditorias.md)
+- [Visualizar relatórios](/auditorias/web/relatorio-auditoria.md)
