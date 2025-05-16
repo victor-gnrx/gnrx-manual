@@ -16,6 +16,10 @@
 ## Sistema Web
 
 * [Introdução ao Sistema Web](web/README.md)
+* [Estruturas](web/estruturas.md)
+  * [Usuários](web/usuario.md)
+  * [Unidades](web/unidade.md)
+  * [Setores](web/setor.md)
 * [Painel (Dashboard)](web/painel.md)
 * [Modelos NR](web/modelo-nr.md)
 * [Modelos Customizados](web/modelo-customizado.md)
