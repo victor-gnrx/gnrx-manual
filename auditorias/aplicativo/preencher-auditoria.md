@@ -1,13 +1,13 @@
 ---
 description: Como preencher os itens de uma auditoria no sistema web
-icon: check-square
+icon: wand-magic-sparkles
 ---
 
-# Preencher Auditoria
+# Preenchendo uma Auditoria
 
 Após criar uma auditoria no sistema web GNRX Auditorias, você deve preencher os itens do checklist avaliando cada requisito. Este guia explica como realizar esse preenchimento, desde a navegação até a avaliação de conformidade dos itens.
 
-![Tela de preenchimento de auditoria](/auditorias/assets/preenchimento-auditoria-web.png)
+![Tela de preenchimento de auditoria](../.gitbook/assets/446shots_so.png)
 
 ## Visão Geral da Tela de Preenchimento
 
@@ -27,16 +27,17 @@ O sistema oferece diversos tipos de itens para diferentes necessidades de verifi
 
 Este é o tipo mais comum, onde você avalia se o item atende aos requisitos:
 
-- **Conforme (C)**: Representado por um ícone verde, indica que o item atende completamente aos requisitos
-- **Não Conforme (NC)**: Representado por um ícone vermelho, indica que o item não atende aos requisitos
-- **Não Aplicável (NA)**: Representado por um ícone cinza, indica que o item não se aplica à situação atual
+* **Conforme (C)**: Representado por um ícone verde, indica que o item atende completamente aos requisitos
+* **Não Conforme (NC)**: Representado por um ícone vermelho, indica que o item não atende aos requisitos
+* **Não Aplicável (NA)**: Representado por um ícone cinza, indica que o item não se aplica à situação atual
 
 Para alterar o status de conformidade:
+
 1. Clique no botão correspondente ao status desejado (C, NC ou NA)
 2. O sistema salvará automaticamente sua seleção
 3. O ícone à esquerda do item mudará para refletir o status selecionado
 
-![Opções de conformidade](/auditorias/assets/opcoes-conformidade-web.png)
+![Opções de conformidade](<../.gitbook/assets/BOTÕES CONFORMIDADE.png>)
 
 ### Alíneas
 
@@ -59,32 +60,39 @@ Para itens marcados como Não Conformes que foram posteriormente corrigidos:
 O sistema suporta diversos outros tipos de itens para coleta de informações específicas:
 
 #### Peso / Nota
-- Permite atribuir uma nota numérica dentro de uma escala pré-definida
-- Clique no valor desejado para selecionar a nota
+
+* Permite atribuir uma nota numérica dentro de uma escala pré-definida
+* Clique no valor desejado para selecionar a nota
 
 #### Informação
-- Apenas exibe texto informativo, sem necessidade de resposta
-- Fornece contexto ou instruções para o auditor
+
+* Apenas exibe texto informativo, sem necessidade de resposta
+* Fornece contexto ou instruções para o auditor
 
 #### Texto
-- Campo para entrada de texto livre
-- Clique no campo e digite a informação necessária
+
+* Campo para entrada de texto livre
+* Clique no campo e digite a informação necessária
 
 #### Número
-- Campo específico para valores numéricos
-- O sistema aceita apenas números neste campo
+
+* Campo específico para valores numéricos
+* O sistema aceita apenas números neste campo
 
 #### Temperatura
-- Para registro de temperaturas em graus Celsius
-- Inclui formatação automática com o símbolo °C
+
+* Para registro de temperaturas em graus Celsius
+* Inclui formatação automática com o símbolo °C
 
 #### Data
-- Campo para seleção de datas específicas
-- Clique no ícone de calendário para selecionar a data desejada
+
+* Campo para seleção de datas específicas
+* Clique no ícone de calendário para selecionar a data desejada
 
 #### Hora
-- Para registro de horários
-- Clique no ícone de relógio para selecionar a hora
+
+* Para registro de horários
+* Clique no ícone de relógio para selecionar a hora
 
 ## Adicionando Ação Corretiva
 
@@ -96,7 +104,7 @@ Uma funcionalidade importante do sistema web é a possibilidade de registrar aç
 4. Digite a descrição detalhada da ação corretiva recomendada
 5. Clique em "Salvar" para registrar a ação corretiva
 
-![Menu de ação corretiva](/auditorias/assets/menu-acao-corretiva.png)
+![Menu de ação corretiva](../assets/menu-acao-corretiva.png)
 
 {% hint style="info" %}
 As ações corretivas são particularmente importantes para a geração de planos de ação posteriores, pois serão incluídas automaticamente como recomendações.
@@ -127,8 +135,8 @@ Para adicionar comentários ou informações adicionais:
 
 Para itens baseados em Normas Regulamentadoras (NR), o sistema exibe automaticamente o nível de infração:
 
-- **Infração - Nível 3**: Indica uma infração grave
-- **Infração - Nível 4**: Indica uma infração gravíssima
+* **Infração - Nível 3**: Indica uma infração grave
+* **Infração - Nível 4**: Indica uma infração gravíssima
 
 Estas informações são importantes para priorização de ações corretivas e cálculo de potencial de multas.
 
@@ -145,9 +153,9 @@ Durante o preenchimento, você pode acompanhar seu progresso de duas formas:
 
 O sistema web salva automaticamente suas respostas à medida que você preenche os itens, permitindo:
 
-- Pausar e retomar o preenchimento a qualquer momento
-- Trabalhar em diferentes sessões sem perda de dados
-- Segurança contra perda de informações por problemas de conexão
+* Pausar e retomar o preenchimento a qualquer momento
+* Trabalhar em diferentes sessões sem perda de dados
+* Segurança contra perda de informações por problemas de conexão
 
 ### Finalizando a Auditoria
 
@@ -173,16 +181,16 @@ Para retomar o preenchimento de uma auditoria salva:
 
 ## Dicas para um Preenchimento Eficiente
 
-- **Utilize atalhos de teclado**: Tab para avançar entre itens, espaço para selecionar opções
-- **Siga uma sequência lógica**: Complete uma seção por vez, na ordem apresentada
-- **Documente adequadamente**: Adicione fotos e observações detalhadas, especialmente para não conformidades
-- **Adicione ações corretivas**: Inclua recomendações claras para todos os itens não conformes
-- **Revise antes de finalizar**: Verifique todas as respostas antes de concluir a auditoria
+* **Utilize atalhos de teclado**: Tab para avançar entre itens, espaço para selecionar opções
+* **Siga uma sequência lógica**: Complete uma seção por vez, na ordem apresentada
+* **Documente adequadamente**: Adicione fotos e observações detalhadas, especialmente para não conformidades
+* **Adicione ações corretivas**: Inclua recomendações claras para todos os itens não conformes
+* **Revise antes de finalizar**: Verifique todas as respostas antes de concluir a auditoria
 
 ## Próximos Passos
 
 Após concluir o preenchimento da auditoria, você pode:
 
-- [Visualizar o relatório completo](/auditorias/web/relatorio-auditoria.md)
-- [Emitir planos de ação](/auditorias/web/emitir-plano-acao.md)
-- [Gerenciar suas auditorias](/auditorias/web/auditorias.md)
+* [Visualizar o relatório completo](../web/relatorio-auditoria.md)
+* [Emitir planos de ação](../web/emitir-plano-acao.md)
+* [Gerenciar suas auditorias](../web/auditorias.md)

@@ -92,7 +92,7 @@ Para garantir observações claras, objetivas e úteis:
 6. **Estruture informações complexas**: Use marcadores ou numeração para clareza
 7. **Seja construtivo**: Ao apontar problemas, sugira melhorias quando apropriado
 
-![Exemplo de observações bem estruturadas](../.gitbook/assets/observacao-detalhada.png)
+![Exemplo de observações bem estruturadas](../.gitbook/assets/observacao-detalhada.PNG)
 
 ## Exemplos de Observações Eficazes
 
