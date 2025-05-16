@@ -7,7 +7,7 @@ icon: clipboard
 
 Após criar uma auditoria no sistema web GNRX Auditorias, você deve preencher os itens do checklist avaliando cada requisito. Este guia explica como realizar esse preenchimento, desde a navegação até a avaliação de conformidade dos itens.
 
-![Tela de preenchimento de auditoria](../assets/preenchimento-auditoria-web.png)
+![Tela de preenchimento de auditoria](../.gitbook/assets/preenchendo-auditoria.png)
 
 ## Visão Geral da Tela de Preenchimento
 
@@ -41,7 +41,7 @@ Para alterar o status de conformidade:
 2. O sistema salvará automaticamente sua seleção
 3. O ícone à esquerda do item mudará para refletir o status selecionado
 
-![Opções de conformidade](../assets/opcoes-conformidade-web.png)
+![Opções de conformidade](<../.gitbook/assets/BOTÕES CONFORMIDADE.png>)
 
 O sistema suporta diversos outros tipos de itens para coleta de informações específicas:
 
@@ -84,13 +84,13 @@ O sistema suporta diversos outros tipos de itens para coleta de informações es
 
 Uma funcionalidade importante do sistema web é a possibilidade de registrar ações corretivas para itens não conformes:
 
-1. Para itens marcados como Não Conforme, localize o ícone de engrenagem (⚙️) ao lado direito do item
+1. Para itens marcados como Não Conforme, localize o ícone de chave inglesa (🔧) ao lado direito do item
 2. Clique na engrenagem para abrir as opções adicionais
 3. Selecione "Adicionar Ação Corretiva"
 4. Digite a descrição detalhada da ação corretiva recomendada
 5. Clique em "Salvar" para registrar a ação corretiva
 
-![Menu de ação corretiva](../assets/menu-acao-corretiva.png)
+![Menu de ação corretiva](../.gitbook/assets/acao-corretiva.png)
 
 {% hint style="info" %}
 As ações corretivas são particularmente importantes para a geração de planos de ação posteriores, pois serão incluídas automaticamente como recomendações.
@@ -103,10 +103,14 @@ As ações corretivas são particularmente importantes para a geração de plano
 Para adicionar evidências fotográficas a um item:
 
 1. Localize o ícone de câmera (📷) ao lado direito do item
-2. Clique neste ícone para abrir o seletor de arquivos
-3. Escolha uma imagem do seu computador
-4. Adicione uma descrição para a foto (opcional, mas recomendado)
-5. Clique em "Enviar" para anexar a imagem ao item
+2. Clique neste ícone para abrir o modal de fotos
+3. Clique em "+ Adicionar Fotos"
+4. Escolha uma imagem ou várias imagens do seu computador
+5. Confirme, o item será enviado.
+
+_Observação: Pode acontecer de demorar para exibir a foto. Clique no botão de recarregar caso ocorra algum delay._
+
+<figure><img src="../.gitbook/assets/adicionar-fotos.png" alt=""><figcaption></figcaption></figure>
 
 ### Observações
 
@@ -114,8 +118,10 @@ Para adicionar comentários ou informações adicionais:
 
 1. Clique no ícone de comentário (💬) ao lado direito do item
 2. Digite o texto na caixa de observações que aparecerá
-3. Clique fora da caixa ou pressione Enter para salvar
-4. Uma indicação visual aparecerá mostrando que o item possui observações
+3. Clique no botão "Salvar"
+4. Uma indicação visual (borda colorida) aparecerá mostrando que o item possui observações
+
+<figure><img src="../.gitbook/assets/adicionar-observacoes.png" alt=""><figcaption></figcaption></figure>
 
 ## Informações de Infração
 

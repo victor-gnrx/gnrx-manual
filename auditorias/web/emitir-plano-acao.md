@@ -7,11 +7,11 @@ icon: circle-check
 
 Os Planos de Ação são ferramentas essenciais para tratamento das não conformidades identificadas nas auditorias, permitindo acompanhar e garantir a implementação de medidas corretivas.
 
-![Opções de Plano de Ação](../assets/opcoes-plano-acao.png)
+![Opções de Plano de Ação](<../.gitbook/assets/Planos de ação.png>)
 
 ## Tipos de Planos de Ação
 
-O sistema GNRX Auditorias oferece dois formatos de planos de ação:
+O sistema GNRx Auditorias oferece dois formatos de planos de ação:
 
 | Plano de Ação A                                                      | Plano de Ação B                                                 |
 | -------------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -28,7 +28,7 @@ O sistema GNRX Auditorias oferece dois formatos de planos de ação:
 2. No topo da página, localize os botões de ação disponíveis
 3. Clique em **"Plano de Ação A"** ou **"Plano de Ação B"** conforme sua necessidade
 
-![Botões de Plano de Ação na auditoria](../assets/botoes-plano-acao.png)
+![Botões de Plano de Ação na auditoria](<../.gitbook/assets/Planos de ação.png>)
 
 ### Conteúdo do Plano de Ação A
 
@@ -43,7 +43,7 @@ O Plano de Ação A é exibido em formato de tabela com as seguintes colunas:
 * **Observações**: Campo para comentários adicionais
 * **Status**: Situação atual (Pendente, Em andamento, Concluído)
 
-![Exemplo de Plano de Ação A](../assets/plano-acao-a.png)
+![Exemplo de Plano de Ação A](../.gitbook/assets/plano-a.png)
 
 ### Conteúdo do Plano de Ação B
 
@@ -57,7 +57,7 @@ O Plano de Ação B segue a metodologia 5W2H, com as seguintes colunas:
 * **Como**: Método de implementação (How)
 * **Porque**: Justificativa da ação (Why)
 
-![Exemplo de Plano de Ação B](../assets/plano-acao-b.png)
+![Exemplo de Plano de Ação B](../.gitbook/assets/plano-b.png)
 
 {% hint style="info" %}
 Atualmente, os planos de ação são gerados em formato Excel, facilitando a edição, compartilhamento e acompanhamento offline quando necessário.
@@ -77,7 +77,7 @@ Um diferencial importante do sistema é a possibilidade de gerar planos de açã
 4. No modal que será aberto, selecione o tipo de plano desejado (A ou B)
 5. O sistema gerará um plano de ação consolidado com todas as não conformidades das auditorias selecionadas
 
-![Filtros e geração de plano consolidado](../assets/filtros-plano-consolidado.png)
+![Filtros e geração de plano consolidado](../.gitbook/assets/emitir-varios-plano-acao.png)
 
 ## Estrutura dos Planos Consolidados
 

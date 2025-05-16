@@ -28,14 +28,21 @@ Os gráficos interativos permitem análise aprofundada:
 
 <figure><img src="../.gitbook/assets/conf-unidade.png" alt=""><figcaption><p>Gráfico de Ocorrência por Unidade</p></figcaption></figure>
 
+#### Conformidade por Setor
+
+<figure><img src="../.gitbook/assets/ocorrencia-setor.png" alt=""><figcaption><p>Gráfico de Ocorrência por Unidade</p></figcaption></figure>
+
+#### Conformidade por Setor / Unidade
+
+<figure><img src="../.gitbook/assets/ocorrencia-setor-uniade.png" alt=""><figcaption><p>Gráfico de Ocorrência por Unidade</p></figcaption></figure>
+
 ## Filtros Disponíveis
 
 Personalize a visualização do Dashboard com os filtros:
 
-* **Período**: Últimos 7 dias, 30 dias, 3 meses, 6 meses, 12 meses
-* **Unidade**: Todas ou unidade específica
-* **Setor**: Todos ou setor específico
+* **Período**: Últimos 7 dias, 30 dias, 3 meses, 6 meses, 12 meses, Customizado
 * **Tipo de Checklist**: Customizado, NR, Todos
+* Modelo de Checklist: Visualize todas as informações de um modelo específico
 
 ## Dicas de Utilização
 
