@@ -5,145 +5,129 @@ icon: check-circle
 
 # Emitir Plano de Ação A | B
 
-Os Planos de Ação são ferramentas essenciais para o tratamento sistemático das não conformidades identificadas nas auditorias, garantindo a implementação de medidas corretivas e preventivas.
+Os Planos de Ação são ferramentas essenciais para tratamento das não conformidades identificadas nas auditorias, permitindo acompanhar e garantir a implementação de medidas corretivas.
 
-![Visão geral dos Planos de Ação](/images/visao-geral-planos-acao.png)
+![Opções de Plano de Ação](/auditorias/assets/opcoes-plano-acao.png)
 
 ## Tipos de Planos de Ação
 
-O sistema GNRX Auditorias oferece dois tipos de planos de ação com abordagens diferentes:
+O sistema GNRX Auditorias oferece dois formatos de planos de ação:
 
-<div className="grid grid-cols-2 gap-4 my-6">
-  <div className="card">
-    <h3>Plano de Ação Tipo A</h3>
-    <p>Focado em não conformidades individuais, com tratamento pontual e direto.</p>
-    <img src="/images/plano-acao-tipo-a.png" alt="Exemplo de Plano de Ação Tipo A" />
-  </div>
-  <div className="card">
-    <h3>Plano de Ação Tipo B</h3>
-    <p>Estruturado como projeto, permite agrupar não conformidades relacionadas e definir etapas coordenadas.</p>
-    <img src="/images/plano-acao-tipo-b.png" alt="Exemplo de Plano de Ação Tipo B" />
-  </div>
-</div>
+| Plano de Ação A | Plano de Ação B |
+|-----------------|-----------------|
+| Formato simples, focado em listar não conformidades e suas correções | Formato estruturado, organizado como projeto com abordagem 5W2H |
+| Exibe apenas as não conformidades identificadas na auditoria | Permite planejamento detalhado com metas, prazos e responsáveis |
+| Layout em formato de tabela tradicional | Layout com campos específicos para cada elemento do 5W2H |
+| Ideal para correções pontuais e diretas | Recomendado para ações complexas que exigem coordenação |
 
-## Quando Usar Cada Tipo
+## Emitindo Plano de Ação para uma Auditoria Específica
 
-- **Plano Tipo A**: Ideal para correções simples e diretas que podem ser resolvidas individualmente
-- **Plano Tipo B**: Recomendado para problemas complexos que exigem múltiplas ações coordenadas ou envolvem diferentes setores
+### Acesso pela Página da Auditoria
 
-## Criando um Plano de Ação Tipo A
+1. Acesse a auditoria concluída na qual deseja criar um plano de ação
+2. No topo da página, localize os botões de ação disponíveis
+3. Clique em **"Plano de Ação A"** ou **"Plano de Ação B"** conforme sua necessidade
 
-1. Acesse a auditoria concluída
-2. Clique em **"Criar Plano de Ação"**
-3. Selecione **"Plano Tipo A"**
-4. O sistema listará todas as não conformidades identificadas
-5. Para cada não conformidade:
-   - Confirme ou modifique a criticidade (Alta, Média, Baixa)
-   - Defina o responsável pela resolução
-   - Estabeleça o prazo para implementação
-   - Adicione instruções específicas (opcional)
-6. Clique em **"Gerar Plano de Ação"**
+![Botões de Plano de Ação na auditoria](/auditorias/assets/botoes-plano-acao.png)
 
-![Criação de Plano Tipo A](/images/criar-plano-tipo-a.png)
+### Conteúdo do Plano de Ação A
 
-## Criando um Plano de Ação Tipo B
+O Plano de Ação A é exibido em formato de tabela com as seguintes colunas:
 
-1. Acesse a auditoria concluída
-2. Clique em **"Criar Plano de Ação"**
-3. Selecione **"Plano Tipo B"**
-4. Configure as informações gerais do plano:
-   - Nome do plano
-   - Descrição/objetivo
-   - Coordenador responsável
-   - Data de início e previsão de conclusão
-5. Selecione as não conformidades que serão agrupadas neste plano
-6. Estruture as etapas do plano:
-   - Adicione ações macro (grandes etapas)
-   - Para cada ação macro, defina ações micro (tarefas específicas)
-   - Estabeleça datas, responsáveis e recursos para cada ação
-7. Clique em **"Gerar Plano de Ação"**
+- **Item da NR Descumprido**: Identificação do item não conforme
+- **Inconformidade Detectada**: Descrição da não conformidade
+- **Local**: Onde a não conformidade foi identificada
+- **Ação Corretiva**: Medida a ser implementada
+- **Responsáveis**: Pessoa designada para corrigir
+- **Prazo**: Data limite para implementação
+- **Observações**: Campo para comentários adicionais
+- **Status**: Situação atual (Pendente, Em andamento, Concluído)
 
-![Criação de Plano Tipo B](/images/criar-plano-tipo-b.png)
+![Exemplo de Plano de Ação A](/auditorias/assets/plano-acao-a.png)
 
-## Gerenciamento de Planos de Ação
+### Conteúdo do Plano de Ação B
 
-### Acompanhamento de Progresso
+O Plano de Ação B segue a metodologia 5W2H, com as seguintes colunas:
 
-Monitor o andamento dos planos de ação:
+- **Ação**: O que precisa ser feito (item não conforme)
+- **Responsável**: Quem irá executar a ação (Who)
+- **Quando**: Prazo para execução (When)
+- **Onde**: Local de implementação (Where)
+- **Meta**: Objetivo a ser alcançado (What)
+- **Como**: Método de implementação (How)
+- **Porque**: Justificativa da ação (Why)
 
-1. Acesse **"Planos de Ação"** no menu lateral
-2. Visualize todos os planos em andamento e concluídos
-3. Use filtros para encontrar planos específicos (por auditoria, status, responsável)
-4. Clique em um plano para ver detalhes e progresso
+![Exemplo de Plano de Ação B](/auditorias/assets/plano-acao-b.png)
 
-### Atualização e Resolução
+{% hint style="info" %}
+Atualmente, os planos de ação são gerados em formato Excel, facilitando a edição, compartilhamento e acompanhamento offline quando necessário.
+{% endhint %}
 
-Para atualizar o status das ações:
+## Emitindo Plano de Ação para Múltiplas Auditorias
 
-1. Acesse o plano de ação específico
-2. Para cada item ou ação:
-   - Atualize o percentual de conclusão
-   - Adicione comentários sobre o andamento
-   - Registre evidências da implementação (fotos, documentos)
-   - Marque como concluído quando finalizado
-3. O sistema calculará automaticamente o progresso geral do plano
+Um diferencial importante do sistema é a possibilidade de gerar planos de ação consolidados para várias auditorias de uma só vez:
 
-![Atualização de Plano de Ação](/images/atualizacao-plano-acao.png)
+1. Na lista de auditorias, utilize os filtros disponíveis para selecionar as auditorias desejadas:
+   - Filtrar por modelo
+   - Filtrar por unidade
+   - Filtrar por usuário
+   - Filtrar por período
 
-### Aprovação e Encerramento
+2. Após aplicar os filtros, o sistema exibirá o número de auditorias encontradas
 
-Para finalizar um plano de ação:
+3. Clique no botão **"Plano de Ação"** que aparece nos resultados filtrados
 
-1. Verifique se todas as ações estão concluídas
-2. Adicione evidências finais de implementação
-3. Solicite aprovação do responsável pela verificação
-4. Após aprovação, o plano é encerrado e arquivado no histórico
+4. No modal que será aberto, selecione o tipo de plano desejado (A ou B)
 
-## Notificações e Alertas
+5. O sistema gerará um plano de ação consolidado com todas as não conformidades das auditorias selecionadas
 
-O sistema envia notificações automáticas sobre planos de ação:
+![Filtros e geração de plano consolidado](/auditorias/assets/filtros-plano-consolidado.png)
 
-- Alertas de novos planos para responsáveis designados
-- Lembretes de prazos se aproximando
-- Avisos de ações em atraso
-- Notificações de conclusão de etapas
+## Estrutura dos Planos Consolidados
 
-## Relatórios de Planos de Ação
+Os planos de ação consolidados incluem:
 
-Para gerar relatórios sobre planos de ação:
+- **Cabeçalho com informações gerais**:
+  - Data de geração do plano
+  - Total de auditorias incluídas
+  - Total de itens não conformes
 
-1. Acesse **"Relatórios"** no menu lateral
-2. Selecione **"Planos de Ação"** como tipo de relatório
-3. Configure os filtros desejados
-4. Escolha o formato de saída (PDF, Excel)
-5. Clique em **"Gerar Relatório"**
+- **Detalhamento por auditoria**:
+  - Nome e código de cada auditoria
+  - Local e data da realização
+  - Dados do cabeçalho da auditoria original
 
-Os relatórios incluem:
-- Resumo do progresso de todos os planos
-- Detalhamento por responsável
-- Análise de prazos (em dia, atrasados)
-- Histórico de implementação
+- **Lista completa de não conformidades**:
+  - Organizadas por auditoria
+  - Mantendo a estrutura do tipo de plano selecionado (A ou B)
 
-![Relatório de Planos de Ação](/images/relatorio-planos-acao.png)
+## Benefícios dos Planos de Ação
 
-## Integrações
+- **Padronização**: Formato consistente para tratamento de não conformidades
+- **Rastreabilidade**: Vinculação clara entre não conformidades e ações corretivas
+- **Responsabilização**: Definição de responsáveis por cada ação
+- **Priorização**: Possibilidade de ordenar ações por criticidade
+- **Gestão visual**: Acompanhamento fácil do status de implementação
 
-Os planos de ação podem ser integrados com:
+## Utilização e Acompanhamento
 
-- Calendários (para visualização de prazos)
-- Sistemas de gestão de projetos
-- Ferramentas de comunicação da empresa
-- App mobile para atualizações em campo
+Após a geração do plano de ação em Excel:
+
+1. **Compartilhe** o plano com os responsáveis pelas ações
+2. **Defina** prazos realistas para implementação
+3. **Acompanhe** o progresso periodicamente
+4. **Atualize** o status das ações conforme são implementadas
+5. **Verifique** a eficácia das ações implementadas
 
 ## Dicas de Utilização
 
-- 💡 **Dica 1**: Priorize ações com base na criticidade e no impacto para o negócio
-- 💡 **Dica 2**: Estabeleça prazos realistas considerando recursos disponíveis
-- 💡 **Dica 3**: Realize verificações periódicas da eficácia das ações implementadas
-- 💡 **Dica 4**: Utilize o histórico de planos anteriores para aprendizado contínuo
+- 💡 **Dica 1**: Para não conformidades simples e diretas, utilize o Plano de Ação A
+- 💡 **Dica 2**: Para tratativas mais complexas que envolvem múltiplas etapas, opte pelo Plano de Ação B
+- 💡 **Dica 3**: Ao gerar planos consolidados, agrupe auditorias com temas relacionados
+- 💡 **Dica 4**: Utilize os filtros por período para acompanhar não conformidades recorrentes
 
 ## Próximos Passos
 
-- [Visualizar relatórios de eficácia](/auditorias/web/visualizar-relatorios.md)
-- [Programar auditorias de verificação](/auditorias/web/nova-auditoria.md)
-- [Analisar tendências no Dashboard](/auditorias/web/painel-dashboard.md)
+- [Visualizar relatórios de auditoria](/auditorias/web/relatorio-auditoria.md)
+- [Criar nova auditoria de verificação](/auditorias/web/criar-auditoria.md)
+- [Analisar tendências no Dashboard](/auditorias/web/painel.md)

@@ -5,94 +5,129 @@ icon: clipboard-list
 
 # Modelos NR
 
-Os Modelos NR (Normas Regulamentadoras) permitem realizar auditorias em conformidade com a legislação trabalhista brasileira, facilitando a verificação de requisitos legais.
+Os Modelos NR (Normas Regulamentadoras) permitem realizar auditorias em conformidade com a legislação trabalhista brasileira, oferecendo uma biblioteca completa de requisitos legais para verificação.
 
-![Visão geral dos Modelos NR](/images/visao-geral-modelos-nr.png)
+![Visão geral dos Modelos NR](/auditorias/assets/modelos-nr-visao-geral.png)
 
 ## O que são Modelos NR?
 
-Modelos NR são checklists pré-configurados que seguem a estrutura oficial das Normas Regulamentadoras do Ministério do Trabalho, contendo:
+Modelos NR são checklists pré-configurados baseados nas Normas Regulamentadoras oficiais do Ministério do Trabalho. Eles oferecem:
 
-- Itens e subitens fiéis aos textos normativos
-- Classificação automática de infrações
-- Potencial de multa calculado conforme legislação
+- Estrutura exata com os textos normativos originais
+- Organização hierárquica de itens e subitens conforme a norma
+- Classificação automática do tipo e nível de infração
+- Indicação de potencial de multa e valores correspondentes
 
-## Modelos Disponíveis
+## Biblioteca de Normas Disponíveis
 
-O sistema oferece modelos para as principais Normas Regulamentadoras:
+O sistema GNRX disponibiliza uma biblioteca completa das Normas Regulamentadoras, incluindo:
 
-| NR | Título | Aplicação Principal |
-|----|--------|---------------------|
-| NR-1 | Disposições Gerais | Todas as empresas |
-| NR-5 | CIPA | Empresas com 20+ funcionários |
-| NR-6 | EPI | Empresas que utilizam EPIs |
-| NR-10 | Segurança em Instalações Elétricas | Serviços com eletricidade |
-| NR-12 | Máquinas e Equipamentos | Indústrias e oficinas |
-| NR-17 | Ergonomia | Todos os ambientes de trabalho |
-| NR-20 | Líquidos Combustíveis e Inflamáveis | Postos, indústrias químicas |
-| NR-35 | Trabalho em Altura | Construção, manutenção, telecomunicações |
+| NR | Título | Foco |
+|----|--------|------|
+| NR-1 | Disposições Gerais e Gerenciamento de Riscos Ocupacionais | Diretrizes básicas para todas as empresas |
+| NR-3 | Embargo e Interdição | Procedimentos e critérios para embargo/interdição |
+| NR-4 | Serviços Especializados em Segurança e Medicina do Trabalho | Requisitos para SESMT |
+| NR-5 | Comissão Interna de Prevenção de Acidentes | Requisitos para CIPA |
+| NR-6 | Equipamento de Proteção Individual - EPI | Seleção e uso de EPIs |
+| NR-18 | Segurança e Saúde no Trabalho na Indústria da Construção | Requisitos específicos para obras |
+| (demais NRs) | | |
 
-## Como Criar um Novo Modelo NR
+## Criando um Novo Modelo NR
 
-1. No menu lateral, acesse **"Modelos NR"**
-2. Clique no botão **"Novo Modelo NR"**
-3. Selecione a Norma Regulamentadora desejada
-4. Adicione um nome e descrição para o modelo
-5. Configure as opções:
-   - Permitir fotos
-   - Permitir observações
-   - Calcular valores de multa
-6. Selecione os itens da NR que deseja incluir
-7. Clique em **"Salvar Modelo"**
+### Passo 1: Acesso à área de Modelos
 
-![Criação de Modelo NR](/images/criar-modelo-nr.png)
+1. No menu superior, clique em **"Modelos"**
+2. Selecione a opção **"Modelos NRs"** no submenu que aparece
 
-## Personalização de Modelos NR
+![Menu de acesso aos Modelos NR](/auditorias/assets/menu-modelos-nr.png)
 
-Embora baseados nas normas oficiais, os modelos NR podem ser personalizados:
+### Passo 2: Iniciar novo modelo
 
-- **Seleção de itens**: Inclua apenas os itens relevantes para sua operação
-- **Adição de observações**: Complemente os itens com instruções específicas
-- **Ajuste de criticidade**: Modifique o nível de criticidade conforme necessidades internas
-- **Complementos**: Adicione seções ou itens complementares não previstos na norma
+1. Clique no botão para criar um novo modelo
+2. Preencha as informações básicas:
+   - Nome do modelo
+   - Descrição (opcional)
+   - Opções de configuração como permitir fotos e observações
 
-## Versões e Atualizações
+### Passo 3: Selecionar itens da biblioteca de NRs
 
-O sistema mantém os modelos NR atualizados conforme mudanças na legislação:
+1. Clique em **"Nova Seção"** ou **"Selecionar Itens NR"**
+2. Na janela que abrir, você verá a lista completa das Normas Regulamentadoras
+3. Navegue e selecione a NR desejada (ex: NR-3, NR-18)
 
-- Atualizações automáticas quando há alterações nas normas
-- Controle de versões para rastreabilidade
-- Notificações de mudanças importantes
+![Seleção de NR](/auditorias/assets/selecao-nr.png)
 
-## Utilizando o Modelo nas Auditorias
+### Passo 4: Explorar e selecionar itens específicos
 
-Para iniciar uma auditoria com modelo NR:
+1. Após selecionar uma NR, o sistema exibirá os itens e subitens disponíveis
+2. Navegue pela estrutura hierárquica da norma
+3. Selecione os itens específicos que deseja incluir no seu modelo
+4. Observe as classificações de infração já pré-definidas (ex: "Infração de Segurança - 3")
 
-1. Acesse **"Criar Auditoria"**
-2. Selecione **"Modelo NR"** como tipo
-3. Escolha o modelo previamente configurado
-4. Defina local, data e demais informações
-5. Inicie a auditoria
+![Seleção de itens específicos](/auditorias/assets/selecao-itens-nr.png)
 
-## Visualização de Resultados
+### Passo 5: Finalizar e salvar o modelo
 
-Os resultados de auditorias baseadas em modelos NR incluem:
+1. Após selecionar todos os itens desejados, verifique a contagem de itens no topo da janela
+2. Clique no botão **"Salvar"** para confirmar a inclusão dos itens
+3. Finalize a criação do modelo com as configurações adicionais desejadas
 
-- Índice de conformidade geral
-- Itens não conformes identificados
-- Potencial de multa estimado
-- Recomendações para correção
+## Estrutura dos Itens NR
 
-![Resultados de Auditoria NR](/images/resultados-auditoria-nr.png)
+Cada item das Normas Regulamentadoras no sistema possui:
+
+- **Código e numeração oficial**: Seguindo a estrutura da norma (ex: 18.9.1)
+- **Texto completo**: Exatamente como consta na legislação
+- **Classificação de infração**: Tipo (Segurança, Saúde, etc.) e nível (1 a 4)
+- **Subitens**: Quando aplicável, com detalhamento das alíneas
+
+Como mostrado na Imagem 3, os itens específicos (como 18.9.1 a 18.9.4) exibem:
+- Texto normativo completo
+- Classificação da infração (ex: "Infração de Segurança - 3")
+- Estrutura de subitens onde aplicável (como no item 18.9.2)
+
+## Gerenciamento de Modelos NR
+
+### Visualização e edição de modelo existente
+
+1. Na lista de modelos NR, clique no modelo que deseja visualizar
+2. Você verá a estrutura completa como na Imagem 1, com:
+   - Código e nome de cada item
+   - Descrição completa dos requisitos
+   - Estrutura hierárquica (itens, subitens, alíneas)
+
+![Visualização de modelo existente](/auditorias/assets/modelo-nr-existente.png)
+
+### Adição de novos itens a um modelo existente
+
+1. Em um modelo existente, clique no botão **"Selecionar Itens NR"**
+2. Navegue pela biblioteca de NRs e selecione itens adicionais
+3. Salve as alterações para atualizar o modelo
+
+### Remoção de itens
+
+Para remover itens que não são relevantes para sua operação:
+1. Localize o item no modelo
+2. Clique no ícone de lixeira (🗑️) ao lado do item
+3. Confirme a remoção quando solicitado
+
+## Atualizações Automáticas
+
+O sistema GNRX mantém a biblioteca de NRs atualizada conforme as mudanças na legislação:
+
+- Normas revogadas são marcadas como tal (ex: "NR-2 - INSPEÇÃO PRÉVIA (REVOGADA)")
+- Novos textos normativos são incorporados automaticamente
+- Modificações em requisitos existentes são atualizadas
 
 ## Dicas de Utilização
 
-- 💡 **Dica 1**: Crie modelos NR específicos para cada unidade ou área
-- 💡 **Dica 2**: Realize pré-auditorias internas antes de fiscalizações oficiais
-- 💡 **Dica 3**: Compare resultados históricos para verificar evolução da conformidade
+- 💡 **Dica 1**: Crie modelos específicos para diferentes áreas de sua empresa, selecionando apenas as NRs relevantes para cada operação
+- 💡 **Dica 2**: Observe a classificação de infração dos itens para priorizar os mais críticos
+- 💡 **Dica 3**: Utilize a função de pesquisa para encontrar rapidamente itens específicos dentro das NRs
+- 💡 **Dica 4**: Compare os modelos com a norma completa para garantir que todos os requisitos aplicáveis foram incluídos
 
 ## Próximos Passos
 
-- [Criar uma auditoria com modelo NR](/auditorias/web/nova-auditoria.md)
-- [Gerar relatórios de conformidade legal](/auditorias/web/visualizar-relatorios.md)
-- [Criar planos de ação para não conformidades](/auditorias/web/criar-planos-acao.md)
+- [Criar uma auditoria utilizando modelo NR](/auditorias/web/criar-auditoria.md)
+- [Gerar relatórios de conformidade legal](/auditorias/web/relatorio-auditoria.md)
+- [Emitir planos de ação para não conformidades](/auditorias/web/emitir-plano-acao.md)

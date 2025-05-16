@@ -16,7 +16,9 @@ No Dashboard, você encontra os principais indicadores de desempenho:
 - **Índice de Conformidade** geral da empresa
 - **Status por Setor** (Crítico, Atenção, Bom, Ótimo) 
 - **Status por Unidade** (Crítico, Atenção, Bom, Ótimo)
+- **Status por Setores em Cada Unidade** (Crítico, Atenção, Bom, Ótimo)
 - **Auditorias por Usuário** para acompanhamento de metas
+- **Auditorias Conformes e Não Conformes** por unidade
 
 ## Gráficos Interativos
 
@@ -27,27 +29,7 @@ Os gráficos interativos permitem análise aprofundada:
     <h3>Conformidade por Unidade</h3>
     <img src="/images/grafico-conformidade-unidade.png" alt="Gráfico de conformidade por unidade" />
   </div>
-  <div className="card">
-    <h3>Evolução Mensal</h3>
-    <img src="/images/grafico-evolucao-mensal.png" alt="Gráfico de evolução mensal" />
-  </div>
 </div>
-
-## Monitoramento de Não Conformidades
-
-Acompanhe a situação das não conformidades:
-
-- **Total de Não Conformidades** por status (Pendente, Em Andamento, Concluída)
-- **Prazo Médio de Resolução** das não conformidades
-- **Áreas Críticas** que requerem atenção imediata
-
-## Ações Rápidas
-
-Acesse rapidamente as funções mais utilizadas diretamente do Dashboard:
-
-- Criar Nova Auditoria
-- Visualizar Relatórios Recentes
-- Acessar Planos de Ação Pendentes
 
 ## Filtros Disponíveis
 
