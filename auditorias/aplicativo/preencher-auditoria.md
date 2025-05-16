@@ -1,196 +1,173 @@
 ---
-description: Como preencher os itens de uma auditoria no sistema web
+description: Preenchendo itens no checklist de auditoria
 icon: wand-magic-sparkles
 ---
 
 # Preenchendo uma Auditoria
 
-Após criar uma auditoria no sistema web GNRX Auditorias, você deve preencher os itens do checklist avaliando cada requisito. Este guia explica como realizar esse preenchimento, desde a navegação até a avaliação de conformidade dos itens.
+Este guia explica como realizar o preenchimento de itens em uma auditoria no aplicativo GNRX Auditorias, desde a navegação pelas seções até a avaliação de conformidade dos itens.
 
-![Tela de preenchimento de auditoria](../.gitbook/assets/446shots_so.png)
+## Visão Geral da Tela de Detalhes Auditoria
 
-## Visão Geral da Tela de Preenchimento
+Após criar uma auditoria, e selecionar a auditoria/checklist criada, você verá a tela inicial do checklist com os seguintes elementos:
 
-A interface de preenchimento de auditoria no sistema web contém os seguintes elementos:
+![Tela de preenchimento de auditoria](../.gitbook/assets/iOS_5.png)
 
-1. **Cabeçalho**: Exibe o código e nome da auditoria, com informações como data e local
-2. **Menu de Navegação**: No lado esquerdo, permite navegar entre diferentes seções da auditoria
-3. **Lista de Itens**: Área principal que mostra os itens a serem verificados
-4. **Indicadores de Conformidade**: Mostram o status de cada item (Conforme, Não Conforme, Não Aplicável)
-5. **Ferramentas de Evidência**: Opções para adicionar fotos e observações
+1. **Barra Superior**: No lado esquerdo, temos quantos itens foram preenchidos Ex: 0 de 33 itens preenchidos
+2. **Barra Superior**: No lado direito, temos o um botão de recarregar a auditoria.
+3. **Nome da Auditoria**: Exibe o nome da auditoria, com o número único da auditoria criada. Só aparece se a auditoria tiver sido sincronizada.
+4. **Informações Adicionais**: Exibe informações adicionais sobre a auditoria, como data de criação, unidade e informações adicionais do modelo.
+5. **Localização**: Permite você obter a localização atual da auditoria, via GPS.
+6. **Botão de Iniciar Auditoria**: Permite iniciar a auditoria e ir para a tela de preenchimento.
+7. **Botão de Editar Auditoria**: Permite editar a auditoria, como nome, descrição, unidade e setor.
+8. **Excluir Auditoria**: Permite excluir a auditoria.
+9. **Assinatura**: Permite coletar assinaturas digitais.
+10. **Botão Gerar Relatório**: Permite gerar um relatório para a auditoria.
 
-## Tipos de Itens e Como Preenchê-los
+### Obtendo Localização
 
-O sistema oferece diversos tipos de itens para diferentes necessidades de verificação:
+Para obter a localização atual da auditoria, basta seguir os passos abaixo:
+
+1. Vá na seção de Localização.
+2. Se tiver "Localização não definida", é que você ainda não definiu a localização da auditoria.
+3. Para definir a localização da auditoria, basta clicar no botão "Obter GPS".
+4. Após clicar no botão, o aplicativo irá pedir permissão para acessar a localização do dispositivo.
+5. Se a permissão for dada, o aplicativo informar que está obtendo a localização atual.
+   * Este processo pode demorar alguns segundos.
+6. Após obter a localização, o aplicativo irá atualizar a localização na seção de Localização, com a latitude e longitude.
+7. Para atualizar a localização, basta clicar no botão "Atualizar GPS".
+
+### Coletando Assinaturas
+
+Para coletar assinaturas digitais, basta seguir os passos abaixo:
+
+1. Vá na seção de Assinatura.
+2. Para coletar uma assinatura, clique no botão "Incluir Assinatura".
+3. Será aberto uma nova tela para preenchimento.
+4. Preencha o nome completo do assinante.
+5. Efetue a assinatura desenhando na tela.
+   * Caso tenha erros na assinatura, clique em "Limpar" e tente novamente.
+6. Após a assinatura ser feita, clique em "Confirmar".
+7. Você pode adicionar mais assinaturas digitais clicando no botão "Incluir Assinatura".
+8. Caso queria excluir uma assinatura, clique no botão "Excluir Assinatura".
+9. Caso a assinatura já tenha sido sincronizada, não será mais possível excluir.
+
+### Excluindo uma Auditoria
+
+Para excluir uma auditoria, basta seguir os passos abaixo:
+
+1. Vá na seção de Ações.
+2. Clique no botão "Excluir".
+3. Abrirá uma tela para confirmação.
+4. Clique em "Excluir" para confirmar a exclusão.
+   * Caso a auditoria não tenha sido sincronizada, todas as informações serão excluídas permanentemente.
+   * Caso a auditoria tenha sido sincronizada, todas as informações serão excluídas no dispositivo, mas não no sistema web.
+
+## Preenchendo a auditoria
+
+Para inciar o preenchimento, na tela de "Detalhes Auditoria", clique no botão "Iniciar Auditoria", localizado na seção de Ações.
+
+Após clicar no botão, o aplicativo irá abrir a tela de preenchimento do checklist.
+
+## Tipos de Itens
+
+Na auditoria, existem diversos tipos de itens, são eles:
 
 ### Conformidade
 
-Este é o tipo mais comum, onde você avalia se o item atende aos requisitos:
+Este é o tipo de item mais comum, onde você deverá avaliar a conformidade de cada item do checklist.\
+O preenchimento funciona da seguinte forma:
 
-* **Conforme (C)**: Representado por um ícone verde, indica que o item atende completamente aos requisitos
-* **Não Conforme (NC)**: Representado por um ícone vermelho, indica que o item não atende aos requisitos
-* **Não Aplicável (NA)**: Representado por um ícone cinza, indica que o item não se aplica à situação atual
+<figure><img src="../.gitbook/assets/1.png" alt="" width="375"><figcaption><p>Conformidade</p></figcaption></figure>
 
-Para alterar o status de conformidade:
+No quadrado onde está uma "?" você pode clicar para ir alternando entre as opções de conformidade:
 
-1. Clique no botão correspondente ao status desejado (C, NC ou NA)
-2. O sistema salvará automaticamente sua seleção
-3. O ícone à esquerda do item mudará para refletir o status selecionado
+* **Conforme** (C) (Verde): O item atende completamente aos requisitos
+* **Não Conforme** (N/C) (Vermelho): O item não atende aos requisitos. Abre uma nova opção de conformidade, o resolvido:
+  * **Resolvido** (OK) (Verde): O item foi resolvido
+  * **Alíneas não conformes**: Com no Não conforme, aparece-rá a opção de definir quais alíneas estão não conformes
+* **Não Aplicável** (N/A) (Cinza): O item não se aplica à situação atual
+* **Não Avaliado** (?) (Branco): O item não foi verificado nesta auditoria
 
 ![Opções de conformidade](<../.gitbook/assets/BOTÕES CONFORMIDADE.png>)
 
-### Alíneas
+### Peso / Nota
 
-Alguns itens contêm alíneas (subitens) que podem ser avaliados individualmente:
+Este item é um tipo especial, onde você pode definir uma nota numérica para seu item.
 
-1. As alíneas são exibidas abaixo do item principal (normalmente identificadas como a, b, c, d, etc.)
-2. Cada alínea tem seus próprios botões de conformidade
-3. Quando uma ou mais alíneas são marcadas como Não Conforme, o item principal também é automaticamente marcado como Não Conforme
+Aparecerá os números de notas disponíveis no item, e você pode clicar no número para definir a nota:
 
-### Resolvido (OK)
+![Nota](../.gitbook/assets/8.png)
 
-Para itens marcados como Não Conformes que foram posteriormente corrigidos:
+### Informação
 
-1. Após marcar um item como Não Conforme, um botão adicional "Resolvido" aparecerá
-2. Ao clicar neste botão, o sistema indicará que a não conformidade foi corrigida
-3. O item continuará registrado como uma não conformidade inicial, mas com status de resolução
+Este item é apenas um texto, onde o responsável pela criação do modelo deixou alguma informação relevante sobre a auditoria.
 
-### Outros Tipos de Itens
+![Informação](../.gitbook/assets/5.png)
 
-O sistema suporta diversos outros tipos de itens para coleta de informações específicas:
+### Texto
 
-#### Peso / Nota
+Este item é um texto, onde você pode preencher o texto que deseja, sem restrições.
 
-* Permite atribuir uma nota numérica dentro de uma escala pré-definida
-* Clique no valor desejado para selecionar a nota
+![Texto](../.gitbook/assets/7.png)
 
-#### Informação
+### Número
 
-* Apenas exibe texto informativo, sem necessidade de resposta
-* Fornece contexto ou instruções para o auditor
+Este item é para preenchimento apenas de números.
 
-#### Texto
+![Número](../.gitbook/assets/6.png)
 
-* Campo para entrada de texto livre
-* Clique no campo e digite a informação necessária
+### Temperatura
 
-#### Número
+Este item é para preenchimento de números com uma escala de temperatura.\
+O preenchimento dele será automaticamente formatado como ºC.
 
-* Campo específico para valores numéricos
-* O sistema aceita apenas números neste campo
+![Temperatura](../.gitbook/assets/4.png)
 
-#### Temperatura
+### Data
 
-* Para registro de temperaturas em graus Celsius
-* Inclui formatação automática com o símbolo °C
+Este item é para preenchimento de datas.\
+Nele, clicando no calendário, você pode escolher a data que deseja.
 
-#### Data
+![Data](../.gitbook/assets/3.png)
 
-* Campo para seleção de datas específicas
-* Clique no ícone de calendário para selecionar a data desejada
+### Hora
 
-#### Hora
+Este item é para preenchimento de datas.\
+Nele, clicando no relógio, você pode escolher a hora que deseja.
 
-* Para registro de horários
-* Clique no ícone de relógio para selecionar a hora
-
-## Adicionando Ação Corretiva
-
-Uma funcionalidade importante do sistema web é a possibilidade de registrar ações corretivas para itens não conformes:
-
-1. Para itens marcados como Não Conforme, localize o ícone de engrenagem (⚙️) ao lado direito do item
-2. Clique na engrenagem para abrir as opções adicionais
-3. Selecione "Adicionar Ação Corretiva"
-4. Digite a descrição detalhada da ação corretiva recomendada
-5. Clique em "Salvar" para registrar a ação corretiva
-
-![Menu de ação corretiva](../assets/menu-acao-corretiva.png)
-
-{% hint style="info" %}
-As ações corretivas são particularmente importantes para a geração de planos de ação posteriores, pois serão incluídas automaticamente como recomendações.
-{% endhint %}
-
-## Adicionando Evidências
-
-### Fotos e Imagens
-
-Para adicionar evidências fotográficas a um item:
-
-1. Localize o ícone de câmera (📷) ao lado direito do item
-2. Clique neste ícone para abrir o seletor de arquivos
-3. Escolha uma imagem do seu computador
-4. Adicione uma descrição para a foto (opcional, mas recomendado)
-5. Clique em "Enviar" para anexar a imagem ao item
-
-### Observações
-
-Para adicionar comentários ou informações adicionais:
-
-1. Clique no ícone de comentário (💬) ao lado direito do item
-2. Digite o texto na caixa de observações que aparecerá
-3. Clique fora da caixa ou pressione Enter para salvar
-4. Uma indicação visual aparecerá mostrando que o item possui observações
-
-## Informações de Infração
-
-Para itens baseados em Normas Regulamentadoras (NR), o sistema exibe automaticamente o nível de infração:
-
-* **Infração - Nível 3**: Indica uma infração grave
-* **Infração - Nível 4**: Indica uma infração gravíssima
-
-Estas informações são importantes para priorização de ações corretivas e cálculo de potencial de multas.
-
-## Progresso e Finalização
-
-### Acompanhamento de Progresso
-
-Durante o preenchimento, você pode acompanhar seu progresso de duas formas:
-
-1. **Contador de itens**: No topo da página, indica quantos itens já foram respondidos do total
-2. **Indicadores visuais**: Os itens já respondidos apresentam ícones coloridos, enquanto os pendentes não apresentam indicadores
-
-### Salvamento Automático
-
-O sistema web salva automaticamente suas respostas à medida que você preenche os itens, permitindo:
-
-* Pausar e retomar o preenchimento a qualquer momento
-* Trabalhar em diferentes sessões sem perda de dados
-* Segurança contra perda de informações por problemas de conexão
-
-### Finalizando a Auditoria
-
-Quando todos os itens obrigatórios estiverem preenchidos:
-
-1. Verifique se não restam itens pendentes de resposta
-2. No topo da página, clique no botão "Finalizar Auditoria"
-3. Confirme a finalização quando solicitado
-4. O sistema calculará automaticamente os índices de conformidade e fechará a auditoria
-
-{% hint style="warning" %}
-Após finalizada, a auditoria não poderá mais ser editada, apenas visualizada. Certifique-se de que todos os dados estão corretos antes de finalizar.
-{% endhint %}
+![Hora](../.gitbook/assets/2.png)
 
 ## Continuando uma Auditoria em Andamento
 
 Para retomar o preenchimento de uma auditoria salva:
 
-1. Na lista de auditorias, localize a auditoria com status "Em Andamento"
-2. Clique sobre o nome da auditoria para abri-la
-3. O sistema abrirá a interface de preenchimento no ponto onde você parou
-4. Continue o preenchimento normalmente
+1. Na tela inicial, acesse "Minhas Auditorias"
+2. Toque na auditoria para abri-la
+3. O aplicativo informará que a auditoria ainda tem itens por preencher.
+4. Continue o preenchimento de onde parou
 
 ## Dicas para um Preenchimento Eficiente
 
-* **Utilize atalhos de teclado**: Tab para avançar entre itens, espaço para selecionar opções
+* **Prepare-se antes**: Familiarize-se com o modelo de checklist antes de iniciar a auditoria
 * **Siga uma sequência lógica**: Complete uma seção por vez, na ordem apresentada
 * **Documente adequadamente**: Adicione fotos e observações detalhadas, especialmente para não conformidades
-* **Adicione ações corretivas**: Inclua recomendações claras para todos os itens não conformes
-* **Revise antes de finalizar**: Verifique todas as respostas antes de concluir a auditoria
+* **Salve regularmente**: Evite perda de trabalho salvando seu progresso frequentemente
+* **Priorize itens críticos**: Em auditorias extensas, comece pelos itens de maior impacto
+* **Trabalhe offline conscientemente**: Lembre-se de sincronizar assim que houver conexão disponível
+
+## Solução de Problemas Comuns
+
+### Tela congelando durante o preenchimento
+
+* Dispositivos com pouca memória podem apresentar lentidão
+* Feche outros aplicativos em execução
+* Reinicie o aplicativo ou o dispositivo
 
 ## Próximos Passos
 
-Após concluir o preenchimento da auditoria, você pode:
+Após preencher os itens do checklist, você pode complementar com evidências fotográficas e observações:
 
-* [Visualizar o relatório completo](../web/relatorio-auditoria.md)
-* [Emitir planos de ação](../web/emitir-plano-acao.md)
-* [Gerenciar suas auditorias](../web/auditorias.md)
+* [Como Tirar Fotos e Anexar Evidências](tirar-fotos.md)
+* [Como Adicionar Observações](adicionar-observacoes.md)
+* [Sincronizar com o Servidor](sincronizar.md)
