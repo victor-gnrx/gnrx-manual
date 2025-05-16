@@ -16,3 +16,10 @@
 ## Sistema Web
 
 * [Introdução ao Sistema Web](web/README.md)
+* [Painel (Dashboard)](web/painel.md)
+* [Modelos NR](web/modelo-nr.md)
+* [Modelos Customizados](web/modelo-customizado.md)
+* [Minhas Auditorias](web/auditorias.md)
+* [Criar Auditoria](web/criar-auditoria.md)
+* [Emitir Plano de Ação](web/emitir-plano-acao.md)
+* [Relatório de Auditoria](web/relatorio-auditoria.md)
