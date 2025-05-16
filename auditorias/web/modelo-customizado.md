@@ -1,6 +1,8 @@
 ---
-description: Como criar e gerenciar modelos de checklist personalizados para suas necessidades específicas
-icon: edit
+description: >-
+  Como criar e gerenciar modelos de checklist personalizados para suas
+  necessidades específicas
+icon: clipboard-prescription
 ---
 
 # Modelos Customizados
