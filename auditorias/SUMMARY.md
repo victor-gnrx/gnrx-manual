@@ -21,5 +21,6 @@
 * [Modelos Customizados](web/modelo-customizado.md)
 * [Minhas Auditorias](web/auditorias.md)
 * [Criar Auditoria](web/criar-auditoria.md)
+* [Preencher Auditoria](web/preencher-auditoria.md)
 * [Emitir Plano de Ação](web/emitir-plano-acao.md)
 * [Relatório de Auditoria](web/relatorio-auditoria.md)
