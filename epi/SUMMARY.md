@@ -1,7 +1,7 @@
 # Status do Manual - Sistema Web GNRX Gestão de EPI
 
 ## Introdução
-- [README.md](README.md) ✅
+- [Início](README.md) ✅
 - [Painel de Controle](painel.md) ✅ (Em construção)
 
 ## Configurações Iniciais
