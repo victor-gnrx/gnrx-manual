@@ -22,13 +22,13 @@
 - [Vincular Unidades](configuracoes-iniciais/setores/vincular-unidades.md) ✅
 
 ### GHE
-- [Visão Geral](configuracoes-iniciais/ghe/README.md) ✅
-- [Listar GHE](configuracoes-iniciais/ghe/listar-ghe.md) ✅
-- [Criar GHE](configuracoes-iniciais/ghe/criar-ghe.md) ✅
-- [Editar GHE](configuracoes-iniciais/ghe/editar-ghe.md) ✅
-- [Desativar GHE](configuracoes-iniciais/ghe/desativar-ghe.md) ✅
-- [Vincular Riscos](configuracoes-iniciais/ghe/vincular-riscos.md) ✅
-- [Vincular EPIs](configuracoes-iniciais/ghe/vincular-epis.md) ✅
+- [Visão Geral](configuracoes-iniciais/ghes/README.md) ✅
+- [Listar GHE](configuracoes-iniciais/ghes/listar-ghe.md) ✅
+- [Criar GHE](configuracoes-iniciais/ghes/criar-ghe.md) ✅
+- [Editar GHE](configuracoes-iniciais/ghes/editar-ghe.md) ✅
+- [Desativar GHE](configuracoes-iniciais/ghes/desativar-ghe.md) ✅
+- [Vincular Riscos](configuracoes-iniciais/ghes/vincular-riscos.md) ✅
+- [Vincular EPIs](configuracoes-iniciais/ghes/vincular-epis.md) ✅
 
 ### Cargos
 - [Visão Geral](configuracoes-iniciais/cargos/README.md) ✅
@@ -46,7 +46,7 @@
 - [Vincular Unidades](configuracoes-iniciais/colaboradores/vincular-unidades.md) ✅
 - [Vincular Setores](configuracoes-iniciais/colaboradores/vincular-setores.md) ✅
 - [Vincular GHE](configuracoes-iniciais/colaboradores/vincular-ghe.md) ✅
-- [Acessar Ficha](ficha-epi-digital/acessar-ficha.md) ✅
+- [Acessar Ficha](ficha-epi-digital/colaboradores/acessar-ficha.md) ✅
 - [Histórico do Colaborador](configuracoes-iniciais/colaboradores/historico-colaborador.md) ✅
 
 ### Reconhecimento Facial
@@ -89,7 +89,7 @@
 - [Nova Solicitação](solicitacoes/nova-solicitacao.md) ✅
 - [Selecionar Colaborador](solicitacoes/selecionar-colaborador.md) ✅
 - [Selecionar EPIs](solicitacoes/selecionar-epis.md) ✅
-- [Definir Motivos](solicitacoes/definir-motivos.md) ✅
+- [Definir Motivos](solicitacoes/selecionar-motivos.md) ✅
 
 ### Devolução
 - [Visão Geral](solicitacoes/devolucao/README.md) ✅
@@ -131,8 +131,3 @@
 - [Motivos de Devolução](configuracoes-gerais/motivos/motivos-devolucao.md) ✅
 - [Motivos de Perda](configuracoes-gerais/motivos/motivos-perda.md) ✅
 - [Motivos de Quebra](configuracoes-gerais/motivos/motivos-quebra.md) ✅ 
-
-## Resumo do Status
-- **Total de arquivos:** 102
-- **Arquivos criados:** 23 (22.5%)
-- **Arquivos pendentes:** 79 (77.5%)
