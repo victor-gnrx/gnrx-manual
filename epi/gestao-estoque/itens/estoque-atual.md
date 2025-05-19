@@ -1,176 +1,109 @@
 # Estoque Atual
 
-Esta página explica como acessar e utilizar o relatório de Estoque Atual no Sistema GNRX.
+Esta página explica como gerar e interpretar relatórios de estoque atual no Sistema GNRX Gestão de EPI.
 
 ## Visão Geral
 
-O relatório de Estoque Atual oferece uma visão completa e atualizada de todos os EPIs disponíveis, permitindo monitorar quantidades, identificar itens com estoque baixo e gerenciar eficientemente o inventário de equipamentos de proteção.
+O relatório de Estoque Atual fornece uma visão completa e instantânea da situação do inventário de EPIs, permitindo visualizar quantidades disponíveis, itens em uso, níveis de estoque por local e status detalhado de cada unidade física de equipamento.
+
+![Relatório de Estoque Atual](../../../assets/images/relatorio-estoque-atual.png)
 
 ## Acessando o Relatório
 
-1. No menu lateral, acesse **Gestão de Estoque**
-2. Selecione **Relatórios**
-3. Clique em **Estoque Atual**
+Para acessar o relatório de estoque atual:
 
-![Acesso ao Relatório de Estoque](../../../assets/images/acesso-relatorio-estoque.png)
+1. No menu lateral, clique em **Inventário**
+2. Selecione **Inventário de Items**
+3. Clique no botão **Exportar PDF** no canto superior direito
+4. Selecione a opção **Completo** para o relatório mais detalhado
 
-## Interface do Relatório
+Alternativamente, você pode acessar informações de estoque detalhadas para um item específico:
 
-![Interface do Relatório de Estoque](../../../assets/images/interface-relatorio-estoque.png)
+1. Clique no item desejado na lista para abrir seus detalhes
+2. Navegue entre as abas **Informações Item**, **Inventário Detalhado** e **Lotes**
 
-O relatório de Estoque Atual apresenta:
+## Informações Disponíveis
 
-### Filtros e Controles
+O relatório de estoque atual apresenta:
 
-| Filtro | Descrição |
-|--------|-----------|
-| Unidade | Filtra o estoque por unidade específica |
-| Tipo de EPI | Filtra por categoria de EPI conforme NR-6 |
-| Status de Estoque | Todos, Crítico (abaixo do mínimo), Normal |
-| Mostrar Variantes | Expandir para mostrar detalhamento por variante |
-| Incluir Inativos | Mostra também itens marcados como inativos |
+### Visão Consolidada
+- **Total de itens cadastrados**: Quantidade de diferentes tipos de EPIs
+- **Total em estoque**: Soma de todas as unidades disponíveis
+- **Total em uso**: Quantidade de equipamentos atualmente alocados a colaboradores
+- **Total por situação**: Distribuição por status (disponível, em uso, perda, quebra)
 
-### Tabela de Resultados
+### Por Item de EPI
+- **Estoque total**: Número total de unidades de cada tipo de EPI
+- **Tempo de troca**: Período de substituição recomendado
+- **Validade**: Data limite de utilização baseada no CA
+- **Distribuição por variante**: Quantidades por tamanho, cor ou outras características
 
-A tabela principal exibe:
+### Inventário Detalhado
+- **Número de série**: Identificador único de cada unidade física
+- **Estado**: Status atual (disponível, em uso, inativo, perda, quebra)
+- **Validade**: Data de vencimento específica daquela unidade
+- **Número de usos**: Quantas vezes o item foi utilizado
+- **Colaborador**: Pessoa atualmente usando o equipamento (quando aplicável)
+- **Unidade**: Localização física do equipamento
+- **Histórico**: Datas de alocação e previsão de devolução
 
-- **Código**: Identificador único do item
-- **Nome**: Nome descritivo do EPI
-- **CA**: Número do Certificado de Aprovação (quando aplicável)
-- **Estoque Mínimo**: Nível mínimo configurado
-- **Estoque Atual**: Quantidade disponível atualmente
-- **Status**: Indicativo visual (Verde: normal, Amarelo: baixo, Vermelho: crítico)
-- **Valor Médio**: Custo unitário médio (baseado nos lotes)
-- **Valor Total**: Valor total do estoque deste item
+## Filtragem e Personalização
 
-### Resumo Estatístico
+O relatório pode ser filtrado por:
 
-No topo do relatório, são apresentados indicadores resumidos:
+- **Unidade**: Para visualizar apenas o estoque de um local específico
+- **Tipo de EPI**: Para focar em categorias específicas de equipamentos
+- **Status**: Para visualizar apenas itens disponíveis, em uso, etc.
+- **Período de validade**: Para identificar itens próximos ao vencimento
 
-- Total de itens em estoque
-- Valor total do inventário
-- Quantidade de itens em nível crítico
-- Valor total de itens a repor (baseado no estoque mínimo)
+## Formato de Exportação
 
-## Funcionalidades Avançadas
+O sistema permite exportar o relatório em diferentes formatos:
 
-### Visualização Detalhada
+- **Resumido**: Visão condensada apenas com totais por item
+- **Variações**: Inclui detalhamento por variantes de cada item
+- **Completo**: Relatório detalhado com todas as informações disponíveis
 
-Ao clicar em um item da lista, o sistema exibe informações detalhadas:
+A exportação gera um arquivo PDF estruturado que pode ser salvo, impresso ou compartilhado.
 
-- Distribuição por lote (quantidades e validades)
-- Detalhamento por variante (tamanhos, cores, etc.)
-- Histórico recente de movimentações
-- Gráfico de evolução do estoque nos últimos meses
+## Uso Prático do Relatório
 
-![Detalhamento de Item](../../../assets/images/detalhamento-item-estoque.png)
+O relatório de Estoque Atual é útil para:
 
-### Exportação de Dados
+- **Planejamento de compras**: Identificar itens com baixo estoque
+- **Controle de validade**: Verificar equipamentos próximos ao vencimento
+- **Auditoria interna**: Conferir a distribuição e uso dos EPIs
+- **Conformidade legal**: Documentar a disponibilidade de equipamentos certificados
+- **Análise financeira**: Avaliar o valor do inventário atual
 
-O relatório pode ser exportado em diversos formatos:
+## Interpretação dos Status
 
-1. Clique no botão **Exportar**
-2. Selecione o formato desejado:
-   - Excel (.xlsx)
-   - CSV
-   - PDF
-3. Escolha as colunas a incluir
-4. Defina o nome do arquivo
-5. Clique em **Confirmar Exportação**
+O relatório utiliza os seguintes códigos de status:
 
-### Impressão Formatada
+- **Disponível**: Itens em estoque prontos para uso
+- **Em Uso**: Equipamentos atualmente alocados a colaboradores
+- **Inativo**: Itens desativados ou fora de conformidade
+- **Perda**: Equipamentos registrados como perdidos
+- **Quebra**: Itens danificados e fora de uso
 
-Para imprimir o relatório:
+## Tomada de Decisão Baseada em Dados
 
-1. Clique no botão **Imprimir**
-2. Escolha entre:
-   - Resumido: apenas os totais principais
-   - Completo: todos os itens com detalhes
-   - Críticos: apenas itens abaixo do estoque mínimo
-3. Ajuste as opções de impressão conforme necessário
-4. Clique em **Confirmar Impressão**
+Utilize o relatório para decisões estratégicas:
 
-## Alertas e Notificações
+1. **Nível crítico de estoque**: Identifique itens abaixo do mínimo recomendado
+2. **Renovação de CA**: Verifique equipamentos com certificados próximos do vencimento
+3. **Análise de uso**: Avalie quais EPIs têm maior rotatividade
+4. **Otimização de recursos**: Redistribua equipamentos entre unidades conforme necessidade
 
-O sistema GNRX pode gerar alertas automáticos baseados neste relatório:
+## Próximos Passos
 
-- **Alertas de Estoque Mínimo**: Notificação quando um item atinge o nível mínimo configurado
-- **Previsão de Esgotamento**: Aviso antecipado baseado na taxa de consumo histórica
-- **Lembrete de Reposição**: Sugestão de pedido de compra para itens críticos
+Com base no relatório de Estoque Atual, você pode:
 
-Para configurar estes alertas:
-1. No menu lateral, acesse **Configurações Gerais**
-2. Selecione **Alertas e Notificações**
-3. Configure os parâmetros desejados na seção **Estoque**
+- [Adicionar novos lotes](../lotes/adicionar-lote.md) para itens com estoque baixo
+- Gerar [relatórios de movimentação](./movimentacao-estoque.md) para análise temporal
+- Verificar [itens por validade](./items-por-validade.md) para planejamento de substituições
+- Analisar a [previsão de consumo](./previsao-consumo.md) para compras futuras
 
-## Análise de Dados
+---
 
-Além da visualização direta, o relatório oferece ferramentas de análise:
-
-### Gráficos de Distribuição
-
-![Gráficos de Distribuição](../../../assets/images/graficos-distribuicao-estoque.png)
-
-- Distribuição de estoque por categoria de EPI
-- Representação de valor por tipo de equipamento
-- Comparativo entre estoque atual e estoque mínimo
-
-### Análise de Tendências
-
-![Análise de Tendências](../../../assets/images/tendencias-estoque.png)
-
-- Evolução do estoque nos últimos períodos
-- Projeção de consumo baseada em histórico
-- Identificação de sazonalidades
-
-### Análise ABC
-
-O relatório permite classificar os itens conforme a análise ABC:
-- **Classe A**: Itens de alto valor que representam cerca de 20% do inventário e 80% do valor
-- **Classe B**: Itens de valor intermediário
-- **Classe C**: Itens de baixo valor que representam a maioria do inventário mas pequena parcela do valor
-
-Esta classificação ajuda a priorizar a gestão de estoque nos itens mais significativos.
-
-## Planejamento de Compras
-
-Com base nos dados do relatório, o sistema oferece suporte ao planejamento de compras:
-
-![Planejamento de Compras](../../../assets/images/planejamento-compras.png)
-
-1. Clique no botão **Gerar Sugestão de Compra**
-2. O sistema analisará:
-   - Itens abaixo do estoque mínimo
-   - Taxa de consumo histórica
-   - Tempo médio de entrega dos fornecedores
-3. Será gerada uma lista de itens a adquirir com:
-   - Quantidade sugerida
-   - Valor estimado
-   - Prioridade de compra
-   - Fornecedores potenciais
-
-Esta funcionalidade otimiza o processo de reposição, evitando tanto a falta quanto o excesso de itens em estoque.
-
-## Melhores Práticas
-
-### Monitoramento Regular
-
-- Consulte o relatório de Estoque Atual semanalmente
-- Configure alertas automáticos para níveis críticos
-- Revise periodicamente os níveis de estoque mínimo com base no consumo real
-
-### Inventário Físico
-
-- Realize contagens físicas periódicas para validar as informações do sistema
-- Utilize a funcionalidade "Ajuste de Estoque" para corrigir eventuais discrepâncias
-- Documente os motivos dos ajustes para análises futuras
-
-### Análise Integrada
-
-- Compare os dados de estoque com informações de:
-  - Solicitações pendentes
-  - Entregas programadas
-  - Previsão de admissões/demissões
-  - Mudanças sazonais nas atividades
-
-Estas análises permitem uma gestão proativa e mais eficiente do estoque de EPIs.
+*Última atualização: 18 de Maio de 2025*

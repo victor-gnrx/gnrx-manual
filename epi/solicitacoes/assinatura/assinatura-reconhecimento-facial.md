@@ -1,108 +1,111 @@
-# Assinatura com Reconhecimento Facial
+# Assinatura por Reconhecimento Facial
 
-Esta página explica o processo de assinatura com reconhecimento facial para confirmação de recebimento de EPIs no Sistema GNRX.
+## Introdução
 
-## Visão Geral
+A assinatura por reconhecimento facial é uma modalidade avançada de confirmação de recebimento de Equipamentos de Proteção Individual (EPIs) que utiliza tecnologia biométrica para autenticar a identidade do colaborador. Este método oferece alta segurança e praticidade, eliminando a necessidade de assinaturas manuscritas enquanto mantém a validade legal do processo.
 
-A assinatura com reconhecimento facial representa o método mais avançado e seguro para documentar o recebimento de EPIs, proporcionando alto nível de segurança jurídica tanto para a empresa quanto para o colaborador.
+![Interface de Reconhecimento Facial](../../../assets/images/assinatura-facial-epi.png)
 
-Esta modalidade combina a assinatura digital com a verificação biométrica facial do colaborador, garantindo que apenas a pessoa autorizada possa confirmar o recebimento dos equipamentos.
+## Como Acessar
+
+Para utilizar a assinatura por reconhecimento facial:
+
+1. Conclua o processo de [Confirmação de Entrega](../entrega/confirmar-entrega.md)
+2. Na seção "Recolher Assinatura", clique no botão **Assinar Entrega** com o ícone de câmera
 
 ## Pré-requisitos
 
-- Colaborador com cadastro de reconhecimento facial previamente realizado
-- Solicitação com status "Em Entrega"
-- Dispositivo com câmera frontal (computador, tablet ou smartphone)
-- Ambiente com iluminação adequada
+Para utilizar esta funcionalidade, é necessário:
 
-> **Nota:** Se o colaborador ainda não possuir cadastro facial, consulte [Cadastrar Face](../../configuracoes-iniciais/reconhecimento-facial/cadastrar-face.md) para realizar o registro antes de prosseguir.
+- **Cadastro prévio**: O colaborador deve ter seu rosto previamente cadastrado no sistema
+- **Câmera funcional**: O dispositivo precisa ter uma câmera em boas condições
+- **Iluminação adequada**: O ambiente deve ter iluminação suficiente para captura clara da imagem
+- **Conexão estável**: Recomenda-se conexão de internet estável para processamento da verificação
 
-## Processo de Assinatura com Reconhecimento Facial
+Se algum destes requisitos não for atendido, considere utilizar a [Assinatura Digital](./assinatura-digital.md) como alternativa.
 
-### Etapa 1: Iniciar Assinatura
+## Passo a Passo para a Assinatura Facial
 
-![Iniciar Assinatura Facial](../../../assets/images/iniciar-assinatura-facial.png)
+### 1. Selecionar o Método de Autenticação
 
-1. Após confirmar os itens na [entrega](../entrega/confirmar-entrega.md), clique em **Prosseguir para Assinatura**
-2. O sistema exibirá o Termo de Responsabilidade com a lista detalhada dos EPIs entregues
-3. Selecione a opção **Assinatura com Reconhecimento Facial**
-4. Clique em **Iniciar Verificação**
+Ao iniciar o processo de assinatura:
 
-### Etapa 2: Verificação Facial
+- Clique no ícone de câmera para selecionar o reconhecimento facial
+- O sistema verificará se o colaborador possui cadastro facial previamente registrado
+- Caso não possua, o sistema alertará para utilizar outro método ou realizar o cadastro facial
 
-![Verificação Facial](../../../assets/images/verificacao-facial.png)
+### 2. Configurar a Câmera
 
-1. O sistema solicitará permissão para acessar a câmera (conceda a permissão)
-2. Posicione o colaborador em frente à câmera, seguindo as orientações na tela:
-   - Face centralizada no enquadramento
-   - Boa iluminação, preferencialmente natural
-   - Expressão neutra, olhando diretamente para a câmera
-3. O sistema capturará automaticamente a imagem quando o posicionamento estiver adequado
-4. Em seguida, processará a verificação comparando com o cadastro facial do colaborador
+Antes de iniciar a captura:
 
-### Etapa 3: Confirmação e Finalização
+- Selecione a câmera a ser utilizada no dispositivo (se houver mais de uma opção)
+- Aguarde a inicialização da câmera (indicada pelo status "Câmera pronta")
+- Verifique se o enquadramento está adequado para a captura facial
 
-![Confirmação de Assinatura](../../../assets/images/confirmacao-assinatura-facial.png)
+### 3. Orientar o Colaborador
 
-1. Após reconhecimento bem-sucedido, o sistema exibirá uma mensagem de confirmação
-2. O colaborador deve revisar o termo de responsabilidade na tela
-3. Para concluir, o colaborador clica em **Confirmar Recebimento**
-4. O sistema registrará a assinatura biométrica e finalizará o processo
+Explique claramente ao colaborador:
 
-## Segurança e Validação Legal
+- A necessidade de posicionar o rosto no centro da tela
+- A importância de manter expressão neutra e olhar diretamente para a câmera
+- Que o sistema fará a verificação automática da identidade
+- Que este método substitui a assinatura manuscrita, mas tem o mesmo valor legal
 
-A assinatura com reconhecimento facial possui excepcional valor legal devido a:
+### 4. Capturar e Verificar a Face
 
-- **Autenticação Biométrica**: Identificação positiva do colaborador através de características faciais únicas
-- **Não-repúdio**: Impossibilidade técnica de negar a autoria da assinatura
-- **Evidência Digital Robusta**: Combinação de múltiplos fatores de autenticação
-- **Registro Imutável**: Armazenamento criptografado e à prova de adulteração
-- **Trilha de Auditoria**: Registro detalhado de data, hora, localização e dispositivo
+Para realizar a autenticação:
 
-## Visualizando Registros de Assinatura Facial
+- Instrua o colaborador a posicionar seu rosto dentro da área demarcada (geralmente um oval ou círculo)
+- O sistema exibirá instruções como "POSICIONE SEU ROSTO NO CENTRO DA TELA" ou "APROXIME-SE DA CÂMERA"
+- Quando a posição estiver adequada, clique no botão **Iniciar Captura** ou aguarde a captura automática
+- O sistema processará a imagem e comparará com o registro facial previamente cadastrado
+- A verificação será concluída em poucos segundos, com feedback visual do resultado
 
-Os registros de assinatura com reconhecimento facial são identificados com um ícone especial em:
+### 5. Confirmar a Autenticação
 
-1. **Ficha de EPI Digital**: na seção de histórico do colaborador
-2. **Detalhes da Solicitação**: ao visualizar a solicitação específica
-3. **Relatórios de Conformidade**: com indicação do método de assinatura utilizado
+Após a verificação bem-sucedida:
 
-![Registro de Assinatura Facial](../../../assets/images/registro-assinatura-facial.png)
+- O sistema exibirá uma mensagem de confirmação
+- A imagem capturada será associada ao termo de responsabilidade como evidência
+- Clique no botão **Assinar** para finalizar o processo
+- O sistema salvará o registro e o associará à entrega dos EPIs
 
-## Situações Especiais
+## Tecnologia e Segurança
 
-### Falha no Reconhecimento
+O reconhecimento facial do sistema GNRX utiliza:
 
-Se o sistema não conseguir reconhecer o colaborador após múltiplas tentativas:
+- **Algoritmos avançados**: Tecnologia de ponta para reconhecimento preciso de características faciais
+- **Detecção de vivacidade**: Verificação de que é uma pessoa real, não uma foto ou vídeo
+- **Criptografia**: Proteção dos dados biométricos em conformidade com a LGPD
+- **Tolerância controlada**: Capacidade de reconhecer o colaborador mesmo com pequenas mudanças (barba, óculos)
+- **Integração com AWS Rekognition**: Utilização de serviço de nuvem confiável para processamento biométrico
 
-1. Verifique as condições de iluminação e posicionamento
-2. Confira se o colaborador é realmente quem deveria estar assinando
-3. Verifique se houve mudanças significativas na aparência desde o cadastro facial
-4. Como alternativa, utilize a [Assinatura Digital Simples](./assinatura-digital.md)
-5. Considere atualizar o cadastro facial posteriormente
+## Resolução de Problemas Comuns
 
-### Indisponibilidade Temporária do Sistema de Reconhecimento
+| Problema | Possível Causa | Solução |
+|----------|----------------|---------|
+| Face não reconhecida | Mudança significativa na aparência | Atualizar o cadastro facial do colaborador |
+| Erro "Aproxime-se da câmera" | Distância inadequada | Ajustar a posição do colaborador em relação à câmera |
+| Falha na detecção facial | Iluminação insuficiente | Melhorar a iluminação do ambiente |
+| Mensagem "Cadastro não encontrado" | Colaborador sem registro facial | Realizar o cadastro facial ou usar assinatura digital |
+| Erro de processamento | Problema de conexão ou serviço | Verificar a conexão e tentar novamente |
 
-Em casos de problemas com o serviço de reconhecimento facial:
+## Considerações sobre Privacidade
 
-1. O sistema notificará automaticamente a indisponibilidade
-2. Será oferecida a opção de utilizar a assinatura digital simples
-3. Um alerta será registrado para verificação posterior pela equipe técnica
+Em conformidade com a LGPD (Lei Geral de Proteção de Dados):
 
-## Conformidade e Privacidade
+- Os dados biométricos são utilizados exclusivamente para a finalidade específica de autenticação
+- O colaborador deve ser informado sobre a coleta e uso de seus dados biométricos
+- Os dados são armazenados com proteções técnicas adequadas contra acesso não autorizado
+- O sistema mantém registros de auditoria sobre cada uso dos dados biométricos
 
-O Sistema GNRX implementa as seguintes medidas para garantir conformidade legal e privacidade:
+## Próximos Passos
 
-- Armazenamento criptografado de dados biométricos
-- Uso exclusivo para fins de validação de entregas de EPIs
-- Conformidade com LGPD (Lei Geral de Proteção de Dados)
-- Exclusão segura dos dados biométricos mediante solicitação ou desligamento
-- Consentimento explícito do colaborador para o processamento biométrico
+Após a autenticação por reconhecimento facial:
 
-## Melhores Práticas
+- [Finalizar Entrega](../entrega/finalizar-entrega.md) - Concluir o processo completo de entrega
+- [Visualizar Termo de Responsabilidade](./termo-responsabilidade.md) - Acessar o documento gerado com o registro da autenticação facial
 
-- Realize o cadastro facial em condições semelhantes às que serão encontradas durante a entrega
-- Atualize o cadastro facial periodicamente ou após mudanças significativas na aparência
-- Utilize equipamentos com câmeras de boa qualidade para maior precisão
-- Mantenha ambiente bem iluminado durante o processo de verificação
-- Realize um teste de reconhecimento logo após o cadastro inicial para confirmar o funcionamento correto
+---
+
+*Última atualização: 18 de Maio de 2025*

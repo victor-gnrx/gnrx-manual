@@ -1,85 +1,107 @@
-# Motivos de Solicitação
+# Visão Geral da Gestão de Motivos
 
-Esta página explica como configurar e gerenciar os motivos de solicitação de EPIs no Sistema GNRX.
+## Introdução
 
-## Visão Geral
+O módulo de Gestão de Motivos permite configurar e gerenciar as justificativas utilizadas em diferentes operações relacionadas a Equipamentos de Proteção Individual (EPIs). Esta funcionalidade é essencial para padronizar as razões pelas quais EPIs são solicitados, devolvidos, perdidos ou quebrados, facilitando análises posteriores e garantindo consistência nos registros.
 
-Os motivos de solicitação são categorias predefinidas que indicam a razão pela qual um EPI está sendo solicitado para um colaborador. Estas categorias são essenciais para:
+![Interface de Gestão de Motivos](../../../assets/images/gestao-motivos.png)
 
-- Padronizar processos de solicitação
-- Gerar estatísticas precisas sobre consumo
-- Identificar padrões que possam indicar problemas
-- Estabelecer fluxos específicos para cada tipo de solicitação
+## Função e Importância
 
-## Acessando a Configuração de Motivos de Solicitação
+A gestão adequada dos motivos é fundamental para:
 
-1. No menu lateral, acesse **Configurações Gerais**
-2. Selecione **Motivos**
-3. Clique na aba **Motivos de Solicitação**
+- **Organização**: Padronizar as justificativas utilizadas em todo o sistema
+- **Análise de dados**: Facilitar a geração de relatórios e análises estatísticas
+- **Auditoria**: Fornecer informações claras e consistentes para processos de auditoria
+- **Rastreabilidade**: Permitir o acompanhamento detalhado do ciclo de vida dos EPIs
+- **Conformidade**: Atender requisitos de documentação para conformidade com normas de segurança
 
-![Acesso a Motivos de Solicitação](../../../assets/images/acesso-motivos-solicitacao.png)
+## Categorias de Motivos
 
-## Motivos Padrão do Sistema
+O sistema GNRX trabalha com quatro categorias principais de motivos:
 
-O Sistema GNRX vem pré-configurado com os seguintes motivos de solicitação:
+### 1. Motivos de Solicitação
 
-| Motivo | Sigla | Descrição | Comportamento |
-|--------|-------|-----------|---------------|
-| Primeira Entrega | PRIM | Primeira vez que o colaborador recebe este EPI | Não exige devolução de item anterior |
-| Substituição por Desgaste | DESG | EPI atual apresenta desgaste natural pelo uso | Exige devolução do item anterior |
-| Substituição por Perda | PERD | Colaborador perdeu ou extraviou o EPI | Não exige devolução, mas registra ocorrência |
-| Substituição por Quebra | QEBR | EPI danificado ou quebrado | Exige devolução do item danificado |
-| Substituição por Validade Vencida | VENC | EPI com data de validade expirada | Exige devolução do item vencido |
-| Outros | OUTR | Situações não previstas nas categorias anteriores | Exige descrição adicional |
+Justificativas para solicitar novos EPIs, como:
+- Primeira solicitação (para colaboradores novos)
+- Troca recorrente (substituição por desgaste normal)
+- Perda (reposição por perda do equipamento anterior)
+- Outros motivos específicos definidos pela empresa
 
-## Gerenciando Motivos de Solicitação
+### 2. Motivos de Devolução
 
-### Adicionando um Novo Motivo
+Razões para a devolução de EPIs ao estoque, como:
+- Devolução padrão (retorno normal após uso)
+- Encerramento de atividade (colaborador não precisa mais do equipamento)
+- Troca por outro modelo (substituição por EPI mais adequado)
+- Outros motivos específicos definidos pela empresa
 
-![Adicionar Motivo](../../../assets/images/adicionar-motivo-solicitacao.png)
+### 3. Motivos de Perda
 
-1. Clique no botão **Adicionar Motivo**
-2. Preencha o formulário com:
-   - **Motivo**: Nome descritivo (ex: "Mudança de Função")
-   - **Sigla**: Abreviação de 2 a 4 letras (ex: "FUNC")
-   - **Descrição**: Detalhamento do motivo (opcional)
-   - **Comportamento**:
-     - Exige devolução: Se marcado, o sistema solicitará a devolução do item anterior
-     - Registra perda/dano: Se marcado, o sistema registrará ocorrência associada ao colaborador
-     - Exige aprovação: Se marcado, solicitações com este motivo exigirão aprovação especial
-3. Clique em **Salvar**
+Explicações para o registro de EPIs perdidos, como:
+- Extravio (perda em local desconhecido)
+- Roubo ou furto
+- Perda em local de trabalho externo
+- Outros motivos específicos definidos pela empresa
 
-### Editando um Motivo Existente
+### 4. Motivos de Quebra
 
-1. Localize o motivo na lista
-2. Clique no ícone de **Editar** (símbolo de lápis)
-3. Faça as alterações necessárias
-4. Clique em **Salvar**
+Justificativas para quebra ou dano em EPIs, como:
+- Desgaste natural (após tempo de uso prolongado)
+- Acidente (dano decorrente de incidente específico)
+- Defeito de fabricação
+- Outros motivos específicos definidos pela empresa
 
-> **Nota:** A edição de motivos afetará apenas novas solicitações. Solicitações já registradas manterão o motivo original.
+## Estrutura Comum dos Motivos
 
-### Desativando um Motivo
+Cada motivo, independentemente da categoria, é composto por:
 
-1. Localize o motivo na lista
-2. Clique no ícone de **Desativar** (símbolo de proibido)
-3. Confirme a desativação no diálogo exibido
+- **Motivo**: Nome descritivo da justificativa
+- **Sigla**: Abreviação de até 4 caracteres para identificação rápida
+- **Descrição (opcional)**: Detalhamento adicional sobre o motivo, quando necessário
+- **Situação**: Status do motivo (Ativo ou Inativo)
 
-> **Importante:** Motivos desativados não estarão mais disponíveis para novas solicitações, mas permanecerão visíveis em registros históricos.
+## Interface e Navegação
 
-## Impacto nos Fluxos de Trabalho
+A interface de Gestão de Motivos apresenta:
 
-A configuração de motivos impacta diretamente:
+- **Navegação por abas**: Acesso rápido a cada categoria de motivo
+- **Pesquisa**: Campo para localizar motivos específicos
+- **Tabela de motivos**: Listagem dos motivos configurados, com opções de ordenação
+- **Botão "Novo Motivo"**: Acesso à funcionalidade de criação de novos motivos
 
-1. **Tela de Solicitação**: Define as opções disponíveis no momento da criação de uma solicitação
-2. **Fluxo de Entrega**: Determina se será exigida devolução de item anterior
-3. **Relatórios**: Permite análises estatísticas por tipo de motivo
-4. **Alertas**: Motivos como perda ou quebra frequente podem gerar alertas automáticos
+## Personalização e Padronização
 
-## Recomendações e Boas Práticas
+O sistema GNRX oferece:
 
-- Mantenha a lista de motivos concisa e clara para facilitar a seleção pelos usuários
-- Utilize motivos específicos para situações recorrentes na sua organização
-- Considere criar motivos relacionados a particularidades do seu setor ou operação
-- Avalie periodicamente a frequência de cada motivo para identificar oportunidades de melhoria
-- Padronize a nomenclatura e siglas para facilitar relatórios e análises
-- Documente internamente o significado e critérios para uso de cada motivo personalizado
+- **Motivos padrão**: Configurações iniciais com motivos comuns
+- **Personalização**: Capacidade para adicionar, editar ou inativar motivos conforme necessidades específicas
+- **Consistência**: Estrutura padronizada para todas as categorias de motivos
+
+## Aplicação no Fluxo de Trabalho
+
+Os motivos configurados são utilizados em diferentes pontos do sistema:
+
+- **Criação de solicitações**: Seleção obrigatória do motivo ao solicitar EPIs
+- **Registro de devoluções**: Definição do motivo ao devolver equipamentos
+- **Documentação de perdas**: Justificativa ao registrar EPIs perdidos
+- **Registro de quebras**: Explicação ao documentar equipamentos danificados
+
+## Considerações Importantes
+
+- A inativação de motivos não afeta registros históricos
+- É recomendável manter a lista de motivos concisa e clara
+- Motivos bem definidos auxiliam na análise de tendências e identificação de problemas
+
+## Próximos Passos
+
+Para utilizar efetivamente o módulo de Gestão de Motivos, consulte os seguintes guias detalhados:
+
+- [Motivos de Solicitação](./motivos-solicitacao.md) - Como gerenciar as justificativas para solicitação de EPIs
+- [Motivos de Devolução](./motivos-devolucao.md) - Como configurar os motivos para devolução de equipamentos
+- [Motivos de Perda](./motivos-perda.md) - Como administrar as explicações para registro de EPIs perdidos
+- [Motivos de Quebra](./motivos-quebra.md) - Como gerenciar as justificativas para quebra de equipamentos
+
+---
+
+*Última atualização: 18 de Maio de 2025*

@@ -1,65 +1,66 @@
-# Solicitações
+# Visão Geral da Criação de Solicitações
 
-O módulo de Solicitações gerencia todo o fluxo de requisição, aprovação, entrega e devolução de Equipamentos de Proteção Individual (EPIs) no Sistema GNRX, garantindo o controle preciso e a conformidade legal de todo o processo.
+## Introdução
 
-## Visão Geral do Fluxo de Solicitações
+O módulo de criação de solicitações permite registrar e gerenciar pedidos de Equipamentos de Proteção Individual (EPIs) para os colaboradores. Este processo é fundamental para garantir que cada funcionário receba os equipamentos adequados aos riscos de sua função, mantendo a conformidade com a NR-6 e outros requisitos legais.
 
-O GNRX implementa um fluxo completo para gestão de EPIs, contemplando todas as etapas desde a solicitação inicial até a conclusão do ciclo de vida do equipamento:
+![Menu de Solicitações](../../../assets/images/menu-solicitacoes.png)
 
-![Fluxo de Solicitação de EPIs](../assets/images/fluxo-solicitacao-epi.png)
+## Função e Importância
 
-### 1. Solicitação
-Criação da requisição de um ou mais EPIs para um colaborador específico, definindo motivos e detalhes.
+A criação de solicitações é essencial para:
 
-### 2. Devolução de Pendentes (quando aplicável)
-Caso existam itens pendentes de devolução, o sistema solicita a regularização antes da nova entrega.
+- **Controle de distribuição**: Garantir que os equipamentos corretos cheguem às pessoas certas
+- **Conformidade legal**: Manter registros adequados das entregas conforme exigido pela legislação
+- **Rastreabilidade**: Acompanhar todo o ciclo de vida dos EPIs, desde a solicitação até a devolução
+- **Gestão de estoque**: Controlar a saída de equipamentos do inventário
+- **Auditoria**: Fornecer evidências documentais das entregas realizadas
 
-### 3. Entrega
-Separação e entrega física dos equipamentos solicitados, com registro detalhado no sistema.
+## Fluxo de Trabalho Completo
 
-### 4. Assinatura
-Confirmação digital do recebimento pelo colaborador, com opções de assinatura digital e reconhecimento facial.
+O processo de criação de solicitações segue um fluxo de trabalho estruturado em quatro etapas principais:
 
-### 5. Ciclo de Vida
-Acompanhamento do uso, incluindo eventuais devoluções, perdas, quebras ou substituições.
+1. **Informações do Solicitante**: Seleção do colaborador e da unidade para recebimento
+2. **Seleção de EPIs**: Escolha dos equipamentos necessários conforme GHE do colaborador
+3. **Motivos da Solicitação**: Definição da justificativa para cada EPI solicitado
+4. **Confirmação**: Revisão e finalização da solicitação
 
-## Componentes do Módulo
+Este fluxo garante que todas as informações necessárias sejam coletadas de forma organizada e sistemática.
 
-### [Criar Solicitação](./criar-solicitacao/README.md)
-Interface para registro de novas solicitações de EPIs, com seleção de colaborador, equipamentos, motivos e observações.
+## Integração com GHE
 
-### [Devolução](./devolucao/README.md)
-Gestão de itens pendentes de devolução, com opções para registrar devoluções, perdas ou quebras de equipamentos.
+Uma característica importante do sistema é a integração com o Grupo Homogêneo de Exposição (GHE):
 
-### [Entrega](./entrega/README.md)
-Ferramentas para processar as entregas físicas dos EPIs solicitados, incluindo confirmação de itens e quantidades.
+- Os EPIs disponíveis para seleção são determinados pelo GHE do colaborador
+- Isso garante que apenas equipamentos apropriados para os riscos da função sejam oferecidos
+- O sistema automaticamente filtra as opções com base nesta associação prévia
 
-### [Assinatura](./assinatura/README.md)
-Métodos seguros para documentar o recebimento dos EPIs pelos colaboradores, incluindo assinatura digital e reconhecimento facial.
+## Motivos de Solicitação
 
-## Principais Indicadores
+O sistema trabalha com motivos de solicitação customizáveis por empresa:
 
-O módulo de Solicitações fornece importantes indicadores para a gestão de EPIs:
+- Cada empresa pode configurar seus próprios motivos conforme suas necessidades
+- Motivos comuns incluem: Primeira Solicitação, Troca Recorrente, Perda, Quebra, etc.
+- Esta configuração é realizada através do menu Configurações > Motivos de Solicitação
 
-- **Volume de solicitações** por período, unidade e setor
-- **Tempo médio** entre solicitação e entrega
-- **Taxa de conformidade** nas devoluções
-- **Percentual de perdas e quebras** por tipo de EPI
-- **Custos associados** à reposição não programada
+## Resultado do Processo
 
-## Benefícios do Processo Estruturado
+Ao finalizar uma solicitação:
 
-- **Conformidade legal** com requisitos da NR-6 sobre entrega e registro de EPIs
-- **Rastreabilidade completa** de todo o ciclo de vida dos equipamentos
-- **Redução de perdas** através do controle efetivo de devoluções
-- **Otimização de recursos** com entregas baseadas em necessidades reais
-- **Evidência legal robusta** em caso de fiscalizações trabalhistas
+- O sistema gera um registro formal com número único
+- A solicitação fica disponível para processamento (entrega e assinatura)
+- O colaborador é associado aos EPIs solicitados
+- O estoque é reservado para atender à solicitação
 
-## Integração com Outros Módulos
+## Próximos Passos
 
-O módulo de Solicitações se integra diretamente com:
+Para utilizar efetivamente o módulo de criação de solicitações, consulte os seguintes guias detalhados:
 
-- **Gestão de Estoque**: Verificação de disponibilidade e baixa automática
-- **Ficha de EPI Digital**: Atualização do histórico do colaborador
-- **Reconhecimento Facial**: Assinatura segura por biometria facial
-- **GHEs**: Validação automática de conformidade com riscos do colaborador
+- [Nova Solicitação](./nova-solicitacao.md) - Visão geral do processo completo
+- [Selecionar Colaborador](./selecionar-colaborador.md) - Como identificar o destinatário dos EPIs
+- [Selecionar EPIs](./selecionar-epis.md) - Como escolher os equipamentos adequados
+- [Definir Motivos](./definir-motivos.md) - Como justificar cada solicitação
+
+---
+
+*Última atualização: 18 de Maio de 2025*

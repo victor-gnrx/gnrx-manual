@@ -1,75 +1,113 @@
-# Configurações Gerais
+# Visão Geral das Configurações Gerais
 
-O módulo de Configurações Gerais permite personalizar e adaptar o Sistema GNRx de Gestão de EPI às necessidades específicas da sua organização, incluindo catálogos de referência, motivos de movimentação e outros parâmetros fundamentais.
+## Introdução
 
-## Visão Geral
+O módulo de Configurações Gerais no sistema GNRX Gestão de EPI oferece o controle centralizado dos elementos fundamentais que estruturam todo o sistema de gestão de Equipamentos de Proteção Individual. Estas configurações estabelecem as bases para o funcionamento adequado de todos os processos relacionados aos EPIs, desde a identificação de riscos até a gestão completa do ciclo de vida dos equipamentos.
 
-As Configurações Gerais são compostas por diversos componentes que estabelecem as bases de funcionamento do sistema, permitindo adaptações às particularidades de cada empresa, setor de atuação e regulamentações aplicáveis.
-
-![Painel de Configurações Gerais](../assets/images/painel-configuracoes-gerais.png)
+![Interface de Configurações Gerais](../../assets/images/configuracoes-gerais.png)
 
 ## Componentes Principais
 
-### Riscos Ocupacionais
+O módulo de Configurações Gerais está organizado em três componentes essenciais:
 
-Permite gerenciar o catálogo de riscos ocupacionais que serão associados aos GHEs. O sistema já vem com uma base de dados de riscos conforme a NR-6, mas permite personalização e adições específicas para a realidade da empresa.
+### 1. Riscos Ocupacionais
 
-[Saiba mais sobre Riscos Ocupacionais](./riscos/README.md)
+O gerenciamento de riscos permite configurar e manter uma base de dados dos perigos a que os colaboradores estão expostos no ambiente de trabalho.
 
-### Catálogos de EPIs
+- **Função**: Registrar e categorizar todos os riscos relevantes para as atividades da empresa
+- **Aplicação**: Vinculação direta aos EPIs adequados para cada risco
+- **Benefícios**: Conformidade com normas, documentação adequada e seleção apropriada de equipamentos
 
-O sistema possui um catálogo completo baseado na NR-6, que pode ser complementado com itens customizados específicos para a organização. Esta seção permite gerenciar tanto os itens padrão quanto os personalizados.
+[Saiba mais sobre Gestão de Riscos](./riscos/README.md)
 
-[Saiba mais sobre Catálogos de EPIs](./catalogos/README.md)
+### 2. Catálogo de EPIs
 
-### Motivos de Movimentação
+O catálogo de EPIs estabelece a biblioteca completa de todos os equipamentos disponíveis para proteção dos colaboradores.
 
-Permite configurar os motivos padronizados para diversas operações no sistema:
-- Motivos de solicitação de EPIs
-- Motivos de devolução
-- Motivos de perda
-- Motivos de quebra
+- **Função**: Manter uma base estruturada de todos os tipos de EPIs conforme a NR-6 e necessidades específicas
+- **Aplicação**: Base para seleção de equipamentos em todo o sistema
+- **Benefícios**: Organização, padronização e rastreabilidade dos equipamentos utilizados
 
-[Saiba mais sobre Motivos](./motivos/README.md)
+[Saiba mais sobre o Catálogo de EPIs](./epis/README.md)
 
-## Importância das Configurações Gerais
+### 3. Gestão de Motivos
 
-Configurar corretamente estes parâmetros é fundamental para:
+A gestão de motivos permite configurar as justificativas utilizadas em cada etapa do ciclo de vida dos EPIs.
 
-1. **Padronização de Processos**: Garante consistência nas operações realizadas por diferentes usuários
-2. **Análise de Dados**: Permite extrair relatórios e estatísticas com categorias padronizadas
-3. **Conformidade Legal**: Assegura alinhamento com exigências regulatórias como a NR-6
-4. **Eficiência Operacional**: Simplifica processos ao oferecer opções predefinidas padronizadas
+- **Função**: Padronizar as razões para solicitação, devolução, perda e quebra de equipamentos
+- **Aplicação**: Documentação consistente em todos os processos do sistema
+- **Benefícios**: Análise estatística, rastreabilidade e melhoria contínua
 
-## Configuração Inicial Recomendada
+[Saiba mais sobre Gestão de Motivos](./motivos/README.md)
 
-Ao implementar o Sistema GNRX, recomendamos a seguinte sequência para as Configurações Gerais:
+## Importância Estratégica
 
-1. Revisar e complementar o catálogo de riscos ocupacionais
-2. Revisar e complementar o catálogo de EPIs
-3. Configurar os motivos de movimentação adequados à realidade da empresa
-4. Realizar testes de validação do fluxo completo
+As Configurações Gerais têm papel fundamental para o sucesso da gestão de EPIs por vários motivos:
 
-## Permissões de Acesso
+### Conformidade Legal
 
-O acesso às Configurações Gerais normalmente é restrito a perfis administrativos:
+- Documentação estruturada conforme exigido pela NR-6 e outras normas
+- Base para comprovação em auditorias e fiscalizações
+- Registro formal e rastreável de todas as decisões relacionadas a EPIs
 
-- Administradores do Sistema
-- Gestores de Segurança do Trabalho
-- Coordenadores de EPI
+### Otimização Operacional
 
-Outros perfis geralmente têm permissão apenas de visualização ou acesso restrito a áreas específicas.
+- Padronização de processos em toda a organização
+- Redução do tempo de configuração e treinamento
+- Eliminação de inconsistências na aplicação das políticas de segurança
 
-## Impacto das Configurações
+### Qualidade dos Dados
 
-É importante ressaltar que alterações nas Configurações Gerais podem ter impacto significativo no funcionamento do sistema:
+- Estruturação consistente de informações
+- Base para relatórios gerenciais precisos
+- Suporte a tomadas de decisão baseadas em dados
 
-- Mudanças em catálogos podem afetar relatórios históricos
-- Alterações em motivos podem impactar fluxos de trabalho estabelecidos
-- Desativação de itens pode afetar GHEs e entregas programadas
+### Evolução do Sistema
 
-Por isso, recomenda-se:
-1. Planejar cuidadosamente as configurações iniciais
-2. Documentar alterações significativas
-3. Comunicar mudanças aos usuários do sistema
-4. Realizar alterações preferencialmente em períodos de baixa utilização
+- Flexibilidade para adaptação às mudanças normativas ou organizacionais
+- Possibilidade de personalização conforme necessidades específicas
+- Base para implementação de melhorias contínuas
+
+## Fluxo de Trabalho Recomendado
+
+Para uma implementação eficaz do sistema GNRX, recomenda-se seguir uma sequência lógica na configuração dos elementos fundamentais:
+
+1. **Configurar Riscos**: Estabelecer a base de riscos ocupacionais relevantes para a empresa
+2. **Configurar EPIs**: Revisar e personalizar o catálogo de EPIs conforme necessidades específicas
+3. **Configurar Motivos**: Definir as justificativas para cada etapa do ciclo de vida dos equipamentos
+4. **Vincular Riscos e EPIs**: Estabelecer as relações entre riscos e equipamentos adequados
+5. **Configurar Estruturas**: Implementar unidades, setores, GHEs e demais elementos organizacionais
+
+Esta sequência garante que todos os elementos básicos estejam disponíveis antes da configuração de estruturas mais complexas e do início das operações diárias.
+
+## Governança e Boas Práticas
+
+Para garantir a integridade e eficácia das configurações gerais:
+
+- **Documentação**: Mantenha um registro das decisões relacionadas às configurações
+- **Revisão periódica**: Avalie regularmente se as configurações seguem atuais e relevantes
+- **Permissões**: Limite o acesso às configurações gerais a pessoal autorizado
+- **Consistência**: Mantenha padrões claros para nomenclatura e categorização
+- **Auditoria**: Revise periodicamente as configurações para garantir precisão e atualidade
+
+## Inter-relações entre Componentes
+
+Os três componentes das Configurações Gerais possuem forte integração entre si:
+
+- **Riscos e EPIs**: Os riscos são a base para determinar quais EPIs são necessários
+- **EPIs e Motivos**: O catálogo de EPIs estabelece quais equipamentos podem ser solicitados, devolvidos, etc.
+- **Riscos e Motivos**: Os riscos influenciam diretamente os motivos de solicitação
+
+Esta integração reforça a importância de uma abordagem holística na configuração do sistema.
+
+## Próximos Passos
+
+Após compreender a estrutura geral das Configurações Gerais, explore cada componente em detalhes:
+
+- [Gestão de Riscos Ocupacionais](./riscos/README.md) - Como configurar e gerenciar riscos no sistema
+- [Catálogo de EPIs](./epis/README.md) - Como administrar a biblioteca de equipamentos disponíveis
+- [Gestão de Motivos](./motivos/README.md) - Como padronizar as justificativas em todos os processos
+
+---
+
+*Última atualização: 18 de Maio de 2025*

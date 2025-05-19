@@ -1,121 +1,79 @@
-# Riscos Ocupacionais
+# Visão Geral dos Riscos Ocupacionais
 
-Esta seção explica como gerenciar o catálogo de riscos ocupacionais no Sistema GNRX, permitindo associá-los aos Grupos Homogêneos de Exposição (GHEs) e, consequentemente, determinar os EPIs necessários para cada função.
+## Introdução
 
-## Visão Geral
+O módulo de Riscos Ocupacionais permite gerenciar os diferentes tipos de riscos a que os colaboradores podem estar expostos em suas atividades laborais. Esta funcionalidade é fundamental para identificar corretamente os perigos existentes e associá-los aos Equipamentos de Proteção Individual (EPIs) adequados, garantindo a proteção eficaz dos trabalhadores.
 
-Os riscos ocupacionais são os elementos presentes nos ambientes de trabalho que podem causar danos à saúde dos trabalhadores. No Sistema GNRX, o cadastro adequado destes riscos é fundamental para:
+![Menu de Configurações - Riscos](../../../assets/images/menu-riscos.png)
 
-- Associação correta entre riscos e EPIs necessários
-- Determinação automática dos equipamentos para cada GHE
-- Documentação de conformidade com requisitos legais
-- Emissão de relatórios precisos de análise de riscos
+## Função e Importância
 
-## Catálogo Padrão NR-6
+O gerenciamento de riscos ocupacionais é essencial para:
 
-O Sistema GNRX é fornecido com um catálogo completo de riscos baseado na Norma Regulamentadora 6 (NR-6), que classifica os riscos em cinco categorias principais:
+- **Conformidade legal**: Atender aos requisitos da NR-6 e outras normas de saúde e segurança
+- **Seleção adequada de EPIs**: Vincular corretamente os riscos aos equipamentos de proteção necessários
+- **Documentação preventiva**: Manter registros dos riscos identificados para fins de gestão e auditoria
+- **Planejamento de segurança**: Subsidiar ações preventivas e corretivas no ambiente de trabalho
+- **Gestão de GHE**: Estruturar adequadamente os Grupos Homogêneos de Exposição
 
-1. **Riscos Físicos**: Ruído, vibrações, temperaturas extremas, radiações, pressões anormais, etc.
-2. **Riscos Químicos**: Poeiras, fumos, névoas, neblinas, gases, vapores, substâncias químicas, etc.
-3. **Riscos Biológicos**: Vírus, bactérias, fungos, parasitas, protozoários, etc.
-4. **Riscos Ergonômicos**: Esforço físico intenso, levantamento de peso, postura inadequada, etc.
-5. **Riscos de Acidentes**: Arranjo físico inadequado, máquinas sem proteção, ferramentas defeituosas, etc.
+## Estrutura de Riscos no Sistema
 
-![Categorias de Riscos](../../../assets/images/categorias-riscos.png)
+O GNRX trabalha com uma estrutura hierárquica para organização dos riscos:
 
-## Acessando o Catálogo de Riscos
+### Categorias de Riscos
 
-1. No menu lateral, acesse **Configurações Gerais**
-2. Selecione **Riscos**
-3. O sistema exibirá o catálogo completo de riscos disponíveis
+Os riscos são organizados nas seguintes categorias principais:
 
-![Acesso ao Catálogo de Riscos](../../../assets/images/acesso-catalogo-riscos.png)
+- **Riscos Físicos**: Ruído, calor, radiações, vibrações, pressões, frio, umidade
+- **Riscos Químicos**: Poeiras, fumos, névoas, gases, vapores, substâncias compostas
+- **Riscos Biológicos**: Vírus, bactérias, protozoários, fungos, parasitas, bacilos
+- **Riscos Ergonômicos**: Postura inadequada, movimentos repetitivos, levantamento de peso
+- **Riscos de Acidentes**: Máquinas sem proteção, ferramentas inadequadas, eletricidade
 
-## Gerenciando Riscos Ocupacionais
+### Base Pré-configurada
 
-### Visualizando o Catálogo
+O sistema GNRX oferece uma base inicial com:
 
-O catálogo de riscos é apresentado em uma lista organizada por categoria, com recursos de:
+- Riscos comuns baseados nas Normas Regulamentadoras
+- Categorização padronizada conforme legislação
+- Descrições técnicas precisas para cada risco
+- Associações padrão com tipos de EPIs recomendados
 
-- Filtro por categoria de risco
-- Pesquisa por nome ou descrição
-- Visualização de riscos personalizados
-- Indicação de riscos associados a GHEs
+### Personalização
 
-### Adicionando um Novo Risco
+Além dos riscos pré-configurados, o sistema permite:
 
-![Adicionar Novo Risco](../../../assets/images/adicionar-risco.png)
+- Adicionar novos riscos específicos da empresa
+- Personalizar descrições para contextos particulares
+- Inativar riscos que não se aplicam à realidade da organização
+- Associar EPIs específicos a riscos personalizados
 
-1. Clique no botão **Adicionar Risco**
-2. Preencha o formulário com:
-   - **Nome**: Identificação concisa do risco (ex: "Exposição a Vapores de Solventes")
-   - **Categoria**: Selecione a categoria adequada (Físico, Químico, Biológico, etc.)
-   - **Descrição**: Detalhamento do risco e seus potenciais efeitos à saúde
-   - **EPIs Recomendados**: Seleção dos EPIs indicados para proteção contra este risco
-3. Clique em **Salvar**
+## Integração com Outras Funcionalidades
 
-### Editando um Risco Existente
+O módulo de Riscos está integrado com outras áreas do sistema:
 
-> **Nota:** Só é possível editar riscos personalizados. Os riscos padrão da NR-6 não podem ser modificados.
+- **Grupos Homogêneos de Exposição (GHE)**: Os riscos são associados aos GHEs para determinar quais colaboradores estão expostos
+- **Catálogo de EPIs**: Cada risco pode ser vinculado aos EPIs adequados para sua mitigação
+- **Fichas de EPI**: A documentação de entrega inclui os riscos que justificam o fornecimento
+- **Configurações dos Cargos**: Os cargos podem ter riscos pré-definidos associados
 
-1. Localize o risco desejado na lista
-2. Clique no ícone de **Editar**
-3. Faça as alterações necessárias
-4. Clique em **Salvar**
+## Limitações de Gerenciamento
 
-### Desativando um Risco
+É importante observar que:
 
-1. Localize o risco desejado na lista
-2. Clique no ícone de **Desativar**
-3. Confirme a desativação
+- Riscos do sistema base (pré-configurados) não podem ser editados ou excluídos
+- Apenas riscos personalizados (criados pela empresa) podem ser modificados ou inativados
+- A inativação não apaga o histórico de uso do risco em registros anteriores
 
-> **Importante:** Desativar um risco não o remove dos GHEs já configurados, mas impede que seja selecionado em novos cadastros.
+## Próximos Passos
 
-## Associação de Riscos a EPIs
+Para utilizar efetivamente o módulo de Riscos, consulte os seguintes guias detalhados:
 
-Cada risco ocupacional deve estar associado aos EPIs adequados para proteção. Esta relação pode ser configurada:
+- [Listar Riscos](./listar-riscos.md) - Como visualizar e filtrar os riscos cadastrados
+- [Adicionar Risco](./adicionar-risco.md) - Como criar novos riscos personalizados
+- [Editar Risco](./editar-risco.md) - Como modificar riscos personalizados existentes
+- [Desativar Risco](./desativar-risco.md) - Como inativar riscos que não são mais aplicáveis
 
-1. Durante o cadastro/edição do próprio risco
-2. Na configuração de um GHE específico
-3. Através da matriz de riscos x EPIs
+---
 
-### Matriz de Riscos x EPIs
-
-![Matriz de Riscos x EPIs](../../../assets/images/matriz-riscos-epis.png)
-
-Esta funcionalidade permite uma visão consolidada e edição em massa:
-
-1. No catálogo de riscos, clique no botão **Matriz de Riscos x EPIs**
-2. O sistema exibirá uma matriz onde as linhas são os riscos e as colunas são os EPIs
-3. Marque as células correspondentes às associações corretas
-4. Clique em **Salvar Alterações**
-
-## Considerações Importantes
-
-### Customização para Setores Específicos
-
-Embora o sistema venha com um catálogo completo, considere adicionar riscos específicos para seu setor de atuação, especialmente:
-
-- Indústrias com processos químicos específicos
-- Ambientes hospitalares com riscos biológicos particulares
-- Construção civil com riscos ergonômicos e de acidentes característicos
-- Atividades rurais com exposições específicas a agentes químicos ou biológicos
-
-### Atualização Periódica
-
-É recomendável revisar periodicamente o catálogo de riscos para:
-
-- Incluir novos riscos identificados em avaliações ambientais
-- Atualizar associações com EPIs conforme novas tecnologias de proteção
-- Refinar descrições baseadas em novos conhecimentos técnicos
-
-## Integração com o PPRA/PGR
-
-O catálogo de riscos do Sistema GNRX deve estar alinhado com:
-
-- PPRA (Programa de Prevenção de Riscos Ambientais)
-- PGR (Programa de Gerenciamento de Riscos)
-- Laudo LTCAT (Laudo Técnico de Condições Ambientais do Trabalho)
-- Outros documentos técnicos de avaliação de riscos da empresa
-
-Esta integração garante consistência na gestão de segurança e facilita auditorias e fiscalizações.
+*Última atualização: 18 de Maio de 2025*

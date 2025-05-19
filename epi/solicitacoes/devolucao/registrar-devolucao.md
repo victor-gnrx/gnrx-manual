@@ -1,127 +1,100 @@
-# Registrar Devolução
+# Registrar Devolução de EPIs
 
-Esta página explica como processar a devolução de EPIs previamente entregues a colaboradores no Sistema GNRX.
+## Introdução
 
-## Visão Geral
+O registro de devolução é o processo pelo qual se documenta o retorno de um Equipamento de Proteção Individual (EPI) que estava em posse de um colaborador. Esta funcionalidade permite manter o controle preciso do ciclo de vida dos equipamentos e garantir a conformidade com as normas de saúde e segurança ocupacional.
 
-O processo de devolução é uma etapa fundamental na gestão do ciclo de vida dos EPIs, permitindo recuperar equipamentos que ainda possuem vida útil, controlar adequadamente os itens que precisam ser descartados e manter o histórico completo de movimentações.
+![Formulário de Devolução](../../../assets/images/registrar-devolucao-epi.png)
 
-## Tipos de Devolução
+## Como Acessar
 
-O Sistema GNRX reconhece três principais tipos de devolução:
+Para registrar uma devolução de EPI:
 
-1. **Devolução Normal**: O EPI é devolvido em condições adequadas de uso
-2. **Registro de Perda**: O colaborador relata que o EPI foi perdido ou extraviado
-3. **Registro de Quebra**: O EPI é devolvido, mas está danificado ou inadequado para reuso
+1. Acesse o menu **Solicitações** na barra de navegação principal
+2. Selecione a opção **Devoluções** ou navegue até a solicitação específica
+3. Localize o equipamento pendente de devolução
+4. Clique no botão **Fazer devolução agora**
 
-## Acessando a Tela de Devolução
+## Passo a Passo para Registrar uma Devolução
 
-### Opção 1: A partir da Lista de Itens Pendentes
+### 1. Selecionar o Tipo de Movimentação
 
-1. No menu lateral, acesse **Solicitações**
-2. Selecione **Devoluções**
-3. Na aba **Itens Pendentes**, localize o colaborador ou item desejado
-4. Clique no botão **Registrar Devolução**
+No formulário de devolução, o primeiro passo é selecionar o tipo de movimentação:
 
-### Opção 2: A partir do Perfil do Colaborador
+- Escolha a opção **Devolução** no menu suspenso de "Tipo de movimentação"
+- Esta opção indica que o EPI está sendo devolvido em condições de uso ou armazenamento
 
-1. Acesse o perfil do colaborador
-2. Clique na aba **EPIs Pendentes**
-3. Localize o item desejado e clique em **Registrar Devolução**
+### 2. Definir se o Item Será Descartado
 
-![Acesso à Devolução](../../../assets/images/acesso-devolucao.png)
+O sistema oferece a opção de indicar se o item deve ser descartado após a devolução:
 
-## Processo de Devolução
+- Marque a caixa **Descartar após devolução** se o item não puder ser reutilizado
+- Esta opção é útil para EPIs que, mesmo devolvidos, não têm mais condições adequadas de uso
 
-### Passo 1: Seleção dos Itens para Devolução
+### 3. Registrar a Data de Devolução
 
-![Seleção de Itens para Devolução](../../../assets/images/selecao-itens-devolucao.png)
+Informe quando o equipamento foi efetivamente devolvido:
 
-1. O sistema apresentará todos os EPIs pendentes de devolução do colaborador
-2. Marque os itens que estão sendo devolvidos naquele momento
-3. Para cada item, selecione o tipo de devolução (Normal, Perda ou Quebra)
-4. Clique em **Prosseguir**
+- Digite a data no formato solicitado ou use o seletor de calendário
+- Por padrão, a data atual é sugerida pelo sistema
+- Use o botão **Hoje** para definir automaticamente a data atual
 
-### Passo 2: Detalhamento por Tipo de Devolução
+### 4. Selecionar o Motivo da Devolução
 
-Dependendo do tipo selecionado, o sistema solicitará informações específicas:
+Escolha o motivo que melhor explica por que o equipamento está sendo devolvido:
 
-#### Para Devolução Normal
+- Selecione uma das opções pré-configuradas no menu suspenso "Motivo da Devolução"
+- Os motivos são personalizáveis e definidos nas configurações da empresa
 
-![Devolução Normal](../../../assets/images/devolucao-normal.png)
+### 5. Adicionar Observações (Opcional)
 
-1. Estado de conservação (Ótimo, Bom, Regular, Ruim)
-2. Observações (opcional)
-3. Indicação se o item pode retornar ao estoque
+Caso necessário, adicione informações complementares sobre a devolução:
 
-#### Para Registro de Perda
+- Utilize o campo de texto "Observações" para registrar detalhes relevantes
+- Registre condições específicas do equipamento, circunstâncias da devolução ou outras informações importantes
 
-![Registro de Perda](../../../assets/images/registro-perda.png)
+### 6. Confirmar a Devolução
 
-1. Motivo da perda (selecione na lista predefinida)
-2. Descrição detalhada das circunstâncias
-3. Data aproximada da perda
-4. Indicação se haverá cobrança/ressarcimento
+Para finalizar o processo:
 
-#### Para Registro de Quebra
-
-![Registro de Quebra](../../../assets/images/registro-quebra.png)
-
-1. Motivo da quebra (selecione na lista predefinida)
-2. Descrição do dano
-3. Indicação se o dano foi causado por uso inadequado
-4. Possibilidade de anexar foto do item danificado
-
-### Passo 3: Confirmação da Devolução
-
-![Confirmação de Devolução](../../../assets/images/confirmacao-devolucao.png)
-
-1. Revise todas as informações preenchidas
-2. Adicione observações gerais, se necessário
-3. Clique em **Confirmar Devolução**
-4. O sistema exibirá uma mensagem de confirmação e atualizará o status dos itens
+- Revise todas as informações inseridas
+- Clique no botão **Confirmar**
+- O sistema processará a devolução e atualizará o status do equipamento no inventário
 
 ## Impacto no Estoque
 
-O tratamento dos itens devolvidos varia conforme o tipo de devolução:
+Ao registrar uma devolução:
 
-| Tipo de Devolução | Impacto no Estoque | Tratamento |
-|-------------------|---------------------|------------|
-| Devolução Normal (Bom estado) | Retorna ao estoque disponível | Item pode ser reutilizado para novas entregas |
-| Devolução Normal (Estado ruim) | Não retorna ao estoque | Item registrado como "Descartado" |
-| Registro de Perda | Baixa definitiva | Item registrado como "Perdido" |
-| Registro de Quebra | Baixa definitiva | Item registrado como "Danificado" |
+- O equipamento é marcado como "devolvido" no sistema
+- O status do item no inventário é atualizado para "disponível" (a menos que esteja marcado para descarte)
+- A associação entre o colaborador e o equipamento é encerrada
+- O histórico do equipamento é atualizado, mantendo o registro de quem o utilizou
 
-## Registros e Documentação
+## Considerações Importantes
 
-Cada devolução gera:
+- **Inspeção física**: Sempre verifique as condições físicas do EPI antes de registrar a devolução
+- **Conformidade**: Equipamentos devolvidos em más condições podem exigir investigação e documentação adicional
+- **Higienização**: Verifique se o equipamento requer limpeza ou sanitização antes de retornar ao estoque
+- **Recertificação**: Alguns EPIs podem precisar de recertificação ou testes antes de serem disponibilizados novamente
 
-1. Atualização na Ficha de EPI Digital do colaborador
-2. Registro no histórico de movimentação do item
-3. Atualização nos relatórios de conformidade
-4. Documentação da devolução com data, hora e responsável pelo recebimento
+## Solução de Problemas
 
-## Observações Importantes
+| Problema | Solução |
+|----------|---------|
+| Não é possível selecionar "Devolução" | Verifique se o item já foi devolvido ou registrado como perdido/quebrado |
+| Data de devolução inválida | Certifique-se de que a data não é anterior à data de entrega |
+| Motivo de devolução não aparece | Verifique as configurações de motivos de devolução nas configurações do sistema |
+| Erro ao confirmar devolução | Verifique a conexão com o servidor e tente novamente |
 
-### Prazos de Devolução
+## Próximos Passos
 
-- O sistema destaca automaticamente itens com prazo de devolução vencido
-- Para itens de uso permanente, a devolução só é exigida em caso de substituição ou desligamento
-- Para itens com uso temporário, o sistema calcula a data esperada de devolução com base na configuração do item
+Após registrar a devolução de um EPI, você pode:
 
-### Perda Recorrente
+- Verificar o histórico atualizado do equipamento
+- Processar outros itens pendentes de devolução
+- Verificar se o equipamento necessita de manutenção antes de retornar ao estoque
+- Avaliar a necessidade de solicitar novos EPIs para reposição de estoque
 
-O sistema monitora padrões de perda e pode gerar alertas quando um colaborador registra perdas frequentes, permitindo ações preventivas ou educativas.
+---
 
-### Quebras Sistemáticas
-
-Um número elevado de quebras para determinado modelo de EPI pode indicar problemas de qualidade, proporcionando dados para reavaliação de fornecedores.
-
-## Melhores Práticas
-
-- Realize a devolução o mais breve possível após o recebimento físico do item
-- Documente detalhadamente as condições de itens danificados
-- Utilize fotos para registrar danos quando relevante
-- Estabeleça critérios claros para determinar quando um item pode retornar ao estoque
-- Não aceite devoluções de EPIs descartáveis ou de uso único
-- Verifique se o item devolvido corresponde exatamente ao que foi entregue (mesmo modelo, tamanho, etc.)
+*Última atualização: 18 de Maio de 2025*

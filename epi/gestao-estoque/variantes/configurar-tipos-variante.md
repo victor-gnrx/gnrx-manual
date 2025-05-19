@@ -1,110 +1,138 @@
 # Configurar Tipos de Variante
 
-Esta página explica como configurar tipos de variantes para itens de EPI no Sistema GNRX, permitindo o controle preciso de diferentes versões do mesmo equipamento (como tamanhos, cores, modelos).
+Esta página explica como configurar tipos de variante para itens de EPI no Sistema GNRX Gestão de EPI.
 
-## O que são Variantes?
+## Visão Geral
 
-Variantes são características que diferenciam versões do mesmo EPI. Por exemplo, um capacete de proteção pode ter variantes de cor (branco, amarelo, vermelho) e tamanho (P, M, G). Configurar corretamente as variantes permite:
+As variantes permitem gerenciar diferentes características de um mesmo item de EPI, como tamanhos, cores, modelos ou outras especificações relevantes. Esta funcionalidade é essencial para o controle preciso do estoque e para garantir que cada colaborador receba o equipamento adequado às suas necessidades.
 
-- Controle específico de estoque para cada versão
-- Entrega do EPI exatamente adequado para cada colaborador
-- Rastreabilidade detalhada de cada unidade
+![Configurar Tipos de Variante](../../../assets/images/configurar-tipos-variante.png)
 
-## Acessando a Configuração de Variantes
+## Acesso à Configuração de Variantes
 
-Há duas formas de acessar a configuração de variantes:
+Para configurar variantes de um item:
 
-### 1. Durante o cadastro de um novo item
+1. Acesse o módulo **Inventário**
+2. Clique no item desejado na lista para abrir seus detalhes
+3. Navegue até a aba **Informações Item**
+4. Na seção "Variantes do Item", clique no botão **Adicionar Variante**
 
-Ao finalizar o cadastro de um novo item com a opção "Este item possui variantes" marcada, o sistema direcionará automaticamente para a tela de configuração de variantes.
+## Quando Utilizar Variantes
 
-### 2. Para um item já existente
+As variantes são úteis para itens que possuem:
 
-1. No menu lateral, acesse **Gestão de Estoque**
-2. Selecione **Itens**
-3. Localize o item desejado e clique no ícone de **Editar**
-4. Na tela de edição, clique na aba **Variantes**
+- Diferentes tamanhos (P, M, G, XG, etc.)
+- Diversas cores disponíveis
+- Modelos específicos do mesmo tipo de EPI
+- Características que afetam a compatibilidade com o usuário
+- Versões para uso em diferentes ambientes
 
-![Acesso às Variantes](../../../assets/images/acesso-variantes.png)
+## Utilizando Categorias Pré-configuradas
 
-## Configurando Tipos de Variante
+O sistema oferece categorias pré-configuradas para facilitar o cadastro:
 
-### Passo 1: Adicionar um Tipo de Variante
+1. **Vestuário**: Para uniformes e roupas de proteção
+   - Tamanho (Vestuário): PP, P, M, G, GG, XG
+   - Tamanho (Infantil): 2, 4, 6, 8, 10, 12, 14, 16
 
-1. Na seção "Tipos de Variante", clique no botão **Adicionar Tipo**
-2. Preencha o formulário com as seguintes informações:
+2. **Calçados**: Para botas e sapatos de segurança
+   - Tamanho (Calçado): 32, 33, 34, 35... até 44
 
-![Cadastro de Tipo de Variante](../../../assets/images/tipo-variante-form.png)
+3. **Cores**: Divididas em dois grupos
+   - Cor (Básicas): Preto, Branco, Cinza, Bege, Marrom
+   - Cor (Vibrantes): Vermelho, Azul, Verde, Amarelo, Roxo, Rosa, Laranja
 
-| Campo | Descrição | Exemplo |
-|-------|-----------|---------|
-| Nome | Nome descritivo do tipo de variante | "Tamanho" |
-| Obrigatório | Se é obrigatório especificar esta variante | Sim/Não |
-| Ordem | Número que define a ordem de exibição/seleção | 1, 2, 3... |
+4. **Materiais**: Composição do item
+   - Material: Algodão, Poliéster, Nylon, Linho, Jeans, Couro, etc.
 
-3. Clique em **Salvar Tipo**
+5. **Medidas**: Dimensões em centímetros
+   - Medida: 35cm, 36cm, 37cm, etc.
 
-### Passo 2: Adicionar Valores para o Tipo de Variante
+## Criando uma Nova Variante
 
-Após criar um tipo de variante, é necessário definir os valores possíveis para esse tipo:
+Para criar uma variante personalizada:
 
-1. Na linha do tipo de variante criado, clique no botão **Valores**
-2. Na tela de valores, clique em **Adicionar Valor**
-3. Preencha o formulário:
+1. Clique na categoria apropriada (Vestuário, Calçados, Cores, etc.)
+2. Selecione o sub-tipo se disponível (ex: Tamanho (Vestuário) ou Tamanho (Infantil))
+3. Defina o **Nome da Variante** (ex: "Tamanho", "Cor", "Modelo")
+4. Decida se a variante será **Obrigatória** ativando ou não o toggle
+5. Note o aviso importante: **"Após a criação da variante, não será possível excluir nem modificar. Só será possível adicionar valores a ela."**
+6. Adicione os **Valores da Variante** utilizando o botão "+ Adicionar"
+7. Clique em **Criar Variante** para finalizar
 
-![Cadastro de Valor de Variante](../../../assets/images/valor-variante-form.png)
+## Valores Pré-definidos por Categoria
 
-| Campo | Descrição | Exemplo |
-|-------|-----------|---------|
-| Valor | O valor específico da variante | "P", "M", "G" ou "Vermelho", "Azul" |
-| Ordem | Número que define a ordem de exibição/seleção | 1, 2, 3... |
+Cada categoria tem valores pré-configurados que podem ser utilizados:
 
-4. Clique em **Salvar Valor**
-5. Repita o processo para adicionar todos os valores possíveis para este tipo de variante
+### Vestuário
+- Tamanho (Vestuário): PP, P, M, G, GG, XG
+- Tamanho (Infantil): 2, 4, 6, 8, 10, 12, 14, 16
 
-### Passo 3: Repita o Processo para Outros Tipos de Variante (Se Necessário)
+### Calçados
+- Tamanho (Calçado): 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44
 
-Se o item possuir múltiplos tipos de variantes (ex: tamanho E cor), repita os passos 1 e 2 para cada tipo adicional.
+### Cores
+- Cor (Básicas): Preto, Branco, Cinza, Bege, Marrom
+- Cor (Vibrantes): Vermelho, Azul, Verde, Amarelo, Roxo, Rosa, Laranja
 
-## Exemplo Prático: Configurando Variantes para uma Luva de Proteção
+### Materiais
+- Material: Algodão, Poliéster, Nylon, Linho, Jeans, Couro, Tecido Sintético
 
-### Cenário
+### Medidas
+- Medida: 35cm, 36cm, 37cm até 54cm (incrementos de 1cm)
 
-Uma luva de proteção com variantes de tamanho (P, M, G, GG) e cor (Amarela, Preta).
+## Exemplos de Uso
 
-### Configuração
+### Para um Protetor Auditivo
 
-1. **Primeiro Tipo de Variante**:
-   - Nome: Tamanho
-   - Obrigatório: Sim
-   - Ordem: 1
-   - Valores: P (1), M (2), G (3), GG (4)
+1. Adicione a variante "Tamanho" com valores:
+   - "Único"
+   - "Ajustável"
 
-2. **Segundo Tipo de Variante**:
-   - Nome: Cor
-   - Obrigatório: Sim
-   - Ordem: 2
-   - Valores: Amarela (1), Preta (2)
+### Para um Uniforme
 
-## Impacto no Estoque
+1. Adicione a variante "Tamanho" com valores do Vestuário (PP até XG)
+2. Adicione a variante "Cor" com as cores disponíveis
 
-Ao configurar variantes, o sistema criará combinações únicas para controle de estoque. No exemplo da luva, seriam criadas as seguintes combinações:
+### Para um Capacete de Segurança
 
-- Luva Tamanho P / Cor Amarela
-- Luva Tamanho P / Cor Preta
-- Luva Tamanho M / Cor Amarela
-- Luva Tamanho M / Cor Preta
-- Luva Tamanho G / Cor Amarela
-- Luva Tamanho G / Cor Preta
-- Luva Tamanho GG / Cor Amarela
-- Luva Tamanho GG / Cor Preta
+1. Adicione a variante "Tamanho" com valores específicos
+2. Adicione a variante "Cor" com as opções disponíveis
+3. Adicione a variante "Material" se aplicável
 
-Cada combinação terá seu próprio controle de estoque e poderá ser rastreada individualmente.
+## Implicações no Estoque
 
-## Observações Importantes
+Ao configurar variantes:
 
-- A configuração de variantes deve ser feita antes de registrar entradas de estoque
-- Não é possível remover tipos de variantes após o item já possuir movimentações de estoque
-- Utilize a ordem para definir a sequência lógica de seleção (geralmente tamanho vem antes de cor)
-- Limite-se às variantes realmente necessárias para não complicar desnecessariamente a gestão
-- As variantes definidas aqui serão utilizadas durante a solicitação de EPIs para seleção do item específico para cada colaborador
+- O sistema criará combinações das diferentes variantes
+- Cada combinação terá seu próprio controle de estoque
+- Os lotes deverão especificar quais variantes contêm
+- A rastreabilidade será mantida por combinação específica
+
+## Visualização das Variantes Configuradas
+
+Após a criação, as variantes aparecerão na seção "Variantes do Item" com:
+- Nome da variante
+- Valores disponíveis
+- Indicação se é obrigatória
+- Opção para adicionar mais variantes
+
+## Limitações e Considerações Importantes
+
+- Uma vez criada, uma variante **não pode ser modificada ou excluída**
+- Apenas novos valores podem ser adicionados a uma variante existente
+- O planejamento cuidadoso antes da criação é essencial
+- Múltiplas variantes aumentam exponencialmente as combinações possíveis
+
+## Próximos Passos
+
+Após configurar os tipos de variante, você pode:
+
+- [Adicionar valores às variantes](./adicionar-valores-variante.md)
+- [Editar variantes existentes](./editar-variantes.md) (limitado a adicionar novos valores)
+- [Adicionar lotes com variantes específicas](../lotes/adicionar-lote.md)
+- [Verificar o inventário detalhado](../relatorios/estoque-atual.md) com as variantes configuradas
+
+---
+
+*Última atualização: 18 de Maio de 2025*
