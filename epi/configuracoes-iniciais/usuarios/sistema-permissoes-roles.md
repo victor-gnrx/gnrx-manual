@@ -374,7 +374,7 @@ Para necessidades específicas da sua organização, você pode criar roles cust
 
 ## Casos de Uso Comuns
 
-### Scenario 1: Empresa Multinível
+### Cenário 1: Empresa Multinível
 **Situação**: Empresa com diferentes níveis hierárquicos
 
 **Solução**:
@@ -383,7 +383,7 @@ Para necessidades específicas da sua organização, você pode criar roles cust
 - Supervisores para coordenação operacional
 - Operadores para execução de tarefas
 
-### Scenario 2: Empresa com Terceiros
+### Cenário 2: Empresa com Terceiros
 **Situação**: Funcionários próprios + empresas terceirizadas
 
 **Solução**:
@@ -392,7 +392,7 @@ Para necessidades específicas da sua organização, você pode criar roles cust
 - Sem visualização de dados financeiros ou estoque
 - Relatórios restritos apenas às suas atividades
 
-### Scenario 3: Consultoria Especializada
+### Cenário 3: Consultoria Especializada
 **Situação**: Consultores externos fazendo auditorias
 
 **Solução**:
@@ -405,7 +405,7 @@ Para necessidades específicas da sua organização, você pode criar roles cust
 **Tempo Limitado**: Para consultores externos, considere sempre definir uma data de expiração para as roles atribuídas, removendo o acesso automaticamente após o término do projeto.
 {% endhint %}
 
-## Troubleshooting
+## Correção de Problemas
 
 {% hint style="info" %}
 **Cache de Permissões**: O sistema mantém um cache das permissões do usuário. Se as alterações não surtirem efeito imediatamente, peça para o usuário fazer logout e login novamente.
