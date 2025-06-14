@@ -62,9 +62,10 @@
 * [Cadastrar Face](configuracoes-iniciais/reconhecimento-facial/cadastrar-face.md)
 * [Atualizar Face](configuracoes-iniciais/reconhecimento-facial/atualizar-face.md)
 
-## Usuários
+## Usuários / Roles (Papéis)
 
 * [Configurações Gerais](configuracoes-iniciais/usuarios/README.md)
+* [Sistema de Permissões e Roles](configuracoes-iniciais/usuarios/sistema-permissoes-roles.md) 
 
 ## Gestão de Estoque
 
