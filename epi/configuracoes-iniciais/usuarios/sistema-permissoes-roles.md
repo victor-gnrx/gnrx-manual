@@ -15,7 +15,7 @@ O sistema de roles e permissões substitui o antigo campo "tipo_usuario" por um 
 
 ### O que são Roles (Papéis)?
 
-**Roles** são conjuntos de permissões agrupadas logicamente que definem o que um usuário pode fazer no sistema. Cada usuário pode ter uma ou mais roles atribuídas, e essas roles podem ser específicas para determinadas unidades ou setores.
+**Roles** são conjuntos de permissões agrupadas logicamente que definem o que um usuário pode fazer no sistema. Cada usuário pode ter uma ou mais roles atribuídas.
 
 ### O que são Permissões?
 
@@ -24,16 +24,9 @@ O sistema de roles e permissões substitui o antigo campo "tipo_usuario" por um 
 - **Ação**: O que pode ser feito (ex: criar, editar, visualizar, deletar)
 - **Recurso**: Sobre o que a ação é executada (ex: auditoria, usuário, relatório)
 
-### Controle Contextual (ABAC)
-
 {% hint style="warning" %}
 **Importante**: Apenas usuários com role "Administrador" podem gerenciar outros usuários e suas permissões. Esta é uma medida de segurança para evitar escalação não autorizada de privilégios.
 {% endhint %}
-
-Além das roles, o sistema considera:
-- **Unidade de Trabalho**: Onde o usuário pode atuar
-- **Setor**: Setor específico dentro da unidade
-- **Hierarquia**: Relacionamento entre unidades e setores
 
 ## Roles Padrão do Sistema
 
@@ -70,12 +63,12 @@ O sistema inclui quatro roles pré-configuradas que atendem à maioria dos cená
 - Registrar entregas e devoluções de EPIs
 - Editar dados de funcionários de sua supervisão
 - Visualizar dashboards básicos
-- Gerenciar atividades do seu setor/unidade
+- Gerenciar atividades operacionais
 
 **Limitações**:
 - Não pode criar modelos de formulários ou checklists
 - Não pode gerenciar estoque geral
-- Não pode ver todas as unidades da empresa
+- Não pode acessar configurações de sistema
 
 {% hint style="info" %}
 **Ideal para**: Supervisores de equipe, encarregados de setor, líderes de turno que precisam aprovar solicitações e coordenar atividades operacionais.
@@ -90,7 +83,7 @@ O sistema inclui quatro roles pré-configuradas que atendem à maioria dos cená
 - Gerenciar todos os aspectos de auditorias
 - Visualizar e editar toda estrutura organizacional
 - Gerar todos os tipos de relatórios
-- Visualizar dados de múltiplas unidades
+- Visualizar dados da empresa
 - Configurar GHEs, riscos ocupacionais e fabricantes
 
 **Limitações**:
@@ -157,7 +150,7 @@ Todas as permissões do sistema seguem o formato **módulo:ação:recurso** e es
 ### 🦺 MÓDULO: EPIs (Equipamentos de Proteção Individual)
 | Permissão | Descrição | Operador | Supervisor | Gestor | Admin |
 |-----------|-----------|----------|------------|--------|-------|
-| `epis:visualizar:estoque` | Visualizar estoque local de EPIs | ❌ | ✅ | ✅ | ✅ |
+| `epis:visualizar:estoque` | Visualizar estoque de EPIs | ❌ | ✅ | ✅ | ✅ |
 | `epis:visualizar:geral_estoque` | Visualizar todos os estoques de EPIs da empresa | ❌ | ❌ | ✅ | ✅ |
 | `epis:gerenciar:estoque` | Gerenciar entrada/saída e movimentação de estoque | ❌ | ❌ | ❌ | ✅ |
 | `epis:solicitar:epi` | Solicitar EPIs para funcionários | ✅ | ✅ | ✅ | ✅ |
@@ -196,7 +189,7 @@ Todas as permissões do sistema seguem o formato **módulo:ação:recurso** e es
 |-----------|-----------|----------|------------|--------|-------|
 | `epis:criar:ghe` | Cadastrar novos Grupos Homogêneos de Exposição | ❌ | ❌ | ✅ | ✅ |
 | `epis:editar:ghe` | Editar GHEs existentes | ❌ | ❌ | ✅ | ✅ |
-| `epis:visualizar:ghe` | Visualizar GHEs do seu contexto | ❌ | ✅ | ✅ | ✅ |
+| `epis:visualizar:ghe` | Visualizar GHEs da empresa | ❌ | ✅ | ✅ | ✅ |
 | `epis:visualizar:todos_ghe` | Visualizar todos os GHEs da empresa | ❌ | ❌ | ✅ | ✅ |
 | `epis:inativar:ghe` | Inativar GHEs não utilizados | ❌ | ❌ | ✅ | ✅ |
 | `epis:associar:ghe_epi` | Associar EPIs aos GHEs | ❌ | ❌ | ✅ | ✅ |
@@ -227,7 +220,7 @@ Todas as permissões do sistema seguem o formato **módulo:ação:recurso** e es
 |-----------|-----------|----------|------------|--------|-------|
 | `estrutura:criar:local_trabalho` | Criar novos locais de trabalho | ❌ | ❌ | ✅ | ✅ |
 | `estrutura:editar:local_trabalho` | Editar informações de locais de trabalho | ❌ | ❌ | ✅ | ✅ |
-| `estrutura:visualizar:local_trabalho` | Visualizar locais de trabalho do contexto | ✅ | ✅ | ✅ | ✅ |
+| `estrutura:visualizar:local_trabalho` | Visualizar locais de trabalho | ✅ | ✅ | ✅ | ✅ |
 | `estrutura:visualizar:todos_local_trabalho` | Visualizar todos os locais da empresa | ❌ | ❌ | ✅ | ✅ |
 | `estrutura:inativar:local_trabalho` | Inativar locais de trabalho | ❌ | ❌ | ✅ | ✅ |
 
@@ -236,7 +229,7 @@ Todas as permissões do sistema seguem o formato **módulo:ação:recurso** e es
 |-----------|-----------|----------|------------|--------|-------|
 | `estrutura:criar:setor` | Criar novos setores | ❌ | ❌ | ✅ | ✅ |
 | `estrutura:editar:setor` | Editar informações de setores | ❌ | ❌ | ✅ | ✅ |
-| `estrutura:visualizar:setor` | Visualizar setores do contexto | ✅ | ✅ | ✅ | ✅ |
+| `estrutura:visualizar:setor` | Visualizar setores | ✅ | ✅ | ✅ | ✅ |
 | `estrutura:visualizar:todos_setor` | Visualizar todos os setores da empresa | ❌ | ❌ | ✅ | ✅ |
 | `estrutura:inativar:setor` | Inativar setores não utilizados | ❌ | ❌ | ✅ | ✅ |
 
@@ -245,7 +238,7 @@ Todas as permissões do sistema seguem o formato **módulo:ação:recurso** e es
 |-----------|-----------|----------|------------|--------|-------|
 | `estrutura:criar:cargo` | Criar novos cargos | ❌ | ❌ | ✅ | ✅ |
 | `estrutura:editar:cargo` | Editar informações de cargos | ❌ | ❌ | ✅ | ✅ |
-| `estrutura:visualizar:cargo` | Visualizar cargos do contexto | ✅ | ✅ | ✅ | ✅ |
+| `estrutura:visualizar:cargo` | Visualizar cargos | ✅ | ✅ | ✅ | ✅ |
 | `estrutura:visualizar:todos_cargo` | Visualizar todos os cargos da empresa | ❌ | ❌ | ✅ | ✅ |
 | `estrutura:inativar:cargo` | Inativar cargos não utilizados | ❌ | ❌ | ✅ | ✅ |
 
@@ -275,7 +268,7 @@ Todas as permissões do sistema seguem o formato **módulo:ação:recurso** e es
 | `formularios:visualizar:modelo_formulario` | Visualizar modelos de formulário disponíveis | ✅ | ✅ | ✅ | ✅ |
 | `formularios:deletar:modelo_formulario` | Deletar modelos de formulário | ❌ | ❌ | ✅ | ✅ |
 | `formularios:criar:formulario` | Criar instâncias de formulários | ✅ | ✅ | ✅ | ✅ |
-| `formularios:visualizar:formulario` | Visualizar formulários do contexto | ✅ | ✅ | ✅ | ✅ |
+| `formularios:visualizar:formulario` | Visualizar formulários | ✅ | ✅ | ✅ | ✅ |
 | `formularios:editar:formulario` | Editar configurações de formulários | ✅ | ✅ | ✅ | ✅ |
 | `formularios:preencher:registro` | Preencher registros nos formulários | ✅ | ✅ | ✅ | ✅ |
 
@@ -292,35 +285,12 @@ Todas as permissões do sistema seguem o formato **módulo:ação:recurso** e es
 **Pré-requisito**: Você precisa ter a permissão `usuarios:gerenciar:roles` para atribuir roles a outros usuários. Por padrão, apenas usuários com role "Administrador" possuem esta permissão.
 {% endhint %}
 
-### Atribuição Básica
+### Atribuição de Roles
 1. Acesse **Configurações** → **Usuários**
 2. Selecione o usuário desejado
 3. Na seção **"Roles e Permissões"**, clique em **"Gerenciar Roles"**
 4. Selecione uma ou mais roles para o usuário
 5. Salve as alterações
-
-### Atribuição Contextual
-Para maior flexibilidade, você pode atribuir roles específicas para determinados contextos:
-
-**Por Unidade de Trabalho:**
-- Um usuário pode ser **Supervisor** na Unidade A
-- E **Operador** na Unidade B
-
-**Por Setor:**
-- Um usuário pode ser **Gestor** no Setor de Manutenção
-- E **Supervisor** no Setor de Produção
-
-**Exemplo Prático:**
-```
-João Silva:
-├── Role: Gestor (Unidade: Fábrica SP, Setor: Manutenção)
-├── Role: Supervisor (Unidade: Fábrica SP, Setor: Produção)
-└── Role: Operador (Unidade: Fábrica RJ, Todos os setores)
-```
-
-{% hint style="warning" %}
-**Cuidado com Conflitos**: Quando um usuário tem múltiplas roles, o sistema sempre aplica a permissão mais ampla. Se há conflito, a role com maior privilégio prevalece.
-{% endhint %}
 
 ## Criando Roles Personalizadas
 
@@ -404,18 +374,14 @@ Para necessidades específicas da sua organização, você pode criar roles cust
 
 ## Casos de Uso Comuns
 
-### Scenario 1: Empresa Multi-Unidades
-**Situação**: Empresa com 5 fábricas, cada uma com gestão local
+### Scenario 1: Empresa Multinível
+**Situação**: Empresa com diferentes níveis hierárquicos
 
 **Solução**:
-- Administrador geral com acesso a todas as unidades
-- Gestor local para cada fábrica (acesso apenas à sua unidade)
-- Supervisores por setor dentro de cada fábrica
-- Operadores com acesso apenas ao seu setor
-
-{% hint style="info" %}
-**Escalabilidade**: Este modelo escala perfeitamente quando a empresa cresce. Novas unidades podem ser adicionadas sem impactar a estrutura de permissões existente.
-{% endhint %}
+- Administrador geral com acesso total
+- Gestores para áreas específicas
+- Supervisores para coordenação operacional
+- Operadores para execução de tarefas
 
 ### Scenario 2: Empresa com Terceiros
 **Situação**: Funcionários próprios + empresas terceirizadas
@@ -448,8 +414,8 @@ Para necessidades específicas da sua organização, você pode criar roles cust
 ### Usuário não consegue acessar uma funcionalidade
 1. Verifique se o usuário tem a role adequada
 2. Confirme se a role tem a permissão específica
-3. Verifique se o contexto (unidade/setor) está correto
-4. Confirme se o usuário está ativo
+3. Confirme se o usuário está ativo
+4. Verifique se não há problemas de cache
 
 ### Role personalizada não aparece
 1. Verifique se a role foi salva corretamente
@@ -457,8 +423,8 @@ Para necessidades específicas da sua organização, você pode criar roles cust
 3. Verifique se você tem permissão para gerenciar roles
 
 ### Permissões não funcionam como esperado
-1. Logue out e logue in novamente
-2. Verifique conflitos entre multiple roles
+1. Faça logout e login novamente
+2. Verifique conflitos entre múltiplas roles
 3. Confirme a hierarquia de permissões
 4. Contate o suporte se necessário
 
