@@ -2,7 +2,9 @@
 
 ## Introdução
 
-Bem-vindo ao Manual do Sistema GNRX Gestão de EPI. Esta documentação foi desenvolvida para auxiliar usuários e administradores a utilizarem de forma eficiente todas as funcionalidades da plataforma, garantindo uma Gestão de EPIs (Equipamentos de Proteção Individual) eficaz, segura e em conformidade com as normas regulamentadoras.
+Bem-vindo ao Manual do Sistema GNRx Gestão de EPI. Esta documentação foi desenvolvida para auxiliar usuários e administradores a utilizarem de forma eficiente todas as funcionalidades da plataforma, garantindo uma Gestão de EPIs (Equipamentos de Proteção Individual) eficaz, segura e em conformidade com as normas regulamentadoras.
+
+<figure><img src=".gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Sobre o Sistema GNRx - Gestão de EPI
 
@@ -51,7 +53,7 @@ Para uma experiência ideal:
 
 Se você encontrar alguma dificuldade que não esteja coberta neste manual ou tiver sugestões para melhorias:
 
-* Entre em contato com nossa equipe de suporte pelo e-mail: conato@nrxgestao.com.br
+* Entre em contato com nossa equipe de suporte pelo e-mail: contato@nrxgestao.com.br
 
 ## Convenções Utilizadas
 
