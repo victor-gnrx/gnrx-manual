@@ -9,27 +9,15 @@ A vinculação entre setores e unidades é uma configuração fundamental no sis
 ## Conceito de Vínculo Setor-Unidade
 
 No Sistema GNRX:
-- Uma **Unidade** representa uma localidade física (filial, planta, escritório)
-- Um **Setor** representa uma área funcional (departamento, equipe)
-- Um mesmo setor pode existir em múltiplas unidades
-- Cada colaborador é vinculado a um setor dentro de uma unidade específica
 
-![Conceito de Vínculo](../../../assets/images/conceito-vinculo-setor-unidade.png)
+* Uma **Unidade** representa uma localidade física (filial, planta, escritório)
+* Um **Setor** representa uma área funcional (departamento, equipe)
+* Um mesmo setor pode existir em múltiplas unidades
+* Cada colaborador é vinculado a um setor dentro de uma unidade específica
+
+![Conceito de Vínculo](<../../.gitbook/assets/Unidade 1.png>)
 
 ## Acessando a Tela de Vinculação
-
-Existem duas formas de gerenciar os vínculos entre setores e unidades:
-
-### Opção 1: A partir do Setor
-
-1. No menu lateral, clique em **Estruturas**
-2. Selecione **Setores**
-3. Clique no setor desejado para abrir a tela de detalhes
-4. Selecione a aba **Unidades**
-
-![Acesso via Setor](../../../assets/images/setor-aba-unidades.png)
-
-### Opção 2: A partir da Unidade
 
 1. No menu lateral, clique em **Estruturas**
 2. Selecione **Unidades**
@@ -37,107 +25,55 @@ Existem duas formas de gerenciar os vínculos entre setores e unidades:
 4. Selecione a aba **Setores**
 5. Clique em **Adicionar Setor**
 
-![Acesso via Unidade](../../../assets/images/unidade-aba-setores.png)
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 ## Visualizando Unidades Vinculadas a um Setor
 
 Na tela de detalhes do setor, a aba **Unidades** exibe:
 
-![Unidades do Setor](../../../assets/images/unidades-do-setor.png)
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-- Lista das unidades onde o setor está presente
-- Quantidade de colaboradores do setor em cada unidade
-- Data de vinculação (quando disponível)
+* Lista das unidades onde o setor está presente
+* Quantidade de colaboradores do setor em cada unidade
 
 Esta visualização permite uma rápida avaliação da distribuição do setor pela empresa.
 
 ## Vinculando um Setor a uma Unidade
-
-### A partir do Setor
-
-1. Na tela de detalhes do setor, selecione a aba **Unidades**
-2. Clique no botão **Vincular a Unidades**
-3. No modal exibido, selecione as unidades desejadas na lista
-4. Clique em **Confirmar** para estabelecer as vinculações
-
-![Vincular a partir do Setor](../../../assets/images/vincular-unidades-setor.png)
-
-### A partir da Unidade
 
 1. Na tela de detalhes da unidade, selecione a aba **Setores**
 2. Clique no botão **Adicionar Setor**
 3. No modal exibido, selecione os setores desejados na lista
 4. Clique em **Confirmar** para estabelecer as vinculações
 
-![Vincular a partir da Unidade](../../../assets/images/vincular-setores-unidade.png)
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Vincular a partir da Unidade</p></figcaption></figure>
 
 ## Removendo Vínculo entre Setor e Unidade
-
-### A partir do Setor
-
-1. Na tela de detalhes do setor, selecione a aba **Unidades**
-2. Localize a unidade que deseja desvincular
-3. Clique no ícone de remoção (lixeira)
-4. Confirme a ação no diálogo exibido
-
-### A partir da Unidade
 
 1. Na tela de detalhes da unidade, selecione a aba **Setores**
 2. Localize o setor que deseja desvincular
 3. Clique no ícone de remoção (lixeira)
 4. Confirme a ação no diálogo exibido
 
-> **Importante:** A remoção de vínculo só é possível quando não há colaboradores associados ao setor na unidade específica.
+> **Importante:** A remoção de vínculo também remove todos os colaboradores deste relacionamento.
 
 ## Impacto da Vinculação
 
 A vinculação entre setores e unidades tem os seguintes impactos no sistema:
 
-- Define onde os colaboradores podem ser alocados
-- Determina a disponibilidade de setores para seleção em formulários
-- Afeta a organização de relatórios e estatísticas
-- Influencia a distribuição e gestão de EPIs
-
-## Verificações e Alertas
-
-Ao vincular ou desvincular setores e unidades, o sistema realiza as seguintes verificações:
-
-| Verificação | Alerta | Impacto |
-|-------------|--------|---------|
-| Colaboradores existentes | "Existem colaboradores vinculados a este setor na unidade" | Impede a remoção do vínculo |
-| GHEs específicos | "Existem GHEs vinculados a este setor na unidade" | Aviso antes da remoção |
-| Solicitações pendentes | "Existem solicitações pendentes para este setor na unidade" | Aviso antes da remoção |
+* Define onde os colaboradores podem ser alocados
+* Afeta a organização de relatórios e estatísticas
+* Influencia a distribuição e gestão de EPIs
 
 ## Melhores Práticas
 
 Para uma gestão eficiente dos vínculos entre setores e unidades:
 
-- Configure todos os vínculos necessários antes de cadastrar colaboradores
-- Mantenha a mesma estrutura de setores entre unidades similares para facilitar comparações
-- Revise periodicamente os vínculos para garantir que refletem a estrutura atual da empresa
-- Documente a razão de vinculações específicas quando não forem óbvias
-- Considere o impacto na gestão de EPIs ao criar ou remover vínculos
+* Configure todos os vínculos necessários antes de cadastrar colaboradores
+* Mantenha a mesma estrutura de setores entre unidades similares para facilitar comparações
+* Revise periodicamente os vínculos para garantir que refletem a estrutura atual da empresa
+* Documente a razão de vinculações específicas quando não forem óbvias
+* Considere o impacto na gestão de EPIs ao criar ou remover vínculos
 
-## Vinculação em Massa
+***
 
-Para empresas com muitas unidades e setores, é possível realizar vinculação em massa:
-
-1. No menu **Estruturas**, selecione **Gerenciamento de Estrutura**
-2. Acesse a aba **Vínculos em Massa**
-3. Utilize a matriz para selecionar múltiplos vínculos de uma só vez
-4. Clique em **Aplicar Alterações** para confirmar
-
-## Relatórios e Análises
-
-O sistema oferece relatórios específicos sobre a distribuição de setores por unidades:
-
-1. No menu **Relatórios**, selecione **Estrutura Organizacional**
-2. Escolha o relatório **Distribuição de Setores**
-3. Aplique filtros conforme necessário
-4. Gere o relatório para visualizar a distribuição completa
-
-Este relatório é útil para análise organizacional e planejamento de EPIs.
-
----
-
-*Última atualização: 16 de Maio de 2025*
+_Última atualização: 16 de Maio de 2025_
