@@ -1,5 +1,5 @@
 ---
-description: Introdução ao Módulo de Auditorias GNRx
+description: Manual detalhado do Módulo de Auditorias - GNRx
 icon: clipboard-check
 ---
 
