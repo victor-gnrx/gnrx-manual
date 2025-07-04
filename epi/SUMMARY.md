@@ -2,7 +2,7 @@
 
 ## Introdução
 
-* [Início](README.md)
+* [Introdução ao Gestão de EPIs](README.md)
 * [Painel de Controle](painel.md)
 
 ## Configurações Iniciais

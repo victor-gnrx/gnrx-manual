@@ -1,8 +1,9 @@
 ---
+description: Manual detalhado do Módulo Gestão de EPIs - GNRx
 icon: helmet-safety
 ---
 
-# Início
+# Introdução ao Gestão de EPIs
 
 ## Introdução
 
