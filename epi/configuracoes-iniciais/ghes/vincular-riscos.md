@@ -26,13 +26,13 @@ Para vincular riscos a um GHE:
 4. Selecione a aba **Riscos / EPIs**
 5. Clique no botão **Editar**
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Interface de Seleção de Riscos
 
 A tela de vinculação de riscos apresenta uma interface completa para seleção:
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Componentes da Interface
 

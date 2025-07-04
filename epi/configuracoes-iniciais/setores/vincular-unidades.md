@@ -25,13 +25,13 @@ No Sistema GNRX:
 4. Selecione a aba **Setores**
 5. Clique em **Adicionar Setor**
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Visualizando Unidades Vinculadas a um Setor
 
 Na tela de detalhes do setor, a aba **Unidades** exibe:
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Lista das unidades onde o setor está presente
 * Quantidade de colaboradores do setor em cada unidade
@@ -45,7 +45,7 @@ Esta visualização permite uma rápida avaliação da distribuição do setor p
 3. No modal exibido, selecione os setores desejados na lista
 4. Clique em **Confirmar** para estabelecer as vinculações
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Vincular a partir da Unidade</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Vincular a partir da Unidade</p></figcaption></figure>
 
 ## Removendo Vínculo entre Setor e Unidade
 

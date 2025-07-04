@@ -14,13 +14,13 @@ Para iniciar o cadastro de um novo setor:
 2. Selecione **Setores**
 3. Na tela de listagem, clique no botão **Novo Setor** no canto superior direito
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Formulário de Cadastro
 
 Ao clicar em "Novo Setor", o sistema exibirá um modal com o formulário de criação:
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Formulário Novo Setor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Formulário Novo Setor</p></figcaption></figure>
 
 ### Campos do Formulário
 

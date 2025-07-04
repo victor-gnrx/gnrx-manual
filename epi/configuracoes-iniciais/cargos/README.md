@@ -4,7 +4,7 @@
 
 Os Cargos representam as diferentes funções profissionais dentro da organização. No Sistema GNRX Gestão de EPI, o cadastro de cargos permite uma melhor estruturação do quadro funcional, facilitando a atribuição de responsabilidades e o gerenciamento adequado dos Equipamentos de Proteção Individual conforme as atividades exercidas.
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Funcionalidades Principais
 

@@ -17,12 +17,7 @@ Existem duas formas de acessar a edição de um cargo:
 3. Na lista de cargos, localize o cargo desejado
 4. Clique no ícone de **Editar** (símbolo de lápis) na coluna de ações
 
-![Editar via Lista](../../../assets/images/editar-cargo-lista.png)
-
-### Opção 2: A partir da Tela de Detalhes
-
-1. Acesse a tela de detalhes do cargo (clicando no nome do cargo na lista)
-2. Clique no botão de edição no canto superior direito
+![Editar via Lista](<../../.gitbook/assets/image (10) (1) (1).png>)
 
 ## Interface de Edição
 
@@ -32,27 +27,18 @@ A tela de edição apresenta um modal com o formulário preenchido com o nome at
 
 ### Campos Editáveis
 
-| Campo | Descrição | Considerações ao Editar |
-|-------|-----------|-------------------------|
+| Campo    | Descrição     | Considerações ao Editar                                      |
+| -------- | ------------- | ------------------------------------------------------------ |
 | **Nome** | Nome do cargo | A alteração afetará todas as referências ao cargo no sistema |
-
-## Processo de Edição
-
-1. Modifique o nome do cargo conforme necessário
-2. Verifique cuidadosamente a alteração, especialmente se o cargo já possui colaboradores vinculados
-3. Clique no botão **Salvar** para confirmar a modificação
-4. O sistema exibirá uma mensagem de confirmação após a atualização bem-sucedida
-
-![Confirmação de Atualização](../../../assets/images/confirmacao-atualizacao-cargo.png)
 
 ## Impacto das Alterações
 
 A edição do nome de um cargo pode ter os seguintes impactos no sistema:
 
-- Todas as listagens e relatórios passarão a exibir o novo nome
-- Os colaboradores vinculados ao cargo permanecerão associados à mesma função, agora com a nomenclatura atualizada
-- Históricos de entregas de EPIs manterão a referência ao cargo, mesmo com o nome alterado
-- Permissões e configurações baseadas em cargo serão mantidas
+* Todas as listagens e relatórios passarão a exibir o novo nome
+* Os colaboradores vinculados ao cargo permanecerão associados à mesma função, agora com a nomenclatura atualizada
+* Históricos de entregas de EPIs manterão a referência ao cargo, mesmo com o nome alterado
+* Permissões e configurações baseadas em cargo serão mantidas
 
 ## Melhores Práticas para Edição
 
@@ -60,49 +46,49 @@ A edição do nome de um cargo pode ter os seguintes impactos no sistema:
 
 Situações apropriadas para editar o nome de um cargo:
 
-- Correção de erros ortográficos ou formatação
-- Padronização de nomenclatura na empresa
-- Adequação a mudanças nas descrições oficiais de cargos
-- Ajustes menores na terminologia
+* Correção de erros ortográficos ou formatação
+* Padronização de nomenclatura na empresa
+* Adequação a mudanças nas descrições oficiais de cargos
+* Ajustes menores na terminologia
 
 ### Quando Criar um Novo Cargo em vez de Editar
 
 Em algumas situações, é preferível criar um novo cargo em vez de editar um existente:
 
-- Quando a função mudou significativamente em escopo ou responsabilidades
-- Quando é necessário manter o histórico separado entre a função antiga e a nova
-- Quando colaboradores continuarão ocupando o cargo antigo enquanto outros assumirão a nova nomenclatura
+* Quando a função mudou significativamente em escopo ou responsabilidades
+* Quando é necessário manter o histórico separado entre a função antiga e a nova
+* Quando colaboradores continuarão ocupando o cargo antigo enquanto outros assumirão a nova nomenclatura
 
 ## Considerações Importantes
 
-- Edite cargos com cautela, especialmente aqueles com muitos colaboradores vinculados
-- Comunique alterações significativas aos usuários do sistema e gestores
-- Considere o impacto em relatórios históricos e análises comparativas
-- Mantenha alinhamento com a nomenclatura utilizada em documentos oficiais da empresa
+* Edite cargos com cautela, especialmente aqueles com muitos colaboradores vinculados
+* Comunique alterações significativas aos usuários do sistema e gestores
+* Considere o impacto em relatórios históricos e análises comparativas
+* Mantenha alinhamento com a nomenclatura utilizada em documentos oficiais da empresa
 
 ## Limitações
 
-- Não é possível modificar o ID do cargo
-- A edição afeta todas as referências ao cargo no sistema - não é possível alterar o nome apenas para alguns colaboradores
-- Não é possível mesclar dois cargos através da edição - para isso, é necessário realocar os colaboradores manualmente
+* Não é possível modificar o ID do cargo
+* A edição afeta todas as referências ao cargo no sistema - não é possível alterar o nome apenas para alguns colaboradores
+* Não é possível mesclar dois cargos através da edição - para isso, é necessário realocar os colaboradores manualmente
 
 ## Registro de Alterações
 
 O sistema mantém um registro das modificações realizadas:
 
-- A data da alteração fica registrada no sistema
-- O usuário responsável pela modificação é registrado para fins de auditoria
-- O histórico de nomes anteriores permanece disponível em logs internos
+* A data da alteração fica registrada no sistema
+* O usuário responsável pela modificação é registrado para fins de auditoria
+* O histórico de nomes anteriores permanece disponível em logs internos
 
 ## Próximos Passos
 
 Após editar um cargo, considere:
 
-- Verificar se os colaboradores estão corretamente associados
-- Revisar relatórios e análises para garantir que refletem corretamente a nova nomenclatura
-- Atualizar documentação relacionada para manter a consistência
-- Comunicar a mudança aos gestores e equipes, se necessário
+* Verificar se os colaboradores estão corretamente associados
+* Revisar relatórios e análises para garantir que refletem corretamente a nova nomenclatura
+* Atualizar documentação relacionada para manter a consistência
+* Comunicar a mudança aos gestores e equipes, se necessário
 
----
+***
 
-*Última atualização: 16 de Maio de 2025*
+_Última atualização: 16 de Maio de 2025_

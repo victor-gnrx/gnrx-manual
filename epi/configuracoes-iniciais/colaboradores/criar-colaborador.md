@@ -14,46 +14,36 @@ Para iniciar o cadastro de um novo colaborador:
 2. Selecione **Colaboradores**
 3. Na tela de listagem, clique no botão **Novo colaborador** no canto superior direito
 
-![Botão Novo Colaborador](../../../assets/images/botao-novo-colaborador.png)
+<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption><p>Botão Novo Colaborador</p></figcaption></figure>
 
 ## Formulário de Cadastro
 
 Ao clicar em "Novo colaborador", o sistema exibirá um modal com o formulário de criação:
 
-![Formulário Novo Colaborador](../../../assets/images/formulario-novo-colaborador.png)
+![Formulário Novo Colaborador](<../../.gitbook/assets/image (71).png>)
 
 ### Campos do Formulário
 
-| Campo | Descrição | Obrigatoriedade | Exemplo |
-|-------|-----------|-----------------|---------|
-| **Nome** | Nome completo do colaborador | Obrigatório | "Victor Tavares" |
-| **Email** | Endereço de e-mail para contato | Opcional | "victor.tavares@nrxgestao.com.br" |
-| **CPF** | Número de CPF (apenas números) | Obrigatório | "12345678900" |
-| **Telefone** | Número de telefone com DDD | Opcional | "+5531992088778" |
-| **Matrícula** | Código de matrícula interna | Opcional | "123456" |
-| **Início da Atividade** | Data de início das atividades | Opcional | "08/10/2024" |
-| **Turno** | Período de trabalho | Opcional | "Manhã" |
-| **PIN de Acesso** | Senha numérica de 6 dígitos para acesso ao app | Obrigatório | "123456" |
+| Campo                   | Descrição                                      | Obrigatoriedade | Exemplo                         |
+| ----------------------- | ---------------------------------------------- | --------------- | ------------------------------- |
+| **Nome**                | Nome completo do colaborador                   | Obrigatório     | "Rodrigo Lima"                  |
+| **Email**               | Endereço de e-mail para contato                | Opcional        | "rodrigo.lima@nrxgestao.com.br" |
+| **CPF**                 | Número de CPF (apenas números)                 | Obrigatório     | "12345678900"                   |
+| **Telefone**            | Número de telefone com DDD                     | Opcional        | "+553199999999"                 |
+| **Matrícula**           | Código de matrícula interna                    | Opcional        | "123456"                        |
+| **Início da Atividade** | Data de início das atividades                  | Opcional        | "08/10/2024"                    |
+| **Turno**               | Período de trabalho                            | Opcional        | "Manhã"                         |
+| **PIN de Acesso**       | Senha numérica de 6 dígitos para acesso ao app | Obrigatório     | "123456"                        |
 
 ## Preenchendo o Formulário
 
 1. Preencha os campos obrigatórios (Nome, CPF e PIN de Acesso)
 2. Adicione informações complementares nos campos opcionais
 3. Para o campo **PIN de Acesso**, defina uma senha de 6 dígitos numéricos que será utilizada pelo colaborador para:
-   - Acessar o aplicativo móvel
-   - Realizar confirmações de recebimento em tablets ou dispositivos móveis
+   * Acessar o App GNRx - Colaborador
+   * Realizar confirmações de recebimento em tablets ou dispositivos móveis
 4. Revise todas as informações inseridas
 5. Clique no botão **Salvar** para criar o colaborador
-
-## Após a Criação
-
-Quando um novo colaborador é criado com sucesso:
-
-1. O sistema exibe uma mensagem de confirmação
-2. O colaborador é adicionado à lista
-3. Você é redirecionado para a tela de detalhes do colaborador recém-criado
-
-![Detalhes do Colaborador](../../../assets/images/detalhes-colaborador.png)
 
 ## Próximas Etapas Obrigatórias
 
@@ -61,7 +51,7 @@ Após o cadastro inicial, é necessário completar a configuração do colaborad
 
 ### 1. Vinculação a Unidades
 
-É essencial associar o colaborador a pelo menos uma unidade física:
+É essencial associar o colaborador a pelo menos uma unidade:
 
 1. Na tela de detalhes do colaborador, localize a seção **Unidades**
 2. Clique no botão **Adicionar Unidade**
@@ -95,31 +85,31 @@ Defina o cargo do colaborador:
 2. Selecione o Grupo Homogêneo de Exposição adequado às atividades do colaborador
 3. Clique em **Associar**
 
-> **Fundamental:** A seleção correta do GHE é essencial, pois este vínculo determinará quais [riscos](../../configuracoes-iniciais/ghe/vincular-riscos.md) estão associados ao colaborador e, consequentemente, quais [EPIs](../../configuracoes-iniciais/ghe/vincular-epis.md) serão necessários.
+> **Fundamental:** A seleção correta do GHE é essencial, pois este vínculo determinará quais [riscos](../ghe/vincular-riscos.md) estão associados ao colaborador e, consequentemente, quais [EPIs](../ghe/vincular-epis.md) serão necessários.
 
 ## Considerações Importantes
 
-- O CPF deve ser um número válido e único no sistema
-- O PIN de acesso deve ter exatamente 6 dígitos numéricos
-- Um colaborador não pode receber EPIs até que seja vinculado a um GHE
-- A estrutura completa (Unidade > Setor > Cargo > GHE) é necessária para o funcionamento adequado do sistema
+* O CPF deve ser um número válido e único no sistema
+* O PIN de acesso deve ter exatamente 6 dígitos numéricos
+* Um colaborador não pode receber EPIs até que seja vinculado a um GHE
+* A estrutura completa (Unidade >  GHE) é necessária para o funcionamento adequado do sistema
 
 ## Melhores Práticas
 
-- **Dados Precisos**: Insira informações corretas e completas, especialmente CPF e nome
-- **Vínculos Adequados**: Associe o colaborador aos GHEs que correspondem exatamente às suas atividades reais
-- **Documentação**: Mantenha registros atualizados, especialmente após mudanças de função
-- **PIN Seguro**: Informe ao colaborador seu PIN inicial e oriente-o a mantê-lo seguro
-- **Cadastro Facial**: Após completar o cadastro básico, considere [cadastrar o reconhecimento facial](../reconhecimento-facial/cadastrar-face.md) para maior segurança nas entregas
+* **Dados Precisos**: Insira informações corretas e completas, especialmente CPF e nome
+* **Vínculos Adequados**: Associe o colaborador aos GHEs que correspondem exatamente às suas atividades reais
+* **Documentação**: Mantenha registros atualizados, especialmente após mudanças de função
+* **PIN Seguro**: Informe ao colaborador seu PIN inicial e oriente-o a mantê-lo seguro
+* **Cadastro Facial**: Após completar o cadastro básico, considere [cadastrar o reconhecimento facial](../reconhecimento-facial/cadastrar-face.md) para maior segurança nas entregas
 
 ## Erros Comuns e Soluções
 
-| Erro | Solução |
-|------|---------|
-| "CPF já cadastrado" | Verifique se o colaborador já existe no sistema ou se o CPF foi digitado corretamente |
-| "PIN deve conter 6 dígitos numéricos" | Certifique-se que o PIN tenha exatamente 6 números |
-| "Erro ao salvar" | Verifique se todos os campos obrigatórios foram preenchidos corretamente |
+| Erro                                  | Solução                                                                               |
+| ------------------------------------- | ------------------------------------------------------------------------------------- |
+| "CPF já cadastrado"                   | Verifique se o colaborador já existe no sistema ou se o CPF foi digitado corretamente |
+| "PIN deve conter 6 dígitos numéricos" | Certifique-se que o PIN tenha exatamente 6 números                                    |
+| "Erro ao salvar"                      | Verifique se todos os campos obrigatórios foram preenchidos corretamente              |
 
----
+***
 
-*Última atualização: 16 de Maio de 2025*
+_Última atualização: 16 de Maio de 2025_

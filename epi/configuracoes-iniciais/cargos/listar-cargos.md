@@ -9,13 +9,13 @@ Para acessar a lista de Cargos cadastrados no sistema:
 1. No menu lateral, clique em **Estruturas**
 2. Selecione **Cargos**
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Menu de Cargos</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35) (1).png" alt=""><figcaption><p>Menu de Cargos</p></figcaption></figure>
 
 ## Interface da Lista de GHEs
 
 A tela de listagem de GHEs apresenta uma visão consolidada de todos os grupos cadastrados no sistema:
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption><p>Lista de Cargos</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36) (1).png" alt=""><figcaption><p>Lista de Cargos</p></figcaption></figure>
 
 ### Elementos da Interface
 

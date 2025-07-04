@@ -4,7 +4,7 @@
 
 Os Grupos Homogêneos de Exposição (GHEs) são conjuntos de colaboradores que compartilham os mesmos riscos ocupacionais devido à natureza similar de suas atividades e ambiente de trabalho. No Sistema GNRx Gestão de EPI, os GHEs são fundamentais para a correta atribuição de Equipamentos de Proteção Individual, garantindo que cada colaborador receba exatamente a proteção necessária para os riscos aos quais está exposto.
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Conceito e Importância
 
@@ -30,7 +30,7 @@ Esta integração garante que a gestão de EPIs esteja fundamentada em avaliaç�
 
 No Sistema GNRx, cada GHE é composto por:
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. **Informações Básicas**:
    * Nome e identificador

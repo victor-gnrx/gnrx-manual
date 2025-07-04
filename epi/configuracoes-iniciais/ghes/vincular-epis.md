@@ -26,13 +26,13 @@ Para vincular EPIs a um risco específico em um GHE:
 
 <sup>Obs: Quando os riscos estão com a edição ativa, o botão não aparece.</sup>
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Interface de Seleção de EPIs
 
 Ao clicar em "Ver EPIs" para um risco específico, o sistema exibirá a tela de seleção de EPIs:
 
-![Interface de Seleção de EPIs](<../../.gitbook/assets/image (33).png>)
+![Interface de Seleção de EPIs](<../../.gitbook/assets/image (33) (1).png>)
 
 ### Componentes da Interface
 

@@ -23,13 +23,13 @@ As situações mais comuns para desativação incluem:
 3. Na lista de unidades, localize a unidade desejada
 4. Clique no ícone de **Excluir/Desativar** (símbolo de lixeira) na coluna de ações
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Desativar via lista</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p>Desativar via lista</p></figcaption></figure>
 
 ## Processo de Desativação
 
 Ao iniciar a desativação, o sistema apresentará um diálogo de confirmação:
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 Para prosseguir:
 

@@ -14,13 +14,13 @@ Para iniciar o cadastro de um novo GHE:
 2. Selecione **GHEs**
 3. Na tela de listagem, clique no botão **Novo GHE** no canto superior direito
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p>Botão Novo GHE</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption><p>Botão Novo GHE</p></figcaption></figure>
 
 ## Formulário de Cadastro
 
 Ao clicar em "Novo GHE", o sistema exibirá um modal com o formulário de criação:
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Campos do Formulário
 

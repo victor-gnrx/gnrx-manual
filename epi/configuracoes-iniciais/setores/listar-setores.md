@@ -9,13 +9,13 @@ Para acessar a lista de setores cadastrados no sistema:
 1. No menu lateral, clique em **Estruturas**
 2. Selecione **Setores**
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Menu Setores</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Menu Setores</p></figcaption></figure>
 
 ## Interface da Lista de Setores
 
 A tela de listagem de setores apresenta uma visão consolidada de todos os setores cadastrados no sistema:
 
-![Lista de Setores](<../../.gitbook/assets/image (5).png>)
+![Lista de Setores](<../../.gitbook/assets/image (5) (1).png>)
 
 ### Elementos da Interface
 
@@ -52,7 +52,7 @@ Para localizar setores específicos:
 
 Para cada setor na lista, você pode executar as seguintes ações através dos botões na coluna "Opções":
 
-![Botões de Ação](<../../.gitbook/assets/image (7) (1).png>)
+![Botões de Ação](<../../.gitbook/assets/image (7) (1) (1).png>)
 
 * **Visualizar** (ícone de olho): Abre a tela de detalhes do setor
 * **Editar** (ícone de lápis): Abre o formulário para edição dos dados

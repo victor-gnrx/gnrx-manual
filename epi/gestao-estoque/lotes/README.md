@@ -1,20 +1,20 @@
-# Visão Geral de Lotes
+# Visão Geral
 
 ## Introdução
 
 O módulo de Lotes permite gerenciar a entrada e o controle de estoque dos Equipamentos de Proteção Individual (EPIs) no Sistema GNRX. Utilizando uma abordagem baseada em lotes, o sistema proporciona rastreabilidade completa, controle de validade e gerenciamento detalhado de cada unidade física de equipamento.
 
-![Visão Geral de Lotes](../../../assets/images/lotes-overview.png)
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption><p>Visão Geral dos Lotes</p></figcaption></figure>
 
 ## Função e Importância
 
 O gerenciamento por lotes permite:
 
-- Rastrear cada unidade de EPI individualmente
-- Controlar datas de validade específicas por lote
-- Monitorar custos e valores de inventário
-- Distribuir os equipamentos entre diferentes unidades
-- Acompanhar o histórico completo de cada item
+* Rastrear cada unidade de EPI individualmente
+* Controlar datas de validade específicas por lote
+* Monitorar custos e valores de inventário
+* Distribuir os equipamentos entre diferentes unidades
+* Acompanhar o histórico completo de cada item
 
 ## Conceitos Fundamentais
 
@@ -32,32 +32,34 @@ Item (Tipo de EPI)
 ### Numeração e Identificação
 
 Cada lote recebe uma identificação única:
-- **Número do Lote**: Geralmente no formato CA[Número do CA]-L[Sequencial]
-- **Exemplo**: CA43350-L02
+
+* **Número do Lote**: Geralmente no formato CA\[Número do CA]-L\[Sequencial]
+* **Exemplo**: CA43350-L02
 
 Cada item individual dentro do lote recebe:
-- **Número de Série**: Identificador único no formato [Número do Lote]-[Sequencial]
-- **Exemplo**: CA43350-L02-00000001
+
+* **Número de Série**: Identificador único no formato \[Número do Lote]-\[Sequencial]
+* **Exemplo**: CA43350-L02-00000001
 
 ## Informações Gerenciadas
 
 Para cada lote, o sistema controla:
 
-- **Dados básicos**: Número do lote, quantidade total, custo unitário
-- **Informações financeiras**: Valor total do lote, valor em estoque
-- **Controle de validade**: Data de validade, dias até vencimento
-- **Distribuição**: Alocação por unidade e por variante (quando aplicável)
-- **Status**: Quantidades disponíveis, em uso, total
+* **Dados básicos**: Número do lote, quantidade total, custo unitário
+* **Informações financeiras**: Valor total do lote, valor em estoque
+* **Controle de validade**: Data de validade, dias até vencimento
+* **Distribuição**: Alocação por unidade e por variante (quando aplicável)
+* **Status**: Quantidades disponíveis, em uso, total
 
 ## Interface Principal
 
 A tela de lotes apresenta:
 
-- **Resumo do lote**: Quantidade total, disponível e em uso
-- **Informações financeiras**: Custo unitário, valor total
-- **Detalhes de validade**: Data de vencimento, dias restantes
-- **Lista de itens**: Detalhamento de cada unidade física
-- **Distribuição**: Alocação por unidade/local
+* **Resumo do lote**: Quantidade total, disponível e em uso
+* **Informações financeiras**: Custo unitário, valor total
+* **Detalhes de validade**: Data de vencimento, dias restantes
+* **Lista de itens**: Detalhamento de cada unidade física
+* **Distribuição**: Alocação por unidade/local
 
 ## Tipos de Fluxo
 
@@ -86,13 +88,13 @@ Um lote típico passa pelas seguintes etapas:
 
 Para gerenciar efetivamente os lotes no Sistema GNRX, consulte os seguintes guias:
 
-- [Adicionar Lote](./adicionar-lote.md) - Como registrar novos lotes no sistema
-- [Adicionar Lote sem Variantes](./adicionar-lote-sem-variantes.md) - Processo simplificado para itens sem variantes
-- [Adicionar Lote com Variantes](./adicionar-lote-com-variantes.md) - Processo detalhado para itens com variantes
-- [Editar Lote](./editar-lote.md) - Como atualizar informações de lotes existentes
-- [Visualizar Itens do Lote](./visualizar-items-lote.md) - Como verificar unidades individuais
-- [Gerenciar Validade](./gerenciar-validade.md) - Como controlar datas de vencimento
+* [Adicionar Lote](adicionar-lote.md) - Como registrar novos lotes no sistema
+* [Adicionar Lote sem Variantes](adicionar-lote-sem-variantes.md) - Processo simplificado para itens sem variantes
+* [Adicionar Lote com Variantes](adicionar-lote-com-variantes.md) - Processo detalhado para itens com variantes
+* [Editar Lote](editar-lote.md) - Como atualizar informações de lotes existentes
+* [Visualizar Itens do Lote](visualizar-items-lote.md) - Como verificar unidades individuais
+* [Gerenciar Validade](gerenciar-validade.md) - Como controlar datas de vencimento
 
----
+***
 
-*Última atualização: 18 de Maio de 2025*
+_Última atualização: 18 de Maio de 2025_

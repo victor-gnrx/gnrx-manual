@@ -15,13 +15,13 @@ A edição de GHEs permite atualizar informações cadastrais, descrições e, m
 3. Na lista de GHEs, localize o grupo desejado
 4. Clique no ícone de **Editar** (símbolo de lápis) na coluna de ações
 
-![Editar via Lista](<../../.gitbook/assets/image (10) (1).png>)
+![Editar via Lista](<../../.gitbook/assets/image (10) (1) (1).png>)
 
 ###
 
 A tela de edição apresenta o formulário preenchido com os dados atuais do GHE:
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Campos Editáveis
 

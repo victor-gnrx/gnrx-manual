@@ -25,13 +25,13 @@ Para desativar um setor:
 3. Na lista de setores, localize o setor desejado
 4. Clique no ícone de **Excluir/Desativar** (símbolo de lixeira) na coluna de ações
 
-![Desativar Setor](<../../.gitbook/assets/image (13).png>)
+![Desativar Setor](<../../.gitbook/assets/image (13) (1).png>)
 
 ## Processo de Desativação
 
 Ao iniciar a desativação, o sistema apresentará um diálogo de confirmação:
 
-![Diálogo de Confirmação](<../../.gitbook/assets/image (16).png>)
+![Diálogo de Confirmação](<../../.gitbook/assets/image (16) (1).png>)
 
 O diálogo inclui:
 

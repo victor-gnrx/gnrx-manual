@@ -9,13 +9,13 @@ Para acessar a lista de GHEs cadastrados no sistema:
 1. No menu lateral, clique em **Estruturas**
 2. Selecione **GHEs**
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>Acesso ao GHEs</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p>Acesso ao GHEs</p></figcaption></figure>
 
 ## Interface da Lista de GHEs
 
 A tela de listagem de GHEs apresenta uma visão consolidada de todos os grupos cadastrados no sistema:
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Elementos da Interface
 
@@ -53,7 +53,7 @@ Para localizar GHEs específicos:
 
 Para cada GHE na lista, você pode executar as seguintes ações através dos botões na coluna "Opções":
 
-![Botões de Ação](<../../.gitbook/assets/image (7) (1).png>)
+![Botões de Ação](<../../.gitbook/assets/image (7) (1) (1).png>)
 
 * **Visualizar** (ícone de olho): Abre a tela de detalhes do GHE
 * **Editar** (ícone de lápis): Abre o formulário para edição dos dados
@@ -71,7 +71,7 @@ Para visualizar informações detalhadas de um GHE específico:
 
 
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Agrupamento por Unidades
 

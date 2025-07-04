@@ -6,7 +6,7 @@ Esta página explica como visualizar e gerenciar a lista de itens de EPI cadastr
 
 A tela de listagem de itens é o ponto central do módulo de Gestão de Estoque, permitindo visualizar todos os Equipamentos de Proteção Individual cadastrados no sistema, com suas informações essenciais como número de CA, validade, fabricante e quantidade em estoque.
 
-![Listagem de Itens](../../../assets/images/listagem-itens.png)
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 ## Acessando a Lista de Itens
 
@@ -22,28 +22,31 @@ Alternativamente, você pode clicar diretamente em **Controle de Inventário** n
 A tela de listagem de itens apresenta os seguintes elementos:
 
 ### Cabeçalho
-- **Inventário de Items**: Título da página
-- **Total de items cadastrados**: Contador que exibe o número total de tipos de EPIs no sistema
-- **Novo Item**: Botão para adicionar um novo EPI
-- **Exportar PDF**: Botão para gerar relatório em PDF do inventário
+
+* **Inventário de Items**: Título da página
+* **Total de items cadastrados**: Contador que exibe o número total de tipos de EPIs no sistema
+* **Novo Item**: Botão para adicionar um novo EPI
+* **Exportar PDF**: Botão para gerar relatório em PDF do inventário
 
 ### Ferramentas de Pesquisa e Filtros
-- **Campo de pesquisa**: Para buscar itens por nome, CA ou outras informações
-- **Botão Pesquisar**: Para executar a busca
-- **Predefinições de Período**: Atalho para filtros de período de troca
+
+* **Campo de pesquisa**: Para buscar itens por nome, CA ou outras informações
+* **Botão Pesquisar**: Para executar a busca
+* **Predefinições de Período**: Atalho para filtros de período de troca
 
 ### Tabela de Itens
+
 A tabela exibe os itens com as seguintes colunas:
 
-- **ID**: Identificador único do item no sistema
-- **Nome**: Nome do EPI conforme cadastrado
-- **CA**: Número do Certificado de Aprovação (quando aplicável)
-- **Validade até**: Data de validade do CA
-- **Fabricante**: Fabricante ou fornecedor
-- **Tempo de Troca**: Período recomendado para substituição (em dias)
-- **Estoque**: Quantidade disponível com link para detalhes
-- **Situação**: Status atual (Ativo/Inativo)
-- **Opções**: Botões de ação para visualizar, editar ou excluir
+* **ID**: Identificador único do item no sistema
+* **Nome**: Nome do EPI conforme cadastrado
+* **CA**: Número do Certificado de Aprovação (quando aplicável)
+* **Validade até**: Data de validade do CA
+* **Fabricante**: Fabricante ou fornecedor
+* **Tempo de Troca**: Período recomendado para substituição (em dias)
+* **Estoque**: Quantidade disponível com link para detalhes
+* **Situação**: Status atual (Ativo/Inativo)
+* **Opções**: Botões de ação para visualizar, editar ou excluir
 
 ## Visualizando Detalhes do Estoque
 
@@ -61,10 +64,10 @@ Para localizar itens específicos:
 
 1. Digite termos de busca no campo "Pesquisar items..."
 2. Você pode pesquisar por:
-   - Nome do item
-   - Número do CA
-   - Fabricante
-   - Qualquer texto contido nas informações do item
+   * Nome do item
+   * Número do CA
+   * Fabricante
+   * Qualquer texto contido nas informações do item
 3. Clique no botão "Pesquisar" ou pressione Enter
 
 ### Filtros por Unidade
@@ -92,9 +95,9 @@ Para ordenar a lista por diferentes critérios:
 
 Para cada item na lista, você tem as seguintes opções:
 
-- **Visualizar** (ícone de olho): Abre a tela de detalhes do item
-- **Editar** (ícone de lápis): Abre o formulário para edição do item
-- **Excluir/Inativar** (ícone de lixeira): Inativa o item (não disponível para itens em uso)
+* **Visualizar** (ícone de olho): Abre a tela de detalhes do item
+* **Editar** (ícone de lápis): Abre o formulário para edição do item
+* **Excluir/Inativar** (ícone de lixeira): Inativa o item (não disponível para itens em uso)
 
 ## Exportação do Inventário
 
@@ -102,45 +105,48 @@ Para exportar a lista de itens em formato PDF:
 
 1. Clique no botão "Exportar PDF" no canto superior direito
 2. Selecione o tipo de relatório desejado:
-   - **Resumido**: Apenas informações básicas dos itens
-   - **Variações**: Inclui detalhes sobre as variantes de cada item
-   - **Completo**: Relatório detalhado com todas as informações
+   * **Resumido**: Apenas informações básicas dos itens
+   * **Variações**: Inclui detalhes sobre as variantes de cada item
+   * **Completo**: Relatório detalhado com todas as informações
 3. O sistema irá gerar o PDF e iniciar o download automaticamente
 
-![Exportar Inventário](../../../assets/images/exportar-inventario.png)
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Exportar relatório</p></figcaption></figure>
 
 ## Significado das Informações
 
 ### Tempo de Troca
-- Indica o período recomendado (em dias) para substituição do EPI
-- "0 dias" significa que não há período definido
-- Itens sem CA (como uniformes) geralmente não têm tempo de troca obrigatório
+
+* Indica o período recomendado (em dias) para substituição do EPI
+* "0 dias" significa que não há período definido
+* Itens sem CA (como uniformes) geralmente não têm tempo de troca obrigatório
 
 ### Situação
-- **Ativo**: Item disponível para uso e solicitações
-- **Inativo**: Item desativado (não aparece em novas solicitações)
+
+* **Ativo**: Item disponível para uso e solicitações
+* **Inativo**: Item desativado (não aparece em novas solicitações)
 
 ### Estoque
-- Exibe a quantidade total disponível
-- Os números são clicáveis e levam aos detalhes do inventário
+
+* Exibe a quantidade total disponível
+* Os números são clicáveis e levam aos detalhes do inventário
 
 ## Itens Sem CA
 
 Itens sem Certificado de Aprovação (CA) são identificados por:
 
-- "N/A" no campo de CA
-- "N/A" no campo de validade
-- Geralmente representam uniformes ou acessórios complementares
+* "N/A" no campo de CA
+* "N/A" no campo de validade
+* Geralmente representam uniformes ou acessórios complementares
 
 ## Próximos Passos
 
 A partir da lista de itens, você pode:
 
-- [Criar um novo item com CA](./criar-item-com-ca.md)
-- [Criar um novo item sem CA](./criar-item-sem-ca.md)
-- [Editar um item existente](./editar-item.md)
-- [Gerenciar lotes e estoque](../lotes/README.md)
+* [Criar um novo item com CA](criar-item-com-ca.md)
+* [Criar um novo item sem CA](criar-item-sem-ca.md)
+* [Editar um item existente](editar-item.md)
+* [Gerenciar lotes e estoque](../lotes/)
 
----
+***
 
-*Última atualização: 18 de Maio de 2025*
+_Última atualização: 18 de Maio de 2025_

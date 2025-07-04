@@ -17,13 +17,13 @@ Existem duas formas de acessar a edição de um setor:
 3. Na lista de setores, localize o setor desejado
 4. Clique no ícone de **Editar** (símbolo de lápis) na coluna de ações
 
-![Editar via Lista](<../../.gitbook/assets/image (10) (1).png>)
+![Editar via Lista](<../../.gitbook/assets/image (10) (1) (1).png>)
 
 ## Interface de Edição
 
 A tela de edição apresenta um modal com o formulário preenchido com os dados atuais do setor:
 
-![Formulário de Edição](<../../.gitbook/assets/image (9).png>)
+![Formulário de Edição](<../../.gitbook/assets/image (9) (1).png>)
 
 ### Campos Editáveis
 
@@ -39,7 +39,7 @@ A tela de edição apresenta um modal com o formulário preenchido com os dados 
 3. Clique no botão **Salvar** para confirmar as modificações
 4. O sistema exibirá uma mensagem de confirmação após a atualização bem-sucedida
 
-![Confirmação de Atualização](<../../.gitbook/assets/image (12).png>)
+![Confirmação de Atualização](<../../.gitbook/assets/image (12) (1).png>)
 
 ## Impacto das Alterações
 

@@ -10,11 +10,11 @@ A vinculação de colaboradores a setores é uma etapa importante na estruturaç
 
 A correta associação entre colaboradores e setores é essencial para:
 
-- Organizar colaboradores por área de atuação
-- Facilitar a gestão de EPIs por departamento
-- Possibilitar a vinculação subsequente a cargos específicos
-- Gerar análises e relatórios segmentados por setor
-- Refletir a estrutura organizacional real da empresa
+* Organizar colaboradores por área de atuação
+* Facilitar a gestão de EPIs por departamento
+* Possibilitar a vinculação subsequente a cargos específicos
+* Gerar análises e relatórios segmentados por setor
+* Refletir a estrutura organizacional real da empresa
 
 ## Pré-requisitos
 
@@ -35,13 +35,13 @@ Para vincular um colaborador a um setor:
 4. Na estrutura hierárquica, localize a unidade à qual deseja adicionar um setor
 5. Clique no ícone de **Setor** (símbolo +) ao lado da unidade
 
-![Adicionar Setor](../../../assets/images/adicionar-setor-colaborador.png)
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ## Processo de Vinculação
 
 Ao clicar no ícone de adição de setor, o sistema exibirá um modal para seleção:
 
-![Modal Associar Setor](../../../assets/images/modal-associar-setor.png)
+<figure><img src="../../.gitbook/assets/image (13).png" alt="" width="322"><figcaption></figcaption></figure>
 
 1. No campo de seleção, clique para abrir a lista de setores disponíveis na unidade
 2. Selecione o setor desejado
@@ -52,13 +52,14 @@ Ao clicar no ícone de adição de setor, o sistema exibirá um modal para sele�
 
 Após a vinculação, o setor aparecerá na estrutura hierárquica do colaborador, dentro da unidade selecionada:
 
-![Estrutura com Setor](../../../assets/images/estrutura-com-setor.png)
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 Esta visualização mostra:
-- A unidade principal
-- O setor recém-vinculado
-- Cargos associados (se houver)
-- GHEs vinculados (se houver)
+
+* A unidade principal
+* O setor recém-vinculado
+* Cargos associados (se houver)
+* GHEs vinculados (se houver)
 
 ## Múltiplos Setores
 
@@ -66,7 +67,7 @@ Um colaborador pode estar vinculado a mais de um setor dentro da mesma unidade, 
 
 1. Para cada setor adicional, repita o processo de vinculação
 2. Cada setor aparecerá como um item separado na estrutura hierárquica da unidade
-3. O colaborador poderá ter diferentes cargos e GHEs em cada setor
+3. O colaborador poderá ter diferentes cargos em cada setor
 
 ## Removendo Vínculos
 
@@ -75,7 +76,7 @@ Para remover a associação entre um colaborador e um setor:
 1. Na estrutura hierárquica, localize o setor que deseja desvincular
 2. Clique no ícone de remoção (X) ao lado do setor
 3. Confirme a ação no diálogo exibido
-4. O setor e todos seus vínculos relacionados (cargos e GHEs) serão removidos
+4. O setor e todos seus vínculos relacionados (cargos) serão removidos
 
 > **Importante:** A remoção de um setor também excluirá todos os vínculos hierárquicos abaixo dele (cargos e GHEs). Esta ação não afeta o histórico de EPIs já entregues.
 
@@ -84,42 +85,32 @@ Para remover a associação entre um colaborador e um setor:
 Após vincular um colaborador a um setor, é necessário continuar a configuração:
 
 1. Associar a um Cargo - Definir sua função específica
-2. [Vincular a GHEs](./vincular-ghe.md) - **Etapa crucial** que determinará quais EPIs serão necessários
+2. [Vincular a GHEs](vincular-ghe.md) - **Etapa crucial** que determinará quais EPIs serão necessários
 
-> **Fundamental:** A estrutura completa (Unidade > Setor > Cargo > GHE) é necessária para que o sistema possa determinar corretamente quais EPIs devem ser fornecidos ao colaborador.
-
-## Impacto nos EPIs
-
-A vinculação a setores pode afetar indiretamente os EPIs necessários, pois:
-
-1. Setores diferentes podem ter riscos ocupacionais distintos
-2. Cada setor pode ter seus próprios GHEs específicos
-3. A combinação setor + cargo geralmente determina o GHE apropriado
-4. Os EPIs são determinados pelos riscos associados ao GHE
+> **Fundamental:** A estrutura completa (Unidade > GHE) é necessária para que o sistema possa determinar corretamente quais EPIs devem ser fornecidos ao colaborador.
 
 ## Considerações Importantes
 
-- Um setor só pode ser vinculado se já estiver associado à unidade selecionada
-- O mesmo colaborador pode estar em múltiplos setores, refletindo suas diferentes atividades
-- Alterações nos vínculos não afetam entregas já realizadas
-- A estrutura hierárquica deve refletir as atribuições reais do colaborador
+* Um setor só pode ser vinculado se já estiver associado à unidade selecionada
+* O mesmo colaborador pode estar em múltiplos setores, refletindo suas diferentes atividades
+* Alterações nos vínculos não afetam entregas já realizadas
+* A estrutura hierárquica deve refletir as atribuições reais do colaborador
 
 ## Melhores Práticas
 
-- Mantenha as vinculações atualizadas quando houver transferências entre setores
-- Associe o colaborador apenas aos setores onde efetivamente atua
-- Revise periodicamente os vínculos para garantir que refletem a situação atual
-- Ao desativar um setor, lembre-se de transferir os colaboradores para outros setores ativos
-- Considere os riscos específicos de cada setor ao definir GHEs subsequentes
+* Mantenha as vinculações atualizadas quando houver transferências entre setores
+* Associe o colaborador apenas aos setores onde efetivamente atua
+* Revise periodicamente os vínculos para garantir que refletem a situação atual
+* Ao desativar um setor, lembre-se de transferir os colaboradores para outros setores ativos
 
 ## Erros Comuns e Soluções
 
-| Erro | Solução |
-|------|---------|
-| "Setor não disponível para esta unidade" | Verifique se o setor foi previamente vinculado à unidade |
-| "Erro ao vincular" | Certifique-se de que tanto o colaborador quanto o setor estão ativos |
-| "Não é possível remover" | Verifique se há entregas de EPIs pendentes relacionadas ao setor |
+| Erro                                     | Solução                                                              |
+| ---------------------------------------- | -------------------------------------------------------------------- |
+| "Setor não disponível para esta unidade" | Verifique se o setor foi previamente vinculado à unidade             |
+| "Erro ao vincular"                       | Certifique-se de que tanto o colaborador quanto o setor estão ativos |
+| "Não é possível remover"                 | Verifique se há entregas de EPIs pendentes relacionadas ao setor     |
 
----
+***
 
-*Última atualização: 16 de Maio de 2025*
+_Última atualização: 16 de Maio de 2025_

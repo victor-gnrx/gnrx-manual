@@ -4,7 +4,7 @@
 
 Os Setores representam as diferentes áreas funcionais dentro de cada unidade da empresa. Esta estruturação é fundamental para a organização dos colaboradores e para a adequada gestão dos EPIs de acordo com os riscos específicos de cada atividade.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Tela de setores</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption><p>Tela de setores</p></figcaption></figure>
 
 ## Funcionalidades Principais
 
@@ -66,7 +66,7 @@ Para cada setor, o sistema monitora informações importantes:
 * **Unidades Vinculadas**: Localidades onde o setor está presente
 * **Tempo Ativo**: Período desde a criação do setor no sistema
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Próximos Passos
 

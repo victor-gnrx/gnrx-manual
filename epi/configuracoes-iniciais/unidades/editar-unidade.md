@@ -13,13 +13,13 @@ A edição de unidades permite atualizar informações cadastrais, endereços e 
 3. Na lista de unidades, localize a unidade desejada
 4. Clique no ícone de **Editar** (símbolo de lápis) na coluna de ações
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Interface de Edição
 
 A tela de edição apresenta o formulário preenchido com os dados atuais da unidade:
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Campos Editáveis
 
@@ -38,7 +38,7 @@ Todos os campos do cadastro podem ser atualizados:
 3. Clique no botão **Atualizar** para salvar as modificações
 4. O sistema exibirá uma mensagem de confirmação após a atualização bem-sucedida
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Impacto das Alterações
 

@@ -25,13 +25,13 @@ Para desativar um GHE:
 3. Na lista de GHEs, localize o grupo desejado
 4. Clique no ícone de **Excluir/Desativar** (símbolo de lixeira) na coluna de ações
 
-![Desativar GHE](<../../.gitbook/assets/image (13).png>)
+![Desativar GHE](<../../.gitbook/assets/image (13) (1).png>)
 
 ## Processo de Desativação
 
 Ao iniciar a desativação, o sistema apresentará um diálogo de confirmação:
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 
 Para prosseguir:
 

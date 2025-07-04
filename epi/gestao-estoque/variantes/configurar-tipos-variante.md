@@ -6,7 +6,7 @@ Esta página explica como configurar tipos de variante para itens de EPI no Sist
 
 As variantes permitem gerenciar diferentes características de um mesmo item de EPI, como tamanhos, cores, modelos ou outras especificações relevantes. Esta funcionalidade é essencial para o controle preciso do estoque e para garantir que cada colaborador receba o equipamento adequado às suas necessidades.
 
-![Configurar Tipos de Variante](../../../assets/images/configurar-tipos-variante.png)
+![Configurar Tipos de Variante](<../../.gitbook/assets/image (34).png>)
 
 ## Acesso à Configuração de Variantes
 
@@ -21,32 +21,28 @@ Para configurar variantes de um item:
 
 As variantes são úteis para itens que possuem:
 
-- Diferentes tamanhos (P, M, G, XG, etc.)
-- Diversas cores disponíveis
-- Modelos específicos do mesmo tipo de EPI
-- Características que afetam a compatibilidade com o usuário
-- Versões para uso em diferentes ambientes
+* Diferentes tamanhos (P, M, G, XG, etc.)
+* Diversas cores disponíveis
+* Modelos específicos do mesmo tipo de EPI
+* Características que afetam a compatibilidade com o usuário
+* Versões para uso em diferentes ambientes
 
 ## Utilizando Categorias Pré-configuradas
 
 O sistema oferece categorias pré-configuradas para facilitar o cadastro:
 
 1. **Vestuário**: Para uniformes e roupas de proteção
-   - Tamanho (Vestuário): PP, P, M, G, GG, XG
-   - Tamanho (Infantil): 2, 4, 6, 8, 10, 12, 14, 16
-
+   * Tamanho (Vestuário): PP, P, M, G, GG, XG
+   * Tamanho (Infantil): 2, 4, 6, 8, 10, 12, 14, 16
 2. **Calçados**: Para botas e sapatos de segurança
-   - Tamanho (Calçado): 32, 33, 34, 35... até 44
-
+   * Tamanho (Calçado): 32, 33, 34, 35... até 44
 3. **Cores**: Divididas em dois grupos
-   - Cor (Básicas): Preto, Branco, Cinza, Bege, Marrom
-   - Cor (Vibrantes): Vermelho, Azul, Verde, Amarelo, Roxo, Rosa, Laranja
-
+   * Cor (Básicas): Preto, Branco, Cinza, Bege, Marrom
+   * Cor (Vibrantes): Vermelho, Azul, Verde, Amarelo, Roxo, Rosa, Laranja
 4. **Materiais**: Composição do item
-   - Material: Algodão, Poliéster, Nylon, Linho, Jeans, Couro, etc.
-
+   * Material: Algodão, Poliéster, Nylon, Linho, Jeans, Couro, etc.
 5. **Medidas**: Dimensões em centímetros
-   - Medida: 35cm, 36cm, 37cm, etc.
+   * Medida: 35cm, 36cm, 37cm, etc.
 
 ## Criando uma Nova Variante
 
@@ -65,29 +61,34 @@ Para criar uma variante personalizada:
 Cada categoria tem valores pré-configurados que podem ser utilizados:
 
 ### Vestuário
-- Tamanho (Vestuário): PP, P, M, G, GG, XG
-- Tamanho (Infantil): 2, 4, 6, 8, 10, 12, 14, 16
+
+* Tamanho (Vestuário): PP, P, M, G, GG, XG
+* Tamanho (Infantil): 2, 4, 6, 8, 10, 12, 14, 16
 
 ### Calçados
-- Tamanho (Calçado): 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44
+
+* Tamanho (Calçado): 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44
 
 ### Cores
-- Cor (Básicas): Preto, Branco, Cinza, Bege, Marrom
-- Cor (Vibrantes): Vermelho, Azul, Verde, Amarelo, Roxo, Rosa, Laranja
+
+* Cor (Básicas): Preto, Branco, Cinza, Bege, Marrom
+* Cor (Vibrantes): Vermelho, Azul, Verde, Amarelo, Roxo, Rosa, Laranja
 
 ### Materiais
-- Material: Algodão, Poliéster, Nylon, Linho, Jeans, Couro, Tecido Sintético
+
+* Material: Algodão, Poliéster, Nylon, Linho, Jeans, Couro, Tecido Sintético
 
 ### Medidas
-- Medida: 35cm, 36cm, 37cm até 54cm (incrementos de 1cm)
+
+* Medida: 35cm, 36cm, 37cm até 54cm (incrementos de 1cm)
 
 ## Exemplos de Uso
 
 ### Para um Protetor Auditivo
 
 1. Adicione a variante "Tamanho" com valores:
-   - "Único"
-   - "Ajustável"
+   * "Único"
+   * "Ajustável"
 
 ### Para um Uniforme
 
@@ -104,35 +105,35 @@ Cada categoria tem valores pré-configurados que podem ser utilizados:
 
 Ao configurar variantes:
 
-- O sistema criará combinações das diferentes variantes
-- Cada combinação terá seu próprio controle de estoque
-- Os lotes deverão especificar quais variantes contêm
-- A rastreabilidade será mantida por combinação específica
+* O sistema criará combinações das diferentes variantes
+* Cada combinação terá seu próprio controle de estoque
+* Os lotes deverão especificar quais variantes contêm
+* A rastreabilidade será mantida por combinação específica
 
 ## Visualização das Variantes Configuradas
 
 Após a criação, as variantes aparecerão na seção "Variantes do Item" com:
-- Nome da variante
-- Valores disponíveis
-- Indicação se é obrigatória
-- Opção para adicionar mais variantes
+
+* Nome da variante
+* Valores disponíveis
+* Indicação se é obrigatória
+* Opção para adicionar mais variantes
 
 ## Limitações e Considerações Importantes
 
-- Uma vez criada, uma variante **não pode ser modificada ou excluída**
-- Apenas novos valores podem ser adicionados a uma variante existente
-- O planejamento cuidadoso antes da criação é essencial
-- Múltiplas variantes aumentam exponencialmente as combinações possíveis
+* Uma vez criada, uma variante **não pode ser modificada ou excluída**
+* Apenas novos valores podem ser adicionados a uma variante existente
+* O planejamento cuidadoso antes da criação é essencial
+* Múltiplas variantes aumentam exponencialmente as combinações possíveis
 
 ## Próximos Passos
 
 Após configurar os tipos de variante, você pode:
 
-- [Adicionar valores às variantes](./adicionar-valores-variante.md)
-- [Editar variantes existentes](./editar-variantes.md) (limitado a adicionar novos valores)
-- [Adicionar lotes com variantes específicas](../lotes/adicionar-lote.md)
-- [Verificar o inventário detalhado](../relatorios/estoque-atual.md) com as variantes configuradas
+* [Adicionar valores às variantes](adicionar-valores-variante.md)
+* [Adicionar lotes com variantes específicas](../lotes/adicionar-lote.md)
+* [Verificar o inventário detalhado](../relatorios/estoque-atual.md) com as variantes configuradas
 
----
+***
 
-*Última atualização: 18 de Maio de 2025*
+_Última atualização: 18 de Maio de 2025_
