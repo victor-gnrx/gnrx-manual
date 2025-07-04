@@ -1,3 +1,7 @@
+---
+icon: paintbrush-fine
+---
+
 # Configurar Tipos de Variante
 
 Esta página explica como configurar tipos de variante para itens de EPI no Sistema GNRX Gestão de EPI.

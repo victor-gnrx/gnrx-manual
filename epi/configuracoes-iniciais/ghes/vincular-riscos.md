@@ -1,3 +1,7 @@
+---
+icon: cubes
+---
+
 # Vincular Riscos
 
 Esta página explica como associar riscos ocupacionais a um Grupo Homogêneo de Exposição (GHE) no Sistema GNRx Gestão de EPI.

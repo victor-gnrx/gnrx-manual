@@ -1,3 +1,7 @@
+---
+icon: boxes-stacked
+---
+
 # Editar Item
 
 Esta página explica como editar as informações de um item existente no Sistema GNRX Gestão de EPI.

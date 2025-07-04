@@ -1,3 +1,7 @@
+---
+icon: cart-plus
+---
+
 # Adicionar Lote Item Com Variantes
 
 Esta página explica como adicionar um novo lote de EPIs que possuem variantes configuradas no Sistema GNRX Gestão de EPI.

@@ -1,3 +1,7 @@
+---
+icon: users
+---
+
 # Vincular GHE
 
 Esta página explica como associar colaboradores a Grupos Homogêneos de Exposição (GHEs) no Sistema GNRx Gestão de EPI.

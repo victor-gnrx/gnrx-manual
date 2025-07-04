@@ -1,3 +1,7 @@
+---
+icon: paintbrush-fine
+---
+
 # Visão Geral
 
 ## Introdução

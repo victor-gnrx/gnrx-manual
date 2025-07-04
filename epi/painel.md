@@ -1,3 +1,7 @@
+---
+icon: chart-line
+---
+
 # Painel de Controle
 
 ## Visão Geral

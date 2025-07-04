@@ -1,3 +1,7 @@
+---
+icon: person-dolly
+---
+
 # Editar Cargo
 
 Esta página explica como modificar as informações de um cargo existente no Sistema GNRX Gestão de EPI.

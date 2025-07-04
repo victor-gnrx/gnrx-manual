@@ -1,3 +1,7 @@
+---
+icon: warehouse-full
+---
+
 # Visão Geral
 
 ## Visão Geral

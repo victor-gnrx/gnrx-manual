@@ -1,3 +1,7 @@
+---
+icon: house-building
+---
+
 # Editar Unidade
 
 Esta página explica como modificar as informações de uma unidade existente no Sistema GNRX Gestão de EPI.

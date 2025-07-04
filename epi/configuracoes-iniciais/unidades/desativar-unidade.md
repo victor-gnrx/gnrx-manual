@@ -1,3 +1,7 @@
+---
+icon: house-building
+---
+
 # Desativar Unidade
 
 Esta página explica como desativar uma unidade existente no Sistema GNRX Gestão de EPI, bem como as implicações desta ação.

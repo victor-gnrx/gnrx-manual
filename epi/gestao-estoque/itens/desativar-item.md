@@ -1,3 +1,7 @@
+---
+icon: boxes-stacked
+---
+
 # Desativar Item
 
 Esta página explica como desativar um item de EPI no Sistema GNRX Gestão de EPI.

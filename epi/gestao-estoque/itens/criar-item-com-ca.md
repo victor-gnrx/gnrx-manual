@@ -1,3 +1,7 @@
+---
+icon: helmet-safety
+---
+
 # Criar Item com CA
 
 Esta página explica como cadastrar um novo item de EPI com Certificado de Aprovação (CA) no Sistema GNRX Gestão de EPI.

@@ -1,3 +1,7 @@
+---
+icon: house-building
+---
+
 # Listar Unidades
 
 Esta página explica como acessar, visualizar e filtrar a lista de unidades cadastradas no Sistema GNRX Gestão de EPI.

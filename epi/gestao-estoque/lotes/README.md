@@ -1,3 +1,7 @@
+---
+icon: cart-plus
+---
+
 # Visão Geral
 
 ## Introdução

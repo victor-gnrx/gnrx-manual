@@ -1,3 +1,7 @@
+---
+icon: turn-left
+---
+
 # Registrar Devolução
 
 ## Introdução

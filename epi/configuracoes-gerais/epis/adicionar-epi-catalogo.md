@@ -1,3 +1,7 @@
+---
+icon: user-shield
+---
+
 # Adicionar EPI ao Catálogo
 
 ## Introdução

@@ -1,3 +1,7 @@
+---
+icon: cubes
+---
+
 # Editar GHE
 
 Esta página explica como modificar as informações de um Grupo Homogêneo de Exposição (GHE) existente no Sistema GNRX Gestão de EPI.

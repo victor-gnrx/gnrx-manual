@@ -1,3 +1,7 @@
+---
+icon: cart-plus
+---
+
 # Visualizar Itens do Lote
 
 Esta página explica como acessar e interpretar a visualização detalhada dos itens individuais de um lote no Sistema GNRX Gestão de EPI.

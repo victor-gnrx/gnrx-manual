@@ -1,3 +1,7 @@
+---
+icon: cubes
+---
+
 # Criar GHE
 
 Esta página explica como adicionar um novo Grupo Homogêneo de Exposição (GHE) no Sistema GNRX Gestão de EPI.

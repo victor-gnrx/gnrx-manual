@@ -1,3 +1,7 @@
+---
+icon: cart-plus
+---
+
 # Adicionar Lote Item Sem Variantes
 
 Esta página explica como adicionar um novo lote de EPIs que não possuem variantes configuradas no Sistema GNRX Gestão de EPI.

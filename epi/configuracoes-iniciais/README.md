@@ -1,3 +1,7 @@
+---
+icon: gear
+---
+
 # Visão Geral
 
 As Configurações Iniciais são a base para o funcionamento eficiente do Sistema de Gestão de EPI. Nesta seção, você encontrará instruções sobre como configurar todos os elementos estruturais necessários para o gerenciamento adequado de EPIs na sua organização.

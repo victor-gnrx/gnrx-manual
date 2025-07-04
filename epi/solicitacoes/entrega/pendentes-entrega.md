@@ -1,3 +1,7 @@
+---
+icon: hands-holding-circle
+---
+
 # Pendentes de Entrega
 
 ## Introdução

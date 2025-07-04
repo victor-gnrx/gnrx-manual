@@ -1,3 +1,7 @@
+---
+icon: warehouse-full
+---
+
 # Desativar Setor
 
 Esta página explica como desativar um setor existente no Sistema GNRX Gestão de EPI, bem como as implicações desta ação.

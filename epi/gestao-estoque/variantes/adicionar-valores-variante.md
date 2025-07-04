@@ -1,3 +1,7 @@
+---
+icon: paintbrush-fine
+---
+
 # Adicionar Valores de Variante
 
 Esta página explica como adicionar valores a variantes de itens de EPI no Sistema GNRX Gestão de EPI.

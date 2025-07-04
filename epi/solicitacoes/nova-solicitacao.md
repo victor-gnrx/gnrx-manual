@@ -1,3 +1,7 @@
+---
+icon: rectangle-history-circle-plus
+---
+
 # Nova Solicitação
 
 Esta página explica o processo completo de criação de uma nova solicitação de EPIs no Sistema GNRX Gestão de EPI.

@@ -1,3 +1,7 @@
+---
+icon: boxes-stacked
+---
+
 # Listar Itens
 
 Esta página explica como visualizar e gerenciar a lista de itens de EPI cadastrados no Sistema GNRX Gestão de EPI.

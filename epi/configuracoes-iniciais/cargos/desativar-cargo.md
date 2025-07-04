@@ -1,3 +1,7 @@
+---
+icon: person-dolly
+---
+
 # Desativar Cargo
 
 Esta página explica como desativar um cargo existente no Sistema GNRX Gestão de EPI, bem como as implicações desta ação.

@@ -1,3 +1,7 @@
+---
+icon: shirt
+---
+
 # Criar Item sem CA
 
 Esta página explica como cadastrar um novo item sem Certificado de Aprovação (CA) no Sistema GNRX Gestão de EPI.

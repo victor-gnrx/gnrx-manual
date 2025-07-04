@@ -1,3 +1,7 @@
+---
+icon: users
+---
+
 # Visão Geral
 
 ## Visão Geral

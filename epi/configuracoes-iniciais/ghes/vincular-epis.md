@@ -1,3 +1,7 @@
+---
+icon: cubes
+---
+
 # Vincular EPIs
 
 Esta página explica como associar Equipamentos de Proteção Individual (EPIs) aos riscos de um Grupo Homogêneo de Exposição (GHE) no Sistema GNRX.

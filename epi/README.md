@@ -1,3 +1,7 @@
+---
+icon: helmet-safety
+---
+
 # Início
 
 ## Introdução

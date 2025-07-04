@@ -1,3 +1,7 @@
+---
+icon: person-dolly
+---
+
 # Criar Cargo
 
 Esta página explica como adicionar um novo cargo no Sistema GNRX Gestão de EPI.

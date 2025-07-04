@@ -1,3 +1,7 @@
+---
+icon: user-shield
+---
+
 # Catálogo de EPIs
 
 ## Introdução

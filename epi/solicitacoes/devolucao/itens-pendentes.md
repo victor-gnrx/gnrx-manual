@@ -1,3 +1,7 @@
+---
+icon: turn-left
+---
+
 # Itens Pendentes
 
 ## Introdução

@@ -1,3 +1,7 @@
+---
+icon: burst
+---
+
 # Desativar Risco
 
 ## Introdução

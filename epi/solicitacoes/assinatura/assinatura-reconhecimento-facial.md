@@ -1,3 +1,7 @@
+---
+icon: face-viewfinder
+---
+
 # Assinatura por Reconhecimento Facial
 
 ## Introdução

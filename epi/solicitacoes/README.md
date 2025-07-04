@@ -1,3 +1,7 @@
+---
+icon: hand-point-up
+---
+
 # Visão Geral
 
 ## Introdução

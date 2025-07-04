@@ -1,3 +1,7 @@
+---
+icon: warehouse-full
+---
+
 # Vincular Unidades
 
 Esta página explica como associar setores a unidades no Sistema GNRX Gestão de EPI.

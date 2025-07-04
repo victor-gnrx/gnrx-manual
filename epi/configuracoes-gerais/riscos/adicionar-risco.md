@@ -1,3 +1,7 @@
+---
+icon: burst
+---
+
 # Adicionar Risco
 
 ## Introdução

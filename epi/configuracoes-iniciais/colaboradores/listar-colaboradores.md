@@ -1,3 +1,7 @@
+---
+icon: users
+---
+
 # Listar Colaboradores
 
 Esta página explica como acessar, visualizar e filtrar a lista de colaboradores cadastrados no Sistema GNRX Gestão de EPI.

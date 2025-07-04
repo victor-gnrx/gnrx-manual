@@ -1,3 +1,7 @@
+---
+icon: warehouse-full
+---
+
 # Editar Setor
 
 Esta página explica como modificar as informações de um setor existente no Sistema GNRX Gestão de EPI.

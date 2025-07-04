@@ -1,3 +1,7 @@
+---
+icon: signature
+---
+
 # Assinatura Digital
 
 ## Introdução

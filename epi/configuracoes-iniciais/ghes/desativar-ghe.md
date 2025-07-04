@@ -1,3 +1,7 @@
+---
+icon: cubes
+---
+
 # Desativar GHE
 
 Esta página explica como desativar um Grupo Homogêneo de Exposição (GHE) existente no Sistema GNRX Gestão de EPI, bem como as implicações desta ação.

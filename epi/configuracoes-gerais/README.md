@@ -1,3 +1,7 @@
+---
+icon: sliders-simple
+---
+
 # Visão Geral
 
 ## Introdução

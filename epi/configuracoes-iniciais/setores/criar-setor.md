@@ -1,3 +1,7 @@
+---
+icon: warehouse-full
+---
+
 # Criar Setor
 
 Esta página explica como adicionar um novo setor no Sistema GNRx Gestão de EPI.

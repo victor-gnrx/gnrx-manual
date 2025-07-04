@@ -1,3 +1,7 @@
+---
+icon: users
+---
+
 # Criar Colaborador
 
 Esta página explica como adicionar um novo colaborador no Sistema GNRX Gestão de EPI.

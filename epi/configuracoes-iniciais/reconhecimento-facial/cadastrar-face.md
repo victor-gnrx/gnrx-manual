@@ -1,3 +1,7 @@
+---
+icon: face-viewfinder
+---
+
 # Cadastrar Face
 
 Esta página explica como realizar o cadastro de reconhecimento facial para colaboradores no Sistema GNRx Gestão de EPI.

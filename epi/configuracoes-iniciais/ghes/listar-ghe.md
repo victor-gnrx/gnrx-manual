@@ -1,3 +1,7 @@
+---
+icon: cubes
+---
+
 # Listar GHE
 
 Esta página explica como acessar, visualizar e filtrar a lista de Grupos Homogêneos de Exposição (GHEs) cadastrados no Sistema GNRx Gestão de EPI.

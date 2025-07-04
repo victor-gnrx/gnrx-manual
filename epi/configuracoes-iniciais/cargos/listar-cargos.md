@@ -1,3 +1,7 @@
+---
+icon: person-dolly
+---
+
 # Listar Cargos
 
 Esta página explica como acessar, visualizar e filtrar a lista de Cargos cadastrados no Sistema GNRx Gestão de EPI.

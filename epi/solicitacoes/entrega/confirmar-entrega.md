@@ -1,3 +1,7 @@
+---
+icon: hands-holding-circle
+---
+
 # Confirmar Entrega
 
 ## Introdução

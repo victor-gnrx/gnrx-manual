@@ -1,3 +1,7 @@
+---
+icon: warehouse-full
+---
+
 # Listar Setores
 
 Esta página explica como acessar, visualizar e filtrar a lista de setores cadastrados no Sistema GNRX Gestão de EPI.

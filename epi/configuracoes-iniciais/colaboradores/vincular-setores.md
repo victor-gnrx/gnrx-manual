@@ -1,3 +1,7 @@
+---
+icon: users
+---
+
 # Vincular Setores
 
 Esta página explica como associar colaboradores a setores no Sistema GNRX Gestão de EPI.

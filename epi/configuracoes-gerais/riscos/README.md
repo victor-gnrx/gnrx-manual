@@ -1,3 +1,7 @@
+---
+icon: burst
+---
+
 # Visão Geral
 
 ## Introdução

@@ -1,3 +1,7 @@
+---
+icon: users
+---
+
 # Desativar Colaborador
 
 Esta página explica como desativar um colaborador existente no Sistema GNRX Gestão de EPI, bem como as implicações desta ação.
