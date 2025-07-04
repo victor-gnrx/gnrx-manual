@@ -4,7 +4,7 @@
 
 O Painel de Controle é o ponto de entrada do Sistema GNRx Gestão de EPI, projetado para oferecer uma visualização rápida e intuitiva dos principais indicadores relacionados à gestão de EPIs na sua organização.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Visão do Painel</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Visão do Painel</p></figcaption></figure>
 
 ## Funcionalidades
 

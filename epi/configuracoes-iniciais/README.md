@@ -4,7 +4,7 @@ As Configurações Iniciais são a base para o funcionamento eficiente do Sistem
 
 
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="458"><figcaption><p>Configuraçoes possíveis</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="458"><figcaption><p>Configuraçoes possíveis</p></figcaption></figure>
 
 ## Componentes Principais
 

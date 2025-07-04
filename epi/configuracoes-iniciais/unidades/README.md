@@ -4,7 +4,7 @@
 
 As Unidades representam as diferentes localidades físicas (filiais, plantas, escritórios) onde sua empresa opera. O gerenciamento adequado de Unidades é essencial para a organização estrutural do Sistema GNRx Gestão de EPI, permitindo controle específico de setores, colaboradores e estoque para cada localidade.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Tela de Unidades</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Tela de Unidades</p></figcaption></figure>
 
 Funcionalidades Principais
 

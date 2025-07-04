@@ -9,13 +9,13 @@ Para acessar a lista de unidades cadastradas no sistema:
 1. No menu superior, clique em **Estruturas**
 2. Selecione **Unidades**
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Interface da Lista de Unidades
 
 A tela de listagem de unidades apresenta uma visão consolidada de todas as unidades cadastradas no sistema, com as seguintes informações:
 
-![Lista de Unidades](<../../.gitbook/assets/image (5).png>)
+![Lista de Unidades](<../../.gitbook/assets/image (5) (1).png>)
 
 ### Elementos da Interface
 
@@ -55,7 +55,7 @@ Para localizar unidades específicas:
 
 Para cada unidade na lista, você pode executar as seguintes ações através dos botões na coluna "Opções":
 
-![Botões de Ação](<../../.gitbook/assets/image (7).png>)
+![Botões de Ação](<../../.gitbook/assets/image (7) (1).png>)
 
 * **Visualizar** (ícone de olho): Abre a tela de detalhes da unidade
 * **Editar** (ícone de lápis): Abre o formulário para edição dos dados
@@ -72,7 +72,7 @@ Para visualizar informações detalhadas de uma unidade específica:
    * **Colaboradores**: Funcionários associados
    * **GHEs**: Grupos Homogêneos de Exposição da unidade
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
