@@ -10,12 +10,11 @@
 * [Primeiros Passos](aplicativo/primeiros-passos.md)
 * [Navegação Principal](aplicativo/navegacao-principal.md)
 * [Meus Formulários](aplicativo/meus-formularios.md)
-* [Criando um Novo Formulário](aplicativo/criar-formulario.md)
+* [Criando um Novo Formulário](aplicativo/criando-novo-formulario.md)
 * [Detalhes do Formulário](aplicativo/detalhes-formulario.md)
 * [Registros](aplicativo/registros.md)
 * [Estados e Status](aplicativo/estados-status.md)
 * [Sincronização](aplicativo/sincronizacao.md)
-* [Dicas e Boas Práticas](aplicativo/dicas-boas-praticas.md)
 
 ## Sistema Web
 
