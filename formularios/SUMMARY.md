@@ -7,12 +7,15 @@
 ## Aplicativo Mobile
 
 * [Introdução ao Aplicativo](aplicativo/README.md)
-* [Como Criar um Novo Formulário](aplicativo/criar-formulario.md)
-* [Selecionando Modelos](aplicativo/selecionar-modelo.md)
-* [Preenchendo Registros](aplicativo/preencher-registro.md)
-* [Gerenciando Dados Globais](aplicativo/dados-globais.md)
-* [Estados e Sincronização](aplicativo/sincronizacao.md)
-* [Trabalhando Offline](aplicativo/modo-offline.md)
+* [Primeiros Passos](aplicativo/primeiros-passos.md)
+* [Navegação Principal](aplicativo/navegacao-principal.md)
+* [Meus Formulários](aplicativo/meus-formularios.md)
+* [Criando um Novo Formulário](aplicativo/criar-formulario.md)
+* [Detalhes do Formulário](aplicativo/detalhes-formulario.md)
+* [Registros](aplicativo/registros.md)
+* [Estados e Status](aplicativo/estados-status.md)
+* [Sincronização](aplicativo/sincronizacao.md)
+* [Dicas e Boas Práticas](aplicativo/dicas-boas-praticas.md)
 
 ## Sistema Web
 
