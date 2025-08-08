@@ -1,123 +1,179 @@
 # Registros
 
-## Como Visualizar Registros
+Os registros representam as coletas de dados individuais dentro de um formulário, seguindo a estrutura definida pelo modelo selecionado.
 
-1. Abra um formulário da lista
-2. Localize a seção "Registros" 
-3. Veja a tabela com colunas:
-   - **Sinc.**: Indicador colorido de sincronização
-   - **Opções**: Botão de menu
-   - **Data**: Quando foi preenchido
-   - **Campos**: Dados do modelo
+<figure><img src="../.gitbook/assets/image (5).png" alt="" width="224"><figcaption></figcaption></figure>
 
-## Como Criar um Novo Registro
+## Visualizando Registros
 
-1. Toque no botão **"+"** na seção Registros
-2. Abrirá uma nova tela com os campos
-3. Preencha os campos na tela que abrir
-4. Campos com **asterisco (*)** são obrigatórios
+### Lista de Registros
 
-## Como Preencher Cada Tipo de Campo
+* **Tabela organizada**: Colunas com informações principais
+* **Status de sincronização**: Indicador visual por linha
+* **Campo de pesquisa**: Filtro em tempo real
+* **Contagem total**: Número de registros entre parênteses
 
-### Data
-1. Toque no campo de data
-2. Use o seletor de calendário que abrir
-3. Navegue pelos meses e selecione a data
-4. Confirme a seleção
+### Colunas Exibidas
 
-### Hora
-1. Toque no campo de hora
-2. Use o seletor de hora que abrir
-3. Ajuste horas e minutos
-4. Confirme a seleção
+* **Sinc.**: Status de sincronização
+* **Opções**: Menu de ações do registro
+* **Campos do modelo**: Conforme configuração
 
-### Texto
-1. Toque no campo
-2. Digite o texto necessário
-3. Use o teclado do dispositivo
+## Criando Novo Registro
 
-### Número
-1. Toque no campo numérico
-2. Use o teclado numérico que aparece
-3. Digite apenas números (sem letras)
+Para criar um novo registro, é necessário seguir os passos abaixo. Caso a opção não exista, o modelo não permite a adição de novos registros ou o formulário já foi concluído.
 
-### Temperatura
-1. Toque no campo de temperatura
-2. Use o teclado numérico
-3. Para números negativos: toque no botão **"-"** 
-4. Digite o valor da temperatura
+### Iniciando Preenchimento&#x20;
 
-### Seleção Única
-1. Toque no campo de seleção
-2. No modal que abrir, veja todas as opções
-3. Toque em **uma opção** para selecionar
-4. Confirme ou toque fora para fechar
+1. Vá até a secão que quer adicionar registros. Se não tiver seção, utilize a principal, "Registros".
+2. Toque no botão "+" na seção de registros
+3. Acesse a tela de preenchimento
+4. Complete os campos obrigatórios
+5. Clique em "Salvar"
 
-### Seleção Múltipla
-1. Toque no campo de seleção múltipla
-2. No modal que abrir, veja todas as opções
-3. Toque em **várias opções** para selecionar
-4. Opções selecionadas ficam marcadas
-5. Confirme ou toque fora para fechar
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-### Foto/Evidência
-1. Toque no campo de foto
-2. Escolha entre:
-   - **Câmera**: Tirar foto na hora
-   - **Galeria**: Selecionar foto existente
-3. Capture ou selecione a imagem
-4. Confirme para anexar ao registro
 
-### Assinatura
-1. Toque no campo de assinatura
-2. Use o dedo para desenhar a assinatura na tela
-3. Para refazer: toque em "Limpar"
-4. Quando satisfeito: toque em "Confirmar"
 
-## Como Salvar um Rascunho (Registros Longos)
+## Preenchimento de Campos
 
-### Para registros que levam horas/dias:
+### Tipos de Campos
 
-1. **Inicie o preenchimento** normalmente
-2. **Preencha alguns campos** conforme disponibilidade
-3. **Clique em Salvar rascunho** no final da página quando finalizar a parcial
-5. **Para continuar**: Abra o formulário → Registros → Toque no lápid do registro em rascunho
-6. **Continue preenchendo** de onde parou
+#### Campo de Data
 
-### Identificando um rascunho:
-- Status "Rascunho" na lista de registros
-- Campos parcialmente preenchidos
-- Dados preservados entre sessões
+* **Interface**: Seletor de calendário
+* **Marcação**: Asterisco (\*) se obrigatório
+* **Validação**: Formato de data automático
 
-## Como Verificar Status de Sincronização
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-### Cores dos indicadores:
-- **Verde**: Sincronizado ("ID Server: 123")
-- **Amarelo**: Pendente de sincronização
-- **Vermelho**: Erro na sincronização
+#### Campo de Hora
 
-### Para sincronizar manualmente:
-1. Vá para a tela de configurações
-2. **Clique em forçar sincronização**
-3. Aguarde a sincronização completar
+* **Interface**: Seletor de hora
+* **Marcação**: Asterisco (\*) se obrigatório
+* **Validação**: Formato de data automático
 
-## Como Trabalhar Offline
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-1. **Preencha normalmente** todos os campos
-2. **Dados são salvos** automaticamente no dispositivo
-3. **Quando Concluir o preenchimento do fomulário**, será sincronizado se hover internet. Se não, ele sincronizará quando disponível. 
-    1. Você pode forçar a sincronização também
-4. **Verifique status** pelos indicadores coloridos
+#### Campo de Seleção única / múltipla
 
-## Como Resolver Problemas
+* **Interface**: Dropdown com opções
+* **Conteúdo**: Opções pré-definidas no modelo
+* **Validação**: Seleção obrigatória se marcado
 
-### Registro não salva:
-1. Verifique se preencheu campos obrigatórios (*)
-2. Confira formato de datas (DD/MM/AAAA)
-3. Confirme que números estão corretos
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-### Erro de sincronização:
-1. Verifique conexão com internet
-2. Aguarde alguns minutos
-3. Tente puxar para baixo para forçar sincronização
-4. Se persistir, anote o erro e contate suporte
+#### Campo de Texto
+
+* **Interface**: Caixa de texto livre
+* **Validação**: Apenas obrigatoriedade
+* **Formato**: Texto livre
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+#### Campo Numérico
+
+* **Interface**: Teclado numérico
+* **Validação**: Apenas números aceitos
+* **Formato**: Apenas números
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+Campo Foto
+
+* Interface: Botão para anexar fotos
+* Validacão: Apenas obrigatoriedade
+
+Campo Assinatura
+
+* Interface: Botão de assinatura
+* Validacão: Apenas obrigatoriedade
+* Formato: Campo para escrita da assinatura
+
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+Campo Temperatura
+
+* Interface: Teclado numérico
+* Validação: Apenas temperaturas válidas
+* Formato: Temperatura com ºC
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Validações em Tempo Real
+
+* **Campos obrigatórios**: Indicados com asterisco (\*)
+* **Mensagens de erro**: Feedback imediato
+* **Bloqueio de salvamento completo**: Até correção de erros
+
+## Estados dos Registros
+
+### Rascunho
+
+* **Significado**: Preenchimento em andamento
+* **Cor**: Indicador específico
+* **Ações**: Continuar preenchimento
+
+### Pendente
+
+* **Significado**: Aguardando sincronização
+* **Cor**: Amarelo
+* **Ações**: Visualizar
+
+### Sincronizado
+
+* **Significado**: Dados no servidor
+* **Cor**: Verde
+* **Ações**: Visualizar, editar (se permitido)
+
+### Falha
+
+* **Significado**: Erro na sincronização
+* **Cor**: Vermelho
+* **Ações**: Visualizar
+
+## Gerenciamento de Registros
+
+### Ações Disponíveis
+
+* **Visualizar**: Ver dados completos
+* **Editar**: Modificar informações (se rascunho)
+
+### Ordenação
+
+* **Por data**: Mais recentes primeiro (padrão)
+
+## Trabalho Offline
+
+### Preenchimento Sem Conexão
+
+* **Funcionalidade completa**: Todos os campos funcionam
+* **Salvamento local**: Dados seguros no dispositivo
+* **Validações**: Funcionam normalmente offline
+* **Sincronização posterior**: Automátia ao concluir e/ou forçando sincronização na tela de configurações
+
+### Indicadores Offline
+
+* **Status visual**: Indicação de dados não sincronizados
+* **Backup local**: Proteção contra perda
+* **Queue de sincronização**: Ordem de envio quando conectar
+
+## Resolução de Problemas
+
+### Registro Não Salva
+
+* **Verificar campos obrigatórios**: Completar todos os asteriscos
+* **Validar formatos**: Conferir datas, números
+* **Verificar espaço**: Memória disponível no dispositivo
+
+### Erro de Sincronização
+
+* **Verificar conexão**: Internet estável
+* **Tentar novamente**: Após alguns minutos
+* **Verificar dados**: Formatos e valores válidos
+* Verificar Log de erros na tela de configuracões
+
