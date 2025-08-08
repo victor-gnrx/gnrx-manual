@@ -1,0 +1,2 @@
+# Configurar Dados Globais
+
