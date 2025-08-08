@@ -1,136 +1,123 @@
 # Registros
 
-Os registros representam as coletas de dados individuais dentro de um formulário, seguindo a estrutura definida pelo modelo selecionado.
+## Como Visualizar Registros
 
-## Visualizando Registros
+1. Abra um formulário da lista
+2. Localize a seção "Registros" 
+3. Veja a tabela com colunas:
+   - **Sinc.**: Indicador colorido de sincronização
+   - **Opções**: Botão de menu
+   - **Data**: Quando foi preenchido
+   - **Campos**: Dados do modelo
 
-### Lista de Registros
-- **Tabela organizada**: Colunas com informações principais
-- **Status de sincronização**: Indicador visual por linha
-- **Campo de pesquisa**: Filtro em tempo real
-- **Contagem total**: Número de registros entre parênteses
+## Como Criar um Novo Registro
 
-### Colunas Exibidas
-- **Sinc.**: Status de sincronização
-- **Opções**: Menu de ações do registro
-- **Data**: Data do preenchimento
-- **Campos do modelo**: Conforme configuração
+1. Toque no botão **"+"** na seção Registros
+2. Abrirá uma nova tela com os campos
+3. Preencha os campos na tela que abrir
+4. Campos com **asterisco (*)** são obrigatórios
 
-## Criando Novo Registro
+## Como Preencher Cada Tipo de Campo
 
-### Iniciando Preenchimento
-1. Toque no botão "+" na seção de registros
-2. Selecione "Concluir" no modal de ações
-3. Acesse a tela de preenchimento
-4. Complete os campos obrigatórios
+### Data
+1. Toque no campo de data
+2. Use o seletor de calendário que abrir
+3. Navegue pelos meses e selecione a data
+4. Confirme a seleção
 
-### Modal de Ações
-- **Opções disponíveis**: Conforme modelo configurado
-- **Ação padrão**: Normalmente "Concluir"
-- **Cancelamento**: Botão X para fechar
+### Hora
+1. Toque no campo de hora
+2. Use o seletor de hora que abrir
+3. Ajuste horas e minutos
+4. Confirme a seleção
 
-## Preenchimento de Campos
+### Texto
+1. Toque no campo
+2. Digite o texto necessário
+3. Use o teclado do dispositivo
 
-### Tipos de Campos
+### Número
+1. Toque no campo numérico
+2. Use o teclado numérico que aparece
+3. Digite apenas números (sem letras)
 
-#### Campo de Data
-- **Interface**: Seletor de calendário
-- **Marcação**: Asterisco (*) se obrigatório
-- **Validação**: Formato de data automático
+### Temperatura
+1. Toque no campo de temperatura
+2. Use o teclado numérico
+3. Para números negativos: toque no botão **"-"** 
+4. Digite o valor da temperatura
 
-#### Campo de Seleção
-- **Interface**: Dropdown com opções
-- **Conteúdo**: Opções pré-definidas no modelo
-- **Validação**: Seleção obrigatória se marcado
+### Seleção Única
+1. Toque no campo de seleção
+2. No modal que abrir, veja todas as opções
+3. Toque em **uma opção** para selecionar
+4. Confirme ou toque fora para fechar
 
-#### Campo de Texto
-- **Interface**: Caixa de texto livre
-- **Validação**: Limite de caracteres se configurado
-- **Formato**: Máscara automática se aplicável
+### Seleção Múltipla
+1. Toque no campo de seleção múltipla
+2. No modal que abrir, veja todas as opções
+3. Toque em **várias opções** para selecionar
+4. Opções selecionadas ficam marcadas
+5. Confirme ou toque fora para fechar
 
-#### Campo de Texto Longo
-- **Interface**: Área de texto expandida
-- **Uso**: Descrições, observações, evidências
-- **Limite**: Conforme configuração do modelo
+### Foto/Evidência
+1. Toque no campo de foto
+2. Escolha entre:
+   - **Câmera**: Tirar foto na hora
+   - **Galeria**: Selecionar foto existente
+3. Capture ou selecione a imagem
+4. Confirme para anexar ao registro
 
-#### Campo Numérico
-- **Interface**: Teclado numérico
-- **Validação**: Apenas números aceitos
-- **Formato**: Decimais conforme configuração
+### Assinatura
+1. Toque no campo de assinatura
+2. Use o dedo para desenhar a assinatura na tela
+3. Para refazer: toque em "Limpar"
+4. Quando satisfeito: toque em "Confirmar"
 
-### Validações em Tempo Real
-- **Campos obrigatórios**: Indicados com asterisco (*)
-- **Formato**: Validação durante digitação
-- **Mensagens de erro**: Feedback imediato
-- **Bloqueio de envio**: Até correção de erros
+## Como Salvar um Rascunho (Registros Longos)
 
-## Estados dos Registros
+### Para registros que levam horas/dias:
 
-### Rascunho
-- **Significado**: Preenchimento em andamento
-- **Cor**: Indicador específico
-- **Ações**: Continuar preenchimento, excluir
+1. **Inicie o preenchimento** normalmente
+2. **Preencha alguns campos** conforme disponibilidade
+3. **Clique em Salvar rascunho** no final da página quando finalizar a parcial
+5. **Para continuar**: Abra o formulário → Registros → Toque no lápid do registro em rascunho
+6. **Continue preenchendo** de onde parou
 
-### Pendente
-- **Significado**: Aguardando sincronização
-- **Cor**: Amarelo
-- **Ações**: Visualizar, forçar sincronização
+### Identificando um rascunho:
+- Status "Rascunho" na lista de registros
+- Campos parcialmente preenchidos
+- Dados preservados entre sessões
 
-### Sincronizado
-- **Significado**: Dados no servidor
-- **Cor**: Verde
-- **Ações**: Visualizar, editar (se permitido)
+## Como Verificar Status de Sincronização
 
-### Falha
-- **Significado**: Erro na sincronização
-- **Cor**: Vermelho
-- **Ações**: Tentar novamente, verificar dados
+### Cores dos indicadores:
+- **Verde**: Sincronizado ("ID Server: 123")
+- **Amarelo**: Pendente de sincronização
+- **Vermelho**: Erro na sincronização
 
-## Gerenciamento de Registros
+### Para sincronizar manualmente:
+1. Vá para a tela de configurações
+2. **Clique em forçar sincronização**
+3. Aguarde a sincronização completar
 
-### Ações Disponíveis
-- **Visualizar**: Ver dados completos
-- **Editar**: Modificar informações (se permitido)
-- **Excluir**: Remover registro (se permitido)
-- **Duplicar**: Criar cópia com mesmo modelo
+## Como Trabalhar Offline
 
-### Pesquisa de Registros
-- **Campo de busca**: Localizado acima da lista
-- **Busca em tempo real**: Filtro conforme digitação
-- **Campos pesquisáveis**: Todos os campos visíveis
-- **Limpar busca**: Remover filtro aplicado
+1. **Preencha normalmente** todos os campos
+2. **Dados são salvos** automaticamente no dispositivo
+3. **Quando Concluir o preenchimento do fomulário**, será sincronizado se hover internet. Se não, ele sincronizará quando disponível. 
+    1. Você pode forçar a sincronização também
+4. **Verifique status** pelos indicadores coloridos
 
-### Ordenação
-- **Por data**: Mais recentes primeiro (padrão)
-- **Por status**: Agrupados por estado
-- **Por campo**: Conforme colunas disponíveis
+## Como Resolver Problemas
 
-## Trabalho Offline
+### Registro não salva:
+1. Verifique se preencheu campos obrigatórios (*)
+2. Confira formato de datas (DD/MM/AAAA)
+3. Confirme que números estão corretos
 
-### Preenchimento Sem Conexão
-- **Funcionalidade completa**: Todos os campos funcionam
-- **Salvamento local**: Dados seguros no dispositivo
-- **Validações**: Funcionam normalmente offline
-- **Sincronização posterior**: Automática quando conectar
-
-### Indicadores Offline
-- **Status visual**: Indicação de dados não sincronizados
-- **Backup local**: Proteção contra perda
-- **Queue de sincronização**: Ordem de envio quando conectar
-
-## Resolução de Problemas
-
-### Registro Não Salva
-- **Verificar campos obrigatórios**: Completar todos os asteriscos
-- **Validar formatos**: Conferir datas, números
-- **Verificar espaço**: Memória disponível no dispositivo
-
-### Erro de Sincronização
-- **Verificar conexão**: Internet estável
-- **Tentar novamente**: Após alguns minutos
-- **Verificar dados**: Formatos e valores válidos
-
-### Registro Perdido
-- **Verificar rascunhos**: Dados salvos automaticamente
-- **Verificar filtros**: Pode estar oculto por pesquisa
-- **Sincronizar**: Baixar dados do servidor
+### Erro de sincronização:
+1. Verifique conexão com internet
+2. Aguarde alguns minutos
+3. Tente puxar para baixo para forçar sincronização
+4. Se persistir, anote o erro e contate suporte
