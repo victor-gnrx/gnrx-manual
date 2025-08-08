@@ -8,7 +8,6 @@
 
 * [Introdução ao Aplicativo](aplicativo/README.md)
 * [Primeiros Passos](aplicativo/primeiros-passos.md)
-* [Navegação Principal](aplicativo/navegacao-principal.md)
 * [Meus Formulários](aplicativo/meus-formularios.md)
 * [Criando um Novo Formulário](aplicativo/criando-novo-formulario.md)
 * [Detalhes do Formulário](aplicativo/detalhes-formulario.md)
