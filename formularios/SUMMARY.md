@@ -8,6 +8,7 @@
 
 * [Introdução ao Aplicativo](aplicativo/README.md)
 * [Primeiros Passos](aplicativo/primeiros-passos.md)
+* [Navegação Principal](aplicativo/navegacao-principal.md)
 * [Meus Formulários](aplicativo/meus-formularios.md)
 * [Criando um Novo Formulário](aplicativo/criando-novo-formulario.md)
 * [Detalhes do Formulário](aplicativo/detalhes-formulario.md)
@@ -15,7 +16,7 @@
 * [Estados e Status](aplicativo/estados-status.md)
 * [Sincronização](aplicativo/sincronizacao.md)
 
-## Sistema Web
+<!-- ## Sistema Web
 
 * [Introdução ao Sistema Web](sistema-web/introducao-ao-sistema-web.md)
 * [Estruturas](sistema-web/estruturas/README.md)
@@ -41,4 +42,4 @@
   * [Exportação de Dados](sistema-web/relatorios/exportacao-de-dados.md)
 * [Configurações](sistema-web/configuracoes/README.md)
   * [Permissões](sistema-web/configuracoes/permissoes.md)
-  * [Configurações Globais](sistema-web/configuracoes/configuracoes-globais.md)
+  * [Configurações Globais](sistema-web/configuracoes/configuracoes-globais.md) -->
