@@ -8,24 +8,23 @@
 
 1. [Introdução](./#introducao)
 2. [Primeiros Passos](./#primeiros-passos)
-3. [Navegação Principal](./#navegacao-principal)
-4. [Meus Formulários](./#meus-formularios)
-5. [Criando um Novo Formulário](./#criando-novo-formulario)
-6. [Detalhes do Formulário](./#detalhes-formulario)
-7. [Registros](./#registros)
-8. [Estados e Status](./#estados-status)
-9. [Sincronização](./#sincronizacao)
+3. [Meus Formulários](./#meus-formularios)
+4. [Criando um Novo Formulário](./#criando-novo-formulario)
+5. [Detalhes do Formulário](./#detalhes-formulario)
+6. [Registros](./#registros)
+7. [Estados e Status](./#estados-status)
+8. [Sincronização](./#sincronizacao)
 
 ***
 
 ## 1. Introdução <a href="#introducao" id="introducao"></a>
 
-O **GNRx Formulários** é um aplicativo mobile que permite criar, gerenciar e preencher formulários personalizados diretamente do seu dispositivo móvel. O app funciona tanto online quanto offline, garantindo que você nunca perca dados importantes.
+O **GNRx Formulários** é um aplicativo mobile que permite criar e preencher formulários personalizados diretamente do seu dispositivo móvel. O app funciona tanto online quanto offline, garantindo que você nunca perca dados importantes.
 
 ### Principais Funcionalidades
 
 * ✅ Criação de formulários baseados em modelos
-* ✅ Preenchimento offline com sincronização automática
+* ✅ Preenchimento offline com sincronização após conclusão
 * ✅ Diferentes tipos de campos (texto, data, seleção, etc.)
 * ✅ Controle de status e validações
 * ✅ Interface intuitiva e responsiva
@@ -103,7 +102,7 @@ Toque em qualquer formulário para acessar suas opções e detalhes.
     * FORM 9317 - Controle do resfriamento
     * FORM 9318 - Controle de Temperaturas das Câmaras
     * FORM 9326 - Controle de Sobra Limpa
-    * E outros conforme disponibilidade da empresa
+    * Outros conforme disponibilidade da empresa
 
 
 
@@ -216,7 +215,7 @@ O aplicativo mostra claramente o status de cada item:
 
 ### Como Funciona
 
-O aplicativo sincroniza quando o formulário for marcado como concluído. Ele às vezes sincroniza os modelos automaticamente, em plano de fundo. Mas, para garantir consistência. Pode usar o botão "Forçar Sincronização" nas configurações
+O aplicativo sincroniza quando o formulário for marcado como concluído. Ele às vezes sincroniza os modelos automaticamente, em plano de fundo. Mas, para garantir consistência. Pode usar o botão "Forçar Sincronização" nas configurações.
 
 ***
 

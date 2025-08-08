@@ -1,21 +1,24 @@
 # Criando um Novo Formulário
 
-A criação de um novo formulário permite instanciar um modelo pré-configurado para uma unidade específica de trabalho.
+A criação de um novo formulário permite criar formulários com base em modelos pré-configurados.
 
 ## Iniciando a Criação
 
 ### Acesso
 
-1. Na tela Formulários, toque no botão "Novo"
+1. Na tela Formulários, toque no botão "+ Novo"
 2. Selecione "Novo Formulário" no menu
 3. Aguarde o carregamento da tela de configuração
+
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 ### Pré-requisitos
 
 * Conexão com internet para carregar modelos (Caso não sincrozado)
-* Permissões para criar formulários na unidade
 
 ## Campos de Configuração
+
+<figure><img src="../.gitbook/assets/image (23).png" alt="" width="220"><figcaption></figcaption></figure>
 
 ### Modelo (Obrigatório)
 
@@ -54,7 +57,6 @@ A criação de um novo formulário permite instanciar um modelo pré-configurado
 ### Conteúdo
 
 * Nome do modelo
-* Código de identificação
 * Descrição resumida
 
 ## Seleção de Unidade
@@ -65,18 +67,14 @@ A criação de um novo formulário permite instanciar um modelo pré-configurado
 * Opções conforme permissões do usuário
 * Seleção única obrigatória
 
-### Impacto
-
-* Define dados globais específicos
-* Determina permissões de acesso
-* Influencia relatórios e agrupamentos
-
 ## Finalização
 
 ### Botões de Ação
 
 * **Cancelar**: Retorna sem salvar
 * **Criar Formulário**: Confirma criação e abre formulário
+
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 ### Validações
 

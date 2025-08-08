@@ -8,7 +8,7 @@ A tela principal onde você visualiza e gerencia todos os formulários disponív
 
 * Lista de formulários organizados
 * Barra de busca no topo
-* Botão "Novo" para criar formulários
+* Botão "+ Novo" para criar formulários
 * Indicadores de status visual
 
 ### Informações Exibidas
@@ -18,6 +18,8 @@ A tela principal onde você visualiza e gerencia todos os formulários disponív
 * Status atual (Ativo/Inativo/Padrão)
 * Data de criação ou atualização
 * Estado de sincronização
+
+<figure><img src="../.gitbook/assets/image (21).png" alt="" width="221"><figcaption></figcaption></figure>
 
 ## Status de Formulários
 
@@ -50,7 +52,6 @@ A tela principal onde você visualiza e gerencia todos os formulários disponív
 * Toque simples abre detalhes
 * Informações completas do formulário
 * Acesso aos registros
-* Configuração de dados globais
 
 ### Criação
 
@@ -58,13 +59,6 @@ A tela principal onde você visualiza e gerencia todos os formulários disponív
 * Seleção de modelo
 * Configuração de parâmetros
 * Associação à unidade
-
-### Gerenciamento
-
-* Menu de ações por formulário
-* Ativação/inativação conforme permissão
-* Duplicação para outras unidades
-* Exclusão se formulário vazio
 
 ## Organização
 

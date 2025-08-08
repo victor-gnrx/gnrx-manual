@@ -54,44 +54,27 @@ A tela de detalhes apresenta informações completas do formulário, incluindo c
 * **Função**: Retorna à lista de formulários
 * **Localização**: Canto superior esquerdo
 
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 ### Menu de Ações
 
 * **Função**: Ações específicas do formulário
 * **Localização**: Canto superior direito
-* **Conteúdo**: Conforme permissões do usuário
+* **Conteúdo**: Concluir Formulário
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Ações nos Registros
 
 * **Visualizar**: Ver detalhes do registro
-* **Editar**: Modificar dados (se permitido)
-* **Excluir**: Remover registro (se permitido)
-* **Sincronizar**: Forçar sincronização
-
-## Pesquisa e Filtros
-
-### Campo de Pesquisa
-
-* **Localização**: Acima da lista de registros
-* **Função**: Filtrar registros em tempo real
-* **Escopo**: Busca em campos visíveis
-
-### Filtros por Status
-
-* **Todos**: Exibe todos os registros
-* **Sincronizados**: Apenas registros no servidor
-* **Pendentes**: Aguardando sincronização
-* **Com erro**: Registros com falha
+* **Editar**: Modificar dados (se em rascunho / registro padrão)
 
 ## Sincronização
 
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
 ### Status Visual
 
-* **Cores**: Verde (ok), Amarelo (pendente), Vermelho (erro)
+* **Cores**: GNRx (sincronizado), Amarelo (pendente), Vermelho (falha), Nude (Rascunho)
 * **Ícones**: Indicadores específicos por estado
 * **Texto**: Descrição do status atual
-
-### Ações de Sincronização
-
-* **Automática**: Quando há conexão disponível
-* **Manual**: Puxar tela para baixo para atualizar
-* **Individual**: Sincronizar registro específico
