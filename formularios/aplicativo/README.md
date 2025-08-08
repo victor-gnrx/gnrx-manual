@@ -253,14 +253,4 @@ O aplicativo sincroniza quando o formulário for marcado como concluído. Ele à
 
 ***
 
-## Suporte
-
-Para dúvidas ou problemas técnicos, entre em contato com:
-
-* **Email**: contato@nrxgestao.com.br
-* **Telefone**: (31) 3333-4444
-* **Site**: www.gnrx.com.br
-
-***
-
 _Manual atualizado para versão atual do aplicativo GNRx Formulários_
