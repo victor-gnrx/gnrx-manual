@@ -20,7 +20,7 @@ layout:
 
 ## Alterar Custo Unitário do Lote
 
-Esta página explica como atualizar o valor de custo unitário de um lote já cadastrado no Sistema GNRX Gestão de EPI.
+Esta página explica como atualizar o valor de custo unitário de um lote já cadastrado no Sistema GNRx Gestão de EPI.
 
 ### Visão Geral
 
@@ -41,9 +41,9 @@ A funcionalidade de alteração de custo permite ajustar o valor unitário de to
 1. Navegue até a página de detalhes do Item
 2. Localize a seção **Lotes**
 3. Na linha do lote desejado, clique no ícone **"Olho"** para visualizar detalhes.
-4. Na telha de detalhes do lote, **coloque o mouse em cima da seção "Custom Total". Será exibido um ícone de editar no canto superior direito.**
+4. Na telha de detalhes do lote, **coloque o mouse em cima da seção "Custo Total". Será exibido um ícone de editar no canto superior direito.**
 
-<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. Preencher o Novo Valor
 
