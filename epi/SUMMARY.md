@@ -88,7 +88,7 @@
 * [Visão Geral](gestao-estoque/lotes/README.md)
 * [Adicionar Lote Item Com Variantes](gestao-estoque/lotes/adicionar-lote-com-variantes.md)
 * [Adicionar Lote Item Sem Variantes](gestao-estoque/lotes/adicionar-lote-sem-variantes.md)
-* [Alterar valores dos itens do lote](lotes/adicionar-lote-sem-variantes-1.md)
+* [Alterar valores dos itens do lote](lotes/alterar-valores-itens-lote.md)
 * [Visualizar Itens do Lote](gestao-estoque/lotes/visualizar-items-lote.md)
 
 ## Solicitações
