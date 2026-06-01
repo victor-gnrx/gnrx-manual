@@ -203,6 +203,19 @@ Todas as permissões do sistema seguem o formato **módulo:ação:recurso** e es
 | `epis:visualizar:todos_fabricante` | Visualizar todos os fabricantes e detalhes | ❌ | ❌ | ✅ | ✅ |
 | `epis:inativar:fabricante` | Inativar fabricantes não utilizados | ❌ | ❌ | ✅ | ✅ |
 
+#### Solicitação de Transferência
+| Permissão | Descrição | Operador | Supervisor | Gestor | Admin |
+|-----------|-----------|----------|------------|--------|-------|
+| `epis:criar:solicitacao_transferencia` | Criar solicitação de transferência | ❌ | ✅ | ✅ | ✅ |
+| `epis:visualizar:solicitacao_transferencia` | Visualizar solicitações da própria unidade | ❌ | ✅ | ✅ | ✅ |
+| `epis:visualizar:todas_solicitacoes_transferencia` | Visualizar todas as solicitações (listagem geral) | ❌ | ❌ | ✅ | ✅ |
+| `epis:visualizar:estoque_todas_unidades` | Ver estoque de qualquer unidade para análise | ❌ | ❌ | ✅ | ✅ |
+| `epis:cancelar:solicitacao_transferencia` | Cancelar solicitação e cancelar item individual | ❌ | ✅ | ✅ | ✅ |
+| `epis:aprovar:item_transferencia` | Aprovar item de transferência | ❌ | ❌ | ✅ | ✅ |
+| `epis:rejeitar:item_transferencia` | Rejeitar item de transferência | ❌ | ❌ | ✅ | ✅ |
+| `epis:processar:item_transferencia` | Processar item (mover estoque) | ❌ | ❌ | ✅ | ✅ |
+| `epis:solicitar_compra:por_item_transferencia` | Criar compra vinculada a item de transferência | ❌ | ❌ | ✅ | ✅ |
+
 ### 📊 MÓDULO: Relatórios
 | Permissão | Descrição | Operador | Supervisor | Gestor | Admin |
 |-----------|-----------|----------|------------|--------|-------|

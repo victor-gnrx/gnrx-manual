@@ -20,6 +20,7 @@
   * [Usuários](web/estrutura/usuario.md)
   * [Unidades](web/estrutura/unidade.md)
   * [Setores](web/estrutura/setor.md)
+  * [Sistema de Permissões e Roles](web/estrutura/sistema-permissoes-roles.md)
 * [Painel (Dashboard)](web/painel.md)
 * [Modelos NR](web/modelo-nr.md)
 * [Modelos Customizados](web/modelo-customizado.md)
