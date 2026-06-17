@@ -76,27 +76,38 @@ Esta seção permite configurar endereços de email que receberão automaticamen
 
 #### Adicionando um Email
 
-1. Na seção "Emails para Relatórios", clique no botão **"Adicionar Email"**
+1. Na seção "Emails para Relatórios", localize o campo de texto no topo da lista
 2. Digite o endereço de email desejado
-3. Clique em **"Adicionar"** para confirmar
+3. Clique em **"+ Adicionar"** para confirmar
 
 ![Configuração de emails para relatórios](../../.gitbook/assets/add-email.png)
 
 #### Configurando um Email
 
-Após adicionar um email, você pode configurar quais setores serão incluídos nos relatórios enviados:
+Após adicionar um email, você pode configurar quais módulos e setores estão incluídos nos relatórios enviados. Clique no ícone de engrenagem ao lado do email para abrir o modal **"Configurar Email"**.
 
-1. Clique no ícone de engrenagem ao lado do email
-2. No modal "Configurar Email", você terá duas opções:
-   * **Receber de todos os setores**: O email receberá relatórios de auditorias de todos os setores da unidade
-   * **Selecionar setores específicos**: Você poderá marcar quais setores serão incluídos
-3. Para cada setor, você pode ativar a opção **"Solicitar Assinatura"**:
-   * Quando ativada, o sistema enviará um link para que o destinatário assine eletronicamente a auditoria
-   * Esta funcionalidade é útil para validações e aprovações remotas
+O modal possui duas abas:
+
+**Aba Módulos**
+
+Permite selecionar quais módulos do sistema (ex: Auditorias, Plano de Ação) o email receberá relatórios. Marque ou desmarque cada módulo conforme necessário.
+
+![Configuração de módulos para emails](../../.gitbook/assets/config-email-modulos.png)
+
+**Aba Setores**
+
+Permite definir de quais setores da unidade o email receberá relatórios:
+
+* **Receber de todos os setores**: Ative o toggle no topo para que o email receba relatórios de todos os setores da unidade
+* **Selecionar setores específicos**: Com o toggle desativado, marque individualmente os setores desejados na coluna "Aplicar"
+
+Para cada setor selecionado, você pode ativar a opção **"Solicitar Assinatura"**:
+* Quando ativada, o sistema enviará um link para que o destinatário assine eletronicamente a auditoria
+* Esta funcionalidade é útil para validações e aprovações remotas
 
 ![Configuração de setores para emails](../../.gitbook/assets/config-email.png)
 
-4. Clique em **"Salvar Configurações"** para aplicar as mudanças
+Após configurar as abas desejadas, clique em **"Salvar Configurações de Setores"** (ou o botão equivalente na aba Módulos) para aplicar as mudanças.
 
 #### Removendo um Email
 
