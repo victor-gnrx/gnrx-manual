@@ -7,37 +7,21 @@ icon: webhook
 
 Webhooks permitem que sistemas externos recebam notificações em tempo real quando eventos ocorrem no gnrx. Em vez de fazer polling na API, você cadastra uma URL e o gnrx faz um `POST` para ela sempre que um evento acontecer.
 
-## Como funciona
-
-```
-Evento no gnrx → SQS → Worker → POST na sua URL
-                                ↳ Registra em webhook_entregas
-```
-
-1. Um evento ocorre (ex: entrega de item concluída).
-2. O gnrx publica uma mensagem no AWS SQS.
-3. O worker consome a mensagem e faz um `POST` para todas as URLs cadastradas que têm aquele evento habilitado.
-4. A entrega é registrada em histórico com status `enviado`, `erro` ou `falhou`.
-
-{% hint style="info" %}
-A entrega é **fire-and-forget** — ela não bloqueia a operação original. Se sua URL estiver fora do ar, o evento pode ser perdido (verifique o histórico de entregas).
-{% endhint %}
-
 ## Eventos disponíveis
 
-| Evento | Campo na configuração | Quando dispara |
-|---|---|---|
-| `epi.entrega.concluida` | `evento_epi_entrega_concluida` | Entrega de item finalizada (direta, com assinatura obrigatória, por produto ou via solicitação) |
-| `epi.devolucao.registrada` | `evento_epi_devolucao_registrada` | Devolução de item registrada (individual ou em massa) |
-| `epi.assinatura.concluida` | `evento_epi_assinatura_concluida` | Solicitação assinada digitalmente (individual, sessão ou entrega rápida) |
-| `epi.solicitacao.criada` | `evento_epi_solicitacao_criada` | Nova solicitação de itens criada |
-| `funcionario.criado` | `evento_funcionario_criado` | Funcionário criado (manual, via API de integração ou importação em massa) |
-| `funcionario.atualizado` | `evento_funcionario_atualizado` | Dados do funcionário alterados |
-| `funcionario.inativado` | `evento_funcionario_inativado` | Funcionário inativado com sucesso |
-| `estoque.entrada` | `evento_estoque_entrada` | Lote de estoque criado (por lote ou importação unitária) |
-| `compra.criada` | `evento_compra_criada` | Nova solicitação de compra criada |
-| `compra.processada` | `evento_compra_processada` | Solicitação de compra processada (estoque gerado) |
-| `transferencia.criada` | `evento_transferencia_criada` | Nova solicitação de transferência de itens criada |
+| Evento                     | Campo na configuração             | Quando dispara                                                                                  |
+| -------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `epi.entrega.concluida`    | `evento_epi_entrega_concluida`    | Entrega de item finalizada (direta, com assinatura obrigatória, por produto ou via solicitação) |
+| `epi.devolucao.registrada` | `evento_epi_devolucao_registrada` | Devolução de item registrada (individual ou em massa)                                           |
+| `epi.assinatura.concluida` | `evento_epi_assinatura_concluida` | Solicitação assinada digitalmente (individual, sessão ou entrega rápida)                        |
+| `epi.solicitacao.criada`   | `evento_epi_solicitacao_criada`   | Nova solicitação de itens criada                                                                |
+| `funcionario.criado`       | `evento_funcionario_criado`       | Funcionário criado (manual, via API de integração ou importação em massa)                       |
+| `funcionario.atualizado`   | `evento_funcionario_atualizado`   | Dados do funcionário alterados                                                                  |
+| `funcionario.inativado`    | `evento_funcionario_inativado`    | Funcionário inativado com sucesso                                                               |
+| `estoque.entrada`          | `evento_estoque_entrada`          | Lote de estoque criado (por lote ou importação unitária)                                        |
+| `compra.criada`            | `evento_compra_criada`            | Nova solicitação de compra criada                                                               |
+| `compra.processada`        | `evento_compra_processada`        | Solicitação de compra processada (estoque gerado)                                               |
+| `transferencia.criada`     | `evento_transferencia_criada`     | Nova solicitação de transferência de itens criada                                               |
 
 ## Formato da requisição recebida
 
@@ -65,12 +49,12 @@ X-Gnrx-Signature: sha256=3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0
 }
 ```
 
-| Campo | Tipo | Descrição |
-|---|---|---|
-| `evento` | `string` | Tipo do evento (mesmo valor do header `X-Gnrx-Evento`) |
-| `timestamp` | `string` | ISO 8601 UTC — momento do disparo |
-| `empresa_id` | `integer` | ID da empresa que gerou o evento |
-| `dados` | `object` | Payload específico do evento (veja seção abaixo) |
+| Campo        | Tipo      | Descrição                                              |
+| ------------ | --------- | ------------------------------------------------------ |
+| `evento`     | `string`  | Tipo do evento (mesmo valor do header `X-Gnrx-Evento`) |
+| `timestamp`  | `string`  | ISO 8601 UTC — momento do disparo                      |
+| `empresa_id` | `integer` | ID da empresa que gerou o evento                       |
+| `dados`      | `object`  | Payload específico do evento (veja seção abaixo)       |
 
 Sua URL deve retornar **HTTP 2xx** para confirmar o recebimento. Qualquer outro status é registrado como `erro` e a mensagem pode ser re-entregue.
 
@@ -83,33 +67,39 @@ O header `X-Gnrx-Signature` permite verificar que a requisição veio do gnrx e 
 **Exemplo em Node.js:**
 
 ```javascript
-const crypto = require('crypto');
+const crypto = require("crypto");
 
 function verificarAssinatura(rawBody, secret, signatureHeader) {
   const assinatura = crypto
-    .createHmac('sha256', secret)
-    .update(rawBody, 'utf8')
-    .digest('hex');
+    .createHmac("sha256", secret)
+    .update(rawBody, "utf8")
+    .digest("hex");
 
   const esperado = `sha256=${assinatura}`;
   return crypto.timingSafeEqual(
     Buffer.from(esperado),
-    Buffer.from(signatureHeader)
+    Buffer.from(signatureHeader),
   );
 }
 
 // Exemplo com Express:
-app.post('/webhooks/gnrx', express.raw({ type: 'application/json' }), (req, res) => {
-  const signature = req.headers['x-gnrx-signature'];
+app.post(
+  "/webhooks/gnrx",
+  express.raw({ type: "application/json" }),
+  (req, res) => {
+    const signature = req.headers["x-gnrx-signature"];
 
-  if (!verificarAssinatura(req.body, process.env.GNRX_WEBHOOK_SECRET, signature)) {
-    return res.status(401).send('Assinatura inválida');
-  }
+    if (
+      !verificarAssinatura(req.body, process.env.GNRX_WEBHOOK_SECRET, signature)
+    ) {
+      return res.status(401).send("Assinatura inválida");
+    }
 
-  const evento = JSON.parse(req.body);
-  // processar evento...
-  res.sendStatus(200);
-});
+    const evento = JSON.parse(req.body);
+    // processar evento...
+    res.sendStatus(200);
+  },
+);
 ```
 
 {% hint style="info" %}
@@ -151,32 +141,38 @@ Use sempre **comparação segura contra timing attacks** (`timingSafeEqual` / `h
 ### `epi.devolucao.registrada`
 
 Devolução individual (por solicitação):
+
 ```json
 {
   "evento": "epi.devolucao.registrada",
   "timestamp": "2026-06-30T14:05:00Z",
   "empresa_id": 10,
   "dados": {
-    "solicitacao_id": 99
+    "solicitacao_id": 99,
+    "solicitacao_item_id": 12,
+    "item_unitario_id": 201 | null,
+    "novo_estado": 0 | 2 | 3 | 4 | 5 | 6 | null
   }
 }
 ```
 
-Devolução em massa — um evento disparado **por item** devolvido:
-```json
-{
-  "evento": "epi.devolucao.registrada",
-  "timestamp": "2026-06-30T14:05:00Z",
-  "empresa_id": 10,
-  "dados": {
-    "item_unitario_id": 201
-  }
-}
-```
+Estados possíveis em `novo_estado`:
+
+| Código | Estado       |
+| ------ | ------------ |
+| `0`    | Disponível   |
+| `2`    | Manutenção   |
+| `3`    | Inativo      |
+| `4`    | Quebra       |
+| `5`    | Perda        |
+| `6`    | Higienização |
+
+`null` indica que o item não teve o estado alterado.
 
 ### `epi.assinatura.concluida`
 
 Assinatura de solicitação individual:
+
 ```json
 {
   "evento": "epi.assinatura.concluida",
@@ -184,26 +180,8 @@ Assinatura de solicitação individual:
   "empresa_id": 10,
   "dados": {
     "solicitacao_id": 99,
-    "solicitacao_epi_id": 150
-  }
-}
-```
-
-Assinatura de sessão:
-```json
-{
-  "dados": {
-    "solicitacao_id": 99
-  }
-}
-```
-
-Assinatura de entrega rápida:
-```json
-{
-  "dados": {
-    "solicitacao_id": 99,
-    "sucessos": 5
+    "funcionario_id": 55,
+    "solicitacao_item_ids": [110, 111, 112]
   }
 }
 ```
@@ -211,6 +189,7 @@ Assinatura de entrega rápida:
 ### `funcionario.criado`
 
 Via interface ou importação em massa:
+
 ```json
 {
   "evento": "funcionario.criado",
@@ -218,18 +197,8 @@ Via interface ou importação em massa:
   "empresa_id": 10,
   "dados": {
     "funcionario_id": 301,
-    "nome": "JOÃO DA SILVA"
-  }
-}
-```
-
-Via API de integração (inclui `codigo_integracao`):
-```json
-{
-  "dados": {
-    "funcionario_id": 301,
     "nome": "JOÃO DA SILVA",
-    "codigo_integracao": "ERP-12345"
+    "codigo_integracao": "ERP-12345" | null
   }
 }
 ```
@@ -266,6 +235,8 @@ Este evento só é disparado quando a inativação é efetivada. Se o funcionár
 
 ### `estoque.entrada`
 
+Disparado quando um lote de estoque é criado (por lote manual ou por importação de unitários).
+
 ```json
 {
   "evento": "estoque.entrada",
@@ -274,14 +245,66 @@ Este evento só é disparado quando a inativação é efetivada. Se o funcionár
   "dados": {
     "lote_id": 88,
     "item_id": 12,
-    "quantidade": 500
+    "nome": "Capacete de Segurança",
+    "unidade_medida": "un",
+    "casas_decimais": 0,
+    "quantidade_total": 500,
+    "variantes": [
+      {
+        "variacoes": { "Tamanho": "G", "Cor": "Azul" },
+        "quantidade": 300
+      },
+      {
+        "variacoes": { "Tamanho": "M", "Cor": "Azul" },
+        "quantidade": 200
+      }
+    ]
   }
 }
 ```
 
-{% hint style="info" %}
-`quantidade` usa a unidade de medida configurada no item. Pode ser inteiro (itens unitários) ou com casas decimais (itens em quantidade).
-{% endhint %}
+- `unidade_medida` — unidade configurada no item (ex: `"un"`, `"kg"`, `"L"`)
+- `casas_decimais` — número de casas decimais para interpretar `quantidade_total` (0 = inteiro, 2 = dividir por 100, etc.)
+- `variantes` — lista das combinações de variação com suas quantidades; vazio `[]` quando o item não tem variantes ou foi importado via planilha de unitários
+
+### `compra.criada`
+
+```json
+{
+  "evento": "compra.criada",
+  "timestamp": "2026-06-30T14:05:00Z",
+  "empresa_id": 10,
+  "dados": {
+    "solicitacao_compra_id": 88
+  }
+}
+```
+
+### `compra.processada`
+
+```json
+{
+  "evento": "compra.processada",
+  "timestamp": "2026-06-30T14:05:00Z",
+  "empresa_id": 10,
+  "dados": {
+    "solicitacao_compra_id": 88
+  }
+}
+```
+
+### `transferencia.criada`
+
+```json
+{
+  "evento": "transferencia.criada",
+  "timestamp": "2026-06-30T14:05:00Z",
+  "empresa_id": 10,
+  "dados": {
+    "transferencia_id": 33
+  }
+}
+```
 
 ## Boas práticas
 
@@ -295,6 +318,6 @@ Este evento só é disparado quando a inativação é efetivada. Se o funcionár
 
 **HTTPS obrigatório em produção.** URLs `http://` são aceitas para testes locais, mas use HTTPS em produção para garantir confidencialidade durante o transporte (a assinatura HMAC garante integridade, não confidencialidade).
 
-***
+---
 
 _Última atualização: 1 de julho de 2026_

@@ -145,3 +145,4 @@
 ## Integrações
 
 * [Webhooks](integracoes/webhooks.md)
+* [API de Integração](integracoes/api-integracao.md)
