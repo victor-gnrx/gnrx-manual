@@ -14,11 +14,11 @@ A vinculação de colaboradores a setores é uma etapa importante na estruturaç
 
 A correta associação entre colaboradores e setores é essencial para:
 
-* Organizar colaboradores por área de atuação
-* Facilitar a gestão de EPIs por departamento
-* Possibilitar a vinculação subsequente a cargos específicos
-* Gerar análises e relatórios segmentados por setor
-* Refletir a estrutura organizacional real da empresa
+- Organizar colaboradores por área de atuação
+- Facilitar a gestão de EPIs por departamento
+- Possibilitar a vinculação subsequente a cargos específicos
+- Gerar análises e relatórios segmentados por setor
+- Refletir a estrutura organizacional real da empresa
 
 ## Pré-requisitos
 
@@ -60,10 +60,10 @@ Após a vinculação, o setor aparecerá na estrutura hierárquica do colaborado
 
 Esta visualização mostra:
 
-* A unidade principal
-* O setor recém-vinculado
-* Cargos associados (se houver)
-* GHEs vinculados (se houver)
+- A unidade principal
+- O setor recém-vinculado
+- Cargos associados (se houver)
+- GHEs vinculados (se houver)
 
 ## Múltiplos Setores
 
@@ -95,17 +95,17 @@ Após vincular um colaborador a um setor, é necessário continuar a configuraç
 
 ## Considerações Importantes
 
-* Um setor só pode ser vinculado se já estiver associado à unidade selecionada
-* O mesmo colaborador pode estar em múltiplos setores, refletindo suas diferentes atividades
-* Alterações nos vínculos não afetam entregas já realizadas
-* A estrutura hierárquica deve refletir as atribuições reais do colaborador
+- Um setor só pode ser vinculado se já estiver associado à unidade selecionada
+- O mesmo colaborador pode estar em múltiplos setores, refletindo suas diferentes atividades
+- Alterações nos vínculos não afetam entregas já realizadas
+- A estrutura hierárquica deve refletir as atribuições reais do colaborador
 
 ## Melhores Práticas
 
-* Mantenha as vinculações atualizadas quando houver transferências entre setores
-* Associe o colaborador apenas aos setores onde efetivamente atua
-* Revise periodicamente os vínculos para garantir que refletem a situação atual
-* Ao desativar um setor, lembre-se de transferir os colaboradores para outros setores ativos
+- Mantenha as vinculações atualizadas quando houver transferências entre setores
+- Associe o colaborador apenas aos setores onde efetivamente atua
+- Revise periodicamente os vínculos para garantir que refletem a situação atual
+- Ao desativar um setor, lembre-se de transferir os colaboradores para outros setores ativos
 
 ## Erros Comuns e Soluções
 
@@ -114,7 +114,3 @@ Após vincular um colaborador a um setor, é necessário continuar a configuraç
 | "Setor não disponível para esta unidade" | Verifique se o setor foi previamente vinculado à unidade             |
 | "Erro ao vincular"                       | Certifique-se de que tanto o colaborador quanto o setor estão ativos |
 | "Não é possível remover"                 | Verifique se há entregas de EPIs pendentes relacionadas ao setor     |
-
-***
-
-_Última atualização: 16 de Maio de 2025_

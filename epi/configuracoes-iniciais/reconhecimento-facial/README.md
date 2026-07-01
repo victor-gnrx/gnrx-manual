@@ -14,11 +14,11 @@ O módulo de Reconhecimento Facial do Sistema GNRx Gestão de EPI oferece uma so
 
 A tecnologia de reconhecimento facial traz diversos benefícios operacionais e legais:
 
-* **Segurança**: Garante que apenas o colaborador autorizado possa assinar pelo recebimento de EPIs
-* **Conformidade Legal**: Fornece evidência biométrica para comprovar a entrega efetiva dos equipamentos
-* **Eficiência**: Elimina a necessidade de assinaturas em papel e agiliza o processo de entrega
-* **Auditoria**: Cria registros inalteráveis para fins de fiscalização e auditoria
-* **Mobilidade**: Permite entregas e assinaturas em campo através de dispositivos móveis
+- **Segurança**: Garante que apenas o colaborador autorizado possa assinar pelo recebimento de EPIs
+- **Conformidade Legal**: Fornece evidência biométrica para comprovar a entrega efetiva dos equipamentos
+- **Eficiência**: Elimina a necessidade de assinaturas em papel e agiliza o processo de entrega
+- **Auditoria**: Cria registros inalteráveis para fins de fiscalização e auditoria
+- **Mobilidade**: Permite entregas e assinaturas em campo através de dispositivos móveis
 
 ### Casos de Uso Principais
 
@@ -37,20 +37,20 @@ Cadastro Inicial → Validação → Uso em Operações Diárias → Atualizaç�
 
 O Sistema GNRx implementa as melhores práticas de privacidade e segurança para os dados biométricos:
 
-* Dados criptografados em repouso e em trânsito
-* Acesso aos dados biométricos restrito a funções essenciais
-* Consentimento explícito do colaborador no cadastro
-* Dados utilizados exclusivamente para finalidades específicas
-* Conformidade com LGPD e outras legislações de privacidade aplicáveis
+- Dados criptografados em repouso e em trânsito
+- Acesso aos dados biométricos restrito a funções essenciais
+- Consentimento explícito do colaborador no cadastro
+- Dados utilizados exclusivamente para finalidades específicas
+- Conformidade com LGPD e outras legislações de privacidade aplicáveis
 
 ## Requisitos Técnicos
 
 Para utilização adequada do reconhecimento facial, recomenda-se:
 
-* Câmera frontal com resolução mínima de 2MP
-* Iluminação adequada no ambiente de registro e verificação
-* Conexão à internet estável
-* Dispositivos compatíveis: tablets, smartphones ou notebooks com webcam
+- Câmera frontal com resolução mínima de 2MP
+- Iluminação adequada no ambiente de registro e verificação
+- Conexão à internet estável
+- Dispositivos compatíveis: tablets, smartphones ou notebooks com webcam
 
 ## Indicadores Visuais
 
@@ -72,9 +72,5 @@ A implementação completa do reconhecimento facial envolve três etapas princip
 
 Para implementar o reconhecimento facial em sua organização, consulte os seguintes guias:
 
-* [Cadastrar Face](cadastrar-face.md) - Como realizar o cadastro inicial
-* [Atualizar Face](broken-reference) - Como atualizar o cadastro existente
-
-***
-
-_Última atualização: 18 de Maio de 2025_
+- [Cadastrar Face](cadastrar-face.md) - Como realizar o cadastro inicial
+- [Atualizar Face](broken-reference) - Como atualizar o cadastro existente

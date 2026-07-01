@@ -14,11 +14,11 @@ A desativação de colaboradores é utilizada quando um funcionário se desliga 
 
 As situações mais comuns para desativação incluem:
 
-* Desligamento do funcionário (demissão ou aposentadoria)
-* Afastamento temporário prolongado
-* Transferência para outra empresa do grupo
-* Licenças extensas
-* Correção de cadastros duplicados
+- Desligamento do funcionário (demissão ou aposentadoria)
+- Afastamento temporário prolongado
+- Transferência para outra empresa do grupo
+- Licenças extensas
+- Correção de cadastros duplicados
 
 ## Acessando a Função de Desativação
 
@@ -49,18 +49,18 @@ Quando um colaborador é desativado:
 
 ### O que acontece:
 
-* O colaborador recebe o status "Inativo" na lista
-* Ele deixa de aparecer em listas de seleção para novas solicitações
-* Relatórios padrão filtram o colaborador, a menos que explicitamente incluído
-* O histórico completo permanece acessível para consulta
-* O acesso ao aplicativo móvel é automaticamente bloqueado
+- O colaborador recebe o status "Inativo" na lista
+- Ele deixa de aparecer em listas de seleção para novas solicitações
+- Relatórios padrão filtram o colaborador, a menos que explicitamente incluído
+- O histórico completo permanece acessível para consulta
+- O acesso ao aplicativo móvel é automaticamente bloqueado
 
 ### O que NÃO acontece:
 
-* O registro do colaborador não é excluído do banco de dados
-* Históricos de entregas de EPIs não são removidos
-* Obrigações de devolução de EPIs não são automaticamente canceladas
-* EPIs associados não são automaticamente liberados do inventário
+- O registro do colaborador não é excluído do banco de dados
+- Históricos de entregas de EPIs não são removidos
+- Obrigações de devolução de EPIs não são automaticamente canceladas
+- EPIs associados não são automaticamente liberados do inventário
 
 ## Verificações Prévias à Desativação
 
@@ -79,9 +79,9 @@ Quando um colaborador será desativado mas ainda possui EPIs:
 1. Acesse a aba **EPIs** na tela de detalhes do colaborador
 2. Para cada EPI não devolvido, clique em **Registrar Devolução**
 3. Escolha o motivo adequado:
-   * **Devolução Normal**: Se o EPI foi fisicamente devolvido
-   * **Registro de Perda**: Se o EPI não foi devolvido e não será recuperado
-   * **Registro de Quebra**: Se o EPI foi devolvido danificado
+   - **Devolução Normal**: Se o EPI foi fisicamente devolvido
+   - **Registro de Perda**: Se o EPI não foi devolvido e não será recuperado
+   - **Registro de Quebra**: Se o EPI foi devolvido danificado
 
 > **Importante:** A devolução ou baixa de todos os EPIs não é obrigatória para desativar um colaborador, mas é uma prática recomendada para manter o controle do inventário.
 
@@ -99,10 +99,10 @@ Para reativar um colaborador previamente desativado:
 
 A desativação de colaboradores pode afetar:
 
-* Contagens de colaboradores ativos em dashboards
-* Taxas de conformidade no uso de EPIs
-* Relatórios de gastos por colaborador
-* Estatísticas de rotatividade e gestão de EPIs
+- Contagens de colaboradores ativos em dashboards
+- Taxas de conformidade no uso de EPIs
+- Relatórios de gastos por colaborador
+- Estatísticas de rotatividade e gestão de EPIs
 
 Ao gerar relatórios, é possível incluir ou excluir colaboradores inativos através de filtros específicos.
 
@@ -110,18 +110,18 @@ Ao gerar relatórios, é possível incluir ou excluir colaboradores inativos atr
 
 Do ponto de vista legal, a desativação preserva todos os registros necessários para:
 
-* Comprovação de entrega de EPIs durante o período de atividade
-* Demonstração de conformidade com a NR-6 em fiscalizações
-* Rastreabilidade em caso de investigações de acidentes
-* Confirmação de treinamentos e orientações fornecidas
+- Comprovação de entrega de EPIs durante o período de atividade
+- Demonstração de conformidade com a NR-6 em fiscalizações
+- Rastreabilidade em caso de investigações de acidentes
+- Confirmação de treinamentos e orientações fornecidas
 
 ## Melhores Práticas
 
-* **Planejamento Prévio**: Organize a desativação antes do desligamento oficial
-* **Devolução de EPIs**: Sempre que possível, recolha todos os EPIs antes da desativação
-* **Documentação**: Registre claramente o motivo da desativação
-* **Data de Encerramento**: Mantenha a precisão na data de desligamento
-* **Verificação Final**: Confirme que todos os registros estão corretamente documentados
+- **Planejamento Prévio**: Organize a desativação antes do desligamento oficial
+- **Devolução de EPIs**: Sempre que possível, recolha todos os EPIs antes da desativação
+- **Documentação**: Registre claramente o motivo da desativação
+- **Data de Encerramento**: Mantenha a precisão na data de desligamento
+- **Verificação Final**: Confirme que todos os registros estão corretamente documentados
 
 ## Erros Comuns e Soluções
 
@@ -130,7 +130,3 @@ Do ponto de vista legal, a desativação preserva todos os registros necessário
 | "Colaborador possui solicitações em andamento" | Conclua ou cancele as solicitações pendentes      |
 | "Erro ao salvar data de encerramento"          | Verifique se o formato da data está correto       |
 | "Colaborador já desativado"                    | Verifique se o status já foi alterado previamente |
-
-***
-
-_Última atualização: 16 de Maio de 2025_

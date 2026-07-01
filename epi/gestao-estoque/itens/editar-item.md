@@ -32,26 +32,26 @@ Ao editar um item, você pode modificar:
 
 ### Itens com CA:
 
-* **Nome**: Descrição principal do item
-* **Data de Validade**: Atualização da validade do CA
-* **Tempo de Troca**: Período recomendado para substituição
-* **Fabricante**: Nome do fabricante ou fornecedor
-* **Descrição**: Informações complementares sobre o item
+- **Nome**: Descrição principal do item
+- **Data de Validade**: Atualização da validade do CA
+- **Tempo de Troca**: Período recomendado para substituição
+- **Fabricante**: Nome do fabricante ou fornecedor
+- **Descrição**: Informações complementares sobre o item
 
 ### Itens sem CA:
 
-* **Nome**: Descrição principal do item
-* **Tempo de Troca**: Período opcional para substituição
-* **Fabricante**: Nome do fabricante ou fornecedor
-* **Descrição**: Informações complementares sobre o item
+- **Nome**: Descrição principal do item
+- **Tempo de Troca**: Período opcional para substituição
+- **Fabricante**: Nome do fabricante ou fornecedor
+- **Descrição**: Informações complementares sobre o item
 
 ## Limitações de Edição
 
 Alguns campos possuem restrições de edição:
 
-* **Número do CA**: Não pode ser modificado após o cadastro inicial
-* **Classificação NR-6**: Não pode ser alterada se houver estoque vinculado
-* **Status Ativo/Inativo**: Alterado através da função específica de desativação
+- **Número do CA**: Não pode ser modificado após o cadastro inicial
+- **Classificação NR-6**: Não pode ser alterada se houver estoque vinculado
+- **Status Ativo/Inativo**: Alterado através da função específica de desativação
 
 ## Processo de Edição
 
@@ -66,36 +66,32 @@ Alguns campos possuem restrições de edição:
 
 A edição de itens pode afetar:
 
-* **Solicitações**: Alterações no nome podem impactar solicitações pendentes
-* **Relatórios**: Modificações afetarão análises e históricos
-* **Alertas**: Mudanças em datas de validade ou períodos de troca afetam notificações
+- **Solicitações**: Alterações no nome podem impactar solicitações pendentes
+- **Relatórios**: Modificações afetarão análises e históricos
+- **Alertas**: Mudanças em datas de validade ou períodos de troca afetam notificações
 
 ### Registro de Alterações
 
 O sistema mantém um histórico completo de edições:
 
-* Todas as modificações são registradas com data, hora e usuário responsável
-* É possível consultar o histórico de alterações para fins de auditoria
-* As mudanças não afetam dados históricos de entregas já realizadas
+- Todas as modificações são registradas com data, hora e usuário responsável
+- É possível consultar o histórico de alterações para fins de auditoria
+- As mudanças não afetam dados históricos de entregas já realizadas
 
 ## Melhores Práticas
 
 Para uma gestão eficiente:
 
-* Atualize prontamente informações obsoletas ou incorretas
-* Mantenha os períodos de troca alinhados com recomendações do fabricante
-* Documente na descrição o motivo de alterações significativas
-* Revise regularmente a precisão das informações cadastradas
+- Atualize prontamente informações obsoletas ou incorretas
+- Mantenha os períodos de troca alinhados com recomendações do fabricante
+- Documente na descrição o motivo de alterações significativas
+- Revise regularmente a precisão das informações cadastradas
 
 ## Próximos Passos
 
 Após editar um item, você pode:
 
-* Verificar como o item aparece na [lista atualizada](listar-itens.md)
-* [Adicionar variantes](../variantes/configurar-tipos-variante.md) se necessário
-* Atualizar as [predefinições de período de troca](../lotes/gerenciar-validade.md)
-* Conferir se as alterações refletem corretamente nos [relatórios](../relatorios/estoque-atual.md)
-
-***
-
-_Última atualização: 18 de Maio de 2025_
+- Verificar como o item aparece na [lista atualizada](listar-itens.md)
+- [Adicionar variantes](../variantes/configurar-tipos-variante.md) se necessário
+- Atualizar as [predefinições de período de troca](../lotes/gerenciar-validade.md)
+- Conferir se as alterações refletem corretamente nos [relatórios](../relatorios/estoque-atual.md)

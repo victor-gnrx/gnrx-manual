@@ -14,11 +14,11 @@ A desativação de unidades é utilizada quando uma localidade física não est�
 
 As situações mais comuns para desativação incluem:
 
-* Fechamento definitivo da localidade
-* Fusão de duas ou mais unidades
-* Reorganização estrutural da empresa
-* Suspensão temporária das operações
-* Substituição por nova unidade
+- Fechamento definitivo da localidade
+- Fusão de duas ou mais unidades
+- Reorganização estrutural da empresa
+- Suspensão temporária das operações
+- Substituição por nova unidade
 
 ## Acessando a Função de Desativação
 
@@ -46,17 +46,17 @@ Quando uma unidade é desativada:
 
 ### O que acontece:
 
-* A unidade recebe o status "Inativo" na lista de unidades
-* Ela deixa de aparecer em listas de seleção para novas associações
-* Relatórios padrão filtram a unidade, a menos que explicitamente incluída
-* <mark style="background-color:green;">**O histórico completo permanece acessível para consulta**</mark>
+- A unidade recebe o status "Inativo" na lista de unidades
+- Ela deixa de aparecer em listas de seleção para novas associações
+- Relatórios padrão filtram a unidade, a menos que explicitamente incluída
+- <mark style="background-color:green;">**O histórico completo permanece acessível para consulta**</mark>
 
 ### O que NÃO acontece:
 
-* O registro da unidade não é excluído do banco de dados
-* Históricos de entregas de EPIs não são removidos
-* Vínculos existentes com colaboradores e setores são mantidos, mas marcados como inativos
-* Documentos e registros legais permanecem intactos
+- O registro da unidade não é excluído do banco de dados
+- Históricos de entregas de EPIs não são removidos
+- Vínculos existentes com colaboradores e setores são mantidos, mas marcados como inativos
+- Documentos e registros legais permanecem intactos
 
 ## Verificações Prévias à Desativação
 
@@ -75,19 +75,15 @@ Para reativar uma unidade previamente desativada entre em contato com o suporte.
 
 ## Considerações Importantes
 
-* A desativação é diferente da exclusão definitiva, que não é permitida para unidades com histórico
-* Relatórios históricos continuam mostrando a unidade para períodos em que estava ativa
-* Para fins de conformidade legal, o histórico de EPIs de unidades desativadas permanece acessível
-* Coordene com o departamento de TI antes de desativar unidades com grande volume de registros
+- A desativação é diferente da exclusão definitiva, que não é permitida para unidades com histórico
+- Relatórios históricos continuam mostrando a unidade para períodos em que estava ativa
+- Para fins de conformidade legal, o histórico de EPIs de unidades desativadas permanece acessível
+- Coordene com o departamento de TI antes de desativar unidades com grande volume de registros
 
 ## Alternativas à Desativação
 
 Em alguns casos, existem alternativas preferíveis à desativação:
 
-* **Renomeação**: Se apenas o nome mudou, edite a unidade em vez de desativá-la
-* **Relocalização**: Se a unidade mudou de endereço, atualize os dados cadastrais
-* **Reorganização**: Se houve fusão, considere manter uma das unidades e transferir os registros (Verificar com o departamento de TI para fazer a transferência)
-
-***
-
-_Última atualização: 16 de Maio de 2025_
+- **Renomeação**: Se apenas o nome mudou, edite a unidade em vez de desativá-la
+- **Relocalização**: Se a unidade mudou de endereço, atualize os dados cadastrais
+- **Reorganização**: Se houve fusão, considere manter uma das unidades e transferir os registros (Verificar com o departamento de TI para fazer a transferência)

@@ -26,13 +26,13 @@ Esta página explica como atualizar o valor de custo unitário de um lote já ca
 
 A funcionalidade de alteração de custo permite ajustar o valor unitário de todos os itens de um lote específico. Esta atualização afeta automaticamente:
 
-* **Itens unitários do lote**: Todos os itens com número de série deste lote
-* **Solicitações realizadas**: Solicitações que incluem itens deste lote
-* **Relatórios financeiros**: Inventário, custos por setor e dashboards
+- **Itens unitários do lote**: Todos os itens com número de série deste lote
+- **Solicitações realizadas**: Solicitações que incluem itens deste lote
+- **Relatórios financeiros**: Inventário, custos por setor e dashboards
 
 ### Quando Utilizar
 
-* Correção de valores cadastrados incorretamente
+- Correção de valores cadastrados incorretamente
 
 ### Como Alterar
 
@@ -49,14 +49,13 @@ A funcionalidade de alteração de custo permite ajustar o valor unitário de to
 
 O diálogo exibe:
 
-* **Custo Atual**: Valor atual cadastrado (apenas visualização)
-*   **Novo Custo**: Digite o novo valor
+- **Custo Atual**: Valor atual cadastrado (apenas visualização)
+- **Novo Custo**: Digite o novo valor
+  - Use vírgula para centavos (ex: 25,50)
+  - Campo obrigatório
+  - Use o botão "X" para limpar
 
-    * Use vírgula para centavos (ex: 25,50)
-    * Campo obrigatório
-    * Use o botão "X" para limpar
-
-    <figure><img src="../.gitbook/assets/image (75).png" alt="" width="382"><figcaption></figcaption></figure>
+  <figure><img src="../.gitbook/assets/image (75).png" alt="" width="382"><figcaption></figcaption></figure>
 
 #### 3. Confirmar
 
@@ -76,22 +75,18 @@ O diálogo exibe:
 
 ### Importantes
 
-* **Permissão necessária**: Gestor ou Administrador
+- **Permissão necessária**: Gestor ou Administrador
 
 ```rust
 epis:gerenciar:estoque
 ```
 
-* **Performance**: Lotes grandes podem levar alguns segundos para processar
+- **Performance**: Lotes grandes podem levar alguns segundos para processar
 
 ### Validações
 
 O sistema valida:
 
-* Valor deve ser maior que zero
-* Valor deve ser diferente do atual
-* Formato monetário válido
-
-***
-
-_Última atualização: 3 de Outubro de 2025_
+- Valor deve ser maior que zero
+- Valor deve ser diferente do atual
+- Formato monetário válido

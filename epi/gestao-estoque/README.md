@@ -36,40 +36,40 @@ Item (Tipo de EPI)
 
 Essa estrutura permite:
 
-* Rastrear cada unidade de EPI individualmente
-* Controlar a validade de forma precisa
-* Associar cada item a um colaborador específico
-* Gerenciar custos em diversos níveis
+- Rastrear cada unidade de EPI individualmente
+- Controlar a validade de forma precisa
+- Associar cada item a um colaborador específico
+- Gerenciar custos em diversos níveis
 
 ## Interface Principal
 
 A interface principal de Gestão de Estoque exibe:
 
-* **Total de itens cadastrados**: Quantidade de diferentes tipos de EPIs no sistema
-* **Lista de itens**: Com detalhes de CA, validade, fabricante e situação
-* **Filtros de pesquisa**: Para localização rápida de itens específicos
-* **Ferramentas de exportação**: Para geração de relatórios em PDF
+- **Total de itens cadastrados**: Quantidade de diferentes tipos de EPIs no sistema
+- **Lista de itens**: Com detalhes de CA, validade, fabricante e situação
+- **Filtros de pesquisa**: Para localização rápida de itens específicos
+- **Ferramentas de exportação**: Para geração de relatórios em PDF
 
 Cada item na lista apresenta informações importantes como:
 
-* ID e nome do item
-* Número do CA (quando aplicável)
-* Data de validade
-* Fabricante
-* Tempo de troca recomendado
-* Quantidade em estoque
-* Situação (Ativo/Inativo)
+- ID e nome do item
+- Número do CA (quando aplicável)
+- Data de validade
+- Fabricante
+- Tempo de troca recomendado
+- Quantidade em estoque
+- Situação (Ativo/Inativo)
 
 ## Benefícios da Gestão de Estoque
 
 Um gerenciamento eficiente do estoque de EPIs proporciona:
 
-* **Prevenção de desabastecimento**: Garantindo que todos os colaboradores tenham acesso aos EPIs necessários
-* **Controle de custos**: Monitorando gastos e identificando oportunidades de economia
-* **Conformidade legal**: Assegurando o fornecimento de EPIs com CA válido
-* **Rastreabilidade**: Permitindo acompanhar o histórico completo de cada item
-* **Gestão de validade**: Evitando o uso de equipamentos vencidos
-* **Otimização de recursos**: Melhorando a distribuição e utilização dos equipamentos
+- **Prevenção de desabastecimento**: Garantindo que todos os colaboradores tenham acesso aos EPIs necessários
+- **Controle de custos**: Monitorando gastos e identificando oportunidades de economia
+- **Conformidade legal**: Assegurando o fornecimento de EPIs com CA válido
+- **Rastreabilidade**: Permitindo acompanhar o histórico completo de cada item
+- **Gestão de validade**: Evitando o uso de equipamentos vencidos
+- **Otimização de recursos**: Melhorando a distribuição e utilização dos equipamentos
 
 ## Componentes do Módulo
 
@@ -84,14 +84,10 @@ O módulo de Gestão de Estoque é composto por:
 
 Para utilizar efetivamente o módulo de Gestão de Estoque, consulte os seguintes guias:
 
-* [Visão Geral de Itens](itens/) - Como funciona o cadastro de itens
-* [Listar Itens](itens/listar-itens.md) - Como visualizar e filtrar itens cadastrados
-* [Criar Item com CA](itens/criar-item-com-ca.md) - Como cadastrar EPIs com Certificado de Aprovação
-* [Criar Item sem CA](itens/criar-item-sem-ca.md) - Como cadastrar itens complementares
-* [Gerenciamento de Variantes](variantes/) - Como configurar tamanhos, cores e outras variações
-* [Controle de Lotes](lotes/) - Como gerenciar lotes de EPIs
-* [Relatórios de Estoque](relatorios/) - Como gerar análises e relatórios
-
-***
-
-_Última atualização: 18 de Maio de 2025_
+- [Visão Geral de Itens](itens/) - Como funciona o cadastro de itens
+- [Listar Itens](itens/listar-itens.md) - Como visualizar e filtrar itens cadastrados
+- [Criar Item com CA](itens/criar-item-com-ca.md) - Como cadastrar EPIs com Certificado de Aprovação
+- [Criar Item sem CA](itens/criar-item-sem-ca.md) - Como cadastrar itens complementares
+- [Gerenciamento de Variantes](variantes/) - Como configurar tamanhos, cores e outras variações
+- [Controle de Lotes](lotes/) - Como gerenciar lotes de EPIs
+- [Relatórios de Estoque](relatorios/) - Como gerar análises e relatórios

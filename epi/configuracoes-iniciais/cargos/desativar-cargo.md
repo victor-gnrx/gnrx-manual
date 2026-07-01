@@ -14,11 +14,11 @@ A desativação de cargos é utilizada quando uma função específica deixa de 
 
 As situações mais comuns para desativação incluem:
 
-* Extinção da função na estrutura organizacional
-* Reorganização de cargos e funções
-* Correção de duplicidade (múltiplos cargos para a mesma função)
-* Substituição por nova nomenclatura
-* Cargos criados erroneamente
+- Extinção da função na estrutura organizacional
+- Reorganização de cargos e funções
+- Correção de duplicidade (múltiplos cargos para a mesma função)
+- Substituição por nova nomenclatura
+- Cargos criados erroneamente
 
 ## Acessando a Função de Desativação
 
@@ -49,17 +49,17 @@ Quando um cargo é desativado:
 
 ### O que acontece:
 
-* O cargo recebe o status "Inativo" na lista de cargos
-* Ele deixa de aparecer em listas de seleção para novos colaboradores
-* Relatórios padrão filtram o cargo, a menos que explicitamente incluído
-* O histórico completo permanece acessível para consulta
+- O cargo recebe o status "Inativo" na lista de cargos
+- Ele deixa de aparecer em listas de seleção para novos colaboradores
+- Relatórios padrão filtram o cargo, a menos que explicitamente incluído
+- O histórico completo permanece acessível para consulta
 
 ### O que NÃO acontece:
 
-* O registro do cargo não é excluído do banco de dados
-* Históricos de entregas de EPIs associados ao cargo não são removidos
-* Colaboradores já vinculados ao cargo não são removidos automaticamente
-* Documentos e registros legais permanecem intactos
+- O registro do cargo não é excluído do banco de dados
+- Históricos de entregas de EPIs associados ao cargo não são removidos
+- Colaboradores já vinculados ao cargo não são removidos automaticamente
+- Documentos e registros legais permanecem intactos
 
 ## Verificações Prévias à Desativação
 
@@ -76,36 +76,32 @@ Para reativar um cargo previamente desativado entre contato com o suporte.
 
 ## Considerações Importantes
 
-* A desativação deve ser preferida à exclusão quando o cargo já possui histórico
-* Considere a reatribuição de colaboradores antes da desativação
-* Documente adequadamente o motivo da desativação para referência futura
-* Verifique o impacto em relatórios históricos antes de proceder
-* Consulte o setor de RH antes de desativar cargos com muitos colaboradores associados
+- A desativação deve ser preferida à exclusão quando o cargo já possui histórico
+- Considere a reatribuição de colaboradores antes da desativação
+- Documente adequadamente o motivo da desativação para referência futura
+- Verifique o impacto em relatórios históricos antes de proceder
+- Consulte o setor de RH antes de desativar cargos com muitos colaboradores associados
 
 ## Alternativas à Desativação
 
 Em alguns casos, existem alternativas preferíveis à desativação:
 
-* **Renomeação**: Se apenas o nome mudou, edite o cargo em vez de desativá-lo
-* **Reorganização**: Se houve fusão de funções, considere manter um dos cargos e transferir os colaboradores
-* **Atualização de Descrição**: Se a função mudou ligeiramente, considere apenas documentar as novas responsabilidades
+- **Renomeação**: Se apenas o nome mudou, edite o cargo em vez de desativá-lo
+- **Reorganização**: Se houve fusão de funções, considere manter um dos cargos e transferir os colaboradores
+- **Atualização de Descrição**: Se a função mudou ligeiramente, considere apenas documentar as novas responsabilidades
 
 ## Impacto em Relatórios
 
 A desativação de cargos pode afetar a análise de dados históricos:
 
-* Relatórios que incluem períodos anteriores à desativação ainda mostrarão o cargo
-* Análises comparativas entre períodos podem precisar considerar a desativação
-* Estatísticas de uso de EPIs por cargo continuarão incluindo o histórico do cargo desativado
+- Relatórios que incluem períodos anteriores à desativação ainda mostrarão o cargo
+- Análises comparativas entre períodos podem precisar considerar a desativação
+- Estatísticas de uso de EPIs por cargo continuarão incluindo o histórico do cargo desativado
 
 ## Melhores Práticas
 
-* Planeje a desativação de cargos como parte de uma revisão estruturada da organização
-* Comunique mudanças aos colaboradores afetados
-* Atualize documentação relacionada (organogramas, descrições de cargo)
-* Mantenha um registro das razões para desativação para referência futura
-* Coordene a desativação com outros departamentos, como RH e Segurança do Trabalho
-
-***
-
-_Última atualização: 16 de Maio de 2025_
+- Planeje a desativação de cargos como parte de uma revisão estruturada da organização
+- Comunique mudanças aos colaboradores afetados
+- Atualize documentação relacionada (organogramas, descrições de cargo)
+- Mantenha um registro das razões para desativação para referência futura
+- Coordene a desativação com outros departamentos, como RH e Segurança do Trabalho

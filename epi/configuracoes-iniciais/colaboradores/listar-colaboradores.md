@@ -24,24 +24,24 @@ A tela de listagem de colaboradores apresenta uma visão consolidada de todos os
 ### Elementos da Interface
 
 1. **Cabeçalho**:
-   * **Total de colaboradores**: Contador do número total de colaboradores
-   * **Total de colaboradores ativos**: Contador de colaboradores com status ativo
-   * **Botão "Novo colaborador"**: Para adicionar um novo colaborador ao sistema
-   * **Botão "Importar"**: Para importar múltiplos colaboradores de uma planilha
+   - **Total de colaboradores**: Contador do número total de colaboradores
+   - **Total de colaboradores ativos**: Contador de colaboradores com status ativo
+   - **Botão "Novo colaborador"**: Para adicionar um novo colaborador ao sistema
+   - **Botão "Importar"**: Para importar múltiplos colaboradores de uma planilha
 2. **Barra de Pesquisa**:
-   * Campo para busca de colaboradores por nome, CPF, e-mail ou matrícula
-   * Botão "Pesquisar" para iniciar a busca
+   - Campo para busca de colaboradores por nome, CPF, e-mail ou matrícula
+   - Botão "Pesquisar" para iniciar a busca
 3. **Tabela de Colaboradores**:
-   * **Nome**: Nome completo
-   * CPF:&#x20;
-   * **Email**: Endereço de e-mail para contato
-   * **Telefone**: Número de telefone com DDD
-   * **Adicionado em**: Data de criação do registro
-   * **Situação**: Estado atual (Ativo/Inativo)
-   * **Opções**: Botões de ação (visualizar, editar, excluir)
+   - **Nome**: Nome completo
+   - CPF:&#x20;
+   - **Email**: Endereço de e-mail para contato
+   - **Telefone**: Número de telefone com DDD
+   - **Adicionado em**: Data de criação do registro
+   - **Situação**: Estado atual (Ativo/Inativo)
+   - **Opções**: Botões de ação (visualizar, editar, excluir)
 4. **Controles de Paginação**:
-   * Navegação entre páginas de resultados
-   * Seletor de quantidade de itens por página
+   - Navegação entre páginas de resultados
+   - Seletor de quantidade de itens por página
 
 ## Funcionalidades Disponíveis
 
@@ -61,9 +61,9 @@ Para cada colaborador na lista, você pode executar as seguintes ações atravé
 
 ![Botões de Ação](<../../.gitbook/assets/image (7) (1) (1).png>)
 
-* **Visualizar** (ícone de olho): Abre a tela de detalhes do colaborador
-* **Editar** (ícone de lápis): Abre o formulário para edição dos dados
-* **Excluir/Desativar** (ícone de lixeira): Inicia o processo de desativação do colaborador
+- **Visualizar** (ícone de olho): Abre a tela de detalhes do colaborador
+- **Editar** (ícone de lápis): Abre o formulário para edição dos dados
+- **Excluir/Desativar** (ícone de lixeira): Inicia o processo de desativação do colaborador
 
 ### Exportação da Lista
 
@@ -79,11 +79,11 @@ Para visualizar informações detalhadas de um colaborador específico:
 
 1. Clique no nome do colaborador na lista ou no ícone de visualização (olho)
 2. O sistema abrirá a tela de detalhes do colaborador, com abas para:
-   * **Visão Geral**: Informações básicas e vinculações
-   * **EPIs**: Equipamentos associados ao colaborador
-   * **Solicitações de EPI**: Histórico de entregas e solicitações
-   * **Notif. App:** Notificações enviadas para o App GNRx - Colaborador
-   * **Histórico WhatsApp**: Registro de comunicações (se habilitado)
+   - **Visão Geral**: Informações básicas e vinculações
+   - **EPIs**: Equipamentos associados ao colaborador
+   - **Solicitações de EPI**: Histórico de entregas e solicitações
+   - **Notif. App:** Notificações enviadas para o App GNRx - Colaborador
+   - **Histórico WhatsApp**: Registro de comunicações (se habilitado)
 
 ![Navegação para Detalhes](<../../.gitbook/assets/image (69).png>)
 
@@ -91,8 +91,8 @@ Para visualizar informações detalhadas de um colaborador específico:
 
 Os colaboradores na lista são apresentados com indicadores visuais de situação:
 
-* **Ativo**: Exibido em verde, indica colaborador em atividade normal
-* **Inativo**: Exibido em vermelho, indica colaborador temporariamente desativado
+- **Ativo**: Exibido em verde, indica colaborador em atividade normal
+- **Inativo**: Exibido em vermelho, indica colaborador temporariamente desativado
 
 ## Navegação Entre Páginas
 
@@ -113,12 +113,8 @@ Para cadastrar um novo colaborador diretamente da lista:
 
 Após visualizar a lista de colaboradores, você pode:
 
-* [Criar um novo colaborador](criar-colaborador.md)
-* [Editar um colaborador existente](broken-reference)
-* [Desativar um colaborador](desativar-colaborador.md)
-* [Vincular um colaborador a unidades](vincular-unidades.md)
-* [Associar um colaborador a GHEs](vincular-ghe.md) para determinar seus EPIs
-
-***
-
-_Última atualização: 16 de Maio de 2025_
+- [Criar um novo colaborador](criar-colaborador.md)
+- [Editar um colaborador existente](broken-reference)
+- [Desativar um colaborador](desativar-colaborador.md)
+- [Vincular um colaborador a unidades](vincular-unidades.md)
+- [Associar um colaborador a GHEs](vincular-ghe.md) para determinar seus EPIs

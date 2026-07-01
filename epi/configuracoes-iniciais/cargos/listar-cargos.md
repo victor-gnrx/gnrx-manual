@@ -24,23 +24,19 @@ A tela de listagem de GHEs apresenta uma visão consolidada de todos os grupos c
 ### Elementos da Interface
 
 1. **Cabeçalho**:
-   * **Total de Cargos**: Contador do número de cargos
-   * **Cargos Ativos:** Contador de Cargos Ativos
-   * **Cargos Inativos:** Contador de Cargos inativados
-   * **Colaboradores Totais:** Total de relacionamento com colaboradores
-   * Colaboradores Ativos: Total de relacionamento com colaboradores ativos
-   * **Botão "Novo Cargo"**: Para adicionar um novo cargo ao sistema
+   - **Total de Cargos**: Contador do número de cargos
+   - **Cargos Ativos:** Contador de Cargos Ativos
+   - **Cargos Inativos:** Contador de Cargos inativados
+   - **Colaboradores Totais:** Total de relacionamento com colaboradores
+   - Colaboradores Ativos: Total de relacionamento com colaboradores ativos
+   - **Botão "Novo Cargo"**: Para adicionar um novo cargo ao sistema
 2. **Barra de Pesquisa**:
-   * Campo para busca de Cargo por nome
-   * Botão "Pesquisar" para iniciar a busca
+   - Campo para busca de Cargo por nome
+   - Botão "Pesquisar" para iniciar a busca
 3. **Tabela de Cargos**:
-   * **Nome**: Nome do cargo
-   * Colaboradres: Quabntidade de Colaboradores no cargo
-   * Ultimo Colaborador: ultimo colaborador atribuido ao cargo
-   * Distribuição: Setorer e unidades que possuem o cargo
-   * **Situação**: Estado atual (Ativo/Inativo)
-   * **Opções**: Botões de ação (visualizar, editar, excluir)
-
-***
-
-_Última atualização: 16 de Maio de 2025_
+   - **Nome**: Nome do cargo
+   - Colaboradres: Quabntidade de Colaboradores no cargo
+   - Ultimo Colaborador: ultimo colaborador atribuido ao cargo
+   - Distribuição: Setorer e unidades que possuem o cargo
+   - **Situação**: Estado atual (Ativo/Inativo)
+   - **Opções**: Botões de ação (visualizar, editar, excluir)

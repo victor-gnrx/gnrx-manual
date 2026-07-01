@@ -14,11 +14,11 @@ A vinculação de riscos é uma etapa fundamental na configuração de um GHE, p
 
 A correta associação entre GHEs e riscos ocupacionais:
 
-* Define com precisão os perigos a que os colaboradores estão expostos
-* Determina automaticamente os EPIs necessários para proteção
-* Garante conformidade com requisitos legais e normativos
-* Fornece documentação rastreável para auditorias e fiscalizações
-* Permite análises estatísticas sobre exposições na empresa
+- Define com precisão os perigos a que os colaboradores estão expostos
+- Determina automaticamente os EPIs necessários para proteção
+- Garante conformidade com requisitos legais e normativos
+- Fornece documentação rastreável para auditorias e fiscalizações
+- Permite análises estatísticas sobre exposições na empresa
 
 ## Acessando a Tela de Vinculação
 
@@ -45,9 +45,9 @@ A tela de vinculação de riscos apresenta uma interface completa para seleção
 3. **Opção "Mostrar Apenas Selecionados"**: Para visualizar apenas os riscos já vinculados
 4. **Lista de Riscos**: Exibe todos os riscos disponíveis com caixas de seleção
 5. **Informações Detalhadas**: Cada risco exibe:
-   * Nome do risco
-   * Descrição detalhada
-   * Categoria a que pertence
+   - Nome do risco
+   - Descrição detalhada
+   - Categoria a que pertence
 
 ## Processo de Vinculação
 
@@ -87,19 +87,19 @@ O sistema organiza os riscos ocupacionais nas seguintes categorias:
 
 ## Considerações Importantes
 
-* A vinculação de riscos deve ser baseada em avaliações técnicas documentadas
-* Os riscos selecionados devem refletir as condições reais de trabalho do grupo
-* Evite tanto a subidentificação quanto a superidentificação de riscos
-* Atualize as vinculações sempre que houver mudanças nos processos ou atividades
-* Consulte profissionais de SST para garantir a precisão técnica das associações
+- A vinculação de riscos deve ser baseada em avaliações técnicas documentadas
+- Os riscos selecionados devem refletir as condições reais de trabalho do grupo
+- Evite tanto a subidentificação quanto a superidentificação de riscos
+- Atualize as vinculações sempre que houver mudanças nos processos ou atividades
+- Consulte profissionais de SST para garantir a precisão técnica das associações
 
 ## Melhores Práticas
 
-* **Baseie-se em Documentos Técnicos**: Utilize o PGR/PPRA como referência principal
-* **Seja Específico**: Selecione apenas os riscos realmente presentes, evitando generalizações
-* **Revise Periodicamente**: Atualize os riscos conforme mudanças nos processos ou ambientes
-* **Documente Justificativas**: Mantenha registro dos critérios utilizados para selecionar cada risco
-* **Abordagem Multidisciplinar**: Envolva diferentes especialistas na identificação de riscos
+- **Baseie-se em Documentos Técnicos**: Utilize o PGR/PPRA como referência principal
+- **Seja Específico**: Selecione apenas os riscos realmente presentes, evitando generalizações
+- **Revise Periodicamente**: Atualize os riscos conforme mudanças nos processos ou ambientes
+- **Documente Justificativas**: Mantenha registro dos critérios utilizados para selecionar cada risco
+- **Abordagem Multidisciplinar**: Envolva diferentes especialistas na identificação de riscos
 
 ## Próximos Passos
 
@@ -117,7 +117,3 @@ Após vincular os riscos ao GHE:
 | Seleção excessiva de riscos       | Analise criteriosamente cada risco e selecione apenas os relevantes para o grupo específico                                              |
 | Não encontrar um risco específico | Utilize a barra de pesquisa ou verifique se é necessário [adicionar um novo risco](../../configuracoes-gerais/riscos/adicionar-risco.md) |
 | Perda de vinculações após edição  | Sempre clique em "Editar" após fazer alterações para garantir que sejam salvas                                                           |
-
-***
-
-_Última atualização: 16 de Maio de 2025_

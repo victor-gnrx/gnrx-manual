@@ -14,11 +14,11 @@ O módulo de assinatura permite coletar e registrar formalmente o aceite do cola
 
 O processo de assinatura é essencial para:
 
-* **Conformidade legal**: Atender aos requisitos da NR-6 quanto à documentação de entrega de EPIs
-* **Responsabilidade**: Estabelecer formalmente a responsabilidade do colaborador pelos equipamentos
-* **Evidência documentada**: Criar registros auditáveis das entregas realizadas
-* **Segurança jurídica**: Proteger a empresa em casos de uso inadequado ou negligência
-* **Conscientização**: Reforçar ao colaborador a importância dos EPIs e suas responsabilidades
+- **Conformidade legal**: Atender aos requisitos da NR-6 quanto à documentação de entrega de EPIs
+- **Responsabilidade**: Estabelecer formalmente a responsabilidade do colaborador pelos equipamentos
+- **Evidência documentada**: Criar registros auditáveis das entregas realizadas
+- **Segurança jurídica**: Proteger a empresa em casos de uso inadequado ou negligência
+- **Conscientização**: Reforçar ao colaborador a importância dos EPIs e suas responsabilidades
 
 ## Modalidades de Assinatura
 
@@ -42,19 +42,15 @@ O processo de assinatura ocorre após a confirmação da entrega física dos EPI
 
 O sistema GNRX implementa diversas medidas para garantir a validade legal e a segurança do processo:
 
-* **Criptografia**: Dados sensíveis são criptografados para proteção contra adulterações
-* **Carimbo de tempo**: Registro da data e hora exatas de cada assinatura
-* **Rastreabilidade**: Logs detalhados de todo o processo, incluindo quem conduziu a entrega
-* **Backup automático**: Cópias de segurança regulares de todos os termos assinados
-* **Conformidade com LGPD**: Tratamento adequado dos dados biométricos conforme a legislação
+- **Criptografia**: Dados sensíveis são criptografados para proteção contra adulterações
+- **Carimbo de tempo**: Registro da data e hora exatas de cada assinatura
+- **Rastreabilidade**: Logs detalhados de todo o processo, incluindo quem conduziu a entrega
+- **Backup automático**: Cópias de segurança regulares de todos os termos assinados
+- **Conformidade com LGPD**: Tratamento adequado dos dados biométricos conforme a legislação
 
 ## Próximos Passos
 
 Para utilizar efetivamente o módulo de assinatura, consulte os seguintes guias detalhados:
 
-* [Assinatura Digital](assinatura-digital.md) - Como coletar a assinatura manual na tela
-* [Assinatura por Reconhecimento Facial](assinatura-reconhecimento-facial.md) - Como utilizar a autenticação biométrica
-
-***
-
-_Última atualização: 18 de Maio de 2025_
+- [Assinatura Digital](assinatura-digital.md) - Como coletar a assinatura manual na tela
+- [Assinatura por Reconhecimento Facial](assinatura-reconhecimento-facial.md) - Como utilizar a autenticação biométrica

@@ -24,21 +24,21 @@ A tela de listagem de setores apresenta uma visão consolidada de todos os setor
 ### Elementos da Interface
 
 1. **Cabeçalho**:
-   * **Total de setores**: Contador do número de setores
-   * **Setores Ativos:** Contador do número de setores ativos
-   * **Setores Inativos:** Contador do número de setores inativos
-   * **Total de Colaboradores:** Contador do número Total de associações de colaboradores com unidades
-   * **Unidades Associados**: Individualmente, cada associação conta como uma unidade
-   * **Média:** Média de colaboradores por setor
-   * **Botão "Novo Setor"**: Para adicionar um novo setor ao sistema
+   - **Total de setores**: Contador do número de setores
+   - **Setores Ativos:** Contador do número de setores ativos
+   - **Setores Inativos:** Contador do número de setores inativos
+   - **Total de Colaboradores:** Contador do número Total de associações de colaboradores com unidades
+   - **Unidades Associados**: Individualmente, cada associação conta como uma unidade
+   - **Média:** Média de colaboradores por setor
+   - **Botão "Novo Setor"**: Para adicionar um novo setor ao sistema
 2. **Barra de Pesquisa**:
-   * Campo para busca de setores por nome
-   * Botão "Pesquisar" para iniciar a busca
+   - Campo para busca de setores por nome
+   - Botão "Pesquisar" para iniciar a busca
 3. **Tabela de Setores**:
-   * **Nome**: Nome do setor
-   * **Descrição**: Informações adicionais sobre o setor
-   * **Situação**: Estado atual (Ativo/Inativo)
-   * **Opções**: Botões de ação (visualizar, editar, excluir)
+   - **Nome**: Nome do setor
+   - **Descrição**: Informações adicionais sobre o setor
+   - **Situação**: Estado atual (Ativo/Inativo)
+   - **Opções**: Botões de ação (visualizar, editar, excluir)
 
 ## Funcionalidades Disponíveis
 
@@ -58,9 +58,9 @@ Para cada setor na lista, você pode executar as seguintes ações através dos 
 
 ![Botões de Ação](<../../.gitbook/assets/image (7) (1) (1).png>)
 
-* **Visualizar** (ícone de olho): Abre a tela de detalhes do setor
-* **Editar** (ícone de lápis): Abre o formulário para edição dos dados
-* **Excluir/Desativar** (ícone de lixeira): Inicia o processo de desativação do setor
+- **Visualizar** (ícone de olho): Abre a tela de detalhes do setor
+- **Editar** (ícone de lápis): Abre o formulário para edição dos dados
+- **Excluir/Desativar** (ícone de lixeira): Inicia o processo de desativação do setor
 
 ## Ordenação da Lista
 
@@ -74,8 +74,8 @@ A lista de setores pode ser ordenada por qualquer uma das colunas:
 
 Os setores na lista são apresentados com indicadores visuais de situação:
 
-* **Ativo**: Exibido em verde, indica setor em operação normal
-* **Inativo**: Exibido em vermelho, indica setor temporariamente desativado
+- **Ativo**: Exibido em verde, indica setor em operação normal
+- **Inativo**: Exibido em vermelho, indica setor temporariamente desativado
 
 > **Nota:** Setores inativos não aparecem em listas de seleção em outros módulos do sistema, mas mantêm seu histórico preservado.
 
@@ -99,11 +99,7 @@ Para visualizar setores inativos junto com os ativos:
 
 Após visualizar a lista de setores, você pode:
 
-* [Criar um novo setor](criar-setor.md)
-* [Editar um setor existente](editar-setor.md)
-* [Desativar um setor](desativar-setor.md)
-* [Vincular unidades a um setor](vincular-unidades.md)
-
-***
-
-_Última atualização: 16 de Maio de 2025_
+- [Criar um novo setor](criar-setor.md)
+- [Editar um setor existente](editar-setor.md)
+- [Desativar um setor](desativar-setor.md)
+- [Vincular unidades a um setor](vincular-unidades.md)

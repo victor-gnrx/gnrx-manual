@@ -15,12 +15,12 @@ Bem-vindo ao Manual do Sistema GNRx Gestão de EPI. Esta documentação foi dese
 
 O Sistema GNRx - Gestão de EPI é uma plataforma completa para gerenciamento do ciclo de vida de Equipamentos de Proteção Individual, desenvolvida para atender às necessidades de organizações de todos os portes e segmentos. Utilizando tecnologias modernas, incluindo reconhecimento facial para assinatura digital, o sistema permite:
 
-* Controle total do estoque de EPIs
-* Rastreabilidade de entregas e devoluções
-* Gestão de validade e vida útil dos equipamentos
-* Vinculação precisa entre riscos ocupacionais e proteções necessárias
-* Documentação digital em conformidade com as exigências legais
-* Relatórios detalhados para tomada de decisão
+- Controle total do estoque de EPIs
+- Rastreabilidade de entregas e devoluções
+- Gestão de validade e vida útil dos equipamentos
+- Vinculação precisa entre riscos ocupacionais e proteções necessárias
+- Documentação digital em conformidade com as exigências legais
+- Relatórios detalhados para tomada de decisão
 
 ## Estrutura do Manual
 
@@ -37,10 +37,10 @@ Este manual está organizado em seções temáticas que seguem o fluxo natural d
 
 Cada página deste manual foi elaborada para ser autocontida, fornecendo todas as informações necessárias para executar uma tarefa específica. As páginas incluem:
 
-* Instruções passo a passo com capturas de tela
-* Dicas e melhores práticas
-* Soluções para problemas comuns
-* Referências a tópicos relacionados
+- Instruções passo a passo com capturas de tela
+- Dicas e melhores práticas
+- Soluções para problemas comuns
+- Referências a tópicos relacionados
 
 Para iniciantes, recomendamos seguir a ordem natural das seções, começando pelas Configurações Iniciais. Usuários mais experientes podem navegar diretamente para as funcionalidades específicas utilizando o sumário ou a busca.
 
@@ -50,31 +50,29 @@ O Sistema GNRx - Gestão de EPI é uma aplicação web e pode ser acessado a par
 
 Para uma experiência ideal:
 
-* Conexão de internet estável
-* Navegador atualizado
-* Câmera para uso do reconhecimento facial (opcional)
+- Conexão de internet estável
+- Navegador atualizado
+- Câmera para uso do reconhecimento facial (opcional)
 
 ## Contato e Suporte
 
 Se você encontrar alguma dificuldade que não esteja coberta neste manual ou tiver sugestões para melhorias:
 
-* Entre em contato com nossa equipe de suporte pelo e-mail: contato@nrxgestao.com.br
+- Entre em contato com nossa equipe de suporte pelo e-mail: contato@nrxgestao.com.br
 
 ## Convenções Utilizadas
 
 Ao longo deste manual, utilizamos as seguintes convenções:
 
-* **Negrito**: Para identificar elementos da interface, como botões e campos
-* _Itálico_: Para enfatizar conceitos importantes
-* `Código`: Para comandos ou valores específicos
-* > Blocos de destaque: Para notas, dicas ou advertências importantes
+- **Negrito**: Para identificar elementos da interface, como botões e campos
+- _Itálico_: Para enfatizar conceitos importantes
+- `Código`: Para comandos ou valores específicos
+- > Blocos de destaque: Para notas, dicas ou advertências importantes
 
-***
+---
 
 **Próximos passos recomendados:**
 
-* Familiarize-se com o [Painel de Controle](painel.md)
-* Configure os [cadastros iniciais](../configuracoes-iniciais/) do sistema
-* Consulte as [perguntas frequentes](faq.md) para esclarecer dúvidas comuns
-
-_Última atualização: 16 de Maio de 2025_
+- Familiarize-se com o [Painel de Controle](painel.md)
+- Configure os [cadastros iniciais](../configuracoes-iniciais/) do sistema
+- Consulte as [perguntas frequentes](faq.md) para esclarecer dúvidas comuns

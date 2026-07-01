@@ -29,9 +29,9 @@ Se o ícone de desativação não estiver disponível, isto indica que o risco f
 
 Ao clicar no ícone de desativação, um modal de confirmação será exibido:
 
-* **Mensagem**: "Tem certeza que deseja inativar este risco?"
-* **Botão "Cancelar"**: Fecha o modal sem realizar qualquer alteração
-* **Botão "Inativar"**: Confirma a desativação do risco selecionado
+- **Mensagem**: "Tem certeza que deseja inativar este risco?"
+- **Botão "Cancelar"**: Fecha o modal sem realizar qualquer alteração
+- **Botão "Inativar"**: Confirma a desativação do risco selecionado
 
 Este modal é uma medida de segurança para evitar desativações acidentais.
 
@@ -41,9 +41,9 @@ Este modal é uma medida de segurança para evitar desativações acidentais.
 
 Antes de desativar um risco, é recomendável verificar:
 
-* Se o risco está associado a algum GHE ativo
-* Se existem EPIs vinculados especificamente a este risco
-* Se há documentações recentes que referenciam este risco
+- Se o risco está associado a algum GHE ativo
+- Se existem EPIs vinculados especificamente a este risco
+- Se há documentações recentes que referenciam este risco
 
 ### 2. Iniciar o Processo de Desativação
 
@@ -60,17 +60,17 @@ Antes de desativar um risco, é recomendável verificar:
 
 Ao desativar um risco ocupacional, ocorrem as seguintes consequências:
 
-* **Visibilidade**: O risco deixa de aparecer na lista padrão de riscos ativos
-* **Seleção**: O risco não pode mais ser selecionado para novos GHEs ou documentações
-* **Associações existentes**: GHEs que já utilizavam o risco manterão a associação histórica
-* **Relatórios**: O risco continuará aparecendo em relatórios históricos anteriores à desativação
+- **Visibilidade**: O risco deixa de aparecer na lista padrão de riscos ativos
+- **Seleção**: O risco não pode mais ser selecionado para novos GHEs ou documentações
+- **Associações existentes**: GHEs que já utilizavam o risco manterão a associação histórica
+- **Relatórios**: O risco continuará aparecendo em relatórios históricos anteriores à desativação
 
 ## Diferença entre Desativar e Excluir
 
 É importante entender que desativar um risco não é o mesmo que excluí-lo permanentemente:
 
-* **Desativação**: O risco é marcado como inativo, mas permanece no banco de dados
-* **Exclusão**: Remoção completa do registro (não disponível no GNRX para preservar o histórico)
+- **Desativação**: O risco é marcado como inativo, mas permanece no banco de dados
+- **Exclusão**: Remoção completa do registro (não disponível no GNRX para preservar o histórico)
 
 A desativação é preferível à exclusão pois preserva a integridade dos registros históricos e a rastreabilidade das informações.
 
@@ -88,17 +88,13 @@ A funcionalidade de reativação não está disponível diretamente na interface
 
 Para gerenciar a desativação de riscos de forma eficaz:
 
-* **Documentação**: Registre internamente os motivos da desativação
-* **Comunicação**: Informe a equipe de saúde e segurança sobre riscos desativados
-* **Avaliação prévia**: Analise cuidadosamente o impacto da desativação antes de executá-la
-* **Uso criterioso**: Desative apenas riscos que realmente não são mais aplicáveis
+- **Documentação**: Registre internamente os motivos da desativação
+- **Comunicação**: Informe a equipe de saúde e segurança sobre riscos desativados
+- **Avaliação prévia**: Analise cuidadosamente o impacto da desativação antes de executá-la
+- **Uso criterioso**: Desative apenas riscos que realmente não são mais aplicáveis
 
 ## Considerações Finais
 
-* A desativação de riscos deve ser uma operação realizada com cautela e planejamento
-* Prefira editar um risco em vez de desativá-lo quando apenas ajustes forem necessários
-* Mantenha um registro interno das decisões de desativação para referência futura
-
-***
-
-_Última atualização: 18 de Maio de 2025_
+- A desativação de riscos deve ser uma operação realizada com cautela e planejamento
+- Prefira editar um risco em vez de desativá-lo quando apenas ajustes forem necessários
+- Mantenha um registro interno das decisões de desativação para referência futura

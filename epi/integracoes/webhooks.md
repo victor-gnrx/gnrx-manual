@@ -317,7 +317,3 @@ Disparado quando um lote de estoque é criado (por lote manual ou por importaç�
 **Idempotência.** Em casos de falha de rede, o mesmo evento pode ser entregue mais de uma vez. Projete seu handler para processar duplicatas com segurança (ex: verificar se `solicitacao_id` já foi processado antes de agir).
 
 **HTTPS obrigatório em produção.** URLs `http://` são aceitas para testes locais, mas use HTTPS em produção para garantir confidencialidade durante o transporte (a assinatura HMAC garante integridade, não confidencialidade).
-
----
-
-_Última atualização: 1 de julho de 2026_

@@ -12,8 +12,6 @@ A edição de GHEs permite atualizar informações cadastrais, descrições e, m
 
 ## Acessando a Tela de Edição
 
-
-
 1. No menu superior, clique em **Estruturas**
 2. Selecione **GHEs**
 3. Na lista de GHEs, localize o grupo desejado
@@ -42,44 +40,38 @@ A tela de edição apresenta o formulário preenchido com os dados atuais do GHE
 3. Clique no botão **Salvar** para confirmar as modificações
 4. O sistema exibirá uma mensagem de confirmação após a atualização bem-sucedido
 
-
-
 ## Impacto das Alterações
 
 A edição de um GHE pode ter os seguintes impactos no sistema:
 
 ### Alterações de Dados Básicos
 
-* Modificações no nome afetam relatórios e buscas
-* Atualizações na descrição melhoram a documentação interna
+- Modificações no nome afetam relatórios e buscas
+- Atualizações na descrição melhoram a documentação interna
 
 ## Melhores Práticas
 
 Para uma edição eficiente de GHEs:
 
-* Documente o motivo das alterações significativas
-* Realize modificações apenas com base em avaliações técnicas atualizadas
-* Comunique mudanças relevantes aos responsáveis por segurança do trabalho
-* Mantenha alinhamento com documentos oficiais (PGR/PPRA, PCMSO)
-* Revise os EPIs associados sempre que alterar os riscos
-* Verifique o impacto das alterações nos colaboradores vinculados ao GHE
+- Documente o motivo das alterações significativas
+- Realize modificações apenas com base em avaliações técnicas atualizadas
+- Comunique mudanças relevantes aos responsáveis por segurança do trabalho
+- Mantenha alinhamento com documentos oficiais (PGR/PPRA, PCMSO)
+- Revise os EPIs associados sempre que alterar os riscos
+- Verifique o impacto das alterações nos colaboradores vinculados ao GHE
 
 ## Limitações e Restrições
 
 Algumas limitações se aplicam à edição de GHEs:
 
-* Não é possível alterar a unidade vinculada ao GHE
-* Se o GHE possui colaboradores associados, alterações nos riscos e EPIs devem ser cautelosas, principalmente remoção.
-* Riscos eliminados que já possuem histórico de proteção não são removidos dos registros anteriores
+- Não é possível alterar a unidade vinculada ao GHE
+- Se o GHE possui colaboradores associados, alterações nos riscos e EPIs devem ser cautelosas, principalmente remoção.
+- Riscos eliminados que já possuem histórico de proteção não são removidos dos registros anteriores
 
 ## Próximos Passos
 
 Após editar um GHE, considere:
 
-* Verificar a lista de [colaboradores vinculados](../colaboradores/) para garantir a correta proteção
-* Revisar [solicitações pendentes](../../solicitacoes/) que possam ser afetadas pelas alterações
-* Atualizar documentação relacionada para manter a consistência das informações
-
-***
-
-_Última atualização: 16 de Maio de 2025_
+- Verificar a lista de [colaboradores vinculados](../colaboradores/) para garantir a correta proteção
+- Revisar [solicitações pendentes](../../solicitacoes/) que possam ser afetadas pelas alterações
+- Atualizar documentação relacionada para manter a consistência das informações

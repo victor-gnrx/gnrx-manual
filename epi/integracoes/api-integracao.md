@@ -35,12 +35,12 @@ X-Gnrx-Api-Key: gnrx_sua_chave_aqui
 
 A chave é gerada e gerenciada no painel GNRx em **Configurações → Integrações → API**. Cada chave tem:
 
-| Propriedade | Descrição |
-|---|---|
-| `empresa_id` | Empresa à qual a chave pertence — toda operação é escopada a essa empresa. |
-| Módulos habilitados | Flags booleanas por domínio: `modulo_epi`, `modulo_auditoria`, `modulo_formulario`, `modulo_habilitacao`, `modulo_treinamento`. A maioria dos endpoints deste guia exige `modulo_epi = true`; se desabilitado, a API retorna **403 Forbidden**. |
-| `locais_trabalho_ids` | `null`/ausente = acesso **global** a todas as unidades da empresa. Uma lista de IDs = a chave só enxerga (e só pode escrever em) essas unidades específicas — ver [Restrição por unidade de trabalho](#restrição-por-unidade-de-trabalho). |
-| Limite de requisições | Requisições por minuto permitidas para essa chave — ver [Rate limiting](#rate-limiting). |
+| Propriedade           | Descrição                                                                                                                                                                                                                                       |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `empresa_id`          | Empresa à qual a chave pertence — toda operação é escopada a essa empresa.                                                                                                                                                                      |
+| Módulos habilitados   | Flags booleanas por domínio: `modulo_epi`, `modulo_auditoria`, `modulo_formulario`, `modulo_habilitacao`, `modulo_treinamento`. A maioria dos endpoints deste guia exige `modulo_epi = true`; se desabilitado, a API retorna **403 Forbidden**. |
+| `locais_trabalho_ids` | `null`/ausente = acesso **global** a todas as unidades da empresa. Uma lista de IDs = a chave só enxerga (e só pode escrever em) essas unidades específicas — ver [Restrição por unidade de trabalho](#restrição-por-unidade-de-trabalho).      |
+| Limite de requisições | Requisições por minuto permitidas para essa chave — ver [Rate limiting](#rate-limiting).                                                                                                                                                        |
 
 Use o endpoint [`GET /ping`](#autenticação-ping) para validar se sua chave está funcionando antes de integrar o restante do fluxo.
 
@@ -49,7 +49,7 @@ Use o endpoint [`GET /ping`](#autenticação-ping) para validar se sua chave est
 ### Base URL e versionamento
 
 ```
-https://<seu-dominio-gnrx>/integracao/v1/
+https://api.gnrx.com.br/integracao/v1/
 ```
 
 A API está na versão `v1`. Mudanças que quebrem compatibilidade serão lançadas em uma nova versão de path (`v2`, etc.) — `v1` não muda de forma incompatível e, por ser uma API aberta, nenhuma versão publicada é desativada. Há também um ambiente de sandbox espelhado em `/integracao/sandbox/v1/`, com API Key de teste dedicada, para validar integrações antes de ir a produção.
@@ -80,10 +80,10 @@ Toda resposta de sucesso (exceto `204 No Content`) vem embrulhada neste formato:
 
 Endpoints de alto volume (estoque, solicitações) aceitam paginação via query string:
 
-| Parâmetro | Tipo | Padrão | Máximo | Descrição |
-|---|---|---|---|---|
-| `limit` | integer | 50 | 200 | Quantidade máxima de registros por página. |
-| `offset` | integer | 0 | — | Quantos registros pular a partir do início. |
+| Parâmetro | Tipo    | Padrão | Máximo | Descrição                                   |
+| --------- | ------- | ------ | ------ | ------------------------------------------- |
+| `limit`   | integer | 50     | 200    | Quantidade máxima de registros por página.  |
+| `offset`  | integer | 0      | —      | Quantos registros pular a partir do início. |
 
 Resposta paginada (dentro do campo `data` do envelope):
 
@@ -92,9 +92,7 @@ Resposta paginada (dentro do campo `data` do envelope):
   "status": 200,
   "title": "OK",
   "data": {
-    "dados": [
-      { "...": "um registro" }
-    ],
+    "dados": [{ "...": "um registro" }],
     "total": 1250,
     "limit": 50,
     "offset": 0
@@ -144,19 +142,19 @@ Erros seguem o padrão [RFC 7807 (Problem Details)](https://www.rfc-editor.org/r
 
 ### Status codes usados na API
 
-| Status | Quando ocorre |
-|---|---|
-| `200 OK` | Consulta/listagem/atualização bem-sucedida. |
-| `201 Created` | Criação de recurso bem-sucedida. |
-| `204 No Content` | Exclusão/inativação/desvínculo bem-sucedido, sem corpo de resposta. |
-| `400 Bad Request` | Payload inválido, referência inexistente/inativa, ou violação de regra de negócio (ex: unidade fora do permitido). |
-| `401 Unauthorized` | API Key ausente, inválida ou expirada. |
-| `403 Forbidden` | Módulo necessário (ex: `modulo_epi`) não habilitado para a chave. |
-| `404 Not Found` | Recurso não encontrado, ou encontrado porém fora do escopo de unidades permitidas da chave. |
-| `409 Conflict` | Conflito de dados (ex: nome duplicado, vínculo já existente, CA duplicado). |
-| `429 Too Many Requests` | Limite de requisições por minuto excedido. |
-| `500 Internal Server Error` | Erro inesperado do servidor. |
-| `503 Service Unavailable` | Dependência externa indisponível (ex: base de consulta de CA). |
+| Status                      | Quando ocorre                                                                                                      |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `200 OK`                    | Consulta/listagem/atualização bem-sucedida.                                                                        |
+| `201 Created`               | Criação de recurso bem-sucedida.                                                                                   |
+| `204 No Content`            | Exclusão/inativação/desvínculo bem-sucedido, sem corpo de resposta.                                                |
+| `400 Bad Request`           | Payload inválido, referência inexistente/inativa, ou violação de regra de negócio (ex: unidade fora do permitido). |
+| `401 Unauthorized`          | API Key ausente, inválida ou expirada.                                                                             |
+| `403 Forbidden`             | Módulo necessário (ex: `modulo_epi`) não habilitado para a chave.                                                  |
+| `404 Not Found`             | Recurso não encontrado, ou encontrado porém fora do escopo de unidades permitidas da chave.                        |
+| `409 Conflict`              | Conflito de dados (ex: nome duplicado, vínculo já existente, CA duplicado).                                        |
+| `429 Too Many Requests`     | Limite de requisições por minuto excedido.                                                                         |
+| `500 Internal Server Error` | Erro inesperado do servidor.                                                                                       |
+| `503 Service Unavailable`   | Dependência externa indisponível (ex: base de consulta de CA).                                                     |
 
 ## Referência por domínio
 
@@ -169,6 +167,7 @@ Valida se a API Key fornecida é válida, ativa e não expirada. Use este endpoi
 **Requer módulo**: nenhum.
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
@@ -193,6 +192,7 @@ Cria um novo funcionário vinculado à empresa autenticada, já associado a loca
 **Requer módulo**: nenhum específico (endpoint sempre disponível para a chave autenticada).
 
 **Request body:**
+
 ```json
 {
   "nome": "João da Silva",
@@ -213,15 +213,16 @@ Cria um novo funcionário vinculado à empresa autenticada, já associado a loca
 }
 ```
 
-| Campo | Tipo | Obrigatório | Descrição |
-|---|---|---|---|
-| `nome` | string (máx. 255) | Sim | Nome completo do funcionário. |
-| `cpf` | string (11 dígitos) | Sim | CPF sem pontuação. |
-| `senha` | string (6 dígitos) | Sim | Senha inicial de acesso do funcionário. |
-| `codigo_integracao` | string | Não | Código do funcionário no seu sistema de origem, usado para futuras operações (inativar/reativar por código). |
-| `locais_trabalho` | array | Sim | Locais de trabalho, setores e cargos aos quais o funcionário é associado na criação. |
+| Campo               | Tipo                | Obrigatório | Descrição                                                                                                    |
+| ------------------- | ------------------- | ----------- | ------------------------------------------------------------------------------------------------------------ |
+| `nome`              | string (máx. 255)   | Sim         | Nome completo do funcionário.                                                                                |
+| `cpf`               | string (11 dígitos) | Sim         | CPF sem pontuação.                                                                                           |
+| `senha`             | string (6 dígitos)  | Sim         | Senha inicial de acesso do funcionário.                                                                      |
+| `codigo_integracao` | string              | Não         | Código do funcionário no seu sistema de origem, usado para futuras operações (inativar/reativar por código). |
+| `locais_trabalho`   | array               | Sim         | Locais de trabalho, setores e cargos aos quais o funcionário é associado na criação.                         |
 
 **Response `201`:**
+
 ```json
 {
   "status": 201,
@@ -248,6 +249,7 @@ Inativa um funcionário pelo ID interno. Se o funcionário possuir itens ativos 
 **Path params**: `funcionario_id` (integer, obrigatório).
 
 **Request body (opcional, para confirmar mesmo com itens ativos):**
+
 ```json
 {
   "confirmacoes": ["possui_itens_ativos"]
@@ -257,6 +259,7 @@ Inativa um funcionário pelo ID interno. Se o funcionário possuir itens ativos 
 **Response `204`**: sem corpo.
 
 **Response `409` (quando confirmação é necessária):**
+
 ```json
 {
   "status": 409,
@@ -308,6 +311,7 @@ Igual ao anterior, localizando pelo `codigo_integracao`.
 Retorna todos os locais de trabalho (unidades) ativos vinculados à empresa autenticada.
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
@@ -339,6 +343,7 @@ GHE (Grupo Homogêneo de Exposição) agrupa funcionários que compartilham os m
 Lista todos os GHEs da empresa autenticada (visão resumida, sem riscos/itens).
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
@@ -373,6 +378,7 @@ Detalha um GHE com todos os riscos ocupacionais vinculados e, para cada risco, o
 **Path params**: `ghe_id` (integer, obrigatório).
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
@@ -393,8 +399,16 @@ Detalha um GHE com todos os riscos ocupacionais vinculados e, para cada risco, o
         "nome": "Ruído",
         "categoria_nome": "Físico",
         "epis": [
-          { "epi_id": "EPI_001", "descricao": "Protetor Auricular Tipo Concha", "obrigatorio": true },
-          { "epi_id": "EPI_014", "descricao": "Protetor Auricular Plug", "obrigatorio": false }
+          {
+            "epi_id": "EPI_001",
+            "descricao": "Protetor Auricular Tipo Concha",
+            "obrigatorio": true
+          },
+          {
+            "epi_id": "EPI_014",
+            "descricao": "Protetor Auricular Plug",
+            "obrigatorio": false
+          }
         ]
       }
     ]
@@ -414,6 +428,7 @@ Cria um novo GHE.
 **Restrição de unidade**: sim — `local_trabalho_id` precisa estar entre as unidades permitidas da chave.
 
 **Request body:**
+
 ```json
 {
   "nome": "GHE Produção - Turno 2",
@@ -424,15 +439,16 @@ Cria um novo GHE.
 }
 ```
 
-| Campo | Tipo | Obrigatório | Descrição |
-|---|---|---|---|
-| `nome` | string (1-255) | Sim | Nome do GHE. |
-| `local_trabalho_id` | integer | Sim | Unidade à qual o GHE pertence. |
-| `descricao` | string | Não | Descrição livre. |
-| `medidas_controle` | string | Não | Medidas de controle de risco adotadas. |
-| `codigo_integracao` | string | Não | Código de referência no seu sistema. |
+| Campo               | Tipo           | Obrigatório | Descrição                              |
+| ------------------- | -------------- | ----------- | -------------------------------------- |
+| `nome`              | string (1-255) | Sim         | Nome do GHE.                           |
+| `local_trabalho_id` | integer        | Sim         | Unidade à qual o GHE pertence.         |
+| `descricao`         | string         | Não         | Descrição livre.                       |
+| `medidas_controle`  | string         | Não         | Medidas de controle de risco adotadas. |
+| `codigo_integracao` | string         | Não         | Código de referência no seu sistema.   |
 
 **Response `201`:**
+
 ```json
 {
   "status": 201,
@@ -464,6 +480,7 @@ Atualiza parcialmente um GHE. Campos não enviados permanecem inalterados.
 **Path params**: `ghe_id` (integer, obrigatório).
 
 **Request body (todos os campos opcionais):**
+
 ```json
 {
   "descricao": "Exposição a ruído e vibração"
@@ -485,6 +502,7 @@ Vincula um risco ocupacional já cadastrado a um GHE.
 **Path params**: `ghe_id` (integer, obrigatório).
 
 **Request body:**
+
 ```json
 {
   "risco_ocupacional_id": 12
@@ -492,6 +510,7 @@ Vincula um risco ocupacional já cadastrado a um GHE.
 ```
 
 **Response `201`:**
+
 ```json
 {
   "status": 201,
@@ -530,6 +549,7 @@ Vincula um item (EPI) a um risco já associado ao GHE, indicando se o uso é obr
 **Path params**: `ghe_id`, `risco_id` (integers, obrigatórios).
 
 **Request body:**
+
 ```json
 {
   "epi_id": "EPI_014",
@@ -538,6 +558,7 @@ Vincula um item (EPI) a um risco já associado ao GHE, indicando se o uso é obr
 ```
 
 **Response `201`:**
+
 ```json
 {
   "status": 201,
@@ -574,13 +595,19 @@ Desvincula um item específico de um risco dentro de um GHE, sem afetar os demai
 Lista todos os setores da empresa autenticada.
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
   "title": "OK",
   "data": {
     "setores": [
-      { "id": 5, "nome": "Produção", "descricao": "Linha de produção", "situacao": 0 }
+      {
+        "id": 5,
+        "nome": "Produção",
+        "descricao": "Linha de produção",
+        "situacao": 0
+      }
     ]
   }
 }
@@ -595,6 +622,7 @@ Lista todos os setores da empresa autenticada.
 Cria um novo setor.
 
 **Request body:**
+
 ```json
 {
   "nome": "Manutenção",
@@ -604,6 +632,7 @@ Cria um novo setor.
 ```
 
 **Response `201`:**
+
 ```json
 {
   "status": 201,
@@ -655,14 +684,13 @@ Inativa um setor. Não impede a inativação de setores com funcionários ou loc
 Lista todos os cargos da empresa autenticada.
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
   "title": "OK",
   "data": {
-    "cargos": [
-      { "id": 10, "nome": "operador de produção", "situacao": 0 }
-    ]
+    "cargos": [{ "id": 10, "nome": "operador de produção", "situacao": 0 }]
   }
 }
 ```
@@ -676,6 +704,7 @@ Lista todos os cargos da empresa autenticada.
 Cria um novo cargo. O nome é normalizado para minúsculas.
 
 **Request body:**
+
 ```json
 {
   "nome": "Técnico de Segurança",
@@ -684,6 +713,7 @@ Cria um novo cargo. O nome é normalizado para minúsculas.
 ```
 
 **Response `201`:**
+
 ```json
 {
   "status": 201,
@@ -730,6 +760,7 @@ Lista o catálogo de riscos ocupacionais da empresa (inclui riscos globais do si
 **Requer módulo**: `modulo_epi`.
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
@@ -760,6 +791,7 @@ Cria um novo risco ocupacional para a empresa.
 **Requer módulo**: `modulo_epi`.
 
 **Request body:**
+
 ```json
 {
   "nome": "Vibração",
@@ -805,6 +837,7 @@ Lista todos os tipos de item da empresa, ativos e inativos.
 **Requer módulo**: `modulo_epi`.
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
@@ -835,6 +868,7 @@ Cria um novo tipo de item, vinculado a uma categoria de produto já cadastrada.
 **Requer módulo**: `modulo_epi`.
 
 **Request body:**
+
 ```json
 {
   "nome": "Luva de Raspa",
@@ -861,13 +895,19 @@ Lista todas as categorias de produto da empresa, incluindo categorias globais do
 **Requer módulo**: `modulo_epi`.
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
   "title": "OK",
   "data": {
     "categorias": [
-      { "id": 3, "nome": "Proteção Auditiva", "descricao": "Itens de proteção auditiva", "situacao": 0 }
+      {
+        "id": 3,
+        "nome": "Proteção Auditiva",
+        "descricao": "Itens de proteção auditiva",
+        "situacao": 0
+      }
     ]
   }
 }
@@ -884,6 +924,7 @@ Cria uma nova categoria de produto.
 **Requer módulo**: `modulo_epi`.
 
 **Request body:**
+
 ```json
 {
   "nome": "Uniformes",
@@ -910,6 +951,7 @@ Lista os itens de estoque da empresa, paginado, com filtro opcional por categori
 **Query params**: `limit`, `offset`, `categoria_produto_id` (integer, opcional).
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
@@ -954,6 +996,7 @@ Cria um novo item de estoque, vinculado a um tipo de item já cadastrado (`epi_i
 **Requer módulo**: `modulo_epi`.
 
 **Request body:**
+
 ```json
 {
   "nome": "Protetor Auricular Plug Silicone",
@@ -971,20 +1014,20 @@ Cria um novo item de estoque, vinculado a um tipo de item já cadastrado (`epi_i
 }
 ```
 
-| Campo | Tipo | Obrigatório | Descrição |
-|---|---|---|---|
-| `nome` | string (1-255) | Sim | Nome do item. |
-| `epi_id` | string | Sim | ID do tipo de item já cadastrado (ver [Tipos de Item](#tipos-de-item)). |
-| `descricao` | string | Não | Descrição livre. |
-| `numero_ca` | string (máx. 20) | Não | Número do Certificado de Aprovação, se aplicável. |
-| `fabricante_id` | integer | Não | ID do fabricante. |
-| `custo` | integer | Não | Custo unitário em centavos. |
-| `tempo_troca_dias` | integer | Não | Período padrão de troca, em dias. |
-| `controla_unitario` | boolean | Não (padrão `true`) | Se cada unidade é rastreada individualmente por número de série. |
-| `sem_devolucao` | boolean | Não (padrão `false`) | Se o item não é passível de devolução após entrega. |
-| `unidade_medida` | string | Não (padrão `"un"`) | Unidade de medida (`un`, `kg`, `L`, `m`, etc.). |
-| `casas_decimais` | integer | Não (padrão `0`) | Casas decimais para itens medidos em fração (ex: metros, litros). |
-| `codigo_integracao` | string | Não | Código de referência no seu sistema. |
+| Campo               | Tipo             | Obrigatório          | Descrição                                                               |
+| ------------------- | ---------------- | -------------------- | ----------------------------------------------------------------------- |
+| `nome`              | string (1-255)   | Sim                  | Nome do item.                                                           |
+| `epi_id`            | string           | Sim                  | ID do tipo de item já cadastrado (ver [Tipos de Item](#tipos-de-item)). |
+| `descricao`         | string           | Não                  | Descrição livre.                                                        |
+| `numero_ca`         | string (máx. 20) | Não                  | Número do Certificado de Aprovação, se aplicável.                       |
+| `fabricante_id`     | integer          | Não                  | ID do fabricante.                                                       |
+| `custo`             | integer          | Não                  | Custo unitário em centavos.                                             |
+| `tempo_troca_dias`  | integer          | Não                  | Período padrão de troca, em dias.                                       |
+| `controla_unitario` | boolean          | Não (padrão `true`)  | Se cada unidade é rastreada individualmente por número de série.        |
+| `sem_devolucao`     | boolean          | Não (padrão `false`) | Se o item não é passível de devolução após entrega.                     |
+| `unidade_medida`    | string           | Não (padrão `"un"`)  | Unidade de medida (`un`, `kg`, `L`, `m`, etc.).                         |
+| `casas_decimais`    | integer          | Não (padrão `0`)     | Casas decimais para itens medidos em fração (ex: metros, litros).       |
+| `codigo_integracao` | string           | Não                  | Código de referência no seu sistema.                                    |
 
 **Response `201`**: mesmo formato de um item da listagem acima.
 
@@ -1001,6 +1044,7 @@ Lista os lotes de entrada de um item de estoque, paginado.
 **Path params**: `item_epi_id` (integer, obrigatório). **Query params**: `limit`, `offset`.
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
@@ -1039,13 +1083,14 @@ Lista as unidades individuais rastreadas de um item (para itens com `controla_un
 
 **Path params**: `item_epi_id` (integer, obrigatório). **Query params**:
 
-| Parâmetro | Tipo | Descrição |
-|---|---|---|
-| `limit`, `offset` | integer | Paginação padrão. |
-| `estado` | integer, opcional | `0`=Disponível, `1`=Em Uso, `2`=Manutenção, `3`=Inativo, `4`=Quebra, `5`=Perda, `6`=Higienização. |
-| `local_trabalho_id` | integer, opcional | Filtra por unidade — deve estar entre as unidades permitidas da API Key. |
+| Parâmetro           | Tipo              | Descrição                                                                                         |
+| ------------------- | ----------------- | ------------------------------------------------------------------------------------------------- |
+| `limit`, `offset`   | integer           | Paginação padrão.                                                                                 |
+| `estado`            | integer, opcional | `0`=Disponível, `1`=Em Uso, `2`=Manutenção, `3`=Inativo, `4`=Quebra, `5`=Perda, `6`=Higienização. |
+| `local_trabalho_id` | integer, opcional | Filtra por unidade — deve estar entre as unidades permitidas da API Key.                          |
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
@@ -1101,6 +1146,7 @@ Consulta um Certificado de Aprovação (CA) na base do Ministério do Trabalho e
 **Path params**: `numero_ca` (string, obrigatório).
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
@@ -1131,6 +1177,7 @@ Lista as solicitações de EPI, paginado, com filtros.
 **Query params**: `limit`, `offset`, `situacao` (string, opcional, ex: `"pendente"`, `"aprovada"`, `"rejeitada"`), `data_inicio` (datetime ISO 8601, opcional), `data_fim` (datetime ISO 8601, opcional).
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
@@ -1180,6 +1227,7 @@ Lista as solicitações de compra de itens para reposição de estoque.
 **Query params**: `limit`, `offset`, `status` (integer, opcional: `0`=pendente, `1`=aprovada, `2`=rejeitada, `3`=cancelada, `4`=processada), `local_trabalho_id` (integer, opcional).
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
@@ -1225,6 +1273,7 @@ Lista as solicitações de transferência de itens entre unidades.
 **Query params**: `limit`, `offset`, `status` (integer, opcional).
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
@@ -1271,6 +1320,7 @@ Lista as solicitações feitas por parceiros (fornecedores/prestadores) para a e
 **Query params**: `limit`, `offset`, `status` (integer, opcional: `0`=pendente, `1`=aprovada, `2`=rejeitada).
 
 **Response `200`:**
+
 ```json
 {
   "status": 200,
@@ -1378,56 +1428,52 @@ curl "https://<dominio>/integracao/v1/solicitacao/epi?situacao=pendente&data_ini
 
 ## Referência rápida de endpoints
 
-| Método | Path | Grupo |
-|---|---|---|
-| GET | `/integracao/v1/ping` | Autenticação |
-| POST | `/integracao/v1/funcionario` | Funcionários |
-| DELETE | `/integracao/v1/funcionario/{funcionario_id}` | Funcionários |
-| DELETE | `/integracao/v1/funcionario/codigo/{codigo_integracao}` | Funcionários |
-| PATCH | `/integracao/v1/funcionario/{funcionario_id}/reativar` | Funcionários |
-| PATCH | `/integracao/v1/funcionario/codigo/{codigo_integracao}/reativar` | Funcionários |
-| GET | `/integracao/v1/local-trabalho` | Locais de Trabalho |
-| GET | `/integracao/v1/ghe` | GHEs |
-| GET | `/integracao/v1/ghe/{ghe_id}` | GHEs |
-| POST | `/integracao/v1/ghe` | GHEs |
-| PATCH | `/integracao/v1/ghe/{ghe_id}` | GHEs |
-| POST | `/integracao/v1/ghe/{ghe_id}/riscos` | GHEs |
-| DELETE | `/integracao/v1/ghe/{ghe_id}/riscos/{risco_id}` | GHEs |
-| POST | `/integracao/v1/ghe/{ghe_id}/riscos/{risco_id}/epis` | GHEs |
-| DELETE | `/integracao/v1/ghe/{ghe_id}/riscos/{risco_id}/epis/{epi_id}` | GHEs |
-| GET | `/integracao/v1/setor` | Setores |
-| POST | `/integracao/v1/setor` | Setores |
-| PATCH | `/integracao/v1/setor/{setor_id}` | Setores |
-| DELETE | `/integracao/v1/setor/{setor_id}` | Setores |
-| GET | `/integracao/v1/cargo` | Cargos |
-| POST | `/integracao/v1/cargo` | Cargos |
-| PATCH | `/integracao/v1/cargo/{cargo_id}` | Cargos |
-| DELETE | `/integracao/v1/cargo/{cargo_id}` | Cargos |
-| GET | `/integracao/v1/risco` | Riscos Ocupacionais |
-| POST | `/integracao/v1/risco` | Riscos Ocupacionais |
-| PATCH | `/integracao/v1/risco/{risco_id}` | Riscos Ocupacionais |
-| DELETE | `/integracao/v1/risco/{risco_id}` | Riscos Ocupacionais |
-| GET | `/integracao/v1/tipo-item` | Tipos de Item |
-| POST | `/integracao/v1/tipo-item` | Tipos de Item |
-| GET | `/integracao/v1/categoria-produto` | Categorias de Produto |
-| POST | `/integracao/v1/categoria-produto` | Categorias de Produto |
-| GET | `/integracao/v1/estoque/item` | Estoque |
-| POST | `/integracao/v1/estoque/item` | Estoque |
-| GET | `/integracao/v1/estoque/item/{item_epi_id}/lote` | Estoque |
-| GET | `/integracao/v1/estoque/item/{item_epi_id}/unitario` | Estoque |
-| GET | `/integracao/v1/estoque/item/{item_epi_id}/unitario/{unitario_id}` | Estoque |
-| GET | `/integracao/v1/ca/{numero_ca}` | Certificados de Aprovação |
-| GET | `/integracao/v1/solicitacao/epi` | Solicitações |
-| GET | `/integracao/v1/solicitacao/epi/{id}` | Solicitações |
-| GET | `/integracao/v1/solicitacao/compra` | Solicitações |
-| GET | `/integracao/v1/solicitacao/compra/{id}` | Solicitações |
-| GET | `/integracao/v1/solicitacao/transferencia` | Solicitações |
-| GET | `/integracao/v1/solicitacao/transferencia/{id}` | Solicitações |
-| GET | `/integracao/v1/solicitacao/parceiro` | Solicitações |
-| GET | `/integracao/v1/solicitacao/parceiro/{id}` | Solicitações |
+| Método | Path                                                               | Grupo                     |
+| ------ | ------------------------------------------------------------------ | ------------------------- |
+| GET    | `/integracao/v1/ping`                                              | Autenticação              |
+| POST   | `/integracao/v1/funcionario`                                       | Funcionários              |
+| DELETE | `/integracao/v1/funcionario/{funcionario_id}`                      | Funcionários              |
+| DELETE | `/integracao/v1/funcionario/codigo/{codigo_integracao}`            | Funcionários              |
+| PATCH  | `/integracao/v1/funcionario/{funcionario_id}/reativar`             | Funcionários              |
+| PATCH  | `/integracao/v1/funcionario/codigo/{codigo_integracao}/reativar`   | Funcionários              |
+| GET    | `/integracao/v1/local-trabalho`                                    | Locais de Trabalho        |
+| GET    | `/integracao/v1/ghe`                                               | GHEs                      |
+| GET    | `/integracao/v1/ghe/{ghe_id}`                                      | GHEs                      |
+| POST   | `/integracao/v1/ghe`                                               | GHEs                      |
+| PATCH  | `/integracao/v1/ghe/{ghe_id}`                                      | GHEs                      |
+| POST   | `/integracao/v1/ghe/{ghe_id}/riscos`                               | GHEs                      |
+| DELETE | `/integracao/v1/ghe/{ghe_id}/riscos/{risco_id}`                    | GHEs                      |
+| POST   | `/integracao/v1/ghe/{ghe_id}/riscos/{risco_id}/epis`               | GHEs                      |
+| DELETE | `/integracao/v1/ghe/{ghe_id}/riscos/{risco_id}/epis/{epi_id}`      | GHEs                      |
+| GET    | `/integracao/v1/setor`                                             | Setores                   |
+| POST   | `/integracao/v1/setor`                                             | Setores                   |
+| PATCH  | `/integracao/v1/setor/{setor_id}`                                  | Setores                   |
+| DELETE | `/integracao/v1/setor/{setor_id}`                                  | Setores                   |
+| GET    | `/integracao/v1/cargo`                                             | Cargos                    |
+| POST   | `/integracao/v1/cargo`                                             | Cargos                    |
+| PATCH  | `/integracao/v1/cargo/{cargo_id}`                                  | Cargos                    |
+| DELETE | `/integracao/v1/cargo/{cargo_id}`                                  | Cargos                    |
+| GET    | `/integracao/v1/risco`                                             | Riscos Ocupacionais       |
+| POST   | `/integracao/v1/risco`                                             | Riscos Ocupacionais       |
+| PATCH  | `/integracao/v1/risco/{risco_id}`                                  | Riscos Ocupacionais       |
+| DELETE | `/integracao/v1/risco/{risco_id}`                                  | Riscos Ocupacionais       |
+| GET    | `/integracao/v1/tipo-item`                                         | Tipos de Item             |
+| POST   | `/integracao/v1/tipo-item`                                         | Tipos de Item             |
+| GET    | `/integracao/v1/categoria-produto`                                 | Categorias de Produto     |
+| POST   | `/integracao/v1/categoria-produto`                                 | Categorias de Produto     |
+| GET    | `/integracao/v1/estoque/item`                                      | Estoque                   |
+| POST   | `/integracao/v1/estoque/item`                                      | Estoque                   |
+| GET    | `/integracao/v1/estoque/item/{item_epi_id}/lote`                   | Estoque                   |
+| GET    | `/integracao/v1/estoque/item/{item_epi_id}/unitario`               | Estoque                   |
+| GET    | `/integracao/v1/estoque/item/{item_epi_id}/unitario/{unitario_id}` | Estoque                   |
+| GET    | `/integracao/v1/ca/{numero_ca}`                                    | Certificados de Aprovação |
+| GET    | `/integracao/v1/solicitacao/epi`                                   | Solicitações              |
+| GET    | `/integracao/v1/solicitacao/epi/{id}`                              | Solicitações              |
+| GET    | `/integracao/v1/solicitacao/compra`                                | Solicitações              |
+| GET    | `/integracao/v1/solicitacao/compra/{id}`                           | Solicitações              |
+| GET    | `/integracao/v1/solicitacao/transferencia`                         | Solicitações              |
+| GET    | `/integracao/v1/solicitacao/transferencia/{id}`                    | Solicitações              |
+| GET    | `/integracao/v1/solicitacao/parceiro`                              | Solicitações              |
+| GET    | `/integracao/v1/solicitacao/parceiro/{id}`                         | Solicitações              |
 
 **Total: 45 endpoints.**
-
----
-
-_Última atualização: 1 de julho de 2026_

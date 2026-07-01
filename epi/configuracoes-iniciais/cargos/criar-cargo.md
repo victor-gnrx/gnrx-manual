@@ -37,9 +37,9 @@ O formulário é intencionalmente simples, contendo apenas o campo para o nome d
 ## Preenchendo o Formulário
 
 1. Digite o **Nome** do cargo
-   * Use nomenclatura clara e padronizada
-   * Mantenha consistência com a terminologia utilizada em documentos oficiais
-   * Utilize nomes que identifiquem claramente a função (ex: "Auxiliar de Escritório" em vez de apenas "Auxiliar")
+   - Use nomenclatura clara e padronizada
+   - Mantenha consistência com a terminologia utilizada em documentos oficiais
+   - Utilize nomes que identifiquem claramente a função (ex: "Auxiliar de Escritório" em vez de apenas "Auxiliar")
 2. Revise a informação inserida
 3. Clique no botão **Salvar** para criar o cargo
 
@@ -57,35 +57,35 @@ Embora o formulário de criação seja simples, é importante considerar os segu
 
 ### Padronização de Nomenclatura
 
-* Utilize a mesma nomenclatura presente em documentos oficiais da empresa
-* Mantenha um padrão consistente (ex: "Auxiliar de...", "Técnico em...", "Gerente de...")
-* Evite abreviações que possam gerar confusão
-* Considere incluir o nível ou grau, quando aplicável (ex: "Técnico em Segurança Júnior")
+- Utilize a mesma nomenclatura presente em documentos oficiais da empresa
+- Mantenha um padrão consistente (ex: "Auxiliar de...", "Técnico em...", "Gerente de...")
+- Evite abreviações que possam gerar confusão
+- Considere incluir o nível ou grau, quando aplicável (ex: "Técnico em Segurança Júnior")
 
 ### Alinhamento com Áreas Relacionadas
 
 Antes de criar novos cargos, consulte:
 
-* Departamento de Recursos Humanos
-* Documentos de SST (PPRA, PCMSO, PGR)
-* Organograma institucional
-* Descrições de cargo existentes
+- Departamento de Recursos Humanos
+- Documentos de SST (PPRA, PCMSO, PGR)
+- Organograma institucional
+- Descrições de cargo existentes
 
 ## Considerações Importantes
 
-* A criação de um cargo é apenas o primeiro passo - ele precisa ser associado a colaboradores para ser efetivamente utilizado
-* O nome do cargo deve refletir claramente a função na organização
-* Cargos bem estruturados facilitam a análise de conformidade e a gestão de EPIs
-* Evite a criação de cargos muito específicos ou excessivamente genéricos
+- A criação de um cargo é apenas o primeiro passo - ele precisa ser associado a colaboradores para ser efetivamente utilizado
+- O nome do cargo deve refletir claramente a função na organização
+- Cargos bem estruturados facilitam a análise de conformidade e a gestão de EPIs
+- Evite a criação de cargos muito específicos ou excessivamente genéricos
 
 ## Casos de Uso Comuns
 
 Situações típicas para criação de novos cargos:
 
-* Contratação de colaboradores em novas funções
-* Reestruturação organizacional
-* Adequação a novas regulamentações
-* Padronização de nomenclatura
+- Contratação de colaboradores em novas funções
+- Reestruturação organizacional
+- Adequação a novas regulamentações
+- Padronização de nomenclatura
 
 ## Erros Comuns e Soluções
 
@@ -100,7 +100,3 @@ Situações típicas para criação de novos cargos:
 Após criar um novo cargo, considere:
 
 1. [Associar colaboradores](../colaboradores/) ao cargo recém-criado
-
-***
-
-_Última atualização: 16 de Maio de 2025_

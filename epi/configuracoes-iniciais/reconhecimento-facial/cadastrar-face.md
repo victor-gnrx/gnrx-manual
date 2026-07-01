@@ -35,38 +35,35 @@ Antes de iniciar o cadastro, verifique se:
 ### Etapas do Cadastro
 
 1.  **Preparação**:
-
-    * Uma janela modal será aberta solicitando acesso à câmera
-    * Autorize o acesso à câmera do dispositivo
+    - Uma janela modal será aberta solicitando acesso à câmera
+    - Autorize o acesso à câmera do dispositivo
 
     <figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Popup de confirmação</p></figcaption></figure>
-
-    * Selecione a câmera
-    * Clique "Iniciar Captura"
-    * Posicione o colaborador centralmente no enquadramento
+    - Selecione a câmera
+    - Clique "Iniciar Captura"
+    - Posicione o colaborador centralmente no enquadramento
 
     <figure><img src="../../.gitbook/assets/image (23).png" alt="" width="563"><figcaption></figcaption></figure>
-2. **Captura das Imagens**:
-   * O sistema solicitará que o colaborador posicione o rosto no contorno exibido
-   * Assim que centralizado, o sistema tira a foto automaticamente.
-   * Caso necessário você pode forçar captura
-3. **Validação**:
-   * Após a captura completa, Clique em Finalizar Cadastro
-   * O sistema realizará uma verificação inicial
-   * Se bem-sucedido, uma mensagem de confirmação será exibida
-   * O status mudará automaticamente para "Sim" na tela do colaborador
+
+2.  **Captura das Imagens**:
+    - O sistema solicitará que o colaborador posicione o rosto no contorno exibido
+    - Assim que centralizado, o sistema tira a foto automaticamente.
+    - Caso necessário você pode forçar captura
+3.  **Validação**:
+    - Após a captura completa, Clique em Finalizar Cadastro
+    - O sistema realizará uma verificação inicial
+    - Se bem-sucedido, uma mensagem de confirmação será exibida
+    - O status mudará automaticamente para "Sim" na tela do colaborador
 
 ### Recomendações para Captura de Qualidade
 
 Para garantir a melhor qualidade do cadastro facial:
 
-* Certifique-se de que o rosto está bem iluminado, sem sombras fortes
-* Remova óculos&#x20;
-* Mantenha expressão neutra durante a captura
-* Evite ambientes com fundo muito complexo ou em movimento
-* Posicione a câmera na altura dos olhos do colaborador
-
-
+- Certifique-se de que o rosto está bem iluminado, sem sombras fortes
+- Remova óculos&#x20;
+- Mantenha expressão neutra durante a captura
+- Evite ambientes com fundo muito complexo ou em movimento
+- Posicione a câmera na altura dos olhos do colaborador
 
 ## Verificação do Cadastro
 
@@ -90,27 +87,23 @@ Após concluir o cadastro, é recomendável realizar uma verificação:
 
 ## Considerações Importantes
 
-* O cadastro facial é **opcional** mas altamente recomendado para maior segurança
-* O colaborador deve concordar explicitamente com o cadastro facial
-* Os dados biométricos são armazenados de forma segura e criptografada
-* O cadastro deve ser renovado periodicamente (geralmente a cada 12 meses)
-* Mudanças significativas na aparência (barba, corte de cabelo) podem exigir atualização
+- O cadastro facial é **opcional** mas altamente recomendado para maior segurança
+- O colaborador deve concordar explicitamente com o cadastro facial
+- Os dados biométricos são armazenados de forma segura e criptografada
+- O cadastro deve ser renovado periodicamente (geralmente a cada 12 meses)
+- Mudanças significativas na aparência (barba, corte de cabelo) podem exigir atualização
 
 ## Benefícios do Cadastro Facial
 
-* Elimina a necessidade de assinaturas digitais
-* Aumenta a segurança na entrega de EPIs
-* Reduz fraudes e entregas não autorizadas
-* Facilita auditorias e fiscalizações
-* Otimiza o tempo de entrega e registro
+- Elimina a necessidade de assinaturas digitais
+- Aumenta a segurança na entrega de EPIs
+- Reduz fraudes e entregas não autorizadas
+- Facilita auditorias e fiscalizações
+- Otimiza o tempo de entrega e registro
 
 ## Próximos Passos
 
 Após o cadastro bem-sucedido, o colaborador estará apto a:
 
-* Receber EPIs com assinatura por reconhecimento facial
-* Acessar o aplicativo móvel via autenticação facial (quando configurado)
-
-***
-
-_Última atualização: 18 de Maio de 2025_
+- Receber EPIs com assinatura por reconhecimento facial
+- Acessar o aplicativo móvel via autenticação facial (quando configurado)

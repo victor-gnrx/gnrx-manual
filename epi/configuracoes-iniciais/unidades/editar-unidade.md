@@ -48,36 +48,32 @@ Todos os campos do cadastro podem ser atualizados:
 
 A edição de uma unidade pode ter os seguintes impactos no sistema:
 
-* Alterações de nome afetam todos os relatórios e listagens
-* Modificações no endereço impactam registros de entrega e logística
+- Alterações de nome afetam todos os relatórios e listagens
+- Modificações no endereço impactam registros de entrega e logística
 
 ## Limitações e Restrições
 
 Algumas limitações se aplicam à edição de unidades:
 
-* Não é possível alterar o ID da unidade
-* Se a unidade possui colaboradores ou setores vinculados, algumas alterações podem requerer aprovação adicional
-* Unidades com status "Inativo" precisam ser reativadas antes da edição
+- Não é possível alterar o ID da unidade
+- Se a unidade possui colaboradores ou setores vinculados, algumas alterações podem requerer aprovação adicional
+- Unidades com status "Inativo" precisam ser reativadas antes da edição
 
 ## Melhores Práticas
 
 Para edição eficiente de unidades:
 
-* Mantenha uma nomenclatura consistente mesmo após alterações
-* Documente o motivo das mudanças significativas no campo de descrição
-* Informe os usuários do sistema sobre alterações no nome das unidades
-* Verifique os relatórios após edições para garantir que estão refletindo corretamente as alterações
-* Considere o impacto em integrações com outros sistemas antes de modificar campos-chave
+- Mantenha uma nomenclatura consistente mesmo após alterações
+- Documente o motivo das mudanças significativas no campo de descrição
+- Informe os usuários do sistema sobre alterações no nome das unidades
+- Verifique os relatórios após edições para garantir que estão refletindo corretamente as alterações
+- Considere o impacto em integrações com outros sistemas antes de modificar campos-chave
 
 ## Próximos Passos
 
 Após editar uma unidade, considere:
 
-* Verificar os [setores vinculados](../setores/listar-setores.md) para garantir que estão corretos
-* Atualizar [GHEs](../ghe/) se as condições da unidade mudaram
-* Revisar o cadastro de [colaboradores](../colaboradores/) associados à unidade
-* Atualizar configurações de estoque se necessário
-
-***
-
-_Última atualização: 16 de Maio de 2025_
+- Verificar os [setores vinculados](../setores/listar-setores.md) para garantir que estão corretos
+- Atualizar [GHEs](../ghe/) se as condições da unidade mudaram
+- Revisar o cadastro de [colaboradores](../colaboradores/) associados à unidade
+- Atualizar configurações de estoque se necessário

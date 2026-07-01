@@ -14,11 +14,11 @@ A desativação de setores é utilizada quando uma área funcional deixa de exis
 
 As situações mais comuns para desativação incluem:
 
-* Reorganização estrutural da empresa
-* Fusão de departamentos
-* Descontinuação de uma linha de atividade
-* Substituição por nova estrutura departamental
-* Correção de duplicidade (múltiplos setores para a mesma função)
+- Reorganização estrutural da empresa
+- Fusão de departamentos
+- Descontinuação de uma linha de atividade
+- Substituição por nova estrutura departamental
+- Correção de duplicidade (múltiplos setores para a mesma função)
 
 ## Acessando a Função de Desativação
 
@@ -54,17 +54,17 @@ Quando um setor é desativado:
 
 ### O que acontece:
 
-* O setor recebe o status "Inativo" na lista de setores
-* Ele deixa de aparecer em listas de seleção para novas associações
-* Relatórios padrão filtram o setor, a menos que explicitamente incluído
-* O histórico completo permanece acessível para consulta
+- O setor recebe o status "Inativo" na lista de setores
+- Ele deixa de aparecer em listas de seleção para novas associações
+- Relatórios padrão filtram o setor, a menos que explicitamente incluído
+- O histórico completo permanece acessível para consulta
 
 ### O que NÃO acontece:
 
-* O registro do setor não é excluído do banco de dados
-* Históricos de entregas de EPIs associados ao setor não são removidos
-* Vínculos existentes com colaboradores são mantidos, mas marcados como inativos
-* Documentos e registros legais permanecem intactos
+- O registro do setor não é excluído do banco de dados
+- Históricos de entregas de EPIs associados ao setor não são removidos
+- Vínculos existentes com colaboradores são mantidos, mas marcados como inativos
+- Documentos e registros legais permanecem intactos
 
 ## Verificações Prévias à Desativação
 
@@ -81,27 +81,27 @@ Para reativar um setor previamente desativado, entre em contato com o suporte.
 
 ## Considerações Importantes
 
-* A desativação deve ser utilizada em vez da exclusão quando o setor já possui histórico
-* Considere a reatribuição de colaboradores antes da desativação
-* Informe os usuários do sistema sobre mudanças na estrutura organizacional
-* Documente adequadamente o motivo da desativação para referência futura
-* Verifique o impacto em relatórios históricos antes de proceder
+- A desativação deve ser utilizada em vez da exclusão quando o setor já possui histórico
+- Considere a reatribuição de colaboradores antes da desativação
+- Informe os usuários do sistema sobre mudanças na estrutura organizacional
+- Documente adequadamente o motivo da desativação para referência futura
+- Verifique o impacto em relatórios históricos antes de proceder
 
 ## Alternativas à Desativação
 
 Em alguns casos, existem alternativas preferíveis à desativação:
 
-* **Renomeação**: Se apenas o nome mudou, edite o setor em vez de desativá-lo
-* **Reorganização**: Se houve fusão de departamentos, considere manter um dos setores e transferir os colaboradores
-* **Atualização de Descrição**: Se a função mudou mas a estrutura permanece, atualize a descrição
+- **Renomeação**: Se apenas o nome mudou, edite o setor em vez de desativá-lo
+- **Reorganização**: Se houve fusão de departamentos, considere manter um dos setores e transferir os colaboradores
+- **Atualização de Descrição**: Se a função mudou mas a estrutura permanece, atualize a descrição
 
 ## Impacto nas Unidades Vinculadas
 
 A desativação de um setor afeta sua relação com as unidades:
 
-* O setor desativado não aparecerá mais nas listas de setores das unidades
-* Os vínculos históricos são preservados para fins de rastreabilidade
-* Novos colaboradores não poderão ser atribuídos ao setor desativado
+- O setor desativado não aparecerá mais nas listas de setores das unidades
+- Os vínculos históricos são preservados para fins de rastreabilidade
+- Novos colaboradores não poderão ser atribuídos ao setor desativado
 
 ## Próximos Passos após Desativação
 
@@ -110,7 +110,3 @@ Após desativar um setor, considere:
 1. Verificar os colaboradores que estavam associados ao setor
 2. Atualizar documentação interna sobre a estrutura organizacional
 3. Comunicar a mudança às equipes relevantes
-
-***
-
-_Última atualização: 16 de Maio de 2025_

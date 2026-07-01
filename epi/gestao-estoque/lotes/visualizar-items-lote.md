@@ -30,23 +30,23 @@ A tela de visualização detalhada apresenta:
 
 No topo da página, são exibidas informações gerais:
 
-* **Quantidade Total**: Total de unidades no lote
-* **Custo Total**: Valor total de aquisição do lote
-* **Valor em Estoque**: Valor das unidades ainda disponíveis
-* **Dias até Vencimento**: Prazo restante até a data de validade
+- **Quantidade Total**: Total de unidades no lote
+- **Custo Total**: Valor total de aquisição do lote
+- **Valor em Estoque**: Valor das unidades ainda disponíveis
+- **Dias até Vencimento**: Prazo restante até a data de validade
 
 ### Lista de Itens Individuais
 
 A tabela principal exibe cada unidade física com as seguintes informações:
 
-* **Número de Série**: Identificador único de cada unidade (ex: CA43350-L02-00000001)
-* **Estado**: Status atual (Disponível, Em Uso, Inativo, Perda, Quebra)
-* **Validade**: Data até quando o item pode ser utilizado
-* **Usos**: Quantidade de vezes que o item foi utilizado
-* **Colaborador**: Pessoa que está utilizando o item (se aplicável)
-* **Unidade**: Local onde o item está alocado
-* **Última Alocação**: Data da última atribuição
-* **Devolução Prevista**: Data programada para retorno (se aplicável)
+- **Número de Série**: Identificador único de cada unidade (ex: CA43350-L02-00000001)
+- **Estado**: Status atual (Disponível, Em Uso, Inativo, Perda, Quebra)
+- **Validade**: Data até quando o item pode ser utilizado
+- **Usos**: Quantidade de vezes que o item foi utilizado
+- **Colaborador**: Pessoa que está utilizando o item (se aplicável)
+- **Unidade**: Local onde o item está alocado
+- **Última Alocação**: Data da última atribuição
+- **Devolução Prevista**: Data programada para retorno (se aplicável)
 
 ## Recursos de Navegação e Pesquisa
 
@@ -61,27 +61,23 @@ Para facilitar a análise de lotes grandes:
 
 Os itens podem apresentar diferentes estados, indicados por cores e rótulos:
 
-* **Disponível** (verde): Item em estoque, pronto para uso
-* **Em Uso** (azul): Atualmente alocado a um colaborador
-* **Inativo** (cinza): Temporariamente indisponível
-* **Perda** (vermelho): Reportado como perdido
-* **Quebra** (laranja): Danificado e fora de uso
+- **Disponível** (verde): Item em estoque, pronto para uso
+- **Em Uso** (azul): Atualmente alocado a um colaborador
+- **Inativo** (cinza): Temporariamente indisponível
+- **Perda** (vermelho): Reportado como perdido
+- **Quebra** (laranja): Danificado e fora de uso
 
 ## Aspectos Importantes
 
-* **Rastreabilidade**: Cada item possui um histórico completo e rastreável
-* **Auditoria**: A visualização detalhada é útil para verificações e auditorias
-* **Localização**: Facilita encontrar fisicamente os itens no estoque
-* **Análise de Uso**: Permite identificar padrões de utilização e desgaste
+- **Rastreabilidade**: Cada item possui um histórico completo e rastreável
+- **Auditoria**: A visualização detalhada é útil para verificações e auditorias
+- **Localização**: Facilita encontrar fisicamente os itens no estoque
+- **Análise de Uso**: Permite identificar padrões de utilização e desgaste
 
 ## Próximos Passos
 
 Após visualizar os itens do lote, você pode:
 
-* [Editar o lote](editar-lote.md) se necessário fazer ajustes na distribuição
-* [Gerenciar a validade](gerenciar-validade.md) para controlar os prazos de vencimento
-* Verificar o [estoque atual](../relatorios/estoque-atual.md) para uma visão consolidada
-
-***
-
-_Última atualização: 18 de Maio de 2025_
+- [Editar o lote](editar-lote.md) se necessário fazer ajustes na distribuição
+- [Gerenciar a validade](gerenciar-validade.md) para controlar os prazos de vencimento
+- Verificar o [estoque atual](../relatorios/estoque-atual.md) para uma visão consolidada

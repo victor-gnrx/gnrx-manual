@@ -14,28 +14,28 @@ Os Setores representam as diferentes áreas funcionais dentro de cada unidade da
 
 O módulo de Setores permite:
 
-* Definir os diferentes departamentos e áreas da empresa
-* Organizar colaboradores por função ou especialidade
-* Segmentar a entrega de EPIs conforme necessidades específicas
-* Monitorar estatísticas e indicadores por setor
-* Vincular setores a unidades específicas
+- Definir os diferentes departamentos e áreas da empresa
+- Organizar colaboradores por função ou especialidade
+- Segmentar a entrega de EPIs conforme necessidades específicas
+- Monitorar estatísticas e indicadores por setor
+- Vincular setores a unidades específicas
 
 ## Importância para a Gestão de EPIs
 
 A configuração adequada dos setores é essencial para:
 
-* **Análise Segmentada**: Avaliar indicadores de conformidade por setor
-* **Gestão Eficiente**: Facilitar a organização e distribuição de responsabilidades
-* **Auditoria Detalhada**: Permitir verificações específicas por área funcional
-* **Planejamento Preciso**: Dimensionar necessidades de estoque por setor
+- **Análise Segmentada**: Avaliar indicadores de conformidade por setor
+- **Gestão Eficiente**: Facilitar a organização e distribuição de responsabilidades
+- **Auditoria Detalhada**: Permitir verificações específicas por área funcional
+- **Planejamento Preciso**: Dimensionar necessidades de estoque por setor
 
 ## Relação com Outros Módulos
 
 Os Setores estabelecem importantes conexões com outros componentes do sistema:
 
-* **Unidades**: Cada setor pode existir em uma ou mais unidades físicas
-* **Colaboradores**: São vinculados a setores específicos dentro das unidades
-* **Relatórios**: Permitem análises comparativas entre diferentes setores
+- **Unidades**: Cada setor pode existir em uma ou mais unidades físicas
+- **Colaboradores**: São vinculados a setores específicos dentro das unidades
+- **Relatórios**: Permitem análises comparativas entre diferentes setores
 
 ## Hierarquia Organizacional
 
@@ -53,12 +53,12 @@ Esta estratificação permite um controle granular e eficiente das necessidades 
 
 Alguns setores frequentemente configurados incluem:
 
-* **Administrativo**: Funções de escritório e gestão
-* **Operacional**: Atividades relacionadas à produção
-* **Manutenção**: Equipes técnicas e de reparos
-* **Suprimentos/Logística**: Relacionado ao fluxo de materiais
-* **CIPA**: Comissão Interna de Prevenção de Acidentes
-* **Segurança do Trabalho**: Equipe especializada em SST
+- **Administrativo**: Funções de escritório e gestão
+- **Operacional**: Atividades relacionadas à produção
+- **Manutenção**: Equipes técnicas e de reparos
+- **Suprimentos/Logística**: Relacionado ao fluxo de materiais
+- **CIPA**: Comissão Interna de Prevenção de Acidentes
+- **Segurança do Trabalho**: Equipe especializada em SST
 
 A nomenclatura pode variar conforme o segmento de atuação da empresa e sua estrutura organizacional.
 
@@ -66,9 +66,9 @@ A nomenclatura pode variar conforme o segmento de atuação da empresa e sua est
 
 Para cada setor, o sistema monitora informações importantes:
 
-* **Total de Colaboradores**: Quantidade de funcionários no setor
-* **Unidades Vinculadas**: Localidades onde o setor está presente
-* **Tempo Ativo**: Período desde a criação do setor no sistema
+- **Total de Colaboradores**: Quantidade de funcionários no setor
+- **Unidades Vinculadas**: Localidades onde o setor está presente
+- **Tempo Ativo**: Período desde a criação do setor no sistema
 
 <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -76,20 +76,16 @@ Para cada setor, o sistema monitora informações importantes:
 
 Para gerenciar seus Setores no Sistema GNRX, consulte os seguintes guias:
 
-* [Listar Setores](listar-setores.md) - Como visualizar e filtrar os setores cadastrados
-* [Criar Setor](criar-setor.md) - Processo para adicionar um novo setor
-* [Editar Setor](editar-setor.md) - Como atualizar informações de setores existentes
-* [Desativar Setor](desativar-setor.md) - Procedimento para inativar temporariamente um setor
-* [Vincular Unidades](vincular-unidades.md) - Como associar um setor a diferentes unidades
+- [Listar Setores](listar-setores.md) - Como visualizar e filtrar os setores cadastrados
+- [Criar Setor](criar-setor.md) - Processo para adicionar um novo setor
+- [Editar Setor](editar-setor.md) - Como atualizar informações de setores existentes
+- [Desativar Setor](desativar-setor.md) - Procedimento para inativar temporariamente um setor
+- [Vincular Unidades](vincular-unidades.md) - Como associar um setor a diferentes unidades
 
 ## Recomendações
 
 Para uma gestão eficiente de seus setores, considere:
 
-* Padronizar a nomenclatura para facilitar relatórios comparativos
-* Revisar periodicamente a estrutura para garantir que reflete a organização atual
-* Manter descrições claras e objetivas para cada setor
-
-***
-
-_Última atualização: 16 de Maio de 2025_
+- Padronizar a nomenclatura para facilitar relatórios comparativos
+- Revisar periodicamente a estrutura para garantir que reflete a organização atual
+- Manter descrições claras e objetivas para cada setor

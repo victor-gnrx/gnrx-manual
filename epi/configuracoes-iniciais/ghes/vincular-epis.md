@@ -14,8 +14,8 @@ A vinculação de EPIs é o processo final na configuração de um GHE, onde sã
 
 No Sistema GNRx, existe uma relação direta entre:
 
-* Riscos ocupacionais identificados no GHE
-* EPIs necessários para proteção contra esses riscos
+- Riscos ocupacionais identificados no GHE
+- EPIs necessários para proteção contra esses riscos
 
 ## Acessando a Vinculação de EPIs
 
@@ -44,22 +44,22 @@ Ao clicar em "Ver EPIs" para um risco específico, o sistema exibirá a tela de 
 2. **Barra de Pesquisa**: Permite buscar EPIs específicos por nome ou características
 3. **Opção "Mostrar selecionados"**: Filtra para exibir apenas os EPIs já associados ao risco
 4. **Categorias de EPIs**: Organiza os equipamentos por tipo de proteção:
-   * EPI PARA PROTEÇÃO DA CABEÇA
-   * EPI PARA PROTEÇÃO DOS OLHOS E FACE
-   * EPI PARA PROTEÇÃO AUDITIVA
-   * EPI PARA PROTEÇÃO RESPIRATÓRIA
-   * EPI PARA PROTEÇÃO DO TRONCO
-   * EPI PARA PROTEÇÃO DOS MEMBROS SUPERIORES
-   * EPI PARA PROTEÇÃO DOS MEMBROS INFERIORES
-   * EPI PARA PROTEÇÃO DO CORPO INTEIRO
-   * EPI PARA PROTEÇÃO CONTRA QUEDAS
-   * OUTROS
+   - EPI PARA PROTEÇÃO DA CABEÇA
+   - EPI PARA PROTEÇÃO DOS OLHOS E FACE
+   - EPI PARA PROTEÇÃO AUDITIVA
+   - EPI PARA PROTEÇÃO RESPIRATÓRIA
+   - EPI PARA PROTEÇÃO DO TRONCO
+   - EPI PARA PROTEÇÃO DOS MEMBROS SUPERIORES
+   - EPI PARA PROTEÇÃO DOS MEMBROS INFERIORES
+   - EPI PARA PROTEÇÃO DO CORPO INTEIRO
+   - EPI PARA PROTEÇÃO CONTRA QUEDAS
+   - OUTROS
 5. **Botões de Ação**:
-   * **Selecionar Todos**: Seleciona todos os EPIs de uma categoria
-   * **Desmarcar Todos**: Remove todas as seleções de uma categoria
-   * **Expandir Todos**: Mostra todos os EPIs disponíveis
-   * **Salvar alterações**: Confirma as seleções feitas
-   * **Cancelar**: Descarta as alterações e retorna à tela anterior
+   - **Selecionar Todos**: Seleciona todos os EPIs de uma categoria
+   - **Desmarcar Todos**: Remove todas as seleções de uma categoria
+   - **Expandir Todos**: Mostra todos os EPIs disponíveis
+   - **Salvar alterações**: Confirma as seleções feitas
+   - **Cancelar**: Descarta as alterações e retorna à tela anterior
 
 ## Processo de Seleção de EPIs
 
@@ -73,10 +73,10 @@ Ao clicar em "Ver EPIs" para um risco específico, o sistema exibirá a tela de 
 
 Para facilitar a seleção:
 
-* Use **Selecionar Todos** para marcar todos os EPIs de uma categoria
-* Use **Desmarcar Todos** para limpar todas as seleções de uma categoria
-* Expanda e recolha categorias para melhor visualização
-* Utilize a barra de pesquisa para localizar EPIs específicos
+- Use **Selecionar Todos** para marcar todos os EPIs de uma categoria
+- Use **Desmarcar Todos** para limpar todas as seleções de uma categoria
+- Expanda e recolha categorias para melhor visualização
+- Utilize a barra de pesquisa para localizar EPIs específicos
 
 ### Finalizando a Seleção
 
@@ -92,24 +92,24 @@ Após ajustar a seleção de EPIs:
 
 A seleção de EPIs deve ser fundamentada em:
 
-* Avaliações quantitativas e qualitativas dos riscos
-* Especificações técnicas dos equipamentos
-* Normas regulamentadoras aplicáveis
-* Recomendações de especialistas em SST
+- Avaliações quantitativas e qualitativas dos riscos
+- Especificações técnicas dos equipamentos
+- Normas regulamentadoras aplicáveis
+- Recomendações de especialistas em SST
 
 ### Especificidade vs. Generalidade
 
-* **Seja específico**: Selecione apenas os EPIs realmente necessários para o risco
-* **Evite excesso**: Muitos EPIs podem dificultar a adesão e o uso correto
+- **Seja específico**: Selecione apenas os EPIs realmente necessários para o risco
+- **Evite excesso**: Muitos EPIs podem dificultar a adesão e o uso correto
 
 ### Impacto da Seleção
 
 A vinculação de EPIs determinará:
 
-* Quais equipamentos serão disponibilizados para solicitação
-* O que será exibido na Ficha de EPI Digital do colaborador
-* Os itens verificados em auditorias de conformidade
-* As estatísticas e análises de consumo
+- Quais equipamentos serão disponibilizados para solicitação
+- O que será exibido na Ficha de EPI Digital do colaborador
+- Os itens verificados em auditorias de conformidade
+- As estatísticas e análises de consumo
 
 ## Próximos Passos
 
@@ -125,7 +125,3 @@ Após vincular todos os EPIs necessários:
 | ------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | EPI necessário não disponível na lista     | Verifique se o item precisa ser [cadastrado](../../gestao-estoque/itens/criar-item-com-ca.md) no sistema |
 | Alterações não refletidas nas solicitações | Lembre-se que alterações afetam apenas novas solicitações, não as já realizadas                          |
-
-***
-
-_Última atualização: 16 de Maio de 2025_

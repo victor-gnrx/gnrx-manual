@@ -36,13 +36,13 @@ Ao clicar em "Novo Setor", o sistema exibirá um modal com o formulário de cria
 ## Preenchendo o Formulário
 
 1. Digite o **Nome** do setor
-   * Use nomes claros e padronizados
-   * Evite abreviações ambíguas
-   * Mantenha consistência com a nomenclatura organizacional da empresa
+   - Use nomes claros e padronizados
+   - Evite abreviações ambíguas
+   - Mantenha consistência com a nomenclatura organizacional da empresa
 2. Adicione uma **Descrição** (opcional)
-   * Detalhe a função ou escopo do setor
-   * Inclua informações relevantes para a gestão de EPIs
-   * Mencione particularidades importantes para a operação
+   - Detalhe a função ou escopo do setor
+   - Inclua informações relevantes para a gestão de EPIs
+   - Mencione particularidades importantes para a operação
 3. Revise as informações inseridas
 4. Clique no botão **Salvar** para criar o setor
 
@@ -77,15 +77,15 @@ Após vincular o setor a unidades, você pode:
 
 ## Considerações Importantes
 
-* A criação de um setor é apenas o primeiro passo - ele precisa ser vinculado a unidades para ser utilizável
-* O nome do setor deve refletir claramente sua função na organização
-* Setores bem estruturados facilitam a análise de conformidade e a gestão de EPIs
+- A criação de um setor é apenas o primeiro passo - ele precisa ser vinculado a unidades para ser utilizável
+- O nome do setor deve refletir claramente sua função na organização
+- Setores bem estruturados facilitam a análise de conformidade e a gestão de EPIs
 
 ## Melhores Práticas
 
-* **Padronização**: Estabeleça um padrão de nomenclatura para todos os setores
-* **Documentação**: Mantenha documentação externa complementar sobre responsabilidades e particularidades de cada setor
-* **Revisão Periódica**: Revise a estrutura de setores regularmente para garantir que reflete a organização atual
+- **Padronização**: Estabeleça um padrão de nomenclatura para todos os setores
+- **Documentação**: Mantenha documentação externa complementar sobre responsabilidades e particularidades de cada setor
+- **Revisão Periódica**: Revise a estrutura de setores regularmente para garantir que reflete a organização atual
 
 ## Solução de Problemas
 
@@ -93,7 +93,3 @@ Após vincular o setor a unidades, você pode:
 | ------------------------- | --------------------------------------------------------------------------------- |
 | Mensagem "Nome já existe" | Escolha um nome único para o setor ou verifique se o setor já existe com outro ID |
 | Erro ao salvar            | Verifique se todos os campos obrigatórios foram preenchidos corretamente          |
-
-***
-
-_Última atualização: 16 de Maio de 2025_

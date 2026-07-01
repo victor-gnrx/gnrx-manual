@@ -14,10 +14,10 @@ A vinculação entre setores e unidades é uma configuração fundamental no sis
 
 No Sistema GNRX:
 
-* Uma **Unidade** representa uma localidade física (filial, planta, escritório)
-* Um **Setor** representa uma área funcional (departamento, equipe)
-* Um mesmo setor pode existir em múltiplas unidades
-* Cada colaborador é vinculado a um setor dentro de uma unidade específica
+- Uma **Unidade** representa uma localidade física (filial, planta, escritório)
+- Um **Setor** representa uma área funcional (departamento, equipe)
+- Um mesmo setor pode existir em múltiplas unidades
+- Cada colaborador é vinculado a um setor dentro de uma unidade específica
 
 ![Conceito de Vínculo](<../../.gitbook/assets/Unidade 1.png>)
 
@@ -37,8 +37,8 @@ Na tela de detalhes do setor, a aba **Unidades** exibe:
 
 <figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
-* Lista das unidades onde o setor está presente
-* Quantidade de colaboradores do setor em cada unidade
+- Lista das unidades onde o setor está presente
+- Quantidade de colaboradores do setor em cada unidade
 
 Esta visualização permite uma rápida avaliação da distribuição do setor pela empresa.
 
@@ -64,20 +64,16 @@ Esta visualização permite uma rápida avaliação da distribuição do setor p
 
 A vinculação entre setores e unidades tem os seguintes impactos no sistema:
 
-* Define onde os colaboradores podem ser alocados
-* Afeta a organização de relatórios e estatísticas
-* Influencia a distribuição e gestão de EPIs
+- Define onde os colaboradores podem ser alocados
+- Afeta a organização de relatórios e estatísticas
+- Influencia a distribuição e gestão de EPIs
 
 ## Melhores Práticas
 
 Para uma gestão eficiente dos vínculos entre setores e unidades:
 
-* Configure todos os vínculos necessários antes de cadastrar colaboradores
-* Mantenha a mesma estrutura de setores entre unidades similares para facilitar comparações
-* Revise periodicamente os vínculos para garantir que refletem a estrutura atual da empresa
-* Documente a razão de vinculações específicas quando não forem óbvias
-* Considere o impacto na gestão de EPIs ao criar ou remover vínculos
-
-***
-
-_Última atualização: 16 de Maio de 2025_
+- Configure todos os vínculos necessários antes de cadastrar colaboradores
+- Mantenha a mesma estrutura de setores entre unidades similares para facilitar comparações
+- Revise periodicamente os vínculos para garantir que refletem a estrutura atual da empresa
+- Documente a razão de vinculações específicas quando não forem óbvias
+- Considere o impacto na gestão de EPIs ao criar ou remover vínculos

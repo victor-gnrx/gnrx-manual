@@ -44,8 +44,8 @@ Ao clicar em "Novo colaborador", o sistema exibirá um modal com o formulário d
 1. Preencha os campos obrigatórios (Nome, CPF e PIN de Acesso)
 2. Adicione informações complementares nos campos opcionais
 3. Para o campo **PIN de Acesso**, defina uma senha de 6 dígitos numéricos que será utilizada pelo colaborador para:
-   * Acessar o App GNRx - Colaborador
-   * Realizar confirmações de recebimento em tablets ou dispositivos móveis
+   - Acessar o App GNRx - Colaborador
+   - Realizar confirmações de recebimento em tablets ou dispositivos móveis
 4. Revise todas as informações inseridas
 5. Clique no botão **Salvar** para criar o colaborador
 
@@ -93,18 +93,18 @@ Defina o cargo do colaborador:
 
 ## Considerações Importantes
 
-* O CPF deve ser um número válido e único no sistema
-* O PIN de acesso deve ter exatamente 6 dígitos numéricos
-* Um colaborador não pode receber EPIs até que seja vinculado a um GHE
-* A estrutura completa (Unidade >  GHE) é necessária para o funcionamento adequado do sistema
+- O CPF deve ser um número válido e único no sistema
+- O PIN de acesso deve ter exatamente 6 dígitos numéricos
+- Um colaborador não pode receber EPIs até que seja vinculado a um GHE
+- A estrutura completa (Unidade > GHE) é necessária para o funcionamento adequado do sistema
 
 ## Melhores Práticas
 
-* **Dados Precisos**: Insira informações corretas e completas, especialmente CPF e nome
-* **Vínculos Adequados**: Associe o colaborador aos GHEs que correspondem exatamente às suas atividades reais
-* **Documentação**: Mantenha registros atualizados, especialmente após mudanças de função
-* **PIN Seguro**: Informe ao colaborador seu PIN inicial e oriente-o a mantê-lo seguro
-* **Cadastro Facial**: Após completar o cadastro básico, considere [cadastrar o reconhecimento facial](../reconhecimento-facial/cadastrar-face.md) para maior segurança nas entregas
+- **Dados Precisos**: Insira informações corretas e completas, especialmente CPF e nome
+- **Vínculos Adequados**: Associe o colaborador aos GHEs que correspondem exatamente às suas atividades reais
+- **Documentação**: Mantenha registros atualizados, especialmente após mudanças de função
+- **PIN Seguro**: Informe ao colaborador seu PIN inicial e oriente-o a mantê-lo seguro
+- **Cadastro Facial**: Após completar o cadastro básico, considere [cadastrar o reconhecimento facial](../reconhecimento-facial/cadastrar-face.md) para maior segurança nas entregas
 
 ## Erros Comuns e Soluções
 
@@ -113,7 +113,3 @@ Defina o cargo do colaborador:
 | "CPF já cadastrado"                   | Verifique se o colaborador já existe no sistema ou se o CPF foi digitado corretamente |
 | "PIN deve conter 6 dígitos numéricos" | Certifique-se que o PIN tenha exatamente 6 números                                    |
 | "Erro ao salvar"                      | Verifique se todos os campos obrigatórios foram preenchidos corretamente              |
-
-***
-
-_Última atualização: 16 de Maio de 2025_

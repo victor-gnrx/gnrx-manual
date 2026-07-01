@@ -25,61 +25,61 @@ Para registrar uma devolução de EPI:
 
 No formulário de devolução, o primeiro passo é selecionar o tipo de movimentação:
 
-* Escolha a opção **Devolução** no menu suspenso de "Tipo de movimentação"
-* Esta opção indica que o EPI está sendo devolvido em condições de uso ou armazenamento
+- Escolha a opção **Devolução** no menu suspenso de "Tipo de movimentação"
+- Esta opção indica que o EPI está sendo devolvido em condições de uso ou armazenamento
 
 ### 2. Definir se o Item Será Descartado
 
 O sistema oferece a opção de indicar se o item deve ser descartado após a devolução:
 
-* Marque a caixa **Descartar após devolução** se o item não puder ser reutilizado
-* Esta opção é útil para EPIs que, mesmo devolvidos, não têm mais condições adequadas de uso
+- Marque a caixa **Descartar após devolução** se o item não puder ser reutilizado
+- Esta opção é útil para EPIs que, mesmo devolvidos, não têm mais condições adequadas de uso
 
 ### 3. Registrar a Data de Devolução
 
 Informe quando o equipamento foi efetivamente devolvido:
 
-* Digite a data no formato solicitado ou use o seletor de calendário
-* Por padrão, a data atual é sugerida pelo sistema
-* Use o botão **Hoje** para definir automaticamente a data atual
+- Digite a data no formato solicitado ou use o seletor de calendário
+- Por padrão, a data atual é sugerida pelo sistema
+- Use o botão **Hoje** para definir automaticamente a data atual
 
 ### 4. Selecionar o Motivo da Devolução
 
 Escolha o motivo que melhor explica por que o equipamento está sendo devolvido:
 
-* Selecione uma das opções pré-configuradas no menu suspenso "Motivo da Devolução"
-* Os motivos são personalizáveis e definidos nas configurações da empresa
+- Selecione uma das opções pré-configuradas no menu suspenso "Motivo da Devolução"
+- Os motivos são personalizáveis e definidos nas configurações da empresa
 
 ### 5. Adicionar Observações (Opcional)
 
 Caso necessário, adicione informações complementares sobre a devolução:
 
-* Utilize o campo de texto "Observações" para registrar detalhes relevantes
-* Registre condições específicas do equipamento, circunstâncias da devolução ou outras informações importantes
+- Utilize o campo de texto "Observações" para registrar detalhes relevantes
+- Registre condições específicas do equipamento, circunstâncias da devolução ou outras informações importantes
 
 ### 6. Confirmar a Devolução
 
 Para finalizar o processo:
 
-* Revise todas as informações inseridas
-* Clique no botão **Confirmar**
-* O sistema processará a devolução e atualizará o status do equipamento no inventário
+- Revise todas as informações inseridas
+- Clique no botão **Confirmar**
+- O sistema processará a devolução e atualizará o status do equipamento no inventário
 
 ## Impacto no Estoque
 
 Ao registrar uma devolução:
 
-* O equipamento é marcado como "devolvido" no sistema
-* O status do item no inventário é atualizado para "disponível" (a menos que esteja marcado para descarte)
-* A associação entre o colaborador e o equipamento é encerrada
-* O histórico do equipamento é atualizado, mantendo o registro de quem o utilizou
+- O equipamento é marcado como "devolvido" no sistema
+- O status do item no inventário é atualizado para "disponível" (a menos que esteja marcado para descarte)
+- A associação entre o colaborador e o equipamento é encerrada
+- O histórico do equipamento é atualizado, mantendo o registro de quem o utilizou
 
 ## Considerações Importantes
 
-* **Inspeção física**: Sempre verifique as condições físicas do EPI antes de registrar a devolução
-* **Conformidade**: Equipamentos devolvidos em más condições podem exigir investigação e documentação adicional
-* **Higienização**: Verifique se o equipamento requer limpeza ou sanitização antes de retornar ao estoque
-* **Recertificação**: Alguns EPIs podem precisar de recertificação ou testes antes de serem disponibilizados novamente
+- **Inspeção física**: Sempre verifique as condições físicas do EPI antes de registrar a devolução
+- **Conformidade**: Equipamentos devolvidos em más condições podem exigir investigação e documentação adicional
+- **Higienização**: Verifique se o equipamento requer limpeza ou sanitização antes de retornar ao estoque
+- **Recertificação**: Alguns EPIs podem precisar de recertificação ou testes antes de serem disponibilizados novamente
 
 ## Solução de Problemas
 
@@ -94,11 +94,7 @@ Ao registrar uma devolução:
 
 Após registrar a devolução de um EPI, você pode:
 
-* Verificar o histórico atualizado do equipamento
-* Processar outros itens pendentes de devolução
-* Verificar se o equipamento necessita de manutenção antes de retornar ao estoque
-* Avaliar a necessidade de solicitar novos EPIs para reposição de estoque
-
-***
-
-_Última atualização: 18 de Maio de 2025_
+- Verificar o histórico atualizado do equipamento
+- Processar outros itens pendentes de devolução
+- Verificar se o equipamento necessita de manutenção antes de retornar ao estoque
+- Avaliar a necessidade de solicitar novos EPIs para reposição de estoque

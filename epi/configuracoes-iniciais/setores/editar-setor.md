@@ -49,57 +49,51 @@ A tela de edição apresenta um modal com o formulário preenchido com os dados 
 
 A edição de um setor pode ter os seguintes impactos no sistema:
 
-* Alterações no nome afetam todos os relatórios e listagens
-* Modificações são refletidas em todas as unidades onde o setor está presente
-* As atualizações são imediatamente visíveis para todos os usuários do sistema
-* Histórico de entregas de EPIs mantém a associação com o setor, mesmo após a edição
+- Alterações no nome afetam todos os relatórios e listagens
+- Modificações são refletidas em todas as unidades onde o setor está presente
+- As atualizações são imediatamente visíveis para todos os usuários do sistema
+- Histórico de entregas de EPIs mantém a associação com o setor, mesmo após a edição
 
 ## Limitações e Restrições
 
 Algumas limitações se aplicam à edição de setores:
 
-* Não é possível alterar o ID do setor
-* Se o setor possui colaboradores vinculados, a alteração de nome pode gerar confusão
-* Não é possível mesclar dois setores através da edição - para isso, crie um novo setor e reatribua os colaboradores
-
-
+- Não é possível alterar o ID do setor
+- Se o setor possui colaboradores vinculados, a alteração de nome pode gerar confusão
+- Não é possível mesclar dois setores através da edição - para isso, crie um novo setor e reatribua os colaboradores
 
 ## Visibilidade das Alterações
 
 Após editar um setor:
 
-* O novo nome é imediatamente exibido em todas as listas e relatórios
-* Os colaboradores vinculados permanecem associados ao setor
-* Os GHEs relacionados mantêm sua configuração
-* O histórico de modificações é registrado para auditoria
+- O novo nome é imediatamente exibido em todas as listas e relatórios
+- Os colaboradores vinculados permanecem associados ao setor
+- Os GHEs relacionados mantêm sua configuração
+- O histórico de modificações é registrado para auditoria
 
 ## Melhores Práticas
 
 Para uma edição eficiente de setores:
 
-* Mantenha a consistência na nomenclatura, mesmo após alterações
-* Comunique mudanças significativas aos usuários do sistema
-* Documente o motivo das alterações importantes
-* Evite mudanças frequentes na estrutura organizacional para não confundir os usuários
-* Considere o impacto das alterações nos relatórios históricos
+- Mantenha a consistência na nomenclatura, mesmo após alterações
+- Comunique mudanças significativas aos usuários do sistema
+- Documente o motivo das alterações importantes
+- Evite mudanças frequentes na estrutura organizacional para não confundir os usuários
+- Considere o impacto das alterações nos relatórios históricos
 
 ## Casos de Uso Comuns
 
 Situações típicas para edição de setores incluem:
 
-* Correção de erros ortográficos ou formatação
-* Atualização para refletir mudanças na estrutura organizacional
-* Melhoria na descrição para incluir informações mais detalhadas
-* Padronização de nomenclatura em toda a empresa
+- Correção de erros ortográficos ou formatação
+- Atualização para refletir mudanças na estrutura organizacional
+- Melhoria na descrição para incluir informações mais detalhadas
+- Padronização de nomenclatura em toda a empresa
 
 ## Próximos Passos
 
 Após editar um setor, considere:
 
-* Verificar se a edição está refletida corretamente nas diferentes unidades
-* Revisar os [colaboradores vinculados](../colaboradores/listar-colaboradores.md) ao setor
-* Informar as equipes de gestão sobre as mudanças realizadas
-
-***
-
-_Última atualização: 16 de Maio de 2025_
+- Verificar se a edição está refletida corretamente nas diferentes unidades
+- Revisar os [colaboradores vinculados](../colaboradores/listar-colaboradores.md) ao setor
+- Informar as equipes de gestão sobre as mudanças realizadas

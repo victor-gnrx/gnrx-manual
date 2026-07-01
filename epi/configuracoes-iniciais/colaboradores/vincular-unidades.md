@@ -14,11 +14,11 @@ A vinculação de colaboradores a unidades é um passo fundamental no sistema, p
 
 A correta associação entre colaboradores e unidades é essencial para:
 
-* Organizar adequadamente a estrutura hierárquica no sistema
-* Possibilitar a posterior vinculação a setores específicos
-* Definir de qual estoque os EPIs serão retirados
-* Gerar relatórios precisos por localidade
-* Facilitar a gestão descentralizada de equipamentos
+- Organizar adequadamente a estrutura hierárquica no sistema
+- Possibilitar a posterior vinculação a setores específicos
+- Definir de qual estoque os EPIs serão retirados
+- Gerar relatórios precisos por localidade
+- Facilitar a gestão descentralizada de equipamentos
 
 ## Acessando a Tela de Vinculação
 
@@ -51,10 +51,10 @@ Após a vinculação, a unidade aparecerá na estrutura hierárquica do colabora
 
 Esta visualização mostra:
 
-* A unidade vinculada
-* Setores associados (se houver)
-* Cargos definidos (se houver)
-* GHEs vinculados (se houver)
+- A unidade vinculada
+- Setores associados (se houver)
+- Cargos definidos (se houver)
+- GHEs vinculados (se houver)
 
 ## Vinculação a Múltiplas Unidades
 
@@ -87,19 +87,19 @@ Após vincular um colaborador a uma unidade, é necessário continuar a configur
 
 ## Considerações Importantes
 
-* Um colaborador deve estar vinculado a pelo menos uma unidade para receber EPIs
-* A vinculação a uma unidade afeta de qual estoque os EPIs serão retirados
-* Colaboradores que atuam em múltiplas unidades devem ter todas elas registradas
-* Alterações nos vínculos não afetam entregas já realizadas
-* A estrutura hierárquica deve refletir a realidade operacional da empresa
+- Um colaborador deve estar vinculado a pelo menos uma unidade para receber EPIs
+- A vinculação a uma unidade afeta de qual estoque os EPIs serão retirados
+- Colaboradores que atuam em múltiplas unidades devem ter todas elas registradas
+- Alterações nos vínculos não afetam entregas já realizadas
+- A estrutura hierárquica deve refletir a realidade operacional da empresa
 
 ## Melhores Práticas
 
-* Mantenha as vinculações atualizadas quando houver transferências entre unidades
-* Certifique-se de que a unidade selecionada corresponde à localização física real do colaborador
-* Para colaboradores que atuam em múltiplas unidades, defina a principal primeiro
-* Revise periodicamente os vínculos para garantir que refletem a situação atual
-* Ao desativar uma unidade, lembre-se de transferir os colaboradores para outras unidades ativas
+- Mantenha as vinculações atualizadas quando houver transferências entre unidades
+- Certifique-se de que a unidade selecionada corresponde à localização física real do colaborador
+- Para colaboradores que atuam em múltiplas unidades, defina a principal primeiro
+- Revise periodicamente os vínculos para garantir que refletem a situação atual
+- Ao desativar uma unidade, lembre-se de transferir os colaboradores para outras unidades ativas
 
 ## Erros Comuns e Soluções
 
@@ -108,7 +108,3 @@ Após vincular um colaborador a uma unidade, é necessário continuar a configur
 | "Unidade não encontrada" | Verifique se a unidade foi previamente cadastrada no sistema           |
 | "Erro ao vincular"       | Certifique-se de que tanto o colaborador quanto a unidade estão ativos |
 | "Não é possível remover" | Verifique se há entregas de EPIs pendentes relacionadas à unidade      |
-
-***
-
-_Última atualização: 16 de Maio de 2025_
