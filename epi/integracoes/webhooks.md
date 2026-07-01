@@ -1,6 +1,24 @@
 ---
 description: Configure webhooks para integrar sistemas externos aos eventos do gnrx
 icon: webhook
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Webhooks
@@ -263,9 +281,9 @@ Disparado quando um lote de estoque é criado (por lote manual ou por importaç�
 }
 ```
 
-- `unidade_medida` — unidade configurada no item (ex: `"un"`, `"kg"`, `"L"`)
-- `casas_decimais` — número de casas decimais para interpretar `quantidade_total` (0 = inteiro, 2 = dividir por 100, etc.)
-- `variantes` — lista das combinações de variação com suas quantidades; vazio `[]` quando o item não tem variantes ou foi importado via planilha de unitários
+* `unidade_medida` — unidade configurada no item (ex: `"un"`, `"kg"`, `"L"`)
+* `casas_decimais` — número de casas decimais para interpretar `quantidade_total` (0 = inteiro, 2 = dividir por 100, etc.)
+* `variantes` — lista das combinações de variação com suas quantidades; vazio `[]` quando o item não tem variantes ou foi importado via planilha de unitários
 
 ### `compra.criada`
 

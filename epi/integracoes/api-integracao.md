@@ -1,6 +1,24 @@
 ---
 description: Referência da API REST de integração do gnrx para sistemas externos (ERPs)
 icon: plug
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # API de Integração
@@ -17,13 +35,13 @@ A API de Integração GNRx permite que sistemas externos (ERPs, sistemas de RH, 
 
 Com esta API você pode:
 
-- Cadastrar e gerenciar funcionários, sincronizando com seu ERP/RH.
-- Consultar e gerenciar a estrutura organizacional (locais de trabalho, setores, cargos).
-- Consultar e gerenciar GHEs, riscos ocupacionais vinculados e os itens obrigatórios/opcionais de cada risco.
-- Consultar e cadastrar o catálogo de tipos de item e categorias de produto.
-- Consultar estoque (itens agregados, lotes de entrada, unidades individuais rastreadas) e cadastrar novos itens.
-- Consultar Certificados de Aprovação (CA) na base do Ministério do Trabalho.
-- Consultar solicitações de EPI, compra, transferência entre unidades e pedidos de parceiros.
+* Cadastrar e gerenciar funcionários, sincronizando com seu ERP/RH.
+* Consultar e gerenciar a estrutura organizacional (locais de trabalho, setores, cargos).
+* Consultar e gerenciar GHEs, riscos ocupacionais vinculados e os itens obrigatórios/opcionais de cada risco.
+* Consultar e cadastrar o catálogo de tipos de item e categorias de produto.
+* Consultar estoque (itens agregados, lotes de entrada, unidades individuais rastreadas) e cadastrar novos itens.
+* Consultar Certificados de Aprovação (CA) na base do Ministério do Trabalho.
+* Consultar solicitações de EPI, compra, transferência entre unidades e pedidos de parceiros.
 
 ## Autenticação
 
@@ -35,14 +53,14 @@ X-Gnrx-Api-Key: gnrx_sua_chave_aqui
 
 A chave é gerada e gerenciada no painel GNRx em **Configurações → Integrações → API**. Cada chave tem:
 
-| Propriedade           | Descrição                                                                                                                                                                                                                                       |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `empresa_id`          | Empresa à qual a chave pertence — toda operação é escopada a essa empresa.                                                                                                                                                                      |
-| Módulos habilitados   | Flags booleanas por domínio: `modulo_epi`, `modulo_auditoria`, `modulo_formulario`, `modulo_habilitacao`, `modulo_treinamento`. A maioria dos endpoints deste guia exige `modulo_epi = true`; se desabilitado, a API retorna **403 Forbidden**. |
-| `locais_trabalho_ids` | `null`/ausente = acesso **global** a todas as unidades da empresa. Uma lista de IDs = a chave só enxerga (e só pode escrever em) essas unidades específicas — ver [Restrição por unidade de trabalho](#restrição-por-unidade-de-trabalho).      |
-| Limite de requisições | Requisições por minuto permitidas para essa chave — ver [Rate limiting](#rate-limiting).                                                                                                                                                        |
+| Propriedade           | Descrição                                                                                                                                                                                                                                                   |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `empresa_id`          | Empresa à qual a chave pertence — toda operação é escopada a essa empresa.                                                                                                                                                                                  |
+| Módulos habilitados   | Flags booleanas por domínio: `modulo_epi`, `modulo_auditoria`, `modulo_formulario`, `modulo_habilitacao`, `modulo_treinamento`. A maioria dos endpoints deste guia exige `modulo_epi = true`; se desabilitado, a API retorna **403 Forbidden**.             |
+| `locais_trabalho_ids` | `null`/ausente = acesso **global** a todas as unidades da empresa. Uma lista de IDs = a chave só enxerga (e só pode escrever em) essas unidades específicas — ver [Restrição por unidade de trabalho](api-integracao.md#restrição-por-unidade-de-trabalho). |
+| Limite de requisições | Requisições por minuto permitidas para essa chave — ver [Rate limiting](api-integracao.md#rate-limiting).                                                                                                                                                   |
 
-Use o endpoint [`GET /ping`](#autenticação-ping) para validar se sua chave está funcionando antes de integrar o restante do fluxo.
+Use o endpoint [`GET /ping`](api-integracao.md#autenticação-ping) para validar se sua chave está funcionando antes de integrar o restante do fluxo.
 
 ## Convenções gerais
 
@@ -70,9 +88,9 @@ Toda resposta de sucesso (exceto `204 No Content`) vem embrulhada neste formato:
 }
 ```
 
-- `status`: mesmo valor do status HTTP da resposta.
-- `title`: `"OK"` (200), `"Created"` (201), `"Accepted"` (202), etc.
-- `data`: o payload do endpoint. Pode ser um objeto único, uma lista, ou uma página (ver [Paginação](#paginação)).
+* `status`: mesmo valor do status HTTP da resposta.
+* `title`: `"OK"` (200), `"Created"` (201), `"Accepted"` (202), etc.
+* `data`: o payload do endpoint. Pode ser um objeto único, uma lista, ou uma página (ver [Paginação](api-integracao.md#paginação)).
 
 `204 No Content` não tem corpo — usado em operações de exclusão/desvínculo/inativação bem-sucedidas.
 
@@ -106,11 +124,11 @@ Para paginar tudo, incremente `offset` em `limit` a cada chamada até `offset >=
 
 Quando a API Key tem `locais_trabalho_ids` restrito a uma lista de unidades:
 
-- **Listagens** (GHE, estoque de unitários, solicitações de EPI/compra/transferência): os resultados são filtrados automaticamente — você só recebe registros das unidades permitidas, sem precisar informar isso na requisição.
-- **Detalhe/consulta de um registro específico por ID**: se o registro pertencer a uma unidade fora da lista permitida, a API retorna **404 Not Found** (não 403 — para não vazar a existência do recurso).
-- **Criação/vínculo** (ex: criar GHE, vincular risco): se você informar explicitamente um `local_trabalho_id` fora da lista permitida, a API retorna **400 Bad Request**.
-- Solicitações de **parceiro-empresa** não têm relação com unidade — não são afetadas por essa restrição.
-- Solicitações de **transferência** (que têm unidade de origem e destino) ficam visíveis se **qualquer uma das duas** (origem ou destino) estiver na lista permitida.
+* **Listagens** (GHE, estoque de unitários, solicitações de EPI/compra/transferência): os resultados são filtrados automaticamente — você só recebe registros das unidades permitidas, sem precisar informar isso na requisição.
+* **Detalhe/consulta de um registro específico por ID**: se o registro pertencer a uma unidade fora da lista permitida, a API retorna **404 Not Found** (não 403 — para não vazar a existência do recurso).
+* **Criação/vínculo** (ex: criar GHE, vincular risco): se você informar explicitamente um `local_trabalho_id` fora da lista permitida, a API retorna **400 Bad Request**.
+* Solicitações de **parceiro-empresa** não têm relação com unidade — não são afetadas por essa restrição.
+* Solicitações de **transferência** (que têm unidade de origem e destino) ficam visíveis se **qualquer uma das duas** (origem ou destino) estiver na lista permitida.
 
 ### Rate limiting
 
@@ -181,7 +199,7 @@ Valida se a API Key fornecida é válida, ativa e não expirada. Use este endpoi
 
 **Status codes**: `200`, `401`.
 
----
+***
 
 ### Funcionários | Colaboradores
 
@@ -240,7 +258,7 @@ Cria um novo funcionário vinculado à empresa autenticada, já associado a loca
 
 **Status codes**: `201`, `400`, `401`, `500`.
 
----
+***
 
 #### `DELETE /integracao/v1/funcionario/{funcionario_id}`
 
@@ -272,7 +290,7 @@ Inativa um funcionário pelo ID interno. Se o funcionário possuir itens ativos 
 
 **Status codes**: `204`, `400` (não encontrado), `401`, `409`, `500`.
 
----
+***
 
 #### `DELETE /integracao/v1/funcionario/codigo/{codigo_integracao}`
 
@@ -282,7 +300,7 @@ Igual ao endpoint acima, mas localizando o funcionário pelo `codigo_integracao`
 
 **Status codes**: `204`, `400`, `401`, `409`, `500`.
 
----
+***
 
 #### `PATCH /integracao/v1/funcionario/{funcionario_id}/reativar`
 
@@ -294,7 +312,7 @@ Reativa um funcionário inativo pelo ID interno. Respeita o limite contratual de
 
 **Status codes**: `204`, `400` (não encontrado, já ativo, ou limite de funcionários atingido), `401`, `500`.
 
----
+***
 
 #### `PATCH /integracao/v1/funcionario/codigo/{codigo_integracao}/reativar`
 
@@ -302,7 +320,7 @@ Igual ao anterior, localizando pelo `codigo_integracao`.
 
 **Status codes**: `204`, `400`, `401`, `500`.
 
----
+***
 
 ### Locais de Trabalho | Unidades
 
@@ -332,7 +350,7 @@ Retorna todos os locais de trabalho (unidades) ativos vinculados à empresa aute
 
 **Status codes**: `200`, `401`, `500`.
 
----
+***
 
 ### GHEs | Grupos de Exposição
 
@@ -366,14 +384,13 @@ Lista todos os GHEs da empresa autenticada (visão resumida, sem riscos/itens).
 
 **Status codes**: `200`, `401`, `500`.
 
----
+***
 
 #### `GET /integracao/v1/ghe/{ghe_id}`
 
 Detalha um GHE com todos os riscos ocupacionais vinculados e, para cada risco, os itens (EPIs) obrigatórios/opcionais associados.
 
-**Requer módulo**: `modulo_epi`.
-**Restrição de unidade**: sim — retorna `404` se o GHE não estiver em uma unidade permitida.
+**Requer módulo**: `modulo_epi`. **Restrição de unidade**: sim — retorna `404` se o GHE não estiver em uma unidade permitida.
 
 **Path params**: `ghe_id` (integer, obrigatório).
 
@@ -418,14 +435,13 @@ Detalha um GHE com todos os riscos ocupacionais vinculados e, para cada risco, o
 
 **Status codes**: `200`, `401`, `403`, `404`, `429`, `500`.
 
----
+***
 
 #### `POST /integracao/v1/ghe`
 
 Cria um novo GHE.
 
-**Requer módulo**: `modulo_epi`.
-**Restrição de unidade**: sim — `local_trabalho_id` precisa estar entre as unidades permitidas da chave.
+**Requer módulo**: `modulo_epi`. **Restrição de unidade**: sim — `local_trabalho_id` precisa estar entre as unidades permitidas da chave.
 
 **Request body:**
 
@@ -469,7 +485,7 @@ Cria um novo GHE.
 
 **Status codes**: `201`, `400`, `401`, `403`, `409` (nome duplicado na unidade), `429`, `500`.
 
----
+***
 
 #### `PATCH /integracao/v1/ghe/{ghe_id}`
 
@@ -491,7 +507,7 @@ Atualiza parcialmente um GHE. Campos não enviados permanecem inalterados.
 
 **Status codes**: `200`, `400`, `401`, `403`, `404`, `429`, `500`.
 
----
+***
 
 #### `POST /integracao/v1/ghe/{ghe_id}/riscos`
 
@@ -524,7 +540,7 @@ Vincula um risco ocupacional já cadastrado a um GHE.
 
 **Status codes**: `201`, `400` (risco inválido/inativo), `401`, `403`, `404`, `409` (já vinculado), `429`, `500`.
 
----
+***
 
 #### `DELETE /integracao/v1/ghe/{ghe_id}/riscos/{risco_id}`
 
@@ -538,7 +554,7 @@ Desvincula um risco ocupacional do GHE. Os itens vinculados àquele risco dentro
 
 **Status codes**: `204`, `401`, `403`, `404`, `429`, `500`.
 
----
+***
 
 #### `POST /integracao/v1/ghe/{ghe_id}/riscos/{risco_id}/epis`
 
@@ -574,7 +590,7 @@ Vincula um item (EPI) a um risco já associado ao GHE, indicando se o uso é obr
 
 **Status codes**: `201`, `400` (item inválido/inativo), `401`, `403`, `404` (GHE ou risco não vinculado), `409` (já vinculado), `429`, `500`.
 
----
+***
 
 #### `DELETE /integracao/v1/ghe/{ghe_id}/riscos/{risco_id}/epis/{epi_id}`
 
@@ -586,7 +602,7 @@ Desvincula um item específico de um risco dentro de um GHE, sem afetar os demai
 
 **Status codes**: `204`, `401`, `403`, `404`, `429`, `500`.
 
----
+***
 
 ### Setores
 
@@ -615,7 +631,7 @@ Lista todos os setores da empresa autenticada.
 
 **Status codes**: `200`, `401`, `500`.
 
----
+***
 
 #### `POST /integracao/v1/setor`
 
@@ -649,7 +665,7 @@ Cria um novo setor.
 
 **Status codes**: `201`, `400`, `401`, `429`, `500`.
 
----
+***
 
 #### `PATCH /integracao/v1/setor/{setor_id}`
 
@@ -663,7 +679,7 @@ Atualiza parcialmente um setor. Campos não enviados permanecem inalterados.
 
 **Status codes**: `200`, `400`, `401`, `404`, `429`, `500`.
 
----
+***
 
 #### `DELETE /integracao/v1/setor/{setor_id}`
 
@@ -675,7 +691,7 @@ Inativa um setor. Não impede a inativação de setores com funcionários ou loc
 
 **Status codes**: `204`, `401`, `404`, `429`, `500`.
 
----
+***
 
 ### Cargos
 
@@ -697,7 +713,7 @@ Lista todos os cargos da empresa autenticada.
 
 **Status codes**: `200`, `401`, `500`.
 
----
+***
 
 #### `POST /integracao/v1/cargo`
 
@@ -729,7 +745,7 @@ Cria um novo cargo. O nome é normalizado para minúsculas.
 
 **Status codes**: `201`, `400`, `401`, `429`, `500`.
 
----
+***
 
 #### `PATCH /integracao/v1/cargo/{cargo_id}`
 
@@ -739,7 +755,7 @@ Atualiza parcialmente um cargo.
 
 **Status codes**: `200`, `400`, `401`, `404`, `429`, `500`.
 
----
+***
 
 #### `DELETE /integracao/v1/cargo/{cargo_id}`
 
@@ -749,7 +765,7 @@ Inativa um cargo. Não impede a inativação de cargos com funcionários vincula
 
 **Status codes**: `204`, `401`, `404`, `429`, `500`.
 
----
+***
 
 ### Riscos Ocupacionais
 
@@ -782,7 +798,7 @@ Lista o catálogo de riscos ocupacionais da empresa (inclui riscos globais do si
 
 **Status codes**: `200`, `401`, `403`, `429`, `500`.
 
----
+***
 
 #### `POST /integracao/v1/risco`
 
@@ -804,7 +820,7 @@ Cria um novo risco ocupacional para a empresa.
 
 **Status codes**: `201`, `400`, `401`, `403`, `429`, `500`.
 
----
+***
 
 #### `PATCH /integracao/v1/risco/{risco_id}`
 
@@ -814,7 +830,7 @@ Atualiza parcialmente um risco ocupacional. **Riscos globais do sistema (não pe
 
 **Status codes**: `200`, `400` (payload inválido ou risco é global), `401`, `403`, `404`, `429`, `500`.
 
----
+***
 
 #### `DELETE /integracao/v1/risco/{risco_id}`
 
@@ -824,11 +840,11 @@ Inativa um risco ocupacional da empresa. **Riscos globais não podem ser inativa
 
 **Status codes**: `204`, `400` (risco é global), `401`, `403`, `404`, `429`, `500`.
 
----
+***
 
 ### Tipos de Item
 
-Tipo de item é o catálogo de "tipos de EPI" no sentido amplo do domínio (produtos, ferramentas, uniformes, equipamentos de proteção) — cada item de estoque (ver [Estoque](#estoque)) referencia um tipo de item.
+Tipo de item é o catálogo de "tipos de EPI" no sentido amplo do domínio (produtos, ferramentas, uniformes, equipamentos de proteção) — cada item de estoque (ver [Estoque](api-integracao.md#estoque)) referencia um tipo de item.
 
 #### `GET /integracao/v1/tipo-item`
 
@@ -859,7 +875,7 @@ Lista todos os tipos de item da empresa, ativos e inativos.
 
 **Status codes**: `200`, `401`, `403`, `429`, `500`.
 
----
+***
 
 #### `POST /integracao/v1/tipo-item`
 
@@ -882,7 +898,7 @@ Cria um novo tipo de item, vinculado a uma categoria de produto já cadastrada.
 
 **Status codes**: `201`, `400` (payload inválido ou `categoria_produto_id` não encontrada), `401`, `403`, `429`, `500`.
 
----
+***
 
 ### Categorias de Produto
 
@@ -915,7 +931,7 @@ Lista todas as categorias de produto da empresa, incluindo categorias globais do
 
 **Status codes**: `200`, `401`, `403`, `429`, `500`.
 
----
+***
 
 #### `POST /integracao/v1/categoria-produto`
 
@@ -936,7 +952,7 @@ Cria uma nova categoria de produto.
 
 **Status codes**: `201`, `400`, `401`, `403`, `429`, `500`.
 
----
+***
 
 ### Estoque
 
@@ -987,7 +1003,7 @@ Lista os itens de estoque da empresa, paginado, com filtro opcional por categori
 
 **Status codes**: `200`, `401`, `403`, `429`, `500`.
 
----
+***
 
 #### `POST /integracao/v1/estoque/item`
 
@@ -1014,26 +1030,26 @@ Cria um novo item de estoque, vinculado a um tipo de item já cadastrado (`epi_i
 }
 ```
 
-| Campo               | Tipo             | Obrigatório          | Descrição                                                               |
-| ------------------- | ---------------- | -------------------- | ----------------------------------------------------------------------- |
-| `nome`              | string (1-255)   | Sim                  | Nome do item.                                                           |
-| `epi_id`            | string           | Sim                  | ID do tipo de item já cadastrado (ver [Tipos de Item](#tipos-de-item)). |
-| `descricao`         | string           | Não                  | Descrição livre.                                                        |
-| `numero_ca`         | string (máx. 20) | Não                  | Número do Certificado de Aprovação, se aplicável.                       |
-| `fabricante_id`     | integer          | Não                  | ID do fabricante.                                                       |
-| `custo`             | integer          | Não                  | Custo unitário em centavos.                                             |
-| `tempo_troca_dias`  | integer          | Não                  | Período padrão de troca, em dias.                                       |
-| `controla_unitario` | boolean          | Não (padrão `true`)  | Se cada unidade é rastreada individualmente por número de série.        |
-| `sem_devolucao`     | boolean          | Não (padrão `false`) | Se o item não é passível de devolução após entrega.                     |
-| `unidade_medida`    | string           | Não (padrão `"un"`)  | Unidade de medida (`un`, `kg`, `L`, `m`, etc.).                         |
-| `casas_decimais`    | integer          | Não (padrão `0`)     | Casas decimais para itens medidos em fração (ex: metros, litros).       |
-| `codigo_integracao` | string           | Não                  | Código de referência no seu sistema.                                    |
+| Campo               | Tipo             | Obrigatório          | Descrição                                                                                |
+| ------------------- | ---------------- | -------------------- | ---------------------------------------------------------------------------------------- |
+| `nome`              | string (1-255)   | Sim                  | Nome do item.                                                                            |
+| `epi_id`            | string           | Sim                  | ID do tipo de item já cadastrado (ver [Tipos de Item](api-integracao.md#tipos-de-item)). |
+| `descricao`         | string           | Não                  | Descrição livre.                                                                         |
+| `numero_ca`         | string (máx. 20) | Não                  | Número do Certificado de Aprovação, se aplicável.                                        |
+| `fabricante_id`     | integer          | Não                  | ID do fabricante.                                                                        |
+| `custo`             | integer          | Não                  | Custo unitário em centavos.                                                              |
+| `tempo_troca_dias`  | integer          | Não                  | Período padrão de troca, em dias.                                                        |
+| `controla_unitario` | boolean          | Não (padrão `true`)  | Se cada unidade é rastreada individualmente por número de série.                         |
+| `sem_devolucao`     | boolean          | Não (padrão `false`) | Se o item não é passível de devolução após entrega.                                      |
+| `unidade_medida`    | string           | Não (padrão `"un"`)  | Unidade de medida (`un`, `kg`, `L`, `m`, etc.).                                          |
+| `casas_decimais`    | integer          | Não (padrão `0`)     | Casas decimais para itens medidos em fração (ex: metros, litros).                        |
+| `codigo_integracao` | string           | Não                  | Código de referência no seu sistema.                                                     |
 
 **Response `201`**: mesmo formato de um item da listagem acima.
 
 **Status codes**: `201`, `400` (payload inválido ou `epi_id` não encontrado), `401`, `403`, `409` (CA duplicado nesta empresa), `429`, `500`.
 
----
+***
 
 #### `GET /integracao/v1/estoque/item/{item_epi_id}/lote`
 
@@ -1073,7 +1089,7 @@ Lista os lotes de entrada de um item de estoque, paginado.
 
 **Status codes**: `200`, `401`, `403`, `404` (item não encontrado), `429`, `500`.
 
----
+***
 
 #### `GET /integracao/v1/estoque/item/{item_epi_id}/unitario`
 
@@ -1119,7 +1135,7 @@ Lista as unidades individuais rastreadas de um item (para itens com `controla_un
 
 **Status codes**: `200`, `400` (`local_trabalho_id` fora das unidades permitidas), `401`, `403`, `404` (item não encontrado), `429`, `500`.
 
----
+***
 
 #### `GET /integracao/v1/estoque/item/{item_epi_id}/unitario/{unitario_id}`
 
@@ -1133,7 +1149,7 @@ Busca os dados de uma unidade individual específica.
 
 **Status codes**: `200`, `401`, `403`, `404`, `429`, `500`.
 
----
+***
 
 ### Certificados de Aprovação (CA)
 
@@ -1162,7 +1178,7 @@ Consulta um Certificado de Aprovação (CA) na base do Ministério do Trabalho e
 
 **Status codes**: `200`, `401`, `403`, `404` (CA não encontrado na base), `429`, `500`, `503` (serviço de CA indisponível).
 
----
+***
 
 ### Solicitações
 
@@ -1202,7 +1218,7 @@ Lista as solicitações de EPI, paginado, com filtros.
 
 **Status codes**: `200`, `401`, `403`, `429`, `500`.
 
----
+***
 
 #### `GET /integracao/v1/solicitacao/epi/{id}`
 
@@ -1216,7 +1232,7 @@ Detalha uma solicitação de EPI específica.
 
 **Status codes**: `200`, `401`, `403`, `404`, `429`, `500`.
 
----
+***
 
 #### `GET /integracao/v1/solicitacao/compra`
 
@@ -1252,7 +1268,7 @@ Lista as solicitações de compra de itens para reposição de estoque.
 
 **Status codes**: `200`, `400` (`local_trabalho_id` fora das unidades permitidas), `401`, `403`, `429`, `500`.
 
----
+***
 
 #### `GET /integracao/v1/solicitacao/compra/{id}`
 
@@ -1262,7 +1278,7 @@ Detalha uma solicitação de compra específica.
 
 **Status codes**: `200`, `401`, `403`, `404`, `429`, `500`.
 
----
+***
 
 #### `GET /integracao/v1/solicitacao/transferencia`
 
@@ -1299,7 +1315,7 @@ Lista as solicitações de transferência de itens entre unidades.
 
 **Status codes**: `200`, `401`, `403`, `429`, `500`.
 
----
+***
 
 #### `GET /integracao/v1/solicitacao/transferencia/{id}`
 
@@ -1309,7 +1325,7 @@ Detalha uma solicitação de transferência específica.
 
 **Status codes**: `200`, `401`, `403`, `404`, `429`, `500`.
 
----
+***
 
 #### `GET /integracao/v1/solicitacao/parceiro`
 
@@ -1344,7 +1360,7 @@ Lista as solicitações feitas por parceiros (fornecedores/prestadores) para a e
 
 **Status codes**: `200`, `401`, `403`, `429`, `500`.
 
----
+***
 
 #### `GET /integracao/v1/solicitacao/parceiro/{id}`
 
@@ -1354,7 +1370,7 @@ Detalha uma solicitação de parceiro específica.
 
 **Status codes**: `200`, `401`, `403`, `404`, `429`, `500`.
 
----
+***
 
 ## Fluxos de exemplo (cookbook)
 
