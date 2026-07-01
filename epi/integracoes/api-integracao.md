@@ -52,7 +52,9 @@ Use o endpoint [`GET /ping`](#autenticação-ping) para validar se sua chave est
 https://<seu-dominio-gnrx>/integracao/v1/
 ```
 
-A API está na versão `v1`. Mudanças que quebrem compatibilidade serão lançadas em uma nova versão de path (`v2`, etc.) — o contrato de `v1` não muda de forma incompatível.
+A API está na versão `v1`. Mudanças que quebrem compatibilidade serão lançadas em uma nova versão de path (`v2`, etc.) — `v1` não muda de forma incompatível e, por ser uma API aberta, nenhuma versão publicada é desativada. Há também um ambiente de sandbox espelhado em `/integracao/sandbox/v1/`, com API Key de teste dedicada, para validar integrações antes de ir a produção.
+
+Veja a [Política de Versionamento](versionamento.md) para o detalhamento de quais mudanças são compatíveis, o ciclo de vida das versões e o changelog.
 
 ### Envelope de resposta (sucesso)
 
