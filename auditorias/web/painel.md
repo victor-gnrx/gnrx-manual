@@ -1,6 +1,24 @@
 ---
 description: Conheça o Painel Principal (Dashboard) do Sistema GNRX Auditorias
 icon: chart-line
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Painel (Dashboard)

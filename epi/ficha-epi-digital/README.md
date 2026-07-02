@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Ficha de EPI Digital
 
 A Ficha de EPI Digital é uma funcionalidade inovadora do Sistema GNRX que substitui as tradicionais fichas de controle de EPIs em papel, oferecendo um registro digital completo, seguro e de fácil acesso de todos os equipamentos fornecidos aos colaboradores.

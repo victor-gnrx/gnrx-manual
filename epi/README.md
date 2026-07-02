@@ -1,6 +1,24 @@
 ---
 description: Manual detalhado do Módulo Gestão de EPIs - GNRx
 icon: helmet-safety
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Introdução ao Gestão de EPIs

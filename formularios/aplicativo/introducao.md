@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Introdução ao Aplicativo Mobile
 
 O aplicativo mobile GNRx Formulários permite o preenchimento de formulários diretamente em campo, funcionando online e offline com sincronização automática.

@@ -3,6 +3,24 @@ description: >-
   Como criar e gerenciar modelos de checklist personalizados para suas
   necessidades específicas
 icon: clipboard-prescription
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Modelos Customizados

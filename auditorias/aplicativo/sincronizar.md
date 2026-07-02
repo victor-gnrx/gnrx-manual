@@ -1,6 +1,24 @@
 ---
 description: Transferindo dados entre o aplicativo e o servidor
 icon: arrows-rotate
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Como Sincronizar com o Servidor

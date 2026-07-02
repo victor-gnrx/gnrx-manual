@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Estados e Status
 
 O aplicativo utiliza indicadores visuais claros para comunicar o estado dos formulários e registros, facilitando o entendimento do status de sincronização e disponibilidade.

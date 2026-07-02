@@ -3,6 +3,24 @@ description: >-
   Esta página explica como gerar e acessar a ficha de EPI individual de
   colaboradores no Sistema GNRx Gestão de EPI.
 icon: clipboard
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Acessar Ficha

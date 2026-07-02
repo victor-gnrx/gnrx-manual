@@ -1,6 +1,24 @@
 ---
 description: Concluindo e compartilhando sua auditoria
 icon: check-circle
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Finalizando e Enviando a Auditoria
