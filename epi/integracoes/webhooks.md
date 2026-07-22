@@ -25,6 +25,36 @@ layout:
 
 Webhooks permitem que sistemas externos recebam notificações em tempo real quando eventos ocorrem no gnrx. Em vez de fazer polling na API, você cadastra uma URL e o gnrx faz um `POST` para ela sempre que um evento acontecer.
 
+## Cadastro do webhook (verificação da URL)
+
+Ao cadastrar a URL do webhook, o gnrx faz uma verificação única antes de aceitar o endpoint — isso confirma que você controla essa URL antes de começar a enviar eventos reais para ela.
+
+**Requisição enviada:**
+
+```
+POST <sua-url>
+X-Gnrx-Evento: webhook.verificacao
+Content-Type: application/json
+```
+
+```json
+{
+  "evento": "webhook.verificacao",
+  "challenge": "<token aleatório>"
+}
+```
+
+Sua URL deve responder com:
+
+* **HTTP 2xx** — qualquer outro status reprova o cadastro.
+* Corpo JSON ecoando o mesmo `challenge` recebido: `{ "challenge": "<mesmo token>" }`.
+
+Se o `challenge` não for ecoado exatamente igual, o cadastro é recusado e o webhook não é salvo. Timeout de 10 segundos.
+
+{% hint style="warning" %}
+Essa requisição de verificação **não é assinada** — ela não leva o header `X-Gnrx-Signature`. A assinatura HMAC só é aplicada nas entregas de eventos reais (veja [Verificação de assinatura](#verificacao-de-assinatura)).
+{% endhint %}
+
 ## Eventos disponíveis
 
 | Evento                     | Campo na configuração             | Quando dispara                                                                                  |
