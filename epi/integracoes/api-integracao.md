@@ -130,6 +130,10 @@ Quando a API Key tem `locais_trabalho_ids` restrito a uma lista de unidades:
 * Solicitações de **parceiro-empresa** não têm relação com unidade — não são afetadas por essa restrição.
 * Solicitações de **transferência** (que têm unidade de origem e destino) ficam visíveis se **qualquer uma das duas** (origem ou destino) estiver na lista permitida.
 
+{% hint style="info" %}
+**Centro de Estoque**: estoque (itens unitários), solicitações de compra e solicitações de transferência não são mais vinculados diretamente a `local_trabalho_id` — são vinculados a `centro_estoque_id`. A API resolve internamente os centros de estoque associados aos `locais_trabalho_ids` da chave (via os vínculos configurados no painel) para aplicar o mesmo filtro automático. Isso é transparente para quem consome a API — mas se você comparar `centro_estoque_id` retornado com um `local_trabalho_id` do seu sistema, eles **não são o mesmo ID**.
+{% endhint %}
+
 ### Rate limiting
 
 Cada API Key tem um limite de requisições por minuto (configurável no painel). Toda resposta inclui headers informativos:
@@ -236,8 +240,15 @@ Cria um novo funcionário vinculado à empresa autenticada, já associado a loca
 | `nome`              | string (máx. 255)   | Sim         | Nome completo do funcionário.                                                                                |
 | `cpf`               | string (11 dígitos) | Sim         | CPF sem pontuação.                                                                                           |
 | `senha`             | string (6 dígitos)  | Sim         | Senha inicial de acesso do funcionário.                                                                      |
-| `codigo_integracao` | string              | Não         | Código do funcionário no seu sistema de origem, usado para futuras operações (inativar/reativar por código). |
-| `locais_trabalho`   | array               | Sim         | Locais de trabalho, setores e cargos aos quais o funcionário é associado na criação.                         |
+| `codigo_integracao` | string              | Não         | Código do funcionário no seu sistema de origem, usado para futuras operações (inativar/reativar por código). Não é devolvido na response de criação. |
+| `email`              | string (máx. 255)  | Não         | E-mail do funcionário. Armazenado em minúsculas.                                                              |
+| `telefone`           | string (máx. 20)   | Não         | Telefone de contato.                                                                                          |
+| `data_adesao`        | string (`YYYY-MM-DD`) | Não      | Data de adesão do funcionário à empresa.                                                                      |
+| `matricula`          | string (máx. 20)   | Não         | Matrícula interna do funcionário.                                                                             |
+| `turno`              | string (máx. 20)   | Não         | Turno de trabalho (ex: `"Manhã"`, `"Tarde"`, `"Noite"`).                                                      |
+| `empresa_terceira_id`| integer             | Não         | ID da empresa terceira à qual o funcionário pertence — deve pertencer à mesma empresa principal da chave.     |
+| `ghes_ids`           | array de integer   | Não         | IDs de GHEs aos quais o funcionário é associado na criação.                                                  |
+| `locais_trabalho`   | array               | Não         | Locais de trabalho, setores e cargos aos quais o funcionário é associado na criação.                         |
 
 **Response `201`:**
 
@@ -247,14 +258,29 @@ Cria um novo funcionário vinculado à empresa autenticada, já associado a loca
   "title": "Created",
   "data": {
     "id": 987,
-    "nome": "João da Silva",
     "cpf": "12345678901",
-    "codigo_integracao": "EMP-001",
+    "nome": "JOÃO DA SILVA",
+    "email": null,
+    "telefone": null,
+    "criado_em": "2026-07-01T12:00:00Z",
+    "atualizado_em": "2026-07-01T12:00:00Z",
     "situacao": 0,
-    "criado_em": "2026-07-01T12:00:00Z"
+    "reconhecimento_facial_cadastrado": false,
+    "data_adesao": null,
+    "data_encerramento": null,
+    "matricula": null,
+    "turno": null,
+    "empresa_terceira_id": null,
+    "motivo_afastamento": null,
+    "data_reativacao_prevista": null,
+    "retorno_automatico": false
   }
 }
 ```
+
+{% hint style="info" %}
+`nome` e `cpf` são normalizados para maiúsculas/minúsculas no armazenamento. O `codigo_integracao` enviado na criação **não é devolvido** nesta response — ele é usado internamente para as operações de inativar/reativar por código e para o payload do webhook `funcionario.criado`.
+{% endhint %}
 
 **Status codes**: `201`, `400`, `401`, `500`.
 
@@ -262,17 +288,29 @@ Cria um novo funcionário vinculado à empresa autenticada, já associado a loca
 
 #### `DELETE /integracao/v1/funcionario/{funcionario_id}`
 
-Inativa um funcionário pelo ID interno. Se o funcionário possuir itens ativos em seu nome, retorna `409` pedindo confirmação explícita. Reconhecimentos faciais associados são removidos automaticamente.
+Inativa um funcionário pelo ID interno — permanentemente (desligamento) ou temporariamente (afastamento com motivo, ex: licença médica, alistamento militar). Se o funcionário possuir itens ativos em seu nome, retorna `409` pedindo confirmação explícita. Reconhecimentos faciais associados são removidos automaticamente.
 
 **Path params**: `funcionario_id` (integer, obrigatório).
 
-**Request body (opcional, para confirmar mesmo com itens ativos):**
+**Request body (todos os campos opcionais):**
 
 ```json
 {
-  "confirmacoes": ["possui_itens_ativos"]
+  "confirmacoes": ["possui_itens_ativos"],
+  "tipo_motivo": 3,
+  "motivo_descricao": "Licença maternidade — retorno previsto em outubro/2026",
+  "data_reativacao_prevista": "2026-10-01",
+  "retorno_automatico": false
 }
 ```
+
+| Campo                       | Tipo             | Descrição                                                                                                              |
+| ---------------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `confirmacoes`               | array de string  | Confirmações explícitas — ver resposta `409` abaixo.                                                                     |
+| `tipo_motivo`                | integer          | `1`=Desligamento (padrão), `2`=Alistamento militar, `3`=Licença maternidade, `4`=Licença paternidade, `5`=Licença médica, `6`=Licença sem vencimento, `7`=Outro. |
+| `motivo_descricao`           | string           | Detalhamento livre do motivo. Obrigatório quando `tipo_motivo = 7`.                                                       |
+| `data_reativacao_prevista`   | string (`YYYY-MM-DD`) | Data prevista de retorno — apenas informativa, a não ser que `retorno_automatico = true`.                            |
+| `retorno_automatico`         | boolean (padrão `false`) | Se `true`, o funcionário é reativado automaticamente na data prevista (exige `data_reativacao_prevista`).      |
 
 **Response `204`**: sem corpo.
 
@@ -335,15 +373,22 @@ Retorna todos os locais de trabalho (unidades) ativos vinculados à empresa aute
   "status": 200,
   "title": "OK",
   "data": {
-    "locais": [
+    "locais_trabalho": [
       {
         "id": 1,
         "nome": "Filial São Paulo",
-        "ativo": true,
-        "contagem_funcionarios": 150,
-        "contagem_ghes": 8
+        "descricao": null,
+        "endereco": null,
+        "criado_em": "2026-01-05T09:00:00Z",
+        "atualizado_em": "2026-01-05T09:00:00Z",
+        "situacao": 0,
+        "quantidade_funcionarios": 150,
+        "quantidade_setores": 6
       }
-    ]
+    ],
+    "total_locais_trabalho": 1,
+    "permite_adicionar_unidades": true,
+    "limite_unidades": 10
   }
 }
 ```
@@ -377,7 +422,8 @@ Lista todos os GHEs da empresa autenticada (visão resumida, sem riscos/itens).
         "criado_em": "2026-01-10T09:00:00Z",
         "atualizado_em": "2026-01-10T09:00:00Z"
       }
-    ]
+    ],
+    "total_ghes": 1
   }
 }
 ```
@@ -624,7 +670,8 @@ Lista todos os setores da empresa autenticada.
         "descricao": "Linha de produção",
         "situacao": 0
       }
-    ]
+    ],
+    "total_setores": 1
   }
 }
 ```
@@ -706,7 +753,8 @@ Lista todos os cargos da empresa autenticada.
   "status": 200,
   "title": "OK",
   "data": {
-    "cargos": [{ "id": 10, "nome": "operador de produção", "situacao": 0 }]
+    "cargos": [{ "id": 10, "nome": "operador de produção", "situacao": 0 }],
+    "total_cargos": 1
   }
 }
 ```
@@ -791,7 +839,8 @@ Lista o catálogo de riscos ocupacionais da empresa (inclui riscos globais do si
         "categoria_nome": "Físico",
         "situacao": 0
       }
-    ]
+    ],
+    "total_riscos": 1
   }
 }
 ```
@@ -862,16 +911,20 @@ Lista todos os tipos de item da empresa, ativos e inativos.
     "tipos_epi": [
       {
         "id": "EPI_001",
-        "nome": "Protetor Auricular",
-        "descricao": "Protetores auriculares tipo concha ou plug",
+        "descricao": "Protetor Auricular Tipo Concha ou Plug",
+        "situacao": 0,
         "categoria_produto_id": 3,
-        "categoria_nome": "Proteção Auditiva",
-        "situacao": 0
+        "ordem": 1
       }
-    ]
+    ],
+    "total_tipos_epi": 1
   }
 }
 ```
+
+{% hint style="warning" %}
+Não há campo `nome` nem `categoria_nome` neste DTO — apenas `descricao`. `ordem` é a posição de exibição do tipo dentro da categoria no painel.
+{% endhint %}
 
 **Status codes**: `200`, `401`, `403`, `429`, `500`.
 
@@ -879,7 +932,7 @@ Lista todos os tipos de item da empresa, ativos e inativos.
 
 #### `POST /integracao/v1/tipo-item`
 
-Cria um novo tipo de item, vinculado a uma categoria de produto já cadastrada.
+Cria um novo tipo de item, vinculado a uma categoria de produto já cadastrada. O `id` **não é enviado pelo cliente** — é gerado pelo servidor no formato `P{empresa_id}__{sufixo aleatório}` (ex: `P42__a1b2c3d4`).
 
 **Requer módulo**: `modulo_epi`.
 
@@ -887,12 +940,21 @@ Cria um novo tipo de item, vinculado a uma categoria de produto já cadastrada.
 
 ```json
 {
-  "nome": "Luva de Raspa",
-  "descricao": "Luvas de proteção para manuseio de materiais abrasivos",
+  "descricao": "Luva de Raspa para manuseio de materiais abrasivos",
   "categoria_produto_id": 5,
-  "codigo_integracao": "TIPO-LUVA-01"
+  "epi_id": "LUVA-01"
 }
 ```
+
+| Campo                  | Tipo               | Obrigatório | Descrição                                                                                     |
+| ----------------------- | ------------------ | ----------- | ----------------------------------------------------------------------------------------------- |
+| `descricao`             | string (1-500)     | Sim         | Descrição do tipo de item (ex: "Capacete de Segurança", "Furadeira", "Uniforme").               |
+| `categoria_produto_id`  | integer            | Sim         | ID da categoria de produto à qual este tipo pertence — deve pertencer à empresa ou ser global.  |
+| `epi_id`                | string (máx. 10)   | Não         | Código curto opcional de referência — **não** é o `id` retornado na response, que é sempre gerado pelo servidor. |
+
+{% hint style="warning" %}
+Não existem campos `nome` nem `codigo_integracao` neste payload.
+{% endhint %}
 
 **Response `201`**: mesmo formato do item da listagem acima.
 
@@ -922,12 +984,19 @@ Lista todas as categorias de produto da empresa, incluindo categorias globais do
         "id": 3,
         "nome": "Proteção Auditiva",
         "descricao": "Itens de proteção auditiva",
-        "situacao": 0
+        "cor": "#2563EB",
+        "icone": "headphones",
+        "ativo": true
       }
-    ]
+    ],
+    "total_categorias": 1
   }
 }
 ```
+
+{% hint style="warning" %}
+O campo de status aqui é `ativo` (boolean) — não `situacao` como nas demais entidades da API.
+{% endhint %}
 
 **Status codes**: `200`, `401`, `403`, `429`, `500`.
 
@@ -944,9 +1013,18 @@ Cria uma nova categoria de produto.
 ```json
 {
   "nome": "Uniformes",
-  "descricao": "Uniformes e vestimentas de trabalho"
+  "descricao": "Uniformes e vestimentas de trabalho",
+  "cor": "#FF0000",
+  "icone": "shirt"
 }
 ```
+
+| Campo        | Tipo               | Obrigatório | Descrição                                  |
+| ------------- | ------------------ | ----------- | --------------------------------------------- |
+| `nome`        | string (1-100)     | Sim         | Nome da categoria.                            |
+| `descricao`   | string             | Não         | Descrição livre.                              |
+| `cor`         | string (máx. 7)    | Não         | Cor em hexadecimal (ex: `#FF0000`).           |
+| `icone`       | string (máx. 50)   | Não         | Identificador do ícone exibido no painel.     |
 
 **Response `201`**: mesmo formato do item da listagem acima.
 
@@ -977,17 +1055,19 @@ Lista os itens de estoque da empresa, paginado, com filtro opcional por categori
       {
         "id": 100,
         "nome": "Protetor Auricular Tipo Concha 3M",
-        "epi_id": "EPI_001",
-        "tipo_epi_nome": "Protetor Auricular",
         "numero_ca": "12345",
+        "epi_id": "EPI_001",
+        "data_validade": null,
         "fabricante_id": 7,
+        "descricao": null,
+        "situacao": 0,
         "custo": 1590,
         "tempo_troca_dias": 180,
+        "estoque": 340,
         "controla_unitario": true,
         "sem_devolucao": false,
         "unidade_medida": "un",
-        "casas_decimais": 0,
-        "situacao": 0
+        "casas_decimais": 0
       }
     ],
     "total": 340,
@@ -998,7 +1078,7 @@ Lista os itens de estoque da empresa, paginado, com filtro opcional por categori
 ```
 
 {% hint style="info" %}
-`custo` está em **centavos** (1590 = R$ 15,90).
+`custo` está em **centavos** (1590 = R$ 15,90). Não há campo `tipo_epi_nome` — o tipo de item (`epi_id`) não tem `nome`, apenas `descricao` (ver [Tipos de Item](api-integracao.md#tipos-de-item)); resolva o nome do tipo com uma chamada separada a `GET /tipo-item` se precisar exibi-lo. `estoque` é a quantidade total atual do item, somada de todos os lotes/centros de estoque.
 {% endhint %}
 
 **Status codes**: `200`, `401`, `403`, `429`, `500`.
@@ -1018,6 +1098,7 @@ Cria um novo item de estoque, vinculado a um tipo de item já cadastrado (`epi_i
   "nome": "Protetor Auricular Plug Silicone",
   "epi_id": "EPI_001",
   "descricao": "Protetor tipo plug, silicone",
+  "data_validade": null,
   "numero_ca": "54321",
   "fabricante_id": 7,
   "custo": 890,
@@ -1035,19 +1116,29 @@ Cria um novo item de estoque, vinculado a um tipo de item já cadastrado (`epi_i
 | `nome`              | string (1-255)   | Sim                  | Nome do item.                                                                            |
 | `epi_id`            | string           | Sim                  | ID do tipo de item já cadastrado (ver [Tipos de Item](api-integracao.md#tipos-de-item)). |
 | `descricao`         | string           | Não                  | Descrição livre.                                                                         |
+| `data_validade`     | string (`YYYY-MM-DD`) | Não              | Data de validade do item, se aplicável.                                                  |
 | `numero_ca`         | string (máx. 20) | Não                  | Número do Certificado de Aprovação, se aplicável.                                        |
 | `fabricante_id`     | integer          | Não                  | ID do fabricante.                                                                        |
-| `custo`             | integer          | Não                  | Custo unitário em centavos.                                                              |
-| `tempo_troca_dias`  | integer          | Não                  | Período padrão de troca, em dias.                                                        |
+| `custo`             | integer          | Não (padrão `0`)     | Custo unitário em centavos. Não pode ser negativo.                                       |
+| `tempo_troca_dias`  | integer          | Não                  | Período padrão de troca, em dias. Valores `< 1` são descartados silenciosamente (viram `null`). |
 | `controla_unitario` | boolean          | Não (padrão `true`)  | Se cada unidade é rastreada individualmente por número de série.                         |
 | `sem_devolucao`     | boolean          | Não (padrão `false`) | Se o item não é passível de devolução após entrega.                                      |
-| `unidade_medida`    | string           | Não (padrão `"un"`)  | Unidade de medida (`un`, `kg`, `L`, `m`, etc.).                                          |
-| `casas_decimais`    | integer          | Não (padrão `0`)     | Casas decimais para itens medidos em fração (ex: metros, litros).                        |
+| `unidade_medida`    | string           | Não (padrão `"un"`)  | Unidade de medida (`un`, `par`, `cx`, `rl`, `kg`, `L`, `m³`, `g`, `mL`, etc.).            |
+| `casas_decimais`    | integer          | Não (padrão `0`)     | Casas decimais para itens medidos em fração (ex: metros, litros). Não pode ser negativo.  |
 | `codigo_integracao` | string           | Não                  | Código de referência no seu sistema.                                                     |
+
+{% hint style="warning" %}
+**Regras de negócio aplicadas no servidor**, além da validação de payload:
+
+* `sem_devolucao=true` junto com `controla_unitario=true` → `400 Bad Request` (item sem devolução não pode ter controle unitário).
+* `controla_unitario=true` exige `unidade_medida="un"` e `casas_decimais=0` → senão `400 Bad Request`.
+* Para `unidade_medida` em `kg`, `L`, `m³`, `g`, `mL` (consumíveis fracionáveis), o servidor **força `sem_devolucao=true`**, independentemente do valor enviado.
+* Para `unidade_medida` em `un`, `par`, `cx`, `rl`, `g`, `mL`, o servidor **força `casas_decimais=0`**.
+  {% endhint %}
 
 **Response `201`**: mesmo formato de um item da listagem acima.
 
-**Status codes**: `201`, `400` (payload inválido ou `epi_id` não encontrado), `401`, `403`, `409` (CA duplicado nesta empresa), `429`, `500`.
+**Status codes**: `201`, `400` (payload inválido, regra de negócio violada, ou `epi_id` não encontrado), `401`, `403`, `409` (CA duplicado nesta empresa), `429`, `500`.
 
 ***
 
@@ -1103,7 +1194,7 @@ Lista as unidades individuais rastreadas de um item (para itens com `controla_un
 | ------------------- | ----------------- | ------------------------------------------------------------------------------------------------- |
 | `limit`, `offset`   | integer           | Paginação padrão.                                                                                 |
 | `estado`            | integer, opcional | `0`=Disponível, `1`=Em Uso, `2`=Manutenção, `3`=Inativo, `4`=Quebra, `5`=Perda, `6`=Higienização. |
-| `local_trabalho_id` | integer, opcional | Filtra por unidade — deve estar entre as unidades permitidas da API Key.                          |
+| `centro_estoque_id` | integer, opcional | Filtra por centro de estoque — deve estar entre os centros vinculados às unidades permitidas da API Key. |
 
 **Response `200`:**
 
@@ -1117,11 +1208,13 @@ Lista as unidades individuais rastreadas de um item (para itens com `controla_un
         "id": 30001,
         "numero_serie": "SN-000123",
         "estado": 1,
-        "local_trabalho_id": 1,
         "funcionario_id": 987,
+        "centro_estoque_id": 1,
+        "item_epi_lote_id": 500,
         "usos": 3,
         "data_alocacao": "2026-05-10T08:00:00Z",
         "data_devolucao_prevista": "2026-11-06",
+        "data_validade": "2028-06-01",
         "custo": 1590,
         "codigo_integracao": null
       }
@@ -1133,7 +1226,11 @@ Lista as unidades individuais rastreadas de um item (para itens com `controla_un
 }
 ```
 
-**Status codes**: `200`, `400` (`local_trabalho_id` fora das unidades permitidas), `401`, `403`, `404` (item não encontrado), `429`, `500`.
+{% hint style="info" %}
+Desde a migração de estoque por Centro de Estoque, unitários são alocados a um `centro_estoque_id` — não mais diretamente a um `local_trabalho_id`. Se a API Key for restrita a unidades específicas, apenas unitários dos centros de estoque vinculados a essas unidades são retornados (resolução automática via `locais_trabalho_ids` → `centro_estoque_id`).
+{% endhint %}
+
+**Status codes**: `200`, `400` (`centro_estoque_id` fora das unidades permitidas para esta API Key), `401`, `403`, `404` (item não encontrado), `429`, `500`.
 
 ***
 
@@ -1168,13 +1265,25 @@ Consulta um Certificado de Aprovação (CA) na base do Ministério do Trabalho e
   "status": 200,
   "title": "OK",
   "data": {
-    "numero_ca": "12345",
+    "registro_ca": "12345",
     "valido": true,
-    "descricao_produto": "Protetor Auricular Tipo Concha",
-    "empresa_fabricante": "3M do Brasil"
+    "situacao": "VALIDO",
+    "data_validade": "2028-06-01",
+    "nome_equipamento": "Protetor Auricular Tipo Concha",
+    "descricao_equipamento": "Protetor auricular tipo concha, atenuação de 25dB",
+    "marca_ca": "3M",
+    "referencia": "1425",
+    "cor": "Verde",
+    "cnpj_fabricante": "00000000000191",
+    "razao_social_fabricante": "3M do Brasil Ltda",
+    "norma": "NBR NM 300-6"
   }
 }
 ```
+
+{% hint style="warning" %}
+Os nomes de campo reais são `registro_ca` (não `numero_ca`), `nome_equipamento`/`descricao_equipamento` (não `descricao_produto`) e `razao_social_fabricante` (não `empresa_fabricante`).
+{% endhint %}
 
 **Status codes**: `200`, `401`, `403`, `404` (CA não encontrado na base), `429`, `500`, `503` (serviço de CA indisponível).
 
@@ -1202,11 +1311,16 @@ Lista as solicitações de EPI, paginado, com filtros.
     "dados": [
       {
         "id": 7001,
+        "solicitacao_id": 6500,
+        "epi_id": "EPI_001",
+        "local_trabalho_id": 1,
         "funcionario_id": 987,
-        "item_epi_id": 100,
-        "quantidade": 1,
-        "situacao": "pendente",
-        "data_solicitacao": "2026-06-30T14:00:00Z"
+        "solicitado_em": "2026-06-30T14:00:00Z",
+        "entregue_em": null,
+        "entregue": false,
+        "cancelado": false,
+        "numero_solicitacao_epi_empresa": 7001,
+        "situacao": "pendente"
       }
     ],
     "total": 42,
@@ -1215,6 +1329,10 @@ Lista as solicitações de EPI, paginado, com filtros.
   }
 }
 ```
+
+{% hint style="info" %}
+`id` é o ID do item individual dentro da solicitação; `solicitacao_id` é o ID da solicitação-pai (pode agrupar múltiplos itens). `epi_id` referencia o tipo de item (ver [Tipos de Item](api-integracao.md#tipos-de-item)), não o item de estoque (`item_epi_id`).
+{% endhint %}
 
 **Status codes**: `200`, `401`, `403`, `429`, `500`.
 
@@ -1238,9 +1356,9 @@ Detalha uma solicitação de EPI específica.
 
 Lista as solicitações de compra de itens para reposição de estoque.
 
-**Requer módulo**: `modulo_epi`. **Restrição de unidade**: sim (validação se `local_trabalho_id` for informado).
+**Requer módulo**: `modulo_epi`. **Restrição de unidade**: sim — filtro automático: retorna solicitações cujo centro de estoque vinculado corresponde a um dos centros vinculados às unidades permitidas da API Key.
 
-**Query params**: `limit`, `offset`, `status` (integer, opcional: `0`=pendente, `1`=aprovada, `2`=rejeitada, `3`=cancelada, `4`=processada), `local_trabalho_id` (integer, opcional).
+**Query params**: `limit`, `offset`, `status` (integer, opcional: `0`=pendente, `1`=aprovada, `2`=rejeitada, `3`=cancelada, `4`=processada).
 
 **Response `200`:**
 
@@ -1252,11 +1370,13 @@ Lista as solicitações de compra de itens para reposição de estoque.
     "dados": [
       {
         "id": 8001,
-        "item_epi_id": 100,
-        "quantidade": 200,
+        "centro_estoque_id": 1,
+        "numero_solicitacao": 8001,
         "status": 0,
-        "local_trabalho_id": 1,
-        "data_solicitacao": "2026-06-28T09:00:00Z"
+        "observacoes": null,
+        "justificativa": "Reposição de estoque mínimo",
+        "criado_em": "2026-06-28T09:00:00Z",
+        "atualizado_em": "2026-06-28T09:00:00Z"
       }
     ],
     "total": 15,
@@ -1266,7 +1386,11 @@ Lista as solicitações de compra de itens para reposição de estoque.
 }
 ```
 
-**Status codes**: `200`, `400` (`local_trabalho_id` fora das unidades permitidas), `401`, `403`, `429`, `500`.
+{% hint style="warning" %}
+Não existe query param `local_trabalho_id` nem campos `item_epi_id`/`quantidade`/`data_solicitacao` neste recurso — a solicitação de compra é um cabeçalho vinculado a um `centro_estoque_id`; os itens/quantidades solicitados não são expostos por esta API.
+{% endhint %}
+
+**Status codes**: `200`, `401`, `403`, `429`, `500`.
 
 ***
 
@@ -1298,12 +1422,14 @@ Lista as solicitações de transferência de itens entre unidades.
     "dados": [
       {
         "id": 9001,
-        "item_epi_id": 100,
-        "quantidade": 30,
-        "origem_local_trabalho_id": 1,
-        "destino_local_trabalho_id": 2,
+        "centro_estoque_id": 1,
+        "centro_estoque_destino_id": 2,
+        "numero_solicitacao": 9001,
         "status": 0,
-        "data_solicitacao": "2026-06-29T11:00:00Z"
+        "observacoes": null,
+        "justificativa": "Reposição da filial 2",
+        "criado_em": "2026-06-29T11:00:00Z",
+        "atualizado_em": "2026-06-29T11:00:00Z"
       }
     ],
     "total": 6,
@@ -1312,6 +1438,10 @@ Lista as solicitações de transferência de itens entre unidades.
   }
 }
 ```
+
+{% hint style="warning" %}
+Os campos de unidade são `centro_estoque_id` (origem) e `centro_estoque_destino_id` — não `origem_local_trabalho_id`/`destino_local_trabalho_id`. Não há campos `item_epi_id`/`quantidade`/`data_solicitacao` neste recurso.
+{% endhint %}
 
 **Status codes**: `200`, `401`, `403`, `429`, `500`.
 
@@ -1346,9 +1476,12 @@ Lista as solicitações feitas por parceiros (fornecedores/prestadores) para a e
       {
         "id": 3001,
         "parceiro_id": 22,
-        "descricao": "Solicitação de reposição de EPIs para equipe terceirizada",
+        "numero_solicitacao": 3001,
         "status": 0,
-        "data_solicitacao": "2026-06-27T15:00:00Z"
+        "observacoes": "Solicitação de reposição de EPIs para equipe terceirizada",
+        "solicitado_em": "2026-06-27T15:00:00Z",
+        "criado_em": "2026-06-27T15:00:00Z",
+        "atualizado_em": "2026-06-27T15:00:00Z"
       }
     ],
     "total": 3,
@@ -1357,6 +1490,10 @@ Lista as solicitações feitas por parceiros (fornecedores/prestadores) para a e
   }
 }
 ```
+
+{% hint style="warning" %}
+Os campos reais são `observacoes` (não `descricao`) e `solicitado_em` (não `data_solicitacao`).
+{% endhint %}
 
 **Status codes**: `200`, `401`, `403`, `429`, `500`.
 
@@ -1430,8 +1567,8 @@ curl "https://<dominio>/integracao/v1/estoque/item?limit=100&offset=0" \
 curl "https://<dominio>/integracao/v1/estoque/item?limit=100&offset=100" \
   -H "X-Gnrx-Api-Key: gnrx_sua_chave"
 
-# Para um item específico, ver as unidades individuais disponíveis em uma unidade:
-curl "https://<dominio>/integracao/v1/estoque/item/100/unitario?estado=0&local_trabalho_id=1" \
+# Para um item específico, ver as unidades individuais disponíveis em um centro de estoque:
+curl "https://<dominio>/integracao/v1/estoque/item/100/unitario?estado=0&centro_estoque_id=1" \
   -H "X-Gnrx-Api-Key: gnrx_sua_chave"
 ```
 
