@@ -171,6 +171,7 @@ Todas as permissões do sistema seguem o formato **módulo:ação:recurso** e es
 | `epis:visualizar:estoque` | Visualizar estoque de EPIs | ❌ | ✅ | ✅ | ✅ |
 | `epis:visualizar:geral_estoque` | Visualizar todos os estoques de EPIs da empresa | ❌ | ❌ | ✅ | ✅ |
 | `epis:gerenciar:estoque` | Gerenciar entrada/saída e movimentação de estoque | ❌ | ❌ | ❌ | ✅ |
+| `epis:visualizar:custo_item` | Visualizar o custo unitário dos itens na seleção de equipamentos da entrega | ❌ | ❌ | ✅ | ✅ |
 | `epis:solicitar:epi` | Solicitar EPIs para funcionários | ✅ | ✅ | ✅ | ✅ |
 | `epis:aprovar:solicitacao` | Aprovar solicitações de EPI de funcionários | ❌ | ✅ | ✅ | ✅ |
 | `epis:rejeitar:solicitacao` | Rejeitar solicitações de EPI inadequadas | ❌ | ✅ | ✅ | ✅ |

@@ -79,8 +79,12 @@ Após selecionar o tipo de item, você precisa escolher quais unidades específi
 - Clique no botão **Selecione os Equipamentos (isso definirá a quantidade)**
 - Na janela de seleção que se abre, você verá todos os equipamentos disponíveis daquele tipo
 - Selecione as unidades específicas marcando as caixas correspondentes
-- Observe as informações de número de série, lote, estado, validade e custo
+- Observe as informações de número de série, lote, estado, validade e custo (quando disponível)
 - Confirme a seleção clicando em **Confirmar**
+
+{% hint style="info" %}
+**Visualização do custo**: o custo unitário dos equipamentos só é exibido nesta janela para usuários com a permissão `epis:visualizar:custo_item`. Por padrão, ela é concedida às roles **Gestor** e **Administrador** — Operadores e Supervisores não veem o valor. Se a sua empresa quiser liberar o custo para outros perfis, adicione a permissão à role em **Configurações** → **Roles e Permissões** (ver [Sistema de Permissões e Roles](../../configuracoes-iniciais/usuarios/sistema-permissoes-roles.md)).
+{% endhint %}
 
 ### 6. Adicionar Observações (Opcional)
 
