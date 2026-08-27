@@ -39,6 +39,7 @@ Com esta API você pode:
 * Consultar e gerenciar a estrutura organizacional (locais de trabalho, setores, cargos).
 * Consultar e gerenciar GHEs, riscos ocupacionais vinculados e os itens obrigatórios/opcionais de cada risco.
 * Consultar e cadastrar o catálogo de tipos de item e categorias de produto.
+* Consultar, criar, alterar e inativar centros de estoque, e gerenciar seu vínculo com locais de trabalho.
 * Consultar estoque (itens agregados, lotes de entrada, unidades individuais rastreadas) e cadastrar novos itens.
 * Consultar Certificados de Aprovação (CA) na base do Ministério do Trabalho.
 * Consultar solicitações de EPI, compra, transferência entre unidades e pedidos de parceiros.
@@ -131,7 +132,7 @@ Quando a API Key tem `locais_trabalho_ids` restrito a uma lista de unidades:
 * Solicitações de **transferência** (que têm unidade de origem e destino) ficam visíveis se **qualquer uma das duas** (origem ou destino) estiver na lista permitida.
 
 {% hint style="info" %}
-**Centro de Estoque**: estoque (itens unitários), solicitações de compra e solicitações de transferência não são mais vinculados diretamente a `local_trabalho_id` — são vinculados a `centro_estoque_id`. A API resolve internamente os centros de estoque associados aos `locais_trabalho_ids` da chave (via os vínculos configurados no painel) para aplicar o mesmo filtro automático. Isso é transparente para quem consome a API — mas se você comparar `centro_estoque_id` retornado com um `local_trabalho_id` do seu sistema, eles **não são o mesmo ID**.
+**Centro de Estoque**: estoque (itens unitários), solicitações de compra e solicitações de transferência não são vinculados diretamente a `local_trabalho_id` — são vinculados a `centro_estoque_id` (ver seção [Centro de Estoque](api-integracao.md#centro-de-estoque), que também permite criar/alterar/inativar centros e gerenciar esse vínculo com unidades via API). A API resolve internamente os centros de estoque associados aos `locais_trabalho_ids` da chave (via os vínculos configurados) para aplicar o mesmo filtro automático nas listagens acima. Isso é transparente para quem consome a API — mas se você comparar `centro_estoque_id` retornado com um `local_trabalho_id` do seu sistema, eles **não são o mesmo ID**.
 {% endhint %}
 
 ### Rate limiting
@@ -1248,6 +1249,210 @@ Busca os dados de uma unidade individual específica.
 
 ***
 
+### Centro de Estoque
+
+Centro de Estoque é a entidade que efetivamente guarda estoque (lotes e unitários) — cada local de trabalho (unidade) enxerga estoque através dos centros vinculados a ele, numa relação N:N (uma unidade pode puxar estoque de vários centros, e um centro pode abastecer várias unidades, ex: um Centro de Distribuição compartilhado). Um centro recém-criado não tem nenhuma unidade vinculada — use os endpoints de associar/desassociar abaixo para vinculá-lo.
+
+{% hint style="info" %}
+Um centro **inativado** não valida nem desfaz vínculos existentes com locais de trabalho — os vínculos continuam registrados, mas o centro deixa de aparecer nas listagens ativas (e, por consequência, nas consultas de estoque, compra e transferência).
+{% endhint %}
+
+#### `GET /integracao/v1/centro-estoque`
+
+Lista os centros de estoque ativos da empresa autenticada.
+
+**Requer módulo**: `modulo_epi`. **Restrição de unidade**: sim (filtro automático) — se a API Key for restrita a unidades, retorna apenas os centros vinculados a essas unidades.
+
+**Response `200`:**
+
+```json
+{
+  "status": 200,
+  "title": "OK",
+  "data": {
+    "centros_estoque": [
+      {
+        "id": 1,
+        "nome": "Centro de Distribuição São Paulo",
+        "descricao": "Abastece as filiais da região sudeste",
+        "endereco": null,
+        "situacao": 0,
+        "codigo_integracao": "CD-SP-01",
+        "criado_em": "2026-07-28T10:00:00Z",
+        "atualizado_em": "2026-07-28T10:00:00Z"
+      }
+    ],
+    "total_centros_estoque": 1
+  }
+}
+```
+
+**Status codes**: `200`, `401`, `403`, `429`, `500`.
+
+***
+
+#### `POST /integracao/v1/centro-estoque`
+
+Cria um novo centro de estoque para a empresa autenticada. O centro nasce sem nenhuma unidade vinculada.
+
+**Requer módulo**: `modulo_epi`.
+
+**Request body:**
+
+```json
+{
+  "nome": "Centro de Distribuição São Paulo",
+  "descricao": "Abastece as filiais da região sudeste",
+  "endereco": "Av. Industrial, 1000 - São Paulo/SP",
+  "codigo_integracao": "CD-SP-01"
+}
+```
+
+| Campo               | Tipo             | Obrigatório | Descrição                                                     |
+| -------------------- | ---------------- | ----------- | ---------------------------------------------------------------- |
+| `nome`               | string (1-255)   | Sim         | Nome do centro de estoque.                                       |
+| `descricao`          | string           | Não         | Descrição livre.                                                  |
+| `endereco`           | string           | Não         | Endereço do centro.                                               |
+| `codigo_integracao`  | string           | Não         | Código de referência no seu sistema — único por empresa.          |
+
+**Response `201`**: mesmo formato de um item da listagem acima.
+
+**Status codes**: `201`, `400` (payload inválido), `401`, `403`, `409` (`codigo_integracao` duplicado nesta empresa), `429`, `500`.
+
+***
+
+#### `GET /integracao/v1/centro-estoque/{centro_estoque_id}`
+
+Detalha um centro de estoque específico.
+
+**Requer módulo**: `modulo_epi`. **Restrição de unidade**: sim — `404` se o centro não estiver vinculado a uma unidade permitida.
+
+**Path params**: `centro_estoque_id` (integer, obrigatório).
+
+**Response `200`**: mesmo formato de um item da listagem acima.
+
+**Status codes**: `200`, `401`, `403`, `404`, `429`, `500`.
+
+***
+
+#### `PATCH /integracao/v1/centro-estoque/{centro_estoque_id}`
+
+Atualiza parcialmente um centro de estoque. Campos não enviados permanecem inalterados.
+
+**Requer módulo**: `modulo_epi`. **Restrição de unidade**: sim.
+
+**Path params**: `centro_estoque_id` (integer, obrigatório).
+
+**Request body (todos os campos opcionais)**: mesmos campos do `POST`.
+
+**Response `200`**: mesmo formato de um item da listagem acima, com os valores atualizados.
+
+**Status codes**: `200`, `400`, `401`, `403`, `404`, `409` (`codigo_integracao` duplicado nesta empresa), `429`, `500`.
+
+***
+
+#### `DELETE /integracao/v1/centro-estoque/{centro_estoque_id}`
+
+Inativa (soft delete) um centro de estoque.
+
+**Requer módulo**: `modulo_epi`. **Restrição de unidade**: sim.
+
+**Path params**: `centro_estoque_id` (integer, obrigatório).
+
+**Response `204`**: sem corpo.
+
+**Status codes**: `204`, `401`, `403`, `404`, `429`, `500`.
+
+***
+
+#### `POST /integracao/v1/centro-estoque/{centro_estoque_id}/local-trabalho`
+
+Associa um local de trabalho (unidade) a um centro de estoque. **Operação idempotente** — associar um local já vinculado não é erro.
+
+**Requer módulo**: `modulo_epi`. **Restrição de unidade**: sim — o centro e o `local_trabalho_id` informado precisam estar entre as unidades permitidas da chave.
+
+**Path params**: `centro_estoque_id` (integer, obrigatório).
+
+**Request body:**
+
+```json
+{
+  "local_trabalho_id": 1
+}
+```
+
+**Response `201`:**
+
+```json
+{
+  "status": 201,
+  "title": "Created",
+  "data": {
+    "centro_estoque_id": 1,
+    "local_trabalho_id": 1
+  }
+}
+```
+
+**Status codes**: `201`, `400` (`local_trabalho_id` inválido, inativo, ou fora das unidades permitidas), `401`, `403`, `404` (centro de estoque não encontrado ou fora do escopo), `429`, `500`.
+
+***
+
+#### `GET /integracao/v1/centro-estoque/{centro_estoque_id}/local-trabalho`
+
+Lista os locais de trabalho atualmente vinculados a um centro de estoque.
+
+**Requer módulo**: `modulo_epi`. **Restrição de unidade**: sim.
+
+**Path params**: `centro_estoque_id` (integer, obrigatório).
+
+**Response `200`:**
+
+```json
+{
+  "status": 200,
+  "title": "OK",
+  "data": {
+    "locais_trabalho": [
+      { "id": 1, "nome": "Filial São Paulo" }
+    ],
+    "total_locais_trabalho": 1
+  }
+}
+```
+
+**Status codes**: `200`, `401`, `403`, `404`, `429`, `500`.
+
+***
+
+#### `DELETE /integracao/v1/centro-estoque/{centro_estoque_id}/local-trabalho/{local_trabalho_id}`
+
+Desassocia um local de trabalho de um centro de estoque.
+
+**Requer módulo**: `modulo_epi`. **Restrição de unidade**: sim.
+
+**Path params**: `centro_estoque_id`, `local_trabalho_id` (integers, obrigatórios).
+
+**Response `204`**: sem corpo.
+
+**Status codes**: `204`, `401`, `403`, `404` (centro de estoque, vínculo não encontrado, ou fora do escopo), `429`, `500`.
+
+***
+
+#### `GET /integracao/v1/local-trabalho/{local_trabalho_id}/centro-estoque`
+
+Lista os centros de estoque atualmente vinculados a um local de trabalho.
+
+**Requer módulo**: `modulo_epi`. **Restrição de unidade**: sim — `400` se `local_trabalho_id` estiver fora das unidades permitidas da chave.
+
+**Path params**: `local_trabalho_id` (integer, obrigatório).
+
+**Response `200`**: mesmo formato da listagem de `GET /centro-estoque` acima.
+
+**Status codes**: `200`, `400`, `401`, `403`, `404` (local de trabalho não encontrado para esta empresa), `429`, `500`.
+
+***
+
 ### Certificados de Aprovação (CA)
 
 #### `GET /integracao/v1/ca/{numero_ca}`
@@ -1590,6 +1795,15 @@ curl "https://<dominio>/integracao/v1/solicitacao/epi?situacao=pendente&data_ini
 | PATCH  | `/integracao/v1/funcionario/{funcionario_id}/reativar`             | Funcionários              |
 | PATCH  | `/integracao/v1/funcionario/codigo/{codigo_integracao}/reativar`   | Funcionários              |
 | GET    | `/integracao/v1/local-trabalho`                                    | Locais de Trabalho        |
+| GET    | `/integracao/v1/local-trabalho/{local_trabalho_id}/centro-estoque` | Centro de Estoque         |
+| GET    | `/integracao/v1/centro-estoque`                                    | Centro de Estoque         |
+| POST   | `/integracao/v1/centro-estoque`                                    | Centro de Estoque         |
+| GET    | `/integracao/v1/centro-estoque/{centro_estoque_id}`                | Centro de Estoque         |
+| PATCH  | `/integracao/v1/centro-estoque/{centro_estoque_id}`                | Centro de Estoque         |
+| DELETE | `/integracao/v1/centro-estoque/{centro_estoque_id}`                | Centro de Estoque         |
+| POST   | `/integracao/v1/centro-estoque/{centro_estoque_id}/local-trabalho` | Centro de Estoque         |
+| GET    | `/integracao/v1/centro-estoque/{centro_estoque_id}/local-trabalho` | Centro de Estoque         |
+| DELETE | `/integracao/v1/centro-estoque/{centro_estoque_id}/local-trabalho/{local_trabalho_id}` | Centro de Estoque |
 | GET    | `/integracao/v1/ghe`                                               | GHEs                      |
 | GET    | `/integracao/v1/ghe/{ghe_id}`                                      | GHEs                      |
 | POST   | `/integracao/v1/ghe`                                               | GHEs                      |
@@ -1629,4 +1843,4 @@ curl "https://<dominio>/integracao/v1/solicitacao/epi?situacao=pendente&data_ini
 | GET    | `/integracao/v1/solicitacao/parceiro`                              | Solicitações              |
 | GET    | `/integracao/v1/solicitacao/parceiro/{id}`                         | Solicitações              |
 
-**Total: 45 endpoints.**
+**Total: 54 endpoints.**
