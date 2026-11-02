@@ -62,7 +62,7 @@ Em **Gestão da CAT**, escolha:
 {% step %}
 ### Custo-hora, alertas e registro anônimo
 
-Informe o **Custo-hora padrão da empresa**. Em **Alertas e registro**, cadastre os **E-mails da empresa** (recebem os alertas de todas as unidades). Em **Registro anônimo**, decida se desvios e quase-acidentes podem ser registrados sem nome pelo app. Clique em **Salvar**. Aparece "Configuração salva.".
+Informe o **Custo-hora padrão da empresa**. Em **Alertas e registro**, cadastre os **E-mails da empresa** (recebem os alertas de todas as unidades). Em **Registro anônimo**, a opção prepara um canal que ainda não está disponível: hoje as ocorrências são registradas pelo painel. Clique em **Salvar**. Aparece "Configuração salva.".
 {% endstep %}
 {% endstepper %}
 
@@ -81,9 +81,9 @@ Informe o **Custo-hora padrão da empresa**. Em **Alertas e registro**, cadastre
 
 <details>
 
-<summary>Acidentes podem ser anônimos?</summary>
+<summary>Alguém quer comunicar algo sem se identificar.</summary>
 
-Não. O registro anônimo vale só para desvios e quase-acidentes. Acidentes nunca são anônimos.
+Hoje não há canal anônimo de ocorrência. Para denunciar sem se identificar, use a denúncia da CIPA.
 
 </details>
 

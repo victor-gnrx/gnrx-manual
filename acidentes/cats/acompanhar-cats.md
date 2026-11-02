@@ -26,7 +26,7 @@ layout:
 **Para que serve:** ver as CATs ainda não comunicadas, das mais urgentes para as menos, e o que falta em cada uma.
 
 {% hint style="info" %}
-**Quem pode fazer:** Gestor ou Administrador, com a permissão de preencher a CAT. CATs com dados de saúde só abrem para quem tem a permissão de ver dados de saúde do acidentado.
+**Quem pode fazer:** Gestor ou Administrador. Para ver a CAT: a permissão de ver dados de saúde do acidentado. Para editar: a de preencher a CAT.
 {% endhint %}
 
 ## Antes de começar

@@ -26,7 +26,7 @@ layout:
 **Para que serve:** mudar o andamento da ocorrência, verificar a eficácia, reabrir ou cancelar.
 
 {% hint style="info" %}
-**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de triar e tratar ocorrências.
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de triar e tratar ocorrências (inclui reabrir, cancelar e verificar a eficácia).
 {% endhint %}
 
 ## Antes de começar

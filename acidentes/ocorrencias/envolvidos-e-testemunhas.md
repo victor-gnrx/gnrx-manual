@@ -26,7 +26,7 @@ layout:
 **Para que serve:** registrar quem se feriu, quem estava envolvido e quem presenciou, com o depoimento.
 
 {% hint style="info" %}
-**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de triar e tratar ocorrências.
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de triar e tratar ocorrências. Os dados de saúde do envolvido só são gravados e mostrados para quem pode ver dados de saúde.
 {% endhint %}
 
 ## Antes de começar

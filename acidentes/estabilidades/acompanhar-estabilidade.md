@@ -26,7 +26,7 @@ layout:
 **Para que serve:** acompanhar quem tem garantia de emprego depois de um acidente. Acidentado com mais de 15 dias de afastamento tem 12 meses de garantia a partir do retorno (Lei 8.213/91, art. 118).
 
 {% hint style="info" %}
-**Quem pode fazer:** quem tem a permissão de ver ocorrências.
+**Quem pode fazer:** para ver, quem tem a permissão de ver ocorrências. Para resolver, cancelar e reativar: Supervisor, Gestor ou Administrador, com a permissão de triar e tratar ocorrências.
 {% endhint %}
 
 ## Antes de começar

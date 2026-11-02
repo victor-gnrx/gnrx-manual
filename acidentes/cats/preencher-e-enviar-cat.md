@@ -26,7 +26,7 @@ layout:
 **Para que serve:** completar a Comunicação de Acidente de Trabalho e enviá-la ao eSocial.
 
 {% hint style="info" %}
-**Quem pode fazer:** Gestor ou Administrador, com a permissão de preencher a CAT. Para enviar: a permissão de assinar e transmitir a CAT ao eSocial.
+**Quem pode fazer:** Gestor ou Administrador. Ver e validar a CAT exige a permissão de ver dados de saúde; editar, gerar, informar recibo, descartar e complementar, a de preencher a CAT; enviar, testar, consultar e excluir no eSocial, a de assinar e transmitir a CAT.
 {% endhint %}
 
 {% hint style="warning" %}

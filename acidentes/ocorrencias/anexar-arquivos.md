@@ -26,7 +26,7 @@ layout:
 **Para que serve:** guardar fotos, vídeos e documentos da ocorrência.
 
 {% hint style="info" %}
-**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de triar e tratar ocorrências. Anexos marcados como **Sensível** só aparecem para quem pode ver dados de saúde.
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de triar e tratar ocorrências. O anexo **Sensível** só abre para quem pode ver ocorrências e ver dados de saúde.
 {% endhint %}
 
 ## Antes de começar

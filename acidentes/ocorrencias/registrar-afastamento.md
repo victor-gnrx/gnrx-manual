@@ -26,7 +26,7 @@ layout:
 **Para que serve:** registrar que o acidentado ficou afastado, o retorno ao trabalho e preparar o envio ao eSocial (S-2230).
 
 {% hint style="info" %}
-**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de triar e tratar ocorrências.
+**Quem pode fazer:** para ver, quem tem a permissão de ver ocorrências. Para registrar, editar e registrar o retorno: Supervisor, Gestor ou Administrador, com a permissão de triar e tratar ocorrências. No eSocial (S-2230): gerar e informar o recibo exigem a permissão de preencher a CAT; enviar e consultar, a de transmitir a CAT (Gestor e Administrador).
 {% endhint %}
 
 ## Antes de começar

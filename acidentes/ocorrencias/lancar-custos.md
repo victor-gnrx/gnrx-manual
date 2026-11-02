@@ -26,7 +26,7 @@ layout:
 **Para que serve:** registrar quanto o acidente custou: diretos, indiretos e prevenção.
 
 {% hint style="info" %}
-**Quem pode fazer:** Gestor ou Administrador, com a permissão de lançar custos dos acidentes. Para só ver, a permissão de ver os custos.
+**Quem pode fazer:** para ver, Gestor ou Administrador, com a permissão de ver os custos. Para lançar, editar, excluir e definir o custo-hora: a permissão de lançar custos dos acidentes.
 {% endhint %}
 
 ## Antes de começar
@@ -47,7 +47,7 @@ Na ocorrência, abra a aba **Custos** (só aparece para quem vê custos). Abre *
 {% step %}
 ### Lance o custo
 
-Clique em **Lançar custo**. Escolha a **Categoria**, a **Natureza** e a **Situação**, e informe o **Valor** e a **Data**. Clique em **Adicionar**.
+Clique em **Lançar custo**. Escolha a **Categoria** (ela já sugere a **Natureza**: Direto = segurado, Indireto = não segurado) e a **Situação**, e informe o **Valor** e a **Data**. Clique em **Adicionar**.
 {% endstep %}
 {% endstepper %}
 
@@ -67,8 +67,8 @@ Das configurações do módulo. Neste caso, você pode informar outro.
 
 <details>
 
-<summary>As categorias vêm de onde?</summary>
+<summary>Quais são as categorias?</summary>
 
-São uma lista do sistema.
+São uma lista fixa do sistema: assistência médica e hospitalar; transporte e remoção; medicamentos, órteses e próteses; indenizações e acordos; salário dos 15 primeiros dias; horas paradas da equipe; máquina ou setor parado; horas extras e substituição; contratação e treinamento de substituto; dano a equipamento, produto ou material; horas de investigação; multas e autos de infração; honorários e custas judiciais; multas contratuais e atrasos; aumento de seguro; Outros.
 
 </details>
