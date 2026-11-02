@@ -56,12 +56,25 @@
   * [Editar uma empresa terceira](estruturas/terceiros/editar-terceiro.md)
   * [Inativar ou reativar uma empresa terceira](estruturas/terceiros/inativar-terceiro.md)
 
+## Documentos
+
+* [Encontrar um documento](documentos/encontrar-documento.md)
+* [Enviar um documento](documentos/enviar-documento.md)
+* [Analisar os documentos enviados](analise/analisar-documento.md)
+* [Manter os documentos da empresa em dia](titulares/documentos-da-empresa.md)
+* [Pedir uma liberação excepcional](liberacoes/solicitar-liberacao.md)
+
 ## Planos de ação
 
 * [Acompanhar um plano de ação](planos-acao/acompanhar-plano.md)
 
 ## Configurações
 
+* [Cadastrar um tipo de documento](configuracoes/tipos-de-documento.md)
+* [Montar a matriz de exigência](configuracoes/matriz-de-exigencia.md)
+* [Cadastrar os tipos de serviço](configuracoes/tipos-de-servico.md)
+* [Configurar os alertas de vencimento](configuracoes/alertas-de-vencimento.md)
+* [Configurar o bloqueio documental](configuracoes/bloqueio-documental.md)
 * [Turnos](estruturas/turnos/README.md)
   * [Criar um turno](estruturas/turnos/criar-turno.md)
   * [Editar um turno](estruturas/turnos/editar-turno.md)
