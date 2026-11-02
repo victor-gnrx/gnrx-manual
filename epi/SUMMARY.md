@@ -62,13 +62,16 @@
 
 ## GHE
 
-* [Visão Geral](configuracoes-iniciais/ghes/README.md)
-* [Listar GHE](configuracoes-iniciais/ghes/listar-ghe.md)
-* [Criar GHE](configuracoes-iniciais/ghes/criar-ghe.md)
-* [Editar GHE](configuracoes-iniciais/ghes/editar-ghe.md)
-* [Desativar GHE](configuracoes-iniciais/ghes/desativar-ghe.md)
-* [Vincular Riscos](configuracoes-iniciais/ghes/vincular-riscos.md)
-* [Vincular EPIs](configuracoes-iniciais/ghes/vincular-epis.md)
+* [GHE — Grupos de EPIs](configuracoes-iniciais/ghes/README.md)
+* [Encontrar um GHE](configuracoes-iniciais/ghes/listar-ghe.md)
+* [Criar um GHE](configuracoes-iniciais/ghes/criar-ghe.md)
+* [Vincular riscos a um GHE](configuracoes-iniciais/ghes/vincular-riscos.md)
+* [Escolher os EPIs de um GHE](configuracoes-iniciais/ghes/vincular-epis.md)
+* [Definir prazos de troca](configuracoes-iniciais/ghes/prazos-de-troca.md)
+* [Adicionar colaboradores a um GHE](configuracoes-iniciais/ghes/colaboradores-do-ghe.md)
+* [Copiar a configuração de outro GHE](configuracoes-iniciais/ghes/copiar-configuracoes.md)
+* [Editar um GHE](configuracoes-iniciais/ghes/editar-ghe.md)
+* [Inativar ou reativar um GHE](configuracoes-iniciais/ghes/desativar-ghe.md)
 
 ## Colaboradores
 
@@ -79,7 +82,7 @@
 * [Vincular uma unidade a um colaborador](configuracoes-iniciais/colaboradores/vincular-unidades.md)
 * [Vincular setor e cargo a um colaborador](configuracoes-iniciais/colaboradores/vincular-setores.md)
 * [Desligar, afastar ou reativar um colaborador](configuracoes-iniciais/colaboradores/desativar-colaborador.md)
-* [Vincular GHE](configuracoes-iniciais/colaboradores/vincular-ghe.md)
+* [Vincular um GHE a um colaborador](configuracoes-iniciais/colaboradores/vincular-ghe.md)
 * [Acessar Ficha](colaboradores/acessar-ficha.md)
 
 ## Turnos

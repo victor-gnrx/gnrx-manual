@@ -33,7 +33,15 @@ layout:
 
 * Confira se o cargo é mesmo o certo. Use a [busca](listar-cargos.md).
 
+## O que acontece ao inativar
+
+Só o cargo fica inativo. Os colaboradores e os vínculos continuam como estão.
+
 ## Passo a passo
+
+{% hint style="warning" %}
+Atenção: depois de inativar, não dá para reativar pelo sistema. Se inativou por engano, abra um [chamado no Suporte](../../suporte/abrir-chamado.md).
+{% endhint %}
 
 {% stepper %}
 {% step %}

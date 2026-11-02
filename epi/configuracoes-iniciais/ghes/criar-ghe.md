@@ -1,5 +1,6 @@
 ---
-icon: cubes
+description: Cadastre um grupo de colaboradores com os mesmos riscos.
+icon: plus
 layout:
   width: default
   title:
@@ -20,110 +21,72 @@ layout:
     visible: true
 ---
 
-# Criar GHE
+# Criar um GHE
 
-Esta página explica como adicionar um novo Grupo Homogêneo de Exposição (GHE) no Sistema GNRX Gestão de EPI.
+**Para que serve:** cadastrar um grupo de colaboradores expostos aos mesmos riscos, dentro de uma unidade.
 
-## Visão Geral
+{% hint style="info" %}
+**Quem pode fazer:** Gestor ou Administrador, com a permissão de cadastrar GHEs.
+{% endhint %}
 
-A criação de um GHE é fundamental para a correta atribuição de Equipamentos de Proteção Individual, pois estabelece a relação entre os riscos ocupacionais e os EPIs necessários para um grupo específico de colaboradores.
+## Antes de começar
 
-## Acessando a Tela de Criação
+* Cadastre a [unidade](../unidades/criar-unidade.md).
+* Os [riscos](../../configuracoes-gerais/riscos/README.md) precisam estar cadastrados, em **Configurações › Riscos**.
 
-Para iniciar o cadastro de um novo GHE:
+## Passo a passo
 
-1. No menu lateral, clique em **Estruturas**
-2. Selecione **GHEs**
-3. Na tela de listagem, clique no botão **Novo GHE** no canto superior direito
+{% stepper %}
+{% step %}
+### Clique em Novo Grupo
 
-<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption><p>Botão Novo GHE</p></figcaption></figure>
+Clique em **Estruturas › GHEs — Grupos de EPIs** e depois em **Novo Grupo**. Abre **Criar Novo Grupo**.
 
-## Formulário de Cadastro
+<figure><img src="../../.gitbook/assets/ghe-criar-01.png" alt="Janela Criar Novo Grupo com Nome, Unidade, Descrição, Medidas de controle e a opção Copiar configurações de outro grupo"><figcaption><p>Janela Criar Novo Grupo</p></figcaption></figure>
+{% endstep %}
 
-Ao clicar em "Novo GHE", o sistema exibirá um modal com o formulário de criação:
+{% step %}
+### Preencha os dados
 
-<figure><img src="../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
+Preencha o **Nome** e escolha a **Unidade**. Se quiser, preencha a descrição ("Descreva o Grupo...") e as medidas de controle.
+{% endstep %}
 
-### Campos do Formulário
+{% step %}
+### Copie de outro grupo (opcional)
 
-| Campo         | Descrição                                               | Obrigatoriedade | Exemplo                                                          |
-| ------------- | ------------------------------------------------------- | --------------- | ---------------------------------------------------------------- |
-| **Nome**      | Identificação do GHE                                    | Obrigatório     | "Operadores de Empilhadeira"                                     |
-| **Unidade**   | Unidade física onde o GHE existe                        | Obrigatório     | "Belo Horizonte"                                                 |
-| **Descrição** | Detalhamento das atividades ou características do grupo | Opcional        | "Colaboradores que operam equipamentos de movimentação de carga" |
+Para aproveitar a configuração de um GHE parecido, use **Copiar configurações de outro grupo**. Se quiser, filtre por unidade e escolha o grupo.
+{% endstep %}
 
-## Preenchendo o Formulário
+{% step %}
+### Salve
 
-1. Digite o **Nome** do GHE
-   - Use nomes descritivos que identifiquem claramente o grupo
-   - Mantenha consistência com a nomenclatura utilizada em documentos de SST
-   - Considere incluir a função ou atividade principal no nome
-2. Selecione a **Unidade**
-   - Escolha a unidade física onde este GHE está presente
-   - Um mesmo conceito de GHE pode ser replicado em diferentes unidades
-   - Cada unidade terá seu próprio registro de GHE, mesmo com nomes idênticos
-3. Adicione uma **Descrição** (opcional)
-   - Detalhe as atividades realizadas pelo grupo
-   - Inclua informações sobre o ambiente de trabalho
-   - Mencione particularidades relevantes para a exposição a riscos
-4. Revise as informações inseridas
-5. Clique no botão **Salvar** para criar o GHE
+Clique em **Salvar**. Aparece "Grupo criado com sucesso" (ou "Grupo criado com sucesso e configurações copiadas").
+{% endstep %}
+{% endstepper %}
 
-## Após a Criação
+Depois, [vincule os riscos](vincular-riscos.md).
 
-Quando um novo GHE é criado com sucesso:
+## Deu errado?
 
-1. O sistema exibe uma mensagem de confirmação
-2. O GHE é adicionado à lista de grupos
-3. Você é redirecionado para a tela de detalhes do GHE recém-criado
+| Mensagem na tela | O que fazer |
+| --- | --- |
+| "Obrigatório" | Preencha o nome e escolha a unidade. |
+| "Nome muito longo", "Descrição muito longa" ou "Medidas de controle muito longo" | Encurte o texto. |
 
-## Próximas Etapas Obrigatórias
+## Dúvidas comuns
 
-Após criar um GHE, é essencial completar a configuração com:
+<details>
 
-### 1. Vinculação de Riscos Ocupacionais
+<summary>Um GHE vale para várias unidades?</summary>
 
-O próximo passo fundamental é associar os riscos ocupacionais específicos ao GHE:
+Não. Cada GHE fica numa unidade. Para outra unidade, crie outro GHE e copie a configuração.
 
-1. Na tela de detalhes do GHE, selecione a aba **Riscos / EPIs**
-2. Clique no botão **Editar**
-3. Selecione os riscos ocupacionais aplicáveis a este grupo
-4. Salve as alterações
+</details>
 
-> **Importante:** Um GHE sem riscos associados não cumpre sua função no sistema. A associação de riscos é recomendada para a correta gestão de EPIs. É Possível associar epis que não tem laço com risco
+<details>
 
-### 2. Vinculação de EPIs
+<summary>Preciso copiar de outro grupo?</summary>
 
-Após associar os riscos, é necessário verificar e confirmar os EPIs recomendados:
+Não. A cópia é opcional. Sem ela, você configura o GHE do zero.
 
-1. Para cada risco selecionado, clique no botão **Ver EPIs (Não aparece se os riscos estiverem em edição)**
-2. Adicione ou remova EPIs conforme necessário
-3. Salve as alterações
-
-Para instruções detalhadas sobre estas etapas, consulte:
-
-- [Vincular Riscos](vincular-riscos.md)
-- [Vincular EPIs](vincular-epis.md)
-
-## Considerações Importantes
-
-- A criação de um GHE deve ser baseada em avaliações técnicas de riscos (PGR/PPRA)
-- O GHE só será efetivo após a vinculação de riscos e EPIs
-- Um mesmo colaborador pode pertencer a mais de um GHE, dependendo de suas atividades
-- Recomenda-se consultar os profissionais de SST da empresa para definição adequada dos grupos
-
-## Melhores Práticas
-
-- **Alinhamento com SST**: Crie GHEs consistentes com os documentos técnicos de segurança do trabalho
-- **Nomenclatura Clara**: Adote nomes que identifiquem facilmente a função ou exposição do grupo
-- **Granularidade Adequada**: Evite GHEs muito genéricos ou excessivamente específicos
-- **Documentação**: Mantenha registros dos critérios utilizados para definição de cada GHE
-- **Revisão Periódica**: Atualize os GHEs sempre que houver mudanças nos processos ou condições de trabalho
-
-## Erros Comuns e Soluções
-
-| Erro                               | Solução                                                                  |
-| ---------------------------------- | ------------------------------------------------------------------------ |
-| "Nome já existe para esta unidade" | Escolha um nome único ou mais específico para o GHE nesta unidade        |
-| "Unidade não encontrada"           | Verifique se a unidade foi previamente cadastrada no sistema             |
-| "Erro ao salvar"                   | Verifique se todos os campos obrigatórios foram preenchidos corretamente |
+</details>

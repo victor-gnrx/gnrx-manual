@@ -1,5 +1,6 @@
 ---
-icon: cubes
+description: Grupos de colaboradores com os mesmos riscos e os mesmos EPIs.
+icon: people-group
 layout:
   width: default
   title:
@@ -20,110 +21,22 @@ layout:
     visible: true
 ---
 
-# Visão Geral
+# GHE — Grupos de EPIs
 
-## Visão Geral
+**Para que serve:** juntar os colaboradores expostos aos mesmos riscos, para o GNRx saber quais EPIs cada um precisa receber e quando trocar.
 
-Os Grupos Homogêneos de Exposição (GHEs) são conjuntos de colaboradores que compartilham os mesmos riscos ocupacionais devido à natureza similar de suas atividades e ambiente de trabalho. No Sistema GNRx Gestão de EPI, os GHEs são fundamentais para a correta atribuição de Equipamentos de Proteção Individual, garantindo que cada colaborador receba exatamente a proteção necessária para os riscos aos quais está exposto.
+{% hint style="info" %}
+No módulo Gestão de EPIs, clique em **Estruturas › GHEs — Grupos de EPIs**.
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
+Dentro do GHE, a aba **Visão Geral** mostra a **Configuração do GHE** como uma lista de etapas: riscos vinculados, EPIs para cada risco, item no catálogo para cada EPI, prazo de troca dos itens e colaboradores no GHE. Quando tudo está pronto, aparece **GHE pronto**.
 
-## Conceito e Importância
+<figure><img src="../../.gitbook/assets/ghe-visao-geral-01.png" alt="Aba Visão Geral do GHE com a Configuração do GHE e as etapas obrigatórias"><figcaption><p>Configuração do GHE</p></figcaption></figure>
 
-O conceito de GHE baseia-se no princípio de que trabalhadores que realizam atividades semelhantes, em ambientes com condições similares, estão sujeitos aos mesmos riscos ocupacionais e, portanto, necessitam dos mesmos tipos de proteção. Esta abordagem permite:
+## Comece por aqui
 
-- **Padronização**: Garantir que todos os colaboradores com exposições similares recebam o mesmo nível de proteção
-- **Eficiência**: Otimizar a gestão de EPIs agrupando necessidades comuns
-- **Conformidade**: Facilitar o atendimento às exigências legais de saúde e segurança do trabalho
-- **Rastreabilidade**: Documentar claramente a relação entre riscos identificados e proteções fornecidas
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Criar um GHE</strong></td><td>Cadastre o grupo numa unidade.</td><td><a href="criar-ghe.md">criar-ghe.md</a></td></tr><tr><td><strong>Vincular riscos</strong></td><td>Diga a que riscos o grupo está exposto.</td><td><a href="vincular-riscos.md">vincular-riscos.md</a></td></tr><tr><td><strong>Escolher os EPIs</strong></td><td>Diga quais EPIs cada risco exige.</td><td><a href="vincular-epis.md">vincular-epis.md</a></td></tr></tbody></table>
 
-## Relação com Documentos de SST
+## Tarefas do dia a dia
 
-Os GHEs no Sistema GNRx devem estar alinhados com os principais documentos de Saúde e Segurança do Trabalho (SST) da empresa:
-
-- **PGR/PPRA**: Programa de Gerenciamento de Riscos / Programa de Prevenção de Riscos Ambientais
-- **PCMSO**: Programa de Controle Médico de Saúde Ocupacional
-- **LTCAT**: Laudo Técnico das Condições Ambientais de Trabalho
-- **APR/ART**: Análise Preliminar de Riscos / Análise de Riscos da Tarefa
-
-Esta integração garante que a gestão de EPIs esteja fundamentada em avaliações técnicas documentadas, fortalecendo o aspecto legal e a eficácia das medidas de proteção.
-
-## Estrutura de um GHE
-
-No Sistema GNRx, cada GHE é composto por:
-
-<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
-
-1. **Informações Básicas**:
-   - Nome e identificador
-   - Unidade a que pertence
-   - Descrição das atividades
-2. **Riscos Ocupacionais**:
-   - Lista de riscos específicos (físicos, químicos, biológicos, ergonômicos, de acidentes)
-   - Categorização por tipo e gravidade
-   - Fontes geradoras identificadas
-3. **EPIs Associados**:
-   - Equipamentos necessários para proteção contra os riscos identificados
-   - Vinculação direta entre cada risco e os EPIs correspondentes
-   - Especificações técnicas e normas atendidas
-4. **Colaboradores**:
-   - Funcionários associados ao GHE
-
-## Hierarquia no Sistema
-
-Os GHEs ocupam uma posição estratégica na hierarquia do Sistema GNRX:
-
-```
-Empresa
- ├── Unidades (locais físicos)
- │    ├── Setores (áreas funcionais)
- │    │    └── Cargos (funções específicas)
- │    │         └── Colaboradores (pessoas)
- └── GHEs (grupos por exposição)
-      └── Riscos Ocupacionais
-             └── EPIs Necessários
-```
-
-Esta estrutura permite uma organização flexível, onde um GHE pode abranger colaboradores de diferentes setores e cargos, desde que compartilhem os mesmos riscos ocupacionais.
-
-## Funcionalidades Principais
-
-O módulo de GHE permite:
-
-- Criar e gerenciar grupos com características de exposição similares
-- Vincular riscos ocupacionais específicos a cada grupo
-- Associar os EPIs adequados para cada risco
-- Monitorar a conformidade dos colaboradores quanto aos EPIs necessários
-- Gerar relatórios e análises baseados na estrutura de GHEs
-
-## Benefícios do Uso de GHEs
-
-A utilização de GHEs no Sistema GNRx proporciona diversos benefícios:
-
-- **Precisão na Proteção**: Garante que cada colaborador receba exatamente os EPIs necessários
-- **Otimização de Recursos**: Evita a distribuição desnecessária de equipamentos
-- **Rastreabilidade Robusta**: Documenta a relação entre riscos e medidas de proteção
-- **Conformidade Legal**: Atende às exigências da NR-6 e outras normas regulamentadoras
-- **Facilidade de Auditoria**: Simplifica processos de fiscalização e verificação
-- **Análise Estatística**: Permite comparações e melhorias baseadas em dados concretos
-
-## Próximos Passos
-
-Para gerenciar os Grupos Homogêneos de Exposição no Sistema GNRX, consulte os seguintes guias:
-
-- [Listar GHEs](listar-ghe.md) - Como visualizar e filtrar os GHEs cadastrados
-- [Criar GHE](criar-ghe.md) - Processo para adicionar um novo grupo
-- [Editar GHE](editar-ghe.md) - Como atualizar informações de grupos existentes
-- [Desativar GHE](desativar-ghe.md) - Procedimento para inativar temporariamente um grupo
-- [Vincular Riscos](vincular-riscos.md) - Como associar riscos ocupacionais ao GHE
-- [Vincular EPIs](vincular-epis.md) - Como definir os equipamentos necessários para o GHE
-
-## Recomendações
-
-Para uma gestão eficiente de seus GHEs, considere:
-
-- Alinhar a criação de GHEs com as avaliações técnicas de SST / PGR
-- Revisar periodicamente os grupos para garantir que refletem as condições atuais
-- Documentar claramente os critérios utilizados para definição de cada GHE
-- Envolver profissionais de segurança do trabalho na configuração e revisão dos grupos
-- Utilizar nomenclatura padronizada e descritiva para facilitar a identificação
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Adicionar colaboradores</strong></td><td>Coloque as pessoas no grupo.</td><td><a href="colaboradores-do-ghe.md">colaboradores-do-ghe.md</a></td></tr><tr><td><strong>Definir prazos de troca</strong></td><td>Diga a cada quantos dias trocar cada item.</td><td><a href="prazos-de-troca.md">prazos-de-troca.md</a></td></tr><tr><td><strong>Copiar de outro GHE</strong></td><td>Reaproveite a configuração de um grupo parecido.</td><td><a href="copiar-configuracoes.md">copiar-configuracoes.md</a></td></tr><tr><td><strong>Encontrar um GHE</strong></td><td>Pesquise e filtre a lista.</td><td><a href="listar-ghe.md">listar-ghe.md</a></td></tr><tr><td><strong>Editar um GHE</strong></td><td>Corrija nome, unidade ou descrição.</td><td><a href="editar-ghe.md">editar-ghe.md</a></td></tr><tr><td><strong>Inativar ou reativar</strong></td><td>Tire da lista um grupo sem uso.</td><td><a href="desativar-ghe.md">desativar-ghe.md</a></td></tr></tbody></table>

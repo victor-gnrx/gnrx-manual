@@ -47,7 +47,11 @@ Clique em **Estruturas › Terceiros**. Na linha da empresa, clique no ícone **
 {% step %}
 ### Decida sobre os colaboradores
 
-Se a empresa tem colaboradores ativos, marque **Inativar também os colaboradores vinculados a esta empresa**, se quiser. Isso equivale a um desligamento, sem motivo de afastamento.
+Se a empresa tem colaboradores ativos, aparece a opção **Inativar também os colaboradores vinculados a esta empresa**.
+
+{% hint style="warning" %}
+Essa opção inativa os colaboradores da terceira de uma vez, sem as verificações nem o registro do desligamento individual. Se você precisa desses registros, [desligue cada colaborador](../colaboradores/desativar-colaborador.md) pela tela dele.
+{% endhint %}
 {% endstep %}
 
 {% step %}
