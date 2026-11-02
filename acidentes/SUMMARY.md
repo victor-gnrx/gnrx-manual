@@ -59,6 +59,11 @@
 * [Registrar o afastamento do acidentado](ocorrencias/registrar-afastamento.md)
 * [Anexar fotos e documentos](ocorrencias/anexar-arquivos.md)
 * [Lançar os custos do acidente](ocorrencias/lancar-custos.md)
+* [Acompanhar as CATs pendentes](cats/acompanhar-cats.md)
+* [Preencher e enviar a CAT](cats/preencher-e-enviar-cat.md)
+* [Acompanhar a estabilidade acidentária](estabilidades/acompanhar-estabilidade.md)
+* [Encontrar um plano de ação](planos-acao/encontrar-plano.md)
+* [Acompanhar um plano de ação](planos-acao/acompanhar-plano.md)
 * [Mudar o status de uma ocorrência](ocorrencias/mudar-status.md)
 
 ## Configurações

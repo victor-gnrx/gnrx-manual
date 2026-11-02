@@ -58,4 +58,5 @@
 * [Criar Auditoria](web/criar-auditoria.md)
 * [Preencher Auditoria](web/preencher-auditoria.md)
 * [Emitir Plano de Ação](web/emitir-plano-acao.md)
+* [Acompanhar um plano de ação](web/planos-acao/acompanhar-plano.md)
 * [Relatório de Auditoria](web/relatorio-auditoria.md)
