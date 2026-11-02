@@ -47,7 +47,7 @@ Clique em **Turmas › Treinamentos**. Abre **Treinamentos Realizados**.
 {% step %}
 ### Filtre
 
-Digite o nome ou o código e clique em **Buscar**. Em **Filtros**, escolha o **Status** (**Planejado**, **Em andamento**, **Concluído**, **Cancelado**), a **Unidade** e o **Período de início**. **Limpar tudo** tira os filtros.
+Digite o nome ou o código e clique em **Buscar**. Em **Filtros**, escolha o **Status** (**Planejado**, **Em andamento**, **Concluído**), a **Unidade** e o **Período de início**. **Limpar tudo** tira os filtros.
 {% endstep %}
 
 {% step %}
