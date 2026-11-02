@@ -41,21 +41,27 @@ layout:
 
 Clique em **Configurações › Bloqueio**.
 
-<figure><img src="../.gitbook/assets/docs-bloqueio-01.png" alt="Tela Bloqueio documental com as entregas de EPI e as operações de treinamento"><figcaption><p>Bloqueio documental</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/docs-bloqueio-01.png" alt="Tela Bloqueio documental com os seletores de Entrega de itens e de Treinamento"><figcaption><p>Bloqueio documental</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Escolha por operação
+### Escolha para cada situação
 
-Para cada operação (entrega direta, entrega de produto, entrega com assinatura, entrega de solicitação, envio por correio, entrega pelo app, programar turma, incluir participante, adicionar sessão e registrar presença), escolha:
+Em cada situação, escolha **Desligado**, **Só avisar** ou **Bloquear**:
 
-* a operação não olha a situação documental;
-* a operação acontece e mostra um alerta com quem está pendente;
-* quem está irregular fica bloqueado até regularizar ou ter uma liberação excepcional.
+* **Entrega de itens:** entrega de EPI, entrega direta, entrega de produto, entrega sem estoque e entrega pelo app.
+* **Treinamento:** programar turma, adicionar participantes, adicionar sessão e registrar presença.
 
 Clique em **Salvar alterações**. Aparece "Política de bloqueio salva.".
 {% endstep %}
 {% endstepper %}
+
+## Deu errado?
+
+| Mensagem na tela | O que fazer |
+| --- | --- |
+| "Documentação irregular impede receber itens: ... Regularize os documentos ou solicite uma liberação excepcional." | Regularize os documentos ou [peça uma liberação](../liberacoes/solicitar-liberacao.md). |
+| "Documentação irregular impede participar do treinamento: ..." | Mesma coisa. |
 
 ## Dúvidas comuns
 

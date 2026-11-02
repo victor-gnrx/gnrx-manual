@@ -85,6 +85,7 @@ Confira tudo. Para voltar a uma etapa, clique em **Alterar**. Clique em **Progra
 | "Selecione pelo menos um instrutor." / "Marque um instrutor como principal." | Escolha os instrutores e clique em **Tornar principal**. |
 | "O prazo para concluir precisa vir depois da abertura." | Confira as datas. |
 | "O fim precisa vir depois do início." | Confira os horários da sessão. |
+| "Documentação irregular impede participar do treinamento: ... Regularize os documentos ou solicite uma liberação excepcional." | Com o bloqueio documental ligado, regularize os documentos no módulo Gestão de Documentos ou peça lá uma liberação excepcional. |
 
 ## Dúvidas comuns
 

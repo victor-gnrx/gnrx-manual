@@ -47,7 +47,7 @@ No portal, clique em **Colaboradores** (ou em **Cadastrar colaboradores**, no in
 {% step %}
 ### Cadastre
 
-Clique em **Novo colaborador**. Preencha **Nome**, **CPF**, **Telefone**, **E-mail** e **Admissão**. Clique em **Salvar**. Aparece "Colaborador cadastrado.".
+Clique em **Novo colaborador**. Preencha **Nome** e **CPF** (obrigatórios) e, se quiser, **Telefone**, **E-mail** e **Admissão**. Clique em **Salvar**. Aparece "Colaborador cadastrado.".
 {% endstep %}
 
 {% step %}
@@ -56,6 +56,15 @@ Clique em **Novo colaborador**. Preencha **Nome**, **CPF**, **Telefone**, **E-ma
 Clique no colaborador para ver o que a contratante pede dele.
 {% endstep %}
 {% endstepper %}
+
+## Deu errado?
+
+| Mensagem na tela | O que fazer |
+| --- | --- |
+| "Informe o nome do colaborador." | Preencha o nome. |
+| "CPF inválido." | Confira o CPF. |
+| "E-mail inválido." / "Telefone inválido." | Confira ou deixe em branco. |
+| "Já existe um colaborador com este CPF na sua empresa." | Ele já está cadastrado. Procure na lista. |
 
 ## Dúvidas comuns
 

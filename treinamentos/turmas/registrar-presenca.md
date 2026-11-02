@@ -69,6 +69,10 @@ Aparece "Presença confirmada.", "Presença confirmada com assinatura." ou "Pres
 **"Por favor, assine antes de confirmar."**: o colaborador precisa assinar no campo.
 {% endhint %}
 
+{% hint style="warning" %}
+**"Documentação irregular impede participar do treinamento: ..."**: com o bloqueio documental ligado, regularize os documentos no módulo Gestão de Documentos ou peça lá uma liberação excepcional.
+{% endhint %}
+
 ## Dúvidas comuns
 
 <details>

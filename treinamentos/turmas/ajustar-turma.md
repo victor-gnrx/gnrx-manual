@@ -71,6 +71,7 @@ Clique em **Adicionar arquivo**. Escolha o tipo (**Documento**, **Imagem**, **V�
 | "Data de fim deve ser maior ou igual à data de início." | Confira as datas. |
 | "Hora de fim deve ser maior que hora de início" | Confira os horários da sessão. |
 | "Conflito com sessão do dia anterior." | Mude o horário da sessão. |
+| "Documentação irregular impede participar do treinamento: ... Regularize os documentos ou solicite uma liberação excepcional." | Com o bloqueio documental ligado, regularize os documentos no módulo Gestão de Documentos ou peça lá uma liberação excepcional. |
 
 ## Dúvidas comuns
 

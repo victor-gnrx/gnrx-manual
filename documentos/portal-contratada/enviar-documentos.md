@@ -53,7 +53,7 @@ Clique em **Documentos** e em **Enviar documento**. Escolha de quem é, o tipo, 
 {% step %}
 ### Acompanhe a análise
 
-Em **Documentos**, cada envio mostra a situação: **Aguardando análise**, aprovado ou reprovado.
+O envio passa pela análise da contratante: conforme o tipo, ele é aprovado na hora ou fica **Aguardando análise**. Você não recebe aviso da análise: entre no portal para ver se foi aprovado.
 {% endstep %}
 {% endstepper %}
 
@@ -73,9 +73,9 @@ Em **Documentos**, cada envio mostra a situação: **Aguardando análise**, apro
 
 <details>
 
-<summary>Quem confere os documentos?</summary>
+<summary>Recebo algum aviso?</summary>
 
-A contratante. Quando você enviar, o documento aparece com a análise dela.
+Só de vencimento, por e-mail (e por WhatsApp, se a contratante configurar). A aprovação e a reprovação você vê entrando no portal.
 
 </details>
 

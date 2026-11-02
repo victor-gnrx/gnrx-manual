@@ -26,7 +26,7 @@ layout:
 **Para que serve:** deixar quem tem documento pendente seguir trabalhando, sem bloqueio, até uma data. Ex.: o ASO está agendado e a pessoa precisa começar antes.
 
 {% hint style="info" %}
-**Quem pode fazer:** para pedir, Supervisor, Gestor ou Administrador, com a permissão de solicitar liberação. Para aprovar: Gestor ou Administrador, com a permissão de aprovar liberação.
+**Quem pode fazer:** para pedir, Supervisor, Gestor ou Administrador, com a permissão de solicitar liberação. Para aprovar ou reprovar: Gestor ou Administrador, com a permissão de aprovar liberação (ou pelo fluxo de aprovação). Para ver: a permissão de ver documentos.
 {% endhint %}
 
 ## Antes de começar
@@ -47,7 +47,7 @@ Abra a ficha da contratada ou do colaborador e clique em **Solicitar liberação
 {% step %}
 ### Acompanhe
 
-Clique em **Documentos › Liberações**. Os pedidos ficam em **Esperando decisão**, **Liberam o trabalho**, **Pedidos negados** e **Encerradas antes do prazo**.
+Clique em **Documentos › Liberações**. O pedido fica **Aguardando aprovação** até alguém decidir, e depois **Aprovada** ou **Reprovada**. A aprovada vale até a data escolhida e depois vence sozinha.
 {% endstep %}
 {% endstepper %}
 
@@ -63,8 +63,8 @@ O pedido vai para o fluxo de aprovação. Aparece "Liberação enviada para o fl
 
 <details>
 
-<summary>Posso encerrar antes?</summary>
+<summary>O documento foi aprovado. A liberação acaba?</summary>
 
-Pode. A liberação passa para **Encerradas antes do prazo**.
+Não. Ela só deixa de ser necessária e vence na data escolhida.
 
 </details>
