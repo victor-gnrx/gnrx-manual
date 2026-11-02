@@ -60,7 +60,7 @@ Aparece "Presença confirmada.", "Presença confirmada com assinatura." ou "Pres
 {% endstepper %}
 
 {% hint style="info" %}
-**Para vários de uma vez:** clique em **Assistir Kiosk**. A tela fica no modo de autoatendimento para cada colaborador confirmar a própria presença.
+**Para vários de uma vez:** clique em **Assistir Kiosk**. A **Lista de Presença** abre em tela cheia, com busca: cada colaborador procura o próprio nome e assina a presença. Use num tablet ou num computador na porta da sala.
 {% endhint %}
 
 ## Deu errado?

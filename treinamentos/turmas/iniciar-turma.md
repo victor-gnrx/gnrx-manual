@@ -53,19 +53,23 @@ Se tudo estiver certo, clique em **Iniciar treinamento**. Aparece "Treinamento <
 
 ## Deu errado?
 
+O botão **Iniciar treinamento** fica desabilitado até tudo estar certo. Aparece "Resolva os problemas acima antes de iniciar o treinamento.".
+
 | Mensagem na tela | O que fazer |
 | --- | --- |
-| "Nenhum participante cadastrado" | [Adicione participantes](ajustar-turma.md). |
-| "Nenhuma sessão cadastrada" | Adicione uma sessão. No EAD, elas são opcionais. |
-| "Nenhum instrutor principal definido" | Defina o instrutor principal. No EAD, o instrutor é opcional. |
+| "Nenhuma sessão cadastrada" | Adicione uma sessão. No EAD, elas são opcionais ("Sem sessões: no EAD elas são opcionais"). |
+| Sessão fora do período, em **Datas das sessões** | Ajuste a data da sessão para dentro do período da turma. |
+| "Nenhum participante cadastrado" | [Adicione participantes](ajustar-turma.md). Eles são obrigatórios sempre. |
+| "Nenhum instrutor cadastrado" | Adicione um instrutor. No EAD, ele é opcional. |
+| "Nenhum instrutor principal definido" | Marque um instrutor como principal. No EAD sem instrutor, não precisa. |
 
 ## Dúvidas comuns
 
 <details>
 
-<summary>E se uma sessão estiver fora do período?</summary>
+<summary>Por que o botão Iniciar treinamento está apagado?</summary>
 
-A conferência mostra em **Datas das sessões**. Ajuste a sessão antes de iniciar.
+Algum item da conferência não está ok. Veja a tabela acima.
 
 </details>
 
