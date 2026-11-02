@@ -56,10 +56,12 @@ Abra o [seu perfil](meu-perfil.md) e veja a seção **Módulos**. Se o módulo n
 
 | Mensagem na tela | O que fazer |
 | --- | --- |
-| Tela de acesso negado | A empresa não contratou o módulo. Fale com o seu contato comercial da GNRx. |
+| "Você não tem acesso" | A empresa não contratou o módulo. Clique em **Voltar para a página inicial** e fale com o seu contato comercial da GNRx. |
 | "Período de teste expirado" | O teste acabou. Fale com o time comercial da GNRx para continuar. |
 | "Sua empresa ainda não tem este módulo." | Clique em **Conhecer o módulo** para saber mais ou em **Agora não** para voltar. |
 | "O usuário não possui permissão para acessar nenhum módulo." | Peça ao administrador para liberar um módulo no seu cadastro. |
+
+<figure><img src="../.gitbook/assets/modulos-02-acesso-negado.png" alt="Tela 401 com a mensagem Você não tem acesso e o botão Voltar para a página inicial"><figcaption><p>Você não tem acesso</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/modulos-01-teste-expirado.png" alt="Tela Período de teste expirado com a lista Status dos módulos, o selo Expirado e o botão Voltar ao Login"><figcaption><p>Período de teste expirado</p></figcaption></figure>
 
