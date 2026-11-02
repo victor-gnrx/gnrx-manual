@@ -4,6 +4,10 @@
 
 * [Introdução à Gestão de CIPA](README.md)
 
+## Painel
+
+* [Ver o painel da CIPA](painel/ver-painel.md)
+
 ## Acesso
 
 * [Entrar no sistema](acesso/entrar-no-sistema.md)
@@ -85,6 +89,9 @@
 
 ## Configurações
 
+* [Ajustar as regras da CIPA](configuracoes/regras-da-cipa.md)
+* [Ajustar as funções da comissão](configuracoes/funcoes-da-comissao.md)
+* [Cadastrar os feriados](configuracoes/feriados.md)
 * [Turnos](estruturas/turnos/README.md)
   * [Criar um turno](estruturas/turnos/criar-turno.md)
   * [Editar um turno](estruturas/turnos/editar-turno.md)
