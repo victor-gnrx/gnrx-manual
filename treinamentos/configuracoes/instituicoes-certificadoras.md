@@ -53,7 +53,7 @@ Clique em **Nova Instituição**. Preencha o nome (ex.: SENAI - Serviço Naciona
 {% step %}
 ### Salve
 
-Salve. Aparece "Instituição certificadora criada com sucesso!".
+Clique em **Criar**. Aparece "Instituição certificadora criada com sucesso!". Na edição, o botão é **Atualizar**.
 {% endstep %}
 {% endstepper %}
 

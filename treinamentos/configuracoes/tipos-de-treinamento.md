@@ -61,7 +61,7 @@ Preencha a **Carga mínima (h)** do treinamento inicial e a **Carga da reciclage
 {% step %}
 ### Salve
 
-Salve. Aparece "Tipo de treinamento criado com sucesso!".
+Clique em **Criar**. Aparece "Tipo de treinamento criado com sucesso!". Na edição, o botão é **Atualizar**.
 {% endstep %}
 {% endstepper %}
 

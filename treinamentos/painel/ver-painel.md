@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Abra o painel
 
-Clique em **Painel**. Abre o **Painel de Gestão**, com **Funcionários Ativos**, **Vencendo em 30d**, **Média de reação**, **Reações respondidas** e **Eficácias avaliadas**.
+Clique em **Painel**, no topo da barra (em telas menores, só o ícone aparece). Abre o **Painel de Gestão**, com **Funcionários Ativos**, **Vencendo em 30d**, **Média de reação**, **Reações respondidas** e **Eficácias avaliadas**.
 
 <figure><img src="../.gitbook/assets/painel-01.png" alt="Painel de Gestão com os indicadores do topo e os gráficos"><figcaption><p>Painel de Gestão</p></figcaption></figure>
 {% endstep %}
