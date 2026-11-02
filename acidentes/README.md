@@ -27,7 +27,7 @@ layout:
 
 ## Comece por aqui
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Entrar no sistema</strong></td><td>Acesse o GNRx.</td><td><a href="acesso/entrar-no-sistema.md">acesso/entrar-no-sistema.md</a></td></tr><tr><td><strong>Criar um colaborador</strong></td><td>Cadastre quem trabalha na empresa.</td><td><a href="estruturas/colaboradores/criar-colaborador.md">estruturas/colaboradores/criar-colaborador.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Entrar no sistema</strong></td><td>Acesse o GNRx.</td><td><a href="acesso/entrar-no-sistema.md">acesso/entrar-no-sistema.md</a></td></tr><tr><td><strong>Registrar uma ocorrência</strong></td><td>Do desvio ao acidente.</td><td><a href="ocorrencias/registrar-ocorrencia.md">ocorrencias/registrar-ocorrencia.md</a></td></tr><tr><td><strong>Criar um colaborador</strong></td><td>Cadastre quem trabalha na empresa.</td><td><a href="estruturas/colaboradores/criar-colaborador.md">estruturas/colaboradores/criar-colaborador.md</a></td></tr></tbody></table>
 
 ## Tarefas do dia a dia
 

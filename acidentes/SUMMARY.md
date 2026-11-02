@@ -48,6 +48,15 @@
   * [Editar uma unidade](estruturas/unidades/editar-unidade.md)
   * [Inativar uma unidade](estruturas/unidades/desativar-unidade.md)
 
+## Ocorrências
+
+* [Ocorrências](ocorrencias/README.md)
+* [Registrar uma ocorrência](ocorrencias/registrar-ocorrencia.md)
+* [Encontrar uma ocorrência](ocorrencias/encontrar-ocorrencia.md)
+* [Fazer a triagem](ocorrencias/fazer-triagem.md)
+* [Investigar uma ocorrência](ocorrencias/investigar-ocorrencia.md)
+* [Mudar o status de uma ocorrência](ocorrencias/mudar-status.md)
+
 ## Configurações
 
 * [Turnos](estruturas/turnos/README.md)
