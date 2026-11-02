@@ -127,6 +127,6 @@ Nos emails para relatórios configurados nas unidades, é possível definir:
 
 Após configurar os setores e associá-los às unidades, você pode:
 
-* [Gerenciar usuários do sistema](../../../web/usuario.md)
+* [Gerenciar usuários do sistema](usuarios/README.md)
 * [Criar modelos de checklist](../../../web/modelo-customizado.md)
 * [Iniciar novas auditorias](../../../web/criar-auditoria.md)

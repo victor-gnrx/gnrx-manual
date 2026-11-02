@@ -1,6 +1,6 @@
 ---
-description: Sistema avançado de controle de acesso com roles e permissões granulares
-icon: shield-check
+description: Dê acesso ao GNRx a uma pessoa nova.
+icon: user-plus
 layout:
   width: default
   title:
@@ -21,4 +21,4 @@ layout:
     visible: true
 ---
 
-{% include "../../../epi/configuracoes-iniciais/usuarios/sistema-permissoes-roles.md" %}
+{% include "../../../../epi/configuracoes-iniciais/usuarios/criar-usuario.md" %}

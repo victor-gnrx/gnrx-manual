@@ -1,4 +1,6 @@
 ---
+description: Ligue ou desligue os módulos que um usuário pode usar.
+icon: toggle-on
 layout:
   width: default
   title:
@@ -19,5 +21,4 @@ layout:
     visible: true
 ---
 
-# Usuários
-
+{% include "../../../../epi/configuracoes-iniciais/usuarios/liberar-modulos.md" %}

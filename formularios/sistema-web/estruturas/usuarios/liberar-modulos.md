@@ -1,6 +1,6 @@
 ---
-description: Sistema avançado de controle de acesso com roles e permissões granulares
-icon: shield-check
+description: Ligue ou desligue os módulos que um usuário pode usar.
+icon: toggle-on
 layout:
   width: default
   title:
@@ -21,4 +21,4 @@ layout:
     visible: true
 ---
 
-{% include "../../../epi/configuracoes-iniciais/usuarios/sistema-permissoes-roles.md" %}
+{% include "../../../../epi/configuracoes-iniciais/usuarios/liberar-modulos.md" %}

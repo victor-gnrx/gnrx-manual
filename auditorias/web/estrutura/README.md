@@ -33,7 +33,7 @@ O sistema é organizado em três componentes estruturais básicos:
 
 | Componente   | Descrição                                                     | Documentação Detalhada           |
 | ------------ | ------------------------------------------------------------- | -------------------------------- |
-| **Usuários** | Gerencia os usuários que podem realizar e gerenciar inspeções | [Manual de Usuários](usuario.md) |
+| **Usuários** | Gerencia os usuários que podem realizar e gerenciar inspeções | [Manual de Usuários](usuarios/README.md) |
 | **Unidades** | Configura os locais onde são realizadas as inspeções          | [Manual de Unidades](unidade.md) |
 | **Setores**  | Define as áreas específicas dentro de cada unidade            | [Manual de Setores](setor.md)    |
 
@@ -49,7 +49,7 @@ Gerencia as pessoas que podem acessar o sistema para realizar e gerenciar audito
 * Definição de níveis de acesso e permissões
 * Atribuição de unidades e setores específicos
 
-Para instruções detalhadas sobre gerenciamento de usuários, consulte o [Manual de Usuários](usuario.md).
+Para instruções detalhadas sobre gerenciamento de usuários, consulte o [Manual de Usuários](usuarios/README.md).
 
 ### Unidades
 
