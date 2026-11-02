@@ -63,9 +63,9 @@ Abra o [seu perfil](meu-perfil.md) e veja a seção **Módulos**. Se o módulo n
 
 <figure><img src="../.gitbook/assets/modulos-02-acesso-negado.png" alt="Tela 401 com a mensagem Você não tem acesso e o botão Voltar para a página inicial"><figcaption><p>Você não tem acesso</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/modulos-01-teste-expirado.png" alt="Tela Período de teste expirado com a lista Status dos módulos, o selo Expirado e o botão Voltar ao Login"><figcaption><p>Período de teste expirado</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/modulos-01-teste-expirado.png" alt="Tela Período de teste expirado com o nome do módulo, a mensagem Seu acesso expirou, o botão Voltar ao Login e o e-mail do suporte"><figcaption><p>Período de teste expirado</p></figcaption></figure>
 
-Na tela **Período de teste expirado**, a lista **Status dos módulos:** mostra o selo **Expirado** nos módulos vencidos. Clique em **Voltar ao Login** para sair.
+A tela **Período de teste expirado** diz qual módulo chegou ao fim (ex.: "O período de avaliação do módulo Auditoria chegou ao fim.") e mostra "Seu acesso expirou...". Clique em **Voltar ao Login** para sair. Para falar com o suporte, use o e-mail que aparece na tela.
 
 ## Dúvidas comuns
 
