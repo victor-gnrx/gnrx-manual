@@ -26,7 +26,7 @@ layout:
 **Para que serve:** programar um treinamento, registrar a presença e concluir a turma com quem foi aprovado.
 
 {% hint style="info" %}
-O caminho de uma turma: **Planejado** › **Em andamento** › **Concluído**. O filtro também tem o status **Cancelado**, mas pelo sistema não dá para cancelar a turma inteira, só uma sessão.
+O caminho de uma turma: **Planejado** › **Em andamento** › **Concluído**. Para desmarcar um encontro, cancele a sessão.
 {% endhint %}
 
 ## Comece por aqui
