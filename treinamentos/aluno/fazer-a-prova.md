@@ -67,6 +67,10 @@ Toque em **Enviar respostas**. Aparece **Sua nota**: "Você passou na prova" ou 
 | "Não foi desta vez" + "Resta 1 tentativa." | Reveja os módulos e faça de novo. |
 | "As tentativas acabaram. Fale com o responsável pelo treinamento." | Fale com o RH ou com o responsável. |
 | "Falta concluir o restante do treinamento." | Você passou, mas falta outra parte, como a prática presencial. |
+| "A empresa exige reconhecimento facial: envie a foto." | Tire a foto para continuar. |
+| "Cadastre o reconhecimento facial antes de continuar." | Peça ao RH ou ao SESMT para cadastrar o seu rosto. |
+| "O rosto não corresponde ao colaborador." | Tire de novo, com boa luz, o rosto inteiro no quadro e sem boné nem óculos escuros. Pode tentar quantas vezes precisar. |
+| "Falha na verificação facial" | Tente de novo daqui a pouco. |
 
 ## Dúvidas comuns
 
