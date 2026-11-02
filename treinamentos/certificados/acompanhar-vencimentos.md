@@ -65,6 +65,6 @@ Tente ajustar os filtros ou ampliar o período de vencimento.
 
 <summary>Como renovo um certificado vencendo?</summary>
 
-[Programe uma turma](../turmas/programar-treinamento.md) do mesmo treinamento.
+[Programe uma turma](../turmas/programar-treinamento.md) do mesmo treinamento. Se o treinamento tem curso EAD no Portal do aluno, a reciclagem aparece para o colaborador antes do vencimento (botão **Fazer a reciclagem**), e ele pode refazer sozinho. Veja [Baixar o certificado](../aluno/baixar-certificado.md), do lado do aluno.
 
 </details>
