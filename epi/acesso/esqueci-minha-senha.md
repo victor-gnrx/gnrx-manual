@@ -46,7 +46,7 @@ layout:
 
 Na tela de login, na aba **Usuário**, clique em **Esqueci minha senha**.
 
-<figure><img src=".gitbook/assets/senha-01-link-esqueci.png" alt="Aba Usuário da tela de login com o link Esqueci minha senha destacado"><figcaption><p>Link Esqueci minha senha</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/senha-01-link-esqueci.png" alt="Aba Usuário da tela de login com o link Esqueci minha senha destacado"><figcaption><p>Link Esqueci minha senha</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -54,7 +54,7 @@ Na tela de login, na aba **Usuário**, clique em **Esqueci minha senha**.
 
 Na janela **Recuperar Senha**, preencha **Usuário** e **Email**. Clique em **Enviar**.
 
-<figure><img src=".gitbook/assets/senha-02-janela-recuperar.png" alt="Janela Recuperar Senha com os campos Usuário e Email e os botões Cancelar e Enviar"><figcaption><p>Janela Recuperar Senha</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/senha-02-janela-recuperar.png" alt="Janela Recuperar Senha com os campos Usuário e Email e os botões Cancelar e Enviar"><figcaption><p>Janela Recuperar Senha</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -62,7 +62,7 @@ Na janela **Recuperar Senha**, preencha **Usuário** e **Email**. Clique em **En
 
 Aparece **Email Enviado**. Abra o e-mail do GNRx e clique no link.
 
-<figure><img src=".gitbook/assets/senha-03-email-enviado.png" alt="Mensagem Email Enviado após pedir a recuperação de senha"><figcaption><p>Confirmação de envio</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/senha-03-email-enviado.png" alt="Mensagem Email Enviado após pedir a recuperação de senha"><figcaption><p>Confirmação de envio</p></figcaption></figure>
 
 {% hint style="info" %}
 Essa mensagem aparece sempre, mesmo se os dados estiverem errados. É por segurança. Se o e-mail não chegar, confira o usuário e o e-mail e peça de novo.
@@ -81,7 +81,7 @@ A senha precisa ter:
 * número;
 * caractere especial (ex.: `!`, `@`, `#`).
 
-<figure><img src=".gitbook/assets/senha-04-redefinir.png" alt="Tela Redefinir Senha com os campos Nova Senha e Confirmar Nova Senha"><figcaption><p>Tela Redefinir Senha</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/senha-04-redefinir.png" alt="Tela Redefinir Senha com os campos Nova Senha e Confirmar Nova Senha"><figcaption><p>Tela Redefinir Senha</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -93,7 +93,7 @@ A senha precisa ter:
 Depois de 3 tentativas erradas com o mesmo link, ele é bloqueado. Peça um novo.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/senha-05-link-expirado.png" alt="Tela com a mensagem Link Inválido ou Expirado"><figcaption><p>Link vencido ou já usado</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/senha-05-link-expirado.png" alt="Tela com a mensagem Link Inválido ou Expirado"><figcaption><p>Link vencido ou já usado</p></figcaption></figure>
 
 ## Dúvidas comuns
 

@@ -5,6 +5,11 @@
 * [Introdução ao Gestão de EPIs](README.md)
 * [Painel de Controle](painel.md)
 
+## Acesso
+
+* [Entrar no sistema](acesso/entrar-no-sistema.md)
+* [Recuperar a senha](acesso/esqueci-minha-senha.md)
+
 ## Configurações Iniciais
 
 * [Visão Geral](configuracoes-iniciais/README.md)
