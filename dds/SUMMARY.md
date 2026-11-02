@@ -17,6 +17,7 @@
 ## Agendas
 
 * [Criar uma agenda de DDS](agendas/criar-agenda.md)
+* [Ajustar os horários da rotina](agendas/horarios-da-rotina.md)
 
 ## Temas
 

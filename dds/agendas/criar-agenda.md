@@ -47,7 +47,7 @@ Clique em **Agendas** e depois em **Nova agenda**.
 {% step %}
 ### Preencha
 
-Dê um **Nome** (ex.: DDS da manutenção, turno A). Escolha o público, os **Dias** (**Todos os dias** ou **Dias úteis**), a **Hora**, a **Duração (min)**, o **Início** e o **Fim**. Escolha o tema ou **Rodízio de temas**, o condutor (ou **Sem condutor fixo**) e, se quiser, **Exigir assinatura**.
+Dê um **Nome** (ex.: DDS da manutenção, turno A). Escolha o público: a equipe de um supervisor **ou** uma unidade (com setor opcional). Escolha os **Dias** (**Todos os dias** ou **Dias úteis**), a **Hora**, a **Duração (min)**, o **Início** e o **Fim**. Escolha o tema ou **Rodízio de temas**, o condutor (ou **Sem condutor fixo**): um colaborador **ou** um usuário do painel, nunca os dois. O condutor serve para a agenda de unidade ou para pôr alguém no lugar do supervisor e, se quiser, **Exigir assinatura**.
 {% endstep %}
 
 {% step %}
@@ -56,6 +56,13 @@ Dê um **Nome** (ex.: DDS da manutenção, turno A). Escolha o público, os **Di
 Clique em **Salvar**. Aparece "Agenda criada.".
 {% endstep %}
 {% endstepper %}
+
+## Deu errado?
+
+| Mensagem na tela | O que fazer |
+| --- | --- |
+| "Informe um condutor só: colaborador ou usuário." | Escolha só um dos dois. |
+| "Unidade, setor, equipe ou condutor não pertencem à empresa (ou estão inativos)." | Confira as escolhas e troque o que estiver inativo. |
 
 ## Dúvidas comuns
 
@@ -71,6 +78,6 @@ Pause a agenda. Aparece "Agenda pausada.". Para ver as pausadas, ligue **Mostrar
 
 <summary>Em que horário o DDS do dia é criado?</summary>
 
-Em **Horários**, ajuste os **Horários da rotina**: **Criar os DDS e avisar o líder** e **Lembrar os atrasados**. Use minutos de 5 em 5, como 06:00 ou 06:05. Clique em salvar. Aparece "Horários salvos.".
+No horário da rotina. Veja [Ajustar os horários da rotina](horarios-da-rotina.md).
 
 </details>
