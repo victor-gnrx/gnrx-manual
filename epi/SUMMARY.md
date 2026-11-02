@@ -88,7 +88,7 @@
 * [Gerar a ficha de EPI](configuracoes-iniciais/colaboradores/ficha-de-epi.md)
 * [Anexar uma ficha retroativa](configuracoes-iniciais/colaboradores/fichas-retroativas.md)
 * [Vincular um GHE a um colaborador](configuracoes-iniciais/colaboradores/vincular-ghe.md)
-* [Acessar Ficha](colaboradores/acessar-ficha.md)
+* [Ver os EPIs do colaborador](colaboradores/acessar-ficha.md)
 
 ## Turnos
 

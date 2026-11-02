@@ -1,8 +1,6 @@
 ---
-description: >-
-  Esta página explica como gerar e acessar a ficha de EPI individual de
-  colaboradores no Sistema GNRx Gestão de EPI.
-icon: clipboard
+description: "Veja os EPIs em uso, o histórico e as solicitações de um colaborador."
+icon: id-card
 layout:
   width: default
   title:
@@ -23,126 +21,60 @@ layout:
     visible: true
 ---
 
-# Acessar Ficha
+# Ver os EPIs do colaborador
 
-### Visão Geral
+**Para que serve:** ver quais EPIs o colaborador está usando, quais faltam, quanto já foi gasto com ele e todas as solicitações dele.
 
-A ficha de EPI é um documento oficial que comprova os equipamentos de proteção individual entregues ao colaborador, sendo fundamental para demonstrar conformidade com a NR-6 e manter o histórico de entregas organizado.
+{% hint style="info" %}
+**Quem pode fazer:** todas as roles (Operador, Supervisor, Gestor e Administrador), com a permissão de ver colaboradores.
+{% endhint %}
 
-### Importância da Ficha de EPI
+## Antes de começar
 
-A ficha de EPI serve para:
+* Nada a preparar.
 
-* **Comprovação legal** - Documento oficial que atesta a entrega dos EPIs ao colaborador
-* **Rastreabilidade** - Histórico completo das entregas realizadas
-* **Conformidade NR-6** - Evidência de cumprimento das obrigações legais
-* **Controle interno** - Gestão e acompanhamento das entregas por colaborador
-* **Auditoria** - Documentação para processos de fiscalização e auditoria
+## Passo a passo
 
-### Pré-requisitos
+{% stepper %}
+{% step %}
+### Abra o colaborador
 
-Para gerar a ficha de EPI é necessário:
+Clique em **Estruturas › Colaboradores** e abra o colaborador. Na **Visão Geral**, veja o **Total Gasto em EPIs**, o **Gasto em Solicitações** e o **Termo de Responsabilidade**.
 
-* Ter o colaborador cadastrado no sistema
-* Possuir entregas de EPIs registradas para o colaborador
-* Estar na página de detalhes do colaborador
+<figure><img src="../.gitbook/assets/colaborador-epis-01.png" alt="Ficha do colaborador com as abas Visão Geral, Epis, Solicitações, Afastamentos, Notif. App e Notif. WhatsApp"><figcaption><p>Ficha do colaborador</p></figcaption></figure>
+{% endstep %}
 
-### Acessando a Função
+{% step %}
+### Veja os EPIs
 
-Para gerar a ficha de EPI de um colaborador:
+Clique na aba **Epis**. Em **EPIs do Colaborador**, cada EPI aparece como **Em uso**, **Sem proteção**, **Nunca solicitado** ou **Disponível**. Use **Buscar EPIs...** e **Filtrar por status** (ex.: **Sem Proteção (Obrigatórios)**). Clique em **Ver Itens Ativos** para ver as unidades em uso e o **Histórico**.
+{% endstep %}
 
-1. No menu lateral, clique em **Estruturas**
-2. Selecione **Colaboradores**
-3. Localize e clique no colaborador desejado
-4. Na página de detalhes do colaborador, clique no botão **Ficha EPI** (localizado no canto superior direito)
+{% step %}
+### Veja as solicitações
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>Página do colaborador com botão Ficha EPI destacado</p></figcaption></figure>
+Clique na aba **Solicitações**. Em **Solicitações de EPI do Colaborador**, busque por número, item ou CA. Clique em **Ver Detalhes** para abrir.
+{% endstep %}
+{% endstepper %}
 
+{% hint style="warning" %}
+No topo da ficha aparecem os avisos **Urgente: EPIs não devolvidos** e **Atenção: EPIs próximos da data de devolução**. Clique em **Ir para Devolução** para registrar.
+{% endhint %}
 
+## Dúvidas comuns
 
-### Configurações da Ficha
+<details>
 
-Ao clicar no botão "Ficha EPI", o sistema exibirá um modal de configuração:
+<summary>O termo aparece como Assinatura Pendente.</summary>
 
-<figure><img src="../.gitbook/assets/image (20).png" alt="" width="507"><figcaption><p>Modal de configuração da ficha de EPI</p></figcaption></figure>
+Clique em **Assinar Termo** ou em **Enviar E-mail**. Veja [Assinar o termo de responsabilidade](../configuracoes-iniciais/colaboradores/termo-de-responsabilidade.md).
 
-#### Opções Disponíveis
+</details>
 
-**Exibir hash de verificação**
+<details>
 
-* ✅ **Marcado (Recomendado)**: Inclui um código único de verificação na ficha
-* ⬜ **Desmarcado**: Gera a ficha sem o hash de verificação
+<summary>Preciso da ficha de EPI em papel.</summary>
 
-#### Importância do Hash de Verificação
+Veja [Gerar a ficha de EPI](../configuracoes-iniciais/colaboradores/ficha-de-epi.md).
 
-O hash de verificação é um código único que:
-
-* **Garante autenticidade** - Confirma que o documento não foi alterado
-* **Previne falsificação** - Código impossível de replicar sem acesso ao sistema
-* **Facilita validação** - Permite verificar rapidamente a legitimidade do documento
-* **Atende auditorias** - Demonstra integridade documental em fiscalizações
-
-> **💡 Recomendação**: Mantenha sempre a opção "Exibir hash de verificação" marcada para garantir máxima segurança e autenticidade do documento.
-
-### Gerando a Ficha
-
-Para finalizar a geração da ficha:
-
-1. Configure as opções desejadas no modal
-2. Clique no botão **Gerar Ficha**
-3. Aguarde o processamento do sistema
-4. O documento será gerado automaticamente em formato PDF
-
-### Conteúdo da Ficha
-
-A ficha de EPI inclui:
-
-* **Dados do colaborador** - Nome, matrícula, setor, função
-* **Informações da empresa** - Razão social, CNPJ, endereço
-* **Lista de EPIs entregues** - Descrição, data de entrega, validade
-* **Assinaturas digitais** - Quando aplicável
-* **Hash de verificação** - Código de autenticidade (se habilitado)
-* **Data de geração** - Timestamp do documento
-
-### Utilizando a Ficha
-
-A ficha gerada pode ser utilizada para:
-
-* **Arquivamento físico** - Impressão para arquivo documental
-* **Envio por email** - Compartilhamento com colaborador ou gestores
-* **Apresentação em auditorias** - Comprovação de conformidade legal
-
-### Solução de Problemas
-
-#### Ficha não gera
-
-**Possíveis causas:**
-
-* Colaborador sem entregas registradas
-* Foto do relatório da empresa não definida
-* Problemas de conexão com o sistema
-* Permissões insuficientes
-
-**Soluções:**
-
-* Verifique se existem entregas para o colaborador
-* Confirme conexão estável com a internet
-* Contate o administrador do sistema se persistir
-
-#### Dados incorretos na ficha
-
-**Verificações necessárias:**
-
-* Confirme dados atualizados do colaborador
-* Valide informações da empresa no sistema
-* Verifique se todas as entregas estão registradas
-
-### Dicas Importantes
-
-> **⚠️ Atenção**: A ficha de EPI é um documento legal. Certifique-se de que todas as informações estejam corretas antes da geração.
-
-> **🔍 Auditoria**: Utilize o hash de verificação para facilitar processos de auditoria e demonstrar integridade documental.
-
-***
-
-**Última atualização:** 16 de Maio de 2025
+</details>
