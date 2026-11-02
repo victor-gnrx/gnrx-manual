@@ -79,6 +79,6 @@ Clique em **Limpar** antes de salvar.
 
 <summary>Onde ficam as qualificações?</summary>
 
-Em **Ver Detalhes**, na aba **Qualificações** (**Qualificações e Habilitações**). As qualificações são os certificados do instrutor: para incluir uma, adicione um certificado por aqui. Cada uma mostra se está **Válido**, **Próximo do vencimento**, **Vencido** ou **Sem validade**.
+Em **Ver Detalhes**, na aba **Qualificações** (**Qualificações e Habilitações**). As qualificações são os certificados do instrutor: para incluir uma, adicione um certificado por aqui, como em [Anexar um certificado](../../certificados/anexar-certificado.md). Cada uma mostra se está **Válido**, **Próximo do vencimento**, **Vencido** ou **Sem validade**.
 
 </details>

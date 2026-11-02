@@ -63,6 +63,7 @@
 * [Encontrar uma turma](turmas/encontrar-turma.md)
 * [Iniciar a turma](turmas/iniciar-turma.md)
 * [Registrar a presença](turmas/registrar-presenca.md)
+* [Gerar a lista de presença](turmas/gerar-lista-presenca.md)
 * [Concluir a turma](turmas/concluir-turma.md)
 * [Ajustar a turma](turmas/ajustar-turma.md)
 * [Acompanhar uma turma EAD](turmas/acompanhar-ead.md)
@@ -78,6 +79,13 @@
   * [Liberar os acessos aos cursos](portal-do-aluno/liberar-acessos.md)
   * [Acompanhar os alunos](portal-do-aluno/acompanhar-alunos.md)
 * [Responder as dúvidas dos alunos](turmas/responder-duvidas.md)
+
+## Certificados
+
+* [Certificados](certificados/README.md)
+* [Consultar os certificados](certificados/consultar-certificados.md)
+* [Acompanhar os vencimentos](certificados/acompanhar-vencimentos.md)
+* [Anexar um certificado](certificados/anexar-certificado.md)
 
 ## Para o aluno
 
