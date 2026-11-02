@@ -37,19 +37,28 @@
 
 ## Unidades
 
-* [Visão Geral](configuracoes-iniciais/unidades/README.md)
-* [Listar Unidades](configuracoes-iniciais/unidades/listar-unidades.md)
-* [Editar Unidade](configuracoes-iniciais/unidades/editar-unidade.md)
-* [Desativar Unidade](configuracoes-iniciais/unidades/desativar-unidade.md)
+* [Unidades](configuracoes-iniciais/unidades/README.md)
+* [Encontrar uma unidade](configuracoes-iniciais/unidades/listar-unidades.md)
+* [Criar uma unidade](configuracoes-iniciais/unidades/criar-unidade.md)
+* [Editar uma unidade](configuracoes-iniciais/unidades/editar-unidade.md)
+* [Inativar uma unidade](configuracoes-iniciais/unidades/desativar-unidade.md)
 
 ## Setores
 
-* [Visão Geral](configuracoes-iniciais/setores/README.md)
-* [Listar Setores](configuracoes-iniciais/setores/listar-setores.md)
-* [Criar Setor](configuracoes-iniciais/setores/criar-setor.md)
-* [Editar Setor](configuracoes-iniciais/setores/editar-setor.md)
-* [Desativar Setor](configuracoes-iniciais/setores/desativar-setor.md)
-* [Vincular Unidades](configuracoes-iniciais/setores/vincular-unidades.md)
+* [Setores](configuracoes-iniciais/setores/README.md)
+* [Encontrar um setor](configuracoes-iniciais/setores/listar-setores.md)
+* [Criar um setor](configuracoes-iniciais/setores/criar-setor.md)
+* [Editar um setor](configuracoes-iniciais/setores/editar-setor.md)
+* [Inativar um setor](configuracoes-iniciais/setores/desativar-setor.md)
+* [Associar um setor a uma unidade](configuracoes-iniciais/setores/vincular-unidades.md)
+
+## Cargos
+
+* [Cargos](configuracoes-iniciais/cargos/README.md)
+* [Encontrar um cargo](configuracoes-iniciais/cargos/listar-cargos.md)
+* [Criar um cargo](configuracoes-iniciais/cargos/criar-cargo.md)
+* [Editar um cargo](configuracoes-iniciais/cargos/editar-cargo.md)
+* [Inativar um cargo](configuracoes-iniciais/cargos/desativar-cargo.md)
 
 ## GHE
 
@@ -61,24 +70,32 @@
 * [Vincular Riscos](configuracoes-iniciais/ghes/vincular-riscos.md)
 * [Vincular EPIs](configuracoes-iniciais/ghes/vincular-epis.md)
 
-## Cargos
-
-* [Visão Geral](configuracoes-iniciais/cargos/README.md)
-* [Listar Cargos](configuracoes-iniciais/cargos/listar-cargos.md)
-* [Criar Cargo](configuracoes-iniciais/cargos/criar-cargo.md)
-* [Editar Cargo](configuracoes-iniciais/cargos/editar-cargo.md)
-* [Desativar Cargo](configuracoes-iniciais/cargos/desativar-cargo.md)
-
 ## Colaboradores
 
-* [Visão Geral](configuracoes-iniciais/colaboradores/README.md)
-* [Listar Colaboradores](configuracoes-iniciais/colaboradores/listar-colaboradores.md)
-* [Criar Colaborador](configuracoes-iniciais/colaboradores/criar-colaborador.md)
-* [Desativar Colaborador](configuracoes-iniciais/colaboradores/desativar-colaborador.md)
-* [Vincular Unidades](configuracoes-iniciais/colaboradores/vincular-unidades.md)
-* [Vincular Setores](configuracoes-iniciais/colaboradores/vincular-setores.md)
+* [Colaboradores](configuracoes-iniciais/colaboradores/README.md)
+* [Encontrar um colaborador](configuracoes-iniciais/colaboradores/listar-colaboradores.md)
+* [Criar um colaborador](configuracoes-iniciais/colaboradores/criar-colaborador.md)
+* [Editar um colaborador](configuracoes-iniciais/colaboradores/editar-colaborador.md)
+* [Vincular uma unidade a um colaborador](configuracoes-iniciais/colaboradores/vincular-unidades.md)
+* [Vincular setor e cargo a um colaborador](configuracoes-iniciais/colaboradores/vincular-setores.md)
+* [Desligar, afastar ou reativar um colaborador](configuracoes-iniciais/colaboradores/desativar-colaborador.md)
 * [Vincular GHE](configuracoes-iniciais/colaboradores/vincular-ghe.md)
 * [Acessar Ficha](colaboradores/acessar-ficha.md)
+
+## Turnos
+
+* [Turnos](configuracoes-iniciais/turnos/README.md)
+* [Criar um turno](configuracoes-iniciais/turnos/criar-turno.md)
+* [Editar um turno](configuracoes-iniciais/turnos/editar-turno.md)
+* [Unir turnos](configuracoes-iniciais/turnos/unir-turnos.md)
+* [Inativar ou reativar um turno](configuracoes-iniciais/turnos/inativar-turno.md)
+
+## Terceiros
+
+* [Empresas Terceiras](configuracoes-iniciais/terceiros/README.md)
+* [Criar uma empresa terceira](configuracoes-iniciais/terceiros/criar-terceiro.md)
+* [Editar uma empresa terceira](configuracoes-iniciais/terceiros/editar-terceiro.md)
+* [Inativar ou reativar uma empresa terceira](configuracoes-iniciais/terceiros/inativar-terceiro.md)
 
 ## Reconhecimento Facial
 

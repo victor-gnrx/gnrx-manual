@@ -1,5 +1,6 @@
 ---
-icon: users
+description: Registre o desligamento ou o afastamento de um colaborador, ou a volta dele.
+icon: user-minus
 layout:
   width: default
   title:
@@ -20,131 +21,76 @@ layout:
     visible: true
 ---
 
-# Desativar Colaborador
+# Desligar, afastar ou reativar um colaborador
 
-Esta página explica como desativar um colaborador existente no Sistema GNRX Gestão de EPI, bem como as implicações desta ação.
+**Para que serve:** registrar que a pessoa saiu da empresa, que está afastada por um tempo, ou que voltou.
 
-## Visão Geral
+{% hint style="info" %}
+**Quem pode fazer:** Administrador, com a permissão de inativar colaboradores. Para reativar: Gestor ou Administrador, com a permissão de reativar colaboradores.
+{% endhint %}
 
-A desativação de colaboradores é utilizada quando um funcionário se desliga da empresa ou está temporariamente afastado. Diferente da exclusão definitiva, a desativação preserva todo o histórico para fins de auditoria e rastreabilidade.
+## Antes de começar
 
-## Quando Desativar um Colaborador
+* Tenha o motivo do afastamento, se for o caso.
 
-As situações mais comuns para desativação incluem:
+## Passo a passo
 
-- Desligamento do funcionário (demissão ou aposentadoria)
-- Afastamento temporário prolongado
-- Transferência para outra empresa do grupo
-- Licenças extensas
-- Correção de cadastros duplicados
+{% stepper %}
+{% step %}
+### Abra a inativação
 
-## Acessando a Função de Desativação
+Clique em **Estruturas › Colaboradores**. Na coluna **Ações**, abra o menu e clique em **Inativar**. Abre **Inativar colaborador**: "Escolha como deseja inativar este colaborador.".
 
-Para desativar um colaborador:
+<figure><img src="../../.gitbook/assets/colaboradores-inativar-01.png" alt="Janela Inativar colaborador com as opções Desligamento definitivo e Afastamento temporário"><figcaption><p>Inativar colaborador</p></figcaption></figure>
+{% endstep %}
 
-1. No menu lateral, clique em **Estruturas**
-2. Selecione **Colaboradores**
-3. Na lista de colaboradores, localize o colaborador desejado
-4. Clique no ícone de **Excluir/Desativar** (símbolo de lixeira) na coluna de ações
+{% step %}
+### Escolha o tipo
 
-![Desativar Colaborador](<../../.gitbook/assets/image (13) (1).png>)
+* **Desligamento definitivo:** encerra o vínculo, sem previsão de retorno.
+* **Afastamento temporário:** a pessoa vai voltar. Escolha o **Motivo** (Alistamento militar, Licença maternidade, Licença paternidade, Licença médica, Licença sem vencimento ou Outro). Se quiser, informe a **Data prevista de retorno** e ligue **Reativar automaticamente nessa data**.
 
-## Processo de Desativação
+<figure><img src="../../.gitbook/assets/colaboradores-inativar-02.png" alt="Afastamento temporário com o Motivo, a Data prevista de retorno e a chave Reativar automaticamente nessa data"><figcaption><p>Afastamento temporário</p></figcaption></figure>
+{% endstep %}
 
-Ao iniciar a desativação, o sistema apresentará um diálogo de confirmação:
+{% step %}
+### Confirme
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+Clique em **Desligar colaborador** ou **Afastar colaborador**. Aparece "Colaborador inativado com sucesso!".
+{% endstep %}
 
-Para prosseguir:
+{% step %}
+### Para reativar
 
-1. Informe a data de encerramento da atividade anteriormente, se aplicável
-2. Clique em Inativar
-3. O sistema processará a solicitação e exibirá uma mensagem de confirmação
+Filtre por **Inativos** ou **Afastados**. Na coluna **Ações**, abra o menu e clique em **Reativar**. Na janela **Reativar colaborador**, clique em **Reativar**. Aparece "Colaborador reativado com sucesso!".
+{% endstep %}
+{% endstepper %}
 
-## Impacto da Desativação
+## Deu errado?
 
-Quando um colaborador é desativado:
+O sistema pode mostrar avisos antes de confirmar:
 
-### O que acontece:
+| Mensagem na tela | O que fazer |
+| --- | --- |
+| "Este funcionário possui itens em aberto..." | Os itens continuam no histórico. Digite o nome do colaborador e clique em **Confirmar mesmo assim**. |
+| "Este funcionário possui treinamentos em andamento..." | Os treinamentos continuam no histórico. Digite o nome e clique em **Confirmar mesmo assim**. |
+| "Este funcionário tem estabilidade da CIPA..." | A dispensa sem justa causa é proibida. Escreva a **Justificativa do desligamento** e clique em **Justificar e desligar**, ou clique em **Manter colaborador**. |
+| "Este funcionário tem estabilidade acidentária..." | Mesma coisa: justifique ou clique em **Manter colaborador**. |
 
-- O colaborador recebe o status "Inativo" na lista
-- Ele deixa de aparecer em listas de seleção para novas solicitações
-- Relatórios padrão filtram o colaborador, a menos que explicitamente incluído
-- O histórico completo permanece acessível para consulta
-- O acesso ao aplicativo móvel é automaticamente bloqueado
+## Dúvidas comuns
 
-### O que NÃO acontece:
+<details>
 
-- O registro do colaborador não é excluído do banco de dados
-- Históricos de entregas de EPIs não são removidos
-- Obrigações de devolução de EPIs não são automaticamente canceladas
-- EPIs associados não são automaticamente liberados do inventário
+<summary>A pessoa volta sozinha do afastamento?</summary>
 
-## Verificações Prévias à Desativação
+Só se você ligou **Reativar automaticamente nessa data**. Ela volta a ficar ativa no dia informado.
 
-Antes de desativar um colaborador, o sistema verifica:
+</details>
 
-| Item                       | Verificação                                        | Ação Recomendada                                  |
-| -------------------------- | -------------------------------------------------- | ------------------------------------------------- |
-| **EPIs em Posse**          | Se há equipamentos não devolvidos                  | Registrar devolução ou perda antes da desativação |
-| **Solicitações Pendentes** | Se existem solicitações em andamento               | Concluir ou cancelar solicitações                 |
-| **Data Encerramento**      | Verificar se a Data de encerramento foi preenchida | Preencher a data de encerramento a na Edição      |
+<details>
 
-## Regulamentação de EPIs Não Devolvidos
+<summary>Perco o histórico ao inativar?</summary>
 
-Quando um colaborador será desativado mas ainda possui EPIs:
+Não. O histórico continua guardado. O colaborador só deixa de entrar nos novos relatórios.
 
-1. Acesse a aba **EPIs** na tela de detalhes do colaborador
-2. Para cada EPI não devolvido, clique em **Registrar Devolução**
-3. Escolha o motivo adequado:
-   - **Devolução Normal**: Se o EPI foi fisicamente devolvido
-   - **Registro de Perda**: Se o EPI não foi devolvido e não será recuperado
-   - **Registro de Quebra**: Se o EPI foi devolvido danificado
-
-> **Importante:** A devolução ou baixa de todos os EPIs não é obrigatória para desativar um colaborador, mas é uma prática recomendada para manter o controle do inventário.
-
-## Reativando um Colaborador
-
-Para reativar um colaborador previamente desativado:
-
-1. Na lista de colaboradores, localize o colaborador desativado (indicado com status "Inativo")
-2. Clique no ícone de **Reativar** (símbolo de Play)
-3. Confirme a reativação no diálogo exibido
-
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
-
-## Impacto nos Relatórios e Estatísticas
-
-A desativação de colaboradores pode afetar:
-
-- Contagens de colaboradores ativos em dashboards
-- Taxas de conformidade no uso de EPIs
-- Relatórios de gastos por colaborador
-- Estatísticas de rotatividade e gestão de EPIs
-
-Ao gerar relatórios, é possível incluir ou excluir colaboradores inativos através de filtros específicos.
-
-## Implicações Legais
-
-Do ponto de vista legal, a desativação preserva todos os registros necessários para:
-
-- Comprovação de entrega de EPIs durante o período de atividade
-- Demonstração de conformidade com a NR-6 em fiscalizações
-- Rastreabilidade em caso de investigações de acidentes
-- Confirmação de treinamentos e orientações fornecidas
-
-## Melhores Práticas
-
-- **Planejamento Prévio**: Organize a desativação antes do desligamento oficial
-- **Devolução de EPIs**: Sempre que possível, recolha todos os EPIs antes da desativação
-- **Documentação**: Registre claramente o motivo da desativação
-- **Data de Encerramento**: Mantenha a precisão na data de desligamento
-- **Verificação Final**: Confirme que todos os registros estão corretamente documentados
-
-## Erros Comuns e Soluções
-
-| Erro                                           | Solução                                           |
-| ---------------------------------------------- | ------------------------------------------------- |
-| "Colaborador possui solicitações em andamento" | Conclua ou cancele as solicitações pendentes      |
-| "Erro ao salvar data de encerramento"          | Verifique se o formato da data está correto       |
-| "Colaborador já desativado"                    | Verifique se o status já foi alterado previamente |
+</details>

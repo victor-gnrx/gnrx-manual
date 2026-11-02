@@ -1,5 +1,6 @@
 ---
-icon: users
+description: Cadastre uma pessoa que trabalha na empresa.
+icon: user-plus
 layout:
   width: default
   title:
@@ -20,114 +21,75 @@ layout:
     visible: true
 ---
 
-# Criar Colaborador
+# Criar um colaborador
 
-Esta página explica como adicionar um novo colaborador no Sistema GNRX Gestão de EPI.
+**Para que serve:** cadastrar uma pessoa que trabalha na empresa.
 
-## Visão Geral
+{% hint style="info" %}
+**Quem pode fazer:** Administrador, com a permissão de cadastrar colaboradores.
+{% endhint %}
 
-O cadastro de colaboradores é fundamental para a gestão de EPIs, pois estabelece quem receberá os equipamentos de proteção e quais serão necessários com base nos riscos aos quais o trabalhador está exposto.
+## Antes de começar
 
-## Acessando a Tela de Criação
+* Tenha o nome e o CPF da pessoa.
+* Para um terceiro, cadastre antes a [empresa terceira](../terceiros/criar-terceiro.md) e crie o colaborador de dentro dela.
 
-Para iniciar o cadastro de um novo colaborador:
+## Passo a passo
 
-1. No menu lateral, clique em **Estruturas**
-2. Selecione **Colaboradores**
-3. Na tela de listagem, clique no botão **Novo colaborador** no canto superior direito
+{% stepper %}
+{% step %}
+### Clique em Novo colaborador
 
-<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption><p>Botão Novo Colaborador</p></figcaption></figure>
+Clique em **Estruturas › Colaboradores** e depois em **Novo colaborador**. Abre a janela **Criar colaborador** (ou **Criar colaborador terceiro**, se você estiver dentro de uma empresa terceira).
 
-## Formulário de Cadastro
+<figure><img src="../../.gitbook/assets/colaboradores-criar-01.png" alt="Janela Criar colaborador com os campos Nome, Email, CPF, telefone, Matrícula, Início da Atividade, Turno e Pin de Acesso"><figcaption><p>Janela Criar colaborador</p></figcaption></figure>
+{% endstep %}
 
-Ao clicar em "Novo colaborador", o sistema exibirá um modal com o formulário de criação:
+{% step %}
+### Preencha os dados
 
-![Formulário Novo Colaborador](<../../.gitbook/assets/image (71).png>)
+* **Nome:** obrigatório, até 128 caracteres.
+* **CPF:** obrigatório.
+* **Pin de Acesso:** 6 números.
+* **Email**, telefone, **Matrícula** (até 20 caracteres), **Início da Atividade** e **Turno**: opcionais.
 
-### Campos do Formulário
+No **Turno**, escolha um turno ou digite um nome novo. O nome novo vira um [turno](../turnos/README.md).
+{% endstep %}
 
-| Campo                   | Descrição                                      | Obrigatoriedade | Exemplo                         |
-| ----------------------- | ---------------------------------------------- | --------------- | ------------------------------- |
-| **Nome**                | Nome completo do colaborador                   | Obrigatório     | "Rodrigo Lima"                  |
-| **Email**               | Endereço de e-mail para contato                | Opcional        | "rodrigo.lima@nrxgestao.com.br" |
-| **CPF**                 | Número de CPF (apenas números)                 | Obrigatório     | "12345678900"                   |
-| **Telefone**            | Número de telefone com DDD                     | Opcional        | "+553199999999"                 |
-| **Matrícula**           | Código de matrícula interna                    | Opcional        | "123456"                        |
-| **Início da Atividade** | Data de início das atividades                  | Opcional        | "08/10/2024"                    |
-| **Turno**               | Período de trabalho                            | Opcional        | "Manhã"                         |
-| **PIN de Acesso**       | Senha numérica de 6 dígitos para acesso ao app | Obrigatório     | "123456"                        |
+{% step %}
+### Salve
 
-## Preenchendo o Formulário
+Clique em **Salvar**. Aparece "Colaborador criado com sucesso".
+{% endstep %}
+{% endstepper %}
 
-1. Preencha os campos obrigatórios (Nome, CPF e PIN de Acesso)
-2. Adicione informações complementares nos campos opcionais
-3. Para o campo **PIN de Acesso**, defina uma senha de 6 dígitos numéricos que será utilizada pelo colaborador para:
-   - Acessar o App GNRx - Colaborador
-   - Realizar confirmações de recebimento em tablets ou dispositivos móveis
-4. Revise todas as informações inseridas
-5. Clique no botão **Salvar** para criar o colaborador
+Depois, [vincule a unidade](vincular-unidades.md) e o [setor e o cargo](vincular-setores.md).
 
-## Próximas Etapas Obrigatórias
+## Deu errado?
 
-Após o cadastro inicial, é necessário completar a configuração do colaborador com:
+| Mensagem na tela | O que fazer |
+| --- | --- |
+| "Nome é obrigatório" | Preencha o nome. |
+| "CPF inválido" | Confira o CPF (11 números). |
+| "Senha deve ter 6 números" | O Pin de Acesso precisa ter 6 números. |
+| "Email inválido" | Confira o e-mail. |
+| "Data adesão inválida" | O início da atividade não pode ser no futuro. |
+| "Limite Atingido" | O plano chegou ao limite de colaboradores ativos. Fale com o seu contato comercial da GNRx. |
 
-### 1. Vinculação a Unidades
+## Dúvidas comuns
 
-É essencial associar o colaborador a pelo menos uma unidade:
+<details>
 
-1. Na tela de detalhes do colaborador, localize a seção **Unidades**
-2. Clique no botão **Adicionar Unidade**
-3. Selecione a unidade desejada no modal exibido
-4. Clique em **Associar**
+<summary>Posso criar sem e-mail?</summary>
 
-> **Importante:** Um colaborador só poderá receber EPIs após estar vinculado a pelo menos uma unidade.
+Pode. O e-mail é opcional.
 
-### 2. Vinculação a Setores
+</details>
 
-Após vincular a unidade, é necessário definir o setor:
+<details>
 
-1. Na seção de unidades, localize a unidade associada
-2. Clique no botão **Setor** (ícone +)
-3. Selecione o setor desejado no modal exibido
-4. Clique em **Associar**
+<summary>Vale para todos os módulos?</summary>
 
-### 3. Vinculação a Cargos
+Sim. O colaborador é o mesmo em todos os módulos do GNRx.
 
-Defina o cargo do colaborador:
-
-1. Na estrutura hierárquica da unidade, ao lado do setor, clique no botão **Cargo**
-2. Selecione o cargo correspondente no modal exibido
-3. Clique em **Associar**
-
-### 4. Vinculação a GHEs
-
-**Esta é a etapa mais crítica, pois determinará quais EPIs o colaborador deverá receber:**
-
-1. Na estrutura hierárquica da unidade, clique no botão **GHE**
-2. Selecione o Grupo Homogêneo de Exposição adequado às atividades do colaborador
-3. Clique em **Associar**
-
-> **Fundamental:** A seleção correta do GHE é essencial, pois este vínculo determinará quais [riscos](../ghe/vincular-riscos.md) estão associados ao colaborador e, consequentemente, quais [EPIs](../ghe/vincular-epis.md) serão necessários.
-
-## Considerações Importantes
-
-- O CPF deve ser um número válido e único no sistema
-- O PIN de acesso deve ter exatamente 6 dígitos numéricos
-- Um colaborador não pode receber EPIs até que seja vinculado a um GHE
-- A estrutura completa (Unidade > GHE) é necessária para o funcionamento adequado do sistema
-
-## Melhores Práticas
-
-- **Dados Precisos**: Insira informações corretas e completas, especialmente CPF e nome
-- **Vínculos Adequados**: Associe o colaborador aos GHEs que correspondem exatamente às suas atividades reais
-- **Documentação**: Mantenha registros atualizados, especialmente após mudanças de função
-- **PIN Seguro**: Informe ao colaborador seu PIN inicial e oriente-o a mantê-lo seguro
-- **Cadastro Facial**: Após completar o cadastro básico, considere [cadastrar o reconhecimento facial](../reconhecimento-facial/cadastrar-face.md) para maior segurança nas entregas
-
-## Erros Comuns e Soluções
-
-| Erro                                  | Solução                                                                               |
-| ------------------------------------- | ------------------------------------------------------------------------------------- |
-| "CPF já cadastrado"                   | Verifique se o colaborador já existe no sistema ou se o CPF foi digitado corretamente |
-| "PIN deve conter 6 dígitos numéricos" | Certifique-se que o PIN tenha exatamente 6 números                                    |
-| "Erro ao salvar"                      | Verifique se todos os campos obrigatórios foram preenchidos corretamente              |
+</details>

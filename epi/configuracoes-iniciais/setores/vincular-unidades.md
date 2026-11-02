@@ -1,5 +1,6 @@
 ---
-icon: warehouse-full
+description: No EPI, coloque um setor dentro de uma unidade.
+icon: link
 layout:
   width: default
   title:
@@ -20,78 +21,58 @@ layout:
     visible: true
 ---
 
-# Vincular Unidades
+# Associar um setor a uma unidade
 
-Esta página explica como associar setores a unidades no Sistema GNRX Gestão de EPI.
+**Para que serve:** colocar um setor dentro de uma unidade, no módulo Gestão de EPIs.
 
-## Visão Geral
+{% hint style="info" %}
+**Quem pode fazer:** Gestor ou Administrador, com a permissão de editar unidades.
+{% endhint %}
 
-A vinculação entre setores e unidades é uma configuração fundamental no sistema, permitindo que um mesmo setor (área funcional) exista em diferentes localidades físicas da empresa. Esta associação determina onde os colaboradores podem ser alocados e como os EPIs serão distribuídos.
+## Antes de começar
 
-## Conceito de Vínculo Setor-Unidade
+* [Crie o setor](criar-setor.md) e a [unidade](../unidades/criar-unidade.md).
 
-No Sistema GNRX:
+## Passo a passo
 
-- Uma **Unidade** representa uma localidade física (filial, planta, escritório)
-- Um **Setor** representa uma área funcional (departamento, equipe)
-- Um mesmo setor pode existir em múltiplas unidades
-- Cada colaborador é vinculado a um setor dentro de uma unidade específica
+{% stepper %}
+{% step %}
+### Abra a unidade
 
-![Conceito de Vínculo](<../../.gitbook/assets/Unidade 1.png>)
+Clique em **Estruturas › Unidades**. Na coluna **Ações**, clique no ícone de olho. Abra a aba **Setores**.
 
-## Acessando a Tela de Vinculação
+<figure><img src="../../.gitbook/assets/setores-vincular-01.png" alt="Detalhe da unidade com a aba Setores aberta e o botão Adicionar setor"><figcaption><p>Aba Setores da unidade</p></figcaption></figure>
+{% endstep %}
 
-1. No menu lateral, clique em **Estruturas**
-2. Selecione **Unidades**
-3. Clique na unidade desejada para abrir a tela de detalhes
-4. Selecione a aba **Setores**
-5. Clique em **Adicionar Setor**
+{% step %}
+### Associe o setor
 
-<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+Clique em **Adicionar setor**. Na janela **Associar Setor**, escolha o **Setor** e confirme. Aparece "Setor associado com sucesso".
 
-## Visualizando Unidades Vinculadas a um Setor
+<figure><img src="../../.gitbook/assets/setores-vincular-02.png" alt="Janela Associar Setor com o campo Setor"><figcaption><p>Janela Associar Setor</p></figcaption></figure>
+{% endstep %}
+{% endstepper %}
 
-Na tela de detalhes do setor, a aba **Unidades** exibe:
+## Deu errado?
 
-<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+{% hint style="warning" %}
+**"É obrigatório"**: escolha um setor antes de confirmar.
+{% endhint %}
 
-- Lista das unidades onde o setor está presente
-- Quantidade de colaboradores do setor em cada unidade
+## Dúvidas comuns
 
-Esta visualização permite uma rápida avaliação da distribuição do setor pela empresa.
+<details>
 
-## Vinculando um Setor a uma Unidade
+<summary>Um setor pode estar em várias unidades?</summary>
 
-1. Na tela de detalhes da unidade, selecione a aba **Setores**
-2. Clique no botão **Adicionar Setor**
-3. No modal exibido, selecione os setores desejados na lista
-4. Clique em **Confirmar** para estabelecer as vinculações
+Pode. Repita a associação em cada unidade. No setor, a aba **Unidades** mostra todas.
 
-<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Vincular a partir da Unidade</p></figcaption></figure>
+</details>
 
-## Removendo Vínculo entre Setor e Unidade
+<details>
 
-1. Na tela de detalhes da unidade, selecione a aba **Setores**
-2. Localize o setor que deseja desvincular
-3. Clique no ícone de remoção (lixeira)
-4. Confirme a ação no diálogo exibido
+<summary>Como coloco o colaborador no setor?</summary>
 
-> **Importante:** A remoção de vínculo também remove todos os colaboradores deste relacionamento.
+No cadastro do colaborador. Veja [Vincular setor e cargo a um colaborador](../colaboradores/vincular-setores.md).
 
-## Impacto da Vinculação
-
-A vinculação entre setores e unidades tem os seguintes impactos no sistema:
-
-- Define onde os colaboradores podem ser alocados
-- Afeta a organização de relatórios e estatísticas
-- Influencia a distribuição e gestão de EPIs
-
-## Melhores Práticas
-
-Para uma gestão eficiente dos vínculos entre setores e unidades:
-
-- Configure todos os vínculos necessários antes de cadastrar colaboradores
-- Mantenha a mesma estrutura de setores entre unidades similares para facilitar comparações
-- Revise periodicamente os vínculos para garantir que refletem a estrutura atual da empresa
-- Documente a razão de vinculações específicas quando não forem óbvias
-- Considere o impacto na gestão de EPIs ao criar ou remover vínculos
+</details>

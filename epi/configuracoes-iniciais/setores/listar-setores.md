@@ -1,5 +1,6 @@
 ---
-icon: warehouse-full
+description: Pesquise e filtre os setores da empresa.
+icon: list
 layout:
   width: default
   title:
@@ -20,104 +21,56 @@ layout:
     visible: true
 ---
 
-# Listar Setores
+# Encontrar um setor
 
-Esta página explica como acessar, visualizar e filtrar a lista de setores cadastrados no Sistema GNRX Gestão de EPI.
+**Para que serve:** achar um setor na lista e ver em quais unidades ele está.
 
-## Acessando a Lista de Setores
+{% hint style="info" %}
+**Quem pode fazer:** todas as roles (Operador, Supervisor, Gestor e Administrador), com a permissão de ver setores.
+{% endhint %}
 
-Para acessar a lista de setores cadastrados no sistema:
+## Antes de começar
 
-1. No menu lateral, clique em **Estruturas**
-2. Selecione **Setores**
+* Nada a preparar.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Menu Setores</p></figcaption></figure>
+## Passo a passo
 
-## Interface da Lista de Setores
+{% stepper %}
+{% step %}
+### Abra a lista
 
-A tela de listagem de setores apresenta uma visão consolidada de todos os setores cadastrados no sistema:
+Clique em **Estruturas › Setores**. Abre a **Lista de Setores**.
 
-![Lista de Setores](<../../.gitbook/assets/image (5) (1).png>)
+<figure><img src="../../.gitbook/assets/setores-listar-01.png" alt="Lista de Setores com o campo Pesquisar setores, o filtro de status e as colunas Setor, Descrição, Última Atualização, Status e Ações"><figcaption><p>Lista de Setores</p></figcaption></figure>
+{% endstep %}
 
-### Elementos da Interface
+{% step %}
+### Pesquise ou filtre
 
-1. **Cabeçalho**:
-   - **Total de setores**: Contador do número de setores
-   - **Setores Ativos:** Contador do número de setores ativos
-   - **Setores Inativos:** Contador do número de setores inativos
-   - **Total de Colaboradores:** Contador do número Total de associações de colaboradores com unidades
-   - **Unidades Associados**: Individualmente, cada associação conta como uma unidade
-   - **Média:** Média de colaboradores por setor
-   - **Botão "Novo Setor"**: Para adicionar um novo setor ao sistema
-2. **Barra de Pesquisa**:
-   - Campo para busca de setores por nome
-   - Botão "Pesquisar" para iniciar a busca
-3. **Tabela de Setores**:
-   - **Nome**: Nome do setor
-   - **Descrição**: Informações adicionais sobre o setor
-   - **Situação**: Estado atual (Ativo/Inativo)
-   - **Opções**: Botões de ação (visualizar, editar, excluir)
+Digite em **Pesquisar setores...** e clique em **Pesquisar**. Use **Filtrar por status** para ver ativos ou inativos. Clique em **Limpar** para voltar.
+{% endstep %}
 
-## Funcionalidades Disponíveis
+{% step %}
+### Abra o setor
 
-### Pesquisa e Filtros
+Na coluna **Ações**, clique no ícone de olho. A aba **Unidades** mostra as unidades que possuem o setor.
+{% endstep %}
+{% endstepper %}
 
-Para localizar setores específicos:
+## Dúvidas comuns
 
-1. Digite um termo de busca no campo de pesquisa (nome)
-2. Clique no botão **Pesquisar**
-3. O sistema exibirá apenas os setores que correspondem aos critérios de busca
+<details>
 
-> **Dica:** Para retornar à lista completa, limpe o campo de pesquisa e clique novamente em Pesquisar.
+<summary>Apareceu "Nenhum setor cadastrado".</summary>
 
-### Ações por Setor
+A empresa ainda não tem setores. Veja [Criar um setor](criar-setor.md).
 
-Para cada setor na lista, você pode executar as seguintes ações através dos botões na coluna "Opções":
+</details>
 
-![Botões de Ação](<../../.gitbook/assets/image (7) (1) (1).png>)
+<details>
 
-- **Visualizar** (ícone de olho): Abre a tela de detalhes do setor
-- **Editar** (ícone de lápis): Abre o formulário para edição dos dados
-- **Excluir/Desativar** (ícone de lixeira): Inicia o processo de desativação do setor
+<summary>Como acho os setores inativos?</summary>
 
-## Ordenação da Lista
+Em **Filtrar por status**, escolha **Inativo**.
 
-A lista de setores pode ser ordenada por qualquer uma das colunas:
-
-1. Clique no cabeçalho da coluna desejada
-2. Um pequeno ícone de seta indicará a direção da ordenação (ascendente/descendente)
-3. Clique novamente no mesmo cabeçalho para inverter a ordem
-
-## Visualização de Situação
-
-Os setores na lista são apresentados com indicadores visuais de situação:
-
-- **Ativo**: Exibido em verde, indica setor em operação normal
-- **Inativo**: Exibido em vermelho, indica setor temporariamente desativado
-
-> **Nota:** Setores inativos não aparecem em listas de seleção em outros módulos do sistema, mas mantêm seu histórico preservado.
-
-## Filtro por Situação
-
-Para visualizar setores inativos junto com os ativos:
-
-1. Localize o filtro de situação próximo à barra de pesquisa
-2. Marque a opção "Inativos"
-3. A lista será atualizada com base no filtro selecionado
-
-## Solução de Problemas Comuns
-
-| Problema                        | Solução                                                                                                    |
-| ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Lista de setores vazia          | Verifique se você tem permissões para visualizar setores ou se ainda não há setores cadastrados no sistema |
-| Pesquisa não retorna resultados | Tente termos mais genéricos ou verifique a ortografia                                                      |
-| Setor não pode ser excluído     | Verifique se há colaboradores ou GHEs associados ao setor                                                  |
-
-## Próximos Passos
-
-Após visualizar a lista de setores, você pode:
-
-- [Criar um novo setor](criar-setor.md)
-- [Editar um setor existente](editar-setor.md)
-- [Desativar um setor](desativar-setor.md)
-- [Vincular unidades a um setor](vincular-unidades.md)
+</details>

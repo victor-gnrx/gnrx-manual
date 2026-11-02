@@ -1,5 +1,6 @@
 ---
-icon: house-building
+description: Os locais de trabalho da empresa e o que cada pessoa enxerga.
+icon: building
 layout:
   width: default
   title:
@@ -20,71 +21,18 @@ layout:
     visible: true
 ---
 
-# Visão Geral
+# Unidades
 
-## Visão Geral
+**Para que serve:** cadastrar os locais de trabalho da empresa (fábricas, filiais, obras). As unidades organizam setores e colaboradores e definem o que cada usuário enxerga.
 
-As Unidades representam as diferentes localidades físicas (filiais, plantas, escritórios) onde sua empresa opera. O gerenciamento adequado de Unidades é essencial para a organização estrutural do Sistema GNRx Gestão de EPI, permitindo controle específico de setores, colaboradores e estoque para cada localidade.
+{% hint style="info" %}
+Dentro do módulo, clique em **Estruturas › Unidades**.
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>Tela de Unidades</p></figcaption></figure>
+## Comece por aqui
 
-Funcionalidades Principais
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Criar uma unidade</strong></td><td>Cadastre um local de trabalho.</td><td><a href="criar-unidade.md">criar-unidade.md</a></td></tr></tbody></table>
 
-O módulo de Unidades permite:
+## Tarefas do dia a dia
 
-- Registrar todas as localidades físicas da empresa
-- Definir endereços completos para cada unidade
-- Associar setores específicos a cada unidade
-- Vincular colaboradores às suas respectivas unidades
-- Monitorar estatísticas de cada local (colaboradores, setores, GHEs)
-- Gerenciar estoque e entregas de EPIs por unidade
-
-## Importância para a Gestão de EPIs
-
-A configuração correta das Unidades permite:
-
-- **Gestão Descentralizada**: Administrar EPIs de forma independente para cada localidade
-- **Controle Específico**: Adaptar requisitos e procedimentos conforme particularidades de cada unidade
-- **Relatórios Segmentados**: Gerar análises comparativas entre diferentes locais
-- **Rastreabilidade Aprimorada**: Identificar precisamente a localização de cada EPI
-- **Conformidade Legal**: Documentar adequadamente a entrega de EPIs por local de trabalho
-
-## Relação com Outros Módulos
-
-As Unidades estabelecem relações importantes com outros componentes do sistema:
-
-- **Setores**: Cada unidade pode conter múltiplos setores
-- **Colaboradores**: São vinculados a unidades específicas
-- **GHEs**: Podem ser configurados de forma personalizada por unidade
-- **Estoque**: Pode ser gerenciado independentemente para cada unidade
-- **Solicitações**: Podem ser filtradas e processadas por unidade específica
-
-## Hierarquia Organizacional
-
-No Sistema GNRX, a estrutura organizacional segue esta hierarquia:
-
-1. **Unidades**: Locais físicos (ex: filial Belo Horizonte)
-2. **Setores**: Áreas funcionais dentro da unidade (ex: Administrativo, Operacional)
-3. **Cargos**: Funções dentro dos setores
-4. **Colaboradores**: Pessoas que ocupam os cargos
-5. **GHEs**: Agrupamentos de colaboradores com exposições similares
-
-A configuração adequada desta hierarquia, começando pelas unidades, é fundamental para o funcionamento eficiente do sistema.
-
-## Próximos Passos
-
-Para gerenciar suas Unidades no Sistema GNRx, consulte os seguintes guias:
-
-- [Listar Unidades](listar-unidades.md) - Como visualizar e filtrar unidades cadastradas
-- Criar Unidade - Contato direto com o Suporte GNRx
-- [Editar Unidade](editar-unidade.md) - Como atualizar informações de unidades existentes
-- [Desativar Unidade](desativar-unidade.md) - Procedimento para inativar temporariamente uma unidade
-
-## Recomendações
-
-Para uma gestão eficiente de suas unidades, considere:
-
-- Padronizar a nomenclatura para facilitar a identificação
-- Revisar periodicamente a estrutura organizacional
-- Configurar unidades antes de prosseguir com o cadastro de setores e colaboradores
-- Estabelecer responsáveis pela gestão de EPIs em cada unidade
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Encontrar uma unidade</strong></td><td>Pesquise e filtre a lista.</td><td><a href="listar-unidades.md">listar-unidades.md</a></td></tr><tr><td><strong>Editar uma unidade</strong></td><td>Corrija nome, endereço ou descrição.</td><td><a href="editar-unidade.md">editar-unidade.md</a></td></tr><tr><td><strong>Inativar uma unidade</strong></td><td>Tire da lista uma unidade que não existe mais.</td><td><a href="desativar-unidade.md">desativar-unidade.md</a></td></tr></tbody></table>

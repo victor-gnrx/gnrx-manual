@@ -1,5 +1,6 @@
 ---
-icon: warehouse-full
+description: Tire da lista um setor que não existe mais.
+icon: ban
 layout:
   width: default
   title:
@@ -20,111 +21,50 @@ layout:
     visible: true
 ---
 
-# Desativar Setor
+# Inativar um setor
 
-Esta página explica como desativar um setor existente no Sistema GNRX Gestão de EPI, bem como as implicações desta ação.
+**Para que serve:** tirar da lista um setor que a empresa não usa mais.
 
-## Visão Geral
+{% hint style="info" %}
+**Quem pode fazer:** Administrador, com a permissão de inativar setores.
+{% endhint %}
 
-A desativação de setores é utilizada quando uma área funcional deixa de existir na estrutura organizacional, mas você precisa manter seu histórico no sistema. Diferente da exclusão definitiva, a desativação preserva todos os registros associados para fins de auditoria e consulta.
+## Antes de começar
 
-## Quando Desativar um Setor
+* Confira se o setor é mesmo o certo. Use a [busca](listar-setores.md).
 
-As situações mais comuns para desativação incluem:
+## Passo a passo
 
-- Reorganização estrutural da empresa
-- Fusão de departamentos
-- Descontinuação de uma linha de atividade
-- Substituição por nova estrutura departamental
-- Correção de duplicidade (múltiplos setores para a mesma função)
+{% stepper %}
+{% step %}
+### Clique na lixeira
 
-## Acessando a Função de Desativação
+Clique em **Estruturas › Setores**. Na coluna **Ações**, clique no ícone de lixeira. Abre **Inativar Setor**: "Tem certeza que deseja inativar este setor?".
 
-Para desativar um setor:
+<figure><img src="../../.gitbook/assets/setores-inativar-01.png" alt="Janela Inativar Setor com a pergunta de confirmação e os botões Cancelar e Inativar"><figcaption><p>Inativar Setor</p></figcaption></figure>
+{% endstep %}
 
-1. No menu lateral, clique em **Estruturas**
-2. Selecione **Setores**
-3. Na lista de setores, localize o setor desejado
-4. Clique no ícone de **Excluir/Desativar** (símbolo de lixeira) na coluna de ações
+{% step %}
+### Confirme
 
-![Desativar Setor](<../../.gitbook/assets/image (13) (1).png>)
+Clique em **Inativar**. Aparece "Setor excluído com sucesso!" e o setor passa a aparecer como **Inativo**.
+{% endstep %}
+{% endstepper %}
 
-## Processo de Desativação
+## Dúvidas comuns
 
-Ao iniciar a desativação, o sistema apresentará um diálogo de confirmação:
+<details>
 
-![Diálogo de Confirmação](<../../.gitbook/assets/image (16) (1).png>)
+<summary>A mensagem diz "excluído". O setor foi apagado?</summary>
 
-O diálogo inclui:
+Não. O setor fica inativo e continua na lista com o status **Inativo**.
 
-1. Alerta sobre as consequências da desativação
-2. Informações sobre itens associados (colaboradores)
-3. Botões de "Cancelar" e "Inativar"
+</details>
 
-Para prosseguir:
+<details>
 
-1. Clique em **Inativar**
-2. O sistema processará a solicitação e exibirá uma mensagem de confirmação
+<summary>Posso editar um setor inativo?</summary>
 
-## Impacto da Desativação
+Não. Os ícones de lápis e de lixeira ficam apagados.
 
-Quando um setor é desativado:
-
-### O que acontece:
-
-- O setor recebe o status "Inativo" na lista de setores
-- Ele deixa de aparecer em listas de seleção para novas associações
-- Relatórios padrão filtram o setor, a menos que explicitamente incluído
-- O histórico completo permanece acessível para consulta
-
-### O que NÃO acontece:
-
-- O registro do setor não é excluído do banco de dados
-- Históricos de entregas de EPIs associados ao setor não são removidos
-- Vínculos existentes com colaboradores são mantidos, mas marcados como inativos
-- Documentos e registros legais permanecem intactos
-
-## Verificações Prévias à Desativação
-
-Antes de desativar um setor, o sistema verifica:
-
-| Item                       | Verificação                                   | Ação Recomendada                  |
-| -------------------------- | --------------------------------------------- | --------------------------------- |
-| **Colaboradores Ativos**   | Se há funcionários ativos vinculados ao setor | Transferir para outros setores    |
-| **Solicitações Pendentes** | Se existem solicitações de EPIs em aberto     | Concluir ou cancelar solicitações |
-
-## Reativando um Setor
-
-Para reativar um setor previamente desativado, entre em contato com o suporte.
-
-## Considerações Importantes
-
-- A desativação deve ser utilizada em vez da exclusão quando o setor já possui histórico
-- Considere a reatribuição de colaboradores antes da desativação
-- Informe os usuários do sistema sobre mudanças na estrutura organizacional
-- Documente adequadamente o motivo da desativação para referência futura
-- Verifique o impacto em relatórios históricos antes de proceder
-
-## Alternativas à Desativação
-
-Em alguns casos, existem alternativas preferíveis à desativação:
-
-- **Renomeação**: Se apenas o nome mudou, edite o setor em vez de desativá-lo
-- **Reorganização**: Se houve fusão de departamentos, considere manter um dos setores e transferir os colaboradores
-- **Atualização de Descrição**: Se a função mudou mas a estrutura permanece, atualize a descrição
-
-## Impacto nas Unidades Vinculadas
-
-A desativação de um setor afeta sua relação com as unidades:
-
-- O setor desativado não aparecerá mais nas listas de setores das unidades
-- Os vínculos históricos são preservados para fins de rastreabilidade
-- Novos colaboradores não poderão ser atribuídos ao setor desativado
-
-## Próximos Passos após Desativação
-
-Após desativar um setor, considere:
-
-1. Verificar os colaboradores que estavam associados ao setor
-2. Atualizar documentação interna sobre a estrutura organizacional
-3. Comunicar a mudança às equipes relevantes
+</details>

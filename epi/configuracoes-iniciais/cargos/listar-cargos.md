@@ -1,5 +1,6 @@
 ---
-icon: person-dolly
+description: Pesquise os cargos da empresa e veja quantos colaboradores cada um tem.
+icon: list
 layout:
   width: default
   title:
@@ -20,41 +21,56 @@ layout:
     visible: true
 ---
 
-# Listar Cargos
+# Encontrar um cargo
 
-Esta página explica como acessar, visualizar e filtrar a lista de Cargos cadastrados no Sistema GNRx Gestão de EPI.
+**Para que serve:** achar um cargo e ver quantos colaboradores ele tem.
 
-## Acessando a Lista de Cargos
+{% hint style="info" %}
+**Quem pode fazer:** Gestor ou Administrador, com a permissão de ver todos os cargos.
+{% endhint %}
 
-Para acessar a lista de Cargos cadastrados no sistema:
+## Antes de começar
 
-1. No menu lateral, clique em **Estruturas**
-2. Selecione **Cargos**
+* Nada a preparar.
 
-<figure><img src="../../.gitbook/assets/image (35) (1).png" alt=""><figcaption><p>Menu de Cargos</p></figcaption></figure>
+## Passo a passo
 
-## Interface da Lista de GHEs
+{% stepper %}
+{% step %}
+### Abra a lista
 
-A tela de listagem de GHEs apresenta uma visão consolidada de todos os grupos cadastrados no sistema:
+Clique em **Estruturas › Cargos**. Abre a **Lista de Cargos**, com as colunas **Cargo**, **Funcionários**, **Distribuição**, **Última Atualização**, **Status** e **Ações**.
 
-<figure><img src="../../.gitbook/assets/image (36) (1).png" alt=""><figcaption><p>Lista de Cargos</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cargos-listar-01.png" alt="Lista de Cargos com o campo Pesquisar cargos e as colunas Cargo, Funcionários, Distribuição, Última Atualização, Status e Ações"><figcaption><p>Lista de Cargos</p></figcaption></figure>
+{% endstep %}
 
-### Elementos da Interface
+{% step %}
+### Pesquise
 
-1. **Cabeçalho**:
-   - **Total de Cargos**: Contador do número de cargos
-   - **Cargos Ativos:** Contador de Cargos Ativos
-   - **Cargos Inativos:** Contador de Cargos inativados
-   - **Colaboradores Totais:** Total de relacionamento com colaboradores
-   - Colaboradores Ativos: Total de relacionamento com colaboradores ativos
-   - **Botão "Novo Cargo"**: Para adicionar um novo cargo ao sistema
-2. **Barra de Pesquisa**:
-   - Campo para busca de Cargo por nome
-   - Botão "Pesquisar" para iniciar a busca
-3. **Tabela de Cargos**:
-   - **Nome**: Nome do cargo
-   - Colaboradres: Quabntidade de Colaboradores no cargo
-   - Ultimo Colaborador: ultimo colaborador atribuido ao cargo
-   - Distribuição: Setorer e unidades que possuem o cargo
-   - **Situação**: Estado atual (Ativo/Inativo)
-   - **Opções**: Botões de ação (visualizar, editar, excluir)
+Digite em **Pesquisar cargos...** e clique em **Pesquisar**. Clique em **Limpar** para voltar à lista completa.
+{% endstep %}
+{% endstepper %}
+
+## Deu errado?
+
+{% hint style="warning" %}
+**"Acesso Negado: Você não tem permissão para acessar esta página"**: só Gestor e Administrador abrem a lista de cargos.
+{% endhint %}
+
+## Dúvidas comuns
+
+<details>
+
+<summary>Apareceu "Nenhum cargo cadastrado".</summary>
+
+A empresa ainda não tem cargos. Veja [Criar um cargo](criar-cargo.md).
+
+</details>
+
+<details>
+
+<summary>Apareceu "Nenhum resultado encontrado".</summary>
+
+Confira o termo pesquisado e clique em **Limpar** para tentar de novo.
+
+</details>

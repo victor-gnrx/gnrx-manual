@@ -1,5 +1,6 @@
 ---
-icon: warehouse-full
+description: Cadastre uma nova área de trabalho.
+icon: plus
 layout:
   width: default
   title:
@@ -20,94 +21,60 @@ layout:
     visible: true
 ---
 
-# Criar Setor
+# Criar um setor
 
-Esta página explica como adicionar um novo setor no Sistema GNRx Gestão de EPI.
+**Para que serve:** cadastrar uma nova área de trabalho.
 
-## Visão Geral
+{% hint style="info" %}
+**Quem pode fazer:** Administrador, com a permissão de criar setores.
+{% endhint %}
 
-Criar um setor é uma etapa importante na configuração da estrutura organizacional do sistema. Os setores representam as diferentes áreas funcionais dentro da empresa e são essenciais para a organização de colaboradores e a gestão adequada de EPIs.
+## Antes de começar
 
-## Acessando a Tela de Criação
+* Tenha o nome do setor.
 
-Para iniciar o cadastro de um novo setor:
+## Passo a passo
 
-1. No menu lateral, clique em **Estruturas**
-2. Selecione **Setores**
-3. Na tela de listagem, clique no botão **Novo Setor** no canto superior direito
+{% stepper %}
+{% step %}
+### Clique em Novo Setor
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+Clique em **Estruturas › Setores** e depois em **Novo Setor**. Abre a janela **Criar Setor**.
 
-## Formulário de Cadastro
+<figure><img src="../../.gitbook/assets/setores-criar-01.png" alt="Janela Criar Setor com os campos Nome e Descrição e o botão Salvar"><figcaption><p>Janela Criar Setor</p></figcaption></figure>
+{% endstep %}
 
-Ao clicar em "Novo Setor", o sistema exibirá um modal com o formulário de criação:
+{% step %}
+### Preencha e salve
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Formulário Novo Setor</p></figcaption></figure>
+* **Nome:** obrigatório, até 128 caracteres.
+* **Descrição:** opcional, até 255 caracteres.
 
-### Campos do Formulário
+Clique em **Salvar**. O setor aparece na lista.
+{% endstep %}
+{% endstepper %}
 
-| Campo         | Descrição                            | Obrigatoriedade | Exemplo                                           |
-| ------------- | ------------------------------------ | --------------- | ------------------------------------------------- |
-| **Nome**      | Nome do setor                        | Obrigatório     | "Recursos Humanos"                                |
-| **Descrição** | Informações adicionais sobre o setor | Opcional        | "Responsável por contratação e gestão de pessoal" |
+## Deu errado?
 
-## Preenchendo o Formulário
+| Mensagem na tela | O que fazer |
+| --- | --- |
+| "Nome é obrigatório" | Preencha o nome. |
+| "Nome muito longo" ou "Descrição muito longa" | Encurte o texto. |
 
-1. Digite o **Nome** do setor
-   - Use nomes claros e padronizados
-   - Evite abreviações ambíguas
-   - Mantenha consistência com a nomenclatura organizacional da empresa
-2. Adicione uma **Descrição** (opcional)
-   - Detalhe a função ou escopo do setor
-   - Inclua informações relevantes para a gestão de EPIs
-   - Mencione particularidades importantes para a operação
-3. Revise as informações inseridas
-4. Clique no botão **Salvar** para criar o setor
+## Dúvidas comuns
 
-## Após a Criação
+<details>
 
-Quando um novo setor é criado com sucesso:
+<summary>Como coloco o setor numa unidade?</summary>
 
-1. O sistema exibe uma mensagem de confirmação
-2. O setor é adicionado à lista de setores
-3. O novo setor ficará disponível para seleção em outros módulos do sistema
+Depois de criar, associe o setor à unidade. No módulo Gestão de EPIs, isso é feito na aba **Setores** da unidade.
 
-## Próximas Etapas
+</details>
 
-Após criar um setor, é recomendável:
+<details>
 
-### Vincular o Setor a Unidades
+<summary>Vale para todos os módulos?</summary>
 
-Para que o setor seja utilizado efetivamente, é necessário associá-lo a uma ou mais unidades:
+Sim. O setor é o mesmo em todos os módulos do GNRx.
 
-1. Na lista de setores, clique no setor recém-criado para abrir seus detalhes
-2. Selecione a aba **Unidades**
-3. Vincule o setor às unidades onde ele existe fisicamente
-
-> **Nota:** Um mesmo setor pode existir em múltiplas unidades. Por exemplo, o setor "Administrativo" pode estar presente em todas as filiais da empresa.
-
-### Associar Colaboradores
-
-Após vincular o setor a unidades, você pode:
-
-1. Associar colaboradores ao setor
-2. Definir cargos específicos para o setor
-
-## Considerações Importantes
-
-- A criação de um setor é apenas o primeiro passo - ele precisa ser vinculado a unidades para ser utilizável
-- O nome do setor deve refletir claramente sua função na organização
-- Setores bem estruturados facilitam a análise de conformidade e a gestão de EPIs
-
-## Melhores Práticas
-
-- **Padronização**: Estabeleça um padrão de nomenclatura para todos os setores
-- **Documentação**: Mantenha documentação externa complementar sobre responsabilidades e particularidades de cada setor
-- **Revisão Periódica**: Revise a estrutura de setores regularmente para garantir que reflete a organização atual
-
-## Solução de Problemas
-
-| Problema                  | Solução                                                                           |
-| ------------------------- | --------------------------------------------------------------------------------- |
-| Mensagem "Nome já existe" | Escolha um nome único para o setor ou verifique se o setor já existe com outro ID |
-| Erro ao salvar            | Verifique se todos os campos obrigatórios foram preenchidos corretamente          |
+</details>
