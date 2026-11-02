@@ -56,6 +56,16 @@
   * [Editar um instrutor](estruturas/instrutores/editar-instrutor.md)
   * [Inativar ou reativar um instrutor](estruturas/instrutores/inativar-instrutor.md)
 
+## Turmas
+
+* [Turmas](turmas/README.md)
+* [Programar um treinamento](turmas/programar-treinamento.md)
+* [Encontrar uma turma](turmas/encontrar-turma.md)
+* [Iniciar a turma](turmas/iniciar-turma.md)
+* [Registrar a presença](turmas/registrar-presenca.md)
+* [Concluir a turma](turmas/concluir-turma.md)
+* [Ajustar a turma](turmas/ajustar-turma.md)
+
 ## Configurações
 
 * [Turnos](estruturas/turnos/README.md)
