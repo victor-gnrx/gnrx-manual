@@ -202,6 +202,13 @@
 * [Cadastrar um motivo de perda](configuracoes-gerais/motivos/motivos-perda.md)
 * [Cadastrar um motivo de quebra](configuracoes-gerais/motivos/motivos-quebra.md)
 
+## Fluxos de aprovação
+
+* [Fluxos de aprovação](fluxos-aprovacao/README.md)
+* [Criar um fluxo de aprovação](fluxos-aprovacao/criar-fluxo.md)
+* [Decidir uma aprovação](fluxos-aprovacao/decidir-aprovacao.md)
+* [Destravar um fluxo](fluxos-aprovacao/destravar-fluxo.md)
+
 ## Integrações
 
 * [Webhooks](integracoes/webhooks.md)
