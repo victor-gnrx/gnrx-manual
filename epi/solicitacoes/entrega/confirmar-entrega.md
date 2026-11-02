@@ -83,7 +83,7 @@ Após selecionar o tipo de item, você precisa escolher quais unidades específi
 - Confirme a seleção clicando em **Confirmar**
 
 {% hint style="info" %}
-**Visualização do custo**: o custo unitário dos equipamentos só é exibido nesta janela para usuários com a permissão `epis:visualizar:custo_item`. Por padrão, ela é concedida às roles **Gestor** e **Administrador** — Operadores e Supervisores não veem o valor. Se a sua empresa quiser liberar o custo para outros perfis, adicione a permissão à role em **Configurações** → **Roles e Permissões** (ver [Sistema de Permissões e Roles](../../configuracoes-iniciais/usuarios/sistema-permissoes-roles.md)).
+**Visualização do custo**: o custo unitário dos equipamentos só é exibido nesta janela para usuários com a permissão `epis:visualizar:custo_item`. Por padrão, ela é concedida às roles **Gestor** e **Administrador** — Operadores e Supervisores não veem o valor. Se a sua empresa quiser liberar o custo para outros perfis, adicione a permissão à role em **Configurações › Roles** (ver [Sistema de Permissões e Roles](../../configuracoes-iniciais/usuarios/sistema-permissoes-roles.md)).
 {% endhint %}
 
 ### 6. Adicionar Observações (Opcional)

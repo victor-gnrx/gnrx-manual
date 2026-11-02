@@ -178,4 +178,4 @@ Mantenha o número de funcionários sempre atualizado, pois ele impacta diretame
 Após configurar as unidades do sistema, você pode:
 
 * [Configurar setores](setor.md)
-* [Gerenciar usuários](usuario.md)
+* [Gerenciar usuários](usuarios/README.md)

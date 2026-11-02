@@ -64,10 +64,18 @@
 * [Visão Geral](configuracoes-iniciais/reconhecimento-facial/README.md)
 * [Cadastrar Face](configuracoes-iniciais/reconhecimento-facial/cadastrar-face.md)
 
-## Usuários / Roles (Papéis)
+## Usuários e roles
 
-* [Configurações Gerais](configuracoes-iniciais/usuarios/README.md)
-* [Sistema de Permissões e Roles](configuracoes-iniciais/usuarios/sistema-permissoes-roles.md)
+* [Usuários e roles](configuracoes-iniciais/usuarios/README.md)
+* [Criar um usuário](configuracoes-iniciais/usuarios/criar-usuario.md)
+* [Editar um usuário](configuracoes-iniciais/usuarios/editar-usuario.md)
+* [Vincular unidades](configuracoes-iniciais/usuarios/vincular-unidades.md)
+* [Liberar módulos](configuracoes-iniciais/usuarios/liberar-modulos.md)
+* [Atribuir uma role](configuracoes-iniciais/usuarios/atribuir-role.md)
+* [Inativar ou reativar](configuracoes-iniciais/usuarios/inativar-usuario.md)
+* [Entender as roles](configuracoes-iniciais/usuarios/o-que-sao-roles.md)
+* [Criar uma role](configuracoes-iniciais/usuarios/criar-role.md)
+* [Consultar as permissões](configuracoes-iniciais/usuarios/sistema-permissoes-roles.md)
 
 ## Gestão de Estoque
 
