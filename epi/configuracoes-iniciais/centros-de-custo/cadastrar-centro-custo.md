@@ -75,8 +75,8 @@ Use **Inativar Centro de Custo** e confirme. Aparece "Centro de custo inativado 
 
 <details>
 
-<summary>O centro de custo aparece no plano anual de treinamentos?</summary>
+<summary>Como corrijo os dados?</summary>
 
-Os centros de custo ficam na Gestão de EPI. No plano anual, eles só aparecem para quem tem esse módulo.
+Use **Editar Centro de Custo** e salve.
 
 </details>
