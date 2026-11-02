@@ -64,7 +64,7 @@ Altere o que precisar e salve. Aparece "Grupo atualizado com sucesso!".
 
 <summary>Como mudo os riscos ou os EPIs?</summary>
 
-Na aba **Riscos / EPIs** do GHE. Veja [Vincular riscos](vincular-riscos.md) e [Escolher os EPIs](vincular-epis.md).
+No módulo Gestão de EPIs, na aba **Riscos / EPIs** do GHE.
 
 </details>
 
@@ -72,6 +72,6 @@ Na aba **Riscos / EPIs** do GHE. Veja [Vincular riscos](vincular-riscos.md) e [E
 
 <summary>Como mudo os prazos de troca?</summary>
 
-Na aba **Prazos de troca**. Veja [Definir prazos de troca](prazos-de-troca.md).
+No módulo Gestão de EPIs, na aba **Prazos de troca** do GHE.
 
 </details>

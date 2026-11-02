@@ -32,7 +32,6 @@ layout:
 ## Antes de começar
 
 * Cadastre a [unidade](../unidades/criar-unidade.md).
-* Os [riscos](../../configuracoes-gerais/riscos/README.md) precisam estar cadastrados, em **Configurações › Riscos**.
 
 ## Passo a passo
 
@@ -40,7 +39,7 @@ layout:
 {% step %}
 ### Clique em Novo Grupo
 
-Clique em **Estruturas › GHEs — Grupos de EPIs** e depois em **Novo Grupo**. Abre **Criar Novo Grupo**.
+Clique em **Estruturas**, abra os GHEs (no módulo Gestão de EPIs, **Estruturas › GHEs — Grupos de EPIs**) e clique em **Novo Grupo**. Abre **Criar Novo Grupo**.
 
 <figure><img src="../../.gitbook/assets/ghe-criar-01.png" alt="Janela Criar Novo Grupo com Nome, Unidade, Descrição, Medidas de controle e a opção Copiar configurações de outro grupo"><figcaption><p>Janela Criar Novo Grupo</p></figcaption></figure>
 {% endstep %}
@@ -64,7 +63,7 @@ Clique em **Salvar**. Aparece "Grupo criado com sucesso" (ou "Grupo criado com s
 {% endstep %}
 {% endstepper %}
 
-Depois, [vincule os riscos](vincular-riscos.md).
+No módulo Gestão de EPIs, o próximo passo é vincular os riscos, na aba **Riscos / EPIs** do GHE.
 
 ## Deu errado?
 
