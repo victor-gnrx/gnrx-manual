@@ -52,6 +52,13 @@
   * [Editar uma empresa terceira](estruturas/terceiros/editar-terceiro.md)
   * [Inativar ou reativar uma empresa terceira](estruturas/terceiros/inativar-terceiro.md)
 
+## Eleições
+
+* [Dimensionar a CIPA da unidade](eleicoes/dimensionar-unidade.md)
+* [Abrir uma eleição](eleicoes/nova-eleicao.md)
+* [Conduzir a eleição](eleicoes/conduzir-eleicao.md)
+* [Votar na eleição da CIPA](eleicoes/votar.md)
+
 ## Planos de ação
 
 * [Acompanhar um plano de ação](planos-acao/acompanhar-plano.md)
