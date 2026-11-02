@@ -61,6 +61,13 @@
 * [Apurar a eleição](eleicoes/apurar-eleicao.md)
 * [Votar na eleição da CIPA](eleicoes/votar.md)
 
+## Mandatos
+
+* [Acompanhar o mandato](mandatos/acompanhar-mandato.md)
+* [Conduzir as reuniões da CIPA](mandatos/agendar-reuniao.md)
+* [Assinar uma ata](atas/assinar-ata.md)
+* [Acompanhar a estabilidade da CIPA](estabilidade/acompanhar-estabilidade.md)
+
 ## Planos de ação
 
 * [Acompanhar um plano de ação](planos-acao/acompanhar-plano.md)
