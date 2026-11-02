@@ -88,7 +88,9 @@ A senha precisa ter:
 ## Deu errado?
 
 {% hint style="warning" %}
-**"Link Inválido ou Expirado"**: o link venceu ou já foi usado. Volte para o login e peça a recuperação de novo.
+**"Link Inválido ou Expirado"**: o link venceu, já foi usado ou foi bloqueado. Volte para o login e peça a recuperação de novo.
+
+Depois de 3 tentativas erradas com o mesmo link, ele é bloqueado. Peça um novo.
 {% endhint %}
 
 <figure><img src=".gitbook/assets/senha-05-link-expirado.png" alt="Tela com a mensagem Link Inválido ou Expirado"><figcaption><p>Link vencido ou já usado</p></figcaption></figure>
@@ -99,15 +101,15 @@ A senha precisa ter:
 
 <summary>O e-mail não chegou. E agora?</summary>
 
-Olhe a caixa de spam. Se não estiver lá, confira o usuário e o e-mail e peça de novo.
+Olhe a caixa de spam. Se não estiver lá, confira o usuário e o e-mail e peça de novo. Você pode pedir até 5 vezes por hora.
 
 </details>
 
 <details>
 
-<summary>Posso usar o link duas vezes?</summary>
+<summary>Por quanto tempo o link vale?</summary>
 
-Não. Cada link vale uma vez só. Para trocar a senha de novo, peça outro link.
+Por 1 hora e uma vez só. Se você pedir um link novo, os anteriores deixam de funcionar.
 
 </details>
 

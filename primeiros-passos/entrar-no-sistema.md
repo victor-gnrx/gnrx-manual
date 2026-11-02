@@ -26,13 +26,13 @@ layout:
 **Para que serve:** acessar o GNRx com o seu usuário ou com o acesso mestre da empresa.
 
 {% hint style="info" %}
-**Quem pode fazer:** qualquer pessoa com usuário cadastrado no GNRx (Operador, Supervisor, Gestor ou Administrador). A aba **Empresa** é para quem tem o CNPJ e a senha mestre da empresa.
+**Quem pode fazer:** qualquer pessoa com usuário cadastrado no GNRx (Operador, Supervisor, Gestor ou Administrador). A aba **Empresa** é para quem tem o CNPJ e a senha mestre da empresa. O código de verificação só é pedido se a sua empresa ativou a verificação em duas etapas.
 {% endhint %}
 
 ## Antes de começar
 
 * Tenha em mãos o seu usuário (ou CPF) e a senha. Se esqueceu a senha, veja [Recuperar a senha](esqueci-minha-senha.md).
-* Se a sua conta usa verificação em duas etapas, deixe o seu e-mail ou o seu aplicativo autenticador por perto.
+* Se a sua empresa ativou a verificação em duas etapas, deixe o seu e-mail ou o seu aplicativo autenticador por perto.
 
 ## Passo a passo
 
@@ -66,6 +66,8 @@ Se aparecer **Verificação em duas etapas**, digite os 6 dígitos que chegaram 
 
 <figure><img src=".gitbook/assets/login-04-mfa.png" alt="Tela Verificação em duas etapas com seis campos para o código"><figcaption><p>Verificação em duas etapas</p></figcaption></figure>
 
+Você pode cadastrar o e-mail, o aplicativo autenticador ou os dois.
+
 * Não chegou? Clique em **Reenviar código** quando a contagem terminar.
 * Para trocar o jeito de receber, clique em **Usar aplicativo autenticador** ou **Prefiro receber o código por e-mail**.
 {% endstep %}
@@ -82,7 +84,41 @@ O GNRx abre o painel do primeiro módulo que a sua empresa contratou.
 ## Deu errado?
 
 {% hint style="warning" %}
-**"Sua sessão de verificação expirou..."**: você demorou para digitar o código. Clique em **Voltar para o login** e entre de novo.
+**"Por favor, verifique seu login e senha."**: o usuário, CPF, CNPJ ou a senha estão errados. Confira e tente de novo. Se não lembrar a senha, veja [Recuperar a senha](esqueci-minha-senha.md).
+{% endhint %}
+
+{% hint style="warning" %}
+**"Usuário inativo"**: a sua conta foi desativada. Fale com o administrador da sua empresa.
+{% endhint %}
+
+{% hint style="warning" %}
+**"Empresa inativa."**: fale com o suporte GNRx.
+{% endhint %}
+
+{% hint style="warning" %}
+**"O usuário não possui permissão para acessar nenhum módulo."**: o administrador precisa liberar pelo menos um módulo no seu cadastro.
+{% endhint %}
+
+{% hint style="warning" %}
+**"A sua Empresa não possui permissão para acessar nenhum módulo."**: fale com o suporte GNRx.
+{% endhint %}
+
+{% hint style="warning" %}
+**"Configure a autenticação em duas etapas para continuar acessando..."**: a sua empresa exige a verificação e você ainda não configurou. Fale com o administrador da sua empresa.
+{% endhint %}
+
+{% hint style="warning" %}
+**"Código inválido."**: o código está errado ou passou dos 10 minutos. Clique em **Reenviar código**.
+
+Depois de 5 erros, você precisa entrar com a senha de novo. No aplicativo autenticador, o bloqueio dura 15 minutos e aparece **"Muitas tentativas inválidas. Tente novamente mais tarde."**.
+{% endhint %}
+
+{% hint style="warning" %}
+**"Sua sessão de verificação expirou..."** ou **"Sessão de verificação inválida ou expirada."**: você tem 10 minutos entre a senha e o código. Clique em **Voltar para o login** e entre de novo.
+{% endhint %}
+
+{% hint style="warning" %}
+**Muitas tentativas seguidas:** o sistema bloqueia o acesso nesse computador por alguns minutos. Aguarde e tente de novo.
 {% endhint %}
 
 ## Dúvidas comuns
@@ -97,9 +133,14 @@ Pode. Na aba **Usuário**, digite o CPF no campo **Usuário**.
 
 <details>
 
-<summary>Por que o sistema sempre pede o código?</summary>
+<summary>Por que o sistema pede um código?</summary>
 
-Quem tem o perfil Administrador sempre passa pela verificação em duas etapas. Além disso, a empresa pode ligar **MFA obrigatório** numa role própria. Aí todos com essa role passam a receber o código.
+A verificação em duas etapas vem desligada e só vale quando a sua empresa a ativa. Com ela ativada, o código é pedido:
+
+* no acesso **Empresa**;
+* para quem tem uma role que exige verificação. Por padrão, só a role Administrador exige, mas a empresa pode marcar **MFA obrigatório** em outras roles.
+
+Se você tem duas roles e qualquer uma delas exige, o código é pedido.
 
 </details>
 
@@ -108,5 +149,13 @@ Quem tem o perfil Administrador sempre passa pela verificação em duas etapas. 
 <summary>Entrei e não vi o painel. Está errado?</summary>
 
 Não. Se você não tem permissão para ver o painel, o GNRx abre uma tela de trabalho do módulo. No EPI, por exemplo, abre **Nova solicitação**.
+
+</details>
+
+<details>
+
+<summary>Preciso entrar toda vez?</summary>
+
+Não. O login fica válido por 7 dias no mesmo navegador.
 
 </details>
