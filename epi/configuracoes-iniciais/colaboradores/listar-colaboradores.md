@@ -47,7 +47,9 @@ Clique em **Estruturas › Colaboradores**.
 {% step %}
 ### Pesquise ou filtre
 
-Digite em **Pesquisar por nome, CPF ou telefone...** e clique em **Pesquisar**. Use os filtros **Ativos**, **Inativos**, **Afastados** ou **Todos**.
+Digite em **Pesquisar por nome, CPF ou telefone...** e clique em **Pesquisar**.
+
+No módulo Gestão de EPIs, use também os filtros **Ativos**, **Inativos**, **Afastados** ou **Todos**.
 {% endstep %}
 
 {% step %}
