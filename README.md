@@ -1,120 +1,46 @@
 ---
-icon: hand-wave
-cover: https://gitbookio.github.io/onboarding-template-images/header.png
-coverY: 0
+description: "Manuais de cada módulo do GNRx e os primeiros passos."
+icon: house
 layout:
-  cover:
-    visible: true
-    size: full
+  width: default
   title:
     visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
     visible: true
   outline:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
-# Manual de Usuário GNRX
+# Manual do GNRx
 
-Bem-vindo ao Manual de Usuário da plataforma GNRX! Este guia completo foi desenvolvido para ajudar você a aproveitar ao máximo todas as funcionalidades do sistema, fornecendo instruções detalhadas e dicas práticas para otimizar sua experiência.
+**Para que serve:** mostrar, passo a passo, como fazer cada tarefa no GNRx, na web e no aplicativo.
 
-A plataforma GNRX é uma solução integrada de gestão que oferece três módulos principais para atender às necessidades específicas da sua empresa:
+{% hint style="info" %}
+Cada módulo tem o seu manual. Você só vê no GNRx os módulos que a sua empresa contratou e que a sua role permite.
+{% endhint %}
 
-### Conheça nossos módulos principais
+## Escolha o módulo
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Gestão de Auditorias</strong></td><td>Crie, gerencie e acompanhe auditorias e checklists de conformidade.</td><td></td><td></td><td><a href="https://manual.gnrx.com.br/gnrx-auditorias-manual">Módulo de Auditorias</a></td></tr><tr><td><strong>Gestão de EPIs</strong></td><td>Controle a distribuição, uso e manutenção dos equipamentos de proteção individual.</td><td></td><td></td><td><a href="https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual">Módulo de EPIs</a></td></tr><tr><td><strong>Formulários Personalizados</strong></td><td>Crie formulários customizados para captura e análise de dados.</td><td></td><td></td><td><a href="https://manual.gnrx.com.br/gnrx-formularios-manual">Módulo de Formulários</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Gestão de EPIs</strong></td><td>Estoque, compras, solicitação, entrega com assinatura e devolução.</td><td><a href="https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual">https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual</a></td></tr><tr><td><strong>Auditorias</strong></td><td>Checklists, auditorias, não conformidades e planos de ação.</td><td><a href="https://manual.gnrx.com.br/gnrx-auditorias-manual">https://manual.gnrx.com.br/gnrx-auditorias-manual</a></td></tr><tr><td><strong>Formulários</strong></td><td>Formulários próprios para coletar dados no app e na web.</td><td><a href="https://manual.gnrx.com.br/gnrx-formularios-manual">https://manual.gnrx.com.br/gnrx-formularios-manual</a></td></tr><tr><td><strong>Gestão de Treinamentos</strong></td><td>Turmas, presença, certificados e vencimentos.</td><td><a href="https://manual.gnrx.com.br/gnrx-gestao-de-treinamentos-manual">https://manual.gnrx.com.br/gnrx-gestao-de-treinamentos-manual</a></td></tr><tr><td><strong>DDS</strong></td><td>Diálogos Diários de Segurança: tema, condutor, presença e evidências.</td><td><a href="https://manual.gnrx.com.br/gnrx-dds-manual">https://manual.gnrx.com.br/gnrx-dds-manual</a></td></tr><tr><td><strong>Gestão de Acidentes</strong></td><td>Ocorrências, CAT, estabilidade e planos de ação.</td><td><a href="https://manual.gnrx.com.br/gnrx-gestao-de-acidentes-manual">https://manual.gnrx.com.br/gnrx-gestao-de-acidentes-manual</a></td></tr><tr><td><strong>Gestão de CIPA</strong></td><td>Eleição, mandato, reuniões e atas, SIPAT e mapa de risco.</td><td><a href="https://manual.gnrx.com.br/gnrx-gestao-de-cipa-manual">https://manual.gnrx.com.br/gnrx-gestao-de-cipa-manual</a></td></tr><tr><td><strong>Gestão de Documentos</strong></td><td>Documentos da empresa, dos colaboradores e das terceiras.</td><td><a href="https://manual.gnrx.com.br/gnrx-gestao-de-documentos-manual">https://manual.gnrx.com.br/gnrx-gestao-de-documentos-manual</a></td></tr></tbody></table>
 
-## Visão Geral do Sistema
+## Comece por aqui
 
-A plataforma GNRX foi desenvolvida para simplificar processos de gestão de segurança e conformidade, oferecendo uma interface intuitiva e ferramentas poderosas que se adaptam às necessidades específicas da sua organização.
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Entrar no sistema</strong></td><td>Usuário, CPF ou CNPJ da empresa.</td><td><a href="https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual/acesso/entrar-no-sistema">https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual/acesso/entrar-no-sistema</a></td></tr><tr><td><strong>Recuperar a senha</strong></td><td>Link por e-mail.</td><td><a href="https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual/acesso/esqueci-minha-senha">https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual/acesso/esqueci-minha-senha</a></td></tr><tr><td><strong>Conhecer a tela</strong></td><td>Menu, módulos e perfil.</td><td><a href="https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual/acesso/conhecendo-a-tela">https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual/acesso/conhecendo-a-tela</a></td></tr><tr><td><strong>Um módulo não abre</strong></td><td>Contrato, período de teste e permissão.</td><td><a href="https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual/acesso/modulos-e-periodo-de-teste">https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual/acesso/modulos-e-periodo-de-teste</a></td></tr></tbody></table>
 
-### Principais Benefícios
+## Precisa de ajuda?
 
-- **Interface Intuitiva:** Design moderno e responsivo que facilita a navegação e uso em diferentes dispositivos
-- **Acesso Seguro:** Sistema de autenticação avançado com múltiplos níveis de permissão
-- **Integração Completa:** Módulos que trabalham em conjunto para uma gestão eficiente
-- **Relatórios Detalhados:** Geração de relatórios personalizáveis e exportáveis
-- **Suporte Técnico:** Assistência especializada para resolver dúvidas e problemas
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Abrir um chamado</strong></td><td>Fale com o suporte do GNRx.</td><td><a href="https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual/suporte/abrir-chamado">https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual/suporte/abrir-chamado</a></td></tr><tr><td><strong>Acompanhar um chamado</strong></td><td>Veja a resposta do suporte.</td><td><a href="https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual/suporte/acompanhar-chamado">https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual/suporte/acompanhar-chamado</a></td></tr></tbody></table>
 
-## Primeiros Passos
+## Requisitos
 
-Para começar a utilizar o sistema GNRX, siga estas etapas iniciais:
-
-1. Acesse o sistema utilizando as credenciais fornecidas pelo administrador
-2. Configure seu perfil e preferências pessoais
-3. Explore os módulos disponíveis para sua conta
-4. Familiarize-se com as funcionalidades básicas de cada módulo
-
-### Requisitos do Sistema
-
-- **Navegadores compatíveis:** Chrome, Firefox, Safari ou Edge (versões mais recentes)
-- **Dispositivos:** Desktop, tablet ou smartphone
-- **Conexão:** Internet estável para web. Aplicativos Móveis funcionam Offline.
-
-## Suporte e Recursos Adicionais
-
-Em caso de dúvidas ou problemas durante a utilização do sistema, você pode:
-
-- Consultar este manual detalhado
-- Entrar em contato com nossa equipe de suporte técnico
-- Participar dos treinamentos periódicos oferecidos pela nossa equipe
-
----
-
-## Módulo de Auditorias
-
-O módulo de Auditorias é uma ferramenta completa para a gestão de checklists de conformidade, auditorias de segurança e inspeções periódicas. Com ele, você pode criar, aplicar e analisar diferentes tipos de auditorias para garantir a conformidade com normas e procedimentos.
-
-### Principais Funcionalidades:
-
-- Criação de modelos de checklist personalizados
-- Checklists baseados em normas regulamentadoras (NRs)
-- Receber as Multas baseadas em NR ou Personalizadas
-- Auditorias com suporte a fotos e observações
-- Gestão de não conformidades e ações corretivas
-- Envio automático de relatórios por e-mail
-
-[Saiba mais sobre o Módulo de Auditorias](https://manual.gnrx.com.br/gnrx-auditorias-manual)
-
----
-
-## Módulo de Gestão de EPIs
-
-O módulo de Gestão de EPIs permite o controle completo do ciclo de vida dos Equipamentos de Proteção Individual na sua empresa. Desde a aquisição e distribuição até o descarte, você tem acesso a ferramentas que facilitam o gerenciamento e garantem a conformidade.
-
-### Principais Funcionalidades:
-
-- Cadastro detalhado de EPIs com número de CA
-- Gestão de estoque e validade dos equipamentos
-- Associação de EPIs com riscos ocupacionais do GHE
-- Controle de entrega e devolução com assinatura inteligente
-- Lembretes automáticos para substituição
-- Notificações via WhatsApp para funcionários
-- Relatórios de uso e conformidade
-
-[Saiba mais sobre o Módulo de Gestão de EPIs](https://manual.gnrx.com.br/gnrx-gestao-de-epis-manual)
-
----
-
-## Módulo de Formulários
-
-O módulo de Formulários permite a criação de documentos personalizados para coleta de dados específicos da sua operação. Com uma interface intuitiva de drag-and-drop, você pode criar formulários complexos sem necessidade de conhecimentos técnicos.
-
-### Principais Funcionalidades:
-
-- Editor de formulários com diversos tipos de campos
-- Organização em seções para melhor visualização
-- Formulários com dados globais personalizados
-- Suporte a diferentes tipos de dados (texto, números, datas, seleções)
-- Exportação de dados para análise
-- Relatórios e dashboards personalizáveis
-
-[Saiba mais sobre o Módulo de Formulários](https://manual.gnrx.com.br/gnrx-formularios-manual)
-
----
-
-Este manual está em constante evolução para garantir que você tenha sempre as informações mais atualizadas sobre a plataforma GNRX. Se tiver sugestões ou dúvidas que não foram abordadas aqui, entre em contato com nossa equipe de suporte.
+* **Navegador:** Chrome, Firefox, Safari ou Edge, na versão mais recente.
