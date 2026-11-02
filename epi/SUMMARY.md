@@ -178,28 +178,29 @@
 
 ## Configurações Gerais
 
-* [Visão Geral](configuracoes-gerais/README.md)
+* [Configurações gerais](configuracoes-gerais/README.md)
 
 ## Riscos
 
-* [Visão Geral](configuracoes-gerais/riscos/README.md)
-* [Listar Riscos](configuracoes-gerais/riscos/listar-riscos.md)
-* [Adicionar Risco](configuracoes-gerais/riscos/adicionar-risco.md)
-* [Desativar Risco](configuracoes-gerais/riscos/desativar-risco.md)
+* [Riscos](configuracoes-gerais/riscos/README.md)
+* [Encontrar um risco](configuracoes-gerais/riscos/listar-riscos.md)
+* [Adicionar um risco](configuracoes-gerais/riscos/adicionar-risco.md)
+* [Vincular EPIs e GHEs a um risco](configuracoes-gerais/riscos/vincular-risco.md)
+* [Inativar um risco](configuracoes-gerais/riscos/desativar-risco.md)
 
-## EPIs
+## Tipos de produtos
 
-* [Visão Geral](configuracoes-gerais/epis/README.md)
-* [Catálogo de EPIs](configuracoes-gerais/epis/catalogo-epis.md)
-* [Adicionar EPI ao Catálogo](configuracoes-gerais/epis/adicionar-epi-catalogo.md)
+* [Tipos de produtos](configuracoes-gerais/epis/README.md)
+* [Consultar e criar tipos de EPI](configuracoes-gerais/epis/catalogo-epis.md)
+* [Criar um tipo de produto](configuracoes-gerais/epis/adicionar-epi-catalogo.md)
 
 ## Motivos
 
-* [Visão Geral](configuracoes-gerais/motivos/README.md)
-* [Motivos de Solicitação](configuracoes-gerais/motivos/motivos-solicitacao.md)
-* [Motivos de Devolução](configuracoes-gerais/motivos/motivos-devolucao.md)
-* [Motivos de Perda](configuracoes-gerais/motivos/motivos-perda.md)
-* [Motivos de Quebra](configuracoes-gerais/motivos/motivos-quebra.md)
+* [Motivos](configuracoes-gerais/motivos/README.md)
+* [Cadastrar um motivo de solicitação](configuracoes-gerais/motivos/motivos-solicitacao.md)
+* [Cadastrar um motivo de devolução](configuracoes-gerais/motivos/motivos-devolucao.md)
+* [Cadastrar um motivo de perda](configuracoes-gerais/motivos/motivos-perda.md)
+* [Cadastrar um motivo de quebra](configuracoes-gerais/motivos/motivos-quebra.md)
 
 ## Integrações
 
