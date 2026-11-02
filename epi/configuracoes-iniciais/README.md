@@ -1,4 +1,5 @@
 ---
+description: Cadastre a estrutura da empresa antes de começar a entregar EPIs.
 icon: gear
 layout:
   width: default
