@@ -59,6 +59,8 @@ Abra uma entrada (lote) para ver cada unidade. Use **Pesquisar por número de s�
 
 Marque as unidades e escolha o **Novo estado**. Para lavanderia, use **Selecione a lavanderia**. Aparece "Estado alterado com sucesso!".
 
+Se todas as unidades marcadas estão **Em Uso**, aparece **Registrar devolução**. Veja [Devolver várias unidades de uma vez](../../solicitacoes/devolucao/devolucao-em-massa.md).
+
 </details>
 
 <details>

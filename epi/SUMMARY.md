@@ -204,6 +204,7 @@
 * [Registrar uma devolução](solicitacoes/devolucao/registrar-devolucao.md)
 * [Registrar uma perda](solicitacoes/devolucao/registrar-perda.md)
 * [Registrar uma quebra](solicitacoes/devolucao/registrar-quebra.md)
+* [Devolver várias unidades de uma vez](solicitacoes/devolucao/devolucao-em-massa.md)
 
 ## Configurações Gerais
 
