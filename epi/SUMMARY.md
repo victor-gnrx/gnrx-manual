@@ -180,29 +180,30 @@
 
 ## Solicitações
 
-* [Visão Geral](solicitacoes/README.md)
-
-## Criar Solicitação
-
-* [Nova Solicitação](solicitacoes/nova-solicitacao.md)
-
-## Devolução
-
-* [Itens Pendentes](solicitacoes/devolucao/itens-pendentes.md)
-* [Registrar Devolução](solicitacoes/devolucao/registrar-devolucao.md)
-* [Registrar Perda](solicitacoes/devolucao/registrar-perda.md)
-* [Registrar Quebra](solicitacoes/devolucao/registrar-quebra.md)
+* [Solicitações](solicitacoes/README.md)
+* [Fazer uma solicitação de EPI](solicitacoes/nova-solicitacao.md)
+* [Consultar as solicitações](solicitacoes/consultar-solicitacoes.md)
+* [Aprovar uma solicitação](solicitacoes/aprovar-solicitacao.md)
 
 ## Entrega
 
-* [Pendentes de Entrega](solicitacoes/entrega/pendentes-entrega.md)
-* [Confirmar Entrega](solicitacoes/entrega/confirmar-entrega.md)
+* [Entregar e colher a assinatura](solicitacoes/entrega/confirmar-entrega.md)
+* [Fazer uma entrega rápida](solicitacoes/entrega-rapida.md)
+* [Entregar produtos](solicitacoes/entrega-produto.md)
+* [Ver as assinaturas pendentes](solicitacoes/entrega/pendentes-entrega.md)
 
 ## Assinatura
 
-* [Visão Geral](solicitacoes/assinatura/README.md)
-* [Assinatura Digital](solicitacoes/assinatura/assinatura-digital.md)
-* [Assinatura por Reconhecimento Facial](solicitacoes/assinatura/assinatura-reconhecimento-facial.md)
+* [Assinatura da entrega](solicitacoes/assinatura/README.md)
+* [Assinatura digital](solicitacoes/assinatura/assinatura-digital.md)
+* [Assinatura por reconhecimento facial](solicitacoes/assinatura/assinatura-reconhecimento-facial.md)
+
+## Devolução
+
+* [Ver as devoluções pendentes](solicitacoes/devolucao/itens-pendentes.md)
+* [Registrar uma devolução](solicitacoes/devolucao/registrar-devolucao.md)
+* [Registrar uma perda](solicitacoes/devolucao/registrar-perda.md)
+* [Registrar uma quebra](solicitacoes/devolucao/registrar-quebra.md)
 
 ## Configurações Gerais
 

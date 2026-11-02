@@ -1,5 +1,6 @@
 ---
-icon: hands-holding-circle
+description: "Entregue os itens da solicitação e colha a assinatura."
+icon: hand-holding
 layout:
   width: default
   title:
@@ -20,105 +21,61 @@ layout:
     visible: true
 ---
 
-# Confirmar Entrega
+# Entregar e colher a assinatura
 
-## Introdução
-
-O processo de confirmação de entrega permite registrar formalmente a transferência física dos Equipamentos de Proteção Individual (EPIs) ao colaborador. Esta etapa é crucial para documentar quais itens específicos foram fornecidos, garantindo o controle preciso do inventário e a conformidade com requisitos legais.
-
-<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
-
-## Como Acessar
-
-Para confirmar a entrega de EPIs:
-
-1. Acesse o menu **Solicitações** na barra de navegação principal
-2. Selecione a opção **Entregas**
-3. Localize a solicitação desejada na lista de pendentes
-4. Clique no botão **Efetuar Entrega**
-
-## Passo a Passo para Confirmar uma Entrega
-
-### 1. Verificar Informações da Solicitação
-
-No início do processo, confira os dados básicos da solicitação:
-
-- **Motivo**: Razão pela qual os EPIs foram solicitados
-- **Unidade**: Local de trabalho do colaborador
-- **Data de Solicitação**: Quando o pedido foi registrado
-- **Colaborador**: Pessoa que receberá os equipamentos
-
-### 2. Definir Status da Entrega
-
-Selecione o status apropriado para a entrega:
-
-- Clique no menu suspenso "Status"
-- Selecione a opção **Entregue**
-- Este status indica que os EPIs estão sendo fisicamente transferidos ao colaborador
-
-### 3. Registrar a Data de Entrega
-
-Informe quando a entrega está sendo realizada:
-
-- Digite a data no formato solicitado ou use o seletor de calendário
-- Por padrão, a data atual é sugerida pelo sistema
-- Use o botão **Hoje** para definir automaticamente a data atual
-
-### 4. Selecionar o Item a ser Entregue
-
-Para cada tipo de EPI na solicitação:
-
-- Clique no menu suspenso "Selecione o Item"
-- Escolha entre os itens disponíveis no sistema que correspondem ao tipo solicitado
-- O sistema mostrará informações como Certificado de Aprovação (CA), fabricante e estoque disponível
-
-### 5. Selecionar Equipamentos Específicos
-
-Após selecionar o tipo de item, você precisa escolher quais unidades específicas serão entregues:
-
-- Clique no botão **Selecione os Equipamentos (isso definirá a quantidade)**
-- Na janela de seleção que se abre, você verá todos os equipamentos disponíveis daquele tipo
-- Selecione as unidades específicas marcando as caixas correspondentes
-- Observe as informações de número de série, lote, estado, validade e custo (quando disponível)
-- Confirme a seleção clicando em **Confirmar**
+**Para que serve:** registrar a entrega dos itens aprovados e colher a assinatura do colaborador.
 
 {% hint style="info" %}
-**Visualização do custo**: o custo unitário dos equipamentos só é exibido nesta janela para usuários com a permissão `epis:visualizar:custo_item`. Por padrão, ela é concedida às roles **Gestor** e **Administrador** — Operadores e Supervisores não veem o valor. Se a sua empresa quiser liberar o custo para outros perfis, adicione a permissão à role em **Configurações › Roles & Permissões** (ver [Sistema de Permissões e Roles](../../configuracoes-iniciais/usuarios/sistema-permissoes-roles.md)).
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de registrar entrega de EPIs.
 {% endhint %}
 
-### 6. Adicionar Observações (Opcional)
+## Antes de começar
 
-Se necessário, registre informações adicionais sobre a entrega:
+* A solicitação precisa estar aprovada.
 
-- Utilize o campo "Observações" para documentar detalhes relevantes
-- Registre condições especiais, orientações dadas ao colaborador ou outras informações importantes
+## Passo a passo
 
-### 7. Salvar a Confirmação de Entrega
+{% stepper %}
+{% step %}
+### Efetue a entrega
 
-Para concluir esta etapa do processo:
+Abra a solicitação e clique em **Efetuar Entrega**. Escolha os itens do estoque e salve.
 
-- Revise todas as informações inseridas
-- Clique no botão **Salvar**
-- O sistema registrará a entrega e preparará a etapa de assinatura
+<figure><img src="../../.gitbook/assets/solicitacao-entrega-01.png" alt="Solicitação com o botão Efetuar Entrega e os itens a entregar"><figcaption><p>Efetuar Entrega</p></figcaption></figure>
+{% endstep %}
 
-## Impacto no Estoque
+{% step %}
+### Colha a assinatura
 
-Ao confirmar uma entrega:
+Em **Recolher Assinatura**, escolha **Digitalmente** ou **Reconhecimento Facial**. Veja [Assinatura digital](../assinatura/assinatura-digital.md) e [Assinatura por reconhecimento facial](../assinatura/assinatura-reconhecimento-facial.md). Aparece "Entrega Assinada com sucesso!".
+{% endstep %}
+{% endstepper %}
 
-- As unidades específicas selecionadas são colocados em uso no sistema
-- O estoque disponível é atualizado automaticamente
-- Os equipamentos passam a estar associados ao colaborador no sistema
-- O histórico de cada equipamento é atualizado com a nova atribuição
+{% hint style="info" %}
+**Pelo celular do colaborador:** use **App GNRx - Colaborador**, **Email** ou **WhatsApp** para mandar o pedido de assinatura. O **WhatsApp** só funciona com a integração de WhatsApp ligada.
+{% endhint %}
 
-## Considerações Importantes
+## Deu errado?
 
-- **Verificação física**: Confirme visualmente que os equipamentos selecionados correspondem aos físicos
-- **Inspeção de qualidade**: Certifique-se de que os EPIs estão em perfeitas condições antes da entrega
-- **Orientações ao colaborador**: Explique sobre o uso correto, conservação e quando realizar a devolução
-- **Equipamentos com variantes**: Certifique-se de selecionar as variantes corretas (tamanho, cor, etc.)
+| Mensagem na tela | O que fazer |
+| --- | --- |
+| "O Item precisa ser entregue antes de realizar a assinatura." | Efetue a entrega primeiro. |
+| "Documentação irregular impede receber itens: ... Regularize os documentos ou solicite uma liberação excepcional." | Com o bloqueio documental ligado, regularize os documentos no módulo Gestão de Documentos ou peça lá uma liberação excepcional. |
 
-## Próximos Passos
+## Dúvidas comuns
 
-Após confirmar a entrega física dos EPIs, o próximo passo é:
+<details>
 
-- [Recolher Assinatura](../assinatura/) - Obter a assinatura do colaborador para finalizar o processo
+<summary>Vejo o custo dos itens?</summary>
+
+O custo unitário só aparece para quem tem a permissão de ver o custo unitário dos itens (Gestor e Administrador).
+
+</details>
+
+<details>
+
+<summary>Preciso refazer a assinatura.</summary>
+
+Use **Refazer Assinatura**: "Colete uma nova assinatura para substituir a anterior". Aparece "Assinatura refeita com sucesso".
+
+</details>

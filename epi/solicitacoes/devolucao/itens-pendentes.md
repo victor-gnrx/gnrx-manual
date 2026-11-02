@@ -1,5 +1,6 @@
 ---
-icon: turn-left
+description: "Veja as devoluções pendentes e atrasadas."
+icon: rotate-left
 layout:
   width: default
   title:
@@ -20,78 +21,50 @@ layout:
     visible: true
 ---
 
-# Itens Pendentes
+# Ver as devoluções pendentes
 
-## Introdução
+**Para que serve:** ver os EPIs que precisam voltar, os que estão atrasados e os que já voltaram.
 
-O módulo de Itens Pendentes de Devolução oferece uma visão consolidada de todos os Equipamentos de Proteção Individual (EPIs) que foram entregues aos colaboradores e ainda não foram devolvidos à empresa. Esta ferramenta é essencial para o controle efetivo dos ativos e para garantir a conformidade com os prazos de devolução estabelecidos.
+{% hint style="info" %}
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de processar devolução de EPIs.
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption><p>Itens Pendentes de Devolução</p></figcaption></figure>
+## Antes de começar
 
-## Como Acessar
+* Nada a preparar.
 
-Para acessar a lista de itens pendentes de devolução:
+## Passo a passo
 
-1. Acesse o menu **Solicitações** na barra de navegação principal
-2. Selecione a opção **Devoluções**
-3. Na página inicial de devoluções, você encontrará automaticamente a listagem de todos os itens pendentes
+{% stepper %}
+{% step %}
+### Abra as devoluções
 
-## Funcionalidades Principais
+Clique em **Solicitações › Devoluções — Retornos Pendentes**. Ligue **Filtrar apenas atrasados** para ver só o que passou do prazo.
 
-### Visualização de Itens Pendentes
+<figure><img src="../../.gitbook/assets/devolucao-lista-01.png" alt="Tela Devoluções — Retornos Pendentes com Devolvido, Atrasado, Vencendo e Pendente"><figcaption><p>Devoluções — Retornos Pendentes</p></figcaption></figure>
+{% endstep %}
 
-A interface apresenta uma lista organizada com as seguintes informações:
+{% step %}
+### Veja o prazo
 
-- **Número da solicitação**: Identificador único da solicitação original
-- **Colaborador**: Nome do colaborador que está com o EPI
-- **Itens**: Detalhes dos equipamentos entregues
-  - Tipo de EPI (ex: Protetor auditivo, Capacete, etc.)
-  - Número de série ou identificação do equipamento
-  - Data de entrega
-  - Data prevista para devolução
-- **Status**: Situação atual do item (pendente de devolução)
+Cada linha mostra a **Devolução Prevista** e o **Tempo Restante**: **Devolvido**, **Atrasado**, **Vencendo**, **Pendente** ou **Sem prazo**. Clique em **Ver** para abrir.
+{% endstep %}
+{% endstepper %}
 
-### Filtros e Pesquisa
+## Dúvidas comuns
 
-Para facilitar a localização de itens específicos, o sistema oferece:
+<details>
 
-- **Filtro por colaborador**: Busca por nome ou identificação
-- **Filtro por tipo de EPI**: Seleção do tipo de equipamento
-- **Filtro por data**: Definição de períodos de entrega ou devolução prevista
-- **Busca por número de série**: Localização de equipamentos específicos
+<summary>Como registro a devolução?</summary>
 
-### Alertas e Notificações
+Veja [Registrar uma devolução](registrar-devolucao.md).
 
-O sistema destaca automaticamente:
+</details>
 
-- **Itens com devolução em atraso**: Identificados com marcação em vermelho
-- **Itens próximos da data de devolução**: Destacados em amarelo como alerta
-- **Contagem de dias em atraso**: Exibição do número de dias desde a data prevista
+<details>
 
-## Ações Disponíveis
+<summary>Tem um painel?</summary>
 
-A partir da lista de itens pendentes, você pode:
+Sim, o **Painel de Devoluções**.
 
-1. **Iniciar processo de devolução**: Clique no botão "Fazer devolução agora" ao lado do item
-2. **Verificar detalhes**: Acesse informações detalhadas clicando em "Detalhes"
-3. **Visualizar histórico**: Consulte o histórico completo da solicitação
-4. **Enviar lembretes**: Remeter notificações automáticas para colaboradores com itens pendentes
-5. **Gerar relatórios**: Exportar listagens de itens pendentes em diferentes formatos
-
-## Boas Práticas
-
-Para uma gestão eficiente dos itens pendentes de devolução:
-
-- **Verifique a lista diariamente**: Mantenha o controle regular sobre os itens não devolvidos
-- **Priorize itens em atraso**: Foque primeiramente nos itens com maior tempo de atraso
-- **Estabeleça processos de notificação**: Crie rotinas para alertar colaboradores sobre devoluções pendentes
-- **Documente justificativas**: Registre os motivos para atrasos na devolução
-- **Realize inventários periódicos**: Compare regularmente os registros do sistema com a realidade física
-
-## Próximos Passos
-
-Após identificar os itens pendentes que precisam ser processados, você pode:
-
-- [Registrar Devolução](registrar-devolucao.md) - Processar a devolução regular do equipamento
-- [Registrar Perda](registrar-perda.md) - Documentar a perda ou extravio do equipamento
-- [Registrar Quebra](registrar-quebra.md) - Registrar danos ou quebra do equipamento
+</details>

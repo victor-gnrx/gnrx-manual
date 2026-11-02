@@ -1,5 +1,6 @@
 ---
-icon: signature
+description: "O colaborador desenha a assinatura na tela."
+icon: pen-nib
 layout:
   width: default
   title:
@@ -20,98 +21,58 @@ layout:
     visible: true
 ---
 
-# Assinatura Digital
+# Assinatura digital
 
-## Introdução
+**Para que serve:** o colaborador assina a entrega desenhando a assinatura na tela.
 
-A assinatura digital é uma modalidade de confirmação de recebimento de Equipamentos de Proteção Individual (EPIs) que permite ao colaborador assinar diretamente na tela do dispositivo, seja com o dedo ou com uma caneta digital. Este método combina praticidade com validade legal, criando um registro digital da assinatura manuscrita do colaborador.
+{% hint style="info" %}
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de registrar entrega de EPIs.
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+## Antes de começar
 
-## Como Acessar
+* O item precisa estar entregue.
 
-A funcionalidade de assinatura digital é acessada automaticamente após a confirmação da entrega física dos EPIs:
+## Passo a passo
 
-1. Conclua o processo de [Confirmação de Entrega](../entrega/confirmar-entrega.md)
-2. Na seção "Recolher Assinatura", clique no botão **Assinar Entrega** com o ícone de caneta
+{% stepper %}
+{% step %}
+### Abra a assinatura
 
-## Passo a Passo para Coletar a Assinatura Digital
+Abra a solicitação. Em **Recolher Assinatura**, clique em **Digitalmente**.
 
-### 1. Selecionar o Método de Assinatura
+<figure><img src="../../.gitbook/assets/assinatura-digital-01.png" alt="Janela de assinatura com o campo para desenhar e o botão Confirmar Assinatura"><figcaption><p>Assinatura digital</p></figcaption></figure>
+{% endstep %}
 
-Ao iniciar o processo de assinatura:
+{% step %}
+### Assine
 
-- O sistema exibirá a opção de assinatura digital por padrão
-- Verifique se o ícone de caneta está destacado, indicando a seleção deste método
-- Se necessário, clique explicitamente na opção de assinatura digital
+O colaborador desenha a assinatura no campo. Para recomeçar, clique em **Limpar**. Clique em **Confirmar Assinatura**. Aparece "Entrega Assinada com sucesso!".
+{% endstep %}
+{% endstepper %}
 
-### 2. Preparar o Dispositivo
+## Deu errado?
 
-Antes de prosseguir com a assinatura:
+| Mensagem na tela | O que fazer |
+| --- | --- |
+| "Por favor, assine o documento antes de enviar." | Desenhe a assinatura antes de confirmar. |
+| "O Item precisa ser entregue antes de realizar a assinatura." | Efetue a entrega primeiro. |
+| "Erro ao processar assinatura. Tente novamente." | Tente de novo. |
 
-- Posicione o dispositivo de forma confortável para o colaborador
-- Certifique-se de que a tela está limpa e responsiva
-- Ajuste o brilho da tela se necessário para melhor visualização
-- Se disponível, ofereça uma caneta stylus para maior precisão
+## Dúvidas comuns
 
-### 3. Orientar o Colaborador
+<details>
 
-Explique claramente ao colaborador:
+<summary>O colaborador não está aqui.</summary>
 
-- Que ele deve assinar no campo indicado
-- Que a assinatura representa o aceite formal do recebimento dos EPIs
-- Que o sistema gerará um termo de responsabilidade com esta assinatura
-- Que a assinatura tem valor legal e representa um compromisso com o uso adequado dos equipamentos
+Mande o pedido de assinatura por **App GNRx - Colaborador**, **Email** ou **WhatsApp**. Veja [Entregar e colher a assinatura](../entrega/confirmar-entrega.md).
 
-### 4. Capturar a Assinatura
+</details>
 
-Para registrar a assinatura:
+<details>
 
-- Instrua o colaborador a assinar dentro da área demarcada na tela
-- A assinatura deve ser feita com o dedo ou caneta stylus, conforme disponibilidade
-- O sistema capturará todos os movimentos e padrões da assinatura
-- Se o colaborador cometer um erro, utilize o botão **Limpar** para reiniciar o processo
+<summary>A assinatura saiu errada.</summary>
 
-### 5. Confirmar a Assinatura
+Use **Refazer Assinatura** no item, ou **Reassinar Todos**.
 
-Após a assinatura ser realizada:
-
-- Mostre ao colaborador a assinatura capturada para sua aprovação
-- Confirme se ele está satisfeito com a representação de sua assinatura
-- Clique no botão **Confirmar Assinatura** para validar e salvar o registro
-- O sistema processará a assinatura e a associará ao termo de responsabilidade
-
-## Aspectos Técnicos e Legais
-
-A assinatura digital no sistema GNRX:
-
-- **Captura biométrica**: Registra não apenas a imagem, mas também a pressão, velocidade e outros atributos únicos da assinatura
-- **Criptografia**: Armazena a assinatura com métodos avançados de criptografia para evitar adulterações
-- **Carimbo de tempo**: Associa data e hora exatas ao momento da assinatura
-- **Integração com o termo**: Incorpora automaticamente a assinatura ao documento de termo de responsabilidade
-- **Conformidade legal**: Atende aos requisitos para validade jurídica de documentos eletrônicos
-
-## Resolução de Problemas Comuns
-
-| Problema                            | Possível Causa                    | Solução                                        |
-| ----------------------------------- | --------------------------------- | ---------------------------------------------- |
-| Assinatura não está fluída          | Tela pouco responsiva             | Limpe a tela e peça para assinar novamente     |
-| Assinatura muito pequena            | Área de assinatura não clara      | Oriente sobre os limites da área de assinatura |
-| Dificuldade para assinar com o dedo | Diferença da escrita convencional | Ofereça uma caneta stylus, se disponível       |
-| Erro ao salvar assinatura           | Problema de conexão ou sistema    | Tente novamente ou reinicie o aplicativo       |
-
-## Boas Práticas
-
-Para otimizar o processo de assinatura digital:
-
-- **Verificação de identidade**: Confirme que o colaborador que está assinando é realmente quem deve receber os EPIs
-- **Ambiente adequado**: Proporcione um espaço confortável e estável para a assinatura
-- **Verificação visual**: Compare com assinaturas anteriores quando possível
-- **Explicação clara**: Esclareça que a assinatura tem o mesmo valor legal de uma assinatura em papel
-- **Backup do termo**: Garanta que o colaborador receba uma cópia do termo assinado
-
-## Próximos Passos
-
-Após coletar a assinatura digital:
-
-- [Visualizar Termo de Responsabilidade](termo-responsabilidade.md) - Acessar o documento gerado com a assinatura
+</details>

@@ -1,5 +1,6 @@
 ---
-icon: rectangle-history-circle-plus
+description: "Peça EPIs para um colaborador em 3 passos."
+icon: file-circle-plus
 layout:
   width: default
   title:
@@ -20,128 +21,62 @@ layout:
     visible: true
 ---
 
-# Nova Solicitação
+# Fazer uma solicitação de EPI
 
-Esta página explica o processo completo de criação de uma nova solicitação de EPIs no Sistema GNRX Gestão de EPI.
+**Para que serve:** pedir EPIs para um colaborador, com o motivo de cada item.
 
-## Visão Geral
+{% hint style="info" %}
+**Quem pode fazer:** todas as roles, com a permissão de solicitar EPIs.
+{% endhint %}
 
-A funcionalidade de Nova Solicitação permite registrar pedidos de Equipamentos de Proteção Individual para colaboradores, seguindo um fluxo estruturado em quatro etapas principais. Este processo garante que todas as informações necessárias sejam coletadas e que os EPIs corretos sejam solicitados conforme os riscos associados à função do colaborador.
+## Antes de começar
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption><p>Nova Solicitação</p></figcaption></figure>
+* O colaborador precisa estar cadastrado e ativo.
 
-## Acessando a Funcionalidade
+## Passo a passo
 
-Para iniciar uma nova solicitação:
+{% stepper %}
+{% step %}
+### Escolha o colaborador
 
-1. No menu lateral, clique em **Solicitações**
-2. Selecione a opção **Nova solicitação**
-3. O sistema iniciará o fluxo na primeira etapa
+Clique em **Solicitações › Nova Solicitação**. Em **Informações do Solicitante**, busque o colaborador pelo nome ou CPF.
 
-## Etapas do Processo
+<figure><img src="../.gitbook/assets/solicitacao-nova-01.png" alt="Nova Solicitação de EPIs com as etapas Informações do Solicitante, Seleção de Itens e Motivos da Solicitação"><figcaption><p>Nova Solicitação de EPIs</p></figcaption></figure>
+{% endstep %}
 
-O processo de criação de uma nova solicitação é dividido em quatro etapas sequenciais:
+{% step %}
+### Selecione os itens
 
-### 1. Informações do Solicitante
+Em **Seleção de Itens**, busque por nome, CA ou tipo e escolha os itens. Para ver também produtos, ligue **Exibir Produtos**. Itens **Sem estoque** aparecem marcados.
+{% endstep %}
 
-Nesta primeira etapa, você deve:
+{% step %}
+### Defina os motivos
 
-- **Selecionar o colaborador** que receberá os EPIs
-  - Clique em "Buscar Colaborador"
-  - Pesquise pelo nome, CPF ou matrícula
-  - Selecione o colaborador nos resultados
-- **Escolher a unidade** para entrega
-  - Selecione entre as unidades vinculadas ao colaborador
-  - Cada unidade mostra seu endereço completo
+Em **Motivos da Solicitação**, use **Selecionar Motivo** em cada item. Clique em **Próximo**, revise a **Confirmação** e clique em **Confirmar Solicitação**. Aparece **Solicitação criada com sucesso!**.
+{% endstep %}
+{% endstepper %}
 
-  <figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption><p>Passo 1</p></figcaption></figure>
+## Deu errado?
 
-Após completar estas informações, clique em "Próximo" para avançar.
+{% hint style="warning" %}
+**"Todos os EPIs precisam ter um motivo de solicitação definido"**: escolha o motivo de cada item.
+{% endhint %}
 
-### 2. Seleção de EPIs
+## Dúvidas comuns
 
-Na segunda etapa, você deve:
+<details>
 
-- **Selecionar os EPIs necessários**
-  - A lista exibe apenas os EPIs associados ao GHE do colaborador
-  - Você pode usar o campo de busca para filtrar por código, tipo ou descrição
-  - Marque os itens desejados clicando no círculo à esquerda
+<summary>E depois de criar?</summary>
 
-  <figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption><p>Passo 2</p></figcaption></figure>
+Se precisar de aprovação, ela aguarda. Se já está pronta, use **Ir para entrega**.
 
-Os EPIs disponíveis são determinados pelo GHE (Grupo Homogêneo de Exposição) do colaborador, garantindo que apenas equipamentos relevantes para os riscos específicos da função sejam oferecidos.
+</details>
 
-Após selecionar todos os EPIs necessários, clique em "Próximo".
+<details>
 
-### 3. Motivos da Solicitação
+<summary>Quero pedir e entregar na hora.</summary>
 
-Na terceira etapa, você deve:
+Use a [Entrega Rápida](entrega-rapida.md).
 
-- **Definir um motivo para cada EPI selecionado**
-  - Clique em "Definir Motivo" ao lado de cada item
-  - Selecione o motivo adequado na lista apresentada
-  - Os motivos comuns incluem:
-    - Troca recorrente
-    - Perda
-    - Extravio
-    - Quebra
-    - Primeira Solicitação
-
-Os motivos disponíveis são configurados por empresa e podem ser personalizados conforme necessário em Configurações > Motivos de solicitação.
-
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption><p>Passo 3</p></figcaption></figure>
-
-Após definir todos os motivos, clique em "Próximo".
-
-### 4. Confirmação
-
-Na etapa final, você deve:
-
-- **Revisar todas as informações da solicitação**
-  - Dados do colaborador
-  - Unidade selecionada
-  - EPIs solicitados e seus motivos
-- **Confirmar a solicitação**
-  - Clique no botão "Confirmar Solicitação"
-  - O sistema registrará a solicitação e exibirá uma mensagem de sucesso
-
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
-
-## Mensagem de Sucesso
-
-Após a confirmação bem-sucedida, o sistema exibe:
-
-- Mensagem "Solicitação criada com sucesso!"
-- Informação "Sua solicitação foi registrada e está pronta para entrega"
-- Opções para:
-  - "Criar nova Solicitação"
-  - "Ir para a entrega"
-
-## Fluxo de Navegação
-
-Durante todo o processo, você pode:
-
-- **Avançar**: Clique em "Próximo" após completar cada etapa
-- **Retornar**: Clique em "Voltar" para revisar ou modificar etapas anteriores
-- **Acompanhar o progresso**: Os indicadores numerados no topo da página mostram sua posição no fluxo
-- **Identificar etapas concluídas**: Etapas completas são marcadas com um check (✓)
-
-## Considerações Importantes
-
-- **Integração com GHE**: Os EPIs disponíveis são determinados pelo Grupo Homogêneo de Exposição do colaborador
-- **Motivos customizados**: Os motivos de solicitação são configuráveis por empresa
-- **Disponibilidade de estoque**: Apenas EPIs com estoque disponível na unidade selecionada são apresentados
-- **Obrigatoriedade**: Todas as etapas devem ser completadas para finalizar a solicitação
-
-## Próximos Passos
-
-Após criar a solicitação, você pode:
-
-- **Criar nova solicitação**: Iniciar o processo novamente para outro colaborador
-- **Ir para a entrega**: Prosseguir para o processo de entrega dos EPIs solicitados
-
-Para compreensão detalhada de cada etapa, consulte:
-
-- [Selecionar Colaborador](broken-reference)
-- [Selecionar EPIs](broken-reference)
-- [Definir Motivos](definir-motivos.md)
+</details>

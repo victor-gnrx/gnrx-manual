@@ -1,5 +1,6 @@
 ---
-icon: hands-holding-circle
+description: "Veja as entregas que ainda esperam a assinatura do colaborador."
+icon: signature
 layout:
   width: default
   title:
@@ -20,97 +21,50 @@ layout:
     visible: true
 ---
 
-# Pendentes de Entrega
+# Ver as assinaturas pendentes
 
-## Introdução
+**Para que serve:** ver as entregas que ainda não foram assinadas e cobrar a assinatura.
 
-A interface de Itens Pendentes de Entrega permite visualizar e gerenciar todas as solicitações de Equipamentos de Proteção Individual (EPIs) que foram aprovadas, mas ainda não foram efetivamente entregues aos colaboradores. Esta ferramenta é fundamental para garantir que as solicitações sejam processadas de forma eficiente e que os trabalhadores recebam os equipamentos necessários em tempo hábil.
+{% hint style="info" %}
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de registrar entrega de EPIs.
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+## Antes de começar
 
-## Como Acessar
+* Nada a preparar.
 
-Para acessar a lista de solicitações pendentes de entrega:
+## Passo a passo
 
-1. Acesse o menu **Solicitações** na barra de navegação principal
-2. Selecione a opção **Entregas**
-3. O sistema exibirá automaticamente a listagem de todas as solicitações pendentes de entrega
+{% stepper %}
+{% step %}
+### Abra as pendências
 
-## Elementos da Interface
+Clique em **Solicitações › Entregas — Assinaturas Pendentes**. Ligue **Apenas não assinados** para ver só o que falta.
 
-A tela de Pendentes de Entrega apresenta os seguintes elementos principais:
+<figure><img src="../../.gitbook/assets/solicitacao-pendentes-01.png" alt="Tela Entregas — Assinaturas Pendentes com os filtros e a lista de entregas"><figcaption><p>Entregas — Assinaturas Pendentes</p></figcaption></figure>
+{% endstep %}
 
-- **Lista de solicitações**: Exibe todas as solicitações aprovadas aguardando entrega
-- **Filtros de pesquisa**: Permite localizar solicitações específicas
-- **Botões de ação**: Dá acesso às operações de entrega, edição ou cancelamento
-- **Indicadores de status**: Mostra visualmente a situação de cada solicitação
+{% step %}
+### Cobre a assinatura
 
-## Informações Exibidas por Solicitação
+Abra a entrega e colha a assinatura ou notifique o colaborador. Veja [Entregar e colher a assinatura](confirmar-entrega.md).
+{% endstep %}
+{% endstepper %}
 
-Cada solicitação na lista inclui:
+## Dúvidas comuns
 
-- **Número da solicitação**: Identificador único da solicitação
-- **Nome do colaborador**: Destinatário dos EPIs
-- **Data da solicitação**: Quando o pedido foi registrado
-- **Unidade/Setor**: Local de trabalho do colaborador
-- **Itens solicitados**: Lista resumida dos EPIs incluídos na solicitação
-- **Motivo**: Justificativa para a solicitação (ex: primeira solicitação, substituição, etc.)
-- **Status**: Situação atual no fluxo de aprovação e entrega
+<details>
 
-## Funcionalidades Principais
+<summary>Como levo a lista para uma reunião?</summary>
 
-### Filtros e Pesquisa
+Use **Exportar Itens Não Assinados**: **Exportar como PDF** ou **Exportar para Excel**, por colaborador, unidade e período.
 
-Para facilitar a localização de solicitações específicas:
+</details>
 
-- **Filtro por colaborador**: Busca pelo nome ou ID do destinatário
-- **Filtro por data**: Exibe solicitações de um período específico
-- **Filtro por unidade/setor**: Mostra apenas solicitações de determinada localidade
-- **Filtro por tipo de EPI**: Exibe solicitações que incluam um tipo específico de equipamento
-- **Pesquisa global**: Busca por qualquer texto em todos os campos da solicitação
+<details>
 
-### Ordenação
+<summary>O que significa "Em Trânsito"?</summary>
 
-Os resultados podem ser ordenados por:
+O item foi enviado e ainda não chegou ao colaborador.
 
-- Data da solicitação (mais recente/mais antiga)
-- Nome do colaborador (A-Z/Z-A)
-- Número da solicitação (crescente/decrescente)
-- Prioridade (alta/média/baixa)
-
-### Ações Disponíveis
-
-Para cada solicitação pendente, você pode:
-
-- **Efetuar Entrega**: Iniciar o processo de entrega dos EPIs ao colaborador
-- **Editar Solicitação**: Modificar detalhes antes da entrega (caso necessário)
-- **Visualizar Detalhes**: Acessar informações completas da solicitação
-- **Cancelar Solicitação**: Cancelar a solicitação caso não seja mais necessária
-- **Priorizar**: Alterar a prioridade de entrega de uma solicitação
-
-## Indicadores Visuais
-
-O sistema utiliza indicadores visuais para facilitar a identificação rápida:
-
-- **Cores de status**: Diferentes cores indicam o status da solicitação
-  - Verde: Pronta para entrega
-  - Amarelo: Aguardando disponibilidade de estoque
-  - Vermelho: Atrasada (data limite de entrega ultrapassada)
-- **Ícones de prioridade**: Indicam o nível de urgência da solicitação
-- **Badges**: Mostram informações complementares como "Novo colaborador" ou "Substituição urgente"
-
-## Gestão Eficiente de Entregas
-
-Para otimizar o processo de entrega:
-
-- **Agrupamento por colaborador**: Entregue todos os EPIs de um mesmo colaborador simultaneamente
-- **Agrupamento por setor**: Organize entregas por localidade para maior eficiência
-- **Priorização por data**: Atenda primeiro às solicitações mais antigas
-- **Priorização por tipo**: Dê preferência a EPIs essenciais para funções críticas
-
-## Próximos Passos
-
-A partir da lista de pendentes, você pode avançar para:
-
-- [Confirmar Entrega](confirmar-entrega.md) - Registrar a entrega física dos equipamentos
-- [Finalizar Entrega](broken-reference) - Concluir o processo com assinatura e documentação
+</details>
