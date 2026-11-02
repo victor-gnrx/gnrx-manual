@@ -47,7 +47,7 @@ Clique em **Turmas › Avaliações de eficácia**. A lista mostra **Colaborador
 {% step %}
 ### Avalie
 
-Abra a avaliação. Em **Avaliar eficácia**, escolha o resultado:
+Na linha do colaborador, clique em **Avaliar**. Em **Avaliar eficácia**, escolha o resultado:
 
 * **Eficaz:** aplica o que aprendeu;
 * **Parcialmente eficaz:** aplica em parte;
@@ -72,6 +72,14 @@ No **Não eficaz**, preencha a ação: **O quê** (ex.: reciclagem prática de N
 <summary>Apareceu "Nenhuma avaliação pendente".</summary>
 
 As novas aparecem na data prevista, depois da conclusão das turmas.
+
+</details>
+
+<details>
+
+<summary>Errei a avaliação. Como corrijo?</summary>
+
+Na linha do colaborador, o botão vira **Refazer**. Clique nele e registre de novo.
 
 </details>
 
