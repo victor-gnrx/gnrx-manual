@@ -68,6 +68,16 @@
 * [Assinar uma ata](atas/assinar-ata.md)
 * [Assinar a ata pelo aplicativo](atas/assinar-ata-pelo-app.md)
 * [Acompanhar a estabilidade da CIPA](estabilidade/acompanhar-estabilidade.md)
+* [Planejar a SIPAT](sipat/planejar-sipat.md)
+* [Registrar a presença na SIPAT](sipat/presenca-sipat.md)
+
+## Prevenção
+
+* [Abrir um levantamento do mapa de risco](mapa-risco/abrir-levantamento.md)
+* [Responder o mapa de risco pelo aplicativo](mapa-risco/responder-pelo-app.md)
+* [Publicar as regras de conduta](prevencao/regras-de-conduta.md)
+* [Tratar uma denúncia](denuncias/tratar-denuncia.md)
+* [Fazer uma denúncia](denuncias/fazer-denuncia.md)
 
 ## Planos de ação
 
