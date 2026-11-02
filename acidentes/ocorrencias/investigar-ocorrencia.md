@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Escolha o método e a equipe
 
-Na aba de investigação, em **Método e equipe**, escolha o método:
+Na aba **Investigação**, em **Método e equipe**, escolha o método:
 
 * **Causas e barreiras:** desvios e quase-acidentes, sem diagrama;
 * **5 porquês:** uma cadeia de causa e efeito até a causa raiz;

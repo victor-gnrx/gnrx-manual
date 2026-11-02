@@ -31,7 +31,7 @@ layout:
 
 ## Antes de começar
 
-* O plano é criado na aba **Plano de ação** de cada ocorrência. Clique em **Criar plano de ação** depois da investigação. É um plano por ocorrência.
+* O plano é criado na aba **Plano de ação** de cada ocorrência (abas: Resumo, Envolvidos e testemunhas, Fotos e anexos, Investigação, CAT, Plano de ação, Desdobramentos, Custos e Histórico). Clique em **Criar plano de ação** depois da investigação. É um plano por ocorrência.
 
 ## Passo a passo
 

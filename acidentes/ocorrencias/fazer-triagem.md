@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Abra a triagem
 
-Abra a ocorrência e comece a triagem.
+Abra a ocorrência e clique em **Triar**, no cabeçalho. Abre **Triagem de <protocolo>**.
 
 <figure><img src="../.gitbook/assets/ocorrencia-triagem-01.png" alt="Janela de triagem com Gravidade real, Gravidade potencial, Nível de investigação, Responsável e Prazo"><figcaption><p>Triagem</p></figcaption></figure>
 {% endstep %}
@@ -63,7 +63,7 @@ Clique em **Salvar triagem**. Aparece "Triagem registrada.".
 
 <summary>Errei a triagem.</summary>
 
-No cabeçalho da ocorrência, use **Refazer triagem**.
+No cabeçalho da ocorrência, o botão vira **Refazer triagem**.
 
 </details>
 

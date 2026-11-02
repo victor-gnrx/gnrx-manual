@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Abra os envolvidos
 
-Na ocorrência, abra **Envolvidos e testemunhas**.
+Na ocorrência, abra a aba **Envolvidos e testemunhas**.
 
 <figure><img src="../.gitbook/assets/ocorrencia-envolvidos-01.png" alt="Aba Envolvidos e testemunhas com a lista de envolvidos e as testemunhas"><figcaption><p>Envolvidos e testemunhas</p></figcaption></figure>
 {% endstep %}

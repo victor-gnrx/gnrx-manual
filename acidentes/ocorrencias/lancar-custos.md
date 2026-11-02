@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Abra os custos
 
-Na ocorrência, abra **Custo do acidente**. Os custos ficam em **Diretos · seguro**, **Indiretos · a empresa paga** e **Prevenção (plano de ação)**.
+Na ocorrência, abra a aba **Custos** (só aparece para quem vê custos). Abre **Custo do acidente**. Os custos ficam em **Diretos · seguro**, **Indiretos · a empresa paga** e **Prevenção (plano de ação)**.
 
 <figure><img src="../.gitbook/assets/ocorrencia-custos-01.png" alt="Aba Custo do acidente com os custos diretos, indiretos e de prevenção"><figcaption><p>Custo do acidente</p></figcaption></figure>
 {% endstep %}
@@ -67,8 +67,8 @@ Das configurações do módulo. Neste caso, você pode informar outro.
 
 <details>
 
-<summary>A categoria que preciso não existe.</summary>
+<summary>As categorias vêm de onde?</summary>
 
-Peça a quem cuida das configurações do módulo para cadastrar em **Configurações › Catálogos**.
+São uma lista do sistema.
 
 </details>

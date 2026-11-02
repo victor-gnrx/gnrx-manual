@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Abra os anexos
 
-Na ocorrência, abra **Fotos e anexos**. Arraste uma foto, vídeo ou PDF, ou clique para escolher.
+Na ocorrência, abra a aba **Fotos e anexos**. Arraste uma foto, vídeo ou PDF, ou clique para escolher.
 
 <figure><img src="../.gitbook/assets/ocorrencia-anexos-01.png" alt="Aba Fotos e anexos com a área para arrastar arquivos e a lista de anexos"><figcaption><p>Fotos e anexos</p></figcaption></figure>
 {% endstep %}

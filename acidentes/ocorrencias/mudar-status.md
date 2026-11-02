@@ -57,7 +57,7 @@ Clique em **Verificar eficácia** e registre. Aparece "Verificação de eficáci
 
 <summary>Como cancelo uma ocorrência?</summary>
 
-Clique em **Cancelar ocorrência**. Ela sai das listas de pendências. Não é possível cancelar com CAT já comunicada.
+Clique em **Cancelar ocorrência**. O sistema avisa: "A ocorrência sai das listas de pendências. Não é possível cancelar com CAT já comunicada."
 
 </details>
 
