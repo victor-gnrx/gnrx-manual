@@ -73,6 +73,6 @@ No curso, aparece **Fazer a reciclagem**. Toque para fazer de novo.
 
 <summary>O que é "Certificado externo"?</summary>
 
-É um certificado de fora, que a empresa cadastrou para você.
+É um certificado de outro lugar, que a empresa cadastrou para você.
 
 </details>
