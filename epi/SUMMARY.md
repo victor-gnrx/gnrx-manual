@@ -9,6 +9,27 @@
 
 * [Entrar no sistema](acesso/entrar-no-sistema.md)
 * [Recuperar a senha](acesso/esqueci-minha-senha.md)
+* [Conhecer a tela do GNRx](acesso/conhecendo-a-tela.md)
+* [Entender por que um módulo não abre](acesso/modulos-e-periodo-de-teste.md)
+* [Ver o seu perfil](acesso/meu-perfil.md)
+* [Configurar a verificação em duas etapas](acesso/verificacao-em-duas-etapas.md)
+
+## Minha Empresa
+
+* [Minha Empresa](minha-empresa/README.md)
+* [Alterar o logo da empresa](minha-empresa/dados-da-empresa.md)
+* [Consultar o plano](minha-empresa/meu-plano.md)
+* [Exigir a verificação em duas etapas](minha-empresa/exigir-verificacao.md)
+* [Cadastrar os e-mails do SESMT](minha-empresa/emails-sesmt.md)
+
+## Meus Parceiros
+
+* [Gerenciar os parceiros da empresa](parceiros/meus-parceiros.md)
+
+## Suporte
+
+* [Abrir um chamado de suporte](suporte/abrir-chamado.md)
+* [Acompanhar um chamado de suporte](suporte/acompanhar-chamado.md)
 
 ## Configurações Iniciais
 
