@@ -26,7 +26,7 @@ layout:
 **Para que serve:** pedir EPIs direto ao seu fornecedor parceiro, que atende a empresa pelo GNRx.
 
 {% hint style="info" %}
-**Quem pode fazer:** quem abre **Inventário › Solicitações de Parceiros**.
+**Quem pode fazer:** qualquer usuário com o módulo Gestão de EPIs.
 {% endhint %}
 
 ## Antes de começar
@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Crie a solicitação
 
-Clique em **Inventário › Solicitações de Parceiros** e em **Nova Solicitação**. Escolha os itens, as variações e as quantidades. Envie.
+Clique em **Inventário › Solicitações de Parceiros** e em **Nova Solicitação**. Abre **Nova Solicitação para Parceiro**. Escolha o parceiro, depois os itens (**Buscar item por nome ou CA...**) e as quantidades. Confira o **Resumo da Solicitação** e, se quiser, escreva as **Observações (Opcional)**. Envie. Aparece **Solicitação criada com sucesso!**.
 
 <figure><img src="../.gitbook/assets/parceiros-solicitacoes-01.png" alt="Lista Solicitações de Parceiros com o parceiro, o total de itens, o custo e o status"><figcaption><p>Solicitações de Parceiros</p></figcaption></figure>
 {% endstep %}
@@ -55,9 +55,9 @@ A lista mostra o **Parceiro**, o **Total Itens**, o **Custo Total** e o **Status
 
 <details>
 
-<summary>Como filtro?</summary>
+<summary>Apareceu "Este parceiro não possui itens com CA compatível".</summary>
 
-Use **Filtrar por status**.
+O parceiro não tem item com o CA que você usa. Escolha outro parceiro.
 
 </details>
 

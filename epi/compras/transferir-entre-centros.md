@@ -26,7 +26,7 @@ layout:
 **Para que serve:** pedir EPIs de um centro de estoque para outro (transferência entre unidades), e aprovar e processar a transferência.
 
 {% hint style="info" %}
-**Quem pode fazer:** para pedir, Supervisor, Gestor ou Administrador, com a permissão de criar solicitação de transferência. Para aprovar, rejeitar e processar: Gestor ou Administrador, com as permissões de aprovar, rejeitar e processar item de transferência.
+**Quem pode fazer:** Gestor ou Administrador, com a permissão de ver todas as solicitações de transferência (é ela que abre a tela), e as de aprovar, rejeitar e processar item de transferência.
 {% endhint %}
 
 ## Antes de começar
@@ -47,13 +47,13 @@ Clique em **Inventário › Solicitações de Transferência** e em **Nova Solic
 {% step %}
 ### Aprove cada item
 
-Abra a solicitação e aprove ou rejeite cada item. Aparece "Item aprovado com sucesso!" ou "Item rejeitado.".
+Abra a solicitação. Em cada item, clique em **Aprovar item** e em **Confirmar aprovação**. Ou clique em **Rejeitar item**, escreva o **Motivo da rejeição** (ex.: A obra já possui estoque suficiente.) e clique em **Confirmar rejeição**. Aparece "Item aprovado com sucesso!" ou "Item rejeitado.".
 {% endstep %}
 
 {% step %}
 ### Processe
 
-Processe o item aprovado. Aparece "Item processado! Estoque transferido com sucesso.".
+Clique em **Processar item**, escolha o **Centro de estoque de origem** e clique em **Confirmar processamento**. Aparece "Item processado! Estoque transferido com sucesso.".
 {% endstep %}
 {% endstepper %}
 
@@ -64,6 +64,14 @@ Processe o item aprovado. Aparece "Item processado! Estoque transferido com suce
 <summary>O centro fornecedor não tem o item.</summary>
 
 Use **Solicitar compra** no item. Ele fica **Aguardando Compra**. Para ligar uma compra que já existe, use **Vincular compra** e informe o **ID da solicitação de compra**.
+
+</details>
+
+<details>
+
+<summary>Sou Supervisor e não vejo a tela.</summary>
+
+A tela de transferências exige a permissão de ver todas as solicitações de transferência (Gestor e Administrador). Peça a um gestor.
 
 </details>
 

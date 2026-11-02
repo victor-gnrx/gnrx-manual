@@ -26,7 +26,7 @@ layout:
 **Para que serve:** cotar cada item com os fornecedores, escolher o orçamento e aprovar ou rejeitar a compra.
 
 {% hint style="info" %}
-**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de adicionar e aprovar orçamentos e a de aprovar solicitações de compra.
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com as permissões de orçar e de aprovar ou rejeitar solicitações de compra.
 {% endhint %}
 
 ## Antes de começar
@@ -47,13 +47,13 @@ Abra a solicitação. Em cada item, use **Adicionar orçamento**. Escolha uma **
 {% step %}
 ### Aprove o orçamento
 
-Escolha o orçamento de cada item e aprove. Aparece "Orçamento aprovado.".
+Em cada item, clique em **Aprovar** no orçamento escolhido. Aparece "Orçamento aprovado.".
 {% endstep %}
 
 {% step %}
 ### Aprove a solicitação
 
-Aprove ou rejeite a solicitação. Aparece "Solicitação aprovada com sucesso!" ou "Solicitação rejeitada com sucesso!". Se a empresa usa [fluxo de aprovação](../fluxos-aprovacao/decidir-aprovacao.md), a decisão é pelo fluxo.
+Clique em **Aprovar Solicitação** ou em **Rejeitar Solicitação** (com o motivo, de pelo menos 3 caracteres). Aparece "Solicitação aprovada com sucesso!" ou "Solicitação rejeitada com sucesso!". Se a empresa usa [fluxo de aprovação](../fluxos-aprovacao/decidir-aprovacao.md), a decisão é pelo fluxo.
 {% endstep %}
 {% endstepper %}
 

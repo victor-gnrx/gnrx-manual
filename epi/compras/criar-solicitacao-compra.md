@@ -26,7 +26,7 @@ layout:
 **Para que serve:** pedir a compra de EPIs e produtos, para repor o estoque.
 
 {% hint style="info" %}
-**Quem pode fazer:** todas as roles, com a permissão de criar solicitações de compra.
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de ver todas as solicitações de compra (é ela que abre a tela).
 {% endhint %}
 
 ## Antes de começar
@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Escolha o centro de estoque
 
-Clique em **Inventário › Solicitações de Compra** e crie uma nova. Em **Selecione o Centro de Estoque (Opcional)**, escolha o centro ou **Global**.
+Clique em **Inventário › Solicitações de Compra** e em **Nova Solicitação**. Abre **Nova Solicitação de Compra**. Em **Selecione o Centro de Estoque (Opcional)**, escolha o centro ou **Global**.
 
 <figure><img src="../.gitbook/assets/compras-nova-01.png" alt="Nova Solicitação - Compra com a escolha do centro de estoque"><figcaption><p>Nova Solicitação - Compra</p></figcaption></figure>
 {% endstep %}
@@ -65,6 +65,14 @@ Confira o **Resumo da Solicitação**. Se quiser, escreva as **Observações Adi
 | "Nenhum item disponível" | Cadastre itens no inventário para solicitar compras. |
 
 ## Dúvidas comuns
+
+<details>
+
+<summary>Sou Operador e não vejo a tela.</summary>
+
+A tela de compras exige a permissão de ver todas as solicitações de compra. Peça a compra a um supervisor.
+
+</details>
 
 <details>
 
