@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Abra o usuário
 
-Clique em **Estruturas › Usuários** e depois no usuário.
+Clique em **Estruturas › Usuários**. Na coluna **Ações** do usuário, clique no ícone de olho.
 {% endstep %}
 
 {% step %}
@@ -53,7 +53,7 @@ No cartão **Permissões de Módulos**, clique em **Editar**. Ligue ou desligue 
 {% step %}
 ### Salve
 
-Clique em **Salvar**.
+Clique em **Salvar**. Aparece **Permissões atualizadas com sucesso!**.
 {% endstep %}
 {% endstepper %}
 

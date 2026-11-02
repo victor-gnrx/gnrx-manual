@@ -87,7 +87,7 @@ Marque sempre pelo menos uma unidade. Sem unidade, a pessoa não vê os registro
 
 Em **Módulos de Acesso**, ligue os módulos que a pessoa vai usar: Formulários, Auditorias, Gestão de EPIs, Gestão de Treinamentos, Gestão de Documentos, Gestão de CIPA ou Gestão de Acidentes.
 
-Salve. Aparece **Usuário criado com sucesso**.
+Clique em **Criar usuário**. Aparece **Usuário criado com sucesso**.
 
 <figure><img src="../../.gitbook/assets/usuarios-criar-05.png" alt="Seção Módulos de Acesso com alguns módulos ligados"><figcaption><p>Módulos de acesso</p></figcaption></figure>
 {% endstep %}
@@ -100,7 +100,7 @@ Salve. Aparece **Usuário criado com sucesso**.
 {% endhint %}
 
 {% hint style="warning" %}
-**"Acesso Negado: Você não tem permissão para acessar esta página"**: você não pode ver usuários. Peça a um Administrador.
+**"Acesso Negado: Você não tem permissão para acessar esta página"**: você não tem a permissão de ver usuários. Peça a um Administrador.
 {% endhint %}
 
 ## Dúvidas comuns

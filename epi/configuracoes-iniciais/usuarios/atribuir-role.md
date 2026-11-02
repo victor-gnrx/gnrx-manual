@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Abra o usuário
 
-Clique em **Estruturas › Usuários** e depois no usuário.
+Clique em **Estruturas › Usuários**. Na coluna **Ações** do usuário, clique no ícone de olho.
 {% endstep %}
 
 {% step %}
