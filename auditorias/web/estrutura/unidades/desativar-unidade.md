@@ -1,4 +1,6 @@
 ---
+description: Tire da lista uma unidade que não existe mais.
+icon: ban
 layout:
   width: default
   title:
@@ -19,5 +21,4 @@ layout:
     visible: true
 ---
 
-# Unidades
-
+{% include "../../../../epi/configuracoes-iniciais/unidades/desativar-unidade.md" %}

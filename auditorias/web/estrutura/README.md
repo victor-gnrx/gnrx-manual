@@ -34,8 +34,8 @@ O sistema é organizado em três componentes estruturais básicos:
 | Componente   | Descrição                                                     | Documentação Detalhada           |
 | ------------ | ------------------------------------------------------------- | -------------------------------- |
 | **Usuários** | Gerencia os usuários que podem realizar e gerenciar inspeções | [Manual de Usuários](usuarios/README.md) |
-| **Unidades** | Configura os locais onde são realizadas as inspeções          | [Manual de Unidades](unidade.md) |
-| **Setores**  | Define as áreas específicas dentro de cada unidade            | [Manual de Setores](setor.md)    |
+| **Unidades** | Configura os locais onde são realizadas as inspeções          | [Manual de Unidades](unidades/README.md) |
+| **Setores**  | Define as áreas específicas dentro de cada unidade            | [Manual de Setores](setores/README.md)    |
 
 ## Visão Geral
 
@@ -61,7 +61,7 @@ Administra os locais físicos onde as inspeções são realizadas, como filiais,
 * Configuração de parâmetros específicos por unidade
 * Vinculação com setores correspondentes
 
-Para instruções detalhadas sobre gerenciamento de unidades, consulte o [Manual de Unidades](unidade.md).
+Para instruções detalhadas sobre gerenciamento de unidades, consulte o [Manual de Unidades](unidades/README.md).
 
 ### Setores
 
@@ -73,7 +73,7 @@ Configura as áreas específicas dentro de cada unidade, permitindo organizaçã
 * Vinculação de setores às respectivas unidades
 * Designação de inspeções por setor específico
 
-Para instruções detalhadas sobre gerenciamento de setores, consulte o [Manual de Setores](setor.md).
+Para instruções detalhadas sobre gerenciamento de setores, consulte o [Manual de Setores](setores/README.md).
 
 ## Relação entre Componentes
 

@@ -1,5 +1,6 @@
 ---
-icon: warehouse-full
+description: Corrija o nome ou a descrição de um setor.
+icon: pen
 layout:
   width: default
   title:
@@ -20,98 +21,50 @@ layout:
     visible: true
 ---
 
-# Editar Setor
+# Editar um setor
 
-Esta página explica como modificar as informações de um setor existente no Sistema GNRX Gestão de EPI.
+**Para que serve:** corrigir o nome ou a descrição de um setor.
 
-## Visão Geral
+{% hint style="info" %}
+**Quem pode fazer:** Gestor ou Administrador, com a permissão de editar setores.
+{% endhint %}
 
-A edição de setores permite atualizar informações cadastrais e descrições para manter a estrutura organizacional sempre atualizada no sistema.
+## Antes de começar
 
-## Acessando a Tela de Edição
+* O setor precisa estar ativo.
 
-Existem duas formas de acessar a edição de um setor:
+## Passo a passo
 
-### Opção 1: A partir da Lista de Setores
+{% stepper %}
+{% step %}
+### Abra a edição
 
-1. No menu lateral, clique em **Estruturas**
-2. Selecione **Setores**
-3. Na lista de setores, localize o setor desejado
-4. Clique no ícone de **Editar** (símbolo de lápis) na coluna de ações
+Clique em **Estruturas › Setores**. Na coluna **Ações**, clique no ícone de lápis. Abre a janela **Atualizar Setor**.
 
-![Editar via Lista](<../../.gitbook/assets/image (10) (1) (1).png>)
+<figure><img src="../../.gitbook/assets/setores-editar-01.png" alt="Janela Atualizar Setor com os campos Nome e Descrição"><figcaption><p>Janela Atualizar Setor</p></figcaption></figure>
+{% endstep %}
 
-## Interface de Edição
+{% step %}
+### Corrija e salve
 
-A tela de edição apresenta um modal com o formulário preenchido com os dados atuais do setor:
+Altere o que precisar e clique em **Salvar**. Aparece "Atualizado com sucesso!".
+{% endstep %}
+{% endstepper %}
 
-![Formulário de Edição](<../../.gitbook/assets/image (9) (1).png>)
+## Dúvidas comuns
 
-### Campos Editáveis
+<details>
 
-| Campo         | Descrição              | Considerações ao Editar                                        |
-| ------------- | ---------------------- | -------------------------------------------------------------- |
-| **Nome**      | Nome do setor          | A alteração afetará todas as referências ao setor no sistema   |
-| **Descrição** | Informações adicionais | Campo opcional, pode ser usado para detalhar a função do setor |
+<summary>A mudança vale nas outras unidades?</summary>
 
-## Processo de Edição
+Sim. O setor é um só, mesmo que esteja em várias unidades.
 
-1. Modifique os campos necessários
-2. Verifique cuidadosamente as alterações, especialmente no nome do setor
-3. Clique no botão **Salvar** para confirmar as modificações
-4. O sistema exibirá uma mensagem de confirmação após a atualização bem-sucedida
+</details>
 
-![Confirmação de Atualização](<../../.gitbook/assets/image (12) (1).png>)
+<details>
 
-## Impacto das Alterações
+<summary>Os limites de texto são os mesmos da criação?</summary>
 
-A edição de um setor pode ter os seguintes impactos no sistema:
+Sim: nome até 128 caracteres e descrição até 255.
 
-- Alterações no nome afetam todos os relatórios e listagens
-- Modificações são refletidas em todas as unidades onde o setor está presente
-- As atualizações são imediatamente visíveis para todos os usuários do sistema
-- Histórico de entregas de EPIs mantém a associação com o setor, mesmo após a edição
-
-## Limitações e Restrições
-
-Algumas limitações se aplicam à edição de setores:
-
-- Não é possível alterar o ID do setor
-- Se o setor possui colaboradores vinculados, a alteração de nome pode gerar confusão
-- Não é possível mesclar dois setores através da edição - para isso, crie um novo setor e reatribua os colaboradores
-
-## Visibilidade das Alterações
-
-Após editar um setor:
-
-- O novo nome é imediatamente exibido em todas as listas e relatórios
-- Os colaboradores vinculados permanecem associados ao setor
-- Os GHEs relacionados mantêm sua configuração
-- O histórico de modificações é registrado para auditoria
-
-## Melhores Práticas
-
-Para uma edição eficiente de setores:
-
-- Mantenha a consistência na nomenclatura, mesmo após alterações
-- Comunique mudanças significativas aos usuários do sistema
-- Documente o motivo das alterações importantes
-- Evite mudanças frequentes na estrutura organizacional para não confundir os usuários
-- Considere o impacto das alterações nos relatórios históricos
-
-## Casos de Uso Comuns
-
-Situações típicas para edição de setores incluem:
-
-- Correção de erros ortográficos ou formatação
-- Atualização para refletir mudanças na estrutura organizacional
-- Melhoria na descrição para incluir informações mais detalhadas
-- Padronização de nomenclatura em toda a empresa
-
-## Próximos Passos
-
-Após editar um setor, considere:
-
-- Verificar se a edição está refletida corretamente nas diferentes unidades
-- Revisar os [colaboradores vinculados](../colaboradores/listar-colaboradores.md) ao setor
-- Informar as equipes de gestão sobre as mudanças realizadas
+</details>
