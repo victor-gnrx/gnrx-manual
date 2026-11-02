@@ -65,6 +65,8 @@
 * [Registrar a presença](turmas/registrar-presenca.md)
 * [Concluir a turma](turmas/concluir-turma.md)
 * [Ajustar a turma](turmas/ajustar-turma.md)
+* [Acompanhar uma turma EAD](turmas/acompanhar-ead.md)
+* [Ver a reação dos participantes](turmas/reacao.md)
 * [Montar o plano anual](turmas/plano-anual.md)
 * [Avaliar a eficácia](turmas/avaliar-eficacia.md)
 * [Portal do aluno](portal-do-aluno/README.md)
