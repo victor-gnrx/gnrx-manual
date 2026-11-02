@@ -26,7 +26,7 @@ layout:
 **Para que serve:** ver os membros do mandato, definir os cargos, incluir os indicados pela organização e acompanhar o treinamento da CIPA.
 
 {% hint style="info" %}
-**Quem pode fazer:** todas as roles veem o mandato. Para mudar membros, cargos e treinamento: Gestor ou Administrador, com a permissão de gerenciar membros, cargos, calendário e treinamento da CIPA.
+**Quem pode fazer:** todas as roles veem o mandato. Para incluir indicados, editar e registrar saída: Gestor ou Administrador, com a permissão de gerenciar membros, cargos, calendário e treinamento da CIPA. Gerar a turma exige também a permissão de criar treinamentos, no módulo Treinamentos.
 {% endhint %}
 
 ## Antes de começar

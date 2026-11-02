@@ -26,7 +26,7 @@ layout:
 **Para que serve:** ver quem tem garantia de emprego pela CIPA e conferir desligamentos. Quem se inscreve tem garantia até a eleição; quem é eleito, até 1 ano depois do fim do mandato.
 
 {% hint style="info" %}
-**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de ver a estabilidade de candidatos e eleitos.
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de ver a estabilidade de candidatos e eleitos (ela permite também resolver os alertas).
 {% endhint %}
 
 ## Antes de começar

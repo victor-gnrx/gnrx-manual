@@ -26,7 +26,7 @@ layout:
 **Para que serve:** escrever a ata, colher as assinaturas e publicar no mural do app. A ata assinada fica imutável e tem código de autenticidade.
 
 {% hint style="info" %}
-**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de gerenciar reuniões, presença e atas da CIPA.
+**Quem pode fazer:** para escrever, enviar, colher a assinatura no painel e publicar: Supervisor, Gestor ou Administrador, com a permissão de gerenciar reuniões, presença e atas. Para ver e baixar o PDF: a permissão de ver mandatos. Os membros também assinam pelo aplicativo.
 {% endhint %}
 
 ## Antes de começar
@@ -53,7 +53,7 @@ Em **Quem assina**, confira os signatários sugeridos e inclua os que faltam. Cl
 {% step %}
 ### Colha as assinaturas
 
-Os signatários assinam. Para quem está com você, use **Colher assinatura aqui**. Quando todas as obrigatórias forem colhidas, aparece "Ata assinada por todos. O PDF foi gerado.".
+Os signatários assinam pelo aplicativo (veja [Assinar a ata pelo aplicativo](assinar-ata-pelo-app.md)). Para quem está com você, use **Colher assinatura aqui**. Quando todas as obrigatórias forem colhidas, aparece "Ata assinada por todos. O PDF foi gerado.".
 {% endstep %}
 
 {% step %}

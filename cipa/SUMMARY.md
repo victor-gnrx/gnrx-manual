@@ -66,6 +66,7 @@
 * [Acompanhar o mandato](mandatos/acompanhar-mandato.md)
 * [Conduzir as reuniões da CIPA](mandatos/agendar-reuniao.md)
 * [Assinar uma ata](atas/assinar-ata.md)
+* [Assinar a ata pelo aplicativo](atas/assinar-ata-pelo-app.md)
 * [Acompanhar a estabilidade da CIPA](estabilidade/acompanhar-estabilidade.md)
 
 ## Planos de ação

@@ -26,7 +26,7 @@ layout:
 **Para que serve:** agendar as reuniões do mandato, registrar a presença e criar a ata.
 
 {% hint style="info" %}
-**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de gerenciar reuniões, presença e atas da CIPA.
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de gerenciar reuniões, presença e atas. Refazer o calendário exige a permissão de gerenciar o mandato (Gestor e Administrador).
 {% endhint %}
 
 ## Antes de começar
@@ -59,7 +59,7 @@ Na **Lista de presença**, marque **Presente** ou **Remoto**. Para convidados, u
 {% step %}
 ### Crie a ata
 
-Clique em **Criar ata**. Veja [Assinar uma ata](../atas/assinar-ata.md). Para registrar uma ação, use **Nova ação da reunião**.
+Clique em **Criar ata**. Veja [Assinar uma ata](../atas/assinar-ata.md). Para registrar uma ação, use **Nova ação da reunião**: ela cria um plano de ação ligado ao mandato e à reunião. Veja [Acompanhar um plano de ação](../planos-acao/acompanhar-plano.md).
 {% endstep %}
 {% endstepper %}
 
@@ -77,6 +77,6 @@ Clique em **Cancelar reunião**. Aparece "Reunião cancelada.".
 
 <summary>Para onde vão as ações da reunião?</summary>
 
-Para o plano de ação do mandato, na aba **Plano de ação**.
+Cada uma vira um plano de ação ligado ao mandato e à reunião, na aba **Plano de ação** do mandato. Criar exige a permissão de criar plano de ação da CIPA.
 
 </details>
