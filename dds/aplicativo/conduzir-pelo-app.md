@@ -26,7 +26,7 @@ layout:
 **Para que serve:** abrir o DDS da equipe pelo celular, registrar quem esteve e concluir, mesmo sem internet.
 
 {% hint style="info" %}
-**Quem pode fazer:** o líder da equipe ou quem foi indicado como condutor numa agenda, no **aplicativo GNRx Colaborador**.
+**Quem pode fazer:** no **aplicativo GNRx Colaborador**, o **líder** (colaborador que é supervisor de pelo menos um colaborador ativo) abre e conduz o DDS. O **condutor** (indicado no painel, numa agenda ou num DDS programado) conduz os DDS em que foi indicado, mas não abre DDS novo.
 {% endhint %}
 
 ## Antes de começar
@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Abra o DDS
 
-No **Início** do aplicativo, toque em **DDS da equipe** (líder) ou **DDS para conduzir** (condutor indicado numa agenda). Se ainda não há DDS hoje, toque em **Começar DDS**.
+No **Início** do aplicativo, toque em **DDS da equipe** (líder) ou **DDS para conduzir** (condutor). Se ainda não há DDS hoje, toque em **Começar DDS**.
 
 <figure><img src="../.gitbook/assets/app-dds-01.png" alt="Aplicativo com o cartão DDS da equipe e o botão Começar DDS"><figcaption><p>DDS da equipe</p></figcaption></figure>
 {% endstep %}
@@ -73,6 +73,8 @@ Toque em **Concluir DDS** e em **Concluir**. Aparece "DDS concluído.". Depois d
 | "O reconhecimento precisa de internet." / "O QR precisa de internet." | Conecte o celular ou marque a presença de outro jeito. |
 | "Não foi possível reconhecer." | Fotografe de novo, com o rosto inteiro na tela. |
 | "Escolha o tema do DDS." | Escolha ou escreva o tema. |
+| "Só quem lidera uma equipe abre DDS pelo app." | Peça ao líder da equipe ou ao RH. O vínculo de supervisor vem do cadastro no EPI. |
+| "Escolha uma unidade sua ou da sua equipe." | Troque a unidade. |
 
 ## Dúvidas comuns
 
@@ -81,6 +83,14 @@ Toque em **Concluir DDS** e em **Concluir**. Aparece "DDS concluído.". Depois d
 <summary>O DDS não aconteceu.</summary>
 
 Toque em **Não foi realizado**, escreva a **Justificativa** e confirme. O DDS sai da lista de hoje e não conta presença.
+
+</details>
+
+<details>
+
+<summary>Quem é o líder?</summary>
+
+O colaborador que é supervisor de pelo menos um colaborador ativo. Esse vínculo vem do cadastro de supervisor no EPI ou da importação de supervisores.
 
 </details>
 
