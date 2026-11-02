@@ -40,7 +40,7 @@ layout:
 {% step %}
 ### Abra as roles
 
-Dentro de qualquer módulo, clique em **Configurações › Roles**. Clique em **Nova Role**.
+Dentro de qualquer módulo, clique em **Configurações › Roles**. Clique em **Nova Role**. Abre a janela **Criar Nova Role**.
 
 <figure><img src="../../.gitbook/assets/usuarios-criar-role-01.png" alt="Tela de roles com o botão Nova Role"><figcaption><p>Botão Nova Role</p></figcaption></figure>
 {% endstep %}
@@ -64,7 +64,7 @@ Clique em **De outra role**, escolha a role e marque **Adicionar às atuais**. C
 {% step %}
 ### Ajuste e salve
 
-Use **Buscar permissões...** para achar o que quer ligar ou desligar. Confira o **Resumo** e salve. Aparece **Role criada com sucesso!**.
+Use **Buscar permissões...** para achar o que quer ligar ou desligar. Confira o **Resumo** e clique em **Criar Role**. Aparece **Role criada com sucesso!**.
 
 <figure><img src="../../.gitbook/assets/usuarios-criar-role-04.png" alt="Lista de permissões filtrada pela busca e o Resumo da role"><figcaption><p>Permissões e Resumo</p></figcaption></figure>
 {% endstep %}
@@ -86,7 +86,7 @@ Depois, [atribua a role](atribuir-role.md) aos usuários.
 
 <summary>Para que serve o Colar?</summary>
 
-Numa role, clique em **Copiar permissões**. Depois, na role nova, clique em **Colar**.
+Na lista de roles, clique no ícone **Copiar permissões** da role. Depois, na **Nova Role** ou no detalhe de outra role, clique em **Colar**. Funciona também entre abas do navegador e entre empresas.
 
 </details>
 

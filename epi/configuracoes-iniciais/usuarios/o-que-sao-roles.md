@@ -26,7 +26,7 @@ layout:
 **Para que serve:** saber o que cada role pode fazer, para escolher a certa para cada pessoa.
 
 {% hint style="info" %}
-**Quem pode fazer:** qualquer pessoa pode ler esta página. Para ver as roles no sistema, você precisa ser Administrador.
+**Quem pode fazer:** qualquer pessoa pode ler esta página. Para ver as roles no sistema, você precisa da permissão de ver roles (Administrador).
 {% endhint %}
 
 ## Antes de começar

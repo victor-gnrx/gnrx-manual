@@ -47,7 +47,7 @@ Clique em **Estruturas › Usuários**. Para achar alguém já inativo, use o fi
 {% step %}
 ### Inative
 
-Na coluna **Ações**, escolha inativar. Aparece o aviso: "Esta ação irá inativar o usuário. Ele não poderá mais acessar o sistema até ser reativado."
+Na coluna **Ações** do usuário, clique no ícone de lixeira. Abre a janela **Inativar usuário**, com o aviso: "Esta ação irá inativar o usuário. Ele não poderá mais acessar o sistema até ser reativado."
 
 <figure><img src="../../.gitbook/assets/usuarios-inativar-02.png" alt="Janela de confirmação da inativação do usuário"><figcaption><p>Confirmação da inativação</p></figcaption></figure>
 {% endstep %}
@@ -55,7 +55,9 @@ Na coluna **Ações**, escolha inativar. Aparece o aviso: "Esta ação irá inat
 {% step %}
 ### Confirme
 
-Confirme. Aparece **Usuário inativado**. Para reativar, faça o mesmo caminho.
+Clique em **Confirmar**. Aparece **Usuário inativado**.
+
+Para reativar, ache o usuário com o filtro **Inativo**. No lugar da lixeira aparece o ícone de reativar. Clique nele e confirme na janela **Reativar usuário**.
 {% endstep %}
 {% endstepper %}
 

@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Abra o usuário
 
-Clique em **Estruturas › Usuários** e depois no usuário.
+Clique em **Estruturas › Usuários**. Na coluna **Ações** do usuário, clique no ícone de olho.
 
 <figure><img src="../../.gitbook/assets/usuarios-unidades-01.png" alt="Detalhe do usuário com o cartão Unidades de Trabalho destacado"><figcaption><p>Cartão Unidades de Trabalho</p></figcaption></figure>
 {% endstep %}

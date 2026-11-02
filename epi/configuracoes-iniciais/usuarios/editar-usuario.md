@@ -45,17 +45,9 @@ Clique em **Estruturas › Usuários**. Digite em **Pesquisar usuários...** o n
 {% endstep %}
 
 {% step %}
-### Abra o usuário
-
-Clique no usuário na lista. Abre o detalhe, com os cartões **Informações do Usuário**, **Alterar Senha**, **Unidades de Trabalho**, **Permissões de Módulos** e **Roles Atribuídas**.
-
-<figure><img src="../../.gitbook/assets/usuarios-editar-02.png" alt="Detalhe do usuário com os cartões Informações do Usuário, Alterar Senha, Unidades de Trabalho, Permissões de Módulos e Roles Atribuídas"><figcaption><p>Detalhe do usuário</p></figcaption></figure>
-{% endstep %}
-
-{% step %}
 ### Corrija os dados
 
-No cartão **Informações do Usuário**, abra a edição. Na janela **Atualizar usuário do sistema**, corrija o que precisar e salve. Aparece **Atualizado com sucesso!**.
+Na coluna **Ações** do usuário, clique no ícone de lápis. Na janela **Atualizar usuário do sistema**, corrija o que precisar e salve. Aparece **Atualizado com sucesso!**.
 
 <figure><img src="../../.gitbook/assets/usuarios-editar-03.png" alt="Janela Atualizar usuário do sistema com os dados do usuário"><figcaption><p>Janela Atualizar usuário do sistema</p></figcaption></figure>
 {% endstep %}
@@ -63,11 +55,15 @@ No cartão **Informações do Usuário**, abra a edição. Na janela **Atualizar
 {% step %}
 ### Troque a senha (se precisar)
 
-No cartão **Alterar Senha**, digite a nova senha e salve. Aparece **Senha alterada com sucesso!**.
+Na coluna **Ações**, clique no ícone de olho para abrir o detalhe do usuário. No topo, clique em **Alterar Senha**.
+
+<figure><img src="../../.gitbook/assets/usuarios-editar-02.png" alt="Detalhe do usuário com o botão Alterar Senha no topo e os cartões Informações do Usuário, Unidades de Trabalho, Permissões de Módulos e Roles Atribuídas"><figcaption><p>Detalhe do usuário e botão Alterar Senha</p></figcaption></figure>
+
+Na janela **Alterar Senha**, digite a nova senha e clique em **Salvar**. Aparece **Senha alterada com sucesso!**.
 
 A senha precisa ter no mínimo 8 caracteres, com letra maiúscula, letra minúscula e número.
 
-<figure><img src="../../.gitbook/assets/usuarios-editar-04.png" alt="Cartão Alterar Senha preenchido"><figcaption><p>Cartão Alterar Senha</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/usuarios-editar-04.png" alt="Janela Alterar Senha preenchida, com os botões Cancelar e Salvar"><figcaption><p>Janela Alterar Senha</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
