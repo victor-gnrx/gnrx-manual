@@ -33,7 +33,15 @@ layout:
 
 * Confira se o setor é mesmo o certo. Use a [busca](listar-setores.md).
 
+## O que acontece ao inativar
+
+Só o setor fica inativo. Os colaboradores e os vínculos continuam como estão.
+
 ## Passo a passo
+
+{% hint style="warning" %}
+Atenção: depois de inativar, não dá para reativar pelo sistema. Se inativou por engano, abra um [chamado no Suporte](../../suporte/abrir-chamado.md).
+{% endhint %}
 
 {% stepper %}
 {% step %}
