@@ -26,7 +26,7 @@ layout:
 **Para que serve:** abrir o DDS da equipe pelo celular, registrar quem esteve e concluir, mesmo sem internet.
 
 {% hint style="info" %}
-**Quem pode fazer:** o líder ou o condutor do DDS, no **aplicativo GNRx Colaborador**.
+**Quem pode fazer:** o líder da equipe ou quem foi indicado como condutor numa agenda, no **aplicativo GNRx Colaborador**.
 {% endhint %}
 
 ## Antes de começar
@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Abra o DDS
 
-No **Início** do aplicativo, toque em **DDS da equipe** (ou **DDS para conduzir**). Se ainda não há DDS hoje, toque em **Começar DDS**.
+No **Início** do aplicativo, toque em **DDS da equipe** (líder) ou **DDS para conduzir** (condutor indicado numa agenda). Se ainda não há DDS hoje, toque em **Começar DDS**.
 
 <figure><img src="../.gitbook/assets/app-dds-01.png" alt="Aplicativo com o cartão DDS da equipe e o botão Começar DDS"><figcaption><p>DDS da equipe</p></figcaption></figure>
 {% endstep %}

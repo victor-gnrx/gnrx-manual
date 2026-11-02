@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Clique em Lançar DDS
 
-Clique em **DDS realizados** e depois em **Lançar DDS**. Em **Como lançar**, escolha **Começar agora**, programar para depois ou **Feito no papel**.
+Clique em **DDS realizados** e depois em **Lançar DDS**. Em **Como lançar**, escolha **Programar**, **Começar agora** ou **Feito no papel**.
 
 <figure><img src="../.gitbook/assets/dds-lancar-01.png" alt="Janela Lançar DDS com Como lançar, unidade, Quem participa, tema e Exigir assinatura"><figcaption><p>Lançar DDS</p></figcaption></figure>
 {% endstep %}
