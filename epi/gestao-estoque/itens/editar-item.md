@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Abra a edição
 
-Na lista, em **Opções**, abra a edição do item.
+Na lista, clique no ícone de lápis, na coluna **Opções**. Abre a edição de EPI ou de Produto, conforme o item.
 
 <figure><img src="../../.gitbook/assets/inventario-editar-01.png" alt="Janela de edição do item com os dados preenchidos"><figcaption><p>Editar item</p></figcaption></figure>
 {% endstep %}

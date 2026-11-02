@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Abra a variante
 
-No item, no cartão de variantes, abra a edição da variante.
+No item, no cartão de variantes, clique em **Adicionar valores**.
 
 <figure><img src="../../.gitbook/assets/inventario-variante-02.png" alt="Janela de edição da variante com os valores e o campo para adicionar"><figcaption><p>Editar variante</p></figcaption></figure>
 {% endstep %}
@@ -47,7 +47,7 @@ No item, no cartão de variantes, abra a edição da variante.
 {% step %}
 ### Adicione e salve
 
-Digite os valores novos e salve. Aparece "Valores adicionados com sucesso!".
+Digite os valores novos e clique em **Salvar**. Aparece "Valores adicionados com sucesso!".
 {% endstep %}
 {% endstepper %}
 
@@ -62,9 +62,9 @@ Digite os valores novos e salve. Aparece "Valores adicionados com sucesso!".
 
 <details>
 
-<summary>Posso apagar um valor usado?</summary>
+<summary>Como apago um valor ou a variante?</summary>
 
-Confira o estoque daquela combinação antes.
+Use o ícone de lixeira ao lado do valor (**Excluir Valor**) ou da variante (**Excluir Variante**) e confirme. Não é possível excluir um valor que já esteja em uso (estoque, kit, estoque mínimo ou alguma solicitação registrada); esse bloqueio é definitivo.
 
 </details>
 
