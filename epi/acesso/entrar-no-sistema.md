@@ -42,7 +42,7 @@ layout:
 
 Abra o GNRx no navegador. A tela mostra **Acesse sua conta**.
 
-<figure><img src=".gitbook/assets/login-01-tela.png" alt="Tela de login do GNRx com o título Acesse sua conta e as abas Usuário e Empresa"><figcaption><p>Tela de login</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/login-01-tela.png" alt="Tela de login do GNRx com o título Acesse sua conta e as abas Usuário e Empresa"><figcaption><p>Tela de login</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -50,13 +50,13 @@ Abra o GNRx no navegador. A tela mostra **Acesse sua conta**.
 
 Na aba **Usuário**, digite o seu usuário ou CPF no campo **Usuário**, depois a **Senha**. Clique em **Entrar**.
 
-<figure><img src=".gitbook/assets/login-02-aba-usuario-preenchida.png" alt="Aba Usuário com os campos Usuário e Senha preenchidos e o botão Entrar"><figcaption><p>Aba Usuário preenchida</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/login-02-aba-usuario-preenchida.png" alt="Aba Usuário com os campos Usuário e Senha preenchidos e o botão Entrar"><figcaption><p>Aba Usuário preenchida</p></figcaption></figure>
 
 {% hint style="info" %}
 **Acesso da empresa:** na aba **Empresa**, digite o **CNPJ** e a **Senha** da empresa. Esse acesso vê tudo da empresa.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/login-03-aba-empresa.png" alt="Aba Empresa com os campos CNPJ e Senha"><figcaption><p>Aba Empresa</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/login-03-aba-empresa.png" alt="Aba Empresa com os campos CNPJ e Senha"><figcaption><p>Aba Empresa</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -64,7 +64,7 @@ Na aba **Usuário**, digite o seu usuário ou CPF no campo **Usuário**, depois 
 
 Se aparecer **Verificação em duas etapas**, digite os 6 dígitos que chegaram no seu e-mail ou que aparecem no seu aplicativo autenticador. O sistema envia sozinho ao completar.
 
-<figure><img src=".gitbook/assets/login-04-mfa.png" alt="Tela Verificação em duas etapas com seis campos para o código"><figcaption><p>Verificação em duas etapas</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/login-04-mfa.png" alt="Tela Verificação em duas etapas com seis campos para o código"><figcaption><p>Verificação em duas etapas</p></figcaption></figure>
 
 Você pode cadastrar o e-mail, o aplicativo autenticador ou os dois.
 
@@ -77,49 +77,24 @@ Você pode cadastrar o e-mail, o aplicativo autenticador ou os dois.
 
 O GNRx abre o painel do primeiro módulo que a sua empresa contratou.
 
-<figure><img src=".gitbook/assets/login-05-painel-apos-login.png" alt="Painel do módulo aberto logo após o login"><figcaption><p>Painel após o login</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/login-05-painel-apos-login.png" alt="Painel do módulo aberto logo após o login"><figcaption><p>Painel após o login</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
 ## Deu errado?
 
-{% hint style="warning" %}
-**"Por favor, verifique seu login e senha."**: o usuário, CPF, CNPJ ou a senha estão errados. Confira e tente de novo. Se não lembrar a senha, veja [Recuperar a senha](esqueci-minha-senha.md).
-{% endhint %}
-
-{% hint style="warning" %}
-**"Usuário inativo"**: a sua conta foi desativada. Fale com o administrador da sua empresa.
-{% endhint %}
-
-{% hint style="warning" %}
-**"Empresa inativa."**: fale com o suporte GNRx.
-{% endhint %}
-
-{% hint style="warning" %}
-**"O usuário não possui permissão para acessar nenhum módulo."**: o administrador precisa liberar pelo menos um módulo no seu cadastro.
-{% endhint %}
-
-{% hint style="warning" %}
-**"A sua Empresa não possui permissão para acessar nenhum módulo."**: fale com o suporte GNRx.
-{% endhint %}
-
-{% hint style="warning" %}
-**"Configure a autenticação em duas etapas para continuar acessando..."**: a sua empresa exige a verificação e você ainda não configurou. Fale com o administrador da sua empresa.
-{% endhint %}
-
-{% hint style="warning" %}
-**"Código inválido."**: o código está errado ou passou dos 10 minutos. Clique em **Reenviar código**.
-
-Depois de 5 erros, você precisa entrar com a senha de novo. No aplicativo autenticador, o bloqueio dura 15 minutos e aparece **"Muitas tentativas inválidas. Tente novamente mais tarde."**.
-{% endhint %}
-
-{% hint style="warning" %}
-**"Sua sessão de verificação expirou..."** ou **"Sessão de verificação inválida ou expirada."**: você tem 10 minutos entre a senha e o código. Clique em **Voltar para o login** e entre de novo.
-{% endhint %}
-
-{% hint style="warning" %}
-**Muitas tentativas seguidas:** o sistema bloqueia o acesso nesse computador por alguns minutos. Aguarde e tente de novo.
-{% endhint %}
+| Mensagem na tela | O que fazer |
+| --- | --- |
+| "Por favor, verifique seu login e senha." | Confira usuário, CPF, CNPJ e senha, ou [recupere a senha](esqueci-minha-senha.md). |
+| "Código inválido." | Clique em **Reenviar código**: o código vale 10 minutos e, depois de 5 erros, você volta para a senha. |
+| "Sua sessão de verificação expirou..." ou "Sessão de verificação inválida ou expirada." | Clique em **Voltar para o login** e digite o código em até 10 minutos. |
+| "Usuário inativo" | Fale com o administrador da sua empresa. |
+| "Muitas tentativas inválidas. Tente novamente mais tarde." | Aguarde 15 minutos e use o aplicativo autenticador de novo. |
+| _O acesso foi bloqueado por muitas tentativas seguidas._ | Aguarde alguns minutos e tente de novo. |
+| "Empresa inativa." | Fale com o suporte GNRx. |
+| "O usuário não possui permissão para acessar nenhum módulo." | Peça ao administrador para liberar um módulo no seu cadastro. |
+| "A sua Empresa não possui permissão para acessar nenhum módulo." | Fale com o suporte GNRx. |
+| "Configure a autenticação em duas etapas para continuar acessando..." | Peça ao administrador da sua empresa para configurar a verificação. |
 
 ## Dúvidas comuns
 

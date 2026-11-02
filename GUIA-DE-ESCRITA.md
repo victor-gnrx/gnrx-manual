@@ -15,18 +15,23 @@ Padrão obrigatório para toda página nova ou revisada. O leitor é leigo e tem
    - Botões e menus vão em **negrito**.
    - Cada passo tem um print.
    - O caminho de menu usa "›": **Estruturas › Colaboradores**. Nunca use "→" nem "->".
-5. **`## Deu errado?`** Mostre a mensagem real do sistema e o que fazer, dentro de `{% hint style="warning" %}`. Não invente mensagens.
+5. **`## Deu errado?`** Mostre a mensagem real do sistema e o que fazer, dentro de `{% hint style="warning" %}`. Não invente mensagens e nunca use o título técnico do erro (ex.: "Bad Request").
+   - Mais de 3 erros: troque os hints por uma tabela de duas colunas, "Mensagem na tela" e "O que fazer". Cada linha é uma mensagem e cada célula tem uma frase curta. Ordene do caso mais comum para o mais raro.
 6. **`## Dúvidas comuns`.** De 2 a 4 perguntas curtas.
 7. **Linguagem.**
    - Frases curtas, sempre "você", sem jargão.
    - A página deve caber em uma a duas telas.
    - Escreva sempre "GNRx".
 8. **Imagens.**
-   - O arquivo se chama `<modulo>-<tarefa>-<nn>.png` e fica em `.gitbook/assets/` do próprio espaço.
+   - O arquivo se chama `<modulo>-<tarefa>-<nn>.png` e fica em `.gitbook/assets/` do próprio módulo (de uma subpasta, `../.gitbook/assets/`).
    - Use `<figure><img src="..." alt="descrição real"><figcaption><p>o que o print mostra</p></figcaption></figure>`.
    - O `alt` é sempre preenchido.
    - É proibido usar nomes como `image (N).png`.
-9. **README de cada espaço.** Ele tem cards (`<table data-view="cards">`) em duas seções: "Comece por aqui" e "Tarefas do dia a dia".
+9. **Estrutura.**
+   - Há uma pasta por módulo (`epi/`, `auditorias/`, `formularios/`...).
+   - As páginas comuns (acesso, usuários, roles, unidades, setores, cargos, GHE e colaboradores) têm o original em `epi/`. Os outros módulos as incluem com `{% include "../../../epi/..." %}`, como em `auditorias/web/estrutura/sistema-permissoes-roles.md`.
+   - O `SUMMARY.md` de cada módulo segue a ordem do menu do app.
+   - O `README.md` de cada módulo tem cards (`<table data-view="cards">`) em duas seções: "Comece por aqui" e "Tarefas do dia a dia".
 10. **Fora do manual.** Não documente:
     - o Painel Admin GNRx;
     - o MCP;
@@ -63,7 +68,7 @@ layout: ...  # mesmo bloco de epi/painel.md
 
 Clique em **Estruturas › Colaboradores**.
 
-<figure><img src=".gitbook/assets/epi-colaborador-01.png" alt="Menu Estruturas aberto com a opção Colaboradores destacada"><figcaption><p>Menu Estruturas</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/epi-colaborador-01.png" alt="Menu Estruturas aberto com a opção Colaboradores destacada"><figcaption><p>Menu Estruturas</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

@@ -23,6 +23,14 @@ layout:
 
 # Introdução ao Gestão de EPIs
 
+## Comece por aqui
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Entrar no sistema</strong></td><td>Acesse o GNRx com o seu usuário ou o CNPJ da empresa.</td><td><a href="acesso/entrar-no-sistema.md">entrar-no-sistema.md</a></td></tr></tbody></table>
+
+## Tarefas do dia a dia
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Recuperar a senha</strong></td><td>Esqueceu a senha? Crie uma nova pelo e-mail.</td><td><a href="acesso/esqueci-minha-senha.md">esqueci-minha-senha.md</a></td></tr></tbody></table>
+
 ## Introdução
 
 Bem-vindo ao Manual do Sistema GNRx Gestão de EPI. Esta documentação foi desenvolvida para auxiliar usuários e administradores a utilizarem de forma eficiente todas as funcionalidades da plataforma, garantindo uma Gestão de EPIs (Equipamentos de Proteção Individual) eficaz, segura e em conformidade com as normas regulamentadoras.
