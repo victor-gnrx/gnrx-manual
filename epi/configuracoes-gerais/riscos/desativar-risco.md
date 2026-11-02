@@ -35,6 +35,10 @@ layout:
 
 ## Passo a passo
 
+{% hint style="warning" %}
+Atenção: depois de inativar, não dá para reativar pelo sistema. Se inativou por engano, abra um [chamado no Suporte](../../suporte/abrir-chamado.md).
+{% endhint %}
+
 {% stepper %}
 {% step %}
 ### Inative

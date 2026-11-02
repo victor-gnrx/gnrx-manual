@@ -47,7 +47,7 @@ Clique em **Configurações › Tipos de Produtos** e abra **Tipos de EPIs**. Us
 {% step %}
 ### Crie um EPI customizado
 
-Clique para criar. Em **Criar Novo EPI**, escolha a **Categoria EPI** e digite a descrição. Salve. Aparece "EPI criado com sucesso.".
+Clique em **Criar Novo EPI**. A janela abre com "Preencha os campos abaixo para adicionar um novo EPI.". Escolha a **Categoria EPI** e digite a descrição. Salve. Aparece "EPI criado com sucesso.".
 {% endstep %}
 {% endstepper %}
 
