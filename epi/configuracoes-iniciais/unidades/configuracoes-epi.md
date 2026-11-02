@@ -26,7 +26,7 @@ layout:
 **Para que serve:** definir, por unidade, como as entregas são assinadas e como sai a ficha de EPI.
 
 {% hint style="info" %}
-**Quem pode fazer:** quem abre a unidade no módulo Gestão de EPIs.
+**Quem pode fazer:** Gestor ou Administrador, com a permissão de editar unidades.
 {% endhint %}
 
 ## Antes de começar

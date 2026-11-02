@@ -26,7 +26,7 @@ layout:
 **Para que serve:** colher a assinatura do colaborador no termo de responsabilidade de EPI, na hora ou pelo celular dele.
 
 {% hint style="info" %}
-**Quem pode fazer:** quem abre o cadastro do colaborador. Para enviar por e-mail: Gestor ou Administrador, com a permissão de enviar o termo de responsabilidade por e-mail.
+**Quem pode fazer:** qualquer usuário com o módulo Gestão de EPIs. Para enviar por e-mail: Gestor ou Administrador, com a permissão de enviar o termo de responsabilidade por e-mail.
 {% endhint %}
 
 ## Antes de começar
@@ -88,6 +88,6 @@ Com o termo assinado, clique em **Verificar Assinatura**.
 
 <summary>Preciso colher de novo. Como faço?</summary>
 
-Clique em **Refazer Assinatura**. Abre **Refazer Assinatura de Termo**: "Colete uma nova assinatura para substituir a anterior". O botão só aparece para quem tem permissão.
+Clique em **Refazer Assinatura**. Abre **Refazer Assinatura de Termo**: "Colete uma nova assinatura para substituir a anterior". Essa opção está disponível só no acesso Empresa (CNPJ).
 
 </details>

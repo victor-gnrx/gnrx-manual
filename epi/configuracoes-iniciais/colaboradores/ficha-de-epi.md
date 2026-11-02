@@ -26,7 +26,7 @@ layout:
 **Para que serve:** gerar a ficha de EPI do colaborador em PDF, ou um QR Code que abre a ficha.
 
 {% hint style="info" %}
-**Quem pode fazer:** quem abre o cadastro do colaborador no módulo Gestão de EPIs.
+**Quem pode fazer:** qualquer usuário com o módulo Gestão de EPIs.
 {% endhint %}
 
 ## Antes de começar
