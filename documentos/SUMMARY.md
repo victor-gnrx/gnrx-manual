@@ -4,6 +4,11 @@
 
 * [Introdução à Gestão de Documentos](README.md)
 
+## Painel e Relatórios
+
+* [Ver o painel de documentos](painel/ver-painel.md)
+* [Gerar um relatório de documentos](relatorios/gerar-relatorio.md)
+
 ## Acesso
 
 * [Entrar no sistema](acesso/entrar-no-sistema.md)
