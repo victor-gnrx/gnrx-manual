@@ -2,6 +2,8 @@
 
 Manual de usuário do gnrx (GitBook), organizado em `epi/`, `formularios/`, `auditorias/`, etc., cada um com seu próprio `SUMMARY.md`.
 
+Toda página nova ou revisada segue o [GUIA-DE-ESCRITA.md](GUIA-DE-ESCRITA.md).
+
 ## Público-alvo
 
 Este manual é para o **cliente final** (usuário do sistema e, no caso de integrações, o desenvolvedor externo que consome a API/webhooks do gnrx) — não para desenvolvedores internos do gnrx.
