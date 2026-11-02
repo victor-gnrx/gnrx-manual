@@ -65,6 +65,13 @@
 * [Registrar a presença](turmas/registrar-presenca.md)
 * [Concluir a turma](turmas/concluir-turma.md)
 * [Ajustar a turma](turmas/ajustar-turma.md)
+* [Montar o plano anual](turmas/plano-anual.md)
+* [Avaliar a eficácia](turmas/avaliar-eficacia.md)
+* [Portal do aluno](portal-do-aluno/README.md)
+  * [Criar o portal do aluno](portal-do-aluno/criar-portal.md)
+  * [Liberar os acessos aos cursos](portal-do-aluno/liberar-acessos.md)
+  * [Acompanhar os alunos](portal-do-aluno/acompanhar-alunos.md)
+* [Responder as dúvidas dos alunos](turmas/responder-duvidas.md)
 
 ## Configurações
 
