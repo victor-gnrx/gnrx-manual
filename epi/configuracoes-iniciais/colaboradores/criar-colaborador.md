@@ -32,7 +32,7 @@ layout:
 ## Antes de começar
 
 * Tenha o nome e o CPF da pessoa.
-* Para um terceiro, cadastre antes a [empresa terceira](../terceiros/criar-terceiro.md) e crie o colaborador de dentro dela.
+* Para um terceiro, cadastre antes a empresa terceira (em **Estruturas › Terceiros**) e crie o colaborador de dentro dela.
 
 ## Passo a passo
 
