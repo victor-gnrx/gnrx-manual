@@ -26,7 +26,7 @@ layout:
 **Para que serve:** criar uma turma: qual treinamento, quando, quem participa e quem ministra.
 
 {% hint style="info" %}
-**Quem pode fazer:** Gestor ou Administrador, com a permissão de cadastrar treinamentos.
+**Quem pode fazer:** Gestor ou Administrador, com a permissão de criar treinamentos.
 {% endhint %}
 
 ## Antes de começar
@@ -87,6 +87,14 @@ Confira tudo. Para voltar a uma etapa, clique em **Alterar**. Clique em **Progra
 | "O fim precisa vir depois do início." | Confira os horários da sessão. |
 
 ## Dúvidas comuns
+
+<details>
+
+<summary>Sou Supervisor e não consigo programar.</summary>
+
+Programar exige a permissão de criar treinamentos. Peça ao administrador.
+
+</details>
 
 <details>
 

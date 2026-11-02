@@ -32,6 +32,7 @@ layout:
 ## Antes de começar
 
 * [Registre a presença](registrar-presenca.md) de todas as sessões.
+* Cadastre a [assinatura do instrutor](../estruturas/instrutores/editar-instrutor.md). Ela sai no certificado.
 
 ## Passo a passo
 
@@ -59,6 +60,10 @@ Quando for o caso, marque os aprovados (**Selecionar elegíveis** marca quem ati
 {% endstep %}
 {% endstepper %}
 
+{% hint style="info" %}
+Ao concluir, o certificado dos aprovados é gerado automaticamente. A validade sai do tipo de treinamento e o PDF fica pronto em alguns instantes. Ele já nasce válido, sem aprovação nem assinatura de ninguém, e pode ser conferido pelo QR Code ou pelo código público.
+{% endhint %}
+
 ## Dúvidas comuns
 
 <details>
@@ -71,8 +76,16 @@ Na **Visão geral** da turma, em **Aprovados** e **Reprovados**, e na lista de *
 
 <details>
 
-<summary>E o certificado?</summary>
+<summary>O certificado saiu sem assinatura.</summary>
 
-Os aprovados aparecem com **Baixar certificado** na lista de participantes.
+O PDF usa a assinatura cadastrada do instrutor e a do colaborador, se existirem. Sem elas, sai sem a imagem. Cadastre a [assinatura do instrutor](../estruturas/instrutores/editar-instrutor.md) antes de concluir.
+
+</details>
+
+<details>
+
+<summary>Onde baixo o certificado?</summary>
+
+Na lista de participantes, em **Baixar certificado**. Precisa da permissão de ver turmas.
 
 </details>

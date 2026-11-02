@@ -358,12 +358,12 @@ layout:
 | Anexar certificado manualmente ao colaborador | `treinamentos:criar:certificado` |  | ✓ | ✓ | ✓ |
 | Anexar documentos às turmas | `treinamentos:anexar:documento` |  | ✓ | ✓ | ✓ |
 | Aprovar o plano anual de treinamentos | `treinamentos:aprovar:plano_anual` |  |  | ✓ | ✓ |
-| Assinar certificados digitalmente | `treinamentos:assinar:certificado` |  |  | ✓ | ✓ |
+| Assinar certificados digitalmente (sem efeito no sistema hoje) | `treinamentos:assinar:certificado` |  |  | ✓ | ✓ |
 | Associar treinamentos obrigatórios a GHEs | `treinamentos:associar:ghe_treinamento` |  |  | ✓ | ✓ |
 | Cadastrar novos instrutores | `treinamentos:criar:instrutor` |  |  | ✓ | ✓ |
 | Cadastrar novos treinamentos/cursos | `treinamentos:criar:treinamento` |  |  | ✓ | ✓ |
 | Cancelar matrículas | `treinamentos:cancelar:matricula` |  |  | ✓ | ✓ |
-| Cancelar turmas de treinamento | `treinamentos:cancelar:turma` |  |  | ✓ | ✓ |
+| Cancelar turmas de treinamento (sem efeito no sistema hoje) | `treinamentos:cancelar:turma` |  |  | ✓ | ✓ |
 | Coletar assinatura digital de treinandos | `treinamentos:coletar:assinatura_treinando` | ✓ | ✓ | ✓ | ✓ |
 | Configurar alertas de vencimento | `treinamentos:configurar:alertas` |  | ✓ | ✓ | ✓ |
 | Configurar as regras do módulo de Treinamentos (aproveitamento, EAD) | `treinamentos:configurar:modulo` |  | ✓ | ✓ | ✓ |
@@ -373,7 +373,7 @@ layout:
 | Criar e editar questionários de reação e de prova | `treinamentos:gerenciar:questionario` |  | ✓ | ✓ | ✓ |
 | Criar instituições certificadoras | `treinamentos:criar:instituicao_certificadora` |  |  | ✓ | ✓ |
 | Criar tipos de instituição | `treinamentos:criar:tipo_instituicao` |  |  | ✓ | ✓ |
-| Criar turmas de treinamento | `treinamentos:criar:turma` |  | ✓ | ✓ | ✓ |
+| Criar turmas de treinamento (sem efeito no sistema hoje) | `treinamentos:criar:turma` |  | ✓ | ✓ | ✓ |
 | Deletar documentos anexados | `treinamentos:deletar:documento` |  |  | ✓ | ✓ |
 | Editar associações GHE-Treinamento | `treinamentos:editar:ghe_treinamento` |  |  | ✓ | ✓ |
 | Editar categorias de treinamento | `treinamentos:editar:categoria_treinamento` |  |  | ✓ | ✓ |
@@ -388,7 +388,7 @@ layout:
 | Exportar pacote para fiscalização (ZIP) | `treinamentos:exportar:pacote_fiscalizacao` |  |  | ✓ | ✓ |
 | Filtrar certificados vencidos/vencendo | `treinamentos:filtrar:vencimentos` |  |  | ✓ | ✓ |
 | Finalizar turmas de treinamento | `treinamentos:finalizar:turma` |  |  | ✓ | ✓ |
-| Gerar certificados de conclusão | `treinamentos:gerar:certificado` |  |  | ✓ | ✓ |
+| Gerar certificados de conclusão (sem efeito no sistema hoje) | `treinamentos:gerar:certificado` |  |  | ✓ | ✓ |
 | Gerar listas de presença | `treinamentos:gerar:lista_presenca` |  | ✓ | ✓ | ✓ |
 | Gerar relatórios de certificados | `treinamentos:gerar:relatorio_certificados` |  |  | ✓ | ✓ |
 | Gerar relatórios de conformidade por setor/NR | `treinamentos:gerar:relatorio_conformidade` |  |  | ✓ | ✓ |
@@ -403,10 +403,10 @@ layout:
 | Invalidar certificados | `treinamentos:invalidar:certificado` |  |  |  | ✓ |
 | Matricular funcionários em treinamentos | `treinamentos:criar:matricula` |  | ✓ | ✓ | ✓ |
 | Montar o plano anual de treinamentos e o orçamento | `treinamentos:gerenciar:plano_anual` |  | ✓ | ✓ | ✓ |
-| Reemitir certificados | `treinamentos:reemitir:certificado` |  |  | ✓ | ✓ |
+| Reemitir certificados (sem efeito no sistema hoje) | `treinamentos:reemitir:certificado` |  |  | ✓ | ✓ |
 | Registrar a avaliação de eficácia do treinamento | `treinamentos:avaliar:eficacia` |  | ✓ | ✓ | ✓ |
 | Registrar aproveitamento de treinamento (NR-1 1.7.6 e 1.7.7) | `treinamentos:criar:aproveitamento` |  | ✓ | ✓ | ✓ |
-| Registrar assinatura digital do instrutor | `treinamentos:assinar:turma_instrutor` |  | ✓ | ✓ | ✓ |
+| Registrar assinatura digital do instrutor (sem efeito no sistema hoje) | `treinamentos:assinar:turma_instrutor` |  | ✓ | ✓ | ✓ |
 | Registrar presença em treinamentos | `treinamentos:registrar:presenca` |  | ✓ | ✓ | ✓ |
 | Validar credenciais de instrutores | `treinamentos:validar:credencial_instrutor` |  |  | ✓ | ✓ |
 | Ver a análise de vídeo e o rastreio dos colaboradores no EAD | `treinamentos:visualizar:analise_ead` |  | ✓ | ✓ | ✓ |

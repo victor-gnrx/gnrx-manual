@@ -26,7 +26,7 @@ layout:
 **Para que serve:** passar a turma de **Planejado** para **Em andamento**.
 
 {% hint style="info" %}
-**Quem pode fazer:** quem pode editar turmas.
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de editar turmas.
 {% endhint %}
 
 ## Antes de começar
