@@ -96,6 +96,14 @@ Pela NR-1, o conteúdo prático só é a distância se a NR permitir. Ligado, a 
 
 <details>
 
+<summary>Como sei se o vídeo está prendendo a atenção?</summary>
+
+Na aba **EAD**, a **Análise do vídeo** mostra **Retenção**, **Maior abandono** e **Trechos mais revistos**.
+
+</details>
+
+<details>
+
 <summary>Treinamento padrão da GNRx?</summary>
 
 Nele, a prova e a parte prática são definidas pela GNRx.
