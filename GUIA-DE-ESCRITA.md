@@ -4,6 +4,7 @@ Padrão obrigatório para toda página nova ou revisada. O leitor é leigo e tem
 
 ## Regras
 
+0. **Frontmatter.** Toda página começa com frontmatter que tem `icon:` (ícone do Font Awesome) e `description:` de uma linha. Use também o bloco `layout:` de `epi/painel.md`.
 1. **Uma tarefa por página.** O título é uma ação: "Cadastrar um colaborador", e não "Colaboradores".
 2. **Topo da página.** Comece com uma linha `**Para que serve:** ...`. Logo depois, coloque um `{% hint style="info" %}` com `**Quem pode fazer:** ...`:
    - cite a role pelo nome (Operador, Supervisor, Gestor ou Administrador);
@@ -36,6 +37,12 @@ Padrão obrigatório para toda página nova ou revisada. O leitor é leigo e tem
 ## Modelo de página
 
 ```markdown
+---
+description: Registre uma pessoa para entregar EPIs a ela.
+icon: user-plus
+layout: ...  # mesmo bloco de epi/painel.md
+---
+
 # Cadastrar um colaborador
 
 **Para que serve:** registrar uma pessoa para entregar EPIs a ela.

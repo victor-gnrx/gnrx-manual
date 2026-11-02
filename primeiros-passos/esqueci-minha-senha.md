@@ -1,3 +1,26 @@
+---
+description: Crie uma senha nova pelo e-mail quando esquecer a sua.
+icon: key
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Recuperar a senha
 
 **Para que serve:** criar uma senha nova quando você esqueceu a sua.
@@ -10,6 +33,10 @@
 
 * Saiba o seu usuário e o e-mail cadastrado na sua conta.
 * Tenha acesso a esse e-mail.
+
+{% hint style="info" %}
+**Esqueci minha senha** só aparece na aba **Usuário**. A aba **Empresa** não tem esse link.
+{% endhint %}
 
 ## Passo a passo
 
@@ -81,5 +108,13 @@ Olhe a caixa de spam. Se não estiver lá, confira o usuário e o e-mail e peça
 <summary>Posso usar o link duas vezes?</summary>
 
 Não. Cada link vale uma vez só. Para trocar a senha de novo, peça outro link.
+
+</details>
+
+<details>
+
+<summary>Esqueci a senha do acesso Empresa (CNPJ)</summary>
+
+Fale com o suporte GNRx.
 
 </details>
