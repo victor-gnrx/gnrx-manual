@@ -163,6 +163,13 @@
 * [Corrigir a nota fiscal de um lote](lotes/alterar-valores-itens-lote.md)
 * [Ver um lote](gestao-estoque/lotes/visualizar-items-lote.md)
 
+## Fabricantes e fornecedores
+
+* [Cadastrar um fabricante](gestao-estoque/fabricantes/cadastrar-fabricante.md)
+* [Cadastrar um fornecedor](gestao-estoque/fornecedores/cadastrar-fornecedor.md)
+* [Vincular itens a um fornecedor](gestao-estoque/fornecedores/vincular-itens.md)
+* [Comparar fornecedores](gestao-estoque/fornecedores/comparar-fornecedores.md)
+
 ## Solicitações
 
 * [Visão Geral](solicitacoes/README.md)
