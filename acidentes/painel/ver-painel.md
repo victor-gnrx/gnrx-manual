@@ -26,7 +26,7 @@ layout:
 **Para que serve:** acompanhar os indicadores de acidentes e desvios: onde, o quê, como, gravidade e custos.
 
 {% hint style="info" %}
-**Quem pode fazer:** quem tem a permissão do painel de acidentes. A aba **Custos** e os valores em dinheiro das outras abas só aparecem para quem pode ver os custos dos acidentes.
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de ver o painel de acidentes. A aba **Custos** e os valores em dinheiro das outras abas só aparecem para quem pode ver os custos dos acidentes.
 {% endhint %}
 
 ## Antes de começar

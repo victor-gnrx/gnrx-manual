@@ -26,7 +26,7 @@ layout:
 **Para que serve:** ver se está tudo em dia: o que falta, de quem e desde quando.
 
 {% hint style="info" %}
-**Quem pode fazer:** todas as roles, com a permissão de ver documentos e a situação documental.
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de ver o painel de gestão de documentos.
 {% endhint %}
 
 ## Antes de começar

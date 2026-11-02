@@ -26,7 +26,7 @@ layout:
 **Para que serve:** exportar os relatórios da Gestão de Documentos em PDF ou Excel.
 
 {% hint style="info" %}
-**Quem pode fazer:** todas as roles, com a permissão de ver documentos e a situação documental.
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de gerar relatórios da gestão de documentos.
 {% endhint %}
 
 ## Antes de começar

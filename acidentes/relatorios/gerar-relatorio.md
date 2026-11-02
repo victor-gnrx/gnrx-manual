@@ -26,7 +26,7 @@ layout:
 **Para que serve:** exportar os relatórios da Gestão de Acidentes em PDF ou Excel, como os da NBR 14280.
 
 {% hint style="info" %}
-**Quem pode fazer:** quem tem a permissão de gerar relatórios de acidentes. Os custos só entram para quem pode ver os custos dos acidentes.
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de gerar relatórios de acidentes. Os custos só entram para quem pode ver os custos dos acidentes.
 {% endhint %}
 
 ## Antes de começar
