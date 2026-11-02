@@ -50,7 +50,7 @@ Clique em **Estruturas › Colaboradores** e depois em **Novo colaborador**. Abr
 
 * **Nome:** obrigatório, até 128 caracteres.
 * **CPF:** obrigatório.
-* **Pin de Acesso:** 6 números.
+* **Pin de Acesso:** é a senha de 6 números do colaborador no aplicativo e no Portal do Aluno.
 * **Email**, telefone, **Matrícula** (até 20 caracteres), **Início da Atividade** e **Turno**: opcionais.
 
 No **Turno**, escolha um turno ou digite um nome novo. O nome novo vira um [turno](../turnos/README.md).

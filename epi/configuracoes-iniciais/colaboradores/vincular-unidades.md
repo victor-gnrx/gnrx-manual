@@ -46,7 +46,7 @@ Clique em **Estruturas › Colaboradores**. Na coluna **Ações**, abra o menu e
 {% step %}
 ### Adicione a unidade
 
-No quadro **Unidades**, clique em **Adicionar Unidade**. Na janela **Associar Unidade**, escolha a **Unidade** e confirme.
+No quadro **Unidades**, clique em **Adicionar Unidade**. Na janela **Associar Unidade**, escolha a **Unidade** e clique em **Associar**.
 
 <figure><img src="../../.gitbook/assets/colaboradores-unidade-01.png" alt="Quadro Unidades do colaborador com o botão Adicionar Unidade e a janela Associar Unidade aberta"><figcaption><p>Associar Unidade</p></figcaption></figure>
 {% endstep %}
