@@ -4,6 +4,11 @@
 
 * [Introdução ao Gestão de Treinamentos](README.md)
 
+## Painel e Relatórios
+
+* [Ver o painel de treinamentos](painel/ver-painel.md)
+* [Gerar um relatório](relatorios/gerar-relatorio.md)
+
 ## Acesso
 
 * [Entrar no sistema](acesso/entrar-no-sistema.md)
