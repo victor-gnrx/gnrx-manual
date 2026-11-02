@@ -41,7 +41,7 @@ layout:
 
 Clique em **Configurações › Bloqueio**.
 
-<figure><img src="../.gitbook/assets/docs-bloqueio-01.png" alt="Tela Bloqueio documental com os seletores de Entrega de itens e de Treinamento"><figcaption><p>Bloqueio documental</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/docs-bloqueio-01.png" alt="Tela Bloqueio documental com os seletores Entrega de itens e EPIs e Treinamentos"><figcaption><p>Bloqueio documental</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -49,8 +49,8 @@ Clique em **Configurações › Bloqueio**.
 
 Em cada situação, escolha **Desligado**, **Só avisar** ou **Bloquear**:
 
-* **Entrega de itens:** entrega de EPI, entrega direta, entrega de produto, entrega sem estoque e entrega pelo app.
-* **Treinamento:** programar turma, adicionar participantes, adicionar sessão e registrar presença.
+* **Entrega de itens e EPIs:** entrega de EPI, entrega direta, entrega de produto, entrega sem estoque e entrega pelo app.
+* **Treinamentos:** programar turma, adicionar participantes, adicionar sessão e registrar presença.
 
 Clique em **Salvar alterações**. Aparece "Política de bloqueio salva.".
 {% endstep %}
