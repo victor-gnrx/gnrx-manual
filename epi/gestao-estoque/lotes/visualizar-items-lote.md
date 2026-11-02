@@ -1,5 +1,6 @@
 ---
-icon: cart-plus
+description: Veja as unidades de um lote e a nota fiscal.
+icon: eye
 layout:
   width: default
   title:
@@ -20,82 +21,50 @@ layout:
     visible: true
 ---
 
-# Visualizar Itens do Lote
+# Ver um lote
 
-Esta página explica como acessar e interpretar a visualização detalhada dos itens individuais de um lote no Sistema GNRX Gestão de EPI.
+**Para que serve:** ver as unidades de uma entrada de estoque, o centro de estoque e a nota fiscal.
 
-## Visão Geral
+{% hint style="info" %}
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de ver o estoque de EPIs.
+{% endhint %}
 
-A visualização detalhada de itens do lote permite verificar o status de cada unidade física de EPI dentro de um lote específico, oferecendo rastreabilidade completa e informações sobre uso, alocação e validade.
+## Antes de começar
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption><p>Visualizar itens do Lote</p></figcaption></figure>
+* Abra o item no inventário.
 
-## Acessando a Visualização Detalhada
+## Passo a passo
 
-Para visualizar os itens individuais de um lote:
+{% stepper %}
+{% step %}
+### Abra o lote
 
-1. No módulo **Inventário**, localize o item desejado
-2. Clique no item para acessar seus detalhes
-3. Na aba **Lotes**, localize o lote que deseja examinar
-4. Clique no número do lote para acessar suas informações detalhadas
-5. Navegue até a aba **Itens Recebidos** ou **Inventário do Lote Detalhado**
+No item, em **Entradas de Estoque**, abra a entrada.
 
-## Informações Disponíveis
+<figure><img src="../../.gitbook/assets/inventario-lote-01.png" alt="Detalhe do lote com as unidades, o centro de estoque e a nota fiscal"><figcaption><p>Detalhe do lote</p></figcaption></figure>
+{% endstep %}
 
-A tela de visualização detalhada apresenta:
+{% step %}
+### Pesquise
 
-### Resumo do Lote
+Use **Pesquisar por número de série...** para achar uma unidade.
+{% endstep %}
+{% endstepper %}
 
-No topo da página, são exibidas informações gerais:
+## Dúvidas comuns
 
-- **Quantidade Total**: Total de unidades no lote
-- **Custo Total**: Valor total de aquisição do lote
-- **Valor em Estoque**: Valor das unidades ainda disponíveis
-- **Dias até Vencimento**: Prazo restante até a data de validade
+<details>
 
-### Lista de Itens Individuais
+<summary>Como corrijo a nota fiscal do lote?</summary>
 
-A tabela principal exibe cada unidade física com as seguintes informações:
+Use **Editar Nota Fiscal** (ou **Remover Nota Fiscal**).
 
-- **Número de Série**: Identificador único de cada unidade (ex: CA43350-L02-00000001)
-- **Estado**: Status atual (Disponível, Em Uso, Inativo, Perda, Quebra)
-- **Validade**: Data até quando o item pode ser utilizado
-- **Usos**: Quantidade de vezes que o item foi utilizado
-- **Colaborador**: Pessoa que está utilizando o item (se aplicável)
-- **Unidade**: Local onde o item está alocado
-- **Última Alocação**: Data da última atribuição
-- **Devolução Prevista**: Data programada para retorno (se aplicável)
+</details>
 
-## Recursos de Navegação e Pesquisa
+<details>
 
-Para facilitar a análise de lotes grandes:
+<summary>Apareceu "Nenhum item disponível no inventário."</summary>
 
-1. **Barra de Pesquisa**: Permite localizar itens específicos por número de série
-2. **Paginação**: Navegue entre as páginas de resultados
-3. **Visualização em Grade/Lista**: Alterne entre diferentes formatos de exibição
-4. **Controles de Página**: Avance ou retroceda nas páginas de resultados
+O lote não tem unidades disponíveis.
 
-## Interpretação dos Estados dos Itens
-
-Os itens podem apresentar diferentes estados, indicados por cores e rótulos:
-
-- **Disponível** (verde): Item em estoque, pronto para uso
-- **Em Uso** (azul): Atualmente alocado a um colaborador
-- **Inativo** (cinza): Temporariamente indisponível
-- **Perda** (vermelho): Reportado como perdido
-- **Quebra** (laranja): Danificado e fora de uso
-
-## Aspectos Importantes
-
-- **Rastreabilidade**: Cada item possui um histórico completo e rastreável
-- **Auditoria**: A visualização detalhada é útil para verificações e auditorias
-- **Localização**: Facilita encontrar fisicamente os itens no estoque
-- **Análise de Uso**: Permite identificar padrões de utilização e desgaste
-
-## Próximos Passos
-
-Após visualizar os itens do lote, você pode:
-
-- [Editar o lote](editar-lote.md) se necessário fazer ajustes na distribuição
-- [Gerenciar a validade](gerenciar-validade.md) para controlar os prazos de vencimento
-- Verificar o [estoque atual](../relatorios/estoque-atual.md) para uma visão consolidada
+</details>

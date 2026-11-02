@@ -1,5 +1,6 @@
 ---
-icon: cart-plus
+description: Dar entrada de um item sem variantes.
+icon: circle-plus
 layout:
   width: default
   title:
@@ -20,92 +21,54 @@ layout:
     visible: true
 ---
 
-# Adicionar Lote Item Sem Variantes
+# Dar entrada de um item sem variantes
 
-Esta página explica como adicionar um novo lote de EPIs que não possuem variantes configuradas no Sistema GNRX Gestão de EPI.
+**Para que serve:** registrar a chegada do item e dizer onde ele fica guardado.
 
-## Visão Geral
+{% hint style="info" %}
+**Quem pode fazer:** Administrador, com a permissão de gerenciar o estoque de EPIs.
+{% endhint %}
 
-Para itens que não possuem variantes configuradas (como tamanhos, cores ou outras características), o processo de adição de lote é simplificado, focando apenas na quantidade total e na distribuição por unidade.
+## Antes de começar
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Adicionar Lote sem variantes</p></figcaption></figure>
+* Veja o passo a passo completo em [Dar entrada no estoque](../itens/adicionar-lote.md).
 
-## Processo Completo
+## Passo a passo
 
-O processo de adição de lote sem variantes é dividido em duas etapas principais:
+{% stepper %}
+{% step %}
+### Abra a entrada
 
-### 1. Informações Básicas
+Abra o item e clique em **Adicionar Estoque**. Preencha as **Informações Básicas** e clique em **Próximo Passo**.
+{% endstep %}
 
-Na primeira tela, você deve informar:
+{% step %}
+### Distribua
 
-1. **Número do Lote**: Identificador único para o lote (ex: CA0001-L57)
-   - Este código será usado para rastreabilidade de todos os itens do lote
-   - Recomenda-se seguir um padrão como CA\[Número do CA]-L\[Sequencial]
-2. **Quantidade Total**: Número total de unidades recebidas no lote
-   - Esta quantidade será distribuída entre as unidades na próxima etapa
-3. **Custo Unitário (R$)**: Valor de cada unidade para controle financeiro
-   - O sistema calculará automaticamente o valor total do lote
+Se o item não tem variantes, depois das **Informações Básicas** você distribui a **Quantidade Total** entre os centros de estoque: **Dividir igualmente entre todos**, **Enviar tudo para esta unidade** ou uma quantidade por centro. Quando aparecer **Distribuição completa**, clique em **Confirmar Entrada**.
+{% endstep %}
+{% endstepper %}
 
-Após preencher estes campos, clique em **Próximo Passo** para continuar.
+## Deu errado?
 
-### 2. Distribuição por Local
+{% hint style="warning" %}
+**"Você precisa distribuir os itens em pelo menos uma unidade"**: distribua a quantidade.
+{% endhint %}
 
-Na segunda tela, você distribuirá a quantidade total entre as unidades/locais:
+## Dúvidas comuns
 
-1. **Seleção de Unidade**: Escolha a unidade no menu suspenso
-   - As unidades disponíveis são aquelas cadastradas no sistema
-2. **Informação de Quantidade**: Digite a quantidade a ser alocada para a unidade selecionada
-3. **Adição de Distribuição**: Clique no botão **Adicionar** para confirmar
-4. **Status da Distribuição**: O sistema mostrará:
-   - "Total distribuído: X de Y"
-   - "Disponível para distribuir: Z"
-5. **Distribuição Existente**: As unidades já configuradas aparecem na lista abaixo com:
-   - Nome da unidade
-   - Quantidade alocada
-   - Opções para editar ou remover
+<details>
 
-Após distribuir todas as unidades ou a quantidade desejada, clique em **Confirmar Entrada** para finalizar.
+<summary>Errei a distribuição.</summary>
 
-## Exemplo Prático
+Use **Limpar distribuição** (ou **Limpar tudo**) e distribua de novo.
 
-Para um lote de 430 protetores auditivos:
+</details>
 
-### Etapa 1: Informações Básicas
+<details>
 
-- Número do Lote: Digite **CA0001-L57**
-- Quantidade Total: Digite **580**
-- Custo Unitário: Digite o valor (ex: **R$ 15,00**)
+<summary>Qual a diferença para o lote do fabricante?</summary>
 
-### Etapa 2: Distribuição por Local
+O número do lote é o que você informa na entrada (ex.: CA0001-L57).
 
-- Selecione a unidade **Belo Horizonte 2**
-- Digite a quantidade **430**
-- Clique em **Adicionar**
-- O sistema mostra: "Total distribuído: 150 de 580" (supondo distribuição prévia)
-- O sistema mostra: "Disponível para distribuir: 430"
-- Na lista abaixo aparece **Belo Horizonte** com **150** unidades já alocadas
-- Ao finalizar, clique em **Confirmar Entrada**
-
-## Considerações Importantes
-
-- **Não é obrigatório distribuir toda a quantidade**: É possível deixar parte do estoque sem alocação específica
-- **Validações automáticas**: O sistema impede que você distribua mais unidades do que o total disponível
-- **Edição posterior**: É possível ajustar a distribuição posteriormente através da função de edição de lote
-- **Mensagens de validação**: O sistema alertará sobre possíveis erros como "O lote com o número informado já existe"
-
-## Resultado Final
-
-Após a confirmação da entrada:
-
-1. O lote será adicionado ao estoque do item
-2. Cada unidade receberá um número de série único
-3. As quantidades serão distribuídas conforme configurado
-4. O sistema registrará a data de recebimento automaticamente
-
-## Próximos Passos
-
-Após adicionar o lote com sucesso, você pode:
-
-- [Visualizar os itens do lote](visualizar-items-lote.md) para verificar as unidades individuais
-- [Editar o lote](editar-lote.md) se necessário fazer ajustes
-- [Gerenciar a validade](gerenciar-validade.md) para controlar os prazos de vencimento
+</details>

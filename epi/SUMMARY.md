@@ -130,32 +130,38 @@
 * [Criar uma role](configuracoes-iniciais/usuarios/criar-role.md)
 * [Consultar as permissões](configuracoes-iniciais/usuarios/sistema-permissoes-roles.md)
 
-## Gestão de Estoque
+## Inventário
 
-* [Visão Geral](gestao-estoque/README.md)
+* [Inventário](gestao-estoque/README.md)
 
 ## Itens
 
-* [Visão Geral](gestao-estoque/itens/README.md)
-* [Listar Itens](gestao-estoque/itens/listar-itens.md)
-* [Criar Item com CA](gestao-estoque/itens/criar-item-com-ca.md)
-* [Criar Item sem CA](gestao-estoque/itens/criar-item-sem-ca.md)
-* [Editar Item](gestao-estoque/itens/editar-item.md)
-* [Desativar Item](gestao-estoque/itens/desativar-item.md)
+* [Inventário de itens](gestao-estoque/itens/README.md)
+* [Encontrar um item](gestao-estoque/itens/listar-itens.md)
+* [Cadastrar um EPI](gestao-estoque/itens/criar-item-com-ca.md)
+* [Cadastrar um produto sem CA](gestao-estoque/itens/criar-item-sem-ca.md)
+* [Editar um item](gestao-estoque/itens/editar-item.md)
+* [Inativar ou reativar um item](gestao-estoque/itens/desativar-item.md)
+* [Ver o estoque de um item](gestao-estoque/itens/estoque-atual.md)
+* [Dar entrada no estoque](gestao-estoque/itens/adicionar-lote.md)
+* [Importar estoque pela NF-e](gestao-estoque/itens/importar-nfe.md)
+* [Importar itens por CA](gestao-estoque/itens/importar-por-ca.md)
+* [Definir o estoque mínimo](gestao-estoque/itens/estoque-minimo.md)
+* [Fazer uma baixa manual](gestao-estoque/itens/baixa-manual.md)
 
 ## Variantes
 
-* [Visão Geral](gestao-estoque/variantes/README.md)
-* [Configurar Tipos de Variante](gestao-estoque/variantes/configurar-tipos-variante.md)
-* [Adicionar Valores de Variante](gestao-estoque/variantes/adicionar-valores-variante.md)
+* [Variantes](gestao-estoque/variantes/README.md)
+* [Criar uma variante](gestao-estoque/variantes/configurar-tipos-variante.md)
+* [Adicionar valores a uma variante](gestao-estoque/variantes/adicionar-valores-variante.md)
 
 ## Lotes
 
-* [Visão Geral](gestao-estoque/lotes/README.md)
-* [Adicionar Lote Item Com Variantes](gestao-estoque/lotes/adicionar-lote-com-variantes.md)
-* [Adicionar Lote Item Sem Variantes](gestao-estoque/lotes/adicionar-lote-sem-variantes.md)
-* [Alterar valores dos itens do lote](lotes/alterar-valores-itens-lote.md)
-* [Visualizar Itens do Lote](gestao-estoque/lotes/visualizar-items-lote.md)
+* [Lotes e entradas](gestao-estoque/lotes/README.md)
+* [Dar entrada de um item com variantes](gestao-estoque/lotes/adicionar-lote-com-variantes.md)
+* [Dar entrada de um item sem variantes](gestao-estoque/lotes/adicionar-lote-sem-variantes.md)
+* [Corrigir a nota fiscal de um lote](lotes/alterar-valores-itens-lote.md)
+* [Ver um lote](gestao-estoque/lotes/visualizar-items-lote.md)
 
 ## Solicitações
 

@@ -1,5 +1,6 @@
 ---
-icon: cart-plus
+description: Corrija a nota fiscal de um lote.
+icon: pen
 layout:
   width: default
   title:
@@ -13,80 +14,55 @@ layout:
   pagination:
     visible: true
   metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
     visible: true
 ---
 
-# Alterar valores dos itens do lote
+# Corrigir a nota fiscal de um lote
 
-## Alterar Custo Unitário do Lote
+**Para que serve:** corrigir ou remover a nota fiscal ligada a uma entrada de estoque.
 
-Esta página explica como atualizar o valor de custo unitário de um lote já cadastrado no Sistema GNRx Gestão de EPI.
+{% hint style="info" %}
+**Quem pode fazer:** Administrador, com a permissão de gerenciar o estoque de EPIs.
+{% endhint %}
 
-### Visão Geral
+## Antes de começar
 
-A funcionalidade de alteração de custo permite ajustar o valor unitário de todos os itens de um lote específico. Esta atualização afeta automaticamente:
+* Abra o [lote](../gestao-estoque/lotes/visualizar-items-lote.md).
 
-- **Itens unitários do lote**: Todos os itens com número de série deste lote
-- **Solicitações realizadas**: Solicitações que incluem itens deste lote
-- **Relatórios financeiros**: Inventário, custos por setor e dashboards
+## Passo a passo
 
-### Quando Utilizar
+{% stepper %}
+{% step %}
+### Edite
 
-- Correção de valores cadastrados incorretamente
+No lote, use **Editar Nota Fiscal** e digite o número (ex.: NF-12345). Salve.
+{% endstep %}
 
-### Como Alterar
+{% step %}
+### Ou remova
 
-#### 1. Acessar a Funcionalidade
+Use **Remover Nota Fiscal**. Aparece "Nota Fiscal removida do lote.".
+{% endstep %}
+{% endstepper %}
 
-1. Navegue até a página de detalhes do Item
-2. Localize a seção **Lotes**
-3. Na linha do lote desejado, clique no ícone **"Olho"** para visualizar detalhes.
-4. Na telha de detalhes do lote, **coloque o mouse em cima da seção "Custo Total". Será exibido um ícone de editar no canto superior direito.**
+## Dúvidas comuns
 
-<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+<details>
 
-#### 2. Preencher o Novo Valor
+<summary>Posso mudar o custo da entrada?</summary>
 
-O diálogo exibe:
+O custo é informado na entrada de estoque.
 
-- **Custo Atual**: Valor atual cadastrado (apenas visualização)
-- **Novo Custo**: Digite o novo valor
-  - Use vírgula para centavos (ex: 25,50)
-  - Campo obrigatório
-  - Use o botão "X" para limpar
+</details>
 
-  <figure><img src="../.gitbook/assets/image (75).png" alt="" width="382"><figcaption></figcaption></figure>
+<details>
 
-#### 3. Confirmar
+<summary>Onde vejo o lote?</summary>
 
-1. Clique em **Atualizar Custo**
-2. Aguarde o processamento
-3. O sistema exibirá: "X itens e Y solicitações atualizadas"
+Abra o item no inventário, em **Entradas de Estoque**.
 
-### Exemplo Prático
-
-**Cenário**: Correção de custo de R$ 8,00 para R$ 12,50
-
-1. Acesse o item "Luva de Proteção Nitrílica"
-2. Na seção de lotes, clique no ícone de edição do lote "CA0001-L42"
-3. Digite **12,50** no campo Novo Custo
-4. Clique em **Atualizar Custo**
-5. Resultado: "150 itens e 32 solicitações atualizadas"
-
-### Importantes
-
-- **Permissão necessária**: Gestor ou Administrador
-
-```rust
-epis:gerenciar:estoque
-```
-
-- **Performance**: Lotes grandes podem levar alguns segundos para processar
-
-### Validações
-
-O sistema valida:
-
-- Valor deve ser maior que zero
-- Valor deve ser diferente do atual
-- Formato monetário válido
+</details>

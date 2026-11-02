@@ -1,5 +1,6 @@
 ---
-icon: shirt
+description: Cadastre um produto simples, sem CA.
+icon: box
 layout:
   width: default
   title:
@@ -20,123 +21,63 @@ layout:
     visible: true
 ---
 
-# Criar Item sem CA
+# Cadastrar um produto sem CA
 
-Esta página explica como cadastrar um novo item sem Certificado de Aprovação (CA) no Sistema GNRX Gestão de EPI.
+**Para que serve:** cadastrar um item simples, sem CA (uniforme, ferramenta, máquina).
 
-## Visão Geral
+{% hint style="info" %}
+**Quem pode fazer:** Gestor ou Administrador, com a permissão de cadastrar novos itens de EPI.
+{% endhint %}
 
-Além dos EPIs certificados, o Sistema GNRX permite o cadastro de itens complementares que não possuem CA, como uniformes, calçados não certificados e acessórios. Estes itens, embora não sejam EPIs regulamentados pela NR-6, fazem parte do gerenciamento completo de equipamentos fornecidos aos colaboradores.
+## Antes de começar
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt="" width="373"><figcaption><p>Criar item sem CA</p></figcaption></figure>
+* O tipo de produto precisa existir em [Tipos de produtos](../../configuracoes-gerais/epis/adicionar-epi-catalogo.md).
 
-## Quando Utilizar esta Opção
+## Passo a passo
 
-O cadastro de itens sem CA é adequado para:
+{% stepper %}
+{% step %}
+### Clique em Novo Item
 
-- Uniformes e vestimentas profissionais (camisas, calças, jalecos)
-- Acessórios complementares não certificados
-- Itens importados sem certificação brasileira
-- Equipamentos de uso pessoal não classificados como EPIs
+Clique em **Inventário › Gerenciar Inventário** e depois em **Novo Item**. Escolha **Produto** (item simples, sem CA).
 
-## Acessando o Formulário
+<figure><img src="../../.gitbook/assets/inventario-criar-produto-01.png" alt="Janela Criar Produto com Nome, Categoria, Tipos de Produto e Unidade de Medida"><figcaption><p>Criar Produto</p></figcaption></figure>
+{% endstep %}
 
-Para criar um novo item sem CA:
+{% step %}
+### Preencha
 
-1. No menu lateral, clique em **Inventário**
-2. Selecione **Inventário de Items**
-3. Clique no botão **Novo Item** no canto superior direito da tela
+Informe o nome, a **Categoria**, os **Tipos de Produto** e a **Unidade de Medida** (**Inteiro**, **Uma casa** ou **Três casas** decimais).
+{% endstep %}
 
-## Preenchendo o Formulário
+{% step %}
+### Salve
 
-O modal "Criar Item" será exibido com os seguintes campos:
+Clique em **Salvar Produto**. Aparece "Produto criado com sucesso".
+{% endstep %}
+{% endstepper %}
 
-### 1. Informações Básicas
+## Deu errado?
 
-- **Nome**: Digite o nome completo do item (ex: "Uniforme - Calça")
-- **Número CA**: Mantenha o toggle (botão de alternância) desativado
-  - Este é o diferencial entre itens com e sem CA
-  - Quando desativado, o campo de CA e validade ficará indisponível
+| Mensagem na tela | O que fazer |
+| --- | --- |
+| "Categoria é obrigatória" | Escolha a categoria. |
+| "Selecione pelo menos um tipo de produto" | Escolha o tipo. |
 
-### 2. Classificação do Item (Opcional)
+## Dúvidas comuns
 
-- **EPI (NR-6)**: Você pode deixar este campo sem seleção ou selecionar a categoria mais próxima
-  - Para uniformes, não é necessário selecionar uma categoria específica
-  - A seleção não tem impacto regulatório para itens sem CA
+<details>
 
-### 3. Período de Troca (Opcional)
+<summary>Qual unidade de medida uso?</summary>
 
-- **Tempo de Troca (Dias)**: Este campo pode ser deixado desativado para itens sem período definido
-  - Para uniformes com trocas programadas, ative o toggle e defina um valor
-  - Exemplo: "180" para uniformes trocados semestralmente
+**Inteiro** para itens contados (1, 2, 5). Casas decimais para itens a granel (0,5 / 1,500).
 
-### 4. Informações do Fabricante e Complementares
+</details>
 
-- **Fabricante**:Selecione o fabricante (ex: "GNRx")
-- **Descrição (Opcional)**: Utilize este campo para informações complementares como:
-  - Características específicas
-  - Material de fabricação
-  - Finalidade de uso
-  - Requisitos especiais
+<details>
 
-## Salvando o Cadastro
+<summary>Tenho muitos produtos.</summary>
 
-Após preencher os campos desejados:
+Use **Ações › Importar Itens em Massa**.
 
-1. Verifique se as informações estão corretas
-2. Clique no botão **Salvar** no canto inferior direito do modal
-3. O sistema processará o cadastro e exibirá uma mensagem de confirmação
-4. O novo item será adicionado à lista com indicação "N/A" nos campos de CA e validade
-
-## Particularidades de Itens sem CA
-
-O sistema trata itens sem CA de maneira específica:
-
-- Os campos de CA e validade exibirão "N/A" na listagem
-- Não haverá avisos ou alertas de vencimento de CA
-- O controle de estoque funciona normalmente
-- É possível criar variantes (tamanhos, cores, etc.)
-- A rastreabilidade permanece ativa, com número de série para cada item
-
-## Exemplos de Itens sem CA na Listagem
-
-Na lista de itens, você pode identificar os cadastros sem CA por:
-
-- "N/A" no campo CA
-- "N/A" no campo Validade
-- Geralmente possuem "0 dias" no campo Tempo de Troca (a menos que configurado diferente)
-
-## Limitações Regulatórias
-
-É importante compreender que:
-
-- Itens sem CA não são considerados EPIs oficiais perante a legislação
-- Não são suficientes para atender requisitos legais de proteção
-- Não substituem EPIs certificados em funções de risco
-- Servem como complemento aos EPIs certificados
-
-## Adicionando ao Estoque
-
-Após o cadastro do item sem CA:
-
-1. [Adicione variantes](../variantes/configurar-tipos-variante.md) se necessário (tamanhos, cores)
-2. [Cadastre um lote](../lotes/adicionar-lote.md) para registrar a entrada no estoque
-3. Defina as quantidades disponíveis para cada variante
-
-## Controle Simplificado
-
-Para itens sem CA, o sistema permite um controle mais simplificado:
-
-- Período de troca opcional
-- Sem verificação de conformidade com normas
-- Possibilidade de cadastro simplificado de lotes
-- Flexibilidade na definição de características
-
-## Próximos Passos
-
-Após cadastrar um item sem CA com sucesso, você pode:
-
-1. [Configurar tipos de variante](../variantes/configurar-tipos-variante.md) como tamanho, cor, etc.
-2. [Cadastrar valores para as variantes](../variantes/adicionar-valores-variante.md)
-3. [Adicionar estoque](../lotes/adicionar-lote.md) para o novo item
-4. Verificar o [item na listagem](listar-itens.md) para confirmar o cadastro
+</details>

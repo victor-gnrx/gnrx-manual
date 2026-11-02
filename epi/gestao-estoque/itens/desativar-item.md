@@ -1,5 +1,6 @@
 ---
-icon: boxes-stacked
+description: Tire um item do inventário ou traga de volta.
+icon: ban
 layout:
   width: default
   title:
@@ -20,102 +21,50 @@ layout:
     visible: true
 ---
 
-# Desativar Item
+# Inativar ou reativar um item
 
-Esta página explica como desativar um item de EPI no Sistema GNRX Gestão de EPI.
+**Para que serve:** tirar da lista um item que não se usa mais, ou trazer de volta.
 
-## Visão Geral
+{% hint style="info" %}
+**Quem pode fazer:** Gestor ou Administrador, com a permissão de inativar itens de EPI.
+{% endhint %}
 
-A desativação de itens permite remover EPIs do catálogo ativo sem excluí-los permanentemente do sistema, preservando o histórico de uso e mantendo a integridade dos registros. Itens desativados não podem ser incluídos em novas solicitações, mas continuam visíveis para consulta e relatórios.
+## Antes de começar
 
-## Quando Desativar um Item
+* Confira se o item é mesmo o certo.
 
-É recomendado desativar itens nas seguintes situações:
+## Passo a passo
 
-- Quando o CA for definitivamente cancelado ou não renovado
-- Ao descontinuar o uso de determinado modelo de EPI
-- Para substituir por versões mais atualizadas do mesmo equipamento
-- Quando houver erro de cadastro e não for possível corrigir por edição
-- Para EPIs que não serão mais adquiridos pela empresa
+{% stepper %}
+{% step %}
+### Inative
 
-## Acessando a Função de Desativação
+Na lista, em **Opções**, use **Inativar Item** e confirme: "Tem certeza que deseja inativar este Item?". Aparece "Item excluído com sucesso!".
 
-Para desativar um item:
+<figure><img src="../../.gitbook/assets/inventario-inativar-01.png" alt="Janela Inativar Item com a pergunta de confirmação"><figcaption><p>Inativar Item</p></figcaption></figure>
+{% endstep %}
 
-1. No menu lateral, clique em **Inventário**
-2. Selecione **Inventário de Items**
-3. Localize o item que deseja desativar na lista
-4. Clique no ícone de lixeira (excluir) na coluna de opções
+{% step %}
+### Para reativar
 
-## Processo de Desativação
+Em **Opções**, use **Reativar item**. Aparece "Item reativado com sucesso!".
+{% endstep %}
+{% endstepper %}
 
-Ao clicar no ícone de exclusão:
+## Dúvidas comuns
 
-1. O sistema exibirá um diálogo de confirmação
-2. O diálogo informará as implicações da desativação
-3. Você deverá confirmar a ação clicando em **Desativar**
-4. O sistema processará a solicitação e mudará o status do item para "Inativo"
+<details>
 
-## Verificações de Segurança
+<summary>A mensagem diz "excluído". O item foi apagado?</summary>
 
-O sistema realiza verificações automáticas antes de permitir a desativação:
+Não. O item fica inativo e pode ser reativado.
 
-- **Itens com estoque em uso**: Não podem ser desativados até que todos os equipamentos sejam devolvidos
-- **Itens com solicitações pendentes**: Exigem tratamento das solicitações antes da desativação
-- **Itens com histórico extenso**: Receberão alertas adicionais sobre o impacto da desativação
+</details>
 
-## Efeitos da Desativação
+<details>
 
-Após desativar um item:
+<summary>Como acho um item inativo?</summary>
 
-- O status na lista de itens mudará para "Inativo"
-- O item não aparecerá mais nas opções de novas solicitações
-- Permanecerá visível nas consultas e relatórios históricos
-- Manterá seu estoque e dados para fins de rastreabilidade
-- Poderá ser reativado se necessário
+Pesquise pelo nome. O item inativo aparece com a opção **Reativar item**.
 
-## Reativando um Item
-
-Para reverter a desativação:
-
-1. Acesse a lista de itens
-2. Utilize o filtro para mostrar itens inativos (se não estiverem visíveis por padrão)
-3. Clique no item inativo para abrir seus detalhes
-4. Utilize a opção de reativação disponível na tela de detalhes
-
-## Melhores Práticas
-
-Para um gerenciamento eficiente:
-
-- Avalie cuidadosamente a necessidade de desativação
-- Notifique as equipes relevantes antes de desativar itens em uso
-- Documente o motivo da desativação para referência futura
-- Estabeleça um processo regular de revisão para itens obsoletos
-- Prefira a desativação à exclusão permanente para manter a integridade dos dados
-
-## Considerações Importantes
-
-### Impacto em Outros Módulos
-
-A desativação afeta:
-
-- **Solicitações**: Itens desativados não estarão disponíveis para novas solicitações
-- **Relatórios**: Continuarão aparecendo em análises históricas
-- **Ficha EPI Digital**: Permanecerão nos registros de entregas passadas
-
-### Alternativa à Desativação
-
-Em alguns casos, em vez de desativar completamente:
-
-- Considere atualizar a data de validade do CA
-- Defina estoque zero para impedir novas solicitações
-- Atualize a descrição indicando a situação do item
-
-## Próximos Passos
-
-Após desativar um item, recomenda-se:
-
-- Verificar a [lista de itens](listar-itens.md) para confirmar a mudança de status
-- Consultar [relatórios de estoque](../relatorios/estoque-atual.md) para verificar o impacto
-- Avaliar a necessidade de [cadastrar itens substitutos](criar-item-com-ca.md)
-- Revisar as [predefinições de período](../lotes/gerenciar-validade.md) que incluíam o item desativado
+</details>

@@ -1,5 +1,6 @@
 ---
-icon: boxes-stacked
+description: Corrija os dados de um item do inventário.
+icon: pen
 layout:
   width: default
   title:
@@ -20,96 +21,56 @@ layout:
     visible: true
 ---
 
-# Editar Item
+# Editar um item
 
-Esta página explica como editar as informações de um item existente no Sistema GNRX Gestão de EPI.
+**Para que serve:** corrigir os dados de um item: nome, CA, validade, tempo de troca, fabricante.
 
-## Visão Geral
+{% hint style="info" %}
+**Quem pode fazer:** Gestor ou Administrador, com a permissão de editar itens de EPI.
+{% endhint %}
 
-A edição de itens permite atualizar informações de EPIs já cadastrados no sistema, como correções de dados, atualização de certificados ou modificação de características e períodos de troca recomendados.
+## Antes de começar
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt="" width="373"><figcaption><p>Editar Item Modal</p></figcaption></figure>
+* [Encontre o item](listar-itens.md).
 
-## Acessando a Função de Edição
+## Passo a passo
 
-Para editar um item existente:
+{% stepper %}
+{% step %}
+### Abra a edição
 
-1. No menu lateral, clique em **Inventário**
-2. Selecione **Inventário de Items**
-3. Localize o item que deseja editar na lista
-4. Clique no ícone de lápis (editar) na coluna de opções
+Na lista, em **Opções**, abra a edição do item.
 
-Alternativamente:
+<figure><img src="../../.gitbook/assets/inventario-editar-01.png" alt="Janela de edição do item com os dados preenchidos"><figcaption><p>Editar item</p></figcaption></figure>
+{% endstep %}
 
-1. Acesse a tela de detalhes do item clicando no nome ou no ícone de visualização
-2. Clique no botão **Atualizar o Item** no canto superior direito
+{% step %}
+### Corrija e salve
 
-## Informações Editáveis
+Altere o que precisar e salve. Aparece "Item atualizado com sucesso!".
+{% endstep %}
+{% endstepper %}
 
-Ao editar um item, você pode modificar:
+## Deu errado?
 
-### Itens com CA:
+{% hint style="warning" %}
+**"Não é possível alterar com estoque cadastrado"**: o controle unitário não muda depois que o item tem estoque.
+{% endhint %}
 
-- **Nome**: Descrição principal do item
-- **Data de Validade**: Atualização da validade do CA
-- **Tempo de Troca**: Período recomendado para substituição
-- **Fabricante**: Nome do fabricante ou fornecedor
-- **Descrição**: Informações complementares sobre o item
+## Dúvidas comuns
 
-### Itens sem CA:
+<details>
 
-- **Nome**: Descrição principal do item
-- **Tempo de Troca**: Período opcional para substituição
-- **Fabricante**: Nome do fabricante ou fornecedor
-- **Descrição**: Informações complementares sobre o item
+<summary>O CA venceu. O que faço?</summary>
 
-## Limitações de Edição
+Atualize o número e a data de validade do CA.
 
-Alguns campos possuem restrições de edição:
+</details>
 
-- **Número do CA**: Não pode ser modificado após o cadastro inicial
-- **Classificação NR-6**: Não pode ser alterada se houver estoque vinculado
-- **Status Ativo/Inativo**: Alterado através da função específica de desativação
+<details>
 
-## Processo de Edição
+<summary>Posso mudar o tempo de troca?</summary>
 
-1. Faça as alterações necessárias nos campos editáveis
-2. Verifique cuidadosamente as informações atualizadas
-3. Clique no botão **Salvar** para confirmar as modificações
-4. O sistema validará as alterações e exibirá uma mensagem de confirmação
+Pode. Ou marque **Não possui tempo de troca**.
 
-## Considerações Importantes
-
-### Impacto em Outros Módulos
-
-A edição de itens pode afetar:
-
-- **Solicitações**: Alterações no nome podem impactar solicitações pendentes
-- **Relatórios**: Modificações afetarão análises e históricos
-- **Alertas**: Mudanças em datas de validade ou períodos de troca afetam notificações
-
-### Registro de Alterações
-
-O sistema mantém um histórico completo de edições:
-
-- Todas as modificações são registradas com data, hora e usuário responsável
-- É possível consultar o histórico de alterações para fins de auditoria
-- As mudanças não afetam dados históricos de entregas já realizadas
-
-## Melhores Práticas
-
-Para uma gestão eficiente:
-
-- Atualize prontamente informações obsoletas ou incorretas
-- Mantenha os períodos de troca alinhados com recomendações do fabricante
-- Documente na descrição o motivo de alterações significativas
-- Revise regularmente a precisão das informações cadastradas
-
-## Próximos Passos
-
-Após editar um item, você pode:
-
-- Verificar como o item aparece na [lista atualizada](listar-itens.md)
-- [Adicionar variantes](../variantes/configurar-tipos-variante.md) se necessário
-- Atualizar as [predefinições de período de troca](../lotes/gerenciar-validade.md)
-- Conferir se as alterações refletem corretamente nos [relatórios](../relatorios/estoque-atual.md)
+</details>

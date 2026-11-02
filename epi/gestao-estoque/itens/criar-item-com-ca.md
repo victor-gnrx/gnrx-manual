@@ -1,4 +1,5 @@
 ---
+description: Cadastre um EPI com CA, preenchendo pelo número do CA.
 icon: helmet-safety
 layout:
   width: default
@@ -20,106 +21,72 @@ layout:
     visible: true
 ---
 
-# Criar Item com CA
+# Cadastrar um EPI
 
-Esta página explica como cadastrar um novo item de EPI com Certificado de Aprovação (CA) no Sistema GNRX Gestão de EPI.
+**Para que serve:** cadastrar um EPI com Certificado de Aprovação (CA) no inventário.
 
-## Visão Geral
+{% hint style="info" %}
+**Quem pode fazer:** Gestor ou Administrador, com a permissão de cadastrar novos itens de EPI.
+{% endhint %}
 
-O cadastro de itens com CA é fundamental para a gestão adequada de Equipamentos de Proteção Individual que possuem certificação obrigatória conforme a NR-6. Este processo permite registrar todas as informações essenciais, incluindo número do certificado, fabricante, validade e período de troca recomendado.
+## Antes de começar
 
-![Criar Item com CA](<../../.gitbook/assets/image (29).png>)
+* Tenha o número do CA.
 
-## Acessando o Formulário
+## Passo a passo
 
-Para criar um novo item com CA:
+{% stepper %}
+{% step %}
+### Clique em Novo Item
 
-1. No menu lateral, clique em **Inventário**
-2. Selecione **Inventário de Items**
-3. Clique no botão **Novo Item** no canto superior direito da tela
+Clique em **Inventário › Gerenciar Inventário** e depois em **Novo Item**. Escolha **EPI** (equipamento com CA obrigatório).
 
-## Preenchendo o Formulário
+<figure><img src="../../.gitbook/assets/inventario-criar-epi-01.png" alt="Janela Criar EPI com Nome, Número CA, Data de Validade, EPI (NR-6), Tempo de Troca e Fabricante"><figcaption><p>Criar EPI</p></figcaption></figure>
+{% endstep %}
 
-O modal "Criar Item" será exibido com os seguintes campos:
+{% step %}
+### Preencha pelo CA (opcional)
 
-### 1. Informações Básicas
+Use **Buscar CA EPI**: digite o número do CA (mín. 3 dígitos). Aparece "Dados preenchidos automaticamente". Se o fabricante não existir, use **Criar Novo**.
+{% endstep %}
 
-- **Nome**: Digite o nome completo do EPI (ex: "Protetor Auditivo tipo concha L-320 C")
-- **Número CA**: Ative o toggle (botão de alternância) e digite o número do Certificado de Aprovação emitido pelo Ministério do Trabalho
-- **Data de Validade**: Selecione a data de validade do CA no formato DD/MM/AAAA
+{% step %}
+### Complete os dados
 
-### 2. Classificação do EPI
+Confira **Nome**, **Número CA**, **Data de Validade**, **EPI (NR-6)**, **Tempo de Troca (Dias)** e **Fabricante**. Escolha se rastreia cada unidade (**Controle Unitário**) ou só a quantidade, e se é **Sem devolução** (descartável).
+{% endstep %}
 
-- **EPI (NR-6)**: Selecione o tipo de EPI conforme a classificação da NR-6 no menu suspenso
-  - Esta seleção é obrigatória e determina a categoria oficial do equipamento
-  - Os EPIs são organizados conforme a parte do corpo que protegem (cabeça, membros superiores, etc.)
+{% step %}
+### Salve
 
-### 3. Período de Troca
+Clique em **Salvar EPI**. Aparece "EPI criado com sucesso".
+{% endstep %}
+{% endstepper %}
 
-- **Tempo de Troca (Dias)**: Ative o toggle e digite o período recomendado para substituição periódica do EPI em dias
-  - Exemplo: "180" para EPIs que devem ser substituídos a cada 6 meses
-  - Este valor será usado como referência para o sistema alertar sobre necessidades de substituição
+## Deu errado?
 
-### 4. Informações do Fabricante e Complementares
+| Mensagem na tela | O que fazer |
+| --- | --- |
+| "Selecione pelo menos um EPI (NR-6)" | Escolha o tipo de EPI. |
+| "Fabricante é obrigatório" | Escolha ou crie o fabricante. |
+| "Data de validade é obrigatória quando há número CA" | Informe a validade do CA. |
+| "Sem devolução não pode ser ativado com controle unitário" | Desligue um dos dois. |
+| "CA não encontrado" | Confira o número ou preencha à mão. |
 
-- **Fabricante**: Selecione o fabricante do EPI (ex: "GNRx")
-- **Descrição (Opcional)**: Campo para adicionar informações complementares como características, aplicações recomendadas ou observações importantes
+## Dúvidas comuns
 
-## Salvando o Cadastro
+<details>
 
-Após preencher todos os campos necessários:
+<summary>Tenho muitos EPIs para cadastrar.</summary>
 
-1. Verifique se as informações estão corretas, especialmente o número do CA e a data de validade
-2. Clique no botão **Salvar** no canto inferior direito do modal
-3. O sistema irá processar o cadastro e, se bem-sucedido, exibirá uma mensagem de confirmação
-4. O novo item será adicionado à lista de itens disponíveis
+Use **Ações › Importar Itens por CA**. Veja [Importar itens por CA](importar-por-ca.md).
 
-## Considerações Importantes
+</details>
 
-### Sobre o Número do CA
+<details>
 
-- O Certificado de Aprovação (CA) é emitido pelo Ministério do Trabalho e Emprego
-- Deve ser único e válido conforme registros oficiais
-- Pode ser verificado no site do Ministério do Trabalho
-- É obrigatório para todos os EPIs conforme a NR-6
+<summary>E depois de cadastrar?</summary>
 
-### Sobre a Data de Validade
+[Dê entrada no estoque](adicionar-lote.md).
 
-- Refere-se à validade do CA, não necessariamente à validade física do produto
-- Os lotes específicos podem ter datas de validade diferentes que serão gerenciadas separadamente
-- O sistema alertará sobre CAs próximos do vencimento
-
-### Sobre o Tempo de Troca
-
-- É utilizado como referência para substituição periódica
-- Pode ser definido conforme recomendação do fabricante ou normas internas
-- Não está necessariamente relacionado à validade do CA
-- Impacta diretamente no planejamento de estoque e orçamento
-
-## Próximos Passos
-
-Após cadastrar um item com sucesso, você pode:
-
-1. [Adicionar variantes](../variantes/configurar-tipos-variante.md) como tamanho, cor, etc.
-2. [Cadastrar um lote](../lotes/adicionar-lote.md) para registrar entrada no estoque
-3. Configurar [períodos de troca personalizados](../lotes/gerenciar-validade.md) por unidade
-4. Verificar o [item na listagem](listar-itens.md) para confirmar o cadastro
-
-## Verificação da Conformidade
-
-Para garantir a conformidade legal, é essencial verificar as seguintes informações:
-
-- O CA deve ser válido e estar dentro do prazo de validade
-- As informações do fabricante devem corresponder às do certificado oficial
-- O tipo de EPI selecionado deve estar de acordo com a classificação do CA
-
-## Edição Posterior
-
-Caso seja necessário corrigir informações após o cadastro:
-
-1. Localize o item na [lista de itens](listar-itens.md)
-2. Clique no ícone de edição (lápis) na coluna de opções
-3. Faça as alterações necessárias
-4. Salve as modificações
-
-> **Importante**: Algumas mudanças, como o número do CA, podem afetar a rastreabilidade e conformidade. Realize-as com cautela.
+</details>

@@ -1,4 +1,5 @@
 ---
+description: Os itens do inventário: EPIs com CA e outros produtos.
 icon: boxes-stacked
 layout:
   width: default
@@ -20,72 +21,18 @@ layout:
     visible: true
 ---
 
-# Visão Geral
+# Inventário de itens
 
-## Introdução
+**Para que serve:** cadastrar os itens que a empresa entrega (EPIs com CA e outros produtos), dar entrada no estoque e acompanhar.
 
-O módulo de Itens é o componente central da Gestão de Estoque no Sistema GNRX, permitindo o cadastro e gerenciamento de todos os tipos de Equipamentos de Proteção Individual (EPIs) e itens complementares utilizados na organização. Este módulo serve como base para todo o controle de inventário, solicitações e distribuição de equipamentos aos colaboradores.
+{% hint style="info" %}
+No módulo Gestão de EPIs, clique em **Inventário › Gerenciar Inventário**. O menu **Ações** tem as importações, as transferências e os relatórios.
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+## Comece por aqui
 
-## Função e Importância
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Cadastrar um EPI</strong></td><td>Com CA, pela busca automática.</td><td><a href="criar-item-com-ca.md">criar-item-com-ca.md</a></td></tr><tr><td><strong>Dar entrada no estoque</strong></td><td>Quantidade, lote e centro de estoque.</td><td><a href="adicionar-lote.md">adicionar-lote.md</a></td></tr></tbody></table>
 
-O gerenciamento de itens permite:
+## Tarefas do dia a dia
 
-- Manter um catálogo completo de EPIs disponíveis
-- Registrar informações essenciais como Certificados de Aprovação (CA)
-- Controlar prazos de validade e períodos de troca
-- Definir características específicas através de variantes
-- Facilitar a conformidade com a NR-6 e outras regulamentações
-
-## Tipos de Itens Suportados
-
-O sistema permite o cadastro de dois tipos principais de itens:
-
-1. **Itens com CA**: EPIs certificados pelo Ministério do Trabalho, com número de CA válido
-   - Equipamentos obrigatórios conforme a NR-6
-   - Itens com certificação e prazo de validade
-   - EPIs para proteção específica contra riscos ocupacionais
-2. **Itens sem CA**: Equipamentos complementares sem certificação oficial
-   - Uniformes e vestimentas profissionais
-   - Acessórios e complementos não certificados
-   - Itens de uso pessoal sem requisito de certificação
-
-## Informações Gerenciadas
-
-Para cada item cadastrado, o sistema armazena:
-
-- **Dados básicos**: Nome, descrição, fabricante
-- **Informações regulatórias**: Número do CA, validade, classificação NR-6
-- **Controle de ciclo de vida**: Período de troca recomendado
-- **Características específicas**: Através do sistema de variantes
-- **Informações de estoque**: Quantidade disponível, em uso e total
-
-## Integração com Outros Módulos
-
-O cadastro de itens se relaciona diretamente com:
-
-- **Lotes**: Para controle de entrada no estoque
-- **Variantes**: Para gerenciamento de características específicas
-- **Solicitações**: Para disponibilização de EPIs aos colaboradores
-- **Relatórios**: Para análise e gestão do inventário
-
-## Interface Principal
-
-A tela de listagem de itens apresenta:
-
-- **Total de itens cadastrados**: Contador no canto superior esquerdo
-- **Botões de ação**: Para adicionar novos itens e exportar relatórios
-- **Ferramentas de pesquisa**: Para localizar itens específicos
-- **Tabela de itens**: Com colunas para as principais informações
-- **Ações por item**: Opções para visualizar, editar ou inativar
-
-## Próximos Passos
-
-Para gerenciar efetivamente os itens no Sistema GNRX, consulte os seguintes guias:
-
-- [Listar Itens](listar-itens.md) - Como visualizar e filtrar itens cadastrados
-- [Criar Item com CA](criar-item-com-ca.md) - Como cadastrar EPIs certificados
-- [Criar Item sem CA](criar-item-sem-ca.md) - Como cadastrar itens complementares
-- [Editar Item](editar-item.md) - Como atualizar informações dos itens
-- [Desativar Item](desativar-item.md) - Como remover itens do catálogo ativo
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Encontrar um item</strong></td><td>Pesquise e veja os alertas.</td><td><a href="listar-itens.md">listar-itens.md</a></td></tr><tr><td><strong>Importar pela NF-e</strong></td><td>Entrada pelo XML da nota.</td><td><a href="importar-nfe.md">importar-nfe.md</a></td></tr><tr><td><strong>Estoque mínimo</strong></td><td>Alerta de estoque baixo.</td><td><a href="estoque-minimo.md">estoque-minimo.md</a></td></tr><tr><td><strong>Baixa manual</strong></td><td>Tire do estoque uma avaria.</td><td><a href="baixa-manual.md">baixa-manual.md</a></td></tr></tbody></table>
