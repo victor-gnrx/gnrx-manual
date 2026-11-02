@@ -4,6 +4,11 @@
 
 * [Introdução à Gestão de Acidentes](README.md)
 
+## Painel e Relatórios
+
+* [Ver o painel de acidentes](painel/ver-painel.md)
+* [Gerar um relatório de acidentes](relatorios/gerar-relatorio.md)
+
 ## Acesso
 
 * [Entrar no sistema](acesso/entrar-no-sistema.md)
@@ -68,11 +73,15 @@
 
 ## Configurações
 
+* [Ajustar as configurações gerais](configuracoes/configuracoes-gerais.md)
+* [Ajustar os catálogos](configuracoes/catalogos.md)
+* [Informar as horas-homem](configuracoes/horas-homem.md)
 * [Turnos](estruturas/turnos/README.md)
   * [Criar um turno](estruturas/turnos/criar-turno.md)
   * [Editar um turno](estruturas/turnos/editar-turno.md)
   * [Unir turnos](estruturas/turnos/unir-turnos.md)
   * [Inativar ou reativar um turno](estruturas/turnos/inativar-turno.md)
+* [Configurar o eSocial](configuracoes/esocial.md)
 
 ## Minha Empresa
 
