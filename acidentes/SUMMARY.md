@@ -55,6 +55,10 @@
 * [Encontrar uma ocorrência](ocorrencias/encontrar-ocorrencia.md)
 * [Fazer a triagem](ocorrencias/fazer-triagem.md)
 * [Investigar uma ocorrência](ocorrencias/investigar-ocorrencia.md)
+* [Registrar envolvidos e testemunhas](ocorrencias/envolvidos-e-testemunhas.md)
+* [Registrar o afastamento do acidentado](ocorrencias/registrar-afastamento.md)
+* [Anexar fotos e documentos](ocorrencias/anexar-arquivos.md)
+* [Lançar os custos do acidente](ocorrencias/lancar-custos.md)
 * [Mudar o status de uma ocorrência](ocorrencias/mudar-status.md)
 
 ## Configurações
