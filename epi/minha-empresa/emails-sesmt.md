@@ -31,6 +31,7 @@ layout:
 
 ## Antes de começar
 
+* A sua empresa precisa ter o módulo Gestão de EPIs. Sem ele, o bloco **E-mails SESMT** não aparece.
 * Tenha a lista de e-mails da equipe de segurança do trabalho.
 
 ## Passo a passo
@@ -45,7 +46,13 @@ No menu do usuário, clique em **Minha Empresa** e depois na aba **E-mails**.
 {% step %}
 ### Informe os e-mails
 
-Em **E-mails SESMT**, informe os e-mails que devem receber os avisos.
+Em **E-mails SESMT**, digite um e-mail no campo (ex.: sesmt@empresa.com.br) e clique em **Adicionar**. Aparece "E-mail adicionado.". Repita para cada e-mail. Não há botão de salvar: cada e-mail vale assim que é adicionado.
+
+Para tirar um e-mail, clique em remover ao lado dele. Aparece "E-mail removido destes alertas.".
+
+{% hint style="info" %}
+Se aparecer "Nenhum e-mail da empresa recebe estes alertas.", a lista está vazia e ninguém recebe os avisos.
+{% endhint %}
 
 <figure><img src="../.gitbook/assets/empresa-06-emails.png" alt="Aba E-mails com a lista E-mails SESMT preenchida"><figcaption><p>E-mails SESMT</p></figcaption></figure>
 {% endstep %}
@@ -57,9 +64,7 @@ Em **E-mails SESMT**, informe os e-mails que devem receber os avisos.
 
 <summary>Que avisos esses e-mails recebem?</summary>
 
-* Gestão de EPIs: CA inválido e validade.
-* Gestão de CIPA: avisos do módulo.
-* Gestão de Acidentes: avisos do módulo.
+Os avisos de CA inválido e de validade informada pelo fabricante, da Gestão de EPIs. A Gestão de CIPA e a Gestão de Acidentes usam a mesma lista para os avisos delas.
 
 </details>
 
