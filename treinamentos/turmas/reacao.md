@@ -26,7 +26,7 @@ layout:
 **Para que serve:** escolher o questionário que o colaborador responde no app ao fim da turma e ver as respostas, que são anônimas.
 
 {% hint style="info" %}
-**Quem pode fazer:** quem abre a turma.
+**Quem pode fazer:** para escolher o questionário, Supervisor, Gestor ou Administrador, com a permissão de editar turmas. Para ver as respostas, quem tem a permissão de ver turmas.
 {% endhint %}
 
 ## Antes de começar
@@ -47,7 +47,7 @@ Abra a turma e vá à aba **Reação**. Em **Questionário de reação da turma*
 {% step %}
 ### Veja as respostas
 
-Depois da conclusão, o questionário sai no app de cada aprovado. A aba mostra a **Média geral**, as respostas **Por pergunta** e os comentários.
+Depois da conclusão, a reação fica pendente para os aprovados no app do colaborador e no Portal do aluno (com CPF e PIN). Não há link sem login. A aba mostra a **Média geral**, as respostas **Por pergunta** e os comentários, sem o nome de ninguém.
 {% endstep %}
 {% endstepper %}
 

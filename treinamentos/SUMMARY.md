@@ -79,6 +79,17 @@
   * [Acompanhar os alunos](portal-do-aluno/acompanhar-alunos.md)
 * [Responder as dúvidas dos alunos](turmas/responder-duvidas.md)
 
+## Para o aluno
+
+* [Para o aluno](aluno/README.md)
+* [Entrar no portal de cursos](aluno/entrar-no-portal.md)
+* [Fazer um curso](aluno/fazer-um-curso.md)
+* [Fazer a prova](aluno/fazer-a-prova.md)
+* [Baixar o certificado](aluno/baixar-certificado.md)
+* [Tirar uma dúvida](aluno/tirar-duvida.md)
+* [Trocar o PIN](aluno/trocar-o-pin.md)
+* [Fazer o curso pelo link](aluno/curso-pelo-link.md)
+
 ## Configurações
 
 * [Turnos](estruturas/turnos/README.md)
