@@ -25,6 +25,8 @@ layout:
 
 **Para que serve:** definir quem recebe os avisos automáticos do GNRx.
 
+Os E-mails SESMT recebem os avisos gerais de SST da empresa; os e-mails da unidade recebem a operação do EPI daquela unidade; acidentes e treinamentos chegam aos dois. Os dois ficam no mesmo cadastro: SESMT é o e-mail sem unidade.
+
 {% hint style="info" %}
 **Quem pode fazer:** só o acesso Empresa (CNPJ).
 {% endhint %}
@@ -64,7 +66,9 @@ Se aparecer "Nenhum e-mail da empresa recebe estes alertas.", a lista está vazi
 
 <summary>Que avisos esses e-mails recebem?</summary>
 
-Os avisos de CA inválido e de validade informada pelo fabricante, da Gestão de EPIs. A Gestão de CIPA e a Gestão de Acidentes usam a mesma lista para os avisos delas.
+Os avisos gerais de SST da empresa: acidentes e ocorrências de todas as unidades; vencimento de treinamento, dúvidas do EAD e avaliação de eficácia; avisos da CIPA (estabilidade, denúncias, SIPAT, contratadas); CA inválido; validade informada pelo fabricante, quando o estoque não é de uma unidade; e documentos da empresa ou da contratada, quando o documento tem "notificar gestores da unidade" ligado.
+
+No módulo Gestão de EPIs, a página **Cadastrar os e-mails da unidade** (em **Estruturas › Unidades**) tem a tabela completa de quem recebe cada aviso.
 
 </details>
 
