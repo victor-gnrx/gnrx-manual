@@ -23,10 +23,14 @@ layout:
 
 # Definir os pré-requisitos do instrutor
 
-**Para que serve:** dizer quais treinamentos o instrutor precisa ter para ministrar este.
+**Para que serve:** registrar quais treinamentos o instrutor deve ter para ministrar este. É uma referência para quem monta as turmas.
 
 {% hint style="info" %}
-**Quem pode fazer:** Gestor ou Administrador, com a permissão de editar treinamentos.
+**Quem pode fazer:** qualquer usuário com o módulo Treinamentos que abre o treinamento no catálogo.
+{% endhint %}
+
+{% hint style="info" %}
+O GNRx não confere isso sozinho: ao escolher o instrutor da turma, verifique você mesmo se ele tem esses certificados, nas [qualificações do instrutor](../estruturas/instrutores/editar-instrutor.md).
 {% endhint %}
 
 ## Antes de começar
@@ -63,7 +67,7 @@ Clique em **Adicionar Pré-requisito**. Escolha o **Treinamento Pré-requisito**
 
 <summary>Qual a diferença entre obrigatório e recomendado?</summary>
 
-A lista mostra **Sim** para obrigatório e **Recomendado** para os outros.
+Marcado como **Obrigatório**, a lista mostra **Sim**. Desmarcado, mostra **Recomendado**.
 
 </details>
 

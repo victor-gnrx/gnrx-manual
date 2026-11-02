@@ -26,7 +26,7 @@ layout:
 **Para que serve:** cadastrar os módulos e tópicos do treinamento. Eles saem no certificado da turma.
 
 {% hint style="info" %}
-**Quem pode fazer:** Gestor ou Administrador, com a permissão de editar treinamentos.
+**Quem pode fazer:** qualquer usuário com o módulo Treinamentos que abre o treinamento no catálogo.
 {% endhint %}
 
 ## Antes de começar
