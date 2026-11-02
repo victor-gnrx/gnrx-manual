@@ -26,7 +26,7 @@ layout:
 **Para que serve:** definir as decisões que a NR-5 deixa para a empresa: eleição, apuração, avisos e treinamento. Valem para todas as unidades.
 
 {% hint style="info" %}
-**Quem pode fazer:** Gestor ou Administrador, com a permissão de editar as configurações da CIPA da empresa.
+**Quem pode fazer:** para abrir, quem tem a permissão de ver as unidades da CIPA. Para salvar: Gestor ou Administrador, com a permissão de editar as configurações da CIPA da empresa.
 {% endhint %}
 
 ## Antes de começar

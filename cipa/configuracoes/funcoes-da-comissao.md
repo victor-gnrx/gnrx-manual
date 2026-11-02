@@ -26,7 +26,7 @@ layout:
 **Para que serve:** dar às funções da comissão eleitoral os nomes que a empresa usa. Elas aparecem na ata.
 
 {% hint style="info" %}
-**Quem pode fazer:** Gestor ou Administrador, com a permissão de editar as configurações da CIPA da empresa.
+**Quem pode fazer:** para abrir, quem tem a permissão de ver os processos eleitorais. Para salvar: Gestor ou Administrador, com a permissão de editar as configurações da CIPA da empresa.
 {% endhint %}
 
 ## Antes de começar

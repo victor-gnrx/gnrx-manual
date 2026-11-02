@@ -26,7 +26,7 @@ layout:
 **Para que serve:** ver, numa tela, a situação da CIPA de cada unidade, os próximos prazos das eleições e as pendências.
 
 {% hint style="info" %}
-**Quem pode fazer:** quem abre o módulo Gestão de CIPA.
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de ver o painel da CIPA.
 {% endhint %}
 
 ## Antes de começar

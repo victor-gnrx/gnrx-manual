@@ -83,6 +83,10 @@
 * [Tratar uma denúncia](denuncias/tratar-denuncia.md)
 * [Fazer uma denúncia](denuncias/fazer-denuncia.md)
 
+## Verificação
+
+* [Verificar um documento da CIPA](verificacao/verificar-documento.md)
+
 ## Planos de ação
 
 * [Acompanhar um plano de ação](planos-acao/acompanhar-plano.md)
@@ -97,6 +101,7 @@
   * [Editar um turno](estruturas/turnos/editar-turno.md)
   * [Unir turnos](estruturas/turnos/unir-turnos.md)
   * [Inativar ou reativar um turno](estruturas/turnos/inativar-turno.md)
+* [Integrações](configuracoes/integracoes.md)
 
 ## Minha Empresa
 

@@ -26,7 +26,7 @@ layout:
 **Para que serve:** cadastrar os feriados da empresa, para os prazos da NR-5 contarem só dias úteis.
 
 {% hint style="info" %}
-**Quem pode fazer:** Gestor ou Administrador, com a permissão de editar os dados da CIPA da unidade e os feriados.
+**Quem pode fazer:** para abrir, quem tem a permissão de ver as unidades da CIPA. Para salvar: Gestor ou Administrador, com a permissão de editar os dados da CIPA da unidade e os feriados.
 {% endhint %}
 
 ## Antes de começar

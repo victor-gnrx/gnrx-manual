@@ -69,6 +69,7 @@
 * [Iniciar a turma](turmas/iniciar-turma.md)
 * [Registrar a presença](turmas/registrar-presenca.md)
 * [Gerar a lista de presença](turmas/gerar-lista-presenca.md)
+* [Verificar uma lista de presença](verificacao/verificar-lista.md)
 * [Concluir a turma](turmas/concluir-turma.md)
 * [Ajustar a turma](turmas/ajustar-turma.md)
 * [Acompanhar uma turma EAD](turmas/acompanhar-ead.md)
