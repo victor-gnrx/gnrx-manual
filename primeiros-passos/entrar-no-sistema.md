@@ -1,3 +1,26 @@
+---
+description: Acesse o GNRx com o seu usuário, o CPF ou o CNPJ da empresa.
+icon: right-to-bracket
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Entrar no sistema
 
 **Para que serve:** acessar o GNRx com o seu usuário ou com o acesso mestre da empresa.
@@ -76,7 +99,7 @@ Pode. Na aba **Usuário**, digite o CPF no campo **Usuário**.
 
 <summary>Por que o sistema sempre pede o código?</summary>
 
-O perfil Administrador sempre exige a verificação em duas etapas. Isso protege a sua conta.
+Quem tem o perfil Administrador sempre passa pela verificação em duas etapas. Além disso, a empresa pode ligar **MFA obrigatório** numa role própria. Aí todos com essa role passam a receber o código.
 
 </details>
 
