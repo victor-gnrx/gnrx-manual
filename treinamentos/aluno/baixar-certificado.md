@@ -53,10 +53,12 @@ Toque em **Baixar**.
 
 ## Deu errado?
 
-| Mensagem na tela | O que fazer |
+| Situação | O que fazer |
 | --- | --- |
+| "Sem arquivo" logo depois de concluir o curso | O PDF leva alguns segundos para ficar pronto (turma grande demora mais). Espere um pouco e abra de novo. |
+| "Sem arquivo" num **Certificado externo** | Ele foi cadastrado sem anexo e não terá arquivo. Peça o arquivo ao RH ou ao SESMT. |
+| "Sem arquivo" por muito tempo num certificado de turma ou do EAD | Peça ao RH ou ao SESMT para reemitir. |
 | "Nenhum certificado ainda" | Ao concluir um curso, o certificado aparece aqui. |
-| "Sem arquivo" | O arquivo ainda não está pronto. Tente mais tarde. |
 | "Não foi possível baixar o certificado. Tente de novo." | Confira a internet e tente de novo. |
 
 ## Dúvidas comuns

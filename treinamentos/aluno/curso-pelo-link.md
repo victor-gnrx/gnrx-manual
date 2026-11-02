@@ -23,7 +23,7 @@ layout:
 
 # Fazer o curso pelo link
 
-**Para que serve:** fazer o treinamento a distância pelo link que chegou por e-mail ou WhatsApp.
+**Para que serve:** fazer o treinamento a distância pelo link que chegou por e-mail ou WhatsApp. O link cobre o curso inteiro, sem login: módulos, progresso e prova.
 
 {% hint style="info" %}
 **Quem pode fazer:** o colaborador que recebeu o link.
@@ -79,6 +79,6 @@ O mais novo. Um envio novo substitui o link anterior.
 
 <summary>Preciso do PIN?</summary>
 
-Não. No link, só o CPF.
+Não. No link, só o CPF. A única coisa que não dá para fazer pelo link é a [avaliação do treinamento](responder-reacao.md), que é no aplicativo.
 
 </details>

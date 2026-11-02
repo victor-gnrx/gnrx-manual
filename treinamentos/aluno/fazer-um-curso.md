@@ -75,6 +75,10 @@ Aparece "Módulo concluído.". Toque em **Próximo módulo**. No fim, toque em *
 | "Este navegador não dá acesso à câmera. Abra o link no Chrome ou no Safari." | Abra o portal no Chrome ou no Safari. |
 | "Não foi possível abrir a câmera. Permita o acesso à câmera nas configurações do navegador e tente de novo." | Permita a câmera nas configurações do navegador e tente de novo. |
 | "Sem acesso a este curso" | Fale com o RH. |
+| "A empresa exige reconhecimento facial: envie a foto." | Tire a foto para continuar. |
+| "Cadastre o reconhecimento facial antes de continuar." | Peça ao RH ou ao SESMT para cadastrar o seu rosto. |
+| "O rosto não corresponde ao colaborador." | Tire de novo, com boa luz, o rosto inteiro no quadro e sem boné nem óculos escuros. Pode tentar quantas vezes precisar. |
+| "Falha na verificação facial" | Tente de novo daqui a pouco. |
 
 ## Dúvidas comuns
 
@@ -90,6 +94,6 @@ Pode. Abra o curso de novo. A fileira "Continuar assistindo" ajuda a achar.
 
 <summary>Por que pede foto?</summary>
 
-Alguns cursos pedem uma foto antes do módulo ou da prova, para confirmar que é você quem está fazendo o curso.
+Para confirmar que é você quem faz o curso. A foto é comparada com o cadastro do seu rosto. Ela só é pedida quando a empresa liga essa exigência.
 
 </details>
