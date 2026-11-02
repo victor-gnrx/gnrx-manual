@@ -68,6 +68,15 @@
 * [Analisar os documentos enviados](analise/analisar-documento.md)
 * [Manter os documentos da empresa em dia](titulares/documentos-da-empresa.md)
 * [Pedir uma liberação excepcional](liberacoes/solicitar-liberacao.md)
+* [Convidar a contratada para o portal](portal-contratada/convidar-contratada.md)
+
+## Portal da contratada
+
+* [Portal da contratada](portal-contratada/README.md)
+* [Aceitar o convite e entrar](portal-contratada/aceitar-convite.md)
+* [Cadastrar a equipe](portal-contratada/cadastrar-colaboradores.md)
+* [Enviar um documento pelo portal](portal-contratada/enviar-documentos.md)
+* [Proteger a conta do portal](portal-contratada/minha-conta.md)
 
 ## Planos de ação
 
