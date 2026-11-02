@@ -109,7 +109,12 @@
 * [Configurar os avisos de vencimento](configuracoes/avisos-de-vencimento.md)
 * [Configurar as regras do módulo](configuracoes/regras-do-modulo.md)
 * [Criar um questionário](configuracoes/questionarios.md)
-* [Definir as avaliações de um treinamento](configuracoes/avaliacoes-do-treinamento.md)
+* [Entender as roles](estruturas/usuarios/o-que-sao-roles.md)
+* [Cadastrar um tipo de treinamento](configuracoes/tipos-de-treinamento.md)
+  * [Cadastrar o conteúdo programático](configuracoes/conteudo-programatico.md)
+  * [Definir os pré-requisitos do instrutor](configuracoes/prerequisitos-instrutor.md)
+  * [Definir as avaliações de um treinamento](configuracoes/avaliacoes-do-treinamento.md)
+* [Cadastrar uma instituição certificadora](configuracoes/instituicoes-certificadoras.md)
 * [Integrações](configuracoes/integracoes.md)
 
 ## Minha Empresa
