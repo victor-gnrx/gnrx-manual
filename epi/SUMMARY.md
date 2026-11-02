@@ -105,6 +105,13 @@
 * [Editar uma empresa terceira](configuracoes-iniciais/terceiros/editar-terceiro.md)
 * [Inativar ou reativar uma empresa terceira](configuracoes-iniciais/terceiros/inativar-terceiro.md)
 
+## Lavanderias, centros e grupos
+
+* [Cadastrar uma lavanderia](configuracoes-iniciais/lavanderias/cadastrar-lavanderia.md)
+* [Cadastrar um centro de custo](configuracoes-iniciais/centros-de-custo/cadastrar-centro-custo.md)
+* [Cadastrar um centro de estoque](configuracoes-iniciais/centros-de-estoque/cadastrar-centro-estoque.md)
+* [Criar um grupo de estoque](configuracoes-iniciais/grupos-estoque/criar-grupo-estoque.md)
+
 ## Reconhecimento Facial
 
 * [Reconhecimento facial](configuracoes-iniciais/reconhecimento-facial/README.md)
