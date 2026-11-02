@@ -1,5 +1,5 @@
 ---
-description: Dê entrada de estoque de um item: quantidade, custo e centro de estoque.
+description: "Dê entrada de estoque de um item: quantidade, custo e centro de estoque."
 icon: circle-plus
 layout:
   width: default

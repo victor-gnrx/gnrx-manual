@@ -1,5 +1,5 @@
 ---
-description: Para o colaborador: como fazer os cursos pelo celular.
+description: "Para o colaborador: como fazer os cursos pelo celular."
 icon: user-graduate
 layout:
   width: default

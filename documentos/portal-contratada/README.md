@@ -1,5 +1,5 @@
 ---
-description: Para a empresa terceira: como enviar os documentos pedidos pela contratante.
+description: "Para a empresa terceira: como enviar os documentos pedidos pela contratante."
 icon: handshake
 layout:
   width: default

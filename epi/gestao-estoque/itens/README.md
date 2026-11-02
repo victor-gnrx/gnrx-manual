@@ -1,5 +1,5 @@
 ---
-description: Os itens do inventário: EPIs com CA e outros produtos.
+description: "Os itens do inventário: EPIs com CA e outros produtos."
 icon: boxes-stacked
 layout:
   width: default

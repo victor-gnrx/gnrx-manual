@@ -1,5 +1,5 @@
 ---
-description: O inventário de EPIs e produtos: itens, entradas, variantes e lotes.
+description: "O inventário de EPIs e produtos: itens, entradas, variantes e lotes."
 icon: boxes-stacked
 layout:
   width: default
