@@ -30,6 +30,7 @@ Padrão obrigatório para toda página nova ou revisada. O leitor é leigo e tem
 9. **Estrutura.**
    - Há uma pasta por módulo (`epi/`, `auditorias/`, `formularios/`...).
    - As páginas comuns (acesso, usuários, roles, unidades, setores, cargos, GHE e colaboradores) têm o original em `epi/`. Os outros módulos as incluem com `{% include "../../../epi/..." %}`, como em `auditorias/web/estrutura/sistema-permissoes-roles.md`.
+   - A página de include tem **sempre** o mesmo nome de arquivo do original, para os links relativos funcionarem.
    - O `SUMMARY.md` de cada módulo segue a ordem do menu do app.
    - O `README.md` de cada módulo tem cards (`<table data-view="cards">`) em duas seções: "Comece por aqui" e "Tarefas do dia a dia".
 10. **Fora do manual.** Não documente:

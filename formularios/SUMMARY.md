@@ -20,7 +20,7 @@
 
 * [Introdução ao Sistema Web](sistema-web/introducao-ao-sistema-web.md)
 * [Entrar no sistema](sistema-web/acesso/entrar-no-sistema.md)
-* [Recuperar a senha](sistema-web/acesso/recuperar-senha.md)
+* [Recuperar a senha](sistema-web/acesso/esqueci-minha-senha.md)
 * [Estruturas](sistema-web/estruturas/README.md)
   * [Usuários](sistema-web/estruturas/usuarios.md)
   * [Unidades](sistema-web/estruturas/unidades.md)
