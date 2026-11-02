@@ -49,7 +49,6 @@
     * [Criar uma unidade](sistema-web/estruturas/unidades/criar-unidade.md)
     * [Editar uma unidade](sistema-web/estruturas/unidades/editar-unidade.md)
     * [Inativar uma unidade](sistema-web/estruturas/unidades/desativar-unidade.md)
-  * [Setores](sistema-web/estruturas/setores.md)
 * [Painel (Dashboard)](sistema-web/painel-dashboard.md)
 * [Modelos de Formulários](sistema-web/modelos-de-formularios/README.md)
   * [Criar Modelo](sistema-web/modelos-de-formularios/criar-modelo.md)

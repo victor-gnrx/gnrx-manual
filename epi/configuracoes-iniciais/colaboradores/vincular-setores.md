@@ -46,7 +46,7 @@ Clique em **Estruturas › Colaboradores**. Na coluna **Ações**, abra o menu e
 {% step %}
 ### Adicione o setor
 
-Na unidade, clique em **Setor**. Na janela **Associar setor**, escolha o setor e confirme. Aparece "Setor associado com sucesso".
+Na unidade, clique em **Setor**. Na janela **Associar setor**, escolha o setor e clique em **Associar**. Aparece "Setor associado com sucesso".
 
 <figure><img src="../../.gitbook/assets/colaboradores-setor-01.png" alt="Unidade do colaborador com os botões Setor e Cargo e a janela Associar setor aberta"><figcaption><p>Associar setor</p></figcaption></figure>
 {% endstep %}
@@ -54,7 +54,7 @@ Na unidade, clique em **Setor**. Na janela **Associar setor**, escolha o setor e
 {% step %}
 ### Adicione o cargo
 
-No setor, clique em **Cargo**. Na janela **Associar cargo**, escolha o cargo e confirme. Aparece "Cargo associado com sucesso".
+No setor, clique em **Cargo**. Na janela **Associar cargo**, escolha o cargo e clique em **Associar**. Aparece "Cargo associado com sucesso".
 {% endstep %}
 {% endstepper %}
 

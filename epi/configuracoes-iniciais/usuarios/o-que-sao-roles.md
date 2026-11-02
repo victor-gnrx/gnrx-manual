@@ -32,7 +32,7 @@ layout:
 ## Antes de começar
 
 * Uma **role** é um pacote de permissões. Você dá uma role ao usuário e ele ganha tudo o que está nela.
-* As roles ficam em **Configurações › Roles**, dentro de qualquer módulo.
+* As roles ficam em **Configurações › Roles & Permissões**, dentro de qualquer módulo.
 
 <figure><img src="../../.gitbook/assets/usuarios-roles-01.png" alt="Tela de roles com a chave Incluir roles do sistema ligada, mostrando roles com os selos Sistema e Customizada"><figcaption><p>Tela de roles</p></figcaption></figure>
 

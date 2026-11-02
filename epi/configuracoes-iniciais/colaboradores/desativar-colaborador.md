@@ -56,7 +56,7 @@ Clique em **Estruturas › Colaboradores**. Na coluna **Ações**, abra o menu e
 {% step %}
 ### Confirme
 
-Clique em **Desligar colaborador** ou **Afastar colaborador**. Aparece "Colaborador inativado com sucesso!".
+Digite o nome em **Digite o nome do colaborador para confirmar**. Clique em **Desligar colaborador** ou **Afastar colaborador**. Aparece "Colaborador inativado com sucesso!".
 {% endstep %}
 
 {% step %}
@@ -68,14 +68,14 @@ Filtre por **Inativos** ou **Afastados**. Na coluna **Ações**, abra o menu e c
 
 ## Deu errado?
 
-O sistema pode mostrar avisos antes de confirmar:
+Se houver pendência, o sistema mostra um aviso antes de concluir:
 
 | Mensagem na tela | O que fazer |
 | --- | --- |
-| "Este funcionário possui itens em aberto..." | Os itens continuam no histórico. Digite o nome do colaborador e clique em **Confirmar mesmo assim**. |
-| "Este funcionário possui treinamentos em andamento..." | Os treinamentos continuam no histórico. Digite o nome e clique em **Confirmar mesmo assim**. |
-| "Este funcionário tem estabilidade da CIPA..." | A dispensa sem justa causa é proibida. Escreva a **Justificativa do desligamento** e clique em **Justificar e desligar**, ou clique em **Manter colaborador**. |
-| "Este funcionário tem estabilidade acidentária..." | Mesma coisa: justifique ou clique em **Manter colaborador**. |
+| "Este funcionário possui itens em aberto. Ao inativar, os itens continuarão registrados no histórico mas o funcionário não será considerado em novos relatórios." | Se quiser seguir, clique em **Confirmar mesmo assim**. |
+| "Este funcionário possui treinamentos em andamento. Ao inativar, os treinamentos continuarão no histórico." | Se quiser seguir, clique em **Confirmar mesmo assim**. |
+| "Este funcionário tem estabilidade da CIPA. A dispensa sem justa causa é proibida (NR-5 5.4.12)." | Escreva a justificativa (ex.: "Desligamento por justa causa (art. 482 da CLT)") e clique em **Justificar e desligar**. Ou clique em **Manter colaborador**. |
+| "Este funcionário tem estabilidade acidentária. A dispensa sem justa causa é proibida por 12 meses após o retorno do afastamento (Lei 8.213/91, art. 118)." | Mesma coisa: justifique e clique em **Justificar e desligar**, ou clique em **Manter colaborador**. |
 
 ## Dúvidas comuns
 
