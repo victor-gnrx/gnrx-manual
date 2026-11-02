@@ -106,6 +106,11 @@
   * [Editar um turno](estruturas/turnos/editar-turno.md)
   * [Unir turnos](estruturas/turnos/unir-turnos.md)
   * [Inativar ou reativar um turno](estruturas/turnos/inativar-turno.md)
+* [Configurar os avisos de vencimento](configuracoes/avisos-de-vencimento.md)
+* [Configurar as regras do módulo](configuracoes/regras-do-modulo.md)
+* [Criar um questionário](configuracoes/questionarios.md)
+* [Definir as avaliações de um treinamento](configuracoes/avaliacoes-do-treinamento.md)
+* [Integrações](configuracoes/integracoes.md)
 
 ## Minha Empresa
 
