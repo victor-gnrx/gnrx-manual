@@ -47,7 +47,7 @@ Abra a turma e vá à aba **Reação**. Em **Questionário de reação da turma*
 {% step %}
 ### Veja as respostas
 
-Depois da conclusão, a reação fica pendente para os aprovados no app do colaborador e no Portal do aluno (com CPF e PIN). Não há link sem login. A aba mostra a **Média geral**, as respostas **Por pergunta** e os comentários, sem o nome de ninguém.
+Depois da conclusão, os aprovados respondem no aplicativo GNRx Colaborador, em **Pendências › Avaliação**. Veja [Responder a avaliação do treinamento](../aluno/responder-reacao.md). A aba mostra a **Média geral**, as respostas **Por pergunta** e os comentários, sem o nome de ninguém.
 {% endstep %}
 {% endstepper %}
 
