@@ -109,7 +109,6 @@
 * [Configurar os avisos de vencimento](configuracoes/avisos-de-vencimento.md)
 * [Configurar as regras do módulo](configuracoes/regras-do-modulo.md)
 * [Criar um questionário](configuracoes/questionarios.md)
-* [Entender as roles](estruturas/usuarios/o-que-sao-roles.md)
 * [Cadastrar um tipo de treinamento](configuracoes/tipos-de-treinamento.md)
   * [Cadastrar o conteúdo programático](configuracoes/conteudo-programatico.md)
   * [Definir os pré-requisitos do instrutor](configuracoes/prerequisitos-instrutor.md)
