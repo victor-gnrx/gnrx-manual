@@ -72,7 +72,8 @@ Aparece "Módulo concluído.". Toque em **Próximo módulo**. No fim, toque em *
 | "Este módulo libera quando você concluir o anterior." | Termine o módulo anterior. |
 | "O vídeo parou de carregar. Volte aos módulos e abra de novo." | Toque em **Voltar aos módulos** e abra o módulo de novo. |
 | "Este navegador não toca o vídeo..." | Abra o portal no Chrome ou no Safari. |
-| "Não foi possível abrir a câmera..." | Permita a câmera nas configurações do navegador e tente de novo. |
+| "Este navegador não dá acesso à câmera. Abra o link no Chrome ou no Safari." | Abra o portal no Chrome ou no Safari. |
+| "Não foi possível abrir a câmera. Permita o acesso à câmera nas configurações do navegador e tente de novo." | Permita a câmera nas configurações do navegador e tente de novo. |
 | "Sem acesso a este curso" | Fale com o RH. |
 
 ## Dúvidas comuns
@@ -89,6 +90,6 @@ Pode. Abra o curso de novo. A fileira "Continuar assistindo" ajuda a achar.
 
 <summary>Por que pede foto?</summary>
 
-Alguns cursos pedem uma foto antes do módulo ou da prova, para confirmar que é você.
+Alguns cursos pedem uma foto antes do módulo ou da prova, para confirmar que é você quem está fazendo o curso.
 
 </details>

@@ -95,6 +95,7 @@
 * [Fazer a prova](aluno/fazer-a-prova.md)
 * [Baixar o certificado](aluno/baixar-certificado.md)
 * [Tirar uma dúvida](aluno/tirar-duvida.md)
+* [Responder a avaliação do treinamento](aluno/responder-reacao.md)
 * [Trocar o PIN](aluno/trocar-o-pin.md)
 * [Fazer o curso pelo link](aluno/curso-pelo-link.md)
 
