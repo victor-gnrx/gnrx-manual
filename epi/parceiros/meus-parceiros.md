@@ -58,7 +58,7 @@ Em **Solicitações Pendentes**, escolha:
 {% step %}
 ### Ajuste ou revogue um acesso
 
-Na lista de parceiros, clique em **Gerenciar Permissões** para mudar o que o parceiro pode fazer. Para tirar o acesso, clique em **Revogar Acesso**, escreva um motivo se quiser e confirme. O parceiro será notificado por e-mail.
+Na lista de parceiros, clique em **Gerenciar Permissões** para mudar o que o parceiro pode fazer. Para tirar o acesso, clique em **Revogar Acesso**. Escreva um motivo, se quiser, e clique em **Revogar Acesso** de novo para confirmar. O parceiro será notificado por e-mail.
 
 <figure><img src="../.gitbook/assets/parceiros-03-revogar.png" alt="Janela Revogar Acesso com o campo de motivo opcional e o aviso de que o parceiro será notificado por email"><figcaption><p>Revogar acesso</p></figcaption></figure>
 {% endstep %}

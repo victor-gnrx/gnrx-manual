@@ -48,7 +48,7 @@ layout:
 {% step %}
 ### Configure o aplicativo autenticador
 
-Em **Aplicativo autenticador (TOTP)**, clique em **Configurar aplicativo autenticador**. Abra o aplicativo no celular e escaneie o QR code. Digite os 6 dígitos que aparecem no aplicativo e clique em **Confirmar código**.
+Em **Aplicativo autenticador (TOTP)**, clique em **Configurar**. Abre a janela **Configurar aplicativo autenticador**. Abra o aplicativo no celular, escaneie o QR code e clique em **Continuar**. Digite os 6 dígitos que aparecem no aplicativo e clique em **Confirmar código**.
 
 Não consegue escanear? Clique em **Não consigo escanear o QR code** e digite o código no aplicativo.
 
@@ -58,11 +58,15 @@ Não consegue escanear? Clique em **Não consigo escanear o QR code** e digite o
 {% step %}
 ### Ou configure o código por e-mail
 
-Em **Código por e-mail**, comece a configuração. Aparece "Enviamos um código de verificação para o seu e-mail". Digite o código para confirmar. A partir daí, você recebe um código a cada login.
+Em **Código por e-mail**, clique em **Configurar**. Abre a janela **Configurar verificação por e-mail**, com o aviso "Enviamos um código de verificação para o seu e-mail". Digite o código e clique em **Confirmar**. A partir daí, você recebe um código a cada login.
 
 <figure><img src="../.gitbook/assets/mfa-03-email.png" alt="Tela com a mensagem Enviamos um código de verificação para o seu e-mail e o campo do código"><figcaption><p>Código por e-mail</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
+
+{% hint style="info" %}
+Parou no meio? O botão vira **Continuar configuração**. Clique nele para terminar.
+{% endhint %}
 
 ## Dúvidas comuns
 

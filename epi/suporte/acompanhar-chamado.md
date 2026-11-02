@@ -26,7 +26,7 @@ layout:
 **Para que serve:** ver o andamento de um chamado, responder ao suporte e fechar ou cancelar o chamado.
 
 {% hint style="info" %}
-**Quem pode fazer:** todas as roles (Operador, Supervisor, Gestor e Administrador), com as permissões de ver, comentar e fechar chamados de suporte.
+**Quem pode fazer:** todas as roles (Operador, Supervisor, Gestor e Administrador), com as permissões de ver, comentar, fechar e avaliar chamados de suporte.
 {% endhint %}
 
 ## Antes de começar
@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Encontre o chamado
 
-No menu do usuário, clique em **Suporte › Meus Chamados**. Digite em **Buscar por código ou título...** ou use os filtros **Status** e **Categoria**. Clique no chamado.
+No menu do usuário, clique em **Suporte**. Digite em **Buscar por código ou título...** ou use os filtros **Status** e **Categoria**. Clique no chamado.
 
 <figure><img src="../.gitbook/assets/suporte-05-busca.png" alt="Lista Meus Chamados filtrada pela busca e pelos filtros Status e Categoria"><figcaption><p>Busca de chamados</p></figcaption></figure>
 {% endstep %}
@@ -47,16 +47,24 @@ No menu do usuário, clique em **Suporte › Meus Chamados**. Digite em **Buscar
 {% step %}
 ### Responda o suporte
 
-No chamado, escreva o seu comentário e envie.
+Escreva em **Escreva sua mensagem...** e clique em **Enviar**.
 
-<figure><img src="../.gitbook/assets/suporte-06-chamado.png" alt="Chamado aberto com os comentários e os botões Fechar chamado e Cancelar chamado"><figcaption><p>Chamado aberto</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/suporte-06-chamado.png" alt="Chamado aberto com os comentários, o campo Escreva sua mensagem e o botão Enviar"><figcaption><p>Chamado aberto</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Feche ou cancele
 
-* Problema resolvido? Clique em **Fechar chamado**. Aparece "Chamado fechado com sucesso.".
-* Não precisa mais de ajuda? Clique em **Cancelar chamado**. Aparece "Chamado cancelado.".
+* **Cancelar chamado** só aparece enquanto o chamado está Aberto e ninguém da GNRx assumiu. Aparece "Chamado cancelado.".
+* **Fechar chamado** só aparece quando o chamado está Resolvido. Aparece "Chamado fechado com sucesso.".
+{% endstep %}
+
+{% step %}
+### Avalie o atendimento
+
+Com o chamado Resolvido ou Fechado, dê uma nota de 1 a 5 estrelas. Se quiser, escreva em **Conte como foi o atendimento...**. Clique em **Enviar avaliação**.
+
+<figure><img src="../.gitbook/assets/suporte-07-avaliar.png" alt="Janela de avaliação com as estrelas de 1 a 5, o comentário e o botão Enviar avaliação"><figcaption><p>Avaliar o atendimento</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -67,6 +75,14 @@ No chamado, escreva o seu comentário e envie.
 <summary>Como acho um chamado antigo?</summary>
 
 Use **Buscar por código ou título...** ou o filtro **Status**.
+
+</details>
+
+<details>
+
+<summary>Posso comentar num chamado fechado?</summary>
+
+Não. Chamado Fechado ou Cancelado fica encerrado e não aceita mais comentários. Se precisar, abra outro.
 
 </details>
 

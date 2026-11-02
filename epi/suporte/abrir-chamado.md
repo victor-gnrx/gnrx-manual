@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Abra os seus chamados
 
-No menu do usuário, clique em **Suporte › Meus Chamados**. Clique em **Abrir chamado de suporte**.
+No menu do usuário, clique em **Suporte**. Abre **Suporte / Meus Chamados**. Clique em **Abrir chamado de suporte**.
 
 <figure><img src="../.gitbook/assets/suporte-01-meus-chamados.png" alt="Tela Meus Chamados com a busca, os filtros Status e Categoria e o botão Abrir chamado de suporte"><figcaption><p>Meus Chamados</p></figcaption></figure>
 {% endstep %}
