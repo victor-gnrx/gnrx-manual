@@ -26,7 +26,7 @@ layout:
 **Para que serve:** cadastrar um treinamento no catálogo (ex.: NR-35), com carga, validade e categoria. As turmas e os cursos EAD saem dele.
 
 {% hint style="info" %}
-**Quem pode fazer:** Gestor ou Administrador, com a permissão de cadastrar treinamentos.
+**Quem pode fazer:** Gestor ou Administrador, com a permissão de criar treinamentos (para editar, a de editar treinamentos).
 {% endhint %}
 
 ## Antes de começar
@@ -79,7 +79,7 @@ Clique em **Criar**. Aparece "Tipo de treinamento criado com sucesso!". Na ediç
 
 <summary>Como tiro um treinamento do catálogo?</summary>
 
-Na lista, clique em **Inativar** e confirme em **Inativar Treinamento**. "O tipo não aparecerá mais na lista." Para trazer de volta, filtre **Inativos** e clique em **Reativar**.
+Na lista, clique em **Inativar** e confirme em **Inativar Treinamento**. "O tipo não aparecerá mais na lista." Para trazer de volta, filtre **Inativos** e clique em **Reativar**. Inativar e reativar usam a mesma permissão: inativar treinamentos (Gestor e Administrador).
 
 </details>
 
@@ -87,7 +87,7 @@ Na lista, clique em **Inativar** e confirme em **Inativar Treinamento**. "O tipo
 
 <summary>E as categorias?</summary>
 
-Clique em **Ver Categorias** para organizar os treinamentos por categoria.
+Clique em **Ver Categorias** para organizar os treinamentos por categoria. Criar, editar e inativar categorias têm permissões próprias; inativar é só do Administrador.
 
 </details>
 

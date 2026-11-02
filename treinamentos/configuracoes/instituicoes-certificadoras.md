@@ -26,7 +26,7 @@ layout:
 **Para que serve:** cadastrar quem emite certificados (ex.: SENAI), para usar ao anexar certificados.
 
 {% hint style="info" %}
-**Quem pode fazer:** Gestor ou Administrador, com a permissão de criar instituições certificadoras. Para inativar: Administrador.
+**Quem pode fazer:** Gestor ou Administrador, com a permissão de criar instituições certificadoras. Para inativar ou reativar: só o Administrador.
 {% endhint %}
 
 ## Antes de começar
@@ -70,7 +70,7 @@ Clique em **Criar**. Aparece "Instituição certificadora criada com sucesso!". 
 
 <summary>O tipo de instituição que preciso não existe.</summary>
 
-Clique em **Ver Tipos de Instituição** e depois em **Novo Tipo**.
+Clique em **Ver Tipos de Instituição** e depois em **Novo Tipo**. Criar e editar tipos é de Gestor e Administrador; inativar e reativar, só do Administrador.
 
 </details>
 
