@@ -170,11 +170,13 @@
 * [Vincular itens a um fornecedor](gestao-estoque/fornecedores/vincular-itens.md)
 * [Comparar fornecedores](gestao-estoque/fornecedores/comparar-fornecedores.md)
 
-## Compras
+## Compras, transferências e parceiros
 
 * [Criar uma solicitação de compra](compras/criar-solicitacao-compra.md)
 * [Orçar e aprovar uma compra](compras/orcar-e-aprovar-compra.md)
 * [Processar uma compra](compras/processar-compra.md)
+* [Transferir entre centros de estoque](compras/transferir-entre-centros.md)
+* [Pedir EPIs ao parceiro](compras/solicitar-ao-parceiro.md)
 
 ## Solicitações
 
