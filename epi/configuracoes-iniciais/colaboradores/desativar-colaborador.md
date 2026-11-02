@@ -62,7 +62,7 @@ Digite o nome em **Digite o nome do colaborador para confirmar**. Clique em **De
 {% step %}
 ### Para reativar
 
-Filtre por **Inativos** ou **Afastados**. Na coluna **Ações**, abra o menu e clique em **Reativar**. Na janela **Reativar colaborador**, clique em **Reativar**. Aparece "Colaborador reativado com sucesso!".
+Encontre o colaborador (no módulo Gestão de EPIs, filtre por **Inativos** ou **Afastados**). Na coluna **Ações**, abra o menu e clique em **Reativar**. Na janela **Reativar colaborador**, clique em **Reativar**. Em alguns módulos aparece a confirmação "Tem certeza que deseja reativar este colaborador?". Aparece "Colaborador reativado com sucesso!".
 {% endstep %}
 {% endstepper %}
 
