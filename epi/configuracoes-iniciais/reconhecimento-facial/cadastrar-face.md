@@ -1,5 +1,6 @@
 ---
-icon: face-viewfinder
+description: Ative e capture o rosto do colaborador.
+icon: camera
 layout:
   width: default
   title:
@@ -20,108 +21,70 @@ layout:
     visible: true
 ---
 
-# Cadastrar Face
+# Cadastrar o rosto do colaborador
 
-Esta página explica como realizar o cadastro de reconhecimento facial para colaboradores no Sistema GNRx Gestão de EPI.
+**Para que serve:** ativar e capturar o rosto do colaborador para ele assinar com reconhecimento facial.
 
-## Visão Geral
+{% hint style="info" %}
+**Quem pode fazer:** Gestor ou Administrador, com a permissão de gerenciar reconhecimento facial.
+{% endhint %}
 
-O cadastro de reconhecimento facial é um processo simples que permite ao sistema identificar o colaborador de forma segura durante a assinatura de recebimento de EPIs, devoluções e outras operações que exigem autenticação. Este recurso elimina a necessidade de assinaturas físicas e garante que apenas o colaborador autorizado possa confirmar o recebimento de equipamentos.
+## Antes de começar
 
-## Pré-requisitos
+* Use um computador com câmera e libere o acesso à câmera no navegador.
+* Abra o colaborador: **Estruturas › Colaboradores**, menu da coluna **Ações**, **Visualizar**.
 
-Antes de iniciar o cadastro, verifique se:
+## Passo a passo
 
-1. O colaborador já está cadastrado no sistema
-2. Você possui permissões de administrador ou gestor de EPIs
-3. Está utilizando um dispositivo com câmera frontal de boa qualidade
-4. O ambiente possui iluminação adequada (sem excesso de luz direta ou penumbra)
-5. O colaborador está presente fisicamente para o cadastro
+{% stepper %}
+{% step %}
+### Ative (se pedir)
 
-## Processo de Cadastro pela Web
+Se aparecer **Ativar reconhecimento facial**, clique nele. Em **Confirmar Ativação**, clique em **Ativar**. Aparece "Ativação realizada com sucesso!".
+{% endstep %}
 
-### Acesso à Função de Cadastro
+{% step %}
+### Abra o cadastro
 
-1. No menu lateral, clique em **Estruturas**
-2. Selecione **Colaboradores**
-3. Localize e clique no colaborador desejado para abrir seus detalhes
-4. Na seção de informações pessoais, localize o campo **Reconhecimento Facial Cadastrado**
-5. Se exibir "Não", clique no botão **Cadastrar** ao lado
+Na linha **Rec. Facial**, clique em **Cadastrar** (ou **Editar**, para trocar). Abre **Cadastro Facial**.
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/colaboradores-facial-01.png" alt="Tela Cadastro Facial com a escolha da câmera, o oval para o rosto e os botões Iniciar Captura e Finalizar Cadastro"><figcaption><p>Cadastro Facial</p></figcaption></figure>
+{% endstep %}
 
-### Etapas do Cadastro
+{% step %}
+### Capture o rosto
 
-1.  **Preparação**:
-    - Uma janela modal será aberta solicitando acesso à câmera
-    - Autorize o acesso à câmera do dispositivo
+Escolha a câmera e clique em **Iniciar Captura**. Siga as orientações: "Posicione seu rosto dentro do oval", "Aproxime-se da câmera", "Afaste-se um pouco da câmera", "Segure a posição". Ou clique em **Capturar Agora**.
+{% endstep %}
 
-    <figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Popup de confirmação</p></figcaption></figure>
-    - Selecione a câmera
-    - Clique "Iniciar Captura"
-    - Posicione o colaborador centralmente no enquadramento
+{% step %}
+### Finalize
 
-    <figure><img src="../../.gitbook/assets/image (23).png" alt="" width="563"><figcaption></figcaption></figure>
+Clique em **Finalizar Cadastro**. Aparece "Reconhecimento facial atualizado com sucesso!".
+{% endstep %}
+{% endstepper %}
 
-2.  **Captura das Imagens**:
-    - O sistema solicitará que o colaborador posicione o rosto no contorno exibido
-    - Assim que centralizado, o sistema tira a foto automaticamente.
-    - Caso necessário você pode forçar captura
-3.  **Validação**:
-    - Após a captura completa, Clique em Finalizar Cadastro
-    - O sistema realizará uma verificação inicial
-    - Se bem-sucedido, uma mensagem de confirmação será exibida
-    - O status mudará automaticamente para "Sim" na tela do colaborador
+## Deu errado?
 
-### Recomendações para Captura de Qualidade
+| Mensagem na tela | O que fazer |
+| --- | --- |
+| "Não foi possível acessar as câmeras." | Libere a câmera no navegador e confira se ela está conectada. |
+| "Câmera desconectada" | Reconecte a câmera e escolha de novo. |
 
-Para garantir a melhor qualidade do cadastro facial:
+## Dúvidas comuns
 
-- Certifique-se de que o rosto está bem iluminado, sem sombras fortes
-- Remova óculos&#x20;
-- Mantenha expressão neutra durante a captura
-- Evite ambientes com fundo muito complexo ou em movimento
-- Posicione a câmera na altura dos olhos do colaborador
+<details>
 
-## Verificação do Cadastro
+<summary>Como tiro o reconhecimento facial?</summary>
 
-Após concluir o cadastro, é recomendável realizar uma verificação:
+Na linha **Rec. Facial**, clique em **Remover** e confirme em **Remover Reconhecimento Facial**.
 
-1. Retorne à tela do colaborador
-2. Confirme que o status mudou para "Sim" no campo de reconhecimento facial
-3. Opcionalmente, realize um teste de reconhecimento
+</details>
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p>Confirmação de Cadastro</p></figcaption></figure>
+<details>
 
-## Solução de Problemas Comuns
+<summary>O que acontece ao remover?</summary>
 
-| Problema                  | Possível Causa                        | Solução                                                              |
-| ------------------------- | ------------------------------------- | -------------------------------------------------------------------- |
-| "Erro ao acessar câmera"  | Permissões de câmera bloqueadas       | Verifique as configurações do navegador e autorize o acesso à câmera |
-| "Iluminação insuficiente" | Ambiente muito escuro                 | Melhore a iluminação ou mude para um local mais claro                |
-| "Rosto não detectado"     | Posicionamento incorreto              | Reposicione o colaborador centralmente na câmera                     |
-| "Falha na captura"        | Movimentação excessiva ou itens acima | Peça ao colaborador para ficar mais estável durante a captura        |
-| "Erro de sincronização"   | Problemas de conexão                  | Verifique a conexão com a internet e tente novamente                 |
+O sistema avisa: "Após esta alteração, o colaborador não poderá mais solicitar EPIs.".
 
-## Considerações Importantes
-
-- O cadastro facial é **opcional** mas altamente recomendado para maior segurança
-- O colaborador deve concordar explicitamente com o cadastro facial
-- Os dados biométricos são armazenados de forma segura e criptografada
-- O cadastro deve ser renovado periodicamente (geralmente a cada 12 meses)
-- Mudanças significativas na aparência (barba, corte de cabelo) podem exigir atualização
-
-## Benefícios do Cadastro Facial
-
-- Elimina a necessidade de assinaturas digitais
-- Aumenta a segurança na entrega de EPIs
-- Reduz fraudes e entregas não autorizadas
-- Facilita auditorias e fiscalizações
-- Otimiza o tempo de entrega e registro
-
-## Próximos Passos
-
-Após o cadastro bem-sucedido, o colaborador estará apto a:
-
-- Receber EPIs com assinatura por reconhecimento facial
-- Acessar o aplicativo móvel via autenticação facial (quando configurado)
+</details>

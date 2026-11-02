@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Abra a lista
 
-Clique em **Estruturas › GHEs — Grupos de EPIs**. Abre a **Lista de Grupos**.
+Clique em **Estruturas** e abra os GHEs (no módulo Gestão de EPIs, **Estruturas › GHEs — Grupos de EPIs**). Abre a **Lista de Grupos**.
 
 <figure><img src="../../.gitbook/assets/ghe-listar-01.png" alt="Lista de Grupos com Pesquisar Grupos, Filtrar por unidade, Filtrar por status e as colunas Grupo, Informações, Última Atualização, Status e Ações"><figcaption><p>Lista de Grupos</p></figcaption></figure>
 {% endstep %}
@@ -53,7 +53,9 @@ Digite em **Pesquisar Grupos...** e clique em **Pesquisar**. Use **Filtrar por u
 {% step %}
 ### Abra o GHE
 
-Na coluna **Ações**, clique no ícone de olho. O GHE abre com as abas **Visão Geral**, **Riscos / EPIs**, **Prazos de troca** e **Colaboradores**.
+Na coluna **Ações**, clique no ícone de olho.
+
+No módulo Gestão de EPIs, o GHE abre com as abas **Visão Geral**, **Riscos / EPIs**, **Prazos de troca** e **Colaboradores**.
 {% endstep %}
 {% endstepper %}
 
@@ -71,6 +73,6 @@ A empresa ainda não tem GHEs. Veja [Criar um GHE](criar-ghe.md).
 
 <summary>O que é o selo Configuração completa?</summary>
 
-O GHE já tem riscos, EPIs, itens, prazos e colaboradores configurados.
+No módulo Gestão de EPIs, quer dizer que o GHE já tem riscos, EPIs, itens, prazos e colaboradores configurados.
 
 </details>

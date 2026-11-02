@@ -39,7 +39,7 @@ layout:
 {% step %}
 ### Inative
 
-Clique em **Estruturas › GHEs — Grupos de EPIs**. Na coluna **Ações**, clique no ícone de lixeira. Abre **Inativar Grupo**: "Tem certeza que deseja inativar este Grupo?". Clique em **Inativar**. Aparece "Grupo excluído com sucesso!".
+Clique em **Estruturas** e abra os GHEs (no módulo Gestão de EPIs, **Estruturas › GHEs — Grupos de EPIs**). Na coluna **Ações**, clique no ícone de lixeira. Abre **Inativar Grupo**: "Tem certeza que deseja inativar este Grupo?". Clique em **Inativar**. Aparece "Grupo excluído com sucesso!".
 
 <figure><img src="../../.gitbook/assets/ghe-inativar-01.png" alt="Janela Inativar Grupo com a pergunta de confirmação"><figcaption><p>Inativar Grupo</p></figcaption></figure>
 {% endstep %}

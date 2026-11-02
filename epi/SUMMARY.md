@@ -42,6 +42,8 @@
 * [Criar uma unidade](configuracoes-iniciais/unidades/criar-unidade.md)
 * [Editar uma unidade](configuracoes-iniciais/unidades/editar-unidade.md)
 * [Inativar uma unidade](configuracoes-iniciais/unidades/desativar-unidade.md)
+* [Configurar a unidade no EPI](configuracoes-iniciais/unidades/configuracoes-epi.md)
+* [Cadastrar os e-mails da unidade](configuracoes-iniciais/unidades/emails-da-unidade.md)
 
 ## Setores
 
@@ -82,6 +84,9 @@
 * [Vincular uma unidade a um colaborador](configuracoes-iniciais/colaboradores/vincular-unidades.md)
 * [Vincular setor e cargo a um colaborador](configuracoes-iniciais/colaboradores/vincular-setores.md)
 * [Desligar, afastar ou reativar um colaborador](configuracoes-iniciais/colaboradores/desativar-colaborador.md)
+* [Assinar o termo de responsabilidade](configuracoes-iniciais/colaboradores/termo-de-responsabilidade.md)
+* [Gerar a ficha de EPI](configuracoes-iniciais/colaboradores/ficha-de-epi.md)
+* [Anexar uma ficha retroativa](configuracoes-iniciais/colaboradores/fichas-retroativas.md)
 * [Vincular um GHE a um colaborador](configuracoes-iniciais/colaboradores/vincular-ghe.md)
 * [Acessar Ficha](colaboradores/acessar-ficha.md)
 
@@ -102,8 +107,8 @@
 
 ## Reconhecimento Facial
 
-* [Visão Geral](configuracoes-iniciais/reconhecimento-facial/README.md)
-* [Cadastrar Face](configuracoes-iniciais/reconhecimento-facial/cadastrar-face.md)
+* [Reconhecimento facial](configuracoes-iniciais/reconhecimento-facial/README.md)
+* [Cadastrar o rosto do colaborador](configuracoes-iniciais/reconhecimento-facial/cadastrar-face.md)
 
 ## Usuários e roles
 
