@@ -26,7 +26,7 @@ layout:
 **Para que serve:** escolher o questionário que o colaborador responde no app ao fim da turma e ver as respostas, que são anônimas.
 
 {% hint style="info" %}
-**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de editar turmas.
+**Quem pode fazer:** quem abre a turma.
 {% endhint %}
 
 ## Antes de começar
