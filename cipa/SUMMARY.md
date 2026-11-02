@@ -57,6 +57,8 @@
 * [Dimensionar a CIPA da unidade](eleicoes/dimensionar-unidade.md)
 * [Abrir uma eleição](eleicoes/nova-eleicao.md)
 * [Conduzir a eleição](eleicoes/conduzir-eleicao.md)
+* [Montar o totem de votação](eleicoes/montar-totem.md)
+* [Apurar a eleição](eleicoes/apurar-eleicao.md)
 * [Votar na eleição da CIPA](eleicoes/votar.md)
 
 ## Planos de ação

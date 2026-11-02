@@ -47,19 +47,19 @@ Clique em **Eleições › Processos eleitorais** e abra a eleição. Clique em 
 {% step %}
 ### Inscrições
 
-Clique em **Comunicar o sindicato e abrir as inscrições**. O sindicato recebe a comunicação por e-mail. No fim do prazo, clique em **Encerrar as inscrições** e depois em **Decidir as inscrições e publicar a lista**.
+Clique em **Comunicar o sindicato e abrir as inscrições**. O sindicato recebe a comunicação por e-mail. As inscrições ficam na aba **Candidatos**. No fim do prazo, clique em **Encerrar as inscrições** e depois em **Decidir as inscrições e publicar a lista**.
 {% endstep %}
 
 {% step %}
 ### Votação
 
-Clique em **Definir as janelas e abrir a votação**. Os colaboradores votam pelo link, pelo totem ou pelo aplicativo. Veja [Votar na eleição da CIPA](votar.md). Ao fim do dia, clique em **Encerrar o dia de votação** (ou **Reabrir a votação**, se preciso).
+Clique em **Definir as janelas e abrir a votação**. Os colaboradores votam pelo link, pelo totem ou pelo aplicativo. Veja [Votar na eleição da CIPA](votar.md) e [Montar o totem de votação](montar-totem.md). A aba **Votação** acompanha a participação. Ao fim do dia, clique em **Encerrar o dia de votação** (ou **Reabrir a votação**, se preciso).
 {% endstep %}
 
 {% step %}
 ### Apure e dê posse
 
-Clique em **Apurar a eleição**. Depois, em **Assinar a ata e dar posse**.
+Clique em **Apurar a eleição** (veja [Apurar a eleição](apurar-eleicao.md)). Depois, em **Assinar a ata e dar posse**, na aba de posse.
 {% endstep %}
 {% endstepper %}
 
