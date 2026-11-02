@@ -63,7 +63,7 @@ Na coluna **Ações**, abra o menu e clique em **Visualizar**.
 
 <summary>O que significa o selo Terceiro?</summary>
 
-O colaborador é de uma [empresa terceira](../terceiros/README.md).
+O colaborador é de uma empresa terceira (em **Estruturas › Terceiros**, nos módulos que têm esse menu).
 
 </details>
 

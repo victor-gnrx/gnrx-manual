@@ -40,7 +40,7 @@ layout:
 {% step %}
 ### Abra as roles
 
-Dentro de qualquer módulo, clique em **Configurações › Roles & Permissões**. Clique em **Nova Role**. Abre a janela **Criar Nova Role**.
+Dentro de qualquer módulo, clique em **Configurações › Roles & Permissões** (no Treinamento, **Configurações › Roles e Permissões**). Clique em **Nova Role**. Abre a janela **Criar Nova Role**.
 
 <figure><img src="../../.gitbook/assets/usuarios-criar-role-01.png" alt="Tela de roles com o botão Nova Role"><figcaption><p>Botão Nova Role</p></figcaption></figure>
 {% endstep %}

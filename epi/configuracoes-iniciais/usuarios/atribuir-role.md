@@ -52,7 +52,7 @@ No cartão **Roles Atribuídas**, clique em **Adicionar Nova Role**. Escolha a r
 {% endstepper %}
 
 {% hint style="info" %}
-**Outro caminho:** em **Configurações › Roles & Permissões**, abra a role e clique em **Adicionar Usuário**. Deixe **Unidade** e **Setor** como Global. Quem limita o que a pessoa vê são as [unidades vinculadas ao usuário](vincular-unidades.md).
+**Outro caminho:** em **Configurações › Roles & Permissões** (no Treinamento, **Configurações › Roles e Permissões**), abra a role e clique em **Adicionar Usuário**. Deixe **Unidade** e **Setor** como Global. Quem limita o que a pessoa vê são as [unidades vinculadas ao usuário](vincular-unidades.md).
 {% endhint %}
 
 ## Deu errado?
