@@ -47,9 +47,16 @@ Clique em **Configurações › Fluxos Travados**.
 {% step %}
 ### Reatribua
 
-Use **Ver solicitação** ou **Ver o fluxo** para entender. Clique em **Reatribuir** e escolha quem vai decidir.
+Use **Ver solicitação** ou **Ver o fluxo** para entender. Clique em **Reatribuir** e escolha os novos aprovadores da etapa. Aparece **Etapa reatribuída**: "O fluxo voltou a andar e já aparece para os novos aprovadores."
 {% endstep %}
 {% endstepper %}
+
+## Deu errado?
+
+| Mensagem na tela | O que fazer |
+| --- | --- |
+| "Esta instância não está travada" | Alguém já destravou. Atualize a lista. |
+| "Não foi possível reatribuir" | Tente de novo. |
 
 ## Dúvidas comuns
 

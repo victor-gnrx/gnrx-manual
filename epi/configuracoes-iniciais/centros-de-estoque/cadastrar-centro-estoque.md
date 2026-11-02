@@ -47,7 +47,7 @@ Clique em **Estruturas › Centros de Estoque** e depois em **Novo Centro de Est
 {% step %}
 ### Associe as unidades
 
-Abra o centro de estoque e associe as unidades atendidas por ele.
+Abra o centro de estoque e clique em **Associar Unidade**. Escolha a unidade e confirme.
 {% endstep %}
 {% endstepper %}
 

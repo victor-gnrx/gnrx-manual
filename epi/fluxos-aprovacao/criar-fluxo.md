@@ -47,13 +47,14 @@ Clique em **Configurações › Fluxos de Aprovação** e depois em **Novo fluxo
 {% step %}
 ### Desenhe as etapas
 
-No editor, a partir de **Solicitação criada**, adicione as etapas:
+No editor, arraste os blocos de **Arraste para o quadro**, a partir do **Início** (define quais solicitações o fluxo captura):
 
-* **Aprovação:** escolha **Quem aprova** (qualquer um decide ou todos precisam aprovar). Se quiser, escreva **Instruções** e ligue **Exigir motivo na rejeição**.
-* **Supervisor:** quem decide é o supervisor do colaborador (só em solicitação de itens).
-* **Condição:** **Quando** **Todas as regras forem verdadeiras** ou **Qualquer regra for verdadeira** (ex.: valor maior que).
-* **Junção:** **Liberar quando** **Todos os ramos aprovarem**, **O primeiro ramo aprovar** ou **Um número mínimo de ramos aprovar**.
-* **E-mail:** avisa alguém com um modelo de e-mail.
+* **Aprovação:** bloqueia até que alguém aprove ou rejeite. Escolha **Quem aprova** (ou "Quem decide é o supervisor do colaborador", só em solicitação de itens). Se quiser, escreva **Instruções** e ligue **Exigir motivo na rejeição**.
+* **Condição:** desvia o caminho conforme os dados da solicitação. **Quando** **Todas as regras forem verdadeiras** ou **Qualquer regra for verdadeira**.
+* **Ramificar:** dispara vários ramos de aprovação ao mesmo tempo.
+* **Junção:** reúne os ramos e define o quórum para liberar (**Todos os ramos aprovarem**, **O primeiro ramo aprovar** ou **Um número mínimo de ramos aprovar**).
+* **E-mail:** envia um aviso e segue em frente, sem bloquear.
+* **Fim — aprovada** e **Fim — rejeitada:** encerram a solicitação.
 
 <figure><img src="../.gitbook/assets/fluxos-editor-01.png" alt="Editor de fluxo com as etapas no quadro e o painel de uma etapa de aprovação"><figcaption><p>Editor de fluxo</p></figcaption></figure>
 {% endstep %}
