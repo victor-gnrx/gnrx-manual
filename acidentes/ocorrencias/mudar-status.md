@@ -39,17 +39,21 @@ layout:
 {% step %}
 ### Mude o status
 
-No cabeçalho da ocorrência, clique em **Mudar status**. Escolha o novo status, escreva a **Observação** e clique em **Registrar**.
+No cabeçalho da ocorrência, clique em **Mudar status** e escolha o novo status no menu. Aparece "Ocorrência em" seguido do novo status.
 
-<figure><img src="../.gitbook/assets/ocorrencia-status-01.png" alt="Cabeçalho da ocorrência com Mudar status, Verificar eficácia, Relatório de investigação e Cancelar ocorrência"><figcaption><p>Cabeçalho da ocorrência</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ocorrencia-status-01.png" alt="Cabeçalho de uma ocorrência em investigação com Relatório de investigação, Refazer triagem e Mudar status"><figcaption><p>Cabeçalho da ocorrência</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Verifique a eficácia (quando chegar a hora)
 
-Clique em **Verificar eficácia** e registre. Aparece "Verificação de eficácia registrada.".
+Quando a ocorrência está concluída e chega a data de verificar a eficácia, aparece **Verificar eficácia** no cabeçalho. Clique e registre. Aparece "Verificação de eficácia registrada.".
 {% endstep %}
 {% endstepper %}
+
+{% hint style="info" %}
+**O que aparece em cada status:** **Relatório de investigação** aparece sempre. **Triar** (ou **Refazer triagem**) e **Cancelar ocorrência** só aparecem enquanto a ocorrência não está concluída nem cancelada. **Verificar eficácia** só aparece na ocorrência concluída, a partir da data de verificação.
+{% endhint %}
 
 ## Dúvidas comuns
 
@@ -57,7 +61,7 @@ Clique em **Verificar eficácia** e registre. Aparece "Verificação de eficáci
 
 <summary>Como cancelo uma ocorrência?</summary>
 
-Clique em **Cancelar ocorrência**. O sistema avisa: "A ocorrência sai das listas de pendências. Não é possível cancelar com CAT já comunicada."
+Clique em **Mudar status** e, no fim do menu, em **Cancelar ocorrência**. O sistema avisa: "A ocorrência sai das listas de pendências. Não é possível cancelar com CAT já comunicada."
 
 </details>
 
@@ -65,7 +69,7 @@ Clique em **Cancelar ocorrência**. O sistema avisa: "A ocorrência sai das list
 
 <summary>Preciso voltar a investigar.</summary>
 
-Use **Reabrir (em investigação)**.
+Na ocorrência concluída, clique em **Mudar status** e escolha **Reabrir (em investigação)**.
 
 </details>
 
