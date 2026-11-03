@@ -39,15 +39,15 @@ layout:
 {% step %}
 ### Abra o DDS
 
-No **Início** do aplicativo, toque em **DDS da equipe** (líder) ou **DDS para conduzir** (condutor). Se ainda não há DDS hoje, toque em **Começar DDS**.
-
-<figure><img src="../.gitbook/assets/app-dds-01.png" alt="Aplicativo com o cartão DDS da equipe e o botão Começar DDS"><figcaption><p>DDS da equipe</p></figcaption></figure>
+No **Início** do aplicativo, toque em **DDS da equipe** (líder) ou **DDS para conduzir** (condutor) e escolha o DDS. Para abrir um DDS novo, o líder toca no botão **Abrir DDS**, no canto da tela. Num DDS programado, toque em **Iniciar DDS**.
 {% endstep %}
 
 {% step %}
 ### Escolha o tema
 
-Toque em **Escolher do catálogo** ou **Escrever meu próprio tema**. Confira a **Unidade**, o **Setor (opcional)**, o **Local (opcional)** e a **Duração (minutos)**. Se quiser, ligue **Pedir a assinatura de cada um**: cada participante confirma no app, com rosto ou assinatura escrita, em até 3 dias. Toque em **Iniciar DDS**.
+Toque em **Escolher do catálogo** ou **Escrever meu próprio tema**. Escolha a **Unidade** e, se quiser, o **Local (opcional)**. Escolha a **Duração (minutos)**. Se quiser, ligue **Pedir a assinatura de cada um**: cada participante confirma no app, com rosto ou assinatura escrita, em até 3 dias. Toque em **Começar DDS**.
+
+<figure><img src="../.gitbook/assets/app-dds-01.png" alt="Tela Abrir DDS no aplicativo com o tema, a unidade, a duração, a assinatura e o botão Começar DDS"><figcaption><p>Abrir DDS</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
