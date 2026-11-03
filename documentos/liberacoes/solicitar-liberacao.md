@@ -31,6 +31,7 @@ layout:
 
 ## Antes de começar
 
+* **Solicitar liberação** só aparece para quem está com a documentação irregular, na ficha da contratada ou na lista da equipe.
 * A liberação vale no máximo 180 dias.
 
 ## Passo a passo

@@ -32,6 +32,7 @@ layout:
 ## Antes de começar
 
 * O acidentado precisa estar em [Envolvidos e testemunhas](envolvidos-e-testemunhas.md).
+* **Registrar afastamento** só aparece para o envolvido que não está afastado. Se ele voltou e se afastou de novo pelo mesmo acidente, o botão aparece outra vez.
 
 ## Passo a passo
 

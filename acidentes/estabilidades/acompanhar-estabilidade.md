@@ -39,7 +39,9 @@ layout:
 {% step %}
 ### Abra as estabilidades
 
-Clique em **Ocorrências › Estabilidade acidentária**. A lista mostra **Colaborador**, **Ocorrência**, **Unidade**, **Afastado desde** e **Garantia**.
+Clique em **Ocorrências › Estabilidade acidentária**. A lista mostra **Colaborador**, **Ocorrência**, **Unidade**, **Afastado desde** e **Garantia**, separada nas abas **Vigentes**, **Afastados**, **Encerradas** e **Canceladas**.
+
+Ex.: quem ainda está afastado aparece em **Afastados**. Ele só passa para **Vigentes** depois do retorno, porque os 12 meses de garantia começam a contar na volta ao trabalho.
 
 <figure><img src="../.gitbook/assets/estabilidades-lista-01.png" alt="Tela Estabilidade acidentária com a lista de colaboradores e a garantia"><figcaption><p>Estabilidade acidentária</p></figcaption></figure>
 {% endstep %}
