@@ -47,9 +47,15 @@ Em **Meus Formulários**, abra o formulário. No topo fica **Dados Globais**.
 {% step %}
 ### Preencha
 
-Preencha cada dado. Para foto, clique em **Clique para selecionar**. Para assinatura, clique em **Assinar**, desenhe e clique em **Salvar**.
+Cada dado é salvo separado. Clique no ícone de lápis do dado, preencha e clique no ícone de check para salvar (ou no x para cancelar). Para foto, use **Clique para selecionar**. Para assinatura, clique em **Assinar**, desenhe e clique em **Salvar**.
 {% endstep %}
 {% endstepper %}
+
+## Deu errado?
+
+{% hint style="warning" %}
+**"Falha ao atualizar dado. Verifique se o arquivo está sendo enviado corretamente."**: a foto ou a assinatura não foi enviada. Tente de novo.
+{% endhint %}
 
 ## Dúvidas comuns
 
