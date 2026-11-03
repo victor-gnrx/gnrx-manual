@@ -41,19 +41,21 @@ layout:
 
 Clique em **Inventário › Gerenciar Inventário** e em **Ações › Importar via NF-e XML**. Arraste o XML e clique em **Analisar NF-e**.
 
-<figure><img src="../../.gitbook/assets/inventario-nfe-01.png" alt="Revisão da NF-e com o número da nota, o emitente, os itens e o centro de estoque"><figcaption><p>Revisão da NF-e</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/inventario-nfe-01.png" alt="Revisão da NF-e com o número da nota, o emitente e itens não identificados com os campos Item do sistema e Centro de estoque"><figcaption><p>Revisão da NF-e</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Revise
 
 Em **Revisão da NF-e**, confira o **Nº da NF**, o **Emitente** e os **Itens**. Escolha o **Centro de estoque para todos** (ou um por item).
+
+O item da nota que o GNRx não reconheceu aparece como **não identificado**. Em **Item do sistema**, busque e escolha o item correspondente. Se quiser, informe o **Nº do lote**. Enquanto houver itens pendentes, o rodapé mostra quantos faltam.
 {% endstep %}
 
 {% step %}
 ### Importe
 
-Confirme. Aparece **Importação concluída** (ou **Concluído com erros**, com a lista de erros).
+Clique em **Importar** (o botão mostra quantos itens). Aparece **Importação concluída** (ou **Concluído com erros**, com a lista de erros).
 {% endstep %}
 {% endstepper %}
 
