@@ -52,7 +52,9 @@ Abra o seletor de módulos e escolha o módulo. Os módulos são: Gestão de EPI
 * Em **Adicionais** fica o DDS (Diálogo Diário de Segurança).
 * Em **Disponíveis para contratar** ficam os módulos que a sua empresa ainda não tem. Ao clicar num deles, aparece "Sua empresa ainda não tem este módulo.", com os botões **Agora não** e **Conhecer o módulo**.
 
-<figure><img src="../.gitbook/assets/tela-02-seletor-modulos.png" alt="Seletor de módulos aberto, com a lista de módulos, a parte Adicionais com o DDS e a parte Disponíveis para contratar"><figcaption><p>Seletor de módulos</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/tela-02b-seletor-completo.png" alt="Seletor de módulos aberto com os módulos da empresa e a parte Adicionais com o DDS"><figcaption><p>Módulos da empresa e Adicionais</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/tela-02-seletor-modulos.png" alt="Seletor de módulos de uma empresa só com o EPI, com a parte Disponíveis para contratar e os módulos marcados como Premium"><figcaption><p>Disponíveis para contratar</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
