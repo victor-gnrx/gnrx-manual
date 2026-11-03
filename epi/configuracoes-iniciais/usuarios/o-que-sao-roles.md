@@ -34,7 +34,7 @@ layout:
 * Uma **role** é um pacote de permissões. Você dá uma role ao usuário e ele ganha tudo o que está nela.
 * As roles ficam em **Configurações › Roles & Permissões** (no Treinamento, **Configurações › Roles e Permissões**), dentro de qualquer módulo.
 
-<figure><img src="../../.gitbook/assets/usuarios-roles-01.png" alt="Tela de roles com a chave Incluir roles do sistema ligada, mostrando as roles do sistema com o selo Sistema"><figcaption><p>Tela de roles</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/usuarios-roles-01.png" alt="Tela de roles com a chave Incluir roles do sistema ligada, mostrando roles com os selos Sistema e Customizada"><figcaption><p>Tela de roles</p></figcaption></figure>
 
 ## Quem pode o quê
 
