@@ -41,13 +41,13 @@ layout:
 
 Clique em **Mandatos › Atas** e abra a ata. Em **Texto da ata**, ajuste o **Título** e o **Conteúdo**. Clique em **Salvar rascunho**.
 
-<figure><img src="../.gitbook/assets/cipa-ata-01.png" alt="Ata com o Texto da ata, Quem assina e o botão Enviar para assinatura"><figcaption><p>Ata</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/cipa-ata-01.png" alt="Ata de posse em rascunho com o Texto da ata e o botão Enviar para assinatura"><figcaption><p>Ata</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Envie para assinatura
 
-Em **Quem assina**, confira os signatários sugeridos e inclua os que faltam. Clique em **Congelar texto e enviar**. Aparece "Ata enviada para assinatura. O texto agora está congelado.".
+Clique em **Enviar para assinatura**. Na janela **Quem assina**, confira os signatários sugeridos e inclua os que faltam. Clique em **Congelar texto e enviar**. Aparece "Ata enviada para assinatura. O texto agora está congelado.".
 {% endstep %}
 
 {% step %}

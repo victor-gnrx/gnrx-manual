@@ -39,9 +39,9 @@ layout:
 {% step %}
 ### Abra a denúncia
 
-Clique em **Prevenção › Denúncias** e abra a denúncia. Veja a **Categoria**, a **Unidade**, **Quando aconteceu** e o relato.
+Clique em **Prevenção › Denúncias** e abra a denúncia. Veja a **Categoria**, a **Unidade**, **Quando aconteceu** e o relato. No topo, a denúncia passa por **Recebida › Em apuração › Concluída**.
 
-<figure><img src="../.gitbook/assets/cipa-denuncia-01.png" alt="Denúncia aberta com a situação, o responsável e a conversa com quem denunciou"><figcaption><p>Denúncia</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/cipa-denuncia-01.png" alt="Denúncia aberta com as etapas Recebida, Em apuração e Concluída, o responsável e a conversa com quem denunciou"><figcaption><p>Denúncia</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -59,7 +59,7 @@ Em **Conversa e histórico**, use **Mensagem a quem denunciou** (a pessoa vê ao
 {% step %}
 ### Atualize a situação
 
-Clique em **Atualizar situação**, escolha a nova situação e, se quiser, escreva uma mensagem (ex.: Recebemos e iniciamos a apuração). Aparece "Situação atualizada.".
+Clique em **Atualizar situação** e escolha a nova situação: **Em apuração**, **Concluída: procedente**, **Concluída: improcedente** ou **Arquivada**. Se quiser, escreva uma mensagem (ex.: Recebemos e iniciamos a apuração). Aparece "Situação atualizada.".
 {% endstep %}
 {% endstepper %}
 
