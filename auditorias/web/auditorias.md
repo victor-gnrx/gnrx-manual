@@ -1,5 +1,5 @@
 ---
-description: Como visualizar, filtrar e gerenciar suas auditorias no sistema GNRX
+description: "Ache uma auditoria pela unidade, pelo modelo ou pelo auditor."
 icon: magnifying-glass
 layout:
   width: default
@@ -21,100 +21,60 @@ layout:
     visible: true
 ---
 
-# Minhas Auditorias
+# Encontrar uma auditoria
 
-A seção "Auditorias" centraliza todas as auditorias criadas na sua empresa, permitindo visualizar, filtrar e gerenciar de maneira eficiente todo o histórico de verificações realizadas.
+**Para que serve:** achar uma auditoria e ver o andamento. Ex.: as auditorias da unidade Centro feitas por um auditor.
 
-![Visão geral da tela Auditorias](../.gitbook/assets/auditorias-visao.png)
+{% hint style="info" %}
+**Quem pode fazer:** todas as roles, com a permissão de ver auditorias. Para ver as auditorias de todos os usuários: Gestor ou Administrador, com a permissão de ver as auditorias de todos os usuários.
+{% endhint %}
 
-## Acesso e Visão Geral
+## Passo a passo
 
-Acesse "Auditorias" através do menu lateral para visualizar um dashboard completo com:
+{% stepper %}
+{% step %}
+### Abra a lista
 
-* **Total de Auditorias**: Número total de auditorias cadastradas no sistema
-* **Auditorias Recentes**: Quantidade de auditorias realizadas nos últimos 30 dias
-* **Resultados Filtrados**: Número de auditorias que correspondem aos filtros aplicados
+Clique em **Auditorias**. A aba **Ativas** já vem aberta.
 
-## Tabela de Auditorias
+<figure><img src="../.gitbook/assets/aud-lista-01.png" alt="Lista de Auditorias com os totais, os filtros e a tabela com Data Início, Nome, Estado, Unidade e Usuário"><figcaption><p>Auditorias</p></figcaption></figure>
+{% endstep %}
 
-A tabela principal exibe todas as auditorias com informações essenciais organizadas em colunas:
+{% step %}
+### Filtre
 
-* **Data Início**: Data em que a auditoria foi realizada
-* **Nome**: Identificação da auditoria com código e descrição
-* **Unidade**: Local onde a auditoria foi realizada
-* **Usuário**: Responsável pela realização da auditoria
-* **Fotos**: Quantidade de evidências fotográficas registradas
-* **Não Conformes**: Número de itens identificados como não conformes
-* **Resolvidas**: Quantidade de não conformidades já solucionadas
-* **Ações**: Menu de opções disponíveis para cada auditoria
+Use os filtros de modelo, **Unidade** e **Usuário**. Clique em **Atualizar** para recarregar.
+{% endstep %}
 
-## Filtros Avançados
+{% step %}
+### Abra a auditoria
 
-Utilize os filtros disponíveis no topo da página para localizar auditorias específicas:
+Clique no nome, ou no menu da linha e em **Visualizar**.
+{% endstep %}
+{% endstepper %}
 
-![Filtros de Auditorias](../.gitbook/assets/filtros.png)
+## Dúvidas comuns
 
-* **Filtrar por modelo**: Selecione um modelo específico de checklist
-* **Unidade**: Filtre por local onde as auditorias foram realizadas
-* **Usuário**: Encontre auditorias realizadas por um usuário específico
-* **Período**: Defina um intervalo de datas para busca
+<details>
 
-Após configurar os filtros desejados, clique em **"Atualizar"** para aplicá-los.
+<summary>O que cada coluna mostra?</summary>
 
-## Recursos Disponíveis
+**Estado** (Rascunho, Em Andamento, Finalizada ou Cancelada), **Fotos**, **Não Conformes** e **Resolvidas**.
 
-### Plano de Ação Consolidado
+</details>
 
-Um dos recursos mais úteis é a geração de planos de ação consolidados para múltiplas auditorias:
+<details>
 
-1. Aplique os filtros desejados para selecionar um conjunto de auditorias
-2. Observe o número de "Resultados Filtrados" que aparece
-3. Clique no botão **"Plano de Ação"** ao lado do número de resultados
-4. Selecione o tipo de plano desejado (A ou B) no modal que aparece
-5. O sistema gerará um plano consolidado com as não conformidades de todas as auditorias filtradas
+<summary>Como levo a lista para o Excel?</summary>
 
-### Nova Auditoria
+Clique em **Exportar Excel**. Sai a lista com os filtros aplicados.
 
-Para iniciar uma nova verificação:
+</details>
 
-1. Clique no botão **"Nova auditoria"** no canto superior direito da tela
-2. Você será direcionado para o [modal de criação de auditoria](criar-auditoria.md), onde poderá configurar todos os parâmetros necessários
+<details>
 
-## Visualização e Análise
+<summary>Onde estão as auditorias arquivadas?</summary>
 
-### Indicadores Visuais
+Na aba **Arquivadas**. Veja [Arquivar uma auditoria](arquivar-auditoria.md).
 
-O dashboard inicial apresenta indicadores visuais importantes:
-
-* **Total cadastrado**: Número total de auditorias no sistema
-* **Auditorias recentes**: Quantidade de verificações nos últimos 30 dias
-* **Resultados filtrados**: Número de auditorias que atendem aos critérios de filtro aplicados
-
-### Detalhes da Auditoria
-
-Para acessar os detalhes completos de uma auditoria:
-
-1. Localize a auditoria desejada na tabela
-2. Clique sobre o nome da auditoria para abrir a visualização detalhada
-3. Ou use o menu de ações (três pontos) na coluna "Ações" para ver as opções disponíveis
-
-### Status Visual das Auditorias
-
-A tabela fornece indicadores visuais rápidos sobre o status de cada auditoria:
-
-* **Fotos**: Número de evidências fotográficas coletadas
-* **Não Conformes**: Quantidade de itens que precisam de atenção
-* **Resolvidas**: Progresso na resolução das não conformidades
-
-## Dicas de Utilização
-
-* 💡 **Dica 1**: Combine filtros diferentes para encontrar exatamente o que você precisa
-* 💡 **Dica 2**: Use o filtro de período para análises mensais ou trimestrais
-* 💡 **Dica 3**: Gere planos de ação consolidados para áreas específicas, facilitando a distribuição de responsabilidades
-* 💡 **Dica 4**: Verifique regularmente as auditorias com não conformidades pendentes
-
-## Próximos Passos
-
-* [Criar uma nova auditoria](criar-auditoria.md)
-* [Emitir planos de ação](emitir-plano-acao.md)
-* [Verificar relatórios detalhados](relatorio-auditoria.md)
+</details>

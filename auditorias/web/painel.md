@@ -1,6 +1,6 @@
 ---
-description: Conheça o Painel Principal (Dashboard) do Sistema GNRX Auditorias
-icon: chart-line
+description: "Veja a conformidade, as não conformidades em aberto e as ações atrasadas."
+icon: chart-pie
 layout:
   width: default
   title:
@@ -21,57 +21,90 @@ layout:
     visible: true
 ---
 
-# Painel (Dashboard)
+# Ver o painel de auditorias
 
-O Painel de Controle é a central de informações do GNRX Auditorias, proporcionando uma visão geral instantânea do status de conformidade da empresa.
+**Para que serve:** ver de relance a conformidade das auditorias, o que está em aberto e onde agir. Ex.: descobrir qual unidade tem mais não conformidades no mês.
 
-![Dashboard do Sistema GNRX Auditorias](../.gitbook/assets/dashboard.png)
+{% hint style="info" %}
+**Quem pode fazer:** Supervisor, Gestor ou Administrador, com a permissão de ver o painel de auditorias.
+{% endhint %}
 
-## Visão Geral
+## Antes de começar
 
-No Dashboard, você encontra os principais indicadores de desempenho:
+* Tenha auditorias feitas no período. Veja [Criar uma auditoria](criar-auditoria.md).
 
-* **Índice de Conformidade** geral da empresa
-* **Status por Setor** (Crítico, Atenção, Bom, Ótimo)
-* **Status por Unidade** (Crítico, Atenção, Bom, Ótimo)
-* **Status por Setores em Cada Unidade** (Crítico, Atenção, Bom, Ótimo)
-* **Auditorias por Usuário** para acompanhamento de metas
-* **Auditorias Conformes e Não Conformes** por unidade
+## Passo a passo
 
-## Gráficos Interativos
+{% stepper %}
+{% step %}
+### Abra o painel
 
-Os gráficos interativos permitem análise aprofundada:
+Clique em **Painel de Auditorias**. Na primeira vez abre um tour com o que mudou: clique em **Ver o painel** ou em **Agora não**.
 
-#### Conformidade por Unidade
+<figure><img src="../.gitbook/assets/aud-painel-01.png" alt="Painel de Auditoria com os filtros, o resumo do período e as abas Unidades, Setores, Usuários, Multas e Modelos"><figcaption><p>Painel de Auditoria</p></figcaption></figure>
+{% endstep %}
 
-<figure><img src="../.gitbook/assets/conf-unidade.png" alt=""><figcaption><p>Gráfico de Ocorrência por Unidade</p></figcaption></figure>
+{% step %}
+### Ajuste os filtros
 
-#### Conformidade por Setor
+Escolha o período (vem no mês atual), as unidades, o modelo e a categoria. Os filtros valem para o painel inteiro. **Limpar** volta ao padrão.
+{% endstep %}
 
-<figure><img src="../.gitbook/assets/ocorrencia-setor.png" alt=""><figcaption><p>Gráfico de Ocorrência por Unidade</p></figcaption></figure>
+{% step %}
+### Leia o resumo
 
-#### Conformidade por Setor / Unidade
+O topo mostra o percentual de conformidade e quantos itens foram conformes. Se houver ação atrasada ou pendente, use os atalhos para abrir as ações em **Planos de Ação**.
+{% endstep %}
 
-<figure><img src="../.gitbook/assets/ocorrencia-setor-uniade.png" alt=""><figcaption><p>Gráfico de Ocorrência por Unidade</p></figcaption></figure>
+{% step %}
+### Escolha a aba
 
-## Filtros Disponíveis
+| Aba | O que mostra |
+| --- | --- |
+| **Unidades** | Itens conformes, resolvidos e em aberto de cada unidade. |
+| **Setores** | Os setores dentro de cada unidade, os que pedem mais atenção primeiro. |
+| **Usuários** | Volume, qualidade e tempo de cada auditor. |
+| **Multas** | A exposição a multas em aberto e a multa já evitada. |
+| **Modelos** | Os modelos com mais não conformidades e os itens que mais falham. |
+{% endstep %}
+{% endstepper %}
 
-Personalize a visualização do Dashboard com os filtros:
+## Deu errado?
 
-* **Período**: Últimos 7 dias, 30 dias, 3 meses, 6 meses, 12 meses, Customizado
-* **Tipo de Checklist**: Customizado, NR, Todos
-* Modelo de Checklist: Visualize todas as informações de um modelo específico
+{% hint style="warning" %}
+**"Não foi possível carregar o dashboard"**: clique em **Tentar novamente**.
+{% endhint %}
 
-## Dicas de Utilização
+## Dúvidas comuns
 
-* 💡 **Dica 1**: Utilize o dashboard no início do dia para identificar prioridades
-* 💡 **Dica 2**: Configure alertas para índices críticos de conformidade
-* 💡 **Dica 3**: Compartilhe prints do dashboard em reuniões gerenciais para acompanhamento
+<details>
 
-## Próximos Passos
+<summary>Aparece "Nenhuma auditoria no período"?</summary>
 
-A partir do Dashboard, você pode:
+Não há auditoria no período ou nos filtros escolhidos. Aumente o período ou clique em **Limpar**.
 
-* [Criar uma nova auditoria](nova-auditoria.md)
-* [Visualizar auditorias existentes](visualizar-auditorias.md)
-* [Emitir planos de ação](criar-planos-acao.md)
+</details>
+
+<details>
+
+<summary>Por que o filtro de unidades está travado?</summary>
+
+Você só tem uma unidade vinculada. O painel mostra apenas as unidades vinculadas ao seu usuário.
+
+</details>
+
+<details>
+
+<summary>Como a multa é calculada?</summary>
+
+Multa unitária × ocorrências. A multa unitária vem do valor informado no item ou, sem ele, do máximo da NR-28.
+
+</details>
+
+<details>
+
+<summary>O que é a linha "Sem setor"?</summary>
+
+As auditorias criadas sem setor. Elas entram na conta para o painel bater com os relatórios.
+
+</details>
