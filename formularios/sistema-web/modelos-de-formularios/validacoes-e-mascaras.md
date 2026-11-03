@@ -41,13 +41,13 @@ layout:
 
 No campo, abra **Validações do Campo** e clique em **Adicionar nova regra**.
 
-<figure><img src="../../.gitbook/assets/form-validacoes-01.png" alt="Janela Validações do Campo com Tipo de Validação, Valor e o nível Alerta ou Obrigatório"><figcaption><p>Validações do Campo</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/form-validacoes-01.png" alt="Janela Validações do Campo com Validação, Valor e Tipo de Validação (Alerta ou Obrigatório)"><figcaption><p>Validações do Campo</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Defina a regra
 
-Em **Tipo de Validação**, escolha **Valor maior que** ou **Valor menor que** e informe o **Valor**. Escolha o nível: **Alerta** (aviso visual, permite continuar) ou **Obrigatório** (impede salvamento). Clique em **Adicionar**.
+Em **Validação**, escolha **Valor maior que** ou **Valor menor que** e informe o **Valor**. Em **Tipo de Validação**, escolha o nível: **Alerta** (aviso visual, permite continuar) ou **Obrigatório** (impede salvamento). Clique em **Adicionar**.
 {% endstep %}
 
 {% step %}
