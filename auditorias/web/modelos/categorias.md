@@ -43,7 +43,7 @@ Clique em **Categorias de Modelos** e em **Nova categoria**.
 {% step %}
 ### Preencha
 
-Informe o **Nome** e, se quiser, a descrição. Escolha a **Cor** e a **Ordem**. Deixe **Categoria ativa** marcado. Clique em **Criar categoria**.
+Informe o **Nome** e, se quiser, a descrição. Escolha a **Cor** e a **Ordem**. Clique em **Criar categoria**.
 {% endstep %}
 
 {% step %}

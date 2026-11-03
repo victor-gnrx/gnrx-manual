@@ -35,9 +35,9 @@ layout:
 {% step %}
 ### De uma auditoria
 
-Abra a auditoria e clique em **Planos de Ação**. Clique em **Plano de Ação Tipo A** (uma linha por item) ou em **Plano de Ação Tipo B** (estruturada como projeto).
+Abra a auditoria e clique em **Planos de Ação**. Na aba **Plano A** (uma linha por item), clique em **Plano de Ação A**. Na aba **Plano B** (estruturada como projeto), clique em **Plano de Ação B**.
 
-<figure><img src="../.gitbook/assets/aud-plano-excel-01.png" alt="Janela Planos de Ação da auditoria com as opções Plano de Ação Tipo A e Tipo B"><figcaption><p>Planos de Ação da auditoria</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/aud-plano-excel-01.png" alt="Janela Planos de Ação da auditoria na aba Plano A, com o botão Plano de Ação A"><figcaption><p>Planos de Ação da auditoria</p></figcaption></figure>
 {% endstep %}
 
 {% step %}

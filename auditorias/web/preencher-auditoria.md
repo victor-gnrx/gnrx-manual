@@ -41,13 +41,13 @@ layout:
 
 Abra a auditoria e clique em **Iniciar**. Ela passa para **Em Andamento**.
 
-<figure><img src="../.gitbook/assets/aud-preencher-01.png" alt="Auditoria aberta com o estado, o botão Iniciar e os itens da primeira seção"><figcaption><p>Auditoria aberta</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/aud-preencher-01.png" alt="Auditoria em Rascunho com o botão Iniciar destacado e a lista de seções"><figcaption><p>Auditoria aberta</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Responda os itens
 
-Em itens de conformidade, clique em **Conforme**, **Não conforme** ou **N/A**. Nos outros tipos, clique em **Editar**, preencha e clique em **Salvar**. Cada resposta é salva na hora.
+Clique numa seção para ver os itens. Em itens de conformidade, clique em **Conforme**, **Não conforme** ou **N/A**. Nos outros tipos, clique em **Editar**, preencha e clique em **Salvar**. Cada resposta é salva na hora.
 {% endstep %}
 
 {% step %}
