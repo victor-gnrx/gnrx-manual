@@ -26,7 +26,7 @@ layout:
 **Para que serve:** deixar quem tem documento pendente seguir trabalhando, sem bloqueio, até uma data. Ex.: o ASO está agendado e a pessoa precisa começar antes.
 
 {% hint style="info" %}
-**Quem pode fazer:** para pedir, Supervisor, Gestor ou Administrador, com a permissão de solicitar liberação. Para aprovar ou reprovar: Gestor ou Administrador, com a permissão de aprovar liberação (ou pelo fluxo de aprovação). Para ver: a permissão de ver documentos.
+**Quem pode fazer:** para pedir, um usuário Supervisor, Gestor ou Administrador, com a permissão de solicitar liberação. O acesso Empresa (login com o CNPJ) não pede liberação. Para aprovar ou reprovar: Gestor ou Administrador, com a permissão de aprovar liberação (ou pelo fluxo de aprovação). Para ver: a permissão de ver documentos.
 {% endhint %}
 
 ## Antes de começar
@@ -59,6 +59,14 @@ Clique em **Documentos › Liberações**. O pedido fica **Aguardando aprovaçã
 <summary>Quem decide?</summary>
 
 O pedido vai para o fluxo de aprovação. Aparece "Liberação enviada para o fluxo de aprovação.".
+
+</details>
+
+<details>
+
+<summary>Entrei com o CNPJ e não vejo o botão.</summary>
+
+No acesso Empresa, **Solicitar liberação** não aparece. Entre com o seu usuário.
 
 </details>
 
