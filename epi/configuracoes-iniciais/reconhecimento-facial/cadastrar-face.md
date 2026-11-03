@@ -48,7 +48,7 @@ Se aparecer **Ativar reconhecimento facial**, clique nele. Em **Confirmar Ativa�
 
 Na linha **Rec. Facial**, clique em **Cadastrar** (ou **Editar**, para trocar). Abre **Cadastro Facial**.
 
-<figure><img src="../../.gitbook/assets/colaboradores-facial-01.png" alt="Tela Cadastro Facial com a escolha da câmera, o oval para o rosto e os botões Iniciar Captura e Finalizar Cadastro"><figcaption><p>Cadastro Facial</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/colaboradores-facial-01.png" alt="Tela Cadastro Facial com a escolha da câmera, o oval para o rosto e os botões Capturar Agora e Interromper"><figcaption><p>Cadastro Facial</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
