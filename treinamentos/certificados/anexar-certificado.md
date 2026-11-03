@@ -40,7 +40,7 @@ layout:
 {% step %}
 ### Abra o colaborador
 
-Clique em **Estruturas › Colaboradores** e abra o colaborador. Na parte **Certificados**, clique em **Anexar Certificado**.
+Clique em **Estruturas › Colaboradores** e abra o colaborador. Na aba **Certificados**, clique em **Anexar Certificado**. A tela **Certificados › Certificados** só lista; o anexo é feito na ficha do colaborador.
 {% endstep %}
 
 {% step %}

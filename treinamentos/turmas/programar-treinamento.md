@@ -68,9 +68,9 @@ Marque quem ministra e clique em **Tornar principal** em um deles. O principal a
 {% step %}
 ### Revisão
 
-Confira tudo. Para voltar a uma etapa, clique em **Alterar**. Clique em **Programar treinamento**. A turma é criada e abre a página dela.
+Confira tudo. A Revisão avisa o que está fora do padrão (ex.: "A carga da turma (4 h) está abaixo da mínima do catálogo (8 h)."). Para voltar a uma etapa, clique em **Alterar**. Clique em **Programar treinamento**. A turma é criada e abre a página dela.
 
-<figure><img src="../.gitbook/assets/turmas-programar-03.png" alt="Etapa Revisão com o resumo da turma e o botão Programar treinamento"><figcaption><p>Revisão</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/turmas-programar-03.png" alt="Etapa Revisão com os avisos do que está fora do padrão, o resumo da turma e o botão Programar treinamento"><figcaption><p>Revisão</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
